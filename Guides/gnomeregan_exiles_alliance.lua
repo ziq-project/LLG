@@ -1,0 +1,61 @@
+--[[---------------------------------------------------------------------------
+  LLG - Guide (aus Zygor-Vorlage umgewandelt)
+  ERZEUGTE DATEI - nicht von Hand aendern.
+  Neu erzeugen mit: python3 tools/zygor2llg.py <Zygor-Ordner>
+
+  Der Inhalt stammt aus der eigenen Zygor-Installation und ist fuer den
+  eigenen Gebrauch bestimmt.
+-----------------------------------------------------------------------------]]
+
+LLG.RegisterGuide([[
+#guide Gnomeregan Exiles
+#key gnomeregan_exiles_alliance
+#faction Alliance
+#category reputation
+
+
+#step
+>>Farm or Buy Cloth
+>>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
+>>You need to complete the {o}initial cloth quests{} to unlock the {o}repeatable Runecloth quest{}.
+.collect Wool Cloth,60
+.collect Silk Cloth,60
+.collect Mageweave Cloth,60
+.collect Runecloth,60
+.only not completedq(7807) and not completedq(7808) and not completedq(7809) and not completedq(7811)
+
+#step
+.talk Bubulo Acerbus
+.goto Ironforge,74.09,48.22
+.accept A Donation of Wool##7807
+.only not completedq(7807)
+
+#step
+.talk Bubulo Acerbus
+.goto Ironforge,74.09,48.22
+.accept A Donation of Silk##7808
+.only not completedq(7808)
+
+#step
+.talk Bubulo Acerbus
+.goto Ironforge,74.09,48.22
+.accept A Donation of Mageweave##7809
+.only not completedq(7809)
+
+#step
+.talk Bubulo Acerbus
+.goto Ironforge,74.09,48.22
+.accept A Donation of Runecloth##7811
+.only not completedq(7811)
+
+#step
+>>Farm or Buy Cloth
+>>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
+>>Collect Runecloth for Gnomeregan Exiles (Exalted)
+
+#step
+.talk Bubulo Acerbus
+>>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
+.goto Ironforge,74.09,48.22
+>>Reach Exalted Reputation with the Gnomeregan Exiles Faction
+]])

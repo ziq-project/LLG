@@ -1,0 +1,95 @@
+--[[---------------------------------------------------------------------------
+  LLG - Guide (aus Zygor-Vorlage umgewandelt)
+  ERZEUGTE DATEI - nicht von Hand aendern.
+  Neu erzeugen mit: python3 tools/zygor2llg.py <Zygor-Ordner>
+
+  Der Inhalt stammt aus der eigenen Zygor-Installation und ist fuer den
+  eigenen Gebrauch bestimmt.
+-----------------------------------------------------------------------------]]
+
+LLG.RegisterGuide([[
+#guide Kerri Hicks Turn-Ins (Mulgore)
+#key kerri_hicks_turn_ins_mulgore_alliance
+#faction Alliance
+#category events
+
+
+#step
+.collect Coarse Weightstone,10
+>>only not selfmade :: Create them with Blacksmithing or purchase them from the Auction House.
+.talk Kerri Hicks
+.goto Mulgore,37.87,39.83
+.accept Coarse Weightstone##7889
+>>Each turnin requires 10 Coarse Weightstones and grants 100 reputation with the Darkmoon Faire.
+>>Each of these turnins will award 1 Darkmoon Faire Prize Ticket.
+>>You can turn this quest in until you reach 500 Neutral reputation.
+>>'
+
+#step
+>>Reach Level 10
+>>Use the leveling guides to accomplish this.
+
+#step
+.collect Heavy Grinding Stone,7
+>>only not selfmade :: Create them with Blacksmithing or purchase them from the Auction House.
+.talk Kerri Hicks
+.goto Mulgore,37.87,39.83
+.accept Heavy Grinding Stone##7890
+>>Each turnin requires 7 Heavy Grinding Stones and grants 100 reputation with the Darkmoon Faire.
+>>Each of these turnins will award 4 Darkmoon Faire Prize Tickets.
+>>You can turn this quest in until you reach 1,100 Neutral reputation.
+>>'
+
+#step
+>>Reach Level 20
+>>Use the leveling guides to accomplish this.
+
+#step
+.collect Green Iron Bracers,3
+>>only not selfmade :: Create them with Blacksmithing or purchase them from the Auction House.
+.talk Kerri Hicks
+.goto Mulgore,37.87,39.83
+.accept Green Iron Bracers##7891
+>>Each turnin requires 3 Green Iron Bracers and grants 100 reputation with the Darkmoon Faire.
+>>Each of these turnins will award 8 Darkmoon Faire Prize Tickets.
+>>You can turn this quest in until you reach 1,700 Neutral reputation.
+>>'
+
+#step
+>>Reach Level 30
+>>Use the leveling guides to accomplish this.
+
+#step
+.collect Big Black Mace,1
+>>only not selfmade :: Create them with Blacksmithing or purchase them from the Auction House.
+.talk Kerri Hicks
+.goto Mulgore,37.87,39.83
+.accept Big Black Mace##7892
+>>Each turnin requires 1 Big Black Mace and grants 100 reputation with the Darkmoon Faire.
+>>Each of these turnins will award 12 Darkmoon Faire Prize Tickets.
+>>You can turn this quest in until you reach 2,500 Neutral reputation.
+>>'
+
+#step
+>>Reach Level 40
+>>Use the leveling guides to accomplish this.
+
+#step
+.collect Dense Grinding Stone,8
+>>only not selfmade :: Create them with Blacksmithing or purchase them from the Auction House.
+
+#step
+.talk Kerri Hicks
+.goto Mulgore,37.87,39.83
+.accept Rituals of Strength##7893
+
+#step
+.collect Dense Grinding Stone,8
+>>only not selfmade :: Create them with Blacksmithing or purchase them from the Auction House.
+.talk Kerri Hicks
+.goto Mulgore,37.87,39.83
+.accept More Dense Grinding Stones##7939
+>>From this point on, you can continue turning in Dense Grinding Stones.
+>>Each of these turnins will award 20 Darkmoon Faire Prize Tickets.
+>>Each turnin requires 8 Dense Grinding Stones and grants 100 reputation with the Darkmoon Faire.
+]])
