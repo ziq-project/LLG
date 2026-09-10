@@ -1,125 +1,122 @@
 # Legacy Leveling Guide (LLG)
 
-Leveling-Guide-Addon für den WoW-Client **1.12.1**. Von Grund auf für diesen
-Client geschrieben – kein Ace3, keine Bibliotheken, kein Code aus späteren
-Versionen.
+Leveling guide addon for the **1.12.1** WoW client. Written from scratch for
+this client — no Ace3, no libraries, no code borrowed from later versions.
 
-**Das hier ist eine Testfassung.** Sie läuft, aber sie ist nicht fertig.
-Fehlermeldungen sind ausdrücklich erwünscht (siehe unten).
+**This is a test build.** It runs, but it isn't finished. Bug reports are
+explicitly welcome (see below).
 
 ## Installation
 
-Den Ordner `LLG` nach `Interface\AddOns\` kopieren und den Client **neu
-starten** – ein `/reload` genügt nicht, neue Addons werden nur beim Start
-eingelesen.
+Copy the `LLG` folder into `Interface\AddOns\` and **restart** the client — a
+`/reload` isn't enough, new addons are only picked up on startup.
 
-Das ist alles. Es gibt keinen zweiten Ordner und keine Abhängigkeit, die man
-vergessen könnte: die Guides liegen mit im Addon.
+That's it. There's no second folder and no dependency you could forget: the
+guides ship inside the addon itself.
 
-## Was du brauchst, was hilft
+## What you need, what helps
 
-Nichts weiter – LLG läuft allein. **pfQuest** wird aber erkannt und macht das
-Addon deutlich besser:
+Nothing else — LLG runs on its own. **pfQuest** is detected though and makes
+the addon noticeably better:
 
-- pfQuest zeigt den Wegpunktpfeil. Einen eigenen hat LLG nicht mehr, weil zwei
-  Pfeile schlimmer sind als einer.
-- LLG liest pfQuests Questdatenbank für genauere Wegpunkte.
-- LLG liest pfQuests Chronik abgeschlossener Quests. Dadurch findet es auch
-  bei einem Charakter, den du längst gespielt hast, die richtige Stelle im
-  Guide.
+- pfQuest shows the waypoint arrow. LLG no longer has its own, because two
+  arrows are worse than one.
+- LLG reads pfQuest's quest database for more accurate waypoints.
+- LLG reads pfQuest's history of completed quests. That way it also finds the
+  right spot in the guide for a character you've already been playing for a
+  while.
 
-## Loslegen
+## Getting started
 
-1. `/llg` öffnet das Fenster.
-2. Auf **Guides** klicken und einen Guide wählen. Die Liste ist nach
-   Leveling, Klassenquests, Dungeons, Ruf, Berufe und Events sortiert; hinter
-   jedem Guide steht sein Stufenbereich und, sobald du ihn gespielt hast, dein
-   Fortschritt.
-3. Der Guide sucht sich selbst die Stelle, an der du stehst.
+1. `/llg` opens the window.
+2. Click **Guides** and pick a guide. The list is sorted into Leveling, Class
+   Quests, Dungeons, Reputation, Professions and Events; each guide shows its
+   level range and, once you've played it, your progress.
+3. The guide finds your current position on its own.
 
-Der Kreispfeil in der Leiste bestimmt die Position neu, das Zahnrad öffnet die
-Einstellungen.
+The circular arrow in the toolbar re-determines your position, the gear icon
+opens the settings.
 
-## Was im Fenster steht
+## What's shown in the window
 
-Zeilen mit **Kästchen oder Questzeichen** sind Aufgaben: Quest annehmen,
-abgeben, ein Ziel erfüllen, eine Stufe erreichen. Sie halten den Guide auf,
-bis sie erledigt sind.
+Lines with a **checkbox or quest icon** are tasks: accept a quest, turn one
+in, complete an objective, reach a level. They hold up the guide until
+they're done.
 
-Zeilen mit **Punkt oder Sprechblase** sind Wegweiser: wohin du läufst, mit wem
-du sprichst, was du wissen solltest. Sie sind keine Aufgaben und bekommen
-deshalb weder Kästchen noch Farbe.
+Lines with a **dot or speech bubble** are pointers: where to go, who to talk
+to, what you should know. They aren't tasks, so they get neither a checkbox
+nor a color.
 
-Ein Schritt, der nur aus einem Laufweg besteht („Verlass das Gebäude"),
-schließt sich von selbst, sobald du dort bist.
+A step that's just a route ("Leave the building") completes itself
+automatically once you get there.
 
-**Rechtsklick auf eine Zeile** öffnet das Menü: einzelne Aufgabe abhaken oder
-den ganzen Schritt überspringen. Das brauchst du bei allem, was das Addon
-nicht sehen kann – eine Quest, die dir jemand im Vorbeigehen abgenommen hat,
-oder ein Schritt, den du bewusst auslässt.
+**Right-click on a line** opens the menu: check off a single task or skip the
+whole step. You'll need this for anything the addon can't see — a quest
+someone handed off to you in passing, or a step you deliberately want to
+skip.
 
-## Befehle
+## Commands
 
-| Befehl | Wirkung |
+| Command | Effect |
 |---|---|
-| `/llg` | Fenster ein-/ausblenden |
-| `/llg options` | Einstellungen |
-| `/llg guides` | Guideauswahl |
-| `/llg load <schlüssel>` | Guide direkt laden |
-| `/llg sync` | Position komplett neu bestimmen |
-| `/llg step <n>` | zu Schritt n springen |
-| `/llg next` / `/llg prev` | vor / zurück |
-| `/llg skip` | aktuellen Schritt überspringen |
-| `/llg lock` | Fenster feststellen |
-| `/llg scale <0.5–2.0>` | Fenstergröße |
-| `/llg width <220–600>` | Fensterbreite |
-| `/llg steps <1–8>` | wie viele Schritte gleichzeitig sichtbar sind |
-| `/llg pins` | Markierungen auf Welt- und Minikarte an/aus |
-| `/llg reset` | Fenster zurück in die Bildschirmmitte |
+| `/llg` | Show/hide the window |
+| `/llg options` | Settings |
+| `/llg guides` | Guide selection |
+| `/llg load <key>` | Load a guide directly |
+| `/llg sync` | Fully re-determine your position |
+| `/llg step <n>` | Jump to step n |
+| `/llg next` / `/llg prev` | Forward / back |
+| `/llg skip` | Skip the current step |
+| `/llg lock` | Lock the window in place |
+| `/llg scale <0.5–2.0>` | Window scale |
+| `/llg width <220–600>` | Window width |
+| `/llg steps <1–8>` | How many steps are visible at once |
+| `/llg pins` | Toggle markers on the world map and minimap |
+| `/llg reset` | Move the window back to the center of the screen |
 
-Zweitname für alles: `/legacyguides`.
+Alias for everything: `/legacyguides`.
 
-### Wenn etwas nicht erkannt wird
+### When something isn't recognized
 
-Der 1.12-Client verrät Addons keine Quest-IDs – LLG erkennt Quests über ihren
-Titel und lernt fremdsprachige Titel beim Spielen selbst. Falls dabei etwas
-schiefgeht:
+The 1.12 client doesn't expose quest IDs to addons — LLG recognizes quests by
+their title and learns non-English titles on its own as you play. If
+something goes wrong there:
 
-| Befehl | Wirkung |
+| Command | Effect |
 |---|---|
-| `/llg scan` | Questlog anzeigen, mit Vermerk, was nicht zugeordnet ist |
-| `/llg link <engl. Questname>` | zuletzt angenommene Quest von Hand zuordnen |
-| `/llg unlearn <titel>` | eine falsche Zuordnung löschen |
-| `/llg check` | den geladenen Guide auf Fehler prüfen |
-| `/llg caps` | zeigt, welche Client-Erweiterungen erkannt wurden |
-| `/llg debug` | ausführliche Meldungen im Chat an/aus |
+| `/llg scan` | Show the quest log, noting anything that couldn't be matched |
+| `/llg link <English quest name>` | Manually match the most recently accepted quest |
+| `/llg unlearn <title>` | Delete an incorrect match |
+| `/llg check` | Check the loaded guide for errors |
+| `/llg caps` | Show which client extensions were detected |
+| `/llg debug` | Toggle verbose chat messages |
 
-## Fehler melden
+## Reporting bugs
 
-Am hilfreichsten ist:
+Most helpful is:
 
-1. **Welcher Guide und welcher Schritt** – die Nummer steht rechts oben im
-   Fenster („Step 84/197").
-2. **Was du erwartet hast und was passiert ist.** „Springt weiter, obwohl die
-   Quest nicht fertig ist" sagt mehr als „geht nicht".
-3. **Ein Bildschirmfoto** des Fensters, wenn es um die Anzeige geht.
-4. Bei Lua-Fehlern: die vollständige Fehlermeldung. `/console scriptErrors 1`
-   schaltet die Anzeige ein.
+1. **Which guide and which step** — the number is shown in the top right of
+   the window ("Step 84/197").
+2. **What you expected vs. what happened.** "Skips ahead even though the
+   quest isn't done" says more than "doesn't work".
+3. **A screenshot** of the window, if it's about the display.
+4. For Lua errors: the full error message. `/console scriptErrors 1` turns
+   the display on.
 
-Nützlich dazu: deine Klasse, Rasse und Stufe, und ob pfQuest läuft.
+Also useful: your class, race and level, and whether pfQuest is running.
 
-## Bekannte Grenzen
+## Known limitations
 
-- Elf Questabgaben im ganzen Guidesatz gehören zu Quests, die kein Guide
-  annimmt – sie starten von einem gelooteten Gegenstand („Rescue OOX-09/HL!",
-  „Water Pouch Bounty"). Der Guide hält dort an; überspringen mit Rechtsklick.
-- Instanzen und Kontinentkarten haben in 1.12 keine Zonenkarte. Wegpunkte
-  dorthin werden als Hinweistext angezeigt statt als Markierung.
-- Die Guides sind englisch. Questnamen zeigt das Addon auf deutschem Client in
-  der Clientsprache an, die Anleitungstexte bleiben englisch.
+- Eleven quest turn-ins across the whole guide set belong to quests that no
+  guide accepts — they start from a looted item ("Rescue OOX-09/HL!", "Water
+  Pouch Bounty"). The guide stops there; skip with right-click.
+- Instances and continent maps have no zone map in 1.12. Waypoints to them
+  are shown as hint text instead of a marker.
+- The guides are in English. On a non-English client the addon shows quest
+  names in the client's language, but the instruction text stays English.
 
-## Woher die Guides kommen
+## Where the guides come from
 
-Die Routen stammen aus einer gekauften Zygor-Installation und wurden für
-dieses Addon umgewandelt. Sie sind für den eigenen Gebrauch bestimmt und
-gehören nicht weitergegeben.
+The routes are sourced from a purchased Zygor installation and were converted
+for this addon. They're intended for personal use and are not meant to be
+redistributed.
