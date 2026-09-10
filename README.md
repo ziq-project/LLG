@@ -6,6 +6,8 @@ this client — no Ace3, no libraries, no code borrowed from later versions.
 **This is a test build.** It runs, but it isn't finished. Bug reports are
 explicitly welcome (see below).
 
+Copyright © 2026 Ayrill (Ziq). All rights reserved — see [LICENSE](LICENSE).
+
 ## Installation
 
 Copy the `LLG` folder into `Interface\AddOns\` and **restart** the client — a
