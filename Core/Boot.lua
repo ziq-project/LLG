@@ -32,16 +32,15 @@ local function tryStart()
         end
     end)
 
+    -- Per request (2026-09-10): the hardcoded-German first-login welcome
+    -- message ("Willkommen...") confused non-German-speaking players -- it
+    -- was one of the few strings in this addon that bypassed LLG.L
+    -- (everything else goes through the localization system, see
+    -- Locale/Strings.lua). Disabled entirely rather than translated, since
+    -- it was only a first-run tip, not something players need every login.
     LLG.After(3.0, function()
         if LLG.chardb.freshInstall then
             LLG.chardb.freshInstall = nil
-            LLG.Print("Willkommen. |cffffd100/llg|r blendet das Fenster um, " ..
-                "|cffffd100/llg guides|r zeigt die Guides.")
-            if UnitLevel("player") > 1 then
-                LLG.Print("Der Guide wurde anhand von Stufe, Questlog und Beutel " ..
-                    "auf deinen Stand gesetzt. |cffffd100/llg step <n>|r korrigiert das " ..
-                    "von Hand.")
-            end
         end
     end)
 end
