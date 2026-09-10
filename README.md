@@ -114,9 +114,3 @@ Also useful: your class, race and level, and whether pfQuest is running.
   are shown as hint text instead of a marker.
 - The guides are in English. On a non-English client the addon shows quest
   names in the client's language, but the instruction text stays English.
-
-## Where the guides come from
-
-The routes are sourced from a purchased Zygor installation and were converted
-for this addon. They're intended for personal use and are not meant to be
-redistributed.
