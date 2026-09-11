@@ -712,9 +712,19 @@ function E.SetStep(index, manual)
     E.Notify()
 end
 
+-- Einen Schritt vor - rein zum Nachschauen, wie Prev. Ruft *nicht* MarkStep
+-- auf: das haette den Schritt ueber das Handzeichen dauerhaft (auch nach
+-- einem Resync) als erledigt markiert, obwohl im Questlog nichts fertig war
+-- - man wollte ja nur kurz vorausblaettern. Wer einen Schritt wirklich
+-- ueberspringen will, nutzt dafuer /llg skip (E.SkipStep), das bewusst
+-- dauerhaft ist.
 function E.Next()
-    E.Unpin()
-    E.MarkStep(E.currentStep, true)
+    if not E.guide then return end
+    local n = LLG.getn(E.guide.steps)
+    local i = E.currentStep + 1
+    while i <= n and not E.StepActive(i) do i = i + 1 end
+    if i > n then i = n end
+    E.SetStep(i, true)
 end
 
 -- Einen Schritt zurueck - aber nur ueber Schritte, die es fuer diesen
