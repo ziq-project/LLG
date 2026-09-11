@@ -114,13 +114,49 @@ function QDB.Resolve(title, level)
     if hit == nil then return nil end
     if type(hit) == "string" then return hit end
 
+    -- Diagnosed 2026-09-11 from a reported progress-bar/position mismatch:
+    -- a player on a fresh Night Elf Druid had steps far ahead of their
+    -- actual position already reading as "done" -- specifically the ones
+    -- tied to quest 457 ("The Balance of Nature" part 2) and 459 ("The
+    -- Woodland Protector" part 2), while everything else ahead of them was
+    -- correctly still open. Both chains reuse the identical title for
+    -- every stage (##456/##457, ##458/##459) with stage levels close
+    -- enough to tie below. On a tie this always kept whichever stage was
+    -- registered first (the FIRST accept in the guide, i.e. the EARLIER
+    -- stage) -- permanently, even after the player turned that stage in
+    -- and moved on. Every later quest-log scan kept re-resolving the log's
+    -- new (later-stage) entry to that same earlier key, so the earlier
+    -- key's snapshot silently held the later stage's real data while the
+    -- later stage's own key never got any -- steps referencing that ID
+    -- directly (like ".complete 457,1") found no data and apparently read
+    -- that as "not blocking", well before the player got there. Not yet
+    -- re-confirmed in-game after this fix.
+    --
+    -- Fix: drop already-turned-in stages from consideration first -- a
+    -- turned-in quest can't be the one currently sitting active in the
+    -- log -- before falling back to the level-based tie-break below.
+    local candidates = hit
+    do
+        local remaining = {}
+        local cnt = LLG.getn(hit)
+        for i = 1, cnt do
+            if not (LLG.DB and LLG.DB.IsTurnedIn and LLG.DB.IsTurnedIn(hit[i])) then
+                table.insert(remaining, hit[i])
+            end
+        end
+        -- If every known stage is already turned in (nothing left active),
+        -- fall back to considering all of them rather than resolving to
+        -- nothing.
+        if LLG.getn(remaining) > 0 then candidates = remaining end
+    end
+
     -- Namensgleichheit: zuerst zaehlt die Queststufe, bei Gleichstand der
     -- Eintrag mit echter Quest-ID. Sonst koennte ein handgeschriebener
     -- Guide ohne ID einen vollstaendigen Datensatz verdraengen.
     local best, bestDiff, bestHasId = nil, LLG.INF, false
-    local cnt = LLG.getn(hit)
+    local cnt = LLG.getn(candidates)
     for i = 1, cnt do
-        local key = hit[i]
+        local key = candidates[i]
         local e = QDB.entries[key]
         if e then
             local diff = 99
