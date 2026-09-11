@@ -257,7 +257,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Enemies near huts will likely pull in groups, so avoid if possible.
 .goto Wetlands,13.64,39.55
-.complete 279,1 >>Slay #12# Bluegill Murlocs
+.complete 279,1 >>Slay 12 Bluegill Murlocs
 
 #step
 .kill 1 enemies around this area

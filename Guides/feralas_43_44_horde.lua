@@ -320,7 +320,7 @@ LLG.RegisterGuide([[
 .talk Screecher Spirit##8612
 >>They appear after using Yeh'kinya's Bramble on the corpses.
 .goto Feralas,60.77,49.94
-.complete 3520,1 >>Collect #3# Screecher Spirits
+.complete 3520,1 >>Collect 3 Screecher Spirits
 >>You can find more around:
 >>[58.94,51.11]
 >>[56.89,47.94]

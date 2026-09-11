@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 .click Thaurissan Relic##153556
 >>They look like small rectangular stones on the ground around this area.
 .goto Burning Steppes,67.17,38.19
-.complete 3701,1 >>Recover #12# Pieces of Information
+.complete 3701,1 >>Recover 12 Pieces of Information
 
 #step
 .talk Helendis Riverhorn##9562

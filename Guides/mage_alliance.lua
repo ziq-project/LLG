@@ -448,7 +448,7 @@ LLG.RegisterGuide([[
 .kill 1 Mana Surge##6550
 >>They will spawn continuously as you kill them.
 .goto Dustwallow Marsh,45.85,56.76
-.complete 1957,1 >>Slay #12# Manage Surges
+.complete 1957,1 >>Slay 12 Manage Surges
 .only Mage
 
 #step

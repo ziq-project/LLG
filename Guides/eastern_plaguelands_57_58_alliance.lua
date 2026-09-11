@@ -214,7 +214,7 @@ LLG.RegisterGuide([[
 .talk Darrowshire Spirit##11064
 >>They appear after you kill the ghouls.
 .goto Eastern Plaguelands,66.88,40.62
-.complete 5211,1 >>Free #15# Darrowshire Spirits
+.complete 5211,1 >>Free 15 Darrowshire Spirits
 >>You can find more around:
 >>[42.19,38.20]
 >>[42.84,34.28]

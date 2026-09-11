@@ -191,7 +191,7 @@ LLG.RegisterGuide([[
 >>Badly Injured
 >>Injured Patients
 .goto Arathi Highlands,73.03,36.84
-.complete 6624,1 >>Save #15# Patients
+.complete 6624,1 >>Save 15 Patients
 >>If you fail, just abandon the quest and try again.
 
 #step

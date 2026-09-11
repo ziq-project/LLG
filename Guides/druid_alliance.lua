@@ -232,7 +232,7 @@ LLG.RegisterGuide([[
 >>They look like green diseased deer in areas with trees.
 >>They are spread out all throughout Darkshore.
 .goto Darkshore,41.51,46.08
-.complete 6124,1 >>Cure #10# Sickly Deer
+.complete 6124,1 >>Cure 10 Sickly Deer
 .only NightElf and Druid
 
 #step

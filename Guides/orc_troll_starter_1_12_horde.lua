@@ -328,7 +328,7 @@ LLG.RegisterGuide([[
 
 #step
 .click the Foreman's Blackjack##16114
-.complete 5441,1 >>Awaken #5# Peons
+.complete 5441,1 >>Awaken 5 Peons
 >>Use it on Lazy Peons around this area.
 >>They look like orcs sleeping on the ground around this area.
 >>If they aren't sleeping, don't wait, go to the next location.

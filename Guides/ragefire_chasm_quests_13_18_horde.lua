@@ -143,12 +143,12 @@ LLG.RegisterGuide([[
 #step
 .kill 1 Ragefire Trogg##11318
 >>They are found throughout the instance.
-.complete 5723,1 >>Slay #8# Ragefire Troggs
+.complete 5723,1 >>Slay 8 Ragefire Troggs
 
 #step
 .kill 8 Ragefire Shaman##11319
 >>They are found throughout the instance.
-.complete 5723,2 >>Slay #8# Ragefire Shaman
+.complete 5723,2 >>Slay 8 Ragefire Shaman
 
 #step
 .kill 1 Searing Blade enemies around this area

@@ -237,7 +237,7 @@ LLG.RegisterGuide([[
 >>Use it on Sickly Gazelles around this area.
 >>They look like green gazelles all around the northern area of the Barrens.
 .goto The Barrens,50.17,31.12
-.complete 6129,1 >>Cure #10# Sickly Gazelles
+.complete 6129,1 >>Cure 10 Sickly Gazelles
 >>You can find more around:
 >>[48.77,29.54]
 >>[48.33,26.15]

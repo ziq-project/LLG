@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 >>They look like piles of green and brown dirt on the ground.
 >>You can find them all around the Charred Vale area.
 .goto Stonetalon Mountains,32.25,68.16
-.complete 6381,1 >>Plant #10# Gaea Seeds
+.complete 6381,1 >>Plant 10 Gaea Seeds
 
 #step
 .kill 1 enemies around this area

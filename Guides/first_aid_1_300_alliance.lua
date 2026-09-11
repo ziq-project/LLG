@@ -219,7 +219,7 @@ LLG.RegisterGuide([[
 >>Badly Injured
 >>Injured Patients
 .goto Dustwallow Marsh,67.76,48.97
-.complete 6624,1 >>Save #15# Patients
+.complete 6624,1 >>Save 15 Patients
 >>If you fail, just abandon the quest and try again.
 
 #step

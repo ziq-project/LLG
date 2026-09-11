@@ -2313,7 +2313,7 @@ LLG.RegisterGuide([[
 >>Use it on Deeprun Rats around this area.
 >>They look like small grey rats on the ground around this area.
 >>In the Ironforge section of the Deeprun Tram.
-.complete 6661,1 >>Capture #5# Rats
+.complete 6661,1 >>Capture 5 Rats
 .only Warrior or Rogue
 
 #step

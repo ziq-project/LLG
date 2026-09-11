@@ -36,12 +36,12 @@ LLG.RegisterGuide([[
 #step
 .click the Small Blue Rocket##21558
 .goto Orgrimmar,41.60,32.80
-.complete 8867,1 >>Fire #8# Lunar Fireworks
+.complete 8867,1 >>Fire 8 Lunar Fireworks
 
 #step
 .click the Blue Rocket Cluster##21571
 .goto Orgrimmar,41.60,32.80
-.complete 8867,2 >>Fire #2# Lunar Fireworks Clusters
+.complete 8867,2 >>Fire 2 Lunar Fireworks Clusters
 
 #step
 .talk Lunar Festival Harbinger##15895

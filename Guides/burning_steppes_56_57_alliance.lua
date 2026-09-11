@@ -288,7 +288,7 @@ LLG.RegisterGuide([[
 .click Thaurissan Relic##153556
 >>They look like cylindrical grey stones sitting upright on the ground around this area.
 .goto Burning Steppes,68.42,37.33
-.complete 3701,1 >>Recover #12# Information
+.complete 3701,1 >>Recover 12 Information
 >>You can find more around:
 >>[66.04,44.05]
 >>[62.21,40.68]

@@ -258,7 +258,7 @@ LLG.RegisterGuide([[
 >>Use it on Kodo enemies around this area.
 >>You can find more all around this bone graveyard area.
 .goto Desolace,54.45,63.19
-.complete 5561,1 >>Tame #5# Kodos
+.complete 5561,1 >>Tame 5 Kodos
 >>You must bring them back to Smeed Scrabblescrew to tame them.
 >>Talk to the kodos after you bring them to Smeed Scrabblescrew.
 >>Bring the Kodos back to [60.73,61.96]
