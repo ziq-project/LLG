@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,54.04,68.86
 >>Enter the building
-.talk Innkeeper Gryshka
+.talk Innkeeper Gryshka##6929
 >>en:Standing in the doorway inside the inn.
 >>de:Standing in the doorway inside the inn.
 >>Inside the building.
@@ -37,19 +37,19 @@ LLG.RegisterGuide([[
 >>Restock on Food and Water
 
 #step
-.talk Zudd
+.talk Zudd##3624
 .goto Stranglethorn Vale,31.13,28.93
 .train
 .only Hunter
 
 #step
-.talk Kragg
+.talk Kragg##1404
 .goto Stranglethorn Vale,31.24,28.68
 .train
 .only Hunter
 
 #step
-.talk Commander Aggro'gosh
+.talk Commander Aggro'gosh##2464
 >>en:Standing out in the open in town.
 >>de:Steht offen in der Stadt.
 >>He walks around this area.
@@ -57,21 +57,21 @@ LLG.RegisterGuide([[
 .accept The Defense of Grom'gol##568
 
 #step
-.talk Thysta
+.talk Thysta##1387
 >>en:Standing next to a big campfire.
 >>de:Steht neben einem großen Lagerfeür.
 .goto Stranglethorn Vale,32.54,29.35
 .fly Grom'gol
 
 #step
-.talk Nimboya
+.talk Nimboya##2497
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.16,27.73
 .accept Hunt for Yenniku##581
 
 #step
-.talk Kin'weelay
+.talk Kin'weelay##2519
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.27,27.71
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 .complete 201,1 >>Locate the Hunters' Camp
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
@@ -93,14 +93,14 @@ LLG.RegisterGuide([[
 .turnin Hunting in Stranglethorn##5763
 
 #step
-.talk Barnil Stonepot
+.talk Barnil Stonepot##716
 >>en:In a small camp with 2 tents on the beach.
 >>de:In einem kleinen Lager mit 2 Zelten am Strand.
 .goto Stranglethorn Vale,35.66,10.53
 .accept Welcome to the Jungle##583
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
@@ -109,14 +109,14 @@ LLG.RegisterGuide([[
 .accept Raptor Mastery##194
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.61,10.62
 .accept Tiger Mastery##185
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 >>[41.06,8.26]
 
 #step
-.kill 1 Kurzen Medicine Man
+.kill 1 Kurzen Medicine Man##940
 >>They share spawn points with the other enemies around this area, so kill those too, if you can't find any.
 .goto Stranglethorn Vale,44.34,10.02
 .complete 1712,1 >>Collect 8 Liferoot
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 >>[Stranglethorn Vale 31.79,9.19]
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 .accept Panther Mastery##191
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.61,10.62
@@ -203,7 +203,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.kill 1 River Crocolisk
+.kill 1 River Crocolisk##1150
 >>Along the water around this area.
 >>Go out of your way to kill these enemies, the drop rate can be very bad.
 .goto Stranglethorn Vale,33.45,8.28
@@ -213,7 +213,7 @@ LLG.RegisterGuide([[
 >>[40.24,13.68]
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 .accept Panther Mastery##192
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.61,10.62
@@ -231,7 +231,7 @@ LLG.RegisterGuide([[
 .accept Tiger Mastery##187
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 >>[38.31,20.32]
 
 #step
-.talk Nimboya
+.talk Nimboya##2497
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.16,27.72
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 .accept Headhunting##582
 
 #step
-.talk Commander Aggro'gosh
+.talk Commander Aggro'gosh##2464
 >>en:Standing out in the open in town.
 >>de:Steht offen in der Stadt.
 >>He walks around this area.
@@ -291,13 +291,13 @@ LLG.RegisterGuide([[
 .accept The Defense of Grom'gol##569
 
 #step
-.talk Uthok
+.talk Uthok##1149
 >>only Hunter :: Restock on arrows.
 .goto Stranglethorn Vale,31.55,27.97
 .vendor
 
 #step
-.click Gri'lek the Wanderer
+.click Gri'lek the Wanderer##58
 >>It is a tablet underwater.
 >>There are two of them, go for the one on the outside of the wall to avoid murlocs.
 >>Be careful to avoid the elite murlocs nearby.
@@ -306,13 +306,13 @@ LLG.RegisterGuide([[
 .complete 629,1 >>Collect Tablet Shard
 
 #step
-.kill 1 Crystal Spine Basilisk
+.kill 1 Crystal Spine Basilisk##689
 .goto Stranglethorn Vale,27.06,18.51
 .complete 605,1 >>Collect 10 Singing Crystal Shard
 >>You can find more around [25.11,17.42]
 
 #step
-.kill 1 Bloodscalp Headhunter
+.kill 1 Bloodscalp Headhunter##671
 .goto Stranglethorn Vale,20.29,12.82
 .complete 582,1 >>Collect 20 Shrunken Head
 >>You can find more:
@@ -345,7 +345,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Nimboya
+.talk Nimboya##2497
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.16,27.73
@@ -357,7 +357,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Kin'weelay
+.talk Kin'weelay##2519
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.27,27.70
@@ -366,14 +366,14 @@ LLG.RegisterGuide([[
 .turnin The Vile Reef##629
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 .goto Stranglethorn Vale,32.12,29.24
 .accept Mok'thardin's Enchantment##570
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -381,7 +381,7 @@ LLG.RegisterGuide([[
 .turnin Bloodscalp Ears##189
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -393,7 +393,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -412,7 +412,7 @@ LLG.RegisterGuide([[
 .complete 569,2 >>Kill 5 Mosh'Ogg Witch Doctor
 
 #step
-.kill 1 Snapjaw Crocolisk
+.kill 1 Snapjaw Crocolisk##1152
 >>There will never be enough ogres to finish the quest without waiting for respawns.
 >>Rotate between killing crocolisks and ogres to be efficient between respawns.
 >>Weiter nach Stranglethorn Vale,
@@ -422,7 +422,7 @@ LLG.RegisterGuide([[
 >>[41.81,21.61]
 
 #step
-.kill 1 Stranglethorn Tigress
+.kill 1 Stranglethorn Tigress##772
 >>They share spawn points with Shadowmaw Panthers, so kill those too, to get more Stranglethorn Tigresses to spawn.
 >>The Shadowmaw Panthers are stealthed around this area.
 >>Avoid the level 43 elite white tiger, King Bangladesh, on top of the hill around the southwestern waypoints.
@@ -435,7 +435,7 @@ LLG.RegisterGuide([[
 >>[49.23,22.66]
 
 #step
-.kill 1 Shadowmaw Panther
+.kill 1 Shadowmaw Panther##684
 >>They are stealthed around this area, typically near trees.
 >>They share spawn points with Stranglethorn Tigresses, so kill those too, to get more Shadowmaw Panthers to spawn.
 >>Avoid the level 43 elite white tiger, King Bangladesh, on top of the hill around the southwestern waypoints.
@@ -462,7 +462,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,42.25,18.10
 >>Follow the path up
-.kill 1 Foreman Cozzle
+.kill 1 Foreman Cozzle##4723
 >>Inside the building at the top of the platform.
 .goto Stranglethorn Vale,42.65,18.35
 .complete 1182 >>Collect Cozzle's Key
@@ -471,18 +471,18 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,43.45,20.36
 >>Enter the building
-.click Cozzle's Footlocker
+.click Cozzle's Footlocker##20691
 >>Inside the building.
 .goto Stranglethorn Vale,43.34,20.34
 .complete 1182,1 >>Collect Fuel Regulator Blueprints
 
 #step
-.kill 1 Venture Co. Geologist
+.kill 1 Venture Co. Geologist##1096
 .goto Stranglethorn Vale,44.63,21.45
 .complete 213,1 >>Collect 8 Tumbled Crystal
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.56,10.55
@@ -491,7 +491,7 @@ LLG.RegisterGuide([[
 .accept Panther Mastery##193
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.62,10.62
@@ -500,7 +500,7 @@ LLG.RegisterGuide([[
 .accept Tiger Mastery##188
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
@@ -509,28 +509,28 @@ LLG.RegisterGuide([[
 .accept Raptor Mastery##196
 
 #step
-.kill 1 Sin'Dall
+.kill 1 Sin'Dall##729
 >>He looks like an orange tiger that walks around this area.
 >>He's usually on top of this hill, though.
 .goto Stranglethorn Vale,32.21,17.39
 .complete 188,1 >>Collect Paw of Sin'Dall
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.62,10.62
 .turnin Tiger Mastery##188
 
 #step
-.talk Nimboya
+.talk Nimboya##2497
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.16,27.73
 .accept Trollbane##638
 
 #step
-.talk Commander Aggro'gosh
+.talk Commander Aggro'gosh##2464
 >>en:Standing out in the open in town.
 >>de:Steht offen in der Stadt.
 >>He walks around this area.
@@ -538,14 +538,14 @@ LLG.RegisterGuide([[
 .turnin The Defense of Grom'gol##569
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 .goto Stranglethorn Vale,32.12,29.24
 .turnin Mok'thardin's Enchantment##570
 
 #step
-.talk Baron Revilgaz
+.talk Baron Revilgaz##2496
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -555,7 +555,7 @@ LLG.RegisterGuide([[
 .accept Goblin Sponsorship##1183
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -565,7 +565,7 @@ LLG.RegisterGuide([[
 .accept Skullsplitter Tusks##209
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -573,7 +573,7 @@ LLG.RegisterGuide([[
 .accept Dream Dust in the Swamp##1116
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -587,7 +587,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -600,30 +600,30 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12251) == 0
 
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Shaman
+.only Shaman and itemcount(12251) == 0
 ]])

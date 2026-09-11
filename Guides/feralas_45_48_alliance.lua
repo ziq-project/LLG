@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .click Here if you'd prefer to grind
 
 #step
-.talk Curgle Cranklehop
+.talk Curgle Cranklehop##7763
 >>en:A pink haired gnomes standing next to the Egg-O-Matic machine on the ground.
 >>de:A pink haired gnomes standing next to the Egg-O-Matic machine on the ground.
 .goto Tanaris,52.35,26.91
@@ -36,27 +36,27 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
 .complete 3520 >>Collect Yeh'kinya's Bramble
 
 #step
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
 
 #step
-.talk Pratt McGrubben
+.talk Pratt McGrubben##7852
 >>en:In a dark gazeebo next to the water.
 >>de:In einem dunklen Pavillon neben dem Wasser.
 .goto Feralas,30.63,42.71
 .accept The Mark of Quality##2821
 
 #step
-.talk Innkeeper Shyria
+.talk Innkeeper Shyria##7736
 >>en:Inside the inn, behind the desk.
 >>de:Inside the inn, behind the desk.
 >>Inside the building.
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,30.77,45.23
 >>Enter the building
-.talk Latronicus Moonspear
+.talk Latronicus Moonspear##7877
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .accept The Missing Courier##4124
 
 #step
-.talk Shandris Feathermoon
+.talk Shandris Feathermoon##3936
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .accept The Ruins of Solarsal##2866
 
 #step
-.talk Troyas Moonbreeze
+.talk Troyas Moonbreeze##7764
 >>en:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>de:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>Inside the building.
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 .accept In Search of Knowledge##2939
 
 #step
-.talk Angelas Moonbreeze
+.talk Angelas Moonbreeze##7900
 >>en:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>de:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>Inside the building.
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 .accept The High Wilderness##2982
 
 #step
-.talk Ginro Hearthkindle
+.talk Ginro Hearthkindle##7880
 >>en:Upstairs in the big house, next to some bookcases.
 >>de:Upstairs in the big house, next to some bookcases.
 >>Upstairs inside the building.
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .accept The Missing Courier##4125
 
 #step
-.click Solarsal Gazebo
+.click Solarsal Gazebo##142179
 >>You have to be standing inside of it to be able to click it.
 .goto Feralas,26.32,52.34
 .turnin The Ruins of Solarsal##2866
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 .accept Return to Feathermoon Stronghold##2867
 
 #step
-.talk Shandris Feathermoon
+.talk Shandris Feathermoon##3936
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -126,7 +126,7 @@ LLG.RegisterGuide([[
 .accept Against the Hatecrest##3130
 
 #step
-.talk Latronicus Moonspear
+.talk Latronicus Moonspear##7877
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -145,7 +145,7 @@ LLG.RegisterGuide([[
 >>You can find more around [26.21,51.95]
 
 #step
-.talk Latronicus Moonspear
+.talk Latronicus Moonspear##7877
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 .accept Against Lord Shalzaru##2870
 
 #step
-.talk Faralorn
+.talk Faralorn##7942
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 15-20 extra stacks.
 >>You have a long grind soon.
@@ -177,7 +177,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Feralas,26.09,67.26
 >>Enter the cave
-.kill 1 Lord Shalzaru
+.kill 1 Lord Shalzaru##8136
 >>Inside the cave.
 >>only hardcore :: This cave is dangerous.
 >>only hardcore :: It's easy to be overwhelmed by patrolling or casting enemies.
@@ -211,7 +211,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,26.09,67.26
 >>Leave the cave
-.click Wrecked Row Boat
+.click Wrecked Row Boat##164909
 >>Underwater.
 >>only hardcore :: You can ride the boat and follow the coast or swim across.
 >>only hardcore :: Swimming across takes you through a fatigue zone which can be dangerous.
@@ -226,7 +226,7 @@ LLG.RegisterGuide([[
 .only subzone("Shalzaru's and Lair")
 
 #step
-.talk Faralorn
+.talk Faralorn##7942
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 6-8 extra stacks.
 >>You will be questing a while.
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Ginro Hearthkindle
+.talk Ginro Hearthkindle##7880
 >>en:Upstairs in the big house, next to some bookcases.
 >>de:Upstairs in the big house, next to some bookcases.
 >>Upstairs inside the building.
@@ -247,7 +247,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,30.77,45.23
 >>Enter the building
-.talk Latronicus Moonspear
+.talk Latronicus Moonspear##7877
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -257,7 +257,7 @@ LLG.RegisterGuide([[
 .accept Delivering the Relic##2871
 
 #step
-.talk Vestia Moonspear
+.talk Vestia Moonspear##7878
 >>en:To the right, down the hallway in the big long building.
 >>de:To the right, down the hallway in the big long building.
 >>Inside the building.
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,32.34,43.69
 >>Enter the building
-.talk Quintis Jonespyre
+.talk Quintis Jonespyre##7879
 >>en:At the top of the big tower.
 >>de:At the top of the big tower.
 >>Upstairs inside the building.
@@ -276,7 +276,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Quintis Jonespyre
+.talk Quintis Jonespyre##7879
 >>en:At the top of the big tower.
 >>de:At the top of the big tower.
 >>Upstairs inside the building.
@@ -284,7 +284,7 @@ LLG.RegisterGuide([[
 .accept Psychometric Reading##4130
 
 #step
-.talk Ginro Hearthkindle
+.talk Ginro Hearthkindle##7880
 >>en:Upstairs in the big house, next to some bookcases.
 >>de:Upstairs in the big house, next to some bookcases.
 >>Upstairs inside the building.
@@ -299,9 +299,9 @@ LLG.RegisterGuide([[
 .kill 1 Screecher enemies around this area
 >>Vale Screechers and Rogue Vale Screechers will count for the quest.
 >>They look like thin flying dragons.
-.click Yeh'kinya's Bramble
+.click Yeh'kinya's Bramble##10699
 >>Use it on their corpses.
-.talk Screecher Spirit
+.talk Screecher Spirit##8612
 >>They appear after using Yeh'kinya's Bramble on the corpses.
 .goto Feralas,46.26,40.14
 .complete 3520,1 >>Collect #3# Screecher Spirits
@@ -312,16 +312,17 @@ LLG.RegisterGuide([[
 .only walking and subzone("Feathermoon and Stronghold")
 
 #step
-.click the OOX-22/FE Distress Beacon
+.click the OOX-22/FE Distress Beacon##8705
 .goto Feralas,53.35,55.70
 .accept Find OOX-22/FE!##2766
+.only itemcount(8705) == 1
 
 #step
 .goto Feralas,47.11,44.49
 >>Follow the path up
 .goto Feralas,55.15,56.36
 >>Run through the tunnel
-.talk Homing Robot OOX-22/FE
+.talk Homing Robot OOX-22/FE##7807
 >>This NPC offers an escort quest.
 >>If it's not here, someone may be escorting it.
 >>Wait until it respawns.
@@ -341,7 +342,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,54.10,68.24
 >>Follow the path up
-.click Hippogryph Egg
+.click Hippogryph Egg##141931
 >>They are found in nests on the hill.
 .goto Feralas,56.66,75.90
 .collect Hippogryph Egg,1
@@ -375,7 +376,7 @@ LLG.RegisterGuide([[
 >>You can find more around [59.28,63.51]
 
 #step
-.kill 1 Ironfur Bear
+.kill 1 Ironfur Bear##5268
 >>They look like bears.
 .goto Feralas,60.27,60.56
 .complete 1452,2 >>Collect 3 Ironfur Liver
@@ -384,7 +385,7 @@ LLG.RegisterGuide([[
 >>[57.74,56.51]
 
 #step
-.kill 1 Groddoc Ape
+.kill 1 Groddoc Ape##5260
 >>They look like gorillas.
 >>They share spawn points with Ironfur Bears, so kill those too, if you can't find any.
 .goto Feralas,60.27,60.56
@@ -411,7 +412,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,65.66,46.77
 >>Follow the path up
-.talk Kindal Moonweaver
+.talk Kindal Moonweaver##7956
 >>en:On a small ledge overlooking the grimtotem camp.
 >>de:On a small ledge overlooking the grimtotem camp.
 .goto Feralas,65.94,45.65
@@ -430,7 +431,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,65.66,46.77
 >>Follow the path up
-.talk Kindal Moonweaver
+.talk Kindal Moonweaver##7956
 >>en:On a small ledge overlooking the grimtotem camp.
 >>de:On a small ledge overlooking the grimtotem camp.
 >>HURRY! You must turn it in before the timer ends.
@@ -440,7 +441,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Jer'kai Moonweaver
+.talk Jer'kai Moonweaver##7957
 >>en:On a small ledge overlooking the grimtotem camp.
 >>de:On a small ledge overlooking the grimtotem camp.
 .goto Feralas,65.95,45.61
@@ -482,7 +483,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,65.66,46.77
 >>Follow the path up
-.talk Jer'kai Moonweaver
+.talk Jer'kai Moonweaver##7957
 >>en:On a small ledge overlooking the grimtotem camp.
 >>de:On a small ledge overlooking the grimtotem camp.
 .goto Feralas,65.95,45.61
@@ -492,7 +493,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Large Leather Backpacks
+.click Large Leather Backpacks##164953
 >>only hardcore :: Clear Woodpaw enemies around the area before attempting to gather.
 .goto Feralas,73.31,56.31
 .turnin The Woodpaw Gnolls##4131
@@ -500,7 +501,7 @@ LLG.RegisterGuide([[
 .accept The Writhing Deep##4135
 
 #step
-.click the Undelivered Parcel
+.click the Undelivered Parcel##11463
 .accept Thalanaar Delivery##4281
 
 #step
@@ -520,7 +521,7 @@ LLG.RegisterGuide([[
 >>Enter the cave at the bottom of the path
 .goto Feralas,72.69,64.56
 >>Follow the path down
-.click Zukk'ash Pod
+.click Zukk'ash Pod##164954
 >>Inside the cave.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Enemies may run away in fear at low health.
@@ -541,7 +542,7 @@ LLG.RegisterGuide([[
 .complete 4265,1 >>Free Raschal
 
 #step
-.talk Faralorn
+.talk Faralorn##7942
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10-12 extra stacks.
 >>You have a longer grind coming up soon.
@@ -550,14 +551,14 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Pratt McGrubben
+.talk Pratt McGrubben##7852
 >>en:In a dark gazeebo next to the water.
 >>de:In einem dunklen Pavillon neben dem Wasser.
 .goto Feralas,30.63,42.71
 .turnin The Mark of Quality##2821
 
 #step
-.talk Angelas Moonbreeze
+.talk Angelas Moonbreeze##7900
 >>en:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>de:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>Inside the building.
@@ -567,7 +568,7 @@ LLG.RegisterGuide([[
 .accept The Sunken Temple##3445
 
 #step
-.talk Ginro Hearthkindle
+.talk Ginro Hearthkindle##7880
 >>en:Upstairs in the big house, next to some bookcases.
 >>de:Upstairs in the big house, next to some bookcases.
 >>Upstairs inside the building.
@@ -579,7 +580,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,30.76,45.23
 >>Enter the building
-.talk Shandris Feathermoon
+.talk Shandris Feathermoon##3936
 >>en:In the long building, standing on the balcony.
 >>de:In the long building, standing on the balcony.
 >>Inside the building.
@@ -589,7 +590,7 @@ LLG.RegisterGuide([[
 .accept Rise of the Silithid##4267
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
@@ -598,21 +599,21 @@ LLG.RegisterGuide([[
 .accept The Prophecy of Mosh'aru##3527
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
 .accept Divino-matic Rod##2768
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .accept Scarab Shells##2865
 
 #step
-.talk Trenton Lighthammer
+.talk Trenton Lighthammer##7804
 .goto Tanaris,51.42,28.75
 .accept Troll Temper##3042
 
@@ -622,7 +623,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Theka the Martyr
+.kill 1 Theka the Martyr##7272
 >>He is the second boss of the dungeon.
 >>Follow the path north and then go right when the path splits.
 >>Quickly go left afterwards and then north.
@@ -630,13 +631,13 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Sergeant Bly
+.kill 1 Sergeant Bly##7604
 >>He will be killable after you release them from captivity and clear the temple event.
 .complete 2768,1 >>Collect Divino-matic Rod
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Hydromancer Velratha
+.kill 1 Hydromancer Velratha##7795
 >>Follow the path southeast to reach the large room with a pool in the center.
 >>She walks around this area.
 .complete 2846,1 >>Collect Tiara of the Deep
@@ -645,16 +646,16 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.click the Mallet of Zul'Farrak
+.click the Mallet of Zul'Farrak##9240
 >>Clear the room.
 >>Use it near the gong atop the pool of water.
-.kill 1 Gahz'rilla
+.kill 1 Gahz'rilla##7273
 .complete 2770,1 >>Collect Gahz'rilla's Electrified Scale
 .only haveq(2770)
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Scarab
+.kill 1 Scarab##7269
 >>They are found all around the instance, but mostly in the scarab room with Theka the Martyr.
 .complete 2865,1 >>Collect 5 Uncracked Scarab Shell
 
@@ -670,33 +671,33 @@ LLG.RegisterGuide([[
 .complete 3042 >>Click Here to Continue
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
 .turnin The Prophecy of Mosh'aru##3527
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
 .turnin Divino-matic Rod##2768
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .turnin Scarab Shells##2865
 
 #step
-.talk Trenton Lighthammer
+.talk Trenton Lighthammer##7804
 .goto Tanaris,51.42,28.75
 .turnin Troll Temper##3042
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.14,77.11
@@ -729,7 +730,7 @@ LLG.RegisterGuide([[
 .kill 1 enemies around this area
 .collect OOX-22/FE Distress Beacon,1
 >>Any enemy in Feralas can drop this item.
-.click the OOX-22/FE Distress Beacon
+.click the OOX-22/FE Distress Beacon##8705
 .goto Feralas,26.39,54.22
 .accept Find OOX-22/FE!##2766
 
@@ -742,7 +743,7 @@ LLG.RegisterGuide([[
 .complete 4267 >>Click Here to Continue
 
 #step
-.talk Faralorn
+.talk Faralorn##7942
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 18-20 extra stacks.
 >>You have a long grind coming up soon.
@@ -751,7 +752,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Erelas Ambersky
+.talk Erelas Ambersky##7916
 >>en:Just inside the house directly across from the dock.
 >>de:Just inside the house directly across from the dock.
 >>Inside the building.
@@ -761,7 +762,7 @@ LLG.RegisterGuide([[
 .accept Favored of Elune?##3661
 
 #step
-.talk Daryn Lightwind
+.talk Daryn Lightwind##7907
 >>en:Upstairs, next to 2 bookcases.
 >>de:Upstairs, next to 2 bookcases.
 >>Upstairs inside the building.
@@ -775,7 +776,7 @@ LLG.RegisterGuide([[
 .accept Feralas: A History##2940
 
 #step
-.talk Daryn Lightwind
+.talk Daryn Lightwind##7907
 >>en:Upstairs, next to 2 bookcases.
 >>de:Upstairs, next to 2 bookcases.
 >>Upstairs inside the building.
@@ -785,7 +786,7 @@ LLG.RegisterGuide([[
 .accept The Borrower##2941
 
 #step
-.talk Kyrai
+.talk Kyrai##3561
 >>Upstairs inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -794,7 +795,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Garryeth
+.talk Garryeth##4209
 >>Deposit these items into the bank.
 .goto Darnassus,39.60,41.98
 .goto Darnassus,39.60,41.98
@@ -811,7 +812,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Darnassus,40.46,91.67
 >>Run up the ramp
-.talk Gracina Spiritmight
+.talk Gracina Spiritmight##7740
 >>en:At the top of the Temple of the Moon, on a balcony by himself.
 >>de:At the top of the Temple of the Moon, on a balcony by himself.
 >>Upstairs inside the building.
@@ -820,7 +821,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tyrande Whisperwind
+.talk Tyrande Whisperwind##7999
 >>en:At the top of the Temple of the Moon.
 >>de:At the top of the Temple of the Moon.
 >>Upstairs inside the building.
@@ -828,13 +829,13 @@ LLG.RegisterGuide([[
 .turnin Doling Justice##2972
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Sildanair
-.talk Denatharion
-.talk Jandria
+.talk Syurna##4163
+.talk Sildanair##4089
+.talk Denatharion##4218
+.talk Jandria##4091
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,61.78,42.28
@@ -875,7 +876,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Falfindel Waywarder
+.talk Falfindel Waywarder##4048
 >>en:Standing next to a glowing gazeebo and a moonwell.
 >>de:Standing next to a glowing gazeebo and a moonwell.
 .goto Feralas,89.64,46.57

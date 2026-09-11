@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk High Priestess MacDonnell
+.talk High Priestess MacDonnell##11053
 >>en:Next to a small table and a cart.
 >>de:Next to a small table and a cart.
 .goto Western Plaguelands,42.97,84.50
@@ -25,14 +25,14 @@ LLG.RegisterGuide([[
 .accept Target: Gahrron's Withering##5225
 
 #step
-.talk Alchemist Arbington
+.talk Alchemist Arbington##11056
 >>en:In front of a tent, next to a well.
 >>de:Vor einem Zelt, neben einem Brunnen.
 .goto Western Plaguelands,42.67,83.77
 .turnin Skeletal Fragments##5537
 
 #step
-.talk Flint Shadowmore
+.talk Flint Shadowmore##12425
 >>en:In front of the crumbled house.
 >>de:In front of the crumbled house.
 .goto Western Plaguelands,43.61,84.51
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 .accept The Blightcaller Cometh##6186
 
 #step
-.talk Nathaniel Dumah
+.talk Nathaniel Dumah##11616
 .goto Western Plaguelands,43.42,84.84
 .turnin A Plague Upon Thee##5903
 .goto Western Plaguelands,43.42,84.84
@@ -55,7 +55,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,49.29,78.56
 >>Enter the building
-.talk Marlene Redpath
+.talk Marlene Redpath##10927
 >>en:Inside the house, she walks up and down the stairs.
 >>de:Inside the house, she walks up and down the stairs.
 >>Upstairs inside the building.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -88,7 +88,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Sorrow and Hill")
 
 #step
-.click the Temporal Displacer
+.click the Temporal Displacer##12627
 >>Use it near the cylinder structures with blue light shining out of them around this area.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: The parasites evade in water, run to the river if you're overwhelmed
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 >>Leave the building and be careful to avoid the enemies nearby
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 .only subzone("Ruins and of and Andorhal")
 
 #step
-.click Small Lockbox
+.click Small Lockbox##175802
 >>They look like small grey metal chests on the ground inside the crumbled buildings around this area.
 >>There's typically one per ruined building.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -163,7 +163,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,53.60,64.79
 >>Enter the building
-.talk Mulgris Deepriver
+.talk Mulgris Deepriver##10739
 >>en:Laying facedown in the small house.
 >>de:Laying facedown in the small house.
 >>Inside the building.
@@ -174,20 +174,20 @@ LLG.RegisterGuide([[
 .accept Glyphed Oaken Branch##4986
 
 #step
-.kill 1 Cauldron Lord Soulwrath
+.kill 1 Cauldron Lord Soulwrath##11078
 >>He walks around this area.
 .goto Western Plaguelands,62.78,58.75
 .complete 5225,1 >>Collect Gahrron's Withering Cauldron Key
 
 #step
-.click Scourge Cauldron
+.click Scourge Cauldron##176392
 .goto Western Plaguelands,62.56,58.57
 .turnin Target: Gahrron's Withering##5225
 .goto Western Plaguelands,62.56,58.57
 .accept Return to Chillwind Point##5226
 
 #step
-.click Northridge Lumber Mill Crate
+.click Northridge Lumber Mill Crate##177490
 >>Inside the building.
 >>Choose _"Place Termite Barrel on the crate."_
 .click Termite Barrel
@@ -199,7 +199,7 @@ LLG.RegisterGuide([[
 .accept A Plague Upon Thee##6389
 
 #step
-.talk Kirsta Deepshadow
+.talk Kirsta Deepshadow##11610
 >>en:Down the path, deep in the mountains, kneeling by a cart.
 >>de:Down the path, deep in the mountains, kneeling by a cart.
 .goto Western Plaguelands,51.92,28.06
@@ -228,7 +228,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,50.41,29.78
 >>Follow the path
-.talk Kirsta Deepshadow
+.talk Kirsta Deepshadow##11610
 >>en:Down the path, deep in the mountains, kneeling by a cart.
 >>de:Down the path, deep in the mountains, kneeling by a cart.
 .goto Western Plaguelands,51.92,28.06
@@ -252,33 +252,33 @@ LLG.RegisterGuide([[
 >>Pull him away into the road nearby, so you can fight him alone.
 
 #step
-.talk Kirsta Deepshadow
+.talk Kirsta Deepshadow##11610
 >>en:Down the path, deep in the mountains, kneeling by a cart.
 >>de:Down the path, deep in the mountains, kneeling by a cart.
 .goto Western Plaguelands,51.92,28.06
 .turnin Unfinished Business##6023
 
 #step
-.talk High Priestess MacDonnell
+.talk High Priestess MacDonnell##11053
 >>en:Next to a small table and a cart.
 >>de:Next to a small table and a cart.
 .goto Western Plaguelands,42.97,84.50
 .turnin Return to Chillwind Camp##5226
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
 .accept Mission Accomplished!##5237
 
 #step
-.talk Nathaniel Dumah
+.talk Nathaniel Dumah##11616
 .goto Western Plaguelands,43.42,84.83
 .turnin A Plague Upon Thee##6389
 
 #step
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.52,59.77
@@ -303,7 +303,7 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,49.23,74.85
 >>Leave the canyon
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.51,59.77
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Infectis and Scar")
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -322,7 +322,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,55.30,68.12
 >>Enter the building
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Stormwind City,57.66,72.78
@@ -331,7 +331,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,69.08,28.69
 >>Enter Stormwind Keep
-.talk Highlord Bolvar Fordragon
+.talk Highlord Bolvar Fordragon##1748
 >>Inside the building.
 .goto Stormwind City,78.22,17.98
 .turnin The Blightcaller Cometh##6186
@@ -341,7 +341,7 @@ LLG.RegisterGuide([[
 >>Leave Stormwind Keep
 .goto Stormwind City,54.06,59.00
 >>Enter the building
-.talk Auctioneer Jaxon
+.talk Auctioneer Jaxon##15659
 >>Inside the building.
 >>Buy these items from the auction house or collect them from your bank.
 >>You will turn them in for a lot of experience.
@@ -360,33 +360,37 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,44.52,73.91
 >>Enter the building
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Wool##7791
+.only itemcount(2592) >= 60
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Silk##7793
+.only itemcount(4306) >= 60
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Mageweave##7794
+.only itemcount(4338) >= 60
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Runecloth##7795
+.only itemcount(14047) >= 60
 
 #step
 .goto The Barrens,62.08,39.26
 >>Enter the building
-.talk Innkeeper Wiley
+.talk Innkeeper Wiley##6791
 >>Inside the building.
 .goto The Barrens,62.05,39.41
 .hs

@@ -18,13 +18,13 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Hogral Bakkan
+.talk Hogral Bakkan##1234
 .goto Dun Morogh,47.56,52.61
 .accept Road to Salvation##2218
 .only Rogue
 
 #step
-.talk Hulfdan Blackbeard
+.talk Hulfdan Blackbeard##5165
 >>Downstairs inside the building.
 .goto Ironforge,51.94,14.82
 .turnin Road to Salvation##2218
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Onin
+.talk Onin##6886
 >>On top of the platform.
 .goto Dun Morogh,25.16,44.45
 .turnin Simple Subterfugin'##2238
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Hulfdan Blackbeard
+.talk Hulfdan Blackbeard##5165
 >>Downstairs inside the building.
 .goto Ironforge,51.94,14.82
 .turnin Onin's Report##2239
@@ -58,17 +58,18 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Lord Tony Romano
+.talk Lord Tony Romano##13283
 >>Inside the building.
 .goto Stormwind City,78.31,57.04
 .train
+.condition knowspell(1804) >>Train the "Pick Lock" Ability
 .only Rogue
 
 #step
-.talk Gerald Crawley
+.talk Gerald Crawley##3090
 >>Inside the building.
 .goto Redridge Mountains,25.09,41.15
-.kill 1 Thieves' Tools
+.kill 1 Thieves' Tools##5060
 .only Rogue
 
 #step
@@ -89,7 +90,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.14,58.02
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -108,7 +109,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Elwynn Forest,20.73,79.79
 >>Enter Westfall
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.56,52.64
@@ -116,7 +117,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Agent Kearnen
+.talk Agent Kearnen##7024
 .goto Westfall,68.49,70.08
 .turnin Mathias and the Defias##2360
 .goto Westfall,68.49,70.08
@@ -134,7 +135,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,69.97,74.07
 >>Enter the building
-.click Duskwood Chest
+.click Duskwood Chest##123214
 >>Upstairs inside the building.
 >>You will get a debuff after opening it.
 >>Use your "Sap" ability on Klaven Mortwake nearby before clicking the chest.
@@ -151,7 +152,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.14,58.02
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -162,7 +163,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Doc Mixilpixil
+.talk Doc Mixilpixil##7207
 >>Downstairs inside the building.
 .goto Stormwind City,78.04,58.77
 .turnin The Touch of Zanzil##2607
@@ -178,7 +179,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Doc Mixilpixil
+.talk Doc Mixilpixil##7207
 >>Downstairs inside the building.
 .goto Stormwind City,78.04,58.77
 .turnin The Touch of Zanzil##2608
@@ -205,7 +206,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Lord Tony Romano
+.talk Lord Tony Romano##13283
 >>Inside the building.
 .goto Stormwind City,74.60,52.80
 .accept A Simple Request##8233
@@ -220,7 +221,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Alterac Mountains,85.46,79.39
 >>Enter the building
-.talk Lord Jorach Ravenholdt
+.talk Lord Jorach Ravenholdt##6768
 .goto Alterac Mountains,86.03,78.88
 .turnin A Simple Request##8233
 .goto Alterac Mountains,86.03,78.88
@@ -228,7 +229,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.kill 1 Timbermaw Shaman
+.kill 1 Timbermaw Shaman##6188
 >>You can also Pickpocket them.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Azshara,43.77,25.56
@@ -238,7 +239,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Sanath Lim-yo
+.talk Sanath Lim-yo##8395
 >>en:Standing in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Azshara,28.11,50.09
@@ -248,7 +249,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,26.48,44.23
 >>Follow the path up
-.talk Archmage Xylem
+.talk Archmage Xylem##8379
 >>en:He wanders around on the top floor of the tower.
 >>de:He wanders around on the top floor of the tower.
 >>Inside the tower.
@@ -261,7 +262,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,27.04,43.31
 >>Follow the path down
-.talk Nyrill
+.talk Nyrill##8399
 >>en:Standing next to a ring of standing torches.
 >>de:Steht neben einem Ring aus aufgestellten Fackeln.
 .goto Azshara,26.50,46.30
@@ -269,7 +270,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.kill 1 Forest Ooze
+.kill 1 Forest Ooze##8766
 >>Pickpocket them before killing them.
 >>only hardcore :: Kill Mistwing Ravagers if you run out of oozes to kill.
 .goto Azshara,73.40,25.20
@@ -282,7 +283,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Sanath Lim-yo
+.talk Sanath Lim-yo##8395
 >>en:Standing in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Azshara,28.11,50.09
@@ -292,7 +293,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,26.48,44.23
 >>Follow the path up
-.talk Archmage Xylem
+.talk Archmage Xylem##8379
 >>en:He wanders around on the top floor of the tower.
 >>de:He wanders around on the top floor of the tower.
 >>Inside the tower.
@@ -335,7 +336,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar:
-.kill 1 Morphaz
+.kill 1 Morphaz##5719
 >>Refer to the Temple of Atal'Hakkar Dungeon guide to accomplish this.
 .complete 8236,1 >>Collect Azure Key
 .only Rogue
@@ -349,7 +350,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Alterac Mountains,85.46,79.39
 >>Enter the building
-.talk Lord Jorach Ravenholdt
+.talk Lord Jorach Ravenholdt##6768
 .goto Alterac Mountains,86.03,78.88
 .turnin The Azure Key##8236
 .only Rogue

@@ -19,23 +19,23 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Crier Goodman
+.talk Crier Goodman##2198
 >>He's a Human that walks around in a large path around Stormwind.
 .accept A Call to Arms: The Plaguelands!##5091
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.24,24.00
 .accept Broodling Essence##4726
 
 #step
-.click the Draco-Incarcinatrix 900
+.click the Draco-Incarcinatrix 900##12284
 >>Use it on Broodling enemies around this area.
 >>They look like small flying dragons.
 .kill 1 Broodling enemies around this area
-.click Broodling Essence
+.click Broodling Essence##175264
 >>They look like red floating crystals that appear above their corpses after you kill them.
 .goto Burning Steppes,59.26,32.49
 .complete 4726,1 >>Collect 8 Broodling Essence
@@ -48,7 +48,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,63.92,29.88
 >>Follow the path up
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -58,7 +58,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 .accept Chillwind Horns##4809
 
 #step
-.kill 1 Chillwind Ravager
+.kill 1 Chillwind Ravager##7449
 >>They look like chimeras.
 >>They share spawn points with the bears, so kill them too.
 .goto Winterspring,59.97,21.54
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 >>[57.99,14.79]
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -88,21 +88,21 @@ LLG.RegisterGuide([[
 .accept Return to Tinkee##4810
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
 .turnin Return to Tinkee##4810
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
 .accept Tinkee Steamboil##4907
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click the Eggscilloscope Prototype
+.click the Eggscilloscope Prototype##12286
 >>Use it on the eggs in The Rookery, just past Pyroguard Emberseer.
 >>Don't get too close or they will hatch if they aren't frozen.
 .complete 4734,1 >>Test the Eggscilloscope Prototype
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 .complete 4734 >>Click Here to Continue
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -156,11 +156,11 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click the Eggscilloscope Prototype
+.click the Eggscilloscope Prototype##12286
 >>Use it on the eggs in The Rookery, just past Pyroguard Emberseer.
 >>Use it to freeze the eggs.
 >>Don't get too close or they will hatch if they aren't frozen.
-.click the Collectronic Module
+.click the Collectronic Module##12287
 >>Use it to collect the eggs.
 .complete 4735,1 >>Collect 8 Collected Dragon Egg
 
@@ -169,7 +169,7 @@ LLG.RegisterGuide([[
 .complete 4735 >>Click Here to Continue
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -178,7 +178,7 @@ LLG.RegisterGuide([[
 .accept Leonid Barthalomew##5522
 
 #step
-.talk Leonid Barthalomew the Revered
+.talk Leonid Barthalomew the Revered##11036
 >>Inside the building.
 .goto Eastern Plaguelands,81.73,57.83
 .turnin Leonid Barthalomew##5522
@@ -186,7 +186,7 @@ LLG.RegisterGuide([[
 .accept Betina Bigglezink##5531
 
 #step
-.talk Betina Bigglezink
+.talk Betina Bigglezink##11035
 .goto Eastern Plaguelands,81.47,59.65
 .turnin Betina Bigglezink##5531
 .goto Eastern Plaguelands,81.47,59.65
@@ -195,7 +195,7 @@ LLG.RegisterGuide([[
 .accept Dawn's Gambit##4771
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -214,7 +214,7 @@ LLG.RegisterGuide([[
 >>You can find more around [50.64,77.01]
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -225,7 +225,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,49.22,73.14
 >>Cross the bridge
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -244,7 +244,7 @@ LLG.RegisterGuide([[
 .complete 5097,1 >>Mark Tower One
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -253,7 +253,7 @@ LLG.RegisterGuide([[
 .complete 5097,2 >>Mark Tower Two
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -262,7 +262,7 @@ LLG.RegisterGuide([[
 .complete 5097,3 >>Mark Tower Three
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -273,14 +273,14 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
 .accept Scholomance##5533
 
 #step
-.talk Alchemist Arbington
+.talk Alchemist Arbington##11056
 >>en:In front of a tent, next to a well.
 >>de:Vor einem Zelt, neben einem Brunnen.
 .goto Western Plaguelands,42.67,83.77
@@ -301,7 +301,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,46.58,81.33
 >>Follow the path
-.talk Alchemist Arbington
+.talk Alchemist Arbington##11056
 >>en:In front of a tent, next to a well.
 >>de:Vor einem Zelt, neben einem Brunnen.
 .goto Western Plaguelands,42.67,83.77
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Krinkle Goodsteel
+.talk Krinkle Goodsteel##5411
 >>en:Standing next to a forge.
 >>de:Standing next to a forge.
 .goto Tanaris,51.46,28.82
@@ -327,13 +327,13 @@ LLG.RegisterGuide([[
 >>You can also purchase these from the Auction House.
 
 #step
-.click the Skeleton Key Mold
+.click the Skeleton Key Mold##14644
 >>You must be in the lake of lava.
 .goto Un'Goro Crater,48.78,47.19
 .complete 5801,1 >>Collect Unfinished Skeleton Key
 
 #step
-.talk Alchemist Arbington
+.talk Alchemist Arbington##11056
 >>en:In front of a tent, next to a well.
 >>de:Vor einem Zelt, neben einem Brunnen.
 .goto Western Plaguelands,42.67,83.77
@@ -342,9 +342,9 @@ LLG.RegisterGuide([[
 .accept Araj's Scarab##5803
 
 #step
-.kill 1 Araj the Summoner
+.kill 1 Araj the Summoner##1852
 >>You may need help with this.
-.click Araj's Phylactery
+.click Araj's Phylactery##177241
 .goto Western Plaguelands,45.27,69.21
 .complete 5803,1 >>Collect Araj's Scarab
 
@@ -354,19 +354,19 @@ LLG.RegisterGuide([[
 .turnin Araj's Scarab##5803
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.04
 .accept The Key to Scholomance##5505
 
 #step
-.talk Weldon Barov
+.talk Weldon Barov##11023
 .goto Western Plaguelands,43.46,83.73
 .accept Barov Family Fortune##5343
 
 #step
-.talk Eva Sarkhoff
+.talk Eva Sarkhoff##11216
 >>Select _"The pleasure is mine madam. Might I ask what it is that you are doing here?"_
 >>Click through the dialogue.
 .goto Western Plaguelands,70.22,73.72
@@ -379,14 +379,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click The Deed to Southshore
+.click The Deed to Southshore##176486
 >>It looks like an open white scroll laying on a table in the northeastern part of The Reliquary.
 >>After entering the dungeon, follow the path forward to enter The Reliquary.
 .complete 5343,3 >>Collect The Deed to Southshore
 
 #step
 >>Inside the Scholomance Dungeon:
-.click The Deed to Tarren Mill
+.click The Deed to Tarren Mill##176487
 >>It looks like an open white scroll laying on a table to the left as you enter The Great Ossuary.
 >>Proceed through the Iron Gate on the north side of The Reliquary to reach the Chamber of Summoning.
 >>Continue straight through the dungeon to reach The Great Ossuary.
@@ -399,7 +399,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.kill 1 Rattlegore
+.kill 1 Rattlegore##11622
 >>He is downstairs inside The Great Ossuary.
 >>Jump down into one of the holes on the sides of the room to reach the lower level.
 .complete 5343 >>Collect Viewing Room Key
@@ -408,7 +408,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click the Dawn's Gambit
+.click the Dawn's Gambit##12368
 >>Use it in The Viewing Room.
 >>Go back upstairs after killing Rattlegore and head north in The Great Ossuary to return to the previous room (the map will just say Scholomance).
 >>Go right through the Iron Gate, clear the room and open the Viewing Room Door using the key.
@@ -417,13 +417,13 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.kill 1 Vectus
+.kill 1 Vectus##10432
 >>In the Viewing room.
 .complete 4771,2 >>Slay Vectus
 
 #step
 >>Inside the Scholomance Dungeon:
-.click The Deed to Brill
+.click The Deed to Brill##176484
 >>It looks like an open white scroll sitting on a ledge near the boss on the southwestern part of The Laboratory.
 >>Run back up the stairs to return to The Viewing Room.
 >>Go through the Iron Gate on the south side of The Viewing Room and go down the stairs to reach The Laboratory.
@@ -431,7 +431,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click Remains of Eva Sarkhoff
+.click Remains of Eva Sarkhoff##176544
 >>They look like a pile of bloodied bones in the northern part of the room with Doctor Theolen Krastinov.
 >>Go through the Iron Gate on the eastern side of The Viewing Room and go down the stairs to reach the Headmaster's Study.
 >>Staying on the upper level of the Headmaster's Study, head around the outside of the room and enter the room across from the entrance on the eastern side.
@@ -439,7 +439,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click Remains of Lucien Sarkhoff
+.click Remains of Lucien Sarkhoff##176545
 >>They look like a pile of bloodied bones in the southeastern part of the room with Doctor Theolen Krastinov.
 .complete 5382,3 >>Burn the Remains of Lucien Sarkhoff
 
@@ -449,7 +449,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click The Deed to Caer Darrow
+.click The Deed to Caer Darrow##176485
 >>It looks like an open white scroll laying on a table on the eastern side of the Barov Family Vault.
 >>Return to the Headmaster's Study and jump down, then turn around and enter the eastern room to reach the Barov Family Vault.
 .complete 5343,2 >>Collect The Deed to Caer Darrow
@@ -459,19 +459,19 @@ LLG.RegisterGuide([[
 .complete 5343 >>Click Here to Continue
 
 #step
-.talk Eva Sarkhoff
+.talk Eva Sarkhoff##11216
 .goto Western Plaguelands,70.22,73.72
 .turnin Doctor Theolen Krastinov, the Butcher##5382
 .goto Western Plaguelands,70.22,73.72
 .accept Krastinov's Bag of Horrors##5515
 
 #step
-.talk Weldon Barov
+.talk Weldon Barov##11023
 .goto Western Plaguelands,43.46,83.73
 .turnin Barov Family Fortune##5343
 
 #step
-.talk Betina Bigglezink
+.talk Betina Bigglezink##11035
 .goto Eastern Plaguelands,81.47,59.66
 .turnin Plagued Hatchlings##5529
 >>This will unlock the next quest, which drops from inside Scholomance.
@@ -485,7 +485,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.kill 1 Jandice Barov
+.kill 1 Jandice Barov##10503
 >>After entering the dungeon, follow the path forward to enter The Reliquary.
 >>Go left and proceed through the Iron Gate on the north side of the room to reach the Chamber of Summoning.
 >>Proceed into the next main room and then follow the path to the right and go down the stairs.
@@ -494,11 +494,11 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.kill 1 Plagued Hatchling
+.kill 1 Plagued Hatchling##10678
 .collect Healthy Dragon Scale,1
 
 #step
-.click the Healthy Dragon Scale
+.click the Healthy Dragon Scale##13920
 .accept Healthy Dragon Scale##5582
 
 #step
@@ -506,14 +506,14 @@ LLG.RegisterGuide([[
 .complete 5515 >>Click Here to Continue
 
 #step
-.talk Eva Sarkhoff
+.talk Eva Sarkhoff##11216
 .goto Western Plaguelands,70.22,73.72
 .turnin Krastinov's Bag of Horrors##5515
 .goto Western Plaguelands,70.22,73.72
 .accept Kirtonos the Herald##5384
 
 #step
-.talk Betina Bigglezink
+.talk Betina Bigglezink##11035
 .goto Eastern Plaguelands,81.47,59.66
 .turnin Healthy Dragon Scale##5582
 
@@ -537,7 +537,7 @@ LLG.RegisterGuide([[
 .complete 5384 >>Click Here to Continue
 
 #step
-.talk Eva Sarkhoff
+.talk Eva Sarkhoff##11216
 .goto Western Plaguelands,70.22,73.72
 .turnin Kirtonos the Herald##5384
 
@@ -546,24 +546,24 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.click the Spectral Essence
+.click the Spectral Essence##13544
 >>Equip the Spectral Essence
-.talk Magistrate Marduke
+.talk Magistrate Marduke##11286
 >>You must have the Spectral Essence equipped to see him.
 .goto Western Plaguelands,70.57,74.11
 .accept The Human, Ras Frostwhisper##5461
 
 #step
-.click Keepsake of Remembrance
+.click Keepsake of Remembrance##176630
 >>At the top of the tower.
 >>If it's not there, check in the fireplaces of nearby buildings.
 .goto Arathi Highlands,17.91,69.41
 .complete 5461,1 >>Collect Keepsake of Remembrance
 
 #step
-.click the Spectral Essence
+.click the Spectral Essence##13544
 >>Equip the Spectral Essence
-.talk Magistrate Marduke
+.talk Magistrate Marduke##11286
 >>You must have the Spectral Essence equipped to see him.
 .goto Western Plaguelands,70.57,74.11
 .turnin The Human, Ras Frostwhisper##5461
@@ -571,7 +571,7 @@ LLG.RegisterGuide([[
 .accept The Dying, Ras Frostwhisper##5462
 
 #step
-.talk Leonid Barthalomew the Revered
+.talk Leonid Barthalomew the Revered##11036
 >>Inside the building.
 .goto Eastern Plaguelands,81.72,57.83
 .turnin The Dying, Ras Frostwhisper##5462
@@ -587,7 +587,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Stratholme - Undead Dungeon:
-.click Menethil's Gift
+.click Menethil's Gift##176631
 >>It looks like a large orange circular symbol on the floor in the room with Baron Rivendare.
 >>Follow the path north and then east through the two Gauntlet Gates to reach the Gauntlet.
 >>This requires the Key to the City or a Rogue with leveled lockpicking to open.
@@ -601,7 +601,7 @@ LLG.RegisterGuide([[
 .complete 5464 >>Click Here to Continue
 
 #step
-.talk Leonid Barthalomew the Revered
+.talk Leonid Barthalomew the Revered##11036
 >>Inside the building.
 .goto Eastern Plaguelands,81.72,57.83
 .turnin Menethil's Gift##5463
@@ -609,9 +609,9 @@ LLG.RegisterGuide([[
 .accept Soulbound Keepsake##5465
 
 #step
-.click the Spectral Essence
+.click the Spectral Essence##13544
 >>Equip the Spectral Essence
-.talk Magistrate Marduke
+.talk Magistrate Marduke##11286
 >>You must have the Spectral Essence equipped to see him.
 .goto Western Plaguelands,70.57,74.11
 .turnin Soulbound Keepsake##5465
@@ -625,7 +625,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.kill 1 Rattlegore
+.kill 1 Rattlegore##11622
 >>After entering the dungeon, follow the path forward to enter The Reliquary.
 >>Go left and proceed through the Iron Gate on the north side of the room to reach the Chamber of Summoning.
 >>Continue straight through the dungeon to reach The Great Ossuary.
@@ -636,9 +636,9 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click the Soulbound Keepsake
+.click the Soulbound Keepsake##13752
 >>Use it on Ras Frostwhisper.
-.kill 1 Ras Frostwhisper
+.kill 1 Ras Frostwhisper##10508
 >>He is inside The Laboratory.
 >>Go back upstairs after killing Rattlegore and head north in The Great Ossuary to return to the previous room (the map will just say Scholomance).
 >>Go right through the Iron Gate, clear the room and open the Viewing Room Door using the key.
@@ -650,9 +650,9 @@ LLG.RegisterGuide([[
 .complete 5466 >>Click Here to Continue
 
 #step
-.click the Spectral Essence
+.click the Spectral Essence##13544
 >>Equip the Spectral Essence
-.talk Magistrate Marduke
+.talk Magistrate Marduke##11286
 >>You must have the Spectral Essence equipped to see him.
 .goto Western Plaguelands,70.57,74.11
 .turnin The Lich, Ras Frostwhisper##5466

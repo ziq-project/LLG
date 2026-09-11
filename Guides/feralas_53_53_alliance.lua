@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Fahran Silentblade
+.talk Fahran Silentblade##3969
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -25,14 +25,14 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Pratt McGrubben
+.talk Pratt McGrubben##7852
 >>en:In a dark gazeebo next to the water.
 >>de:In einem dunklen Pavillon neben dem Wasser.
 .goto Feralas,30.63,42.71
 .accept Improved Quality##7733
 
 #step
-.talk Innkeeper Shyria
+.talk Innkeeper Shyria##7736
 >>en:Inside the inn, behind the desk.
 >>de:Inside the inn, behind the desk.
 >>Inside the building.
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .hs
 
 #step
-.talk Troyas Moonbreeze
+.talk Troyas Moonbreeze##7764
 >>en:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>de:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>Inside the building.
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Troyas Moonbreeze
+.talk Troyas Moonbreeze##7764
 >>en:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>de:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>Inside the building.
@@ -59,7 +59,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,31.03,39.92
 >>Run onto the dock and ride the boat or swim across the water
-.talk Zorbin Fandazzle
+.talk Zorbin Fandazzle##14637
 >>en:Standing in a small camp under a green canopy, next to a spinning metal thing.
 >>de:Standing in a small camp under a green canopy, next to a spinning metal thing.
 .goto Feralas,44.81,43.42
@@ -69,13 +69,13 @@ LLG.RegisterGuide([[
 .only walking and subzone("Feathermoon and Stronghold")
 
 #step
-.click Zorbin's Ultra-Shrinker
+.click Zorbin's Ultra-Shrinker##18904
 >>Use it on Wave Striders around this area.
 >>They look like tall green giants that walks on the shore and in the water around this area.
 >>This quest item only lasts for 2 hours.
 >>If you need a new one, abandon the quest and accept it again from the goblin in the previous guide step.
 >>only hardcore :: Watch out for the water elementals here as they are immune to frost damage.
-.kill 1 Zapped Wave Strider
+.kill 1 Zapped Wave Strider##14638
 .goto Feralas,44.38,50.11
 .complete 7003,1 >>Collect 15 Miniaturization Residue
 >>You can find more around:
@@ -96,7 +96,7 @@ LLG.RegisterGuide([[
 >>[40.71,37.59]
 
 #step
-.talk Zorbin Fandazzle
+.talk Zorbin Fandazzle##14637
 >>en:Standing in a small camp under a green canopy, next to a spinning metal thing.
 >>de:Standing in a small camp under a green canopy, next to a spinning metal thing.
 .goto Feralas,44.81,43.42
@@ -134,15 +134,15 @@ LLG.RegisterGuide([[
 >>Inside and outside the cave.
 .goto Feralas,53.17,31.82
 .collect Pristine Yeti Hide,1
->>You can also get this item by skinning enemies.
+>>only skill('Skinning') > 0 :: You can also get this item by skinning enemies.
 
 #step
-.click Pristine Yeti Hide
+.click Pristine Yeti Hide##18969
 .goto Feralas,42.38,22.00
 .accept Pristine Yeti Hide##7735
 
 #step
-.talk Rockbiter
+.talk Rockbiter##7765
 >>en:In a small camp next to a bonfire.
 >>de:In a small camp next to a bonfire.
 .goto Feralas,42.38,22.00
@@ -151,7 +151,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,44.62,9.81
 >>Jump onto this break in the wall from the nearby ledge
-.click Evoroot
+.click Evoroot##164798
 >>Inside the building.
 .goto Feralas,44.55,10.13
 .complete 3909 >>Collect Evoroot
@@ -172,31 +172,31 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Flame of Imbel
+.click Flame of Imbel##142187
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Feralas,39.93,9.44
 .complete 2879 >>Collect Imbel Essence
 
 #step
-.click Flame of Lahassa
+.click Flame of Lahassa##142186
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Feralas,37.76,12.17
 .complete 2879 >>Collect Lahassa Essence
 
 #step
-.click Flame of Byltan
+.click Flame of Byltan##142185
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Feralas,38.50,15.80
 .complete 2879 >>Collect Byltan Essence
 
 #step
-.click Troyas' Stave
+.click Troyas' Stave##9263
 .goto Feralas,38.87,13.23
 .complete 2879,1 >>Collect Stave of Equinex
 
 #step
-.click Equinex Monolith
-.click Stave of Equinex
+.click Equinex Monolith##144063
+.click Stave of Equinex##9306
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Feralas,38.87,13.23
 .turnin The Stave of Equinex##2879
@@ -206,7 +206,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,39.94,13.34
 >>Follow the path up
-.talk Shay Leafrunner
+.talk Shay Leafrunner##7774
 >>en:Standing in a white gazeebo, next to a small chest.
 >>de:Standing in a white gazeebo, next to a small chest.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -217,13 +217,13 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Shay's Chest
+.click Shay's Chest##144054
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Feralas,38.25,10.29
 .complete 2845,1 >>Collect Shay's Bell
 
 #step
-.click Shay's Bell
+.click Shay's Bell##9189
 >>Shay Leafrunner will follow you.
 >>Protect her as you walk.
 >>She will sometimes wander off and stop following you.
@@ -234,21 +234,21 @@ LLG.RegisterGuide([[
 .complete 2845,2 >>Take Shay Leafrunner to Rockbiter's Camp
 
 #step
-.talk Rockbiter
+.talk Rockbiter##7765
 >>en:In a small camp next to a bonfire.
 >>de:In a small camp next to a bonfire.
 .goto Feralas,42.38,22.00
 .turnin Wandering Shay##2845
 
 #step
-.talk Gregan Brewspewer
+.talk Gregan Brewspewer##7775
 >>en:Standing in a small camp, up on a big hill, next to a white tent and a bonfire.
 >>de:Standing in a small camp, up on a big hill, next to a white tent and a bonfire.
 .goto Feralas,45.12,25.57
 .turnin A Visit to Gregan##4142
 
 #step
-.talk Gregan Brewspewer
+.talk Gregan Brewspewer##7775
 >>en:Standing in a small camp, up on a big hill, next to a white tent and a bonfire.
 >>de:Standing in a small camp, up on a big hill, next to a white tent and a bonfire.
 >>Complete the repeatable "The Videre Elixir" quest.
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 >>Grind XP Until You Can Hearth to Feathermoon Stronghold
 
 #step
-.talk Pratt McGrubben
+.talk Pratt McGrubben##7852
 >>en:In a dark gazeebo next to the water.
 >>de:In einem dunklen Pavillon neben dem Wasser.
 .goto Feralas,30.63,42.71
@@ -276,7 +276,7 @@ LLG.RegisterGuide([[
 .turnin Pristine Yeti Hide##7735
 
 #step
-.talk Troyas Moonbreeze
+.talk Troyas Moonbreeze##7764
 >>en:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>de:On the first floor of the house, next to a bookcase and a table with a purple candle on it.
 >>Inside the building.

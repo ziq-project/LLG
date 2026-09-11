@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 >>[33.17,48.05]
 
 #step
-.kill 1 Marcel Dabyrie
+.kill 1 Marcel Dabyrie##4481
 >>only hardcore :: Avoid the Alliance guards near Refuge Camp while running here.
 >>Inside the building.
 >>If you have trouble, try to find someone to help you.
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 .complete 1164,2 >>Collect Marcel's Head
 
 #step
-.kill 1 Fardel Dabyrie
+.kill 1 Fardel Dabyrie##4479
 >>If you have trouble, try to find someone to help you.
 >>He can spawn in multiple locations.
 .goto Arathi Highlands,56.54,38.70
@@ -52,7 +52,7 @@ LLG.RegisterGuide([[
 >>[56.73,40.36]
 
 #step
-.kill 1 Kenata Dabyrie
+.kill 1 Kenata Dabyrie##4480
 >>Inside the building.
 >>If you have trouble, try to find someone to help you.
 .goto Arathi Highlands,56.37,36.08
@@ -61,7 +61,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,73.46,30.45
 >>Enter Hammerfall
-.talk Urda
+.talk Urda##2851
 >>en:Standing up on a balcony, next to a white canopy.
 >>de:Steht oben auf einem Balkon neben einem weissen Baldachin.
 .goto Arathi Highlands,73.06,32.68
@@ -69,7 +69,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tharlidun
+.talk Tharlidun##9976
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 5".
 .goto Arathi Highlands,73.93,33.13
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Drum Fel
+.talk Drum Fel##2771
 >>en:Standing up on a balcony, next to bloody table.
 >>de:Steht oben auf einem Balkon, neben einem blutigen Tisch.
 .goto Arathi Highlands,74.24,33.91
@@ -86,7 +86,7 @@ LLG.RegisterGuide([[
 .accept Call to Arms##677
 
 #step
-.talk Gor'mul
+.talk Gor'mul##2792
 >>en:Standing in the middle of a bunch of steel cages.
 >>de:Steht inmitten vieler Stahlkäfige.
 >>He walks around this area.
@@ -94,7 +94,7 @@ LLG.RegisterGuide([[
 .accept Hammerfall##655
 
 #step
-.talk Tor'gan
+.talk Tor'gan##2706
 >>en:Standing in front of a fence, next to a wagon.
 >>de:Steht vor einem Zaun, neben einem Wagen.
 .goto Arathi Highlands,74.71,36.29
@@ -117,7 +117,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Tharlidun
+.talk Tharlidun##9976
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 5" to your permanent pet.
 .goto Arathi Highlands,73.93,33.13
@@ -186,7 +186,7 @@ LLG.RegisterGuide([[
 >>[68.04,35.31]
 
 #step
-.talk Tor'gan
+.talk Tor'gan##2706
 >>en:Standing in front of a fence, next to a wagon.
 >>de:Steht vor einem Zaun, neben einem Wagen.
 .goto Arathi Highlands,74.71,36.29
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 .accept Raising Spirits##674
 
 #step
-.talk Gor'mul
+.talk Gor'mul##2792
 >>en:Standing in the middle of a bunch of steel cages.
 >>de:Steht inmitten vieler Stahlkäfige.
 >>He walks around this area.
@@ -207,7 +207,7 @@ LLG.RegisterGuide([[
 .accept Raising Spirits##675
 
 #step
-.talk Tor'gan
+.talk Tor'gan##2706
 >>en:Standing in front of a fence, next to a wagon.
 >>de:Steht vor einem Zaun, neben einem Wagen.
 .goto Arathi Highlands,74.71,36.29
@@ -216,7 +216,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,73.49,34.09
 >>Run up the stairs
-.talk Drum Fel
+.talk Drum Fel##2771
 >>en:Standing up on a balcony, next to bloody table.
 >>de:Steht oben auf einem Balkon, neben einem blutigen Tisch.
 .goto Arathi Highlands,74.24,33.91
@@ -226,7 +226,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.49,19.43
 >>Enter the building
-.talk Apothecary Lydon
+.talk Apothecary Lydon##2216
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -236,14 +236,14 @@ LLG.RegisterGuide([[
 .accept Elixir of Agony##513
 
 #step
-.talk Genavie Callow
+.talk Genavie Callow##4486
 >>en:On the top floor of Undercity.
 >>de:On the top floor of Undercity.
 .goto Undercity,63.84,49.45
 .turnin To Steal From Thieves##1164
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Collect these items from the bank.
 .goto Undercity,65.97,44.75
 .complete 1112 >>Collect Kravel's Parts
@@ -253,7 +253,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.84,77.63
 >>Follow the path down
-.talk Master Apothecary Faranell
+.talk Master Apothecary Faranell##2055
 >>en:He's standing at the bottom of the Apothecarium next to a chopped up Abomination.
 >>de:Er steht ganz unten im Apothekarium neben einer zerlegten Monstrosität.
 .goto Undercity,48.82,69.28

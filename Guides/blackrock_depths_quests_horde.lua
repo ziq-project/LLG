@@ -21,7 +21,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,66.99,23.87
 >>Enter the building
-.talk Yorba Screwspigot
+.talk Yorba Screwspigot##9706
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -33,14 +33,14 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Undercity,51.16,80.26
 >>Follow the path down
-.talk Apothecary Zinge
+.talk Apothecary Zinge##5204
 >>en:Standing against the back wall in the big underground room.
 >>de:Standing against the back wall in the big underground room.
 .goto Undercity,50.14,67.99
 .accept Vivian Lagrave##4133
 
 #step
-.talk Shadowmage Vivian Lagrave
+.talk Shadowmage Vivian Lagrave##9078
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Badlands,2.89,47.76
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 .accept Lost Thunderbrew Recipe##4134
 
 #step
-.talk Thunderheart
+.talk Thunderheart##9084
 >>He will sometimes go out on patrol.
 >>Do not click him until he stops near this spot or you might attack him.
 >>Wait for him to reapper in Kargath.
@@ -57,26 +57,26 @@ LLG.RegisterGuide([[
 .accept Disharmony of Flame##3906
 
 #step
-.click WANTED
+.click WANTED##164867
 .goto Badlands,3.77,47.47
 .accept KILL ON SIGHT: Dark Iron Dwarves##4081
 
 #step
-.talk Hierophant Theodora Mulvadania
+.talk Hierophant Theodora Mulvadania##9079
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Badlands,3.03,47.81
 .accept The Rise of the Machines##4061
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
 .accept Divine Retribution##3441
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 >>Select _"Tell me what drives this vengeance?"_
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 .complete 3441,1 >>Listen to Kalaran's Story
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 >>[31.52,72.23]
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -153,7 +153,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Searing Gorge,65.38,34.61
 >>Follow the path
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.06,38.99
@@ -181,7 +181,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,26.48,34.56
 >>Follow the path
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -196,7 +196,7 @@ LLG.RegisterGuide([[
 .complete 3453,1 >>Witness the Creation of the Torch
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -205,19 +205,19 @@ LLG.RegisterGuide([[
 .accept The Torch of Retribution##3454
 
 #step
-.click Torch of Retribution
+.click Torch of Retribution##149047
 .goto Searing Gorge,39.06,39.06
 .turnin The Torch of Retribution##3454
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,39.00
 .accept Squire Maltrake##3462
 
 #step
-.talk Squire Maltrake
+.talk Squire Maltrake##8509
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.16,38.99
@@ -230,7 +230,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Searing Gorge,33.50,53.64
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149032
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -241,7 +241,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,35.92,59.85
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149025
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -256,7 +256,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Searing Gorge,44.10,61.85
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149030
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -269,7 +269,7 @@ LLG.RegisterGuide([[
 >>Cross the hanging bridge
 .goto Searing Gorge,50.19,55.61
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149031
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -282,7 +282,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Searing Gorge,66.79,34.56
 >>Continue following the path
-.talk Squire Maltrake
+.talk Squire Maltrake##8509
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.17,39.00
@@ -291,12 +291,12 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.click Hoard of the Black Dragonflight
+.click Hoard of the Black Dragonflight##149502
 .goto Searing Gorge,38.86,38.99
 .accept Trinkets...##3481
 
 #step
-.click Hoard of the Black Dragonflight
+.click Hoard of the Black Dragonflight##149502
 .goto Searing Gorge,38.86,38.99
 .turnin Trinkets...##3481
 >>Save the Hoard of the Black Dragonflight for later.
@@ -308,7 +308,7 @@ LLG.RegisterGuide([[
 >>You can find more around [69.20,37.33]
 
 #step
-.talk Maxwort Uberglint
+.talk Maxwort Uberglint##9536
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.15,23.91
@@ -317,7 +317,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,65.65,22.68
 >>Enter the cave
-.talk Yuka Screwspigot
+.talk Yuka Screwspigot##9544
 >>en:Standing inside the cave.
 >>de:Standing inside the cave.
 >>Inside the cave.
@@ -329,7 +329,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,94.43,31.86
 >>Enter the cave
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -337,11 +337,11 @@ LLG.RegisterGuide([[
 .accept A Taste of Flame##4022
 
 #step
-.click the Hoard of the Black Dragonflight
+.click the Hoard of the Black Dragonflight##10569
 .complete 4022,1 >>Collect Black Dragonflight Molt
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -351,7 +351,7 @@ LLG.RegisterGuide([[
 .accept A Taste of Flame##4024
 
 #step
-.talk Hierophant Theodora Mulvadania
+.talk Hierophant Theodora Mulvadania##9079
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Badlands,3.03,47.81
@@ -360,7 +360,7 @@ LLG.RegisterGuide([[
 .accept The Rise of the Machines##4062
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -372,7 +372,7 @@ LLG.RegisterGuide([[
 .goto Searing Gorge,34.80,85.37
 >>Enter Blackrock Mountain
 .goto Searing Gorge,34.62,95.45
->>Jump into the lava
+.condition isdead >>Jump into the lava
 >>You will need to be dead to talk to the next quest giver.
 
 #step
@@ -384,14 +384,14 @@ LLG.RegisterGuide([[
 >>Run up the chain
 .goto Searing Gorge,36.06,98.76
 >>Enter the building
-.talk Franclorn Forgewright
+.talk Franclorn Forgewright##8888
 >>You must be dead to talk to him.
 .goto Searing Gorge,35.50,100.38
 .accept Dark Iron Legacy##3801
 .only walking
 
 #step
-.talk Franclorn Forgewright
+.talk Franclorn Forgewright##8888
 >>You must be dead to talk to him.
 .goto Searing Gorge,35.50,100.38
 .turnin Dark Iron Legacy##3801
@@ -415,7 +415,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 Fineous Darkvire
+.kill 1 Fineous Darkvire##9056
 >>After entering the dungeon, proceed east through the Detention Block and then turn left after reaching the Halls of the Law to start the Ring of the Law event.
 >>Complete the event and then exit through the west gate to enter the Eastern Garrison, immediately take a sharp right and go up the stairs to reach the upper level of the arena.
 >>Follow the path around the arena and go down the ramp on the other side, go left and across the bridge to The Domicile.
@@ -426,26 +426,26 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.click Monument of Franclorn Forgewright
+.click Monument of Franclorn Forgewright##164689
 >>Retrace your steps back through the Hall of Crafting, Shadowforge City and The Domicile to cross the bridge and reach the Shrine of Thaurissan.
 >>Continue straight until you reach the deadend with the Monument of Franclorn Forgewright sitting against the far wall.
 .turnin Dark Iron Legacy##3802
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 Bael'Gar
+.kill 1 Bael'Gar##9016
 >>Turn around and cross the bridge in Shadowforge City to once again reach The Domicile.
 >>Follow the same path as before to reach the Hall of Crafting where you killed Fineous Darkvire.
 >>Continue down through the Hall of Crafting's lower level to reach the boss Lord Incendius.
 >>Defeat him and keep going to reach the Dark Iron Highway.
 >>Bael'Gar is at the very end of the Dark Iron Highway.
-.click the Altered Black Dragonflight Molt
+.click the Altered Black Dragonflight Molt##11231
 >>Use it on Bael'Gars corpse.
 .complete 4024,1 >>Collect Encased Fiery Essence
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 Golem Lord Argelmach
+.kill 1 Golem Lord Argelmach##8983
 >>Run back down the Dark Iron Highway, take the first right and unlock the gate on your left.
 >>Unlock the first door on your left to enter East Garrison.
 >>In the lower part of this room, click the Shadowforge Lock, then run up the two sets of stairs and follow the hallway on the left just before the third set of stairs.
@@ -454,25 +454,25 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Mistress Nagmara
+.talk Mistress Nagmara##9500
 >>Turn around to leave The Manufactory, but go left instead and follow the path to reach The Grim Guzzler.
 >>She walks around the Grim Guzzler.
 .accept The Love Potion##4201
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Ribbly Screwspigot
+.talk Ribbly Screwspigot##9543
 >>He's at the bottom level of the Grim Guzzler.
 >>Select _"Your family says hello, Ribbly. And they want your head!"_
-.kill 1 Ribbly Screwspigot
+.kill 1 Ribbly Screwspigot##9543
 .complete 4136,1 >>Collect Ribbly's Head
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.click Thunderbrew Lager Keg
+.click Thunderbrew Lager Keg##164911
 >>They look like wooden kegs sitting in a side room in the lower section of The Grim Guzzler.
 >>Destroy all three kegs to spawn Hurley Blackbreath.
-.kill 1 Hurley Blackbreath
+.kill 1 Hurley Blackbreath##9537
 .complete 4134,1 >>Collect Lost Thunderbrew Recipe
 
 #step
@@ -503,9 +503,9 @@ LLG.RegisterGuide([[
 .click Relic Coffer Door
 >>Open all 12 of them inside of the Black Vault after clearing the room.
 >>Proceed back through The Domicile to reach the Shadowforge City, then take the first door on the right to enter The Black Vault.
-.kill 1 Watchman Doomgrip
+.kill 1 Watchman Doomgrip##9476
 >>He will spawn once all 12 Relic Coffer Doors have been opened.
-.click Heart of the Mountain
+.click Heart of the Mountain##165554
 >>It looks like a small red crystal sitting on a purple pillow against the wall underneath the Dark Coffer.
 .complete 4123,1 >>Collect The Heart of the Mountain
 
@@ -514,7 +514,7 @@ LLG.RegisterGuide([[
 .complete 4123 >>Click Here to Continue
 
 #step
-.talk Maxwort Uberglint
+.talk Maxwort Uberglint##9536
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.15,23.91
@@ -523,7 +523,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,65.65,22.68
 >>Enter the cave
-.talk Yuka Screwspigot
+.talk Yuka Screwspigot##9544
 >>en:Standing inside the cave.
 >>de:Standing inside the cave.
 >>Inside the cave.
@@ -533,7 +533,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,94.43,31.86
 >>Enter the cave
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -563,14 +563,14 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,31.19,51.48
 >>Follow the path up
-.click Nagmara's Vial
+.click Nagmara's Vial##11412
 >>You must be in the water.
 .goto Un'Goro Crater,31.99,50.01
 .complete 4201,3 >>Collect Nagmara's Filled Vial
 .only walking
 
 #step
-.talk Thunderheart
+.talk Thunderheart##9084
 >>He will sometimes go out on patrol.
 >>Do not click him until he stops near this spot or you might attack him.
 >>Wait for him to reapper in Kargath.
@@ -580,25 +580,25 @@ LLG.RegisterGuide([[
 .accept Disharmony of Fire##3907
 
 #step
-.talk Shadowmage Vivian Lagrave
+.talk Shadowmage Vivian Lagrave##9078
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Badlands,2.89,47.76
 .turnin Lost Thunderbrew Recipe##4134
 
 #step
-.talk Warlord Goretooth
+.talk Warlord Goretooth##9077
 >>At the top of the tower.
 .goto Badlands,5.83,47.52
 .turnin KILL ON SIGHT: Dark Iron Dwarves##4081
 
 #step
-.click KILL ON SIGHT
+.click KILL ON SIGHT##164868
 .goto Badlands,3.97,46.76
 .accept KILL ON SIGHT: High Ranking Dark Iron Officials##4082
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -622,12 +622,12 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 Lord Incendius
+.kill 1 Lord Incendius##9017
 .complete 3907,2 >>Collect Tablet of Kurniya
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Mistress Nagmara
+.talk Mistress Nagmara##9500
 >>She walks around The Grim Guzzler.
 >>Go back through the Dark Iron Highway and go left to enter the Detention Block.
 >>Go through the Shadowforge Gate and then through the East Garrison Door.
@@ -653,7 +653,7 @@ LLG.RegisterGuide([[
 .complete 4082 >>Click Here to Continue
 
 #step
-.talk Thunderheart
+.talk Thunderheart##9084
 >>He will sometimes go out on patrol.
 >>Do not click him until he stops near this spot or you might attack him.
 >>Wait for him to reapper in Kargath.
@@ -661,13 +661,13 @@ LLG.RegisterGuide([[
 .turnin Disharmony of Fire##3907
 
 #step
-.talk Galamav the Marksman
+.talk Galamav the Marksman##9081
 >>At the top of the tower.
 .goto Badlands,5.95,47.75
 .accept Commander Gor'shak##3981
 
 #step
-.talk Warlord Goretooth
+.talk Warlord Goretooth##9077
 >>At the top of the tower.
 .goto Badlands,5.83,47.52
 .turnin KILL ON SIGHT: High Ranking Dark Iron Officials##4082
@@ -690,7 +690,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 High Interrogator Gerstahn
+.kill 1 High Interrogator Gerstahn##9018
 >>After entering the dungeon, go straight into the Detention Block and then take the first right.
 >>Follow this path around until you can go left into a room at the back of this long hallway.
 .collect Prison Cell Key,1
@@ -700,7 +700,7 @@ LLG.RegisterGuide([[
 .click Cell Door
 >>Leave the room with High Interrogator Gerstahn and continue left through the tunnel.
 >>While in the tunnel, open the first interactable Cell Door on the left.
-.talk Commander Gor'shak
+.talk Commander Gor'shak##9020
 .turnin Commander Gor'shak##3981
 .accept What Is Going On?##3982
 >>Clear the enemies around the cell before accepting this quest.
@@ -714,7 +714,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Commander Gor'shak
+.talk Commander Gor'shak##9020
 .turnin What Is Going On?##3982
 .accept What Is Going On?##4001
 
@@ -723,7 +723,7 @@ LLG.RegisterGuide([[
 .click Cell Door
 >>Exit the cell and cross the hallway.
 >>Open the first cell door on the left.
-.talk Kharan Mighthammer
+.talk Kharan Mighthammer##9021
 >>Select _"I need to know where the princess are, Kharan!"_
 .complete 4001,1 >>Gather Information from Kharan
 
@@ -734,7 +734,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.09,36.93
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -744,7 +744,7 @@ LLG.RegisterGuide([[
 .accept The Eastern Kingdom##4002
 
 #step
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -771,7 +771,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 Emperor Dagran Thaurissan
+.kill 1 Emperor Dagran Thaurissan##9019
 >>Don't kill Princess Moira Bronzebeard during the encounter.
 >>Interrupt her heals otherwise the encounter will be complicated.
 >>You will not be able to turn in the quest if you kill her.
@@ -789,7 +789,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Princess Moira Bronzebeard
+.talk Princess Moira Bronzebeard##8929
 >>She is in the room where Emperor Dagran Thaurissan was.
 .turnin The Royal Rescue##4003
 .accept The Princess Saved?##4004
@@ -801,7 +801,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.09,36.93
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.

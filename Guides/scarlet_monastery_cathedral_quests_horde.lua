@@ -21,7 +21,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.15,64.37
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.20
 .accept Into The Scarlet Monastery##1048
 .only walking
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.15,64.37
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.20
 .turnin Into The Scarlet Monastery##1048
 .only walking

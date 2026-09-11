@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Grull Hawkwind
+.talk Grull Hawkwind##2980
 >>de:Steht in der Mitte des Lagers, neben einem rauchenden Iglu-artigen Gebilde.
 .goto Mulgore,44.87,77.08
 .accept The Hunt Begins##747
@@ -30,14 +30,14 @@ LLG.RegisterGuide([[
 .only Warrior or Shaman
 
 #step
-.talk Kawnie Softbreeze
+.talk Kawnie Softbreeze##3072
 >>Acquire 10 copper, sell your armor if you have to.
 .goto Mulgore,45.29,76.52
 >>Visit the Vendor
 .only Warrior or Shaman
 
 #step
-.talk Meela Dawnstrider
+.talk Meela Dawnstrider##3062
 >>en:Standing in a teepee house.
 >>de:Steht in einem Tipi-Haus.
 >>Inside the building.
@@ -47,7 +47,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Harutt Thunderhorn
+.talk Harutt Thunderhorn##3059
 >>Inside the building.
 >>You will need 10 copper to learn this spell.
 >>Select _"I require warrior training."_
@@ -58,14 +58,14 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,44.32,76.21
 >>Enter the building
-.talk Chief Hawkwind
+.talk Chief Hawkwind##2981
 >>de:Steht im Langhaus.
 >>Inside the building.
 .goto Mulgore,44.18,76.06
 .accept A Humble Task##752
 
 #step
-.talk Greatmother Hawkwind
+.talk Greatmother Hawkwind##2991
 >>en:Standing next to a small windmill.
 >>de:Steht neben einer kleinen Windmühle.
 .goto Mulgore,50.03,81.16
@@ -80,12 +80,12 @@ LLG.RegisterGuide([[
 .complete 753,1 >>Collect Water Pitcher
 
 #step
-.kill 1 Plainstrider
+.kill 1 Plainstrider##2955
 .goto Mulgore,45.94,82.61
 .complete 747,1 >>Collect 7 Plainstrider Meat
 
 #step
-.kill 1 Plainstrider
+.kill 1 Plainstrider##2955
 .goto Mulgore,45.94,82.61
 .complete 747,2 >>Collect 7 Plainstrider Feather
 
@@ -95,7 +95,7 @@ LLG.RegisterGuide([[
 .level 2
 
 #step
-.talk Grull Hawkwind
+.talk Grull Hawkwind##2980
 >>de:Steht in der Mitte des Lagers, neben einem rauchenden Iglu-artigen Gebilde.
 .goto Mulgore,44.87,77.08
 .turnin The Hunt Begins##747
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Kawnie Softbreeze
+.talk Kawnie Softbreeze##3072
 .collect Light Shot,800
 .goto Mulgore,45.29,76.52
 >>Visit the Vendor
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,44.32,76.21
 >>Enter the building
-.talk Chief Hawkwind
+.talk Chief Hawkwind##2981
 >>de:Steht im Langhaus.
 >>Inside the building.
 .goto Mulgore,44.18,76.06
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 .accept Rites of the Earthmother##755
 
 #step
-.kill 1 Mountain Cougar
+.kill 1 Mountain Cougar##2961
 .goto Mulgore,48.29,90.11
 .complete 750,1 >>Collect 10 Mountain Cougar Pelt
 >>You can find more around:
@@ -138,7 +138,7 @@ LLG.RegisterGuide([[
 >>[Mulgore 42.05,88.44]
 
 #step
-.talk Seer Graytongue
+.talk Seer Graytongue##2982
 >>en:Up on a hill, next to bonfire.
 >>de:Oben auf einem Hügel, neben einem Lagerfeür.
 .goto Mulgore,42.58,92.18
@@ -156,7 +156,7 @@ LLG.RegisterGuide([[
 >>[42.05,88.44]
 
 #step
-.talk Grull Hawkwind
+.talk Grull Hawkwind##2980
 >>de:Steht in der Mitte des Lagers, neben einem rauchenden Iglu-artigen Gebilde.
 .goto Mulgore,44.87,77.08
 .turnin The Hunt Continues##750
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 .accept The Battleboars##780
 
 #step
-.talk Seer Ravenfeather
+.talk Seer Ravenfeather##5888
 >>en:Standing in front of a huge totem pole.
 >>de:Standing in front of a huge totem pole.
 .goto Mulgore,44.73,76.18
@@ -172,7 +172,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Meela Dawnstrider
+.talk Meela Dawnstrider##3062
 >>en:Standing in a teepee house.
 >>de:Steht in einem Tipi-Haus.
 .goto Mulgore,45.01,75.94
@@ -181,7 +181,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Harutt Thunderhorn
+.talk Harutt Thunderhorn##3059
 >>Inside the building.
 .goto Mulgore,44.01,76.13
 .turnin Simple Note##3091
@@ -192,7 +192,7 @@ LLG.RegisterGuide([[
 .only Tauren and Warrior
 
 #step
-.talk Gart Mistrunner
+.talk Gart Mistrunner##3060
 >>en:Standing in a teepee house on a blue rug.
 >>de:Steht in einem Tipi-Haus auf einem blaün Teppich.
 >>Inside the building.
@@ -205,7 +205,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Lanka Farshot
+.talk Lanka Farshot##3061
 >>de:Steht im langen Tipi-Gebäude, rechts beim Eintreten.
 >>Inside the building.
 .goto Mulgore,44.26,75.69
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.talk Brave Windfeather
+.talk Brave Windfeather##3209
 >>en:She walks around the camp.
 >>de:She walks around the camp.
 >>She walks around this area.
@@ -223,13 +223,13 @@ LLG.RegisterGuide([[
 .accept Break Sharptusk!##3376
 
 #step
-.kill 1 Battleboar
+.kill 1 Battleboar##2966
 .goto Mulgore,55.97,83.14
 .complete 780,1 >>Collect 8 Battleboar Snout
 >>You can find more around [Mulgore 56.89,87.89]
 
 #step
-.kill 1 Battleboar
+.kill 1 Battleboar##2966
 .goto Mulgore,55.97,83.14
 .complete 780,2 >>Collect 8 Battleboar Flank
 >>You can find more around [56.89,87.89]
@@ -252,7 +252,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Mulgore,64.28,77.98
 >>Enter the building
-.kill 1 Chief Sharptusk Thornmantle
+.kill 1 Chief Sharptusk Thornmantle##8554
 >>Inside the building.
 .goto Mulgore,64.70,77.66
 .complete 3376,1 >>Collect Chief Sharptusk Thornmantle's Head
@@ -261,15 +261,15 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,63.44,82.01
 >>Enter the cave
-.click Dirt-stained Map
+.click Dirt-stained Map##3076
 >>Inside the cave.
 .collect Dirt-stained Map,1
-.click the Dirt-stained Map
+.click the Dirt-stained Map##4851
 .goto Mulgore,63.24,82.70
 .accept Attack on Camp Narache##781
 
 #step
-.kill 1 Bristleback Shaman
+.kill 1 Bristleback Shaman##2953
 >>They can be pretty spread out around this area.
 .goto Mulgore,63.87,80.34
 .complete 1519,1 >>Collect 2 Ritual Salve
@@ -288,13 +288,13 @@ LLG.RegisterGuide([[
 .level 5
 
 #step
-.talk Grull Hawkwind
+.talk Grull Hawkwind##2980
 >>de:Steht in der Mitte des Lagers, neben einem rauchenden Iglu-artigen Gebilde.
 .goto Mulgore,44.87,77.08
 .turnin The Battleboars##780
 
 #step
-.talk Brave Windfeather
+.talk Brave Windfeather##3209
 >>en:She walks around the camp.
 >>de:She walks around the camp.
 >>She walks around this area.
@@ -302,7 +302,7 @@ LLG.RegisterGuide([[
 .turnin Break Sharptusk!##3376
 
 #step
-.talk Seer Ravenfeather
+.talk Seer Ravenfeather##5888
 >>en:Standing in front of a huge totem pole.
 >>de:Standing in front of a huge totem pole.
 .goto Mulgore,44.73,76.19
@@ -314,7 +314,7 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,44.32,76.21
 >>Enter the building
-.talk Chief Hawkwind
+.talk Chief Hawkwind##2981
 >>de:Steht im Langhaus.
 >>Inside the building.
 .goto Mulgore,44.18,76.06
@@ -325,9 +325,9 @@ LLG.RegisterGuide([[
 .accept Rites of the Earthmother##763
 
 #step
-.click the Earth Sapta
+.click the Earth Sapta##6635
 >>Use it next to the huge rock.
-.talk the Minor Manifestation of Earth
+.talk the Minor Manifestation of Earth##5891
 >>en:He is a huge rock elemental standing in front of a tall stone slab.
 .goto Mulgore,53.88,80.56
 .turnin Call of Earth##1520
@@ -336,7 +336,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Seer Ravenfeather
+.talk Seer Ravenfeather##5888
 >>en:Standing in front of a huge totem pole.
 >>de:Standing in front of a huge totem pole.
 .goto Mulgore,44.73,76.19
@@ -346,7 +346,7 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,39.45,82.40
 >>Follow the path
-.talk Antur Fallow
+.talk Antur Fallow##6775
 >>en:Standing on the side of the road.
 >>de:Standing on the side of the road.
 .goto Mulgore,38.52,81.56
@@ -354,7 +354,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Ruul Eagletalon
+.talk Ruul Eagletalon##2985
 >>de:Steht neben einem kleinen Haus.
 >>Grind en route.
 >>only Hunter :: You want 4s 18c when arriving in town to buy a weapon upgrade.
@@ -362,7 +362,7 @@ LLG.RegisterGuide([[
 .accept Dangers of the Windfury##743
 
 #step
-.talk Baine Bloodhoof
+.talk Baine Bloodhoof##2993
 >>de:Steht neben einem riesigen Totempfahl.
 .goto Mulgore,47.52,60.17
 .turnin Rites of the Earthmother##763
@@ -376,14 +376,14 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,46.82,60.55
 >>Enter the building
-.talk Innkeeper Kauth
+.talk Innkeeper Kauth##6747
 >>de:Standing inside the inn.
 >>Inside the building.
 .goto Mulgore,46.62,61.09
 .turnin A Task Unfinished##1656
 
 #step
-.talk Innkeeper Kauth
+.talk Innkeeper Kauth##6747
 >>de:Standing inside the inn.
 >>Inside the building.
 >>Stock up on food and water, there is a lot of grinding ahead.
@@ -391,21 +391,21 @@ LLG.RegisterGuide([[
 .hs
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .accept Poison Water##748
 .only Tauren
 
 #step
-.talk Harken Windtotem
+.talk Harken Windtotem##2947
 >>de:Steht auf einem Teppich in einem riesigen Zelt.
 >>Inside the building.
 .goto Mulgore,48.71,59.33
 .accept Swoop Hunting##761
 
 #step
-.talk Zarlman Two-Moons
+.talk Zarlman Two-Moons##3054
 >>de:Steht neben einem Lagerfeür.
 .goto Mulgore,47.76,57.54
 .turnin Rite of Vision##767
@@ -413,7 +413,7 @@ LLG.RegisterGuide([[
 .accept Rite of Vision##771
 
 #step
-.talk Maur Raincaller
+.talk Maur Raincaller##3055
 >>de:Steht neben einer großen Wasserschale.
 .goto Mulgore,46.99,57.07
 .accept Mazzranache##766
@@ -421,77 +421,79 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Warrior
+.only Tauren and Warrior and itemcount(2493) == 0
 
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Kennah Hawkseye
+.talk Kennah Hawkseye##3078
 >>Inside the building.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.49,58.47
 >>Visit the Vendor
-.only Tauren and Hunter
+.only Tauren and Hunter and itemcount(2509) == 0
 
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Shaman
+.only Tauren and Shaman and itemcount(2495) == 0
 
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Druid
+.only Tauren and Druid and itemcount(2495) == 0
 
 #step
-.kill 1 Prairie Wolf
+.kill 1 Prairie Wolf##2958
 .goto Mulgore,39.77,60.43
 .complete 766,1 >>Collect Prairie Wolf Heart
 >>You can find more around [Mulgore 39.61,54.74]
 
 #step
-.kill 1 Adult Plainstrider
+.kill 1 Adult Plainstrider##2956
 .goto Mulgore,39.77,60.43
 .complete 766,3 >>Collect Plainstrider Scale
 >>You can find more around [39.61,54.74]
 
 #step
-.kill 1 Prairie Wolf
+.kill 1 Prairie Wolf##2958
 .goto Mulgore,39.77,60.43
 .complete 748,1 >>Collect 6 Prairie Wolf Paw
 >>You can find more around [39.61,54.74]
+.only Tauren	and itemcount(4804) > 0
 
 #step
-.kill 1 Adult Plainstrider
+.kill 1 Adult Plainstrider##2956
 .goto Mulgore,39.77,60.43
 .complete 748,2 >>Collect 4 Plainstrider Talon
 >>You can find more around [39.61,54.74]
+.only Tauren	and itemcount(4806) > 0
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.39
 .turnin Poison Water##748
@@ -499,14 +501,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .accept Winterhoof Cleansing##754
 .only Tauren
 
 #step
-.talk Harken Windtotem
+.talk Harken Windtotem##2947
 >>de:Steht auf einem Teppich in einem riesigen Zelt.
 >>Inside the building.
 .goto Mulgore,48.71,59.33
@@ -514,47 +516,47 @@ LLG.RegisterGuide([[
 .only readyq(761)
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Warrior
+.only Tauren and Warrior and itemcount(2493) == 0
 
 #step
-.talk Kennah Hawkseye
+.talk Kennah Hawkseye##3078
 >>Inside the building.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.49,58.47
 >>Visit the Vendor
-.only Tauren and Hunter
+.only Tauren and Hunter and itemcount(2509) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Shaman
+.only Tauren and Shaman and itemcount(2495) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Druid
+.only Tauren and Druid and itemcount(2495) == 0
 
 #step
-.talk Moorat Longstride
+.talk Moorat Longstride##3076
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Mulgore,45.86,57.66
@@ -567,7 +569,7 @@ LLG.RegisterGuide([[
 .complete 771,1 >>Collect 2 Well Stone
 
 #step
-.click the Winterhoof Cleansing Totem
+.click the Winterhoof Cleansing Totem##5411
 .goto Mulgore,53.64,66.15
 .complete 754,1 >>Cleanse the Winterhoof Water Well
 .only Tauren
@@ -589,7 +591,7 @@ LLG.RegisterGuide([[
 >>You can find more around [48.08,71.60]
 
 #step
-.click Ambercorn
+.click Ambercorn##2912
 >>They look like small brown pine cones on the ground near trees around this area.
 .goto Mulgore,38.83,59.75
 .complete 771,2 >>Collect 2 Ambercorn
@@ -602,7 +604,7 @@ LLG.RegisterGuide([[
 >>You can find more around [48.08,71.60]
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.39
 .turnin Winterhoof Cleansing##754
@@ -611,16 +613,18 @@ LLG.RegisterGuide([[
 .only Tauren
 
 #step
-.talk Baine Bloodhoof
+.talk Baine Bloodhoof##2993
 >>de:Steht neben einem riesigen Totempfahl.
 .goto Mulgore,47.51,60.16
 .turnin Sharing the Land##745
 
 #step
-.talk Vira Younghoof
+.talk Vira Younghoof##5939
 >>Inside the building.
 .goto Mulgore,46.80,60.85
 .train
+.condition skillmax("First Aid") >= 75 >>Train Apprentice First Aid
+.optional
 
 #step
 >>Create Bandages in Downtime
@@ -632,53 +636,53 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Moorat Longstride
+.talk Moorat Longstride##3076
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Mulgore,45.86,57.66
 >>Visit the Vendor
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Warrior
+.only Tauren and Warrior and itemcount(2493) == 0
 
 #step
-.talk Kennah Hawkseye
+.talk Kennah Hawkseye##3078
 >>Inside the building.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.49,58.47
 >>Visit the Vendor
-.only Tauren and Hunter
+.only Tauren and Hunter and itemcount(2509) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Shaman
+.only Tauren and Shaman and itemcount(2495) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Druid
+.only Tauren and Druid and itemcount(2495) == 0
 
 #step
-.talk Zarlman Two-Moons
+.talk Zarlman Two-Moons##3054
 >>de:Steht neben einem Lagerfeür.
 .goto Mulgore,47.76,57.54
 .turnin Rite of Vision##771
@@ -687,7 +691,7 @@ LLG.RegisterGuide([[
 >>You don't need to follow the wolf that appears.
 
 #step
-.talk Morin Cloudstalker
+.talk Morin Cloudstalker##2988
 >>de:Er läuft diese Straße entlang.
 >>He walks along the road around this area.
 .accept The Ravaged Caravan##749
@@ -700,7 +704,7 @@ LLG.RegisterGuide([[
 .accept The Ravaged Caravan##751
 
 #step
-.kill 1 Flatland Cougar
+.kill 1 Flatland Cougar##3035
 .goto Mulgore,46.78,40.19
 .complete 766,2 >>Collect Flatland Cougar Femur
 >>You can find more around:
@@ -708,15 +712,16 @@ LLG.RegisterGuide([[
 >>[37.14,43.56]
 
 #step
-.kill 1 Flatland Cougar
+.kill 1 Flatland Cougar##3035
 .goto Mulgore,46.78,40.19
 .complete 756,2 >>Collect 6 Cougar Claws
 >>You can find more around:
 >>[51.33,35.52]
 >>[37.14,43.56]
+.only Tauren	and itemcount(4805) > 0
 
 #step
-.kill 1 Prairie Stalker
+.kill 1 Prairie Stalker##2959
 .goto Mulgore,46.78,40.19
 .complete 756,1 >>Collect 6 Stalker Claws
 >>You can find more around:
@@ -725,7 +730,7 @@ LLG.RegisterGuide([[
 .only Tauren
 
 #step
-.kill 1 Wiry Swoop
+.kill 1 Wiry Swoop##2969
 >>They are pretty spread out around this area.
 >>You can find more to the north and south.
 .goto Mulgore,39.77,60.43
@@ -733,12 +738,13 @@ LLG.RegisterGuide([[
 >>You can find more around [39.61,54.74]
 
 #step
-.kill 1 Wiry Swoop
+.kill 1 Wiry Swoop##2969
 >>They are pretty spread out around this area.
 >>You can find more to the north and south.
 .goto Mulgore,39.77,60.43
 .complete 761,1 >>Collect 8 Trophy Swoop Quill
 >>You can find more around [39.61,54.74]
+.only itemcount(4807) > 0
 
 #step
 .kill 1 enemies around this area
@@ -754,23 +760,23 @@ LLG.RegisterGuide([[
 >>You will only receive resurrection sickness for a short time.
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Mulgore,46.41,55.57
 .only not hardcore
 
 #step
-.talk Maur Raincaller
+.talk Maur Raincaller##3055
 >>de:Steht neben einer großen Wasserschale.
 .goto Mulgore,46.98,57.07
 .turnin Mazzranache##766
 
 #step
-.talk Harken Windtotem
+.talk Harken Windtotem##2947
 >>de:Steht auf einem Teppich in einem riesigen Zelt.
 >>Inside the building.
 .goto Mulgore,48.71,59.33
@@ -778,7 +784,7 @@ LLG.RegisterGuide([[
 .only readyq(761)
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .turnin Thunderhorn Totem##756
@@ -786,7 +792,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .accept Thunderhorn Cleansing##758
@@ -795,54 +801,54 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Moorat Longstride
+.talk Moorat Longstride##3076
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Mulgore,45.86,57.66
 >>Visit the Vendor
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Warrior
+.only Tauren and Warrior and itemcount(2493) == 0
 
 #step
-.talk Kennah Hawkseye
+.talk Kennah Hawkseye##3078
 >>Inside the building.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.49,58.47
 >>Visit the Vendor
-.only Tauren and Hunter
+.only Tauren and Hunter and itemcount(2509) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Shaman
+.only Tauren and Shaman and itemcount(2495) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Druid
+.only Tauren and Druid and itemcount(2495) == 0
 
 #step
-.talk Innkeeper Kauth
+.talk Innkeeper Kauth##6747
 >>de:Standing inside the inn.
 >>Inside the building.
 >>Stock up on food and water.
@@ -850,7 +856,7 @@ LLG.RegisterGuide([[
 >>Visit the Vendor
 
 #step
-.click the Thunderhorn Cleansing Totem
+.click the Thunderhorn Cleansing Totem##5415
 .goto Mulgore,44.59,45.43
 .complete 758,1 >>Cleanse the Thunderhorn Water Well
 .only Tauren
@@ -878,7 +884,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Mulgore,33.31,36.45
 >>Enter the cave
-.talk Seer Wiserunner
+.talk Seer Wiserunner##2984
 >>en:Standing in the back of a cave.
 >>de:Steht hinten in einer Höhle.
 >>Inside the cave.
@@ -889,7 +895,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Lorekeeper Raintotem
+.talk Lorekeeper Raintotem##3233
 >>de:Standing next to a small campfire.
 .vendor
 >>You will never use the water, it is safe to destroy it.
@@ -898,7 +904,7 @@ LLG.RegisterGuide([[
 .accept A Sacred Burial##833
 
 #step
-.talk Ancestral Spirit
+.talk Ancestral Spirit##2994
 >>en:He's a ghost standing on top of the hill.
 >>de:Er ist ein Geist und steht oben auf dem Hügel.
 .goto Mulgore,61.45,21.02
@@ -911,7 +917,7 @@ LLG.RegisterGuide([[
 .complete 833,1 >>Kill 8 Bristleback Interloper
 
 #step
-.talk Lorekeeper Raintotem
+.talk Lorekeeper Raintotem##3233
 >>de:Standing next to a small campfire.
 .goto Mulgore,59.86,25.63
 .turnin A Sacred Burial##833
@@ -923,7 +929,7 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Skorn Whitecloud
+.talk Skorn Whitecloud##3052
 >>de:Steht vor dem Gasthaus.
 .goto Mulgore,46.76,60.23
 .accept The Hunter's Way##861
@@ -931,7 +937,7 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,46.32,58.68
 >>Enter the building
-.talk Moorat Longstride
+.talk Moorat Longstride##3076
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Mulgore,45.86,57.66
@@ -942,43 +948,43 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Kennah Hawkseye
+.talk Kennah Hawkseye##3078
 >>Inside the building.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.49,58.47
 >>Visit the Vendor
-.only Tauren and Hunter
+.only Tauren and Hunter and itemcount(2509) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Shaman
+.only Tauren and Shaman and itemcount(2495) == 0
 
 #step
-.talk Mahnott Roughwound
+.talk Mahnott Roughwound##3077
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Mulgore,45.66,58.60
 >>Visit the Vendor
-.only Tauren and Druid
+.only Tauren and Druid and itemcount(2495) == 0
 
 #step
-.talk Ruul Eagletalon
+.talk Ruul Eagletalon##2985
 >>de:Steht neben einem kleinen Haus.
 .goto Mulgore,47.35,62.02
 .turnin Dangers of the Windfury##743
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .turnin Thunderhorn Cleansing##758
@@ -987,13 +993,13 @@ LLG.RegisterGuide([[
 .only Tauren
 
 #step
-.talk Baine Bloodhoof
+.talk Baine Bloodhoof##2993
 >>de:Steht neben einem riesigen Totempfahl.
 .goto Mulgore,47.51,60.17
 .turnin Dwarven Digging##746
 
 #step
-.talk Krang Stonehoof
+.talk Krang Stonehoof##3063
 >>en:Standing next to a bunch of tauren warriors standing in a circle. He is the Warrior Class Trainer.
 >>de:Steht neben mehreren Taurenkriegern in einem Kreis. Er ist der Kriegerklassentrainer.
 .goto Mulgore,49.52,60.58
@@ -1001,7 +1007,7 @@ LLG.RegisterGuide([[
 .only Tauren and Warrior
 
 #step
-.talk Yaw Sharpmane
+.talk Yaw Sharpmane##3065
 >>en:Standing in a small teepee house.
 >>de:Steht in einem kleinen Tipi-Haus.
 .goto Mulgore,47.82,55.69
@@ -1009,7 +1015,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15914
 >>Use it on an Adult Plainstrider around this area.
 .goto Mulgore,43.81,51.82
 .complete 6061,1 >>Tame an Adult Plainstrider
@@ -1019,7 +1025,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.talk Yaw Sharpmane
+.talk Yaw Sharpmane##3065
 >>en:Standing in a small teepee house.
 >>de:Steht in einem kleinen Tipi-Haus.
 .goto Mulgore,47.82,55.69
@@ -1029,7 +1035,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15915
 >>Use it on a Prairie Stalker around this area.
 .goto Mulgore,46.48,49.06
 .complete 6087,1 >>Tame a Prairie Stalker
@@ -1038,7 +1044,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.talk Yaw Sharpmane
+.talk Yaw Sharpmane##3065
 >>en:Standing in a small teepee house.
 >>de:Steht in einem kleinen Tipi-Haus.
 .goto Mulgore,47.82,55.69
@@ -1048,7 +1054,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15916
 >>Use it on a Swoop around this area.
 >>They do a knockdown which may interrupt your cast.
 >>You may need to abandon the quest and re-accept it if you run out of changes on the Taming Rod.
@@ -1058,7 +1064,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.talk Yaw Sharpmane
+.talk Yaw Sharpmane##3065
 >>en:Standing in a small teepee house.
 >>de:Steht in einem kleinen Tipi-Haus.
 .goto Mulgore,47.82,55.69
@@ -1068,7 +1074,7 @@ LLG.RegisterGuide([[
 .only Tauren and Hunter
 
 #step
-.talk Narm Skychaser
+.talk Narm Skychaser##3066
 >>en:Inside a big teepee building, next to a Y-shaped totem pole.
 >>de:In einem großen Tipi-Gebäude, neben einem Y-förmigen Totempfahl.
 >>Inside the building.
@@ -1078,7 +1084,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Gennia Runetotem
+.talk Gennia Runetotem##3064
 >>en:Standing in a big teepee building, next to a small totem pole.
 >>de:Steht in einem großen Tipi-Gebäude, neben einem kleinen Totempfahl.
 >>Inside the building.
@@ -1087,7 +1093,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Morin Cloudstalker
+.talk Morin Cloudstalker##2988
 >>de:Er läuft diese Straße entlang.
 >>He walks along the road around this area.
 .turnin The Ravaged Caravan##751
@@ -1105,7 +1111,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.kill 1 Prairie Wolf Alpha
+.kill 1 Prairie Wolf Alpha##2960
 .goto Mulgore,64.01,58.98
 .complete 759,1 >>Collect 8 Prairie Alpha Tooth
 >>You can find more around [65.56,66.34]
@@ -1116,17 +1122,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Mulgore,64.01,58.98
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Mulgore,46.41,55.58
 .only not hardcore
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .turnin Wildmane Totem##759
@@ -1134,14 +1140,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.40
 .accept Wildmane Cleansing##760
 .only Tauren
 
 #step
-.talk Omusa Thunderhorn
+.talk Omusa Thunderhorn##10378
 >>en:Standing under a red canopy.
 >>de:Steht unter einem roten Baldachin.
 .goto The Barrens,44.45,59.15
@@ -1150,7 +1156,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,44.99,62.17
 >>Enter the building
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 .goto Thunder Bluff,45.81,64.71
 .hs
@@ -1159,7 +1165,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.13,29.89
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -1170,7 +1176,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.62,28.56
@@ -1180,7 +1186,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,56.13,30.98
 >>Enter the building
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -1193,7 +1199,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,42.47,34.44
 >>Follow the path
-.talk Great Bear Spirit
+.talk Great Bear Spirit##11956
 >>en:A bug bear spirit standing next to a log on the ground.
 >>de:A bug bear spirit standing next to a log on the ground.
 >>Select _"What do you represent, spirit?"_
@@ -1202,7 +1208,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Faustron
+.talk Faustron##12740
 >>en:Standing in a small camp, under a big red canopy.
 >>de:Steht in einem kleinen Lager unter einem großen roten Baldachin.
 .goto Moonglade,32.11,66.60
@@ -1210,7 +1216,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -1223,7 +1229,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.09,29.91
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -1234,10 +1240,10 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.click the Cenarion Lunardust
-.kill 1 Lunaclaw
+.click the Cenarion Lunardust##15710
+.kill 1 Lunaclaw##12138
 >>A spirit will appear after you kill her.
-.talk Lunaclaw Spirit
+.talk Lunaclaw Spirit##12144
 >>en:The spirit spawns after you kill Lunaclaw.
 >>de:Der Geist erscheint, nachdem du Lunaclaw getötet hast.
 >>Select _"You have fought well, spirit. I ask you to grant me the strength of your body and the strength of your heart."_
@@ -1246,40 +1252,40 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Kirge Sternhorn
+.talk Kirge Sternhorn##3418
 >>de:Standing on the side of the road.
 .goto The Barrens,44.88,58.61
 .accept Journey to the Crossroads##854
 .only Tauren
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Barrens Oases##886
 .only Tauren and Druid
 
 #step
-.talk Thork
+.talk Thork##3429
 >>de:Standing at the base of the watch tower.
 .goto The Barrens,51.50,30.87
 .turnin Journey to the Crossroads##854
 .only Tauren
 
 #step
-.talk Devrak
+.talk Devrak##3615
 >>de:Standing next to some Wind Riders perched on some wooden posts.
 .goto The Barrens,51.51,30.34
 .fly Crossroads
 
 #step
-.talk Jahan Hawkwing
+.talk Jahan Hawkwing##3483
 .goto The Barrens,51.21,29.05
 .accept A Bundle of Hides##6361
 .only Tauren
 
 #step
-.talk Uzzek
+.talk Uzzek##5810
 >>en:Standing under a small red canopy.
 >>de:Steht unter einem kleinen roten Baldachin.
 .goto The Barrens,61.38,21.11
@@ -1291,7 +1297,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,39.18,32.15
 >>Follow the path
-.kill 1 Thunder Lizard
+.kill 1 Thunder Lizard##3130
 .goto Durotar,39.27,28.29
 .complete 1498,1 >>Collect 5 Singed Scale
 .only Tauren and Warrior
@@ -1299,7 +1305,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,39.16,32.31
 >>Follow the path
-.talk Uzzek
+.talk Uzzek##5810
 >>en:Standing under a small red canopy.
 >>de:Steht unter einem kleinen roten Baldachin.
 .goto The Barrens,61.38,21.11
@@ -1315,7 +1321,7 @@ LLG.RegisterGuide([[
 >>Run up the mountain
 .goto The Barrens,56.72,28.65
 >>Follow the path
-.talk Thun'grim Firegaze
+.talk Thun'grim Firegaze##5878
 >>On top of the mountain.
 .goto The Barrens,57.23,30.34
 .turnin Thun'grim Firegaze##1502
@@ -1336,14 +1342,14 @@ LLG.RegisterGuide([[
 >>Run up the mountain
 .goto The Barrens,56.72,28.65
 >>Follow the path
-.talk Thun'grim Firegaze
+.talk Thun'grim Firegaze##5878
 >>On top of the mountain.
 .goto The Barrens,57.23,30.34
 .turnin Forged Steel##1503
 .only Tauren and Warrior
 
 #step
-.talk Kranal Fiss
+.talk Kranal Fiss##5907
 >>en:He walks back and forth.
 >>de:Standing in the doorway of a tower house building.
 >>He walks around this area.
@@ -1356,7 +1362,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,36.59,57.07
 >>Follow the path up
-.talk Telf Joolam
+.talk Telf Joolam##5900
 >>en:Standing all the way at the top of the mountain.
 >>de:Steht ganz oben auf dem Berg.
 >>On top of the mountain.
@@ -1375,7 +1381,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Takrin Pathseeker
+.talk Takrin Pathseeker##3336
 >>de:Standing in the road.
 .goto Durotar,50.85,43.59
 .accept Conscript of the Horde##840
@@ -1384,7 +1390,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,54.54,39.45
 >>Follow the path up
-.kill 1 Burning Blade Cultist
+.kill 1 Burning Blade Cultist##3199
 >>Inside the cave.
 >>They seem to mostly be towards the back of the cave.
 .goto Durotar,52.82,28.82
@@ -1398,7 +1404,7 @@ LLG.RegisterGuide([[
 >>Jump down onto the huge long rock
 .goto Durotar,36.59,57.07
 >>Follow the path up
-.talk Telf Joolam
+.talk Telf Joolam##5900
 >>en:Standing all the way at the top of the mountain.
 >>de:Steht ganz oben auf dem Berg.
 >>On top of the mountain.
@@ -1409,14 +1415,14 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.click the Fire Sapta
+.click the Fire Sapta##6636
 >>On top of the mountain.
 .goto Durotar,38.16,58.54
 >>Gain Sapta Sight
 .only Tauren and Shaman
 
 #step
-.kill 1 Minor Manifestation of Fire
+.kill 1 Minor Manifestation of Fire##5893
 >>On top of the mountain.
 .goto Durotar,38.72,58.29
 .complete 1526,1 >>Collect Glowing Ember
@@ -1432,7 +1438,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Kargal Battlescar
+.talk Kargal Battlescar##3337
 >>de:Standing to the side of the road.
 .goto The Barrens,62.26,19.38
 .turnin Conscript of the Horde##840
@@ -1441,7 +1447,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Kranal Fiss
+.talk Kranal Fiss##5907
 >>en:He walks back and forth.
 >>de:Standing in the doorway of a tower house building.
 >>He walks around this area.
@@ -1452,13 +1458,13 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,52.03,30.18
 >>Enter the building
-.talk Innkeeper Boorand Plainswind
+.talk Innkeeper Boorand Plainswind##3934
 >>Inside the building.
 .goto The Barrens,51.99,29.89
 .hs
 
 #step
-.talk Devrak
+.talk Devrak##3615
 >>de:Standing next to some Wind Riders perched on some wooden posts.
 .goto The Barrens,51.50,30.34
 .turnin A Bundle of Hides##6361
@@ -1467,7 +1473,7 @@ LLG.RegisterGuide([[
 .only Tauren
 
 #step
-.talk Cairne Bloodhoof
+.talk Cairne Bloodhoof##3057
 >>en:Standing at the entrance of a hut.
 >>de:Steht am Eingang einer Hütte.
 >>Inside the building.
@@ -1479,7 +1485,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,59.80,82.89
 >>Enter the building
-.talk Holt Thunderhorn
+.talk Holt Thunderhorn##3039
 >>en:In the big building, all the way in the back of the room.
 >>de:Im großen Gebäude, ganz hinten im Raum.
 >>Inside the building.
@@ -1489,7 +1495,7 @@ LLG.RegisterGuide([[
 
 #step
 .goto Thunder Bluff,54.13,84.01
-.talk Hesuwa Thunderhorn
+.talk Hesuwa Thunderhorn##10086
 >>Train your pet.
 >>Use your "Beast Training" ability to teach your pet abilities.
 .click Here to Continue
@@ -1498,7 +1504,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.09,29.91
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -1507,7 +1513,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Ahanu
+.talk Ahanu##8359
 >>Inside the building.
 .goto Thunder Bluff,45.77,55.84
 .turnin Ride to Thunder Bluff##6362
@@ -1516,7 +1522,7 @@ LLG.RegisterGuide([[
 .only Tauren
 
 #step
-.talk Tal
+.talk Tal##2995
 >>en:All the way at the top of the huge totem pole looking tower.
 >>de:Ganz oben auf dem Gebäude, das wie ein riesiger Totempfahl aussieht.
 .goto Thunder Bluff,47.00,49.83
@@ -1526,41 +1532,44 @@ LLG.RegisterGuide([[
 .only Tauren
 
 #step
-.talk Eyahn Eagletalon
+.talk Eyahn Eagletalon##2987
 >>de:Steht am Straßenrand.
 .goto Thunder Bluff,37.69,59.56
 .accept Preparation for Ceremony##744
 
 #step
-.talk Kuruk
+.talk Kuruk##8362
 .goto Thunder Bluff,38.93,64.59
 .vendor
 
 #step
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>This will allow you to equip staves.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Tauren and Warrior
 
 #step
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>This will allow you to equip staves.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Tauren and Hunter
 
 #step
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>This will allow you to equip two-handed maces.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_MACE") > 0 >>Train Two-Handed Maces
 .only Tauren and Druid
 
 #step
 .goto Thunder Bluff,35.39,63.27
 >>Follow the path down
-.kill 1 Windfury Sorceress
+.kill 1 Windfury Sorceress##2964
 .goto Mulgore,55.99,16.24
 .complete 744,1 >>Collect 6 Azure Feather
 >>You can find more around:
@@ -1571,7 +1580,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Windfury Matriarch
+.kill 1 Windfury Matriarch##2965
 .goto Mulgore,55.99,16.24
 .complete 744,2 >>Collect 6 Bronze Feather
 >>[54.44,11.34]
@@ -1590,21 +1599,21 @@ LLG.RegisterGuide([[
 >>[36.60,11.33]
 
 #step
-.click the Wildmane Cleansing Totem
+.click the Wildmane Cleansing Totem##5416
 .goto Mulgore,42.77,14.21
 .complete 760,1 >>Cleanse the Wildmane Well
 >>Don't worry about killing the Venture Co. right now, we will finish them later.
 .only Tauren
 
 #step
-.kill 1 Arra'chea
+.kill 1 Arra'chea##3058
 >>It looks like a dark grey kodo that walks clockwise in a path around this whole area.
 >>This step's path will take you counter-clockwise to help you find it faster.
 >>Grind as you look for her, she has a long respawn. This will reduce grinding later.
 .complete 776,1 >>Collect Horn of Arra'chea
 
 #step
-.kill 1 Flatland Prowler
+.kill 1 Flatland Prowler##3566
 .goto Mulgore,45.10,17.36
 .complete 861,1 >>Collect 4 Flatland Prowler Claw
 >>You can find more around:
@@ -1612,7 +1621,7 @@ LLG.RegisterGuide([[
 >>[39.72,12.05]
 
 #step
-.kill 1 Ghost Howl
+.kill 1 Ghost Howl##3056
 .goto Thunder Bluff,60.29,51.68
 .collect Demon Scarred Cloak,1
 >>Ghost Howl is a rare spawn level 12 wolf that can roam this area. He starts a quest when killed.
@@ -1620,9 +1629,10 @@ LLG.RegisterGuide([[
 >>He can spawn in random locations and has hour long respawns, he's not worth waiting for.
 
 #step
-.click Demon Scarred Cloak
+.click Demon Scarred Cloak##4854
 .goto Thunder Bluff,60.29,51.68
 .accept The Demon Scarred Cloak##770
+.only itemcount(4854) > 0
 
 #step
 .goto Thunder Bluff,59.87,19.62
@@ -1631,7 +1641,7 @@ LLG.RegisterGuide([[
 >>Ride one of the elevators up
 >>Weiter nach Thunder Bluff,
 >>Head up the totem tower
-.talk Cairne Bloodhoof
+.talk Cairne Bloodhoof##3057
 >>en:Standing at the entrance of a hut.
 >>de:Steht am Eingang einer Hütte.
 >>Inside the building.
@@ -1640,41 +1650,44 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Eyahn Eagletalon
+.talk Eyahn Eagletalon##2987
 >>de:Steht am Straßenrand.
 >>He walks around this area.
 .goto Thunder Bluff,37.67,59.60
 .turnin Preparation for Ceremony##744
 
 #step
-.talk Kuruk
+.talk Kuruk##8362
 >>only Hunter :: Restock on ammo if needed
 .goto Thunder Bluff,38.93,64.59
 .vendor
 
 #step
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>This will allow you to equip staves.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Tauren and Warrior
 
 #step
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>This will allow you to equip staves.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Tauren and Hunter
 
 #step
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>This will allow you to equip two-handed maces.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_MACE") > 0 >>Train Two-Handed Maces
 .only Tauren and Druid
 
 #step
-.talk Melor Stonehoof
+.talk Melor Stonehoof##3441
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Thunder Bluff,61.53,80.89
@@ -1683,7 +1696,7 @@ LLG.RegisterGuide([[
 .accept Sergra Darkthorn##860
 
 #step
-.talk Pakwa
+.talk Pakwa##8364
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Thunder Bluff,39.31,64.27
 >>Visit the Vendor
@@ -1695,7 +1708,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Mulgore,61.56,46.90
 >>Enter the mine
-.kill 1 Supervisor Fizsprocket
+.kill 1 Supervisor Fizsprocket##3051
 >>Inside the mine.
 >>only hardcore :: Watch for patrols and respawns while in the mine.
 .goto Mulgore,64.90,43.31
@@ -1722,7 +1735,7 @@ LLG.RegisterGuide([[
 .level 12
 
 #step
-.kill 1 Ghost Howl
+.kill 1 Ghost Howl##3056
 .goto Mulgore,48.53,60.39
 .collect Demon Scarred Cloak,1
 >>Ghost Howl is a rare spawn level 12 wolf that can roam this area. He starts a quest when killed.
@@ -1730,39 +1743,40 @@ LLG.RegisterGuide([[
 >>He can spawn in random locations and has hour long respawns, he's not worth waiting for.
 
 #step
-.click Demon Scarred Cloak
+.click Demon Scarred Cloak##4854
 .goto Thunder Bluff,60.29,51.68
 .accept The Demon Scarred Cloak##770
+.only itemcount(4854) > 0
 
 #step
-.talk Mull Thunderhorn
+.talk Mull Thunderhorn##2948
 >>de:Steht neben 2 kleinen Zielpuppen.
 .goto Mulgore,48.53,60.39
 .turnin Wildmane Cleansing##760
 .only Tauren
 
 #step
-.talk Skorn Whitecloud
+.talk Skorn Whitecloud##3052
 >>de:Steht vor dem Gasthaus.
 .goto Mulgore,46.76,60.23
 .turnin The Demon Scarred Cloak##770
 .only haveq(770)
 
 #step
-.talk Morin Cloudstalker
+.talk Morin Cloudstalker##2988
 >>de:Er läuft diese Straße entlang.
 >>He walks along the road around this area.
 .turnin The Venture Co.##764
 .turnin Supervisor Fizsprocket##765
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.23,31.01
 .turnin Sergra Darkthorn##860
 
 #step
-.talk Jahan Hawkwing
+.talk Jahan Hawkwing##3483
 .goto The Barrens,51.21,29.05
 .turnin Return to Jahan##6364
 .only Tauren
@@ -1783,7 +1797,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,47.47,65.13
 >>Enter the building
-.talk Doras
+.talk Doras##3310
 >>en:On a big plateau, you will need to ride an elevator up to get to him.
 >>de:At the top of the tower.
 >>At the top of the tower.

@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Martek the Exiled
+.talk Martek the Exiled##4618
 >>en:Standing in a small camp, next to a bubbling cauldron and a campfire.
 >>de:Standing in a small camp, next to a bubbling cauldron and a campfire.
 .goto Badlands,42.22,52.69
@@ -25,14 +25,14 @@ LLG.RegisterGuide([[
 .accept Indurium##1108
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
 .accept Study of the Elements: Rock##710
 
 #step
-.talk Neeka Bloodscar
+.talk Neeka Bloodscar##5394
 >>en:Standing at the top of the watch tower.
 >>de:Standing at the top of the watch tower.
 >>At the top of the tower.
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 .accept Report to Helgrum##1420
 
 #step
-.talk Gorrik
+.talk Gorrik##2861
 >>en:Standing next to a red canopy.
 >>de:Steht neben einem roten Baldachin.
 .goto Badlands,3.99,44.78
@@ -52,7 +52,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,3.83,46.98
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -61,7 +61,7 @@ LLG.RegisterGuide([[
 .accept Badlands Reagent Run##2258
 
 #step
-.talk Grawl
+.talk Grawl##2908
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 8-10 extra stacks.
 >>You will be questing for a while, without easy access to an ammo vendor.
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 >>You can find more around [Badlands 13.98,39.71]
 
 #step
-.kill 1 Lesser Rock Elemental
+.kill 1 Lesser Rock Elemental##2735
 >>You will need to do multiple clears to get enough stone shards.
 >>Kill Buzzards to the south between respawns. Rotate betweem them and the elementals.
 .goto Badlands,19.46,43.02
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 >>You can find more around [13.98,39.71]
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 .accept Study of the Elements: Rock##711
 
 #step
-.kill 1 Rock Elemental
+.kill 1 Rock Elemental##92
 .goto Badlands,39.30,77.11
 .complete 711,1 >>Collect 3 Large Stone Slab
 >>You can find more around [43.56,84.04]
@@ -131,36 +131,38 @@ LLG.RegisterGuide([[
 >>[18.90,77.65]
 
 #step
-.talk Martek the Exiled
+.talk Martek the Exiled##4618
 >>en:Standing in a small camp, next to a bubbling cauldron and a campfire.
 >>de:Standing in a small camp, next to a bubbling cauldron and a campfire.
 .goto Badlands,42.21,52.70
 .turnin Indurium##1108
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.39,52.93
 .accept Barbecued Buzzard Wings##703
 .goto Badlands,42.39,52.93
 .turnin Barbecued Buzzard Wings##703
 .goto Badlands,42.39,52.93
 .accept Pearl Diving##705
+.only itemcount(4611) >= 9
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.39,52.93
 .turnin Pearl Diving##705
+.only itemcount(4611) >= 9
 
 #step
 >>Watch the dialogue
-.talk Martek the Exiled
+.talk Martek the Exiled##4618
 >>en:Standing in a small camp, next to a bubbling cauldron and a campfire.
 >>de:Standing in a small camp, next to a bubbling cauldron and a campfire.
 .goto Badlands,42.21,52.70
 .accept News for Fizzle##1137
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -198,7 +200,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.kill 1 Greater Rock Elemental
+.kill 1 Greater Rock Elemental##2736
 >>If you have trouble, try to find someone to help you.
 >>only not selfmade :: This quest is especially worth doing if you purchased the items for the Nifty Stopwatch chain earlier.
 >>only hardcore :: These enemies can be tough, and are a bit higher level.
@@ -208,7 +210,7 @@ LLG.RegisterGuide([[
 >>You can find more up the path that starts at [13.20,83.27]
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -217,36 +219,40 @@ LLG.RegisterGuide([[
 .accept Gyro... What?##714
 .goto Badlands,25.95,44.87
 .accept Coolant Heads Prevail##713
+.only itemcount(3829) > 0
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
 .turnin Gyro... What?##714
 .goto Badlands,25.95,44.87
 .turnin Coolant Heads Prevail##713
+.only itemcount(4389) > 0 or itemcount(3829)
 
 #step
-.talk Lucien Tosselwrench
+.talk Lucien Tosselwrench##2920
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.67
 .accept Liquid Stone##715
 .goto Badlands,25.95,44.67
 .accept Stone Is Better than Cloth##716
+.only (itemcount(3823) > 0 and itemcount(929) > 0) or itemcount(2868) > 0
 
 #step
-.talk Lucien Tosselwrench
+.talk Lucien Tosselwrench##2920
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.67
 .turnin Liquid Stone##715
 .goto Badlands,25.95,44.67
 .turnin Stone Is Better than Cloth##716
+.only (itemcount(3823) > 0 and itemcount(929) > 0) or itemcount(2868) > 0
 
 #step
-.talk Neeka Bloodscar
+.talk Neeka Bloodscar##5394
 >>en:Standing at the top of the watch tower.
 >>de:Standing at the top of the watch tower.
 >>At the top of the tower.
@@ -256,7 +262,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,3.85,47.00
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -275,14 +281,14 @@ LLG.RegisterGuide([[
 .complete 1420 >>Click Here to continue
 
 #step
-.talk Belgrom Rockmaul
+.talk Belgrom Rockmaul##4485
 >>en:Standing next to a sign.
 >>de:Standing next to a sign.
 .goto Orgrimmar,75.23,34.24
 .accept A Threat in Feralas##2981
 
 #step
-.talk Trak'gen
+.talk Trak'gen##3313
 .goto Orgrimmar,48.14,80.56
 >>Stock up on level 40 Arrows
 .only Hunter
@@ -290,8 +296,8 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,77.36,38.72
 >>Enter the building
-.talk Jin'sora
-.kill 1 Massive Longbow
+.talk Jin'sora##3410
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in major cities.
@@ -299,10 +305,10 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Orgrimmar,78.09,38.46
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
-.talk Barkeep Morag
+.talk Barkeep Morag##5611
 >>If you are using a pet that requires meat, stock up.
 >>You won't see another meat vendor for a while.
 .goto Orgrimmar,54.63,67.81
@@ -310,20 +316,20 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Blackbone Wand
+.kill 1 Blackbone Wand##5239
 >>If you can afford it.
 >>You will use it when you reach level 41.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Priest
+.only Priest and itemcount(5239) == 0
 
 #step
 .goto Orgrimmar,49.87,70.48
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Orgrimmar,49.58,69.12
@@ -332,7 +338,7 @@ LLG.RegisterGuide([[
 .complete 1240 >>Collect Defiant Orc Head
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -341,12 +347,12 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Grezz Ragefist
-.talk Kardris Dreamseeker
-.talk Ormok
-.talk Mirket
-.talk Enyo
-.talk Ur'kyo
+.talk Grezz Ragefist##3353
+.talk Kardris Dreamseeker##3344
+.talk Ormok##3328
+.talk Mirket##3325
+.talk Enyo##5883
+.talk Ur'kyo##6018
 .goto Orgrimmar,79.76,31.42
 .train
 .goto Orgrimmar,38.81,36.47
@@ -365,7 +371,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,53.68,64.58
 >>Enter the building
-.talk Auctioneer Thathung
+.talk Auctioneer Thathung##8673
 >>Buy these items from the auction house. They are usually very cheap and this gives a lot of exp.
 >>Try to make sure all of the pages are available before buying any.
 >>If you cannot get every page, skip this step.

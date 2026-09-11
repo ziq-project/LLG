@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Taiga Wisemane
+.talk Taiga Wisemane##11624
 >>en:Standing on a small hill near a big gong.
 >>de:Standing on a small hill near a big gong.
 .goto Desolace,25.81,68.22
@@ -25,7 +25,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,26.51,75.12
 >>Leave Shadowprey Village
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.22,79.25
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Shadowprey and Village")
 
 #step
-.kill 1 Khan Jehn
+.kill 1 Khan Jehn##5601
 >>He walks in and out of this tent.
 .goto Desolace,66.39,80.08
 .complete 1374,1 >>Collect Khan Jehn's Head
@@ -45,7 +45,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,45.68,70.97
 >>Continue up the path
-.talk Hornizz Brimbuzzle
+.talk Hornizz Brimbuzzle##6019
 .goto Desolace,47.83,61.82
 .accept Ghost-o-plasm Round Up##6134
 .only walking
@@ -55,7 +55,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,54.73,55.09
 >>Cross the bridge
-.talk Takata Steelblade
+.talk Takata Steelblade##5641
 >>en:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 >>de:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 .goto Desolace,52.57,54.38
@@ -63,10 +63,10 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Crate of Ghost Magnets
+.click the Crate of Ghost Magnets##15848
 >>Kill any nearby enemies before using it.
 >>Use it next to the huge bones on the ground around this area.
-.kill 1 Magrami Spectre
+.kill 1 Magrami Spectre##11560
 >>They continuously walk to the spinning green thing that appears on the ground.
 >>They will become hostile when they reach the green thing.
 >>Stand on the large hill nearby to the northwest and pull them away from the green thing to fight them one at a time.
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 .click Demon Portal
 >>These are purple stone circles that spawn all over the area.
 >>They will spawn an enemy shortly after you click on them.
-.kill 1 Demon Portal Guardian
+.kill 1 Demon Portal Guardian##11937
 .goto Desolace,53.17,84.03
 .complete 5581,1 >>Banish the Demon Portal
 >>[52.70,81.92]
@@ -105,7 +105,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,54.73,55.09
 >>Cross the bridge
-.talk Takata Steelblade
+.talk Takata Steelblade##5641
 >>en:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 >>de:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 .goto Desolace,52.57,54.38
@@ -113,12 +113,12 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Hornizz Brimbuzzle
+.talk Hornizz Brimbuzzle##6019
 .goto Desolace,47.83,61.82
 .turnin Ghost-o-plasm Round Up##6134
 
 #step
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.22,79.25
@@ -127,7 +127,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,26.62,75.41
 >>Enter Shadowprey Village
-.talk Taiga Wisemane
+.talk Taiga Wisemane##11624
 >>en:Standing on a small hill near a big gong.
 >>de:Standing on a small hill near a big gong.
 .goto Desolace,25.81,68.22

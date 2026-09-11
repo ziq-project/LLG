@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.talk Talo Thornhoof
+.talk Talo Thornhoof##7776
 >>en:Standing ina small house.
 >>de:Standing ina small house.
 >>Inside the building.
@@ -49,14 +49,14 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.click the Perfect Yeti Hide
+.click the Perfect Yeti Hide##18972
 .goto Feralas,74.68,43.00
 .accept Perfect Yeti Hide##7738
 
 #step
 .goto Feralas,74.68,43.00
 >>Enter the building
-.talk Jangdor Swiftstrider
+.talk Jangdor Swiftstrider##7854
 >>en:Standing inside the big long house.
 >>de:Standing inside the big long house.
 >>Inside the building.
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 .turnin Perfect Yeti Hide##7738
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.37
@@ -76,14 +76,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.37
 .turnin Weapons of Spirit##3129
 
 #step
-.talk Overlord Mok'Morokk
+.talk Overlord Mok'Morokk##4500
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 >>You will have to fight him after accepting this quest, so be prepared.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.kill 1 Overlord Mok'Morokk
+.kill 1 Overlord Mok'Morokk##4500
 >>He will eventually surrender at around 30% health.
 >>If you have trouble, try to find someone to help you.
 .goto Dustwallow Marsh,36.30,31.42
@@ -103,7 +103,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,36.81,32.36
 >>Enter the cave
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 >>Inside the cave.
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -120,7 +120,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Deposit these items into the bank.
 .goto The Barrens,62.64,37.42
 .goto The Barrens,62.64,37.42
@@ -140,7 +140,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.52,38.58
 >>Enter the building
-.talk Liv Rizzlefix
+.talk Liv Rizzlefix##8496
 >>en:Inside the small engineering looking hut.
 >>de:Inside the small engineering looking hut.
 >>Inside the building.
@@ -150,7 +150,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.08,39.25
 >>Enter the building
-.talk Innkeeper Wiley
+.talk Innkeeper Wiley##6791
 >>Inside the building.
 >>Stock up on food and water, you have a long questing session coming up.
 .goto The Barrens,62.05,39.41
@@ -159,7 +159,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,75.00
 >>Enter the building
-.talk Haren Kanmae
+.talk Haren Kanmae##2839
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10 extra stacks.
 >>You will be out questing for a while, with no easy access to an ammo vendor.
@@ -170,14 +170,14 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
 .turnin Deliver to MacKinley##2874
 
 #step
-.talk Ian Strom
+.talk Ian Strom##1411
 .goto Stranglethorn Vale,26.82,77.16
 .train
 >>He is on the second floor of the inn, in a back room.
@@ -186,7 +186,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Whiskey Slim
+.talk Whiskey Slim##2491
 >>en:Standing on the bottom floor of the inn.
 >>de:Steht im Erdgeschoss des Gasthauses.
 >>Inside the building, on the bottom floor.
@@ -195,7 +195,7 @@ LLG.RegisterGuide([[
 .only not subzone("The and Salty and Sailor and Tavern")
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -212,25 +212,25 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,23.61,70.08
 >>Run up the stairs
-.talk Vark Battlescar
+.talk Vark Battlescar##11823
 >>Upstairs inside the building.
 .goto Desolace,23.22,70.32
 .accept Vyletongue Corruption##7029
 .only walking
 
 #step
-.talk Selendra
+.talk Selendra##13699
 .goto Desolace,26.86,77.67
 .accept Corruption of Earth and Seed##7064
 
 #step
-.talk Willow
+.talk Willow##13656
 >>Inside the building.
 .goto Desolace,62.19,39.63
 .accept Twisted Evils##7028
 
 #step
-.talk Centuar Pariah
+.talk Centuar Pariah##13717
 >>en:He walks through the path behind the mountains
 >>He walks around this area.
 .goto Desolace,51.47,87.41
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 >>[38.49,58.22]
 
 #step
-.talk Cavindra
+.talk Cavindra##13697
 >>en:She's in the section outside of the instance that has orange crystals on the walls
 .goto Desolace,32.00,63.70
 .accept Legend of Maraudon##7044
@@ -275,7 +275,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,38.82,58.31
 >>Follow the path
-.click Coated Cerulean Vial
+.click Coated Cerulean Vial##17693
 .goto Desolace,38.92,58.36
 .complete 7029,2 >>Collect Filled Cerulean Vial
 .only walking
@@ -289,19 +289,19 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,23.61,70.08
 >>Run up the stairs
-.talk Vark Battlescar
+.talk Vark Battlescar##11823
 >>Upstairs inside the building.
 .goto Desolace,23.22,70.32
 .turnin Vyletongue Corruption##7029
 .only walking
 
 #step
-.talk Selendra
+.talk Selendra##13699
 .goto Desolace,26.86,77.67
 .turnin Corruption of Earth and Seed##7064
 
 #step
-.talk Centuar Pariah
+.talk Centuar Pariah##13717
 >>en:He walks through the path behind the mountains
 >>He walks around this area.
 .goto Desolace,51.47,87.41
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 >>[43.95,86.00]
 
 #step
-.talk Willow
+.talk Willow##13656
 >>Inside the building.
 .goto Desolace,62.19,39.63
 .turnin Twisted Evils##7028

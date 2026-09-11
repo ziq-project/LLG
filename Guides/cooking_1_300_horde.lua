@@ -24,17 +24,18 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Zamja
+.talk Zamja##3399
 >>Inside the building.
 .goto Orgrimmar,57.40,53.96
 .train
+.condition skillmax("Cooking") >= 75 >>Train Apprentice Cooking
 .only walking
 
 #step
-.collect Chunk of Boar Meat,55
+.collect Chunk of Boar Meat,55 |or
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
->>'
+.condition skill("Cooking") >= 50 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
@@ -45,7 +46,7 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 50 in Cooking
+.condition skill("Cooking") >= 50 >>Reach Skill 50 in Cooking
 .only walking
 
 #step
@@ -58,29 +59,30 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Zamja
+.talk Zamja##3399
 >>Inside the building.
 .goto Orgrimmar,57.40,53.96
 .train
+.condition skillmax("Cooking") >= 150 >>Train Journeyman Cooking
 .only walking
 
 #step
 .goto Silverpine Forest,43.09,41.39
 >>Run down the stairs
-.talk Andrew Hilbert
+.talk Andrew Hilbert##3556
 >>en:He is at the bottom of the crypt
 >>de:Er ist unten in der Krypta.
 >>Downstairs inside the crypt.
-.kill 1 Recipe: Smoked Bear Meat
-.click the Recipe: Smoked Bear Meat
+.kill 1 Recipe: Smoked Bear Meat##6892
+.click the Recipe: Smoked Bear Meat##6892
 .goto Silverpine Forest,43.22,40.66
 .train
 
 #step
-.collect Bear Meat,30
+.collect Bear Meat,30 |or
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
->>'
+.condition skill("Cooking") >= 80 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
@@ -91,11 +93,11 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 80 in Cooking
+.condition skill("Cooking") >= 80 >>Reach Skill 80 in Cooking
 .only walking
 
 #step
-.talk Zamja
+.talk Zamja##3399
 >>Inside the building.
 .goto Orgrimmar,57.40,53.96
 .train
@@ -103,19 +105,19 @@ LLG.RegisterGuide([[
 #step
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
-.collect Clam Meat,40
->>'
+.collect Clam Meat,40 |or
+.condition skill("Cooking") >= 110 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Xen'to
+.talk Xen'to##3400
 >>Inside the building.
 .goto Orgrimmar,57.57,52.90
-.kill 40 Refreshing Spring Water
->>'
+.kill 40 Refreshing Spring Water##159
+.condition skill("Cooking") >= 110 |or
 .only walking
 
 #step
@@ -123,10 +125,10 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 110 in Cooking
+.condition skill("Cooking") >= 110 >>Reach Skill 110 in Cooking
 
 #step
-.talk Zamja
+.talk Zamja##3399
 >>Inside the building.
 .goto Orgrimmar,57.40,53.96
 .train
@@ -134,19 +136,19 @@ LLG.RegisterGuide([[
 #step
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
-.collect Crawler Meat,30
->>'
+.collect Crawler Meat,30 |or
+.condition skill("Cooking") >= 130 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Xen'to
+.talk Xen'to##3400
 >>Inside the building.
 .goto Orgrimmar,57.57,52.90
-.kill 30 Mild Spice
->>'
+.kill 30 Mild Spice##2678
+.condition skill("Cooking") >= 130 |or
 .only walking
 
 #step
@@ -154,7 +156,7 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 130 in Cooking
+.condition skill("Cooking") >= 130 >>Reach Skill 130 in Cooking
 
 #step
 >>Reach Level 20
@@ -168,36 +170,37 @@ LLG.RegisterGuide([[
 .only ZGV.IsClassicSoD
 
 #step
-.talk Wulan
+.talk Wulan##12033
 >>Upstairs inside the building.
-.kill 1 Expert Cookbook
-.click the Expert Cookbook
+.kill 1 Expert Cookbook##16072
+.click the Expert Cookbook##16072
 .goto Desolace,26.17,69.65
 .train
+.condition skillmax("Cooking") >= 225 >>Train Expert Cook
 
 #step
-.talk Nerrist
-.kill 1 Recipe: Curiously Tasty Omelet
-.click the Recipe: Curiously Tasty Omelet
+.talk Nerrist##1148
+.kill 1 Recipe: Curiously Tasty Omelet##3682
+.click the Recipe: Curiously Tasty Omelet##3682
 .goto Stranglethorn Vale,32.70,29.23
 .train
 
 #step
-.collect Raptor Egg,50
+.collect Raptor Egg,50 |or
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
->>'
+.condition skill("Cooking") >= 175 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Xen'to
+.talk Xen'to##3400
 >>Inside the building.
 .goto Orgrimmar,57.57,52.90
-.kill 50 Hot Spices
->>'
+.kill 50 Hot Spices##2692
+.condition skill("Cooking") >= 175 |or
 .only walking
 
 #step
@@ -205,31 +208,31 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 175 in Cooking
+.condition skill("Cooking") >= 175 >>Reach Skill 175 in Cooking
 
 #step
-.talk Nerrist
-.kill 1 Recipe: Roast Raptor
-.click the Recipe: Roast Raptor
+.talk Nerrist##1148
+.kill 1 Recipe: Roast Raptor##12228
+.click the Recipe: Roast Raptor##12228
 .goto Stranglethorn Vale,32.70,29.23
 .train
 
 #step
-.collect Raptor Flesh,60
+.collect Raptor Flesh,60 |or
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
->>'
+.condition skill("Cooking") >= 225 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Xen'to
+.talk Xen'to##3400
 >>Inside the building.
 .goto Orgrimmar,57.57,52.90
-.kill 60 Hot Spices
->>'
+.kill 60 Hot Spices##2692
+.condition skill("Cooking") >= 225 |or
 .only walking
 
 #step
@@ -237,7 +240,7 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 225 in Cooking
+.condition skill("Cooking") >= 225 >>Reach Skill 225 in Cooking
 
 #step
 >>Reach Level 35
@@ -249,7 +252,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Zamja
+.talk Zamja##3399
 >>Inside the building.
 .goto Orgrimmar,57.40,53.96
 .accept To Gadgetzan You Go!##6611
@@ -258,16 +261,16 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,45.94,51.07
 >>Enter the building
-.talk Innkeeper Abeqwa
+.talk Innkeeper Abeqwa##11116
 >>Inside the building.
 .goto Thousand Needles,46.07,51.52
-.kill 20 Alterac Swiss
+.kill 20 Alterac Swiss##8932
 >>only not selfmade :: It may be cheaper on the Auction House.
 
 #step
 .goto Tanaris,52.38,27.91
 >>Enter the building
-.talk Dirge Quikcleave
+.talk Dirge Quikcleave##8125
 >>Inside the building.
 .goto Tanaris,52.63,28.11
 .turnin To Gadgetzan You Go!##6611
@@ -275,12 +278,12 @@ LLG.RegisterGuide([[
 .accept Clamlette Surprise##6610
 
 #step
-.kill 1 Steeljaw Snapper
+.kill 1 Steeljaw Snapper##14123
 >>They look like turtles.
 .collect Big-mouth Clam,1
-.click the Big-mouth Clam
+.click the Big-mouth Clam##7973
 .goto Tanaris,67.75,22.96
-.complete 6610,2 >>Collect 10 Zesty Clam Meat
+.complete 6610,2 |or >>Collect 10 Zesty Clam Meat
 >>only not selfmade :: You can also purchase them from the Auction House.
 >>You can find more around:
 >>[67.09,18.71]
@@ -290,27 +293,28 @@ LLG.RegisterGuide([[
 #step
 .kill 1 Owlbeast enemies
 >>Follow the path and kill them as you find them.
-.complete 6610,1 >>Collect 12 Giant Egg
+.complete 6610,1 |or >>Collect 12 Giant Egg
 >>only not selfmade :: You can also purchase them from the Auction House.
 
 #step
 .goto Tanaris,52.38,27.91
 >>Enter the building
-.talk Dirge Quikcleave
+.talk Dirge Quikcleave##8125
 >>Inside the building.
 .goto Tanaris,52.63,28.11
 .turnin Clamlette Surprise##6610
 .goto Tanaris,52.63,28.11
 .train
+.condition skillmax("Cooking") >= 300 >>Train Artisan Cook
 >>You will learn this automatically.
 
 #step
 .goto Winterspring,61.32,38.72
 >>Enter the building
-.talk Himmik
+.talk Himmik##11187
 >>Inside the building.
-.kill 1 Recipe: Monster Omelet
-.click the Recipe: Monster Omelet
+.kill 1 Recipe: Monster Omelet##16110
+.click the Recipe: Monster Omelet##16110
 .goto Winterspring,61.33,39.16
 .train
 
@@ -319,17 +323,17 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Winterspring,61.33,37.36
 >>Enter the building
-.talk Qia
+.talk Qia##11189
 >>Inside the building.
 .goto Winterspring,61.20,37.21
-.kill 120 Soothing Spices
->>'
+.kill 120 Soothing Spices##3713
+.condition skill("Cooking") >= 275 |or
 
 #step
 .kill 1 Owlbeast enemies along this path
-.collect Giant Egg,60
+.collect Giant Egg,60 |or
 >>only not selfmade :: You can also purchase them from the Auction House.
->>'
+.condition skill("Cooking") >= 275 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
@@ -340,7 +344,7 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 275 in Cooking
+.condition skill("Cooking") >= 275 >>Reach Skill 275 in Cooking
 .only walking
 
 #step
@@ -348,19 +352,19 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Tanaris,66.66,22.20
 >>Enter the building
-.talk Gikkix
+.talk Gikkix##8137
 >>Inside the building.
-.kill 1 Recipe: Poached Sunscale Salmon
-.click the Recipe: Poached Sunscale Salmon
+.kill 1 Recipe: Poached Sunscale Salmon##13946
+.click the Recipe: Poached Sunscale Salmon##13946
 .goto Tanaris,66.64,22.08
 .train
 .only walking
 
 #step
-.collect Raw Sunscale Salmon,35
+.collect Raw Sunscale Salmon,35 |or
 >>Search the guide menu for the item(s) to use the farming guides.
 >>only not selfmade :: You can also purchase them from the Auction House.
->>'
+.condition skill("Cooking") >= 300 |or
 
 #step
 .goto Orgrimmar,56.34,56.91
@@ -371,6 +375,6 @@ LLG.RegisterGuide([[
 >>Stand next to the Mighty Blaze.
 >>Inside the building.
 .goto Orgrimmar,57.20,53.32
->>Reach Skill 300 in Cooking
+.condition skill("Cooking") >= 300 >>Reach Skill 300 in Cooking
 .only walking
 ]])

@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.click Dark Iron Ale Mug
+.click Dark Iron Ale Mug##165738
 >>They look like small mugs of ale on tables around the Grim Guzzler tavern in Blackrock Depths.
 >>Clicking two of them is safe but clicking more will anger the bar patrons.
 .collect Dark Iron Ale Mug,2
@@ -23,18 +23,18 @@ LLG.RegisterGuide([[
 >>only not selfmade :: They can be purchased from the Auction House if you are lucky enough to find them.
 
 #step
-.click the Dark Iron Ale Mug
+.click the Dark Iron Ale Mug##11325
 >>Place it at Morja's feet.
 >>Be sure you only use one; you will need the other one to turn in the quest.
 >>Wait for Jubjub the frog to hop over to the mug
 >>This may take a couple of minutes.
-.talk Morja
+.talk Morja##14871
 .goto Elwynn Forest,43.33,70.29
 .accept Spawn of Jubjub##7946
 >>This quest will be available after Jubjub appears.
 
 #step
-.click the Unhatched Jubling Egg
+.click the Unhatched Jubling Egg##19462
 >>It will take seven days for the egg to mature enough to hatch.
 .collect A Jubling's Tiny Home,1
 ]])

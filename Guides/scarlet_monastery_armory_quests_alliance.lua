@@ -23,13 +23,13 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Stormwind City,41.33,25.11
 >>Run down the ramp
-.talk Brother Crowley
+.talk Brother Crowley##12336
 >>Inside the building.
 .goto Stormwind City,42.58,24.23
 .accept Brother Anton##6141
 
 #step
-.talk Brother Anton
+.talk Brother Anton##1182
 >>Inside the building.
 .goto Desolace,66.52,7.90
 .turnin Brother Anton##6141
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 .complete 261,1 >>Kill 30 Undead Ravager
 
 #step
-.talk Brother Anton
+.talk Brother Anton##1182
 >>Inside the building.
 .goto Desolace,66.52,7.90
 .turnin Down the Scarlet Path##261
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.47,58.56
 >>Enter the building
-.talk Raleigh the Devout
+.talk Raleigh the Devout##3980
 >>en:He's upstairs in the inn.
 >>Upstairs inside the building.
 .goto Hillsbrad Foothills,51.46,58.36
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.47,58.56
 >>Enter the building
-.talk Raleigh the Devout
+.talk Raleigh the Devout##3980
 >>en:He's upstairs in the inn.
 >>Upstairs inside the building.
 .goto Hillsbrad Foothills,51.46,58.36

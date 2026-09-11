@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -46,7 +46,7 @@ LLG.RegisterGuide([[
 >>You can find more around [50.64,77.01]
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -55,14 +55,14 @@ LLG.RegisterGuide([[
 .accept The Scourge Cauldrons##5215
 
 #step
-.talk High Priestess MacDonnell
+.talk High Priestess MacDonnell##11053
 >>en:Next to a small table and a cart.
 >>de:Next to a small table and a cart.
 .goto Western Plaguelands,42.97,84.50
 .turnin The Scourge Cauldrons##5215
 
 #step
-.talk Erelas Ambersky
+.talk Erelas Ambersky##7916
 >>en:Just inside the house directly across from the dock.
 >>de:Just inside the house directly across from the dock.
 >>Inside the building.
@@ -72,7 +72,7 @@ LLG.RegisterGuide([[
 .accept Moontouched Wildkin##978
 
 #step
-.talk Daryn Lightwind
+.talk Daryn Lightwind##7907
 >>en:Upstairs, next to 2 bookcases.
 >>de:Upstairs, next to 2 bookcases.
 >>Upstairs inside the building.
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .accept Return to Troyas##2943
 
 #step
-.talk Garryeth
+.talk Garryeth##4209
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Darnassus,39.60,41.98
@@ -95,7 +95,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,39.04,76.77
 >>Enter the building
-.talk Gracina Spiritmight
+.talk Gracina Spiritmight##7740
 >>en:At the top of the Temple of the Moon, on a balcony by himself.
 >>de:At the top of the Temple of the Moon, on a balcony by himself.
 >>Upstairs inside the building.
@@ -105,7 +105,7 @@ LLG.RegisterGuide([[
 .accept March of the Silithid##4493
 
 #step
-.talk Innkeeper Shaussiy
+.talk Innkeeper Shaussiy##6737
 >>Inside the building.
 .goto Darkshore,37.04,44.13
 .hs

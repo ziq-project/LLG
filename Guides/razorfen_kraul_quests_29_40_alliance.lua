@@ -19,40 +19,40 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .accept Blueleaf Tubers##1221
 
 #step
-.click Snufflenose Command Stick
+.click Snufflenose Command Stick##68865
 .goto The Barrens,62.34,37.61
 .complete 1221,4 >>Collect Snufflenose Command Stick
 
 #step
-.click Snufflenose Owner's Manual
+.click Snufflenose Owner's Manual##21530
 .goto The Barrens,62.34,37.63
 .complete 1221,3 >>Collect Snufflenose Owner's Manual
 
 #step
-.click Crate with Holes
+.click Crate with Holes##21277
 .goto The Barrens,62.33,37.63
 .complete 1221,2 >>Collect Crate With Holes
 
 #step
-.click Henrig Longbrow's Journal
+.click Henrig Longbrow's Journal##19861
 >>It will be in the hand of a corpse on the ground.
 .goto Thousand Needles,30.73,24.35
 .collect Henrig Lonebrow's Journal,1
 
 #step
-.click Henrig Lonebrow's Journal
+.click Henrig Lonebrow's Journal##5791
 .goto Thousand Needles,30.73,24.35
 .accept Longbrow's Jounral##1100
 
 #step
-.talk Falfindel Waywarder
+.talk Falfindel Waywarder##4048
 >>en:Standing next to a glowing gazeebo and a moonwell.
 >>de:Standing next to a glowing gazeebo and a moonwell.
 .goto Feralas,89.63,46.57
@@ -65,25 +65,25 @@ LLG.RegisterGuide([[
 >>Enter the Razorfen Kraul Dungeon with Your Group
 
 #step
-.click the Crate With Holes
+.click the Crate With Holes##5880
 >>This will summon a gopher.
-.click the Snufflenose Command Stick
+.click the Snufflenose Command Stick##6684
 >>This will allow you to command the gopher.
 >>Once past Overlord Ramtusk, go to the biggest hill from the area with many bridges.
 .complete 1221,1 >>Collect 6 Blueleaf Tuber
 
 #step
-.kill 1 Charlga Razorflank
+.kill 1 Charlga Razorflank##4421
 .complete 1101,1 >>Collect Razorflank's Medallion
 
 #step
-.talk Heralath Fallowbrook
+.talk Heralath Fallowbrook##4510
 >>Inside the tent.
 >>Jump down from the platform where Charlga Razorflank was and head to the tent to the left.
 .accept Mortality Wanes##1142
 
 #step
-.talk Willix the Importer
+.talk Willix the Importer##4508
 >>Inside the building.
 >>This is an escort quest.
 .accept Willix the Importer##1144
@@ -92,7 +92,7 @@ LLG.RegisterGuide([[
 .complete 1144,1 >>Escort Willix the Importer out of Razorfen Kraul
 
 #step
-.talk Willix the Importer
+.talk Willix the Importer##4508
 >>He will be at the entrance after the completion of the escort quest.
 .turnin Willix the Importer##1144
 
@@ -101,14 +101,14 @@ LLG.RegisterGuide([[
 .complete 1142,1 >>Collect Treshala's Pendant
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .turnin Blueleaf Tubers##1221
 
 #step
-.talk Falfindel Waywarder
+.talk Falfindel Waywarder##4048
 >>en:Standing next to a glowing gazeebo and a moonwell.
 >>de:Standing next to a glowing gazeebo and a moonwell.
 .goto Feralas,89.63,46.57
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 >>Continue up the ramp
 .goto Darnassus,65.71,61.63
 >>Cross the bridge
-.talk Treshala Fallowbrook
+.talk Treshala Fallowbrook##4521
 .goto Darnassus,69.55,67.79
 .turnin Mortality Wanes##1142
 .only walking

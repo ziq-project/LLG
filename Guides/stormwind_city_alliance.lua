@@ -25,28 +25,28 @@ LLG.RegisterGuide([[
 .only not completedq(7791) and not completedq(7793) and not completedq(7794) and not completedq(7795)
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Wool##7791
 .only not completedq(7791)
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Silk##7793
 .only not completedq(7793)
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Mageweave##7794
 .only not completedq(7794)
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 .goto Stormwind City,44.27,73.97
 .accept A Donation of Runecloth##7795
@@ -56,11 +56,12 @@ LLG.RegisterGuide([[
 >>Farm or Buy Cloth
 >>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
 >>Collect Runecloth for Stormwind City (Exalted)
+.only rep("Stormwind and City") < Exalted
 
 #step
-.talk Clavicus Knavingham
+.talk Clavicus Knavingham##14722
 >>Upstairs inside the building.
 >>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
 .goto Stormwind City,44.27,73.97
->>Reach Exalted Reputation with the Stormwind City Faction
+.condition rep("Stormwind City") == Exalted >>Reach Exalted Reputation with the Stormwind City Faction
 ]])

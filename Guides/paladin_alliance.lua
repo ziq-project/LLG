@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.44,35.14
 >>Enter the building
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -29,7 +29,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -38,12 +38,12 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.click the Tome of Divinity
+.click the Tome of Divinity##6775
 .accept The Tome of Divinity##1642
 .only Human and Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.06,34.49
 >>Leave the building
-.talk Stephanie Turner
+.talk Stephanie Turner##6174
 >>en:Standing next to a sign post.
 >>de:Steht neben einem Wegweiser.
 .goto Stormwind City,57.08,61.74
@@ -68,7 +68,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,53.99,58.98
 >>Enter the building
-.talk Auctioneer Jaxon
+.talk Auctioneer Jaxon##15659
 >>Inside the building.
 >>Buy these items from the Auction House.
 >>Or, refer to the Linen Cloth farming guide to accomplish this.
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,53.86,58.92
 >>Leave the building
-.talk Stephanie Turner
+.talk Stephanie Turner##6174
 >>en:Standing next to a sign post.
 >>de:Steht neben einem Wegweiser.
 .goto Stormwind City,57.08,61.74
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.44,35.14
 >>Enter the building
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -102,7 +102,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Gazin Tenorm
+.talk Gazin Tenorm##6173
 >>en:Inside the cathedral, standing next to a table.
 >>de:In der Kathedrale, steht neben einem Tisch.
 >>Inside the building.
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Elwynn Forest,69.14,70.95
 >>Follow the path
-.click the Symbol of Life
+.click the Symbol of Life##6866
 >>only hardcore :: Watch for Defias Rogue Wizards around here.
 >>only hardcore :: They are ranged attackers with an abnormal sized aggro radius.
 >>Use it on Henze Faulk's corpse.
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Henze Faulk
+.talk Henze Faulk##6172
 >>en:Laying on a small hill.
 >>de:Liegt auf einem kleinen Hügel.
 .goto Elwynn Forest,72.60,51.41
@@ -140,7 +140,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.kill 1 Defias Rogue Wizard
+.kill 1 Defias Rogue Wizard##474
 >>only hardcore :: They are ranged attackers with an abnormal sized aggro radius.
 .goto Elwynn Forest,74.07,51.57
 .complete 1787,1 >>Collect Defias Script
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 >>Enter Stormwind City
 .goto Stormwind City,43.44,35.14
 >>Enter the building
-.talk Gazin Tenorm
+.talk Gazin Tenorm##6173
 >>en:Inside the cathedral, standing next to a table.
 >>de:In der Kathedrale, steht neben einem Tisch.
 >>Inside the building.
@@ -166,7 +166,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -177,7 +177,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,27.28,12.31
 >>Enter the building
-.talk Brandur Ironhammer
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
 >>Inside the building.
@@ -186,7 +186,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -206,12 +206,12 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.click the Tome of Divinity
+.click the Tome of Divinity##6916
 .accept The Tome of Divinity##1646
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk John Turner
+.talk John Turner##6175
 >>He walks around this area
 .goto Ironforge,23.30,61.90
 .turnin The Tome of Divinity##1647
@@ -237,7 +237,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,26.14,72.21
 >>Enter the building
-.talk Auctioneer Redmuse
+.talk Auctioneer Redmuse##8720
 >>Inside the building.
 .goto Ironforge,24.25,74.57
 .complete 1648,1 >>Collect 10 Linen Cloth
@@ -245,7 +245,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin and selfmade
 
 #step
-.talk John Turner
+.talk John Turner##6175
 >>He walks around this area
 .goto Ironforge,23.30,61.90
 .turnin The Tome of Divinity##1648
@@ -260,7 +260,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,27.28,12.31
 >>Enter the building
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -271,7 +271,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Muiredon Battleforge
+.talk Muiredon Battleforge##6178
 >>en:Up the ramp of the Mystic Ward.
 >>de:Up the ramp of the Mystic Ward.
 >>Upstairs inside the building.
@@ -286,14 +286,14 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Dun Morogh,73.14,49.95
 >>Follow the path
-.click the Symbol of Life
+.click the Symbol of Life##6866
 >>Use it on Narm Faulk's corpse.
 .goto Dun Morogh,78.32,58.09
 .complete 1783,1 >>Resseurect Narm Faulk
 .only Dwarf and Paladin
 
 #step
-.talk Narm Faulk
+.talk Narm Faulk##6177
 >>en:Lying on top of the hill.
 >>de:Liegt oben auf dem Hügel.
 .goto Dun Morogh,78.32,58.09
@@ -303,7 +303,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.kill 1 Dark Iron Spy
+.kill 1 Dark Iron Spy##6123
 .goto Dun Morogh,77.39,61.27
 .complete 1784,1 >>Collect Dark Iron Script
 .only Dwarf and Paladin
@@ -317,7 +317,7 @@ LLG.RegisterGuide([[
 >>Enter Ironforge
 .goto Ironforge,27.28,12.31
 >>Enter the building
-.talk Muiredon Battleforge
+.talk Muiredon Battleforge##6178
 >>en:Up the ramp of the Mystic Ward.
 >>de:Up the ramp of the Mystic Ward.
 >>Upstairs inside the building.
@@ -328,7 +328,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -349,23 +349,23 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
 .goto Stormwind City,39.81,29.80
-.accept The Tome of Valor##1794
+.accept The Tome of Valor##1794 |or
 .goto Stormwind City,39.81,29.80
-.accept The Tome of Valor##1793
+.accept The Tome of Valor##1793 |or
 .only Paladin
 
 #step
-.click the Tome of Valor
+.click the Tome of Valor##6776
 .accept The Tome of Valor##1649
 .only Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 .goto Stormwind City,39.81,29.80
@@ -379,7 +379,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Westfall,40.13,86.97
 >>Follow the path down
-.talk Daphne Stilwell
+.talk Daphne Stilwell##6182
 >>She walks around the area.
 .goto Westfall,42.71,88.40
 .turnin The Tome of Valor##1650
@@ -388,7 +388,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.kill 1 Defias Raider
+.kill 1 Defias Raider##6180
 >>You may need help with this.
 >>They spawn in waves, the first has 3, the second has 4 and the third has 5.
 .goto Westfall,42.29,88.57
@@ -396,7 +396,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Daphne Stilwell
+.talk Daphne Stilwell##6182
 >>She walks around the area.
 .goto Westfall,42.71,88.40
 .turnin The Tome of Valor##1651
@@ -405,7 +405,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 .goto Stormwind City,39.81,29.80
@@ -415,7 +415,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Jordan Stilwell
+.talk Jordan Stilwell##6181
 .goto Dun Morogh,52.48,36.92
 .turnin The Test of Righteousness##1653
 .goto Dun Morogh,52.48,36.92
@@ -447,7 +447,7 @@ LLG.RegisterGuide([[
 #step
 >>Inside the Deadmines Dungeon:
 >>only hardcore :: You can skip this step for now and do it later if you're unable to get a group.
-.kill 1 Goblin Woodcarver
+.kill 1 Goblin Woodcarver##641
 .complete 1654,1 >>Collect Whitestone Oak Lumber
 .only Paladin
 
@@ -458,7 +458,7 @@ LLG.RegisterGuide([[
 #step
 >>Inside the Shadowfang Keep Dungeon:
 >>only hardcore :: You can skip this step for now and do it later if you're unable to get a group.
-.click Jordan's Smithing Hammer
+.click Jordan's Smithing Hammer##91138
 >>Inside the stable area of the dungeon.
 .complete 1654,3 >>Collect Jordan's Smithing Hammer
 .only Paladin
@@ -471,21 +471,21 @@ LLG.RegisterGuide([[
 .only Paladin and hardcore
 
 #step
-.talk Bailor Stonehand
+.talk Bailor Stonehand##6241
 >>Inside the building.
 .goto Loch Modan,35.96,44.92
 .accept Bailor's Ore Shipment##1655
 .only Paladin
 
 #step
-.click Bailor's Ore
+.click Bailor's Ore##92420
 >>It looks like a crate next to a tree stump.
 .goto Loch Modan,71.62,21.55
 .complete 1655,1 >>Collect Jordan's Ore Shipment
 .only Paladin
 
 #step
-.talk Bailor Stonehand
+.talk Bailor Stonehand##6241
 >>Inside the building.
 >>You may need help with this.
 .goto Loch Modan,35.96,44.92
@@ -494,7 +494,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -525,7 +525,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -535,7 +535,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Jordan Stilwell
+.talk Jordan Stilwell##6181
 .goto Dun Morogh,52.48,36.92
 .turnin The Test of Righteousness##1654
 .goto Dun Morogh,52.48,36.92
@@ -544,7 +544,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Jordan Stilwell
+.talk Jordan Stilwell##6181
 .goto Dun Morogh,52.48,36.92
 .turnin The Test of Righteousness##1806
 .only Paladin
@@ -553,7 +553,7 @@ LLG.RegisterGuide([[
 .level 40
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -567,14 +567,14 @@ LLG.RegisterGuide([[
 .level 52
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.25
 .accept Chillwind Point##8415
 .only Paladin
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -592,7 +592,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk High Priest Thel'danis
+.talk High Priest Thel'danis##1854
 >>He patrols around the area.
 .goto Western Plaguelands,52.09,83.35
 .turnin Dispelling Evil##8414
@@ -601,7 +601,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -660,7 +660,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Commander Ashlam Valorfist
+.talk Commander Ashlam Valorfist##10838
 >>en:In front of a tent, next to a well.
 >>de:In front of a tent, next to a well.
 .goto Western Plaguelands,42.70,84.03
@@ -671,7 +671,7 @@ LLG.RegisterGuide([[
 .level 60
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -680,7 +680,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.27
 .turnin Lord Grayson Shadowbreaker##7638
@@ -693,7 +693,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk High Priest Rohan
+.talk High Priest Rohan##11406
 >>He walks around inside the building.
 .goto Ironforge,26.98,7.30
 .turnin Emphasis on Sacrifice##7637
@@ -702,7 +702,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.27
 .turnin To Show Due Judgment##7639
@@ -711,7 +711,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.click the Exorcism Censer
+.click the Exorcism Censer##18752
 >>Use it on the green circles on the ground around this area.
 >>The green circles can also appear inside buildings.
 .goto Eastern Plaguelands,19.58,32.25
@@ -722,7 +722,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.27
 .turnin xorcising Terrordale##7640
@@ -731,7 +731,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Grimand Elmore
+.talk Grimand Elmore##1416
 >>en:Inside the shop, to the right, next to the staircase.
 >>de:Im Laden rechts, neben der Treppe.
 >>Inside the building.
@@ -788,7 +788,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Grimand Elmore
+.talk Grimand Elmore##1416
 >>en:Inside the shop, to the right, next to the staircase.
 >>de:Im Laden rechts, neben der Treppe.
 >>Inside the building.
@@ -804,7 +804,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.27
 .turnin Grimand's Finest Work##7648
@@ -813,9 +813,9 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Argent Quartermaster Lightspark
+.talk Argent Quartermaster Lightspark##10857
 .goto Western Plaguelands,42.84,83.72
-.kill 20 Enriched Manna Biscuit
+.kill 20 Enriched Manna Biscuit##13724
 >>You must be Friendy with The Argent Dawn to purchase these.
 >>Quest at Light's Hope Chapel in Eastern Plaguelands to accomplish this.
 .only Paladin
@@ -825,14 +825,14 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Merideth Carlson
+.talk Merideth Carlson##2357
 >>Standing inside the stable.
 .goto Hillsbrad Foothills,52.18,55.50
 .accept Manna-Enriched Horse Feed##7645
 .only Paladin
 
 #step
-.talk Merideth Carlson
+.talk Merideth Carlson##2357
 >>Standing inside the stable.
 .goto Hillsbrad Foothills,52.18,55.50
 .turnin Manna-Enriched Horse Feed##7645
@@ -869,15 +869,15 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Diremaul - West Dungeon:
-.kill 1 Tendris Warpwood
-.talk Ancient Equine Spirit
+.kill 1 Tendris Warpwood##11489
+.talk Ancient Equine Spirit##14566
 >>It appears after you kill Tendris Warpwood.
 .turnin Ancient Equine Spirit##7643
 .accept Blessed Arcanite Barding##7644
 .only Paladin
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.27
 .turnin Blessed Arcanite Barding##7644
@@ -900,7 +900,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Lord Grayson Shadowbreaker
+.talk Lord Grayson Shadowbreaker##928
 >>Inside the building.
 .goto Stormwind City,37.14,33.27
 .turnin The Divination Scryer##7646
@@ -909,7 +909,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.click Lord Grayson's Satchel
+.click Lord Grayson's Satchel##18804
 .collect Divination Scryer,1
 .complete 7647,2 >>Collect Blessed Arcanite Barding
 .only Paladin
@@ -930,20 +930,20 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click the Divination Scryer
+.click the Divination Scryer##18746
 >>Use it in the room with the boss Rattlegore after you have cleared it.
 .kill 1 enemies around this area
 >>They will spawn in waves.
 >>Make sure your group is prepared before using the Divination Scryer.
 >>If you wipe you will need to abandon and restart the quest.
-.kill 1 Death Knight Darkreaver
+.kill 1 Death Knight Darkreaver##14516
 .complete 7647,1 >>Collect Charger's Lost Soul
 .only Paladin
 
 #step
 >>Inside the Scholomance Dungeon:
-.click the Charger's Lost Soul
-.talk Darkreaver's Fallen Charger
+.click the Charger's Lost Soul##18749
+.talk Darkreaver's Fallen Charger##14568
 .turnin Judgment and Redemption##7647
 .only Paladin
 ]])

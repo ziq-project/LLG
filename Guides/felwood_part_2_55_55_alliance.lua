@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 .goto Felwood,51.21,82.11
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,51.26,81.69
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -36,7 +36,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .accept Purified!##4442
 
 #step
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -64,7 +64,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: The Shadow Hold is dangerous.
 >>only hardcore :: Keep an eye out for patrolling enemies as well as enemy casters while inside.
 >>Clear enemies
-.click Brazier of Pain
+.click Brazier of Pain##176158
 >>Downstairs inside the cave, on the top level.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Felwood,36.27,56.29
@@ -72,7 +72,7 @@ LLG.RegisterGuide([[
 .only not subzone("Shadow and Hold")
 
 #step
-.click Brazier of Hatred
+.click Brazier of Hatred##176161
 >>Downstairs inside the cave, on the top level.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Felwood,36.48,55.18
@@ -87,18 +87,20 @@ LLG.RegisterGuide([[
 .collect Blood Red Key,1
 
 #step
-.click the Blood Red Key
+.click the Blood Red Key##13140
 .accept A Strange Red Key##5202
+.only itemcount(13140) > 0
 
 #step
-.talk Captured Arko'narin
+.talk Captured Arko'narin##11016
 >>Inside a yellow wooden cage.
 >>Downstairs inside the cave, on the top level.
 .goto Felwood,36.21,55.50
 .turnin A Strange Red Key##5202
+.only itemcount(13140) > 0
 
 #step
-.talk Captured Arko'narin
+.talk Captured Arko'narin##11016
 >>Inside a yellow wooden cage.
 >>This will start an escort quest, follow her and activate braziers as she walks.
 .goto Felwood,36.21,55.50
@@ -109,7 +111,7 @@ LLG.RegisterGuide([[
 >>Run around the hole in the floor and follow the path down
 
 #step
-.click Brazier of Suffering
+.click Brazier of Suffering##176160
 >>Downstairs inside the cave, on the bottom level.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Felwood,36.73,53.26
@@ -136,14 +138,14 @@ LLG.RegisterGuide([[
 .goto Felwood,35.94,56.76
 >>Follow the path up
 .goto Felwood,35.42,58.81
->>Leave the cave
+.condition not subzone("Shadow Hold") >>Leave the cave
 
 #step
 .goto Felwood,38.40,59.74
 >>Leave Jaedenar and follow the road north
 .goto Felwood,64.18,15.20
 >>Follow the road
-.talk Nafien
+.talk Nafien##15395
 >>en:Standing to the side of the road in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager am Straßenrand, neben einem Lagerfeür.
 .goto Felwood,64.77,8.13
@@ -184,7 +186,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,64.18,15.20
 >>Follow the road
-.talk Nafien
+.talk Nafien##15395
 >>en:Standing to the side of the road in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager am Straßenrand, neben einem Lagerfeür.
 >>You may have Deadwood Headdress Feathers from killing Deadwood enemies nearby.
@@ -196,10 +198,11 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Nafien
+.talk Nafien##15395
 >>en:Standing to the side of the road in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager am Straßenrand, neben einem Lagerfeür.
 >>Each turnin is 5 feathers, be sure to turn in all the feathers you farmed.
 .goto Felwood,64.77,8.13
 .accept Feathers for Nafien##8467
+.only itemcount(21377) >= 5
 ]])

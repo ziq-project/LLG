@@ -26,14 +26,14 @@ LLG.RegisterGuide([[
 .collect Encrypted Twilight Text,1
 >>{o}Save{} any of these you find, you will {o}turn them in later{}.
 .goto Silithus,66.60,17.80
->>Reach Honored Reputation with the Cenarion Circle Faction
+.condition rep("Cenarion Circle") >= Honored >>Reach Honored Reputation with the Cenarion Circle Faction
 >>You can find more around:
 >>[26.80,34.60]
 >>[40.20,44.60]
 >>[20.40,85.60]
 
 #step
-.talk Bor Wildmane
+.talk Bor Wildmane##15306
 .goto Silithus,48.57,37.78
 .accept Secret Communication##8318
 
@@ -48,7 +48,7 @@ LLG.RegisterGuide([[
 >>[20.40,85.60]
 
 #step
-.talk Bor Wildmane
+.talk Bor Wildmane##15306
 .goto Silithus,48.57,37.78
 .turnin Secret Communication##8318
 
@@ -57,6 +57,7 @@ LLG.RegisterGuide([[
 >>At this point, {o}quests in Silithus{} are a {o}reliable source of reputation{}.
 >>Use the {o}Silithus leveing guide{} to accomplish this.
 .click Here to Continue
+.only not rep('Cenarion and Circle') == Exalted
 
 #step
 .kill 1 Twilight enemies around this area
@@ -67,7 +68,7 @@ LLG.RegisterGuide([[
 >>only Human :: Each {o}stack of 10{} is worth {o}110 reputation{} until Exalted.
 >>You can {o}buy these from the Auction House{}, if you {o}have gold{} and want to {o}save time{}.
 .goto Silithus,66.60,17.80
->>Reach Exalted Reputation with the Cenarion Circle Faction
+.condition rep("Cenarion Circle") >= Exalted >>Reach Exalted Reputation with the Cenarion Circle Faction
 >>You can find more around:
 >>[26.80,34.60]
 >>[40.20,44.60]

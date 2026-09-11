@@ -21,54 +21,54 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.93,34.24
 >>Enter the building
-.talk Brother Sarno
+.talk Brother Sarno##7917
 >>Inside the building.
 .goto Stormwind City,40.56,30.92
 .accept Tinkmaster Overspark##2923
 
 #step
-.talk Shoni the Shilent
+.talk Shoni the Shilent##6579
 .goto Stormwind City,55.51,12.50
 .accept Gyrodrillmatic Excavationators##2928
 
 #step
-.talk Mathiel
+.talk Mathiel##6142
 .goto Darnassus,59.48,45.38
 .accept Klockmort's Essentials##2925
 
 #step
-.talk Klockmort Spannerspan
+.talk Klockmort Spannerspan##6169
 .goto Ironforge,67.98,46.13
 .turnin Klockmort's Essentials##2925
 .goto Ironforge,67.98,46.13
 .accept Essential Artificials##2924
 
 #step
-.talk Tinkmaster Overspark
+.talk Tinkmaster Overspark##7944
 .goto Ironforge,69.56,50.32
 .turnin Tinkmaster Overspark##2923
 .goto Ironforge,69.56,50.32
 .accept Save Techbot's Brain!##2922
 
 #step
-.talk Gnoarn
+.talk Gnoarn##6569
 .goto Ironforge,69.18,50.56
 .accept The Day After##2927
 
 #step
-.talk Master Mechanic Castpipe
+.talk Master Mechanic Castpipe##7950
 .goto Ironforge,69.82,48.08
 .accept Data Rescue##2930
 
 #step
-.talk High Tinker Mekkatorque
+.talk High Tinker Mekkatorque##7937
 .goto Ironforge,68.76,48.96
 .accept The Grand Betrayal##2929
 
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Ozzie Togglevolt
+.talk Ozzie Togglevolt##1268
 >>Inside the building.
 .goto Dun Morogh,45.88,49.38
 .turnin The Day After##2927
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 .collect White Punch Card,1
 
 #step
-.kill 1 Techbot
+.kill 1 Techbot##6231
 >>You may need help with this.
 >>Weiter nach Gnomeregan
 .complete 2922,1 >>Collect Techbot's Memory Core
@@ -110,7 +110,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Empty Leaden Collection Phial
+.click the Empty Leaden Collection Phial##9283
 >>Use it on Irradiated Invaders or Irradiated Pillagers.
 >>Weiter nach Gnomeregan
 .complete 2926,1 >>Collect Full Leaden Collection Phial
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Ozzie Togglevolt
+.talk Ozzie Togglevolt##1268
 >>Inside the building.
 .goto Dun Morogh,45.88,49.38
 .turnin Gnogaine##2926
@@ -147,16 +147,16 @@ LLG.RegisterGuide([[
 .collect Blue Punch Card,1
 
 #step
-.kill 1 Viscous Fallout
+.kill 1 Viscous Fallout##7079
 >>It is the first boss of the dungeon.
 >>It is in the lower level of the Hall of Gears.
 >>Leave The Dormitory and reenter The Hall of Gears and then jump down to the lower level.
-.click the Heavy Leaden Collection Phial
+.click the Heavy Leaden Collection Phial##9364
 >>Use it on a living Irradiated Slime.
 .complete 2962,1 >>Collect High Potency Radioactive Fallout
 
 #step
-.kill 1 Electrocutioner 6000
+.kill 1 Electrocutioner 6000##6235
 >>He is the third boss of the dungeon.
 >>He is in the center of the upper level of the Launch Bay.
 >>Follow the west path from The Hall of Gears to enter the Launch Bay.
@@ -182,7 +182,7 @@ LLG.RegisterGuide([[
 .complete 2928,1 >>Collect 24 Robo-mechanical Guts
 
 #step
-.click Artificial Extrapolator
+.click Artificial Extrapolator##142344
 >>They look like square upright machines scattered all over the instance.
 .complete 2924,1 >>Collect 12 Essential Artificial
 
@@ -196,35 +196,35 @@ LLG.RegisterGuide([[
 .complete 2928 >>Click Here to Continue
 
 #step
-.talk Klockmort Spannerspan
+.talk Klockmort Spannerspan##6169
 .goto Ironforge,67.98,46.13
 .turnin Essential Artificials##2924
 
 #step
-.talk Tinkmaster Overspark
+.talk Tinkmaster Overspark##7944
 .goto Ironforge,69.56,50.32
 .turnin Save Techbot's Brain!##2922
 
 #step
-.talk Master Mechanic Castpipe
+.talk Master Mechanic Castpipe##7950
 .goto Ironforge,69.82,48.08
 .turnin Data Rescue##2930
 
 #step
-.talk High Tinker Mekkatorque
+.talk High Tinker Mekkatorque##7937
 .goto Ironforge,68.76,48.96
 .turnin The Grand Betrayal##2929
 
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Ozzie Togglevolt
+.talk Ozzie Togglevolt##1268
 >>Inside the building.
 .goto Dun Morogh,45.88,49.38
 .turnin The Only Cure is More Green Glow##2962
 
 #step
-.talk Shoni the Shilent
+.talk Shoni the Shilent##6579
 .goto Stormwind City,55.51,12.50
 .turnin Gyrodrillmatic Excavationators##2928
 ]])

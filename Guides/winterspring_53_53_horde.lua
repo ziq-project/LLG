@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Run down the stairs and follow the path
 .goto Moonglade,35.75,72.48
 >>Leave the tunnel
-.talk Faustron
+.talk Faustron##12740
 >>en:Standing in a small camp, under a big red canopy.
 >>de:Steht in einem kleinen Lager unter einem großen roten Baldachin.
 .goto Moonglade,32.09,66.61
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 .only not zone("Moonglade")
 
 #step
-.talk Keeper Remulos
+.talk Keeper Remulos##11832
 >>en:Standing at the base of a big tree, in front of a wooden entranceway.
 .goto Moonglade,36.18,41.82
 .turnin Seed of Life##7066
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Felwood,68.40,5.84
 >>Leave the tunnel
-.talk Salfa
+.talk Salfa##11556
 >>en:Standing to the left of the tunnel entrance, kind of hidden.
 >>de:Steht links vom Tunneleingang, etwas versteckt.
 .goto Winterspring,27.74,34.50
@@ -50,7 +50,7 @@ LLG.RegisterGuide([[
 .only not zone("Winterspring")
 
 #step
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.17
@@ -58,7 +58,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.17
@@ -100,11 +100,12 @@ LLG.RegisterGuide([[
 >>[41.78,43.14]
 
 #step
-.click the Empty Firewater Flask
+.click the Empty Firewater Flask##12771
 .accept Winterfall Firewater##5083
+.only itemcount(12771) > 0
 
 #step
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -119,7 +120,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,60.56,38.21
 >>Enter Everlook
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -127,14 +128,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Himmik
+.talk Himmik##11187
 .goto Winterspring,61.32,39.15
 >>Restock on Food and Water
 
 #step
 .goto Winterspring,60.56,38.21
 >>Leave Everlook
-.talk Yugrek
+.talk Yugrek##11139
 >>en:Standing on the outskirts of town, under a red canopy.
 >>de:Steht am Rand der Stadt unter einem roten Baldachin.
 .goto Winterspring,60.47,36.30

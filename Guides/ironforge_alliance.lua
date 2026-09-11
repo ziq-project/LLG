@@ -25,25 +25,25 @@ LLG.RegisterGuide([[
 .only not completedq(7802) and not completedq(7803) and not completedq(7804) and not completedq(7805)
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Wool##7802
 .only not completedq(7802)
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Silk##7803
 .only not completedq(7803)
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Mageweave##7804
 .only not completedq(7804)
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Runecloth##7805
 .only not completedq(7805)
@@ -52,10 +52,11 @@ LLG.RegisterGuide([[
 >>Farm or Buy Cloth
 >>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
 >>Collect Runecloth for Ironforge (Exalted)
+.only rep("Ironforge") < Exalted
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 >>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
 .goto Ironforge,43.22,31.57
->>Reach Exalted Reputation with the Ironforge Faction
+.condition rep("Ironforge") == Exalted >>Reach Exalted Reputation with the Ironforge Faction
 ]])

@@ -25,25 +25,25 @@ LLG.RegisterGuide([[
 .only not completedq(7813) and not completedq(7814) and not completedq(7822) and not completedq(7818)
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Wool##7813
 .only not completedq(7813)
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Silk##7814
 .only not completedq(7814)
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Mageweave##7817
 .only not completedq(7817)
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Runecloth##7818
 .only not completedq(7818)
@@ -52,10 +52,11 @@ LLG.RegisterGuide([[
 >>Farm or Buy Cloth
 >>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
 >>Collect Runecloth for Undercity (Exalted)
+.only rep("Undercity") < Exalted
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 >>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
 .goto Undercity,71.66,29.23
->>Reach Exalted Reputation with the Undercity Faction
+.condition rep("Undercity") == Exalted >>Reach Exalted Reputation with the Undercity Faction
 ]])

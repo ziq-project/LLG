@@ -25,28 +25,28 @@ LLG.RegisterGuide([[
 .only not completedq(7820) and not completedq(7821) and not completedq(7822) and not completedq(7823)
 
 #step
-.talk Rumstag Proudstrider
+.talk Rumstag Proudstrider##14728
 >>Inside the building.
 .goto Thunder Bluff,43.05,42.72
 .accept A Donation of Wool##7820
 .only not completedq(7820)
 
 #step
-.talk Rumstag Proudstrider
+.talk Rumstag Proudstrider##14728
 >>Inside the building.
 .goto Thunder Bluff,43.05,42.72
 .accept A Donation of Silk##7821
 .only not completedq(7821)
 
 #step
-.talk Rumstag Proudstrider
+.talk Rumstag Proudstrider##14728
 >>Inside the building.
 .goto Thunder Bluff,43.05,42.72
 .accept A Donation of Mageweave##7822
 .only not completedq(7822)
 
 #step
-.talk Rumstag Proudstrider
+.talk Rumstag Proudstrider##14728
 >>Inside the building.
 .goto Thunder Bluff,43.05,42.72
 .accept A Donation of Runecloth##7823
@@ -56,11 +56,12 @@ LLG.RegisterGuide([[
 >>Farm or Buy Cloth
 >>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
 >>Collect Runecloth for Thunder Bluff (Exalted)
+.only rep("Thunder and Bluff") < Exalted
 
 #step
-.talk Rumstag Proudstrider
+.talk Rumstag Proudstrider##14728
 >>Inside the building.
 >>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
 .goto Thunder Bluff,43.05,42.72
->>Reach Exalted Reputation with the Thunder Bluff Faction
+.condition rep("Thunder Bluff") == Exalted >>Reach Exalted Reputation with the Thunder Bluff Faction
 ]])

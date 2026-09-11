@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Talo Thornhoof
+.talk Talo Thornhoof##7776
 >>en:Standing ina small house.
 >>de:Standing ina small house.
 >>Inside the tent.
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.68,42.99
 >>Enter the building
-.talk Jangdor Swiftstrider
+.talk Jangdor Swiftstrider##7854
 >>en:Standing inside the big long house.
 >>de:Standing inside the big long house.
 >>Inside the building.
@@ -38,7 +38,7 @@ LLG.RegisterGuide([[
 .accept Improved Quality##7734
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -50,7 +50,7 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Frayfeather enemies around this area
-.click the Hippogryph Muisek Vessel
+.click the Hippogryph Muisek Vessel##9619
 >>Use it on their corpses.
 .goto Feralas,56.03,63.05
 .complete 3124,1 >>Collect 10 Hippogryph Muisek
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 >>[54.21,70.46]
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -84,8 +84,8 @@ LLG.RegisterGuide([[
 .accept Faerie Dragon Muisek##3125
 
 #step
-.kill 1 Sprite Darter
-.click the Faerie Dragon Muisek Vessel
+.kill 1 Sprite Darter##5278
+.click the Faerie Dragon Muisek Vessel##9620
 >>Use it on their corpses.
 .goto Feralas,70.00,46.91
 .complete 3125,1 >>Collect 8 Faerie Dragon Muisek
@@ -95,7 +95,7 @@ LLG.RegisterGuide([[
 >>[64.35,48.69]
 
 #step
-.kill 1 Sprite Darter
+.kill 1 Sprite Darter##5278
 .goto Feralas,70.00,46.91
 .complete 3128,2 >>Collect 6 Encrusted Minerals
 >>You can find more around:
@@ -104,7 +104,7 @@ LLG.RegisterGuide([[
 >>[64.35,48.69]
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -113,39 +113,39 @@ LLG.RegisterGuide([[
 .accept Treant Muisek##3126
 
 #step
-.kill 1 Wandering Forest Walker
+.kill 1 Wandering Forest Walker##7584
 >>Follow the route, searching for a Wandering Forest Walker.
 >>They look like walking trees.
 >>One of them walks back and forth along this path.
 >>They have extremely long respawns and only one is spawned at each area.
 >>After killing a Treant at one area, click a line below to jump to another route.
-.click the Treant Muisek Vessel
+.click the Treant Muisek Vessel##9606
 >>Use it on their corpses.
 .complete 3126,1 >>Collect 3 Treant Muisek
 .click Here for Route 2
 .click Here for Route 3
 
 #step
-.kill 1 Wandering Forest Walker
+.kill 1 Wandering Forest Walker##7584
 >>Follow the route, searching for a Wandering Forest Walker.
 >>They look like walking trees.
 >>One of them walks back and forth along this path.
 >>They have extremely long respawns and only one is spawned at each area.
 >>After killing a Treant at one area, click a line below to jump to another route.
-.click the Treant Muisek Vessel
+.click the Treant Muisek Vessel##9606
 >>Use it on their corpses.
 .complete 3126,1 >>Collect 3 Treant Muisek
 .click Here for Route 3
 .click Here for Route 1
 
 #step
-.kill 1 Wandering Forest Walker
+.kill 1 Wandering Forest Walker##7584
 >>Follow the route, searching for a Wandering Forest Walker.
 >>They look like walking trees.
 >>One of them walks back and forth along this path.
 >>They have extremely long respawns and only one is spawned at each area.
 >>After killing a Treant at one area, click a line below to jump to another route.
-.click the Treant Muisek Vessel
+.click the Treant Muisek Vessel##9606
 >>Use it on their corpses.
 .complete 3126,1 >>Collect 3 Treant Muisek
 .click Here to Skip This Quest for now
@@ -153,7 +153,7 @@ LLG.RegisterGuide([[
 .click Here for Route 2
 
 #step
-.kill 1 Wandering Forest Walker
+.kill 1 Wandering Forest Walker##7584
 >>Follow the path, searching for a Wandering Forest Walker.
 >>They look like walking trees.
 >>One of them walks back and forth along this path.
@@ -163,7 +163,7 @@ LLG.RegisterGuide([[
 >>It respawns at [67.99,60.11]
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -176,7 +176,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.64,44.70
 >>Enter the building
-.talk Cawind Trueaim
+.talk Cawind Trueaim##9548
 >>Upstairs, outside on the balcony of the building.
 >>Buy enough ammo to fill your ammo bag, plus 8-10 extra stacks.
 >>You will be out questing for a while.
@@ -185,7 +185,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Zorbin Fandazzle
+.talk Zorbin Fandazzle##14637
 >>en:Standing in a small camp under a green canopy, next to a spinning metal thing.
 >>de:Standing in a small camp under a green canopy, next to a spinning metal thing.
 .goto Feralas,44.81,43.42
@@ -195,12 +195,12 @@ LLG.RegisterGuide([[
 >>only hardcore :: The Sea Elementals/Sprays are immune to frost damage.
 
 #step
-.click Zorbin's Ultra-Shrinker
+.click Zorbin's Ultra-Shrinker##18904
 >>Use it on Wave Striders around this area.
 >>They look like tall green giants that walks on the shore and in the water around this area.
 >>This quest item only lasts for 2 hours.
 >>If you need a new one, abandon the quest and accept it again from the goblin in the previous guide step.
-.kill 1 Zapped Wave Strider
+.kill 1 Zapped Wave Strider##14638
 .goto Feralas,44.38,50.11
 .complete 7003,1 >>Collect 15 Miniaturization Residue
 >>You can find more around:
@@ -221,7 +221,7 @@ LLG.RegisterGuide([[
 >>[40.71,37.59]
 
 #step
-.talk Zorbin Fandazzle
+.talk Zorbin Fandazzle##14637
 >>en:Standing in a small camp under a green canopy, next to a spinning metal thing.
 >>de:Standing in a small camp under a green canopy, next to a spinning metal thing.
 .goto Feralas,44.81,43.42
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Zorbin Fandazzle
+.talk Zorbin Fandazzle##14637
 >>en:Standing in a small camp under a green canopy, next to a spinning metal thing.
 >>de:Standing in a small camp under a green canopy, next to a spinning metal thing.
 .goto Feralas,44.81,43.42
@@ -261,16 +261,16 @@ LLG.RegisterGuide([[
 >>only hardcore :: Watch for patrols and respawns while here.
 .goto Feralas,53.17,31.82
 .collect Perfect Yeti Hide,1
->>You can also get this item by skinning enemies.
+>>only skill('Skinning') > 0 :: You can also get this item by skinning enemies.
 
 #step
 .goto Feralas,53.21,31.84
 >>Leave the cave
-.click the Zorbin's Ultra-Shrinker
+.click the Zorbin's Ultra-Shrinker##18904
 >>Use it on enemies around this area.
 >>They look like rock giants.
 .kill 1 enemies around this area
-.click the Mountain Giant Muisek Vessel
+.click the Mountain Giant Muisek Vessel##9621
 >>Use it on their corpses.
 >>only haveq(7725) :: Don't worry about collecting the Miniatuization Residue, we don't turn in that quest. We just have it for the zapper.
 .goto Feralas,40.25,24.48
@@ -290,15 +290,15 @@ LLG.RegisterGuide([[
 >>You can Safely Abandon a Quest
 >>You no longer need to have the "Again With the Zapped Giants" quest.
 >>We only accepted it to get Zorbin's Ultra-Shrinker, to make the rock giants easier to kill.
->>Abandon the _"Again With the Zapped Giants"_ Quest
+.condition not haveq(7725) >>Abandon the _"Again With the Zapped Giants"_ Quest
 
 #step
 >>It is no longer needed.
 .vendor
 
 #step
-.click the Horn of Hatetalon
-.kill 1 Edana Hatetalon
+.click the Horn of Hatetalon##9530
+.kill 1 Edana Hatetalon##8075
 >>She is a level 50 elite, but you should be able to kill her at this level.
 >>If you have trouble, try to find someone to help you.
 .goto Feralas,40.55,8.59
@@ -334,7 +334,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
@@ -343,14 +343,14 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
 .complete 3444 >>Collect Stone Circle
 
 #step
-.talk Marvon Rivetseeker
+.talk Marvon Rivetseeker##7771
 >>en:In a small camp, standing under a blue canopy with a yellow stripe through it.
 >>de:In a small camp, standing under a blü canopy with a yellow stripe through it.
 .goto Tanaris,52.71,45.92

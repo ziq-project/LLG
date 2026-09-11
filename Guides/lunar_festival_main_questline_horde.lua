@@ -15,36 +15,36 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Lunar Festival Emissary
+.talk Lunar Festival Emissary##15891
 .goto Orgrimmar,51.00,70.50
 .accept The Lunar Festival##8873
 
 #step
-.talk Lunar Festival Harbinger
+.talk Lunar Festival Harbinger##15895
 .goto Orgrimmar,41.60,32.00
 .turnin The Lunar Festival##8873
 .goto Orgrimmar,41.60,32.00
 .accept Lunar Fireworks##8867
 
 #step
-.talk Lunar Festival Vendor
+.talk Lunar Festival Vendor##15898
 .goto Orgrimmar,41.30,32.40
 .complete 8867 >>Buy 8 Small Blue Rocket
 .goto Orgrimmar,41.30,32.40
 .complete 8867 >>Buy 2 Blue Rocket Cluster
 
 #step
-.click the Small Blue Rocket
+.click the Small Blue Rocket##21558
 .goto Orgrimmar,41.60,32.80
 .complete 8867,1 >>Fire #8# Lunar Fireworks
 
 #step
-.click the Blue Rocket Cluster
+.click the Blue Rocket Cluster##21571
 .goto Orgrimmar,41.60,32.80
 .complete 8867,2 >>Fire #2# Lunar Fireworks Clusters
 
 #step
-.talk Lunar Festival Harbinger
+.talk Lunar Festival Harbinger##15895
 .goto Orgrimmar,41.60,32.00
 .turnin Lunar Fireworks##8867
 .goto Orgrimmar,41.60,32.00
@@ -52,11 +52,11 @@ LLG.RegisterGuide([[
 
 #step
 .goto Orgrimmar,41.00,31.00
-.click the Lunar Festival Invitation
+.click the Lunar Festival Invitation##21711
 >>Go to Moonglade
 
 #step
-.talk Valadar Starsong
+.talk Valadar Starsong##15864
 .goto Moonglade,53.65,35.26
 .turnin Valadar Starsong##8883
 
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 >>Use the "Lunar Festival Optimized Elders Path" event guide to collect them.
 
 #step
-.talk Valadar Starsong
+.talk Valadar Starsong##15864
 .goto Moonglade,53.65,35.26
 .accept Festive Lunar Dresses##8864
 .goto Moonglade,53.65,35.26

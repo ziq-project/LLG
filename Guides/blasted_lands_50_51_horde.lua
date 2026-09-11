@@ -16,8 +16,8 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Ogromm
-.talk Kartosh
+.talk Ogromm##987
+.talk Kartosh##988
 .goto Swamp of Sorrows,47.26,53.42
 .train
 .goto Swamp of Sorrows,48.65,55.62
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .only Hunter or Warlock
 
 #step
-.talk Grokor
+.talk Grokor##3622
 .goto Swamp of Sorrows,47.35,52.89
 .train
 .only Hunter
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,45.25,55.33
 >>Enter the building
-.talk Bengor
+.talk Bengor##7643
 >>en:Laying face down on a rug inside the inn.
 >>de:Liegt bäuchlings auf einem Teppich im Gasthaus.
 >>Inside the building.
@@ -45,7 +45,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,46.95,54.07
 >>Enter the building
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Upstairs inside the building.
 .goto Swamp of Sorrows,47.93,54.79
 .turnin Return to Fel'Zerul##1444
@@ -61,7 +61,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Swamp of Sorrows,63.67,91.42
 >>Continue up the path
-.kill 1 Swamp Talker
+.kill 1 Swamp Talker##950
 >>Upstairs inside the cave.
 >>If he's not here, check around in other places in the cave.
 >>He can spawn in many places inside the cave.
@@ -72,7 +72,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,66.37,76.54
 >>Leave the cave
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.13
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .only subzone("Stagalbog and Cave")
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 >>Select _"Please continue, Hero..."_
@@ -90,14 +90,14 @@ LLG.RegisterGuide([[
 .complete 2801,1 >>Listen to a Tale of Sorrow
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.13
 .turnin A Tale of Sorrow##2801
 
 #step
-.talk Bloodmage Drazial
+.talk Bloodmage Drazial##7505
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.55,14.21
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .accept The Decisive Striker##2585
 
 #step
-.talk Bloodmage Lynnore
+.talk Bloodmage Lynnore##7506
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.64,14.30
@@ -117,7 +117,7 @@ LLG.RegisterGuide([[
 .accept Vulture's Vigor##2603
 
 #step
-.kill 1 Black Slayer
+.kill 1 Black Slayer##5982
 >>Bonepickers will also drop the quest item.
 >>They look like vultures.
 >>You will collect enough of these to turn in all 5 quests at once.
@@ -174,7 +174,7 @@ LLG.RegisterGuide([[
 >>[50.96,38.09]
 
 #step
-.kill 1 Scorpok Stinger
+.kill 1 Scorpok Stinger##5988
 >>They look like scorpions.
 >>They share spawn locations with the hyenas.
 >>If you can't find any at these locations, kill other enemies to get them to spawn.
@@ -188,20 +188,21 @@ LLG.RegisterGuide([[
 >>[56.81,21.17]
 
 #step
-.talk Kum'isha the Collector
+.talk Kum'isha the Collector##7363
 >>He walks around this area.
 .goto Blasted Lands,51.80,35.64
 .accept Everything Counts In Large Amounts##3501
+.only itemcount(10593) > 0
 
 #step
-.talk Kum'isha the Collector
+.talk Kum'isha the Collector##7363
 >>He walks around this area.
 .goto Blasted Lands,51.80,35.64
 .turnin Everything Counts In Large Amounts##3501
 .only haveq(3501) or completedq(3501)
 
 #step
-.talk Bloodmage Lynnore
+.talk Bloodmage Lynnore##7506
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.64,14.30
@@ -210,7 +211,7 @@ LLG.RegisterGuide([[
 .turnin Vulture's Vigor##2603
 
 #step
-.talk Bloodmage Drazial
+.talk Bloodmage Drazial##7505
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.55,14.21

@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,39.05,5.20
 >>Follow the path up to the Rebel Camp
-.talk Private Thorsen
+.talk Private Thorsen##738
 >>en:He's either walking on this path or standing up the hill in the camp, next to the campfire.
 >>de:Er läuft entweder auf diesem Pfad oder steht oben auf dem Hügel im Lager neben dem Lagerfeür.
 >>He periodically (around every 30 minutes) walks along the path to the south, from the Rebel Camp.
@@ -32,28 +32,28 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Barnil Stonepot
+.talk Barnil Stonepot##716
 >>en:In a small camp with 2 tents on the beach.
 >>de:In einem kleinen Lager mit 2 Zelten am Strand.
 .goto Stranglethorn Vale,35.66,10.53
 .accept Welcome to the Jungle##583
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
 .turnin Welcome to the Jungle##583
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.61,10.62
 .accept Tiger Mastery##185
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
@@ -95,7 +95,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,39.05,5.20
 >>Follow the path up to the Rebel Camp
-.talk Lieutenant Doren
+.talk Lieutenant Doren##469
 >>en:Up the hill, next to a cart.
 >>de:Oben auf dem Hügel, neben einem Karren.
 .goto Stranglethorn Vale,38.04,3.01
@@ -103,14 +103,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.61,10.62
 .turnin Tiger Mastery##185
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
@@ -125,7 +125,7 @@ LLG.RegisterGuide([[
 >>Grind XP Until You Can Hearth to Darkshire
 
 #step
-.talk Malissa
+.talk Malissa##3135
 >>Walking around here.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Calor
+.talk Calor##663
 >>en:On the side of the road, standing next to the well.
 >>de:Am Straßenrand, steht neben dem Brunnen.
 >>He walks around this area in front of the building.
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,75.22,48.25
 >>Enter the building
-.talk Jonathan Carevin
+.talk Jonathan Carevin##661
 >>en:Inside the big house, next to the fireplace.
 >>de:Im großen Haus, neben dem Kamin.
 >>He walks around inside the building.
@@ -157,7 +157,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,59.96,64.19
 >>Enter the building
-.talk Elling Trias
+.talk Elling Trias##482
 >>Upstairs inside the building.
 .goto Stormwind City,59.91,64.17
 .turnin The Missing Diplomat##1245
@@ -168,7 +168,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,55.29,68.13
 >>Enter the building
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Stormwind City,57.66,72.78
@@ -178,14 +178,14 @@ LLG.RegisterGuide([[
 .only haveq(335) or completedq(335)
 
 #step
-.talk Archmage Malin
+.talk Archmage Malin##2708
 .goto Stormwind City,39.77,81.44
 .accept Malin's Request##690
 
 #step
 .goto Stormwind City,39.84,85.21
 >>Enter the building
-.talk Connor Rivers
+.talk Connor Rivers##5081
 >>Inside the building.
 .goto Stormwind City,40.62,91.83
 .accept James Hyal##1301
@@ -193,7 +193,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.19,74.12
 >>Enter the building
-.talk Zardeth of the Black Claw
+.talk Zardeth of the Black Claw##1435
 >>Downstairs inside the building.
 .goto Stormwind City,26.45,78.65
 .turnin A Noble Brew##335
@@ -201,7 +201,7 @@ LLG.RegisterGuide([[
 .accept A Noble Brew##336
 
 #step
-.talk Ursula Deline
+.talk Ursula Deline##5495
 .goto Stormwind City,26.13,77.20
 .train
 >>Train your spells.
@@ -223,7 +223,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,70.07,48.07
 >>Enter the alley
-.talk Dashel Stonefist
+.talk Dashel Stonefist##4961
 .goto Stormwind City,70.53,44.88
 .turnin The Missing Diplomat##1246
 .goto Stormwind City,70.53,44.88
@@ -231,7 +231,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Dashel Stonefist
+.kill 1 Dashel Stonefist##4961
 >>Ignore the helpers that appear to help him fight, and just focus on killing Dashel Stonefist as fast as you can.
 >>Once he reaches ~25% health, he will surrender and dismiss the helpers, ending the fight.
 >>Watch the dialogue
@@ -239,22 +239,22 @@ LLG.RegisterGuide([[
 .complete 1447,1 >>Defeat Dashel Stonefist
 
 #step
-.talk Dashel Stonefist
+.talk Dashel Stonefist##4961
 .goto Stormwind City,70.53,44.88
 .turnin The Missing Diplomat##1447
 .goto Stormwind City,70.53,44.88
 .accept The Missing Diplomat##1247
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -280,7 +280,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,78.04,47.98
 >>Enter the building
-.talk Wu Shen
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
 >>Upstairs inside the building.
@@ -291,7 +291,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,59.96,64.19
 >>Enter the building
-.talk Elling Trias
+.talk Elling Trias##482
 >>Upstairs inside the building.
 .goto Stormwind City,59.91,64.17
 .turnin The Missing Diplomat##1247
@@ -303,7 +303,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Stormwind City,72.71,25.85
 >>Follow the path
-.talk Lord Baurles K. Wishock
+.talk Lord Baurles K. Wishock##1439
 >>Inside the building.
 .goto Stormwind City,75.23,31.67
 .turnin A Noble Brew##336
@@ -315,7 +315,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,70.17,11.34
 >>Continue following the path
-.talk Milton Sheaf
+.talk Milton Sheaf##1440
 >>Inside the building.
 .goto Stormwind City,74.17,7.49
 .turnin An Old History Book##337
@@ -324,7 +324,7 @@ LLG.RegisterGuide([[
 .only subzone("Petitioner's and Chamber")
 
 #step
-.talk Auctioneer Jaxon
+.talk Auctioneer Jaxon##15659
 >>Purchase these items from the Auction House
 >>They are used for a quest later.
 >>You can skip this step if you cannot afford it.
@@ -337,15 +337,16 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Stormwind City,57.66,72.78
+.only itemcount(4278) >= 4
 
 #step
 .goto Wetlands,10.79,59.77
 >>Enter the building
-.talk Vincent Hyal
+.talk Vincent Hyal##5082
 >>en:Standing on the dock, next to a pile of cannon balls.
 >>de:Steht auf dem Dock, neben einem Haufen Kanonenkugeln.
 >>Inside the building.
@@ -367,7 +368,7 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.talk Mikhail
+.talk Mikhail##4963
 >>Inside the building.
 .goto Wetlands,10.60,60.77
 .turnin The Missing Diplomat##1248
@@ -375,7 +376,7 @@ LLG.RegisterGuide([[
 .accept The Missing Diplomat##1249
 
 #step
-.kill 1 Tapoke "Slim" Jahn
+.kill 1 Tapoke "Slim" Jahn##4962
 >>He stealths inside the inn and walks out of the building to this location.
 >>He unstealths and tries to run away, so you will have to attack him.
 >>He will summon another enemy to help him fight.
@@ -389,19 +390,19 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.77
 >>Enter the building
-.talk Mikhail
+.talk Mikhail##4963
 >>Inside the building.
 .goto Wetlands,10.60,60.77
 .turnin The Missing Diplomat##1249
 
 #step
-.talk Tapoke "Slim" Jahn
+.talk Tapoke "Slim" Jahn##4962
 >>Inside the building.
 .goto Wetlands,10.54,60.26
 .accept The Missing Diplomat##1250
 
 #step
-.talk Mikhail
+.talk Mikhail##4963
 >>Inside the building.
 .goto Wetlands,10.60,60.77
 .turnin The Missing Diplomat##1250
@@ -409,7 +410,7 @@ LLG.RegisterGuide([[
 .accept The Missing Diplomat##1264
 
 #step
-.talk Innkeeper Helbrek
+.talk Innkeeper Helbrek##1464
 >>en:Inside the inn, he walks around a little inside the inn.
 >>de:Im Gasthaus, er läuft dort etwas umher.
 >>Inside the building.
@@ -419,7 +420,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.77
 >>Leave the building
-.talk Bethaine Flinthammer
+.talk Bethaine Flinthammer##10046
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 5".
 .goto Wetlands,10.53,59.73

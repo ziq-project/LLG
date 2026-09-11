@@ -29,7 +29,7 @@ LLG.RegisterGuide([[
 >>+10% Damage
 
 #step
-.talk Sayge
+.talk Sayge##14822
 >>Choose _"I am ready to discover where my fortune lies!"_
 >>Select _"I confiscate the corn he has stolen, warn him that stealing is a path towards doom and destruction, but I let him go to return to his family."_
 >>Select _"I would create some surreptitious means to keep my brother out of the order."_
@@ -37,26 +37,26 @@ LLG.RegisterGuide([[
 >>Gain the "Sayge's Dark Fortune of Agility" Buff
 
 #step
-.talk Sayge
+.talk Sayge##14822
 >>Select _"I'd love to get one of those written fortunes you mentioned!"_
 .goto Elwynn Forest,42.12,69.00
 .collect Darkmoon Faire Fortune,1
 
 #step
-.click the Darkmoon Faire Fortune
->>Obtain Your Fortune
+.click the Darkmoon Faire Fortune##19422
+.condition itemcount(19422) == 0 >>Obtain Your Fortune
 
 #step
 >>You have received your fortune
 >>You can have your fortune told every four hours.
-.click Here to Choose Another Fortune
->>'
->>'
->>'
->>'
+.click Here to Choose Another Fortune |or
+.condition itemcount(19423) == 1 and not completedq(7937) and level >= 10 |or
+.condition itemcount(19424) == 1 and not completedq(7938) and level >= 10 |or
+.condition itemcount(19443) == 1 and not completedq(7944) and level >= 10 |or
+.condition itemcount(19452) == 1 and not completedq(7945) and level >= 10 |or
 
 #step
-.click Sayge's Fortune #23
+.click Sayge's Fortune #23##19423
 .accept Your Fortune Awaits You...##7937
 
 #step
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 .turnin Your Fortune Awaits You...##7937
 
 #step
-.click Sayge's Fortune #24
+.click Sayge's Fortune #24##19424
 .accept Your Fortune Awaits You...##7938
 
 #step
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 .turnin Your Fortune Awaits You...##7938
 
 #step
-.click Sayge's Fortune #25
+.click Sayge's Fortune #25##19443
 .accept Your Fortune Awaits You...##7944
 
 #step
@@ -85,7 +85,7 @@ LLG.RegisterGuide([[
 .turnin Your Fortune Awaits You...##7944
 
 #step
-.click Sayge's Fortune #27
+.click Sayge's Fortune #27##19452
 .accept Your Fortune Awaits You...##7945
 
 #step

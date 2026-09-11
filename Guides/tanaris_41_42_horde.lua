@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 .only level < 60
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
@@ -42,20 +42,20 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.38,27.91
 >>Enter the building
-.talk Innkeeper Fizzgrimble
+.talk Innkeeper Fizzgrimble##7733
 >>Inside the building.
 .goto Tanaris,52.51,27.91
 .hs
 
 #step
-.talk Spigot Operator Luglunket
+.talk Spigot Operator Luglunket##7408
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.48,28.44
 .accept Water Pouch Bounty##1707
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 .accept Wastewander Justice##1690
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click the Untapped Dowsing Widget
+.click the Untapped Dowsing Widget##8584
 >>Avoid the elite enemies nearby this location while traveling here.
 >>Use it in the water.
 >>Once you get the Tapped Dowsing Widget, run away to safety immediately.
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -92,7 +92,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.99,22.36
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,66.99,23.87
 >>Enter the building
-.talk Stoley
+.talk Stoley##7881
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -136,7 +136,7 @@ LLG.RegisterGuide([[
 >>You can find more around [63.51,30.31]
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
@@ -145,7 +145,7 @@ LLG.RegisterGuide([[
 .turnin Wastewander Justice##1690
 
 #step
-.talk Spigot Operator Luglunket
+.talk Spigot Operator Luglunket##7408
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.48,28.44
@@ -159,7 +159,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
@@ -169,34 +169,34 @@ LLG.RegisterGuide([[
 .complete 1117 >>Collect Goblin Rumors
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .turnin Rumors for Kravel##1117
 
 #step
 >>Watch the dialogue
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Back to Booty Bay##1118
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.13
 .turnin News for Fizzle##1137
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
 .accept Keeping Pace##1190
 
 #step
-.talk Zamek
+.talk Zamek##4709
 >>de:Standing next to a green canopy.
 >>Click "Complete Quest" to complete "Zamek's Distraction".
 .goto Thousand Needles,79.81,77.02
@@ -214,7 +214,7 @@ LLG.RegisterGuide([[
 .accept Rizzle's Schematics##1194
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91

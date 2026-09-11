@@ -11,7 +11,8 @@
     Kaestchen links        hakt den ganzen Schritt ab
     Linksklick Aufgabe     hakt diese eine Aufgabe ab (und wieder auf)
     Linksklick Schritttext springt zu diesem Schritt
-    Rechtsklick            ueberspringt den Schritt (und nimmt es zurueck)
+    Strg + Linksklick      visiert Gegner oder Questgeber an
+    Rechtsklick            oeffnet das Menue zu dieser Zeile
 
   Das Abhaken einzelner Aufgaben ist der Ausweg fuer alles, was das Addon
   nicht sehen kann: eine Quest mit Voraussetzungen, die dieser Charakter
@@ -115,14 +116,19 @@ local function acquireLine(i)
 
     line:RegisterForClicks("LeftButtonUp", "RightButtonUp")
     line:SetScript("OnClick", function()
-        if not this.stepIndex or this.inert then return end
+        if not this.stepIndex then return end
         if arg1 == "RightButton" then
-            -- Ueberspringen und zuruecknehmen liegen auf derselben Taste.
-            if LLG.Engine.IsSkipped(this.stepIndex) then
-                LLG.Engine.UnskipStep(this.stepIndex)
-            else
-                LLG.Engine.SkipStep(this.stepIndex)
-            end
+            -- Rechtsklick fragt, statt zu handeln. Frueher uebersprang er den
+            -- Schritt sofort - eine Geste, die man leicht aus Versehen macht.
+            UI.ShowLineMenu(this.stepIndex, this.taskIndex)
+            return
+        end
+        if this.inert then return end
+        -- Strg-Klick visiert an, statt abzuhaken. Bei "Toete: 8 Dickichtpirscher"
+        -- ist das die Geste, die man im Spiel tatsaechlich braucht.
+        if IsControlKeyDown and IsControlKeyDown() and this.taskIndex then
+            local name = LLG.Engine.TargetTask(this.stepIndex, this.taskIndex)
+            if not name then LLG.Print(LLG.L.Get("NO_TARGET")) end
             return
         end
         -- Ein anderer Schritt als der aktuelle: dorthin springen. Im
@@ -136,19 +142,19 @@ local function acquireLine(i)
     end)
 
     line:SetScript("OnEnter", function()
-        -- Hinweiszeilen sind reine Information: kein Klickziel, kein Tooltip.
         if not this.stepIndex or this.inert then return end
         GameTooltip:SetOwner(this, "ANCHOR_TOPLEFT")
         if this.taskIndex and this.isCurrent then
             GameTooltip:AddLine(LLG.L.Get("TIP_TASK_TOGGLE"), 0.8, 0.85, 0.95)
+            local step = LLG.Engine.guide and LLG.Engine.guide.steps[this.stepIndex]
+            local task = step and step.tasks and step.tasks[this.taskIndex]
+            if task and (task.kind == "kill" or task.kind == "talk") then
+                GameTooltip:AddLine(LLG.L.Get("TIP_TASK_TARGET"), 0.7, 0.7, 0.75)
+            end
         else
             GameTooltip:AddLine(LLG.L.Get("TIP_STEP_JUMP"), 0.8, 0.85, 0.95)
         end
-        if LLG.Engine.IsSkipped(this.stepIndex) then
-            GameTooltip:AddLine(LLG.L.Get("TIP_STEP_UNSKIP"), 0.7, 0.7, 0.75)
-        else
-            GameTooltip:AddLine(LLG.L.Get("TIP_STEP_SKIP"), 0.7, 0.7, 0.75)
-        end
+        GameTooltip:AddLine(LLG.L.Get("TIP_MENU"), 0.7, 0.7, 0.75)
         GameTooltip:Show()
     end)
     line:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -230,6 +236,23 @@ local function taskLabel(task, state)
         end
         return L.Get("KILL") .. ": " .. tostring(task.mob)
 
+    elseif kind == "condition" then
+        -- Die haeufigste Bedingung ist eine Fertigkeitsgrenze. Die liest sich
+        -- als Satz besser als als Lua-Ausdruck - und der Name der Fertigkeit
+        -- steht dann so da, wie der Client ihn fuehrt.
+        local expr = task.condText or ""
+        local fn, what, num = LLG.match(expr,
+            "^(%a+)%(['\"](.-)['\"]%)%s*>=%s*(%d+)")
+        if fn == "skill" or fn == "skillmax" then
+            local shown = LLG.Parser.SkillDisplay(what)
+            local have = LLG.Parser.condEnv[fn](what)
+            return L.Format("REACH_SKILL", shown, num) ..
+                " |cff808080(" .. tostring(have) .. ")|r"
+        end
+        -- Alles andere: der Ausdruck selbst. Kein schoener Satz, aber ehrlich;
+        -- der Konverter liefert sonst meist einen Text mit.
+        return L.Get("CONDITION") .. ": " .. tostring(expr ~= "" and expr or "?")
+
     elseif kind == "hs" then
         return L.Get("HEARTH")
     elseif kind == "train" then
@@ -242,6 +265,74 @@ local function taskLabel(task, state)
         return L.Get("HEARTH")
     end
     return task.kind
+end
+
+-- ------------------------------------------------------------ Kontextmenue
+--
+-- Eine Aufgabe einzeln abzuhaken ist der Ausweg fuer alles, was das Addon
+-- nicht sehen kann. Bisher lag das auf dem Linksklick und war nirgends
+-- angeschrieben; ueberspringen lag ungefragt auf dem Rechtsklick. Jetzt
+-- fragt der Rechtsklick, und beides steht als Satz da.
+function UI.ShowLineMenu(stepIndex, taskIndex)
+    local E = LLG.Engine
+    local L = LLG.L
+    if not E.guide then return end
+    local step = E.guide.steps[stepIndex]
+    if not step then return end
+
+    local entries = {}
+    local task = taskIndex and step.tasks and step.tasks[taskIndex] or nil
+
+    if task then
+        local label = taskLabel(task)
+        if label and label ~= "" then
+            if string.len(label) > 34 then
+                label = string.sub(label, 1, 32) .. "..."
+            end
+            table.insert(entries, { text = LLG.strip(label) })
+        end
+        local done = E.TaskDone(stepIndex, taskIndex)
+        table.insert(entries, {
+            text = done and L.Get("MENU_TASK_UNDONE") or L.Get("MENU_TASK_DONE"),
+            action = function() E.MarkTask(stepIndex, taskIndex, not done) end,
+        })
+        if task.kind == "kill" or task.kind == "talk" then
+            table.insert(entries, {
+                text = L.Get("MENU_TARGET"),
+                action = function()
+                    if not E.TargetTask(stepIndex, taskIndex) then
+                        LLG.Print(L.Get("NO_TARGET"))
+                    end
+                end,
+            })
+        end
+    end
+
+    table.insert(entries, { text = L.Get("MENU_STEP_HEAD") })
+    local stepDone = LLG.DB.IsManual(E.guide.key, stepIndex)
+    table.insert(entries, {
+        text = stepDone and L.Get("MENU_STEP_UNDONE") or L.Get("MENU_STEP_DONE"),
+        action = function() E.MarkStep(stepIndex, not stepDone) end,
+    })
+    if E.IsSkipped(stepIndex) then
+        table.insert(entries, {
+            text = L.Get("MENU_UNSKIP"),
+            action = function() E.UnskipStep(stepIndex) end,
+        })
+    else
+        table.insert(entries, {
+            text = L.Get("MENU_SKIP"),
+            action = function() E.SkipStep(stepIndex) end,
+        })
+    end
+    if stepIndex ~= E.currentStep then
+        table.insert(entries, {
+            text = L.Get("MENU_JUMP"),
+            action = function() E.SetStep(stepIndex, true) end,
+        })
+    end
+
+    LLG.Widgets.ShowMenu(entries)
 end
 
 -- ---------------------------------------------------------------- Aufbauen
@@ -323,7 +414,12 @@ function UI.Update()
         local isCurrent = (s == E.currentStep)
         local stepDone = E.IsStepDone(s)
         local skipped = E.IsSkipped(s)
+        -- Haengt der Schritt an einer Quest, die man beim Ueberspringen
+        -- ausgelassen hat? Dann bleibt er stehen - man soll sehen, was aus
+        -- der Reihe geworden waere -, aber er tritt sichtbar zurueck.
+        local orphan = E.StepOrphaned(s)
         local alpha = isCurrent and 1.0 or 0.55
+        if orphan then alpha = alpha * 0.6 end
 
         -- Kopfzeile des Schrittes: Freitext, sonst der erste Aufgabentext
         local headline = LLG.Parser.PickText(step.texts)
@@ -348,7 +444,7 @@ function UI.Update()
             line.check:Hide()
             setIndent(line, 0)
             line.text:SetText(headline)
-            if skipped then
+            if skipped or orphan then
                 line.text:SetTextColor(0.5, 0.5, 0.55)
             elseif stepDone then
                 line.text:SetTextColor(0.45, 0.65, 0.45)
@@ -434,7 +530,7 @@ function UI.Update()
                 end
                 setIndent(line, ICON_SIZE + 4)
                 line.text:SetText(label)
-                if skipped then
+                if skipped or orphan then
                     line.text:SetTextColor(0.5, 0.5, 0.55)
                 elseif signpost then
                     line.text:SetTextColor(0.72, 0.72, 0.75)
@@ -490,7 +586,7 @@ function UI.Update()
                     nline.check:Hide()
                     setIndent(nline, ICON_SIZE + 4)
                     nline.text:SetText(noteText)
-                    if skipped or stepDone then
+                    if skipped or stepDone or orphan then
                         nline.text:SetTextColor(0.48, 0.52, 0.50)
                     else
                         nline.text:SetTextColor(0.66, 0.72, 0.64)

@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.05
 >>Enter the building
-.talk Maxan Anvol
+.talk Maxan Anvol##1226
 >>Inside the building.
 .goto Dun Morogh,47.34,52.18
 .accept Desperate Prayer##5637
@@ -29,7 +29,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.04,34.51
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.02
 .turnin Desperate Prayer##5637
@@ -38,7 +38,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,42.95,65.64
 >>Enter the building
-.talk Priestess Josetta
+.talk Priestess Josetta##377
 >>Upstairs inside the building.
 .goto Elwynn Forest,43.29,65.72
 .accept Desperate Prayer##5637
@@ -47,7 +47,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.04,34.51
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.02
 .turnin Desperate Prayer##5637
@@ -56,14 +56,14 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,55.76,57.24
 >>Enter the building
-.talk Laurna Morninglight
+.talk Laurna Morninglight##3600
 >>Inside the building.
 .goto Teldrassil,55.57,56.75
 .accept Returning Home##5629
 .only NightElf and Priest
 
 #step
-.talk Priestess Alathea
+.talk Priestess Alathea##11401
 >>Upstairs inside the building.
 .goto Darnassus,39.53,81.18
 .turnin Returning Home##5629
@@ -75,21 +75,21 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.04,34.51
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.02
 .accept A Lack of Fear##5647
 .only Dwarf and Priest
 
 #step
-.talk High Priest Rohan
+.talk High Priest Rohan##11406
 >>Inside the building.
 .goto Ironforge,24.72,8.14
 .turnin A Lack of Fear##5647
 .only Dwarf and Priest
 
 #step
-.talk High Priest Rohan
+.talk High Priest Rohan##11406
 >>Inside the building.
 .accept Arcane Feedback##5676
 .only Human and Priest
@@ -97,7 +97,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.04,34.51
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.02
 .turnin Arcane Feedback##5676
@@ -106,14 +106,14 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.04,34.51
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.02
 .accept Elune's Grace##5673
 .only NightElf and Priest
 
 #step
-.talk Priestess Alathea
+.talk Priestess Alathea##11401
 >>Upstairs inside the building.
 .goto Darnassus,39.53,81.18
 .turnin Elune's Grace##5673

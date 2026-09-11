@@ -22,19 +22,19 @@ LLG.RegisterGuide([[
 >>Use the leveling guides to accomplish this.
 
 #step
-.talk Ormok
+.talk Ormok##3328
 >>Inside the Cleft of Shadow.
 .goto Orgrimmar,43.90,54.63
 .train
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the hut, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .accept Zando'zan##2379
 
 #step
-.talk Zando'zan
+.talk Zando'zan##3402
 >>Inside the hut, inside the Cleft of Shadow.
 .goto Orgrimmar,42.73,52.95
 .turnin Zando'zan##2379
@@ -42,21 +42,21 @@ LLG.RegisterGuide([[
 .accept Wrenix of Ratchet##2382
 
 #step
-.talk Wrenix the Wretched
+.talk Wrenix the Wretched##7161
 .goto The Barrens,63.07,36.32
 .turnin Wrenix of Ratchet##2382
 .goto The Barrens,63.07,36.32
 .accept Plundering the Plunderers##2381
 
 #step
-.talk Wrenix's Gizmotronic Apparatus
+.talk Wrenix's Gizmotronic Apparatus##7166
 >>Select _"Give me what I need stupid machine!"_
 .goto The Barrens,63.12,36.32
-.complete 2381 >>Collect Thieves' Tools
+.complete 2381 |or >>Collect Thieves' Tools
 >>Save the Thieves' Tools you get.
 >>You must keep Thieves' Tools in your bags to be able to pick locks.
 .goto The Barrens,63.12,36.32
-.complete 2381 >>Collect E.C.A.C.
+.complete 2381 |or >>Collect E.C.A.C.
 
 #step
 .goto The Barrens,62.08,38.81
@@ -65,28 +65,28 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto The Barrens,64.18,45.49
 >>Jump onto the front of the ship
-.click Buccaneer's Strongbox
+.click Buccaneer's Strongbox##123330
 >>They look like small grey metal chests on the ground around this area.
 >>Downstairs inside the ship, on the middle level.
 .goto The Barrens,65.06,45.43
->>Reach Skill 100 in Lockpicking
+.condition skill("Lockpicking") >= 100 >>Reach Skill 100 in Lockpicking
 .only walking
 
 #step
-.click The Jewel of the Southsea
+.click The Jewel of the Southsea##123462
 >>Downstairs inside the ship, on the bottom level.
 >>Polly, a high level parrot will appear and attack you.
-.click E.C.A.C.
+.click E.C.A.C.##7970
 >>Use it on Polly.
 >>It will become weaker.
-.kill 1 Polly
+.kill 1 Polly##7167
 .goto The Barrens,64.95,45.44
-.complete 2381,1 >>Collect Southsea Treasure
+.complete 2381,1 |or >>Collect Southsea Treasure
 
 #step
 .goto The Barrens,63.21,42.64
 >>Follow the path
-.talk Wrenix the Wretched
+.talk Wrenix the Wretched##7161
 .goto The Barrens,63.07,36.32
 .turnin Plundering the Plunderers##2381
 .only walking
@@ -98,9 +98,9 @@ LLG.RegisterGuide([[
 >>Use the leveling guides to accomplish this.
 
 #step
-.click Waterlogged Footlocker
+.click Waterlogged Footlocker##179487
 >>They look like small yellow and brown wooden chests on the ground around this area.
->>Reach Skill 150 in Lockpicking
+.condition skill("Lockpicking") >= 150 >>Reach Skill 150 in Lockpicking
 
 #step
 >>Reach Level 40
@@ -115,15 +115,15 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
->>'
+.condition skill("Lockpicking") >= 200 |or
 
 #step
-.click Battered Footlocker
+.click Battered Footlocker##179490
 >>They look like small wooden chests upstairs inside the building.
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
 .goto Badlands,40.49,28.01
->>Reach Skill 175 in Lockpicking
+.condition skill("Lockpicking") >= 175 >>Reach Skill 175 in Lockpicking
 >>You can find more at:
 >>[41.29,29.31]
 >>[41.44,29.95]
@@ -136,15 +136,15 @@ LLG.RegisterGuide([[
 >>Run down the stairs
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
->>'
+.condition skill("Lockpicking") >= 200 |or
 
 #step
-.click Dented Footlocker
+.click Dented Footlocker##179492
 >>They look like small wooden chests downstairs inside the building.
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
 .goto Badlands,41.08,27.42
->>Reach Skill 200 in Lockpicking
+.condition skill("Lockpicking") >= 200 >>Reach Skill 200 in Lockpicking
 >>You can find more at:
 >>[40.73,28.07]
 >>[40.81,28.68]
@@ -163,15 +163,15 @@ LLG.RegisterGuide([[
 >>Run up the ramp
 .goto Searing Gorge,41.38,53.89
 >>Enter the cave
->>'
+.condition skill("Lockpicking") >= 250 |or
 .only walking
 
 #step
-.click Dented Footlocker
+.click Dented Footlocker##179492
 >>They look like small wooden chests on the ground around this area inside the cave, in the lower section.
 >>You can also try to pickpocket enemies around this area to get Sturdy Junkboxes to unlock.
 .goto Searing Gorge,38.44,50.83
->>Reach Skill 225 in Lockpicking
+.condition skill("Lockpicking") >= 225 >>Reach Skill 225 in Lockpicking
 >>You can find more at:
 >>[Searing Gorge 38.00,45.87]
 >>Through the Quarry Gate at [Searing Gorge 37.82,44.31]
@@ -185,14 +185,14 @@ LLG.RegisterGuide([[
 >>Run up the ramp
 .goto Searing Gorge,42.47,30.78
 >>Follow the path
->>'
+.condition skill("Lockpicking") >= 250 |or
 
 #step
-.click Dented Footlocker
+.click Dented Footlocker##179492
 >>They look like small wooden chests on the ground around this area inside the cave, in the upper section.
 >>You can also try to pickpocket enemies around this area to get Sturdy Junkboxes to unlock.
 .goto Searing Gorge,42.90,31.18
->>Reach Skill 250 in Lockpicking
+.condition skill("Lockpicking") >= 250 >>Reach Skill 250 in Lockpicking
 >>You can find more around:
 >>[43.93,30.88]
 >>[45.77,28.35]
@@ -216,7 +216,7 @@ LLG.RegisterGuide([[
 >>Walk across the large chain and follow the path into the Grinding Quarry.
 >>Once in the Grinding Quarry, follow the path northwest through the tunnel to find the dungeon portal entrance.
 .click Here After Entering the Blackrock Depths Dungeon
->>'
+.condition skill("Lockpicking") >= 300 |or
 .only walking
 
 #step
@@ -229,5 +229,5 @@ LLG.RegisterGuide([[
 >>After you pick these 4 locks, leave the dungeon the way you came.
 >>Outside the dungeon portal, right-click your player portrait.
 >>Select "Reset all instances" and re-enter the dungeon to repeat this process.
->>Reach Skill 300 in Lockpicking
+.condition skill("Lockpicking") >= 300 >>Reach Skill 300 in Lockpicking
 ]])

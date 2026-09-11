@@ -21,21 +21,21 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,69.34,28.40
 >>Enter the building
-.talk Count Remington Ridgewell
+.talk Count Remington Ridgewell##2285
 >>Inside the building.
 .goto Stormwind City,74.00,30.22
 .accept Mayara Brightwing##4766
 .only walking
 
 #step
-.talk Mayara Brightwing
+.talk Mayara Brightwing##9565
 .goto Burning Steppes,84.84,69.12
 .turnin Mayara Brightwing##4766
 .goto Burning Steppes,84.84,69.12
 .accept Doomrigger's Clasp##4764
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.24,24.00
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.89,63.37
 >>Follow the path up
-.talk Helendis Riverhorn
+.talk Helendis Riverhorn##9562
 .goto Burning Steppes,85.82,68.95
 .accept Dragonkin Menace##4182
 .only walking
@@ -77,11 +77,11 @@ LLG.RegisterGuide([[
 >>[84.45,27.50]
 
 #step
-.click the Draco-Incarcinatrix 900
+.click the Draco-Incarcinatrix 900##12284
 >>Use it on Broodling enemies around this area.
 >>They look like small flying dragons.
 .kill 1 Broodling enemies around this area
-.click Broodling Essence
+.click Broodling Essence##175264
 >>They look like red floating crystals that appear above their corpses after you kill them.
 .goto Burning Steppes,59.26,32.49
 .complete 4726,1 >>Collect 8 Broodling Essence
@@ -94,7 +94,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.89,63.37
 >>Follow the path up
-.talk Helendis Riverhorn
+.talk Helendis Riverhorn##9562
 .goto Burning Steppes,85.82,68.95
 .turnin Dragonkin Menace##4182
 .goto Burning Steppes,85.82,68.95
@@ -104,7 +104,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.51,46.07
 >>Enter the building
-.talk Magistrate Solomon
+.talk Magistrate Solomon##344
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathaus, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,69.19,28.59
 >>Enter the building
-.talk Highlord Bolvar Fordragon
+.talk Highlord Bolvar Fordragon##1748
 >>Inside the building.
 .goto Stormwind City,78.22,17.99
 .turnin The True Masters##4184
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 .accept The True Masters##4185
 
 #step
-.talk Lady Katrana Prestor
+.talk Lady Katrana Prestor##1749
 >>Inside the building.
 >>Select _"Pardon the intrusion, Lady Prestor, but Highlord Bolvar suggested that I seek your advice."_
 >>Click through the dialogue.
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 .complete 4185,1 >>Receive Advice From Lady Prestor
 
 #step
-.talk Highlord Bolvar Fordragon
+.talk Highlord Bolvar Fordragon##1748
 >>Inside the building.
 .goto Stormwind City,78.22,17.99
 .turnin The True Masters##4185
@@ -142,7 +142,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.51,46.07
 >>Enter the building
-.talk Magistrate Solomon
+.talk Magistrate Solomon##344
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathaus, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -154,7 +154,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.89,63.37
 >>Follow the path up
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.02
 .turnin The True Masters##4223
 .goto Burning Steppes,84.75,69.02
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,63.86,30.11
 >>Follow the path up
-.talk Ragged John
+.talk Ragged John##9563
 >>Select _"Official business, John. I need some information about Marshal Windsor. Tell me about the last time you saw him."_
 >>Click through the dialogue.
 .goto Burning Steppes,65.02,23.76
@@ -174,7 +174,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.89,63.37
 >>Follow the path up
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.02
 .turnin The True Masters##4224
 .goto Burning Steppes,84.75,69.02
@@ -201,7 +201,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 High Interrogator Gerstahn
+.kill 1 High Interrogator Gerstahn##9018
 >>After entering the dungeon, go straight into the Detention Block and then take the first right.
 >>Follow this path around until you can go left into a room at the back of this long hallway.
 .complete 4241 >>Collect Prison Cell Key
@@ -211,7 +211,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Marshal Windsor
+.talk Marshal Windsor##9023
 >>He is in a prison cell inside the Detention Block.
 >>Leave High Interrogator Gerstahn's room and go left, then open the first Cell Door on your right.
 .turnin Marshal Windsor##4241
@@ -224,7 +224,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.89,63.37
 >>Follow the path up
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.02
 .turnin Abandoned Hope##4242
 .only walking
@@ -252,15 +252,16 @@ LLG.RegisterGuide([[
 .kill 1 Anvilrage dwarves at the beginning of the dungeon
 >>Just clear the first few rooms of the dungeon, killing all the Anvilrage dwarves and resetting the instance if needed, until you get the item drop.
 .collect A Crumpled Up Note,1
+.condition itemcount(11446) == 1 or haveq(4264) or completedq(4264) >>collect A Crumpled Up Note##11446
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.click A Crumpled Up Note
+.click A Crumpled Up Note##11446
 .accept A Crumpled Up Note##4264
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 High Interrogator Gerstahn
+.kill 1 High Interrogator Gerstahn##9018
 >>After entering the dungeon, go straight into the Detention Block and then take the first right.
 >>Follow this path around until you can go left into a room at the back of this long hallway.
 .complete 4264 >>Collect Prison Cell Key
@@ -270,7 +271,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Marshal Windsor
+.talk Marshal Windsor##9023
 >>He is in a prison cell inside the Detention Block.
 >>Leave High Interrogator Gerstahn's room and go left, then open the first Cell Door on your right.
 .turnin A Crumpled Up Note##4264
@@ -278,7 +279,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 General Angerforge
+.kill 1 General Angerforge##9033
 >>Run north through the Detention Block and unlock the East Garrison Door to enter the East Garrison.
 >>In the lower part of this room, click the Shadowforge Lock, then run up the two sets of stairs and follow the hallway on the left just before the third set of stairs.
 >>Follow the path through the hallway to reach the West Garrison.
@@ -287,13 +288,13 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.kill 1 Golem Lord Argelmach
+.kill 1 Golem Lord Argelmach##8983
 >>Go back up the stairs next to General Angerforge and continue north to reach The Manufactory and Golem Lord Argelmach.
 .complete 4282,2 >>Collect Marshal Windsor's Lost Information
 
 #step
 >>Inside the Blackrock Depths Dungeon:
-.talk Marshal Windsor
+.talk Marshal Windsor##9023
 >>He is in a prison cell inside the Detention Block.
 >>After entering the dungeon enter the first room and then take the third tunnel on the right.
 >>If you enter the Halls of the Law you went too far.
@@ -317,7 +318,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.89,63.37
 >>Follow the path up
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.02
 .turnin Jail Break!##4322
 .goto Burning Steppes,84.75,69.02
@@ -326,11 +327,11 @@ LLG.RegisterGuide([[
 
 #step
 .goto Stormwind City,70.52,85.07
-.talk Squire Rowe
+.talk Squire Rowe##17804
 >>Select _"Let Marshal Windsor know that I am ready."_
 
 #step
-.talk Reginald Windsor
+.talk Reginald Windsor##12580
 .goto Stormwind City,69.71,86.07
 .turnin Stormwind Rendezvous##6402
 .goto Stormwind City,69.71,86.07
@@ -343,20 +344,20 @@ LLG.RegisterGuide([[
 
 #step
 .goto Stormwind City,68.01,30.07
-.talk Reginald Windsor
+.talk Reginald Windsor##12580
 >>Select _"I am ready, as are my forces. Let us end this masquerade!"_
 
 #step
 .goto Stormwind City,69.17,28.63
 >>Enter the building
 >>Watch the dialogue
-.kill 1 Onyxia's Elite Guard
+.kill 1 Onyxia's Elite Guard##12739
 >>Inside the building.
 .goto Stormwind City,78.10,17.95
 .complete 6403,1 >>Complete Reginald Windsor's March
 
 #step
-.talk Highlord Bolvar Fordragon
+.talk Highlord Bolvar Fordragon##1748
 >>Inside the building.
 .goto Stormwind City,78.22,17.99
 .turnin The Great Masquerade##6403
@@ -366,7 +367,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,63.92,29.88
 >>Follow the path up
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Stormwind City,65.23,23.99
@@ -376,7 +377,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -385,7 +386,7 @@ LLG.RegisterGuide([[
 .accept Chillwind Horns##4809
 
 #step
-.kill 1 Chillwind Ravager
+.kill 1 Chillwind Ravager##7449
 >>They look like chimeras.
 >>They share spawn points with the bears, so kill them too.
 .goto Winterspring,59.97,21.54
@@ -397,7 +398,7 @@ LLG.RegisterGuide([[
 >>[57.99,14.79]
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -420,28 +421,28 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Haleh
+.talk Haleh##10929
 .goto Winterspring,54.55,51.20
 .turnin The Dragon's Eye##6501
 .goto Winterspring,54.55,51.20
 .accept Drakefire Amulet##6502
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
 .turnin Return to Tinkee##4810
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
 .accept Tinkee Steamboil##4907
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -450,7 +451,7 @@ LLG.RegisterGuide([[
 .accept Egg Freezing##4734
 
 #step
-.talk Duke Hydraxis
+.talk Duke Hydraxis##13278
 .goto Azshara,79.28,73.69
 .accept Poisoned Water##6804
 .goto Azshara,79.28,73.69
@@ -471,14 +472,14 @@ LLG.RegisterGuide([[
 >>[29.37,15.01]
 
 #step
-.click the Aspect of Neptulon
+.click the Aspect of Neptulon##17310
 >>Use it on Plague Ravagers and Blighted Surge around this area.
-.kill 1 Discordant Surge
+.kill 1 Discordant Surge##13279
 .goto Eastern Plaguelands,62.61,79.45
 .complete 6804,1 >>Collect 12 Discordant Bracers
 
 #step
-.talk Duke Hydraxis
+.talk Duke Hydraxis##13278
 .goto Azshara,79.28,73.69
 .turnin Poisoned Water##6804
 .goto Azshara,79.28,73.69
@@ -500,7 +501,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Lower Blackrock Spire Dungeon:
-.kill 1 Overlord Wyrmthalak
+.kill 1 Overlord Wyrmthalak##9568
 >>After entering the dungeon, follow the path right in the Hall of Blackhand to reach Hordemar City.
 >>Proceed across the bridges through Hordemar City and jump down into the groove in the ground where Bijou is.
 >>Jump down to the west from Bijou and follow the path west around Hordemar City, eventually heading south to reach the Skitterweb Tunnels.
@@ -511,7 +512,7 @@ LLG.RegisterGuide([[
 .collect General Drakkisath's Command,1
 
 #step
-.click General Drakkisath's Command
+.click General Drakkisath's Command##12780
 .accept General Drakkisath's Command##5089
 
 #step
@@ -519,7 +520,7 @@ LLG.RegisterGuide([[
 .complete 5089 >>Click Here to Continue
 
 #step
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.01
 .turnin General Drakkisath's Command##5089
 .goto Burning Steppes,84.75,69.01
@@ -539,7 +540,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.kill 1 Pyroguard Emberseer
+.kill 1 Pyroguard Emberseer##9816
 >>After entering the dungeon, follow the path to the left to enter the Upper Blackrock Spire.
 >>Someone in your group must have the Seal of Ascension in order to open the door.
 >>Clear the enemies in the first room to unlock the door to the next room.
@@ -548,20 +549,20 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click the Eggscilloscope Prototype
+.click the Eggscilloscope Prototype##12286
 >>Use it on the eggs in The Rookery, just past Pyroguard Emberseer.
 >>Don't get too close or they will hatch if they aren't frozen.
 .complete 4734,1 >>Test the Eggscilloscope Prototype
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click Doomrigger's Coffer
+.click Doomrigger's Coffer##175382
 >>At the center of The Rookery, just before the ramp.
 .complete 4764,1 >>Collect Doomrigger's Clasp
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.talk Awbee
+.talk Awbee##10740
 >>Proceed through the upper level of The Rookery to reach the Hall of Blackhand.
 >>Go east in the Hall of Blackhand and jump down into the Blackrock Stadium to start the encounter.
 >>Kill the enemies that attack, then finally Gyth and Warchief Rend Blackhand.
@@ -571,19 +572,19 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.kill 1 The Beast
+.kill 1 The Beast##10430
 >>Head east up the stairs from Awbee and go right into The Furnace, followed by a left to reach The Beast.
 .collect Finkle's Skinner,1
 >>This is a rare drop and may take multiple attempts to get.
 >>If you don't have Skinning or you don't want to do this you can skip this step but you will have to skip the next quest.
-.click Finkle's Skinner
+.click Finkle's Skinner##12709
 >>Skin The Beast
 >>This requires level 315 Skinning to accomplish.
 >>You can achieve this with the "Enchant Gloves - Skinning" along with Finkle's Skinner equipped.
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.talk Finkle Einhorn
+.talk Finkle Einhorn##10776
 >>He will appear after skinning The Beast.
 >>Select _"How the hell did you get in there to begin with?"_
 .accept Finkle Einhorn, At Your Service!##5047
@@ -593,7 +594,7 @@ LLG.RegisterGuide([[
 .complete 4764 >>Click Here to Continue
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -602,17 +603,17 @@ LLG.RegisterGuide([[
 .accept Egg Collection##4735
 
 #step
-.talk Mayara Brightwing
+.talk Mayara Brightwing##9565
 .goto Burning Steppes,84.84,69.12
 .turnin Doomrigger's Clasp##4764
 
 #step
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.01
 .turnin General Drakkisath's Demise##5102
 
 #step
-.talk Malyfous Darkhammer
+.talk Malyfous Darkhammer##10637
 .goto Winterspring,60.99,38.78
 .turnin Finkle Einhorn, At Your Service!##5047
 
@@ -631,14 +632,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Haleh
+.talk Haleh##10929
 .goto Winterspring,54.55,51.20
 .turnin Drakefire Amulet##6502
 >>Completing this quest will award you with a Darkfire Amulet, which will allow you to enter the Onyxia's Lair raid.
 >>You must keep it in your inventory in order to enter the raid instance.
 
 #step
-.talk Jeziba
+.talk Jeziba##10976
 >>Upstairs inside the building.
 .goto Western Plaguelands,39.38,66.78
 .turnin Wrath of the Blue Flight##5162
@@ -646,13 +647,13 @@ LLG.RegisterGuide([[
 .accept Catalogue of the Wayward##5164
 
 #step
-.click Catalogue of the Wayward
+.click Catalogue of the Wayward##176192
 >>It looks like a blue book on the bedside table upstairs inside the building.
 .goto Western Plaguelands,39.35,66.60
 .turnin Catalogue of the Wayward##5164
 
 #step
-.talk Duke Hydraxis
+.talk Duke Hydraxis##13278
 .goto Azshara,79.28,73.69
 .turnin Eye of the Emberseer##6821
 
@@ -670,11 +671,11 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click the Eggscilloscope Prototype
+.click the Eggscilloscope Prototype##12286
 >>Use it on the eggs in The Rookery, just past Pyroguard Emberseer.
 >>Use it to freeze the eggs.
 >>Don't get too close or they will hatch if they aren't frozen.
-.click the Collectronic Module
+.click the Collectronic Module##12287
 >>Use it to collect the eggs.
 .complete 4735,1 >>Collect 8 Collected Dragon Egg
 
@@ -683,7 +684,7 @@ LLG.RegisterGuide([[
 .complete 4735 >>Click Here to Continue
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99

@@ -151,6 +151,19 @@ local function nameOf(section, id)
     return v
 end
 
+-- Name einer Einheit oder eines Objekts in der Sprache des Clients. Die
+-- Guides nennen englische Namen; wer anvisieren will, braucht den Namen, den
+-- der Client kennt.
+function P.UnitName(id)
+    if not P.ready or not id then return nil end
+    return nameOf("units", tonumber(id) or id)
+end
+
+function P.ObjectName(id)
+    if not P.ready or not id then return nil end
+    return nameOf("objects", tonumber(id) or id)
+end
+
 -- Haengt alle Koordinaten einer Einheiten- oder Objektliste an.
 local function appendCoords(out, section, ids, kindLabel)
     if not ids then return end
@@ -189,6 +202,25 @@ local sectionFor = {
 }
 
 -- Alle bekannten Fundstellen zu einer Quest und einer Aufgabenart.
+-- Welche Quests muss man vorher abgegeben haben? pfQuest fuehrt das als
+-- "pre". Rueckgabe: Liste von Kennungen als Zeichenkette, oder nil.
+function P.Prerequisites(questId)
+    if not P.ready then return nil end
+    local id = tonumber(questId)
+    if not id then return nil end
+    local quests = db("quests")
+    quests = quests and quests["data"]
+    local entry = quests and quests[id]
+    local pre = entry and entry["pre"]
+    if type(pre) ~= "table" then return nil end
+    local out = {}
+    for _, p in pairs(pre) do
+        if p then table.insert(out, tostring(p)) end
+    end
+    if LLG.getn(out) == 0 then return nil end
+    return out
+end
+
 function P.Spots(questId, kind)
     if not P.ready then return nil end
     local id = tonumber(questId)

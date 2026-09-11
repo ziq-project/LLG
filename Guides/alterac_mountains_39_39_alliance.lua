@@ -18,13 +18,13 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Innkeeper Anderson
+.talk Innkeeper Anderson##2352
 >>Inside the building.
 .goto Hillsbrad Foothills,51.17,58.93
 .hs
 
 #step
-.talk Raleigh the Devout
+.talk Raleigh the Devout##3980
 >>en:He's upstairs in the inn.
 >>He's upstairs in the inn.
 .goto Hillsbrad Foothills,51.40,58.60
@@ -40,14 +40,15 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.click Assassin's Contract
+.click Assassin's Contract##3668
 .goto Hillsbrad Foothills,48.14,59.11
 .accept Assassin's Contract##522
+.only itemcount(3668) == 1
 
 #step
 .goto Hillsbrad Foothills,49.01,59.12
 >>Enter the building
-.talk Magistrate Henry Maleb
+.talk Magistrate Henry Maleb##2276
 >>en:Inside the town hall, in the big room.
 >>de:Im Rathaus, im großen Raum.
 >>Inside the building.
@@ -59,9 +60,10 @@ LLG.RegisterGuide([[
 .accept Noble Deaths##512
 .goto Hillsbrad Foothills,48.14,59.11
 .turnin Assassin's Contract##522
+.only itemcount(3668) == 1
 
 #step
-.talk Magistrate Henry Maleb
+.talk Magistrate Henry Maleb##2276
 >>en:Inside the town hall, in the big room.
 >>de:Im Rathaus, im großen Raum.
 .goto Hillsbrad Foothills,48.14,59.11
@@ -71,14 +73,14 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.01,59.12
 >>Leave the building
-.talk Archmage Ansirem Runeweaver
+.talk Archmage Ansirem Runeweaver##2543
 .goto Alterac Mountains,18.84,78.49
 .turnin Magical Analysis##602
 .only subzone("Southshore and Town and Hall")
 
 #step
 >>Watch the dialogue
-.talk Archmage Ansirem Runeweaver
+.talk Archmage Ansirem Runeweaver##2543
 .goto Alterac Mountains,18.84,78.49
 .accept Ansirem's Key##603
 
@@ -87,7 +89,7 @@ LLG.RegisterGuide([[
 >>Follow the past up the coast
 .goto Alterac Mountains,39.45,15.38
 >>Enter the building
-.kill 1 Nagaz
+.kill 1 Nagaz##2320
 >>Inside the building.
 >>only not hardcore :: Be careful, some enemies around this area can be stealthed.
 >>only hardcore :: There are several enemies between the door and Nagaz.
@@ -100,7 +102,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Dalaran")
 
 #step
-.click Worn Wooden Chest
+.click Worn Wooden Chest##1765
 >>Inside the building.
 >>only hardcore :: Try not to linger while inside the building.
 >>only hardcore :: Enemies tend to respawn quickly around here.
@@ -108,8 +110,9 @@ LLG.RegisterGuide([[
 .collect Ensorcelled Parchment,1
 
 #step
-.click the Ensorcelled Parchment
+.click the Ensorcelled Parchment##3706
 .accept The Ensorcelled Parchment##551
+.only itemcount(3706) > 0
 
 #step
 .goto Alterac Mountains,62.31,43.49
@@ -131,19 +134,19 @@ LLG.RegisterGuide([[
 >>You can find more around [58.20,44.87]
 
 #step
-.kill 1 Baron Vardus
+.kill 1 Baron Vardus##2306
 >>He can spawn at any of the camps in the area
 >>Be careful to slowly pull enemies one by one, this area can be very dangerous.
 .goto Alterac Mountains,62.31,43.49
 .complete 523 >>Collect Head of Baron Vardus
 
 #step
-.click a Nature Protection Potion
+.click a Nature Protection Potion##6052
 >>You are about to accept a quest soon to kill a level 40 elite enemy.
 >>You will need to use another Nature Protection Potion during the fight, so use one now, and wait until your potion cooldown is finished before accepting the quest in the next step.
 >>The potion lasts 1 hour, so you have plenty of time to get to the quest location in a few steps.
 .click Here to Continue
-.only Warrior
+.only Warrior and itemcount(6052) > 0
 
 #step
 .click Bah'rah's Cauldron
@@ -154,7 +157,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 >>Inside the building.
 .goto Alterac Mountains,80.50,66.92
 .turnin Cyclonian##1712
@@ -167,15 +170,15 @@ LLG.RegisterGuide([[
 >>Watch the dialogue
 >>Follow Bath'rah the Windwatcher as he walks.
 >>He will summon Cyclonian, a level 40 elite.
-.kill 1 Cyclonian
->>Use the other Nature Protection Potion when the effect of the first one ends.
+.kill 1 Cyclonian##6239
+>>only itemcount(6052) > 0 :: Use the other Nature Protection Potion when the effect of the first one ends.
 >>If you have trouble, try to find someone to help you.
 .goto Alterac Mountains,80.60,62.52
 .complete 1713,1 >>Collect Whirlwind Heart
 .only Warrior
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 >>Inside the building.
 .goto Alterac Mountains,80.50,66.92
 .turnin The Summoning##1713
@@ -188,7 +191,7 @@ LLG.RegisterGuide([[
 >>Avoid Tarren Mill and follow the path the Hinterlands
 .goto The Hinterlands,13.50,47.99
 >>Follow the path up
-.talk Falstad Wildhammer
+.talk Falstad Wildhammer##5635
 .goto The Hinterlands,11.81,46.76
 .turnin To The Hinterlands##1449
 .goto The Hinterlands,11.81,46.76
@@ -196,7 +199,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Guthrum Thunderfist
+.talk Guthrum Thunderfist##8018
 >>en:Next to a big eagle.
 >>de:Neben einem großen Adler.
 >>At the top of the path.
@@ -206,7 +209,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,11.00,45.67
 >>Enter the building
-.talk Gryphon Master Talonaxe
+.talk Gryphon Master Talonaxe##5636
 >>en:At the very top of the hill, inside the cave.
 >>de:At the very top of the hill, inside the cave.
 >>Inside the building.
@@ -218,7 +221,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,20.81,47.82
 >>Follow the path up
-.talk Rhapsody Shindigger
+.talk Rhapsody Shindigger##5634
 .goto The Hinterlands,26.94,48.59
 .turnin Rhapsody Shindigger##1451
 .goto The Hinterlands,26.94,48.59
@@ -226,7 +229,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Marshal Redpath
+.talk Marshal Redpath##2263
 >>en:Next to a well.
 >>de:Neben einem Brunnen.
 .goto Hillsbrad Foothills,49.48,58.73
@@ -235,7 +238,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.01,59.12
 >>Enter the building
-.talk Magistrate Henry Maleb
+.talk Magistrate Henry Maleb##2276
 >>en:Inside the town hall, in the big room.
 >>de:Im Rathaus, im großen Raum.
 >>Inside the building.
@@ -247,7 +250,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.01,59.12
 >>Leave the building
-.talk Loremaster Dibbs
+.talk Loremaster Dibbs##2277
 >>en:Standing in front of a little house.
 >>de:Steht vor einem kleinen Haus.
 .goto Hillsbrad Foothills,50.57,57.09
@@ -272,7 +275,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scarlet Monastery Library Dungeon:
-.click Mythology of the Titans
+.click Mythology of the Titans##19284
 >>Continue through Huntsman's Cloister to enter the Gallery of Treasures.
 >>Once through the Gallery of Treasures the map will change back to Scarlet Monastery.
 >>It will be on the ground on the left side of the room.
@@ -331,7 +334,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.47,58.56
 >>Enter the building
-.talk Raleigh the Devout
+.talk Raleigh the Devout##3980
 >>en:He's upstairs in the inn.
 >>Upstairs inside the building.
 .goto Hillsbrad Foothills,51.46,58.36

@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 .level 15
 
 #step
-.talk Uthel'nay
+.talk Uthel'nay##7311
 >>en:Standing inside a large troll hut.
 >>de:Steht in einer großen Trollhütte.
 >>Inside the building.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Un'Thuwa
+.talk Un'Thuwa##5880
 >>Inside the building.
 .goto Durotar,56.31,75.11
 .turnin Speak with Un'thuwa##1883
@@ -36,7 +36,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.click Ju-ju Heap
+.click Ju-ju Heap##102986
 >>They look like a pile of skulls.
 >>They are in buildings all around this area.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Un'Thuwa
+.talk Un'Thuwa##5880
 >>Inside the building.
 .goto Durotar,56.31,75.11
 .turnin Ju-Ju Heaps##1884
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 .level 15
 
 #step
-.talk Uthel'nay
+.talk Uthel'nay##7311
 >>en:Standing inside a large troll hut.
 >>de:Steht in einer großen Trollhütte.
 >>Inside the building.
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Anastasia Hartwell
+.talk Anastasia Hartwell##4568
 .goto Undercity,85.14,10.06
 .turnin Report to Anastasia##1959
 .goto Undercity,85.14,10.06
@@ -71,24 +71,24 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.click Cantation of Manifestation
+.click Cantation of Manifestation##105175
 >>It looks like a scroll on the ledge of the wall.
 .goto Undercity,85.65,10.00
 .complete 1960,3 >>Collect Cantation of Manifestation
 .only Mage
 
 #step
-.click Chest of Containment Coffers
+.click Chest of Containment Coffers##105174
 >>It looks like a brown treasure box on the edge of the wall.
 .goto Undercity,85.65,10.00
 .complete 1960,2 >>Collect Chest of Containment Coffers
 .only Mage
 
 #step
-.click the Cantation of Manifestation
+.click the Cantation of Manifestation##7308
 >>Use the "Arcane Explosion" ability after using the Cantation to reveal the enemy.
-.kill 1 Rift Spawn
-.click the Chest of Containment Coffers
+.kill 1 Rift Spawn##6492
+.click the Chest of Containment Coffers##7247
 >>Use it on the Rift Spawn corpse.
 .click Filled Containment Coffer
 .goto Undercity,52.99,74.92
@@ -96,7 +96,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Anastasia Hartwell
+.talk Anastasia Hartwell##4568
 .goto Undercity,85.14,10.06
 .turnin Investigate the Alchemist Shop##1960
 .goto Undercity,85.14,10.06
@@ -118,7 +118,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Josef Gregorian
+.talk Josef Gregorian##4576
 .goto Undercity,70.75,30.69
 .turnin Gathering Materials##1961
 >>Watch the Dialogue
@@ -130,13 +130,13 @@ LLG.RegisterGuide([[
 .level 26
 
 #step
-.talk Anastasia Hartwell
+.talk Anastasia Hartwell##4568
 .goto Undercity,85.13,9.98
 .accept Speak with Deino##1943
 .only Mage
 
 #step
-.talk Deino
+.talk Deino##5885
 .goto Orgrimmar,38.45,86.14
 .turnin Speak with Deino##1943
 .goto Orgrimmar,38.45,86.14
@@ -146,13 +146,13 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,73.67,50.38
 >>Follow the path up
-.click Deino's Flask
+.click Deino's Flask##7269
 .goto Ashenvale,76.33,41.43
 .complete 1944,1 >>Collect Xavian Water Sample
 .only Mage
 
 #step
-.talk Deino
+.talk Deino##5885
 .goto Orgrimmar,38.45,86.14
 .turnin Waters of Xavian##1944
 .goto Orgrimmar,38.45,86.14
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.kill 1 Laughing Sister
+.kill 1 Laughing Sister##4054
 >>only hardcore :: Watch for patrols and respawns in the area.
 .goto Ashenvale,58.61,59.49
 .complete 1945,1 >>Collect 12 Laughing Sister's Hair
@@ -168,7 +168,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Kil'hala
+.talk Kil'hala##3484
 .goto The Barrens,52.20,31.70
 .turnin Laughing Sisters##1945
 .goto The Barrens,52.20,31.70
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 .level 30
 
 #step
-.talk Deino
+.talk Deino##5885
 >>Inside the building.
 .goto Orgrimmar,38.45,86.14
 .accept Journey to the Marsh##1947
@@ -192,7 +192,7 @@ LLG.RegisterGuide([[
 >>Make sure not to accidentally vendor it.
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Magus Tirth
+.talk Magus Tirth##6548
 .goto Thousand Needles,78.29,75.70
 .turnin Hidden Secrets##1949
 .goto Thousand Needles,78.29,75.70
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk "Plucky" Johnson
+.talk "Plucky" Johnson##6626
 >>Use the "/beckon" Emote to turn him back to a human.
 >>Tell him to _"Please tell me the Phrase..."_
 .goto Thousand Needles,79.60,75.60
@@ -221,7 +221,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Magus Tirth
+.talk Magus Tirth##6548
 .goto Thousand Needles,78.29,75.70
 .turnin Get the Scoop##1950
 .goto Thousand Needles,78.29,75.70
@@ -229,7 +229,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -245,9 +245,9 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.click the Witherbark Totem Stick
+.click the Witherbark Totem Stick##7273
 >>Clear the enemies around the stones before doing so.
-.click Bolt Charged Bramble
+.click Bolt Charged Bramble##103662
 >>On top of the rock at the center of the Outer Binding Circle.
 .goto Arathi Highlands,52.06,50.69
 .complete 1948,2 >>Collect Bolt Charged Bramble
@@ -259,7 +259,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -291,7 +291,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -302,7 +302,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -314,13 +314,13 @@ LLG.RegisterGuide([[
 .level 40
 
 #step
-.talk Anastasia Hartwell
+.talk Anastasia Hartwell##4568
 .goto Undercity,85.13,9.98
 .accept Return to the Marsh##1953
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -331,7 +331,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.kill 1 Burning Blade Summoner
+.kill 1 Burning Blade Summoner##4668
 >>only hardcore :: You may have to look around for them.
 >>only hardcore :: Watch out for patrols and respawns while in the area.
 .goto Desolace,53.34,79.05
@@ -347,7 +347,7 @@ LLG.RegisterGuide([[
 .only Mage and hardcore
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -363,7 +363,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -388,13 +388,13 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.kill 1 Obsidian Sentinel
+.kill 1 Obsidian Sentinel##7023
 >>Use the Uldaman Dungeon guide to accomplish this.
 .complete 1956,1 >>Collect Obsidian Power Source
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -405,14 +405,14 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.kill 1 Mana Surge
+.kill 1 Mana Surge##6550
 >>They will spawn continuously as you kill them.
 .goto Dustwallow Marsh,45.85,56.76
 .complete 1957,1 >>Slay #12# Manage Surges
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -427,13 +427,13 @@ LLG.RegisterGuide([[
 .level 46
 
 #step
-.talk Anastasia Hartwell
+.talk Anastasia Hartwell##4568
 .goto Undercity,85.13,9.98
 .accept Tabetha's Task##2861
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -457,12 +457,12 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Hydromancer Velratha
+.kill 1 Hydromancer Velratha##7795
 .complete 2846,1 >>Collect Tiara of the Deep
 .only Mage
 
 #step
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -500,7 +500,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Lorekeeper Lydros
+.talk Lorekeeper Lydros##14368
 >>Through the Conservatory Door in the courtyard.
 .accept Arcane Refreshment##7463
 .only Mage
@@ -530,7 +530,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul East Dungeon:
-.kill 1 Hydrospawn
+.kill 1 Hydrospawn##13280
 >>Refer to the Dire Maul East Dungeon guide to accomplish this.
 .collect Hydrospawn Essence,1
 .only Mage
@@ -562,7 +562,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Lorekeeper Lydros
+.talk Lorekeeper Lydros##14368
 >>Through the Conservatory Door in the courtyard.
 .turnin Arcane Refreshment##7463
 .only Mage

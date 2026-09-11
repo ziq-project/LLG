@@ -28,7 +28,7 @@ LLG.RegisterGuide([[
 .only Scourge
 
 #step
-.talk Kargal Battlescar
+.talk Kargal Battlescar##3337
 >>de:Standing to the side of the road.
 .goto The Barrens,62.26,19.38
 .turnin Conscript of the Horde##840
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 .only haveq(840) or completedq(840)
 
 #step
-.talk Kranal Fiss
+.talk Kranal Fiss##5907
 >>en:He walks back and forth.
 >>de:Standing in the doorway of a tower house building.
 .goto The Barrens,56.03,19.89
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,36.59,57.07
 >>Follow the path up
-.talk Telf Joolam
+.talk Telf Joolam##5900
 >>en:Standing all the way at the top of the mountain.
 >>de:Steht ganz oben auf dem Berg.
 >>On top of the mountain.
@@ -70,7 +70,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,54.54,39.45
 >>Follow the path up
-.kill 1 Burning Blade Cultist
+.kill 1 Burning Blade Cultist##3199
 >>Inside the cave.
 >>They seem to mostly be towards the back of the cave.
 >>only hardcore :: Watch for patrols and respawns while inside the cave.
@@ -85,7 +85,7 @@ LLG.RegisterGuide([[
 >>Jump down onto the huge long rock
 .goto Durotar,36.59,57.07
 >>Follow the path up
-.talk Telf Joolam
+.talk Telf Joolam##5900
 >>en:Standing all the way at the top of the mountain.
 >>de:Steht ganz oben auf dem Berg.
 >>On top of the mountain.
@@ -96,21 +96,21 @@ LLG.RegisterGuide([[
 .only ((Orc or Troll) and Shaman)
 
 #step
-.click the Fire Sapta
+.click the Fire Sapta##6636
 >>On top of the mountain.
 .goto Durotar,38.16,58.54
 >>Gain Sapta Sight
 .only ((Orc or Troll) and Shaman)
 
 #step
-.kill 1 Minor Manifestation of Fire
+.kill 1 Minor Manifestation of Fire##5893
 >>On top of the mountain.
 .goto Durotar,38.72,58.29
 .complete 1526,1 >>Collect Glowing Ember
 .only ((Orc or Troll) and Shaman)
 
 #step
-.click Brazier of the Dormant Flame
+.click Brazier of the Dormant Flame##61934
 >>On top of the mountain.
 .goto Durotar,38.95,58.22
 .turnin Call of Fire##1526
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 .only ((Orc or Troll) and Shaman)
 
 #step
-.talk Kranal Fiss
+.talk Kranal Fiss##5907
 >>en:He walks back and forth.
 >>de:Standing in the doorway of a tower house building.
 >>He walks around this area.
@@ -128,7 +128,7 @@ LLG.RegisterGuide([[
 .only ((Orc or Troll) and Shaman)
 
 #step
-.talk Uzzek
+.talk Uzzek##5810
 >>en:Standing under a small red canopy.
 >>de:Steht unter einem kleinen roten Baldachin.
 .goto The Barrens,61.38,21.11
@@ -140,7 +140,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,39.18,32.15
 >>Enter the canyon
-.kill 1 Thunder Lizard
+.kill 1 Thunder Lizard##3130
 .goto Durotar,39.27,28.29
 .complete 1498,1 >>Collect 5 Singed Scale
 .only ((Orc or Troll) and Warrior)
@@ -148,7 +148,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,39.16,32.31
 >>Leave the canyon
-.talk Uzzek
+.talk Uzzek##5810
 >>en:Standing under a small red canopy.
 >>de:Steht unter einem kleinen roten Baldachin.
 .goto The Barrens,61.38,21.11
@@ -158,7 +158,7 @@ LLG.RegisterGuide([[
 .only ((Orc or Troll) and Warrior)
 
 #step
-.talk Ak'Zeloth
+.talk Ak'Zeloth##3521
 >>de:Standing at the base of a watch tower.
 .goto The Barrens,62.34,20.07
 .turnin Ak'Zeloth##809
@@ -167,7 +167,7 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.click Flawed Power Stone
+.click Flawed Power Stone##5619
 >>It's the stone on a brazier beside you.
 .goto The Barrens,62.34,20.03
 .accept Flawed Power Stone##926
@@ -183,7 +183,7 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.click Chen's Empty Keg
+.click Chen's Empty Keg##3238
 >>It may not be here, and has about a 5 minute respawn time.
 >>If it's not here, skip this step, you will try again later at another location.
 .goto The Barrens,55.78,20.01
@@ -191,12 +191,13 @@ LLG.RegisterGuide([[
 .only Orc or Troll or Scourge
 
 #step
-.click Chen's Empty Keg
+.click Chen's Empty Keg##4926
 .goto The Barrens,52.62,29.84
 .accept Chen's Empty Keg##819
+.only ((Orc or Troll or Scourge) and itemcount(4926) > 0)
 
 #step
-.talk Zargh
+.talk Zargh##3489
 >>en:Standing under a red canopy.
 >>de:Steht unter einem roten Baldachin.
 .goto The Barrens,52.62,29.84
@@ -204,7 +205,7 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.24,31.01
 .turnin Crossroads Conscription##842
@@ -213,7 +214,7 @@ LLG.RegisterGuide([[
 .only haveq(842) or completedq(842)
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .accept The Forgotten Pools##870
@@ -221,25 +222,25 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,52.03,30.16
 >>Enter the building
-.talk Innkeeper Boorand Plainswind
+.talk Innkeeper Boorand Plainswind##3934
 >>Inside the building.
 .goto The Barrens,51.99,29.90
 .hs
 
 #step
-.talk Gazrog
+.talk Gazrog##3464
 >>en:Standing in front of the inn.
 >>de:Steht vor dem Gasthaus.
 .goto The Barrens,51.93,30.32
 .accept Raptor Thieves##869
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 .goto The Barrens,51.39,30.21
 .vendor
 
 #step
-.talk Thork
+.talk Thork##3429
 >>de:Standing at the base of the watch tower.
 .goto The Barrens,51.50,30.87
 .accept Disrupt the Attacks##871
@@ -247,7 +248,7 @@ LLG.RegisterGuide([[
 .accept Supplies for the Crossroads##5041
 
 #step
-.talk Darsok Swiftdagger
+.talk Darsok Swiftdagger##3449
 >>en:Standing at the top of the watch tower.
 >>de:Standing at the top of the watch tower.
 >>At the top of the tower.
@@ -255,20 +256,20 @@ LLG.RegisterGuide([[
 .accept Harpy Raiders##867
 
 #step
-.talk Devrak
+.talk Devrak##3615
 >>de:Standing next to some Wind Riders perched on some wooden posts.
 .goto The Barrens,51.50,30.34
 .turnin Meats to Orgrimmar##6365
 .only Orc or Troll
 
 #step
-.talk Devrak
+.talk Devrak##3615
 >>de:Standing next to some Wind Riders perched on some wooden posts.
 .goto The Barrens,51.50,30.34
 .fly Crossroads
 
 #step
-.talk Apothecary Helbrim
+.talk Apothecary Helbrim##3390
 >>en:Under a red canopy, next to a bar with a bunch of potions on it.
 >>de:Under a red canopy, next to a bar with a bunch of potions on it.
 .goto The Barrens,51.44,30.15
@@ -286,7 +287,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,47.66,19.17
 >>Enter the cave
-.click The Altar of Fire
+.click The Altar of Fire##3525
 >>Inside the cave.
 .goto The Barrens,47.96,19.07
 .only Orc or Troll
@@ -297,17 +298,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto The Barrens,47.45,19.28
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only (Orc or Troll) and not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto The Barrens,50.72,32.61
 .only (Orc or Troll) and not hardcore
 
 #step
-.talk Omusa Thunderhorn
+.talk Omusa Thunderhorn##10378
 >>en:Standing under a red canopy.
 >>de:Steht unter einem roten Baldachin.
 >>Be careful while running here.
@@ -319,18 +320,20 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,32.11,67.16
 >>Ride an elevator up into Thunder Bluff
-.talk Ansekhwa
+.talk Ansekhwa##11869
 >>We are taking a field trip to Thunder Bluff, so you can learn how to use staves and two-handed maces.
 >>This will allow you to equip staves and two-handed maces.
 >>It will be good to have the option to use them while leveling.
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .goto Thunder Bluff,40.93,62.73
 .train
+.condition weaponskill("TH_MACE") > 0 >>Train Two-Handed Maces
 .only Warrior and not Tauren
 
 #step
-.talk Rahauro
+.talk Rahauro##11833
 >>He walks around this area.
 .goto Thunder Bluff,70.51,31.83
 .accept Testing an Enemy's Strength##5723
@@ -339,7 +342,7 @@ LLG.RegisterGuide([[
 .only Warrior and not Tauren
 
 #step
-.talk Tal
+.talk Tal##2995
 >>en:All the way at the top of the huge totem pole looking tower.
 >>de:Ganz oben auf dem Gebäude, das wie ein riesiger Totempfahl aussieht.
 >>At the top of the tower.
@@ -348,7 +351,7 @@ LLG.RegisterGuide([[
 .only Warrior and not Tauren
 
 #step
-.talk Rahauro
+.talk Rahauro##11833
 >>He walks around this area.
 .goto Thunder Bluff,70.51,31.83
 .accept Testing an Enemy's Strength##5723
@@ -357,12 +360,13 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Archibald
+.talk Archibald##11870
 >>We are taking a field trip to Undercity, so you can learn how to use one-handed swords.
 >>This will allow you to equip one-handed swords.
 >>It will be good to have the option to use them while leveling.
 .goto Undercity,57.31,32.77
 .train
+.condition weaponskill("SWORD") > 0 >>Train Swords
 .only (Orc or Troll) and Rogue
 
 #step
@@ -379,7 +383,7 @@ LLG.RegisterGuide([[
 >>Run up the mountain
 .goto The Barrens,56.72,28.65
 >>Follow the path
-.talk Thun'grim Firegaze
+.talk Thun'grim Firegaze##5878
 >>On top of the mountain.
 .goto The Barrens,57.23,30.34
 .turnin Thun'grim Firegaze##1502
@@ -390,7 +394,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,56.67,28.62
 >>Run down the mountain
-.click Stolen Iron Chest
+.click Stolen Iron Chest##58369
 .goto The Barrens,55.05,26.65
 .complete 1503,1 >>Collect Forged Steel Bars
 .only ((Orc or Troll) and Warrior)
@@ -400,23 +404,24 @@ LLG.RegisterGuide([[
 >>Run up the mountain
 .goto The Barrens,56.72,28.65
 >>Follow the path
-.talk Thun'grim Firegaze
+.talk Thun'grim Firegaze##5878
 >>On top of the mountain.
 .goto The Barrens,57.23,30.34
 .turnin Forged Steel##1503
 .only ((Orc or Troll) and Warrior)
 
 #step
-.click Chen's Empty Keg
+.click Chen's Empty Keg##3238
 >>It may not be here, and has about a 5 minute respawn time.
 >>If it's not here, skip this step, you will try again later at another location.
 .goto The Barrens,55.70,27.29
 .collect Chen's Empty Keg,1
 
 #step
-.click Chen's Empty Keg
+.click Chen's Empty Keg##4926
 .goto The Barrens,55.57,26.71
 .accept Chen's Empty Keg##819
+.only itemcount(4926) > 0
 
 #step
 .goto The Barrens,55.57,26.71
@@ -442,19 +447,19 @@ LLG.RegisterGuide([[
 >>You can find more around [54.26,25.66]
 
 #step
-.click Chen's Empty Keg
+.click Chen's Empty Keg##3238
 >>If you already checked the location in the previous step, then you should find it here.
 .goto The Barrens,55.78,20.01
 .collect Chen's Empty Keg,1
 
 #step
-.click Chen's Empty Keg
+.click Chen's Empty Keg##4926
 .goto The Barrens,54.16,23.75
 .accept Chen's Empty Keg##819
+.only itemcount(4926) > 0
 
 #step
 .kill 1 Plainstrider enemies around this area
->>'
 .goto The Barrens,54.16,23.75
 .complete 844,1 >>Collect 7 Plainstrider Beak
 >>You can find more:
@@ -465,7 +470,7 @@ LLG.RegisterGuide([[
 >>Around [50.52,31.88]
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.24,31.01
 .turnin Plainstrider Menace##844
@@ -473,7 +478,7 @@ LLG.RegisterGuide([[
 .accept The Zhevra##845
 
 #step
-.talk Thork
+.talk Thork##3429
 >>de:Standing at the base of the watch tower.
 .goto The Barrens,51.50,30.87
 .turnin Disrupt the Attacks##871
@@ -481,19 +486,19 @@ LLG.RegisterGuide([[
 .accept The Disruption Ends##872
 
 #step
-.talk Lizzarik
+.talk Lizzarik##3658
 >>He looks like a goblin that travels on the road between Crossroads and Ratchet.
 >>If he's not here, skip this step, we'll try again later.
-.kill 1 Heavy Spiked Mace
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>You can't use it until level 14, but you'll level up soon.
 >>If you have better, skip this step.
 .goto The Barrens,52.21,30.85
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
-.talk Ak'Zeloth
+.talk Ak'Zeloth##3521
 >>de:Standing at the base of a watch tower.
 >>Grind en route to this turnin
 .goto The Barrens,62.34,20.07
@@ -501,7 +506,7 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.kill 1 Zhevra Runner
+.kill 1 Zhevra Runner##3242
 >>They look like zebras.
 .goto The Barrens,55.62,21.23
 .complete 845,1 >>Collect 4 Zhevra Hooves
@@ -514,14 +519,14 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,58.95,25.20
 >>Continue following the path
-.kill 1 Kreenig Snarlsnout
+.kill 1 Kreenig Snarlsnout##3438
 >>He walks around this area.
 .goto The Barrens,58.53,27.04
 .complete 872,3 >>Collect Kreenig Snarlsnout's Tusk
 .only walking
 
 #step
-.click Crossroads' Supply Crates
+.click Crossroads' Supply Crates##175708
 >>They look like piles of brown boxes on the ground around this area.
 .goto The Barrens,58.53,27.27
 .complete 5041,1 >>Collect Crossroads' Supply Crates
@@ -561,7 +566,7 @@ LLG.RegisterGuide([[
 .goto The Barrens,62.89,36.52
 >>Follow the coast to Ratchet and enter the building
 >>Grind en route to accepting this quest.
-.talk Gazlowe
+.talk Gazlowe##3391
 >>en:Upstairs in the green goblin hut building.
 >>de:Oben im grünen Goblinhüttengebäude.
 >>Upstairs inside the building.
@@ -569,14 +574,14 @@ LLG.RegisterGuide([[
 .accept Southsea Freebooters##887
 
 #step
-.talk Bragok
+.talk Bragok##16227
 >>en:Under a blue canopy with a green stripe through it.
 >>de:Unter einem blaün Baldachin mit grünem Streifen.
 .goto The Barrens,63.09,37.16
 .fly Ratchet
 
 #step
-.talk Sputtervalve
+.talk Sputtervalve##3442
 >>en:Under a green canopy.
 >>de:Under a green canopy.
 .goto The Barrens,62.98,37.22
@@ -587,14 +592,14 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Wharfmaster Dizzywig
+.talk Wharfmaster Dizzywig##3453
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 .goto The Barrens,63.35,38.45
 .turnin Wharfmaster Dizzywig##1492
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Deposit these items into the bank if you are struggling with bag space.
 >>We are withdrawing them again after this next quest. Skip this step if you have plenty of space.
 .goto The Barrens,62.64,37.42
@@ -607,14 +612,14 @@ LLG.RegisterGuide([[
 .accept WANTED: Baron Longshore##895
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .accept Raptor Horns##865
 
 #step
-.talk Brewmaster Drohn
+.talk Brewmaster Drohn##3292
 >>en:Standing on the side of a house, next to a green canopy with a blue stripe through it.
 >>de:Standing on the side of a house, next to a green canopy with a blü stripe through it.
 .goto The Barrens,62.26,38.39
@@ -623,7 +628,7 @@ LLG.RegisterGuide([[
 .accept Chen's Empty Keg##821
 
 #step
-.talk Innkeeper Wiley
+.talk Innkeeper Wiley##6791
 >>Inside the building.
 >>The fish here are extremely cheap compared to other food vendors.
 .goto The Barrens,62.05,39.41
@@ -632,32 +637,32 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.24,37.62
 >>Enter the building
-.talk Ironzar
+.talk Ironzar##3491
 >>Inside the building.
-.kill 1 Scimitar
+.kill 1 Scimitar##2027
 >>If you can afford it.
 >>Buy 2, if you can, so you can dual wield them.
 >>If you have better, skip this step.
 .goto The Barrens,62.24,37.48
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2027) == 0
 
 #step
 .goto The Barrens,62.24,37.62
 >>Enter the building
-.talk Ironzar
+.talk Ironzar##3491
 >>Inside the building.
-.kill 1 Gnarled Staff
+.kill 1 Gnarled Staff##2030
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,62.24,37.48
 >>Visit the Vendor
-.only Shaman
+.only Shaman and itemcount(2030) == 0
 
 #step
 .goto The Barrens,62.39,39.42
 >>Follow the path
-.kill 1 Tazan
+.kill 1 Tazan##6494
 >>He looks like a troll with purple pants that walks around this area.
 .goto The Barrens,63.59,44.31
 .complete 1963,1 >>Collect Tazan's Satchel
@@ -667,7 +672,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.39,39.42
 >>Follow the path
-.kill 1 Baron Longshore
+.kill 1 Baron Longshore##3467
 >>He walks around this area, wearing a red coat.
 >>He can spawn in 3 different camps around this area.
 >>If you have trouble, try to kite him away from the group, so you can fight him alone.
@@ -691,30 +696,30 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.24,37.62
 >>Enter the building
-.talk Ironzar
+.talk Ironzar##3491
 >>Inside the building.
-.kill 1 Scimitar
+.kill 1 Scimitar##2027
 >>If you can afford it.
 >>Buy 2, if you can, so you can dual wield them.
 >>If you have better, skip this step.
 .goto The Barrens,62.24,37.48
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2027) == 0
 
 #step
 .goto The Barrens,62.24,37.62
 >>Enter the building
-.talk Ironzar
+.talk Ironzar##3491
 >>Inside the building.
-.kill 1 Gnarled Staff
+.kill 1 Gnarled Staff##2030
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,62.24,37.48
 >>Visit the Vendor
-.only Shaman
+.only Shaman and itemcount(2030) == 0
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Collect these items from the bank.
 .goto The Barrens,62.64,37.42
 .complete 872 >>Collect Kreenig Snarlsnout's Tusk
@@ -726,7 +731,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.89,36.52
 >>Enter the building
-.talk Gazlowe
+.talk Gazlowe##3391
 >>en:Upstairs in the green goblin hut building.
 >>de:Oben im grünen Goblinhüttengebäude.
 >>Upstairs inside the building.
@@ -738,7 +743,7 @@ LLG.RegisterGuide([[
 .turnin WANTED: Baron Longshore##895
 
 #step
-.talk Wharfmaster Dizzywig
+.talk Wharfmaster Dizzywig##3453
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 .goto The Barrens,63.35,38.45
@@ -751,7 +756,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.89,36.52
 >>Enter the building
-.talk Gazlowe
+.talk Gazlowe##3391
 >>en:Upstairs in the green goblin hut building.
 >>de:Oben im grünen Goblinhüttengebäude.
 >>Upstairs inside the building.
@@ -761,18 +766,18 @@ LLG.RegisterGuide([[
 .accept Stolen Booty##888
 
 #step
-.talk Lizzarik
+.talk Lizzarik##3658
 >>He looks like a goblin that travels on the road between Crossroads and Ratchet.
-.kill 1 Heavy Spiked Mace
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,61.76,38.27
 >>Visit the Vendor
 >>If he's not here, follow the road to Crossroads where he stands at [52.21,30.85]
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
-.talk Thork
+.talk Thork##3429
 >>de:Standing at the base of the watch tower.
 .goto The Barrens,51.50,30.87
 .turnin Supplies for the Crossroads##5041
@@ -780,7 +785,7 @@ LLG.RegisterGuide([[
 .turnin The Disruption Ends##872
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.23,31.01
 .turnin The Zhevra##845
@@ -788,7 +793,7 @@ LLG.RegisterGuide([[
 .accept Prowlers of the Barrens##903
 
 #step
-.talk Devrak
+.talk Devrak##3615
 >>de:Standing next to some Wind Riders perched on some wooden posts.
 .goto The Barrens,51.50,30.34
 .accept Ride to Orgrimmar##6384
@@ -797,31 +802,31 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.talk Uthrok
-.kill 1 Fine Longbow
+.talk Uthrok##3488
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto The Barrens,51.11,29.06
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
-.talk Uthrok
-.kill 1 Medium Quiver
+.talk Uthrok##3488
+.kill 1 Medium Quiver##11362
 >>If you can afford it.
 .goto The Barrens,51.11,29.06
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11362) == 0
 
 #step
-.talk Barg
+.talk Barg##3481
 >>only Hunter :: Stock up on arrows
 .goto The Barrens,51.67,29.96
 .vendor
 
 #step
-.talk Regthar Deathgate
+.talk Regthar Deathgate##3389
 >>en:Standing upstairs inside the round orc hut building.
 >>de:Standing upstairs inside the round orc hut building.
 >>Upstairs inside the building.
@@ -837,14 +842,14 @@ LLG.RegisterGuide([[
 >>Swim next to the bubbling rock.
 
 #step
-.click Laden Mushroom
+.click Laden Mushroom##3640
 >>They look like large blue mushrooms on the ground around this area.
 >>They can spawn in multiple locations around this pond.
 .goto The Barrens,44.95,22.54
 .complete 848,1 >>Collect 4 Fungal Spores
 
 #step
-.kill 1 Barak Kodobane
+.kill 1 Barak Kodobane##3394
 >>He walks around this area.
 >>He's level 16, but you should be able to kill him at this level.
 >>He can hit very hard, be ready to use your potion if you need to.
@@ -860,7 +865,7 @@ LLG.RegisterGuide([[
 >>You can find more around [44.35,22.03]
 
 #step
-.talk Regthar Deathgate
+.talk Regthar Deathgate##3389
 >>en:Standing upstairs inside the round orc hut building.
 >>de:Standing upstairs inside the round orc hut building.
 >>Upstairs inside the building.
@@ -873,7 +878,7 @@ LLG.RegisterGuide([[
 .only readyq(855)
 
 #step
-.kill 1 Savannah Prowler
+.kill 1 Savannah Prowler##3425
 .goto The Barrens,41.47,28.75
 .complete 821,1 >>Collect 5 Savannah Lion Tusk
 >>Grind north as you kill Savannah Prowlers.
@@ -885,7 +890,7 @@ LLG.RegisterGuide([[
 >>[40.32,20.57]
 
 #step
-.kill 1 Savannah Prowler
+.kill 1 Savannah Prowler##3425
 .goto The Barrens,40.32,20.57
 .complete 903,1 >>Collect 7 Prowler Claws
 >>Grind north as you kill Savannah Prowlers.
@@ -905,16 +910,16 @@ LLG.RegisterGuide([[
 >>You can find more around [41.57,15.02]
 
 #step
-.talk Vrang Wildgore
-.kill 1 Heavy Spiked Mace
+.talk Vrang Wildgore##3682
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,43.80,12.21
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
-.talk Vrang Wildgore
+.talk Vrang Wildgore##3682
 .goto The Barrens,43.80,12.21
 >>Visit the Vendor
 .only not Warrior
@@ -938,7 +943,7 @@ LLG.RegisterGuide([[
 >>[50.76,13.28]
 
 #step
-.click Control Console
+.click Control Console##4141
 >>Grind en route to this turnin.
 .goto The Barrens,52.41,11.64
 .turnin Samophlange##894
@@ -946,25 +951,25 @@ LLG.RegisterGuide([[
 .accept Samophlange##900
 
 #step
-.click the Fuel Control Valve
+.click the Fuel Control Valve##61936
 >>You will not be attacked after you shut it off.
 .goto The Barrens,52.40,11.41
 .complete 900,2 >>Shut Off the Fuel Control Valve
 
 #step
-.click the Regulator Valve
+.click the Regulator Valve##61935
 >>One enemy will appear and attack you.
 .goto The Barrens,52.29,11.40
 .complete 900,3 >>Shut Off the Regulator Valve
 
 #step
-.click Main Control Valve
+.click Main Control Valve##4072
 >>Two enemies will appear and attack you.
 .goto The Barrens,52.33,11.57
 .complete 900,1 >>Shut Off the Main Control Valve
 
 #step
-.click Control Console
+.click Control Console##4141
 .goto The Barrens,52.41,11.64
 .turnin Samophlange##900
 .goto The Barrens,52.41,11.64
@@ -973,13 +978,13 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,52.92,10.55
 >>Enter the building
-.kill 1 Tinkerer Sniggles
+.kill 1 Tinkerer Sniggles##3471
 >>Inside the building.
 .goto The Barrens,52.84,10.39
 .complete 901,1 >>Collect Console Key
 
 #step
-.click Control Console
+.click Control Console##4141
 .goto The Barrens,52.41,11.64
 .turnin Samophlange##901
 .goto The Barrens,52.41,11.64
@@ -1006,7 +1011,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.15,29.89
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -1015,7 +1020,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Rahauro
+.talk Rahauro##11833
 >>He walks around this area.
 .goto Thunder Bluff,70.51,31.83
 .accept Testing an Enemy's Strength##5723
@@ -1024,7 +1029,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -1035,7 +1040,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click Bauble Container
+.click Bauble Container##177785
 >>It looks like a wicker vase on the ground underwater.
 >>They spawn randomly, so you may have to search around this area.
 .goto Moonglade,54.33,55.65
@@ -1044,13 +1049,13 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click the Shrine Bauble
+.click the Shrine Bauble##15877
 .goto Moonglade,35.92,41.38
 .complete 28,1 >>Complete the Trial of the Lake
 .only Druid
 
 #step
-.talk Tajarri
+.talk Tajarri##11799
 >>en:Standing next to a big wooden archway thing.
 >>de:Steht neben einem großen hölzernen Torbogen.
 .goto Moonglade,36.52,40.10
@@ -1060,14 +1065,14 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click Strange Lockbox
+.click Strange Lockbox##177794
 >>Underwater.
 .goto The Barrens,56.67,8.32
 .complete 30 >>Collect Half Pendant of Aquatic Agility
 .only Druid
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
@@ -1080,7 +1085,7 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.talk Wizzlecrank's Shredder
+.talk Wizzlecrank's Shredder##3439
 >>en:Standing next to the oil lake.
 >>de:Standing next to the oil lake.
 >>This is an escort quest.
@@ -1092,7 +1097,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,56.46,8.48
 >>Follow the path up
-.kill 1 Supervisor Lugwizzle
+.kill 1 Supervisor Lugwizzle##3445
 >>He walks around this area on both levels of the platform.
 >>If the level 19 rare enemy is walking on the platform too, try to kill Supervisor Lugwizzle alone as fast as you can for the key, and run.
 >>If you have trouble, try to find someone to help you.
@@ -1103,7 +1108,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Wizzlecrank's Shredder
+.talk Wizzlecrank's Shredder##3439
 >>en:Standing next to the oil lake.
 >>de:Standing next to the oil lake.
 >>If it's not here, someone may be escorting it.
@@ -1112,7 +1117,7 @@ LLG.RegisterGuide([[
 .turnin Ignition##858
 
 #step
-.talk Wizzlecrank's Shredder
+.talk Wizzlecrank's Shredder##3439
 >>en:Standing next to the oil lake.
 >>de:Standing next to the oil lake.
 >>If it's not here, someone may be escorting it.
@@ -1140,7 +1145,7 @@ LLG.RegisterGuide([[
 >>Head to Orgrimmar
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -1153,7 +1158,7 @@ LLG.RegisterGuide([[
 >>Head to Orgrimmar
 .goto Orgrimmar,55.22,40.76
 >>Follow the path down
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -1168,7 +1173,7 @@ LLG.RegisterGuide([[
 >>Do not follow the Ragefire Chasm turnin guide.
 
 #step
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -1182,7 +1187,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -1193,7 +1198,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -1209,7 +1214,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -1225,7 +1230,7 @@ LLG.RegisterGuide([[
 .level 16
 
 #step
-.talk Xao'tsu
+.talk Xao'tsu##10088
 .goto Orgrimmar,66.34,14.83
 .train
 .only Hunter
@@ -1233,15 +1238,15 @@ LLG.RegisterGuide([[
 #step
 >>Weiter nach Kalimdor
 >>Head to Orgrimmar
-.talk Ormak Grimshot
+.talk Ormak Grimshot##3352
 >>en:Standing on top of a big stone building, next to a wall, near a bonfire.
 >>de:Standing on top of a big stone building, next to a wall, near a bonfire.
-.talk Grezz Ragefist
-.talk Kardris Dreamseeker
-.talk Ormok
-.talk Mirket
-.talk Enyo
-.talk Ur'kyo
+.talk Grezz Ragefist##3353
+.talk Kardris Dreamseeker##3344
+.talk Ormok##3328
+.talk Mirket##3325
+.talk Enyo##5883
+.talk Ur'kyo##6018
 .goto Orgrimmar,66.08,18.51
 .train
 .goto Orgrimmar,79.76,31.42
@@ -1262,15 +1267,16 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,81.00,19.85
 >>Enter the building
-.talk Hanashi
+.talk Hanashi##2704
 >>Inside the building.
 >>This will allow you to equip staves.
 .goto Orgrimmar,81.53,19.63
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Hunter or Warlock or Priest
 
 #step
-.talk Therzok
+.talk Therzok##6446
 >>Inside the Cleft of Shadow.
 .goto Orgrimmar,42.73,53.55
 .turnin The Shattered Hand##1963
@@ -1279,7 +1285,7 @@ LLG.RegisterGuide([[
 .only Orc and Rogue and Troll and Rogue
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the building.
 .goto Orgrimmar,42.98,53.69
 .train
@@ -1296,27 +1302,27 @@ LLG.RegisterGuide([[
 .only Orc and Rogue and Troll and Rogue
 
 #step
-.click Tazan's Key
+.click Tazan's Key##7208
 >>Use it on "Tazan's Satchel" in your bags.
 .complete 1858,1 >>Collect Tazan's Logbook
 .only Orc and Rogue and Troll and Rogue
 
 #step
-.talk Therzok
+.talk Therzok##6446
 >>Inside the Cleft of Shadow.
 .goto Orgrimmar,42.73,53.55
 .turnin The Shattered Hand##1858
 .only Orc and Rogue and Troll and Rogue
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .accept Zando'zan##2379
 .only Rogue
 
 #step
-.talk Zando'zan
+.talk Zando'zan##3402
 >>Inside the Cleft of Shadow.
 .goto Orgrimmar,42.73,52.95
 .turnin Zando'zan##2379
@@ -1327,7 +1333,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.27,36.98
 >>Enter the building
-.talk Zor Lonetree
+.talk Zor Lonetree##4047
 >>en:To the left as you enter the huge building, next to a small round table.
 >>de:To the left as you enter the huge building, next to a small round table.
 .goto Orgrimmar,38.93,38.38
@@ -1336,7 +1342,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,54.02,68.86
 >>Enter the building
-.talk Innkeeper Gryshka
+.talk Innkeeper Gryshka##6929
 >>en:Standing in the doorway inside the inn.
 >>de:Standing in the doorway inside the inn.
 >>Inside the building.
@@ -1350,7 +1356,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,47.45,65.08
 >>Enter the building
-.talk Doras
+.talk Doras##3310
 >>en:On a big plateau, you will need to ride an elevator up to get to him.
 >>de:At the top of the tower.
 >>At the top of the tower.
@@ -1362,7 +1368,7 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.talk Zargh
+.talk Zargh##3489
 >>en:Standing under a red canopy.
 >>de:Steht unter einem roten Baldachin.
 .goto The Barrens,52.62,29.84
@@ -1371,7 +1377,7 @@ LLG.RegisterGuide([[
 .only Orc or Troll
 
 #step
-.talk Darsok Swiftdagger
+.talk Darsok Swiftdagger##3449
 >>en:Standing at the top of the watch tower.
 >>de:Standing at the top of the watch tower.
 >>At the top of the tower.
@@ -1381,7 +1387,7 @@ LLG.RegisterGuide([[
 .accept Harpy Lieutenants##875
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Forgotten Pools##870
@@ -1389,14 +1395,14 @@ LLG.RegisterGuide([[
 .accept The Stagnant Oasis##877
 
 #step
-.talk Kalyimah Stormcloud
+.talk Kalyimah Stormcloud##3487
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bigger bags.
 .goto The Barrens,52.26,32.02
 >>Visit the Vendor
 
 #step
-.talk Barg
+.talk Barg##3481
 .goto The Barrens,51.67,29.96
 .complete 877 >>Buy more Arrows
 .only Hunter
@@ -1404,13 +1410,13 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,52.03,30.16
 >>Enter the building
-.talk Innkeeper Boorand Plainswind
+.talk Innkeeper Boorand Plainswind##3934
 >>Inside the building.
 .goto The Barrens,51.99,29.90
 >>Stock up on Food/Water
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.24,31.01
 .turnin Prowlers of the Barrens##903
@@ -1418,18 +1424,18 @@ LLG.RegisterGuide([[
 .accept Echeyakee##881
 
 #step
-.talk Lizzarik
+.talk Lizzarik##3658
 >>He looks like a goblin that travels on the road between Crossroads and Ratchet.
 >>If he's not here, skip this step, we'll try again later.
-.kill 1 Heavy Spiked Mace
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,52.21,30.85
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
-.talk Gazrog
+.talk Gazrog##3464
 >>en:Standing in front of the inn.
 >>de:Steht vor dem Gasthaus.
 .goto The Barrens,51.93,30.32
@@ -1438,21 +1444,21 @@ LLG.RegisterGuide([[
 .accept Stolen Silver##3281
 
 #step
-.talk Apothecary Helbrim
+.talk Apothecary Helbrim##3390
 >>en:Under a red canopy, next to a bar with a bunch of potions on it.
 >>de:Under a red canopy, next to a bar with a bunch of potions on it.
 .goto The Barrens,51.44,30.15
 .turnin Fungal Spores##848
 
 #step
-.click the Horn of Echeyakee
-.kill 1 Echeyakee
+.click the Horn of Echeyakee##10327
+.kill 1 Echeyakee##3475
 >>He looks like a white lion that spawns nearby.
 .goto The Barrens,55.85,17.08
 .complete 881,1 >>Collect Echeyakee's Hide
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.23,31.00
 .turnin Echeyakee##881
@@ -1460,7 +1466,7 @@ LLG.RegisterGuide([[
 .accept The Angry Scytheclaws##905
 
 #step
-.talk Mankrik
+.talk Mankrik##3432
 >>de:Standing to the side of the road, under a little red canopy.
 .goto The Barrens,51.95,31.58
 .accept Consumed by Hatred##899
@@ -1468,7 +1474,7 @@ LLG.RegisterGuide([[
 .accept Lost in Battle##4921
 
 #step
-.talk Sikwa
+.talk Sikwa##9981
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 2".
 >>only Tauren :: If you followed the Mulgore guide you should already have this and can skip these taming steps.
@@ -1488,7 +1494,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Reggifuz
+.talk Reggifuz##10063
 .train
 >>Kill enemies en route to Ratchet until you see a message in your chat saying you learned "Bite 2".
 >>Abandon the Oasis Snapjaw and grab your permanent pet from the stables once you are in Ratchet.
@@ -1498,7 +1504,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Wrenix the Wretched
+.talk Wrenix the Wretched##7161
 .goto The Barrens,63.07,36.32
 .turnin Wrenix of Ratchet##2382
 .goto The Barrens,63.07,36.32
@@ -1506,21 +1512,21 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Wrenix's Gizmotronic Apparatus
+.talk Wrenix's Gizmotronic Apparatus##7166
 >>Choose _"Press the yellow button labeled 'Thieves' Tools.'"_
 .goto The Barrens,63.12,36.32
 .complete 2381 >>Collect Thieves' Tools
-.only Rogue
+.only Rogue and itemcount(5060) == 0
 
 #step
-.talk Wrenix's Gizmotronic Apparatus
+.talk Wrenix's Gizmotronic Apparatus##7166
 >>Choose _"Press the red button labeled 'E.C.A.C.'"_
 .goto The Barrens,63.12,36.32
 .complete 2381 >>Collect E.C.A.C.
-.only Rogue
+.only Rogue and itemcount(7970) == 0
 
 #step
-.talk Sputtervalve
+.talk Sputtervalve##3442
 >>en:Under a green canopy.
 >>de:Under a green canopy.
 .goto The Barrens,62.98,37.22
@@ -1533,48 +1539,50 @@ LLG.RegisterGuide([[
 #step
 >>It is no longer needed.
 .vendor
+.only itemcount(5088) > 0
 
 #step
-.talk Wharfmaster Dizzywig
+.talk Wharfmaster Dizzywig##3453
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 .goto The Barrens,63.35,38.45
 .turnin Miner's Fortune##896
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Deposit these items into the bank.
 .goto The Barrens,62.64,37.42
 .goto The Barrens,62.64,37.42
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .accept Deepmoss Spider Eggs##1069
 
 #step
-.talk Lizzarik
+.talk Lizzarik##3658
 >>He looks like a goblin that travels on the road between Crossroads and Ratchet.
 >>If he's not here, skip this step, we'll try again later.
-.kill 1 Heavy Spiked Mace
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,61.76,38.27
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
 .goto The Barrens,62.39,39.42
 >>Follow the path
 .goto The Barrens,64.18,45.49
 >>Board the ship
-.click Buccaneer's Strongbox
+.click Buccaneer's Strongbox##123330
 >>They look like small grey metal chests on the ground around this area.
 >>Downstairs inside the ship, on the middle level.
 .goto The Barrens,65.06,45.43
->>Reach Skill 85 in Lockpicking
+.condition skill("Lockpicking") >= 85 >>Reach Skill 85 in Lockpicking
+.optional
 .only Rogue
 
 #step
@@ -1585,7 +1593,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.click The Jewel of the Southsea
+.click The Jewel of the Southsea##123462
 >>It looks like a small brown wooden chest on the ground.
 >>Downstairs inside the ship, on the bottom level.
 .goto The Barrens,64.95,45.44
@@ -1595,13 +1603,13 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.39,39.42
 >>Follow the path
-.click Fragile - Do Not Drop
+.click Fragile - Do Not Drop##3768
 .goto The Barrens,63.58,49.24
 .complete 888,2 >>Collect Telescopic Lens
 .only walking and not subzone("The and Merchant and Coast")
 
 #step
-.click Drizzlik's Emporium
+.click Drizzlik's Emporium##3767
 >>These looks like a crate on the ground.
 .goto The Barrens,62.63,49.64
 .complete 888,1 >>Collect Shipment of Boots
@@ -1611,7 +1619,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,57.35,52.24
 >>Follow the path
-.click Stolen Silver
+.click Stolen Silver##147557
 .goto The Barrens,58.03,53.87
 .complete 3281,1 >>Collect Stolen Silver
 .only walking
@@ -1627,13 +1635,13 @@ LLG.RegisterGuide([[
 >>You can find more around [57.35,52.24]
 
 #step
-.click Bubbling Fissure
+.click Bubbling Fissure##3737
 >>Underwater.
 .goto The Barrens,55.61,42.74
 .complete 877,1 >>Test the Dried Seeds
 
 #step
-.kill 1 Verog the Dervish
+.kill 1 Verog the Dervish##3395
 >>Kill Kolkar enemies around this whole area.
 >>Eventually, you will see a red yelled message in your chat window that means he appeared.
 >>The yelled message says "I am summoned! Intruders, come to my tent and face your death!"
@@ -1649,17 +1657,17 @@ LLG.RegisterGuide([[
 .complete 855,1 >>Collect 15 Centaur Bracers
 
 #step
-.click Blue Raptor Nest
+.click Blue Raptor Nest##6907
 .goto The Barrens,52.60,46.11
 .complete 905,1 >>Visit the Blue Raptor Nest
 
 #step
-.click Red Raptor Nest
+.click Red Raptor Nest##6906
 .goto The Barrens,52.46,46.57
 .complete 905,3 >>Visit the Red Raptor Nest
 
 #step
-.click Yellow Raptor Nest
+.click Yellow Raptor Nest##6908
 .goto The Barrens,52.02,46.47
 .complete 905,2 >>Visit the Yellow Raptor Nest
 
@@ -1669,7 +1677,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.kill 1 Sunscale Scytheclaw
+.kill 1 Sunscale Scytheclaw##3256
 >>They look like purple raptors.
 >>They share spawn points with the other enemies, so kill those too, if you can't find any.
 .goto The Barrens,52.42,46.33
@@ -1685,46 +1693,46 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,45.35,58.81
 >>Enter the building
-.talk Innkeeper Byula
+.talk Innkeeper Byula##7714
 >>Inside the building.
 >>Stock up on food and water while you are here. There is a long grind ahead.
 .goto The Barrens,45.58,59.04
 .hs
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 .goto The Barrens,44.55,59.24
 .accept Tribes at War##878
 
 #step
-.talk Omusa Thunderhorn
+.talk Omusa Thunderhorn##10378
 >>en:Standing under a red canopy.
 >>de:Steht unter einem roten Baldachin.
 .goto The Barrens,44.45,59.15
 .fly Camp Taurajo
 
 #step
-.talk Gazrog
+.talk Gazrog##3464
 >>en:Standing in front of the inn.
 >>de:Steht vor dem Gasthaus.
 .goto The Barrens,51.93,30.32
 .turnin Stolen Silver##3281
 
 #step
-.talk Lizzarik
+.talk Lizzarik##3658
 >>He looks like a goblin that travels on the road between Crossroads and Ratchet.
 >>If he's not here, skip this step.
-.kill 1 Heavy Spiked Mace
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto The Barrens,52.21,30.85
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
-.talk Sergra Darkthorn
+.talk Sergra Darkthorn##3338
 >>de:Standing next to a bunch of small pots.
 .goto The Barrens,52.23,31.01
 .turnin The Angry Scytheclaws##905
@@ -1732,13 +1740,13 @@ LLG.RegisterGuide([[
 .accept Jorn Skyseer##3261
 
 #step
-.talk Mankrik
+.talk Mankrik##3432
 >>de:Standing to the side of the road, under a little red canopy.
 .goto The Barrens,51.95,31.58
 .turnin Lost in Battle##4921
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Stagnant Oasis##877
@@ -1750,32 +1758,32 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Kalyimah Stormcloud
+.talk Kalyimah Stormcloud##3487
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bigger bags.
 .goto The Barrens,52.26,32.02
 >>Visit the Vendor
 
 #step
-.talk Uthrok
-.kill 1 Fine Longbow
+.talk Uthrok##3488
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto The Barrens,51.11,29.06
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
-.talk Uthrok
-.kill 1 Medium Quiver
+.talk Uthrok##3488
+.kill 1 Medium Quiver##11362
 >>If you can afford it.
 .goto The Barrens,51.11,29.06
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11362) == 0
 
 #step
-.talk Uthrok
+.talk Uthrok##3488
 >>only Hunter :: Buy enough ammo to fill your ammo bag, plus 3-4 extra stacks.
 >>You are about to quest for a while and there's nowhere to buy ammo along the way.
 .goto The Barrens,51.11,29.06
@@ -1783,7 +1791,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Regthar Deathgate
+.talk Regthar Deathgate##3389
 >>en:Standing upstairs inside the round orc hut building.
 >>de:Standing upstairs inside the round orc hut building.
 >>Upstairs inside the building.
@@ -1795,7 +1803,7 @@ LLG.RegisterGuide([[
 .accept Hezrul Bloodmark##852
 
 #step
-.kill 1 Witchwing Slayer
+.kill 1 Witchwing Slayer##3278
 >>These enemies know execute and will kill you if you drop below 20% hp, be careful!
 >>Be careful to avoid Sister Rathtalon.
 >>She looks like an elite green harpy that flies around this area.
@@ -1810,7 +1818,7 @@ LLG.RegisterGuide([[
 .level 18
 
 #step
-.click the Grimoire of Consume Shadows (Rank 1)
+.click the Grimoire of Consume Shadows (Rank 1)##16357
 >>You should have purchased this in a previous guide.
 .goto The Barrens,25.66,77.66
 >>Teach Your Voidwalker Consume Shadows (Rank 1)

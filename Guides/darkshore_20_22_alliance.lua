@@ -16,13 +16,13 @@ LLG.RegisterGuide([[
 
 
 #step
-.click WANTED: Murkdeep!
+.click WANTED: Murkdeep!##175320
 .goto Darkshore,37.23,44.23
 .accept WANTED: Murkdeep!##4740
 .only not hardcore
 
 #step
-.talk Archaeologist Hollee
+.talk Archaeologist Hollee##2913
 .goto Darkshore,37.44,41.84
 .turnin Trouble In Darkshore?##730
 .goto Darkshore,37.44,41.84
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,37.77,41.34
 >>Enter the building
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -40,17 +40,17 @@ LLG.RegisterGuide([[
 .accept The Blackwood Corrupted##4763
 
 #step
-.click the Empty Cleansing Bowl
+.click the Empty Cleansing Bowl##12346
 .goto Darkshore,37.78,44.02
 .complete 4763 >>Collect Filled Cleansing Bowl
 
 #step
-.talk Gershala Nightwhisper
+.talk Gershala Nightwhisper##8997
 .goto Darkshore,38.33,43.04
 .turnin The Corruption Abroad##3765
 
 #step
-.talk Tharnariun Treetender
+.talk Tharnariun Treetender##3701
 >>en:Standing in front of a big house.
 >>de:Standing in front of a big house.
 .goto Darkshore,38.84,43.42
@@ -58,7 +58,7 @@ LLG.RegisterGuide([[
 >>This requires "Cleansing of the Infected" from the Darkshore (13-17) guide.
 
 #step
-.talk Terenthis
+.talk Terenthis##3693
 >>en:Next to two bookcases on the first floor of the house across the road from the gazebo.
 >>de:Neben zwei Bücherregalen im Erdgeschoss des Hauses auf der anderen Straßenseite vom Pavillon.
 >>Inside the building.
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 .accept A Lost Master##986
 
 #step
-.talk Sentinel Elissa Starbreeze
+.talk Sentinel Elissa Starbreeze##3657
 >>en:Upstairs in the house by the bookcases.
 >>de:Upstairs in the house by the bookcases.
 >>Upstairs inside the building.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .accept The Tower of Althalaxx##965
 
 #step
-.talk Onu
+.talk Onu##3616
 >>en:A big tree elemental guy in a ring of stone pillars.
 >>de:Ein großes Baum-Elementar in einem Ring aus Steinsäulen.
 .goto Darkshore,43.55,76.29
@@ -88,8 +88,8 @@ LLG.RegisterGuide([[
 .complete 944,1 >>Enter the Master's Glaive
 
 #step
-.click the Phial of Scrying
-.click Scrying Bowl
+.click the Phial of Scrying##5251
+.click Scrying Bowl##10076
 >>It appears on the ground next to you.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Darkshore,38.53,86.17
@@ -104,7 +104,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.click Twilight Tome
+.click Twilight Tome##12666
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Darkshore,38.54,86.05
 .turnin The Twilight Camp##949
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: This quest will only be available if you've completed the quest chain starting with "Cave Mushrooms".
 
 #step
-.talk Therylune
+.talk Therylune##3584
 >>en:Standing in a corner behind a big wall.
 >>de:Steht in einer Ecke hinter einer großen Maür.
 >>She walks around this area.
@@ -132,11 +132,12 @@ LLG.RegisterGuide([[
 .complete 945,1 >>Escort Therylune Away from the Master's Glaive
 
 #step
-.click the Book: The Powers Below
+.click the Book: The Powers Below##5352
 .accept The Powers Below##968
+.only itemcount(5352) > 0
 
 #step
-.kill 1 Grizzled Thistle Bear
+.kill 1 Grizzled Thistle Bear##2165
 .goto Darkshore,43.52,81.93
 .complete 1003,1 >>Collect 4 Grizzled Scalp
 >>You can find more around:
@@ -144,7 +145,7 @@ LLG.RegisterGuide([[
 >>[41.22,84.67]
 
 #step
-.talk Prospector Remtravel
+.talk Prospector Remtravel##2917
 >>This is an escort quest.
 >>If he's not here, someone may be escorting him.
 >>Wait until he respawns.
@@ -169,33 +170,32 @@ LLG.RegisterGuide([[
 .complete 731,1 >>Escort Prospector Remtravel
 
 #step
-.click Beached Sea Creature
+.click Beached Sea Creature##175230
 .goto Darkshore,31.27,87.39
 .accept Beached Sea Creature##4733
 
 #step
-.click Beached Sea Turtle
+.click Beached Sea Turtle##175227
 .goto Darkshore,31.24,85.63
 .accept Beached Sea Turtle##4732
 
 #step
-.click Beached Sea Turtle
+.click Beached Sea Turtle##175227
 .goto Darkshore,31.69,83.72
 .accept Beached Sea Turtle##4731
 
 #step
-.click Beached Sea Creature
+.click Beached Sea Creature##175227
 .goto Darkshore,32.66,80.81
 .accept Beached Sea Creature##4730
 
 #step
-.click Buzzbox 525
+.click Buzzbox 525##17185
 .goto Darkshore,41.40,80.56
 .turnin Buzzbox 525##1003
 
 #step
 .kill 1 Moonstalker enemies around this area
->>'
 >>They look like blue and black striped tigers.
 >>They share spawn points with Grizzled Thistle Bears, so kill those too, if you can't find any.
 .goto Darkshore,43.52,81.93
@@ -207,7 +207,7 @@ LLG.RegisterGuide([[
 >>[39.49,93.81]
 
 #step
-.talk Onu
+.talk Onu##3616
 >>en:A big tree elemental guy in a ring of stone pillars.
 >>de:Ein großes Baum-Elementar in einem Ring aus Steinsäulen.
 .goto Darkshore,43.56,76.29
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Onu
+.talk Onu##3616
 >>en:A big tree elemental guy in a ring of stone pillars.
 >>de:Ein großes Baum-Elementar in einem Ring aus Steinsäulen.
 .goto Darkshore,43.56,76.29
@@ -241,7 +241,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.59
@@ -254,7 +254,7 @@ LLG.RegisterGuide([[
 .turnin Beached Sea Creature##4730
 
 #step
-.talk Sentinel Glynda Nal'Shea
+.talk Sentinel Glynda Nal'Shea##2930
 >>en:To the right of the road, near a light post.
 >>de:Rechts der Straße, nahe einer Laterne.
 >>She walks around this area.
@@ -263,7 +263,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Terenthis
+.talk Terenthis##3693
 >>en:Next to two bookcases on the first floor of the house across the road from the gazebo.
 >>de:Neben zwei Bücherregalen im Erdgeschoss des Hauses auf der anderen Straßenseite vom Pavillon.
 >>Inside the building.
@@ -273,7 +273,7 @@ LLG.RegisterGuide([[
 .accept A Lost Master##993
 
 #step
-.talk Archaeologist Hollee
+.talk Archaeologist Hollee##2913
 .goto Darkshore,37.44,41.84
 .turnin The Absent Minded Prospector##731
 .goto Darkshore,37.44,41.84
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: This won't be available if you haven't completed the previous quest.
 
 #step
-.click Blackwood Grain Stores
+.click Blackwood Grain Stores##175331
 >>You will be attacked each time you click a keg.
 >>only hardcore :: Watch for respawns while in the area.
 >>only hardcore :: Enemies will may run away in fear when at low health.
@@ -305,7 +305,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Blackwood Nut Stores
+.click Blackwood Nut Stores##175329
 >>You will be attacked each time you click a keg.
 >>only hardcore :: Watch for respawns while in the area.
 >>only hardcore :: Enemies will may run away in fear when at low health.
@@ -315,7 +315,7 @@ LLG.RegisterGuide([[
 .complete 4763 >>Collect Blackwood Nut Sample
 
 #step
-.click Blackwood Fruit Stores
+.click Blackwood Fruit Stores##175330
 >>You will be attacked each time you click a keg.
 >>only hardcore :: Watch for respawns while in the area.
 >>only hardcore :: Enemies will may run away in fear when at low health.
@@ -325,18 +325,18 @@ LLG.RegisterGuide([[
 .complete 4763 >>Collect Blackwood Fruit Sample
 
 #step
-.click the Filled Cleansing Bowl
-.kill 1 Xabraxxis
+.click the Filled Cleansing Bowl##12347
+.kill 1 Xabraxxis##10373
 >>He appears nearby.
 >>only hardcore :: Make sure to step quite a bit back as every live Blackwood enemy will run to this location.
 >>only hardcore :: The normal enemies will become passive eventually.
-.click Xabraxxis' Demon Bag
+.click Xabraxxis' Demon Bag##177624
 >>It appears on the ground after you kill him, be sure to click it.
 .goto Darkshore,52.41,33.44
 .complete 4763,1 >>Collect Talisman of Corruption
 
 #step
-.talk Balthule Shadowstrike
+.talk Balthule Shadowstrike##3661
 >>en:To the right of the path, standing next to 2 big rocks.
 >>de:To the right of the path, standing next to 2 big rocks.
 .goto Darkshore,54.97,24.89
@@ -345,14 +345,14 @@ LLG.RegisterGuide([[
 .accept The Tower of Althalaxx##966
 
 #step
-.kill 1 Dark Strand Fanatic
+.kill 1 Dark Strand Fanatic##2336
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Enemies around the camp fire tend to pull in groups.
 .goto Darkshore,55.46,26.77
 .complete 966,1 >>Collect 4 Worn Parchment
 
 #step
-.talk Balthule Shadowstrike
+.talk Balthule Shadowstrike##3661
 >>en:To the right of the path, standing next to 2 big rocks.
 >>de:To the right of the path, standing next to 2 big rocks.
 .goto Darkshore,54.97,24.89
@@ -361,7 +361,7 @@ LLG.RegisterGuide([[
 .accept The Tower of Althalaxx##967
 
 #step
-.click Mathystra Relic
+.click Mathystra Relic##13872
 >>They look like various small grey-ish colored stone objects on the ground around this area.
 >>only hardcore :: Watch for Stormscale Sorceress' around the area.
 >>only hardcore :: They are ranged attackers that deal heavy damage and can aggro from far away.
@@ -374,7 +374,7 @@ LLG.RegisterGuide([[
 >>[56.88,22.20]
 
 #step
-.talk Gelkak Gyromast
+.talk Gelkak Gyromast##6667
 .goto Darkshore,56.65,13.48
 .accept Gyromast's Retrieval##2098
 >>only hardcore :: This quest has you going underwater into a fairly dangerous area.
@@ -397,13 +397,13 @@ LLG.RegisterGuide([[
 .complete 2098,2 >>Collect Middle of Gelkak's Key
 
 #step
-.kill 1 Giant Foreststrider
+.kill 1 Giant Foreststrider##2323
 .goto Darkshore,61.19,14.79
 .complete 2098,1 >>Collect Top of Gelkak's Key
 >>You can find more around [61.12,10.76]
 
 #step
-.talk Gelkak Gyromast
+.talk Gelkak Gyromast##6667
 .goto Darkshore,56.65,13.48
 .turnin Gyromast's Retrieval##2098
 
@@ -416,7 +416,7 @@ LLG.RegisterGuide([[
 .level 21
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -424,14 +424,14 @@ LLG.RegisterGuide([[
 .turnin The Blackwood Corrupted##4763
 
 #step
-.talk Tharnariun Treetender
+.talk Tharnariun Treetender##3701
 >>en:Standing in front of a big house.
 >>de:Standing in front of a big house.
 .goto Darkshore,38.84,43.41
 .turnin Tharnariun's Hope##2139
 
 #step
-.talk Vesprystus
+.talk Vesprystus##3838
 >>en:At the end of big long dock.
 >>de:Am Ende des langen großen Docks.
 .goto Teldrassil,58.40,94.02
@@ -440,27 +440,27 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,62.60,68.79
 >>Run up the ramp
-.talk Landria
+.talk Landria##4173
 >>Inside the building.
-.kill 1 Heavy Recurve Bow
+.kill 1 Heavy Recurve Bow##3027
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Darnassus,63.26,66.27
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(3027) == 0
 
 #step
-.talk Landria
+.talk Landria##4173
 >>Inside the building.
-.kill 1 Medium Quiver
+.kill 1 Medium Quiver##11362
 >>If you can afford it.
 >>Ignore this if you aren't using bows.
 .goto Darnassus,63.26,66.27
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11362) == 0
 
 #step
-.talk Chief Archaeologist Greywhisker
+.talk Chief Archaeologist Greywhisker##2912
 >>Outside the building.
 .goto Darnassus,31.25,84.50
 .turnin The Absent Minded Prospector##741
@@ -470,25 +470,25 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,56.46,20.41
 >>Run up the ramp
-.talk Argent Guard Manados
+.talk Argent Guard Manados##4784
 >>Inside the building.
 .goto Darnassus,55.23,24.00
 .accept Twilight Falls##1199
 .only walking
 
 #step
-.talk Dawnwatcher Shaedlass
+.talk Dawnwatcher Shaedlass##4786
 >>Inside the building.
 .goto Darnassus,55.37,25.00
 .accept In Search of Thaelrid##1198
 
 #step
-.talk Gershala Nightwhisper
+.talk Gershala Nightwhisper##8997
 .goto Darkshore,38.33,43.04
 .accept Researching the Corruption##1275
 
 #step
-.talk Onu
+.talk Onu##3616
 >>en:A big tree elemental guy in a ring of stone pillars.
 >>de:Ein großes Baum-Elementar in einem Ring aus Steinsäulen.
 .goto Darkshore,43.55,76.29
@@ -497,7 +497,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,44.58,85.11
 >>Enter the cave
-.talk Volcor
+.talk Volcor##3692
 >>en:Sitting down inside this small cave. If he's not there, just wait a minute and he will appear again, someone probably recently did the quest.
 >>de:Sitzt in dieser kleinen Höhle. Falls er nicht da ist, warte kurz; er erscheint wieder, wahrscheinlich hat gerade jemand die Qüst gemacht.
 >>Inside the cave.
@@ -520,7 +520,7 @@ LLG.RegisterGuide([[
 .complete 994,1 >>Help Volcor to the Road
 
 #step
-.talk Kerlonian Evershade
+.talk Kerlonian Evershade##11218
 >>en:Sleeping next to a small grey chest.
 >>de:Sleeping next to a small grey chest.
 >>This is an escort quest.
@@ -531,7 +531,7 @@ LLG.RegisterGuide([[
 .accept The Sleeper Has Awakened##5321
 
 #step
-.click Kerlonian's Chest
+.click Kerlonian's Chest##176634
 .goto Darkshore,44.38,76.31
 .complete 5321,1 >>Collect Horn of Awakening
 
@@ -540,7 +540,7 @@ LLG.RegisterGuide([[
 >>Enter Ashenvale and follow the road
 .goto Ashenvale,26.87,36.65
 >>Enter the building
-.click the Horn of Awakening
+.click the Horn of Awakening##13536
 >>Kerlonian Evershade will follow you.
 >>He will sometimes stop walking and fall asleep.
 >>Use it near him when he falls asleep.
@@ -555,7 +555,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Liladris Moonriver
+.talk Liladris Moonriver##11219
 >>en:Standing on the balcony in the long building.
 >>de:Standing on the balcony in the long building.
 >>On the balcony of the building.
@@ -563,7 +563,7 @@ LLG.RegisterGuide([[
 .turnin The Sleeper Has Awakened##5321
 
 #step
-.talk Delgren the Purifier
+.talk Delgren the Purifier##3663
 >>en:Standing to the right of 3 big rocks.
 >>de:Standing to the right of 3 big rocks.
 .goto Ashenvale,26.20,38.70

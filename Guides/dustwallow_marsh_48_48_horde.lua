@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Melor Stonehoof
+.talk Melor Stonehoof##3441
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Thunder Bluff,61.53,80.90
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,36.84,32.43
 >>Enter the cave
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 >>Inside the cave.
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 .accept The Brood of Onyxia##1172
 
 #step
-.kill 1 Deadmire
+.kill 1 Deadmire##4841
 >>He looks like a white crocodile that walks in a large pattern in the water around this area.
 >>He's level 45, but you should be able to kill him at this level.
 .complete 1205,1 >>Collect Deadmire's Tooth
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,45.88,57.22
 >>Enter the building
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -80,7 +80,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,36.81,32.36
 >>Enter the cave
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 >>Inside the cave.
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,45.80,58.83
 >>Enter the building
-.talk Chesmu
+.talk Chesmu##8356
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Thunder Bluff,47.13,57.89
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Melor Stonehoof
+.talk Melor Stonehoof##3441
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Thunder Bluff,61.54,80.91
@@ -109,12 +109,12 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Urek Thunderhorn
-.talk Ker Ragetotem
-.talk Siln Skychaser
-.talk Thurston Xane
-.talk Malakai Cross
-.talk Kym Wildmane
+.talk Urek Thunderhorn##3040
+.talk Ker Ragetotem##3043
+.talk Siln Skychaser##3030
+.talk Thurston Xane##3049
+.talk Malakai Cross##3045
+.talk Kym Wildmane##3036
 .goto Thunder Bluff,59.09,86.85
 .train
 .goto Thunder Bluff,57.63,85.53
@@ -141,7 +141,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,57.06,45.88
 >>Enter the building
-.talk Zilzibin Drumlore
+.talk Zilzibin Drumlore##7010
 >>en:Standing inside a hut, up on the ledge.
 >>de:Standing inside a hut, up on the ledge.
 >>Inside the building.
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,58.91,37.66
 >>Enter the building
-.talk Dran Droffers
+.talk Dran Droffers##6986
 >>en:Standing inside a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 .accept Ripple Recovery##649
 
 #step
-.talk Malton Droffers
+.talk Malton Droffers##6987
 >>en:Standing inside a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -172,7 +172,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,56.48,35.24
 >>Enter the building
-.talk Jes'rimon
+.talk Jes'rimon##8659
 >>en:Upstairs in the house, on the balcony.
 >>de:Oben im Haus, auf dem Balkon.
 >>Upstairs inside the building.
@@ -180,8 +180,8 @@ LLG.RegisterGuide([[
 .accept Bone-Bladed Weapons##4300
 
 #step
-.talk Mirket
-.talk Ormok
+.talk Mirket##3325
+.talk Ormok##3328
 .goto Orgrimmar,48.61,46.97
 .train
 .goto Orgrimmar,43.91,54.60
@@ -189,7 +189,7 @@ LLG.RegisterGuide([[
 .only Warlock or Rogue
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.

@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Orendil Broadleaf
+.talk Orendil Broadleaf##3847
 >>en:Next to a little stone birdbath looking thing with a blue ball in it.
 >>de:Next to a little stone birdbath looking thing with a blü ball in it.
 .goto Ashenvale,26.44,38.59
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 .complete 970,1 >>Collect Glowing Soul Gem
 
 #step
-.click Plant Bundle
+.click Plant Bundle##17282
 >>They look like small piles of grey straw on the ground around this area.
 >>They can respawn fairly quickly.
 >>If you have trouble seeing them, reduce the "Ground Clutter" setting to "0" in the System > Graphics game settings menu.
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 >>[32.29,21.79]
 
 #step
-.talk Orendil Broadleaf
+.talk Orendil Broadleaf##3847
 >>en:Next to a little stone birdbath looking thing with a blue ball in it.
 >>de:Next to a little stone birdbath looking thing with a blü ball in it.
 .goto Ashenvale,26.44,38.59
@@ -52,7 +52,7 @@ LLG.RegisterGuide([[
 .accept Orendil's Cure##1020
 
 #step
-.talk Delgren the Purifier
+.talk Delgren the Purifier##3663
 >>en:Standing to the right of 3 big rocks.
 >>de:Standing to the right of 3 big rocks.
 .goto Ashenvale,26.20,38.70
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,25.53,38.43
 >>Follow the road
-.talk Therysil
+.talk Therysil##3585
 >>en:Standing next to a big stone pillar.
 >>de:Steht neben einer großen Steinsäule.
 .goto Ashenvale,22.65,51.91
@@ -73,7 +73,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,28.17,48.38
 >>Follow the road to Astranaar
-.talk Daelyshia
+.talk Daelyshia##4267
 >>en:Over the bridge, to the left, near the water.
 >>de:Über die Brücke, links, nahe am Wasser.
 .goto Ashenvale,34.41,47.99
@@ -81,34 +81,34 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Shrine and of and Aessina")
 
 #step
-.talk Shindrell Swiftfire
+.talk Shindrell Swiftfire##3845
 >>en:Next to a sign post.
 >>de:Next to a sign post.
 .goto Ashenvale,34.67,48.84
 .accept The Zoram Strand##1008
 
 #step
-.talk Sentinel Thenysil
+.talk Sentinel Thenysil##4079
 >>en:On the ramp entrance to the house.
 >>de:On the ramp entrance to the house.
 .goto Ashenvale,34.89,49.79
 .accept On Guard in Stonetalon##1070
 
 #step
-.talk Faldreas Goeth'Shael
+.talk Faldreas Goeth'Shael##3996
 >>en:To the right of the glowing gazeebo.
 >>de:Rechts vom leuchtenden Pavillon.
 .goto Ashenvale,35.77,49.10
 .accept Journey to Stonetalon Peak##1056
 
 #step
-.talk Innkeeper Kimlya
+.talk Innkeeper Kimlya##6738
 >>Inside the building.
 .goto Ashenvale,36.99,49.22
 .hs
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -118,7 +118,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,37.20,51.86
 >>Enter the building
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.
@@ -127,7 +127,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,48.99,5.39
 >>Follow the road and enter the Barrens
-.talk Takar the Seer
+.talk Takar the Seer##6244
 >>en:Standing in front of a tent.
 >>de:Standing in front of a tent.
 >>Avoid the Crossroads in the the Barrens as you travel here.
@@ -148,7 +148,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Bragok
+.talk Bragok##16227
 >>en:Under a blue canopy with a green stripe through it.
 >>de:Unter einem blaün Baldachin mit grünem Streifen.
 .goto The Barrens,63.09,37.16
@@ -156,7 +156,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click Heartswood
+.click Heartswood##93192
 .goto Ashenvale,31.49,31.45
 .complete 1738,1 >>Collect Heartswood
 .only Warlock
@@ -166,7 +166,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Ashenvale,43.57,45.62
 >>Continue up the path
-.click Elune's Tear
+.click Elune's Tear##19015
 >>They look like white balls on the ground around this area.
 .goto Ashenvale,46.24,45.96
 .complete 1033,1 >>Collect Elune's Tear
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 >>Continue down the path
 .goto Ashenvale,37.20,51.86
 >>Enter the building
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.
@@ -189,7 +189,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 .accept The Ruins of Stardust##1034
 
 #step
-.click Stardust Covered Bush
+.click Stardust Covered Bush##19016
 >>They look like bushes with white sparkles floating off of them on the ground around this area.
 >>only hardcore :: Be careful of enemies underwater.
 >>only hardcore :: Shadethicket Wood Shapers may root you.
@@ -230,7 +230,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Ashenvale,25.86,63.07
 >>Follow the path up
-.kill 1 Ilkrud Magthrull
+.kill 1 Ilkrud Magthrull##3664
 >>Try to carefully pull the 2 Felhounds near him without pulling him as well.
 >>He has a succubus guard, and he summons multiple voidwalkers throughout the fight, so try to kill him quickly.
 >>only Paladin :: Save Hammer of Justice to stop him from summoning voidwalkers
@@ -242,7 +242,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Delgren the Purifier
+.talk Delgren the Purifier##3663
 >>en:Standing to the right of 3 big rocks.
 >>de:Standing to the right of 3 big rocks.
 .goto Ashenvale,26.20,38.70
@@ -271,7 +271,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,18.45,32.56
 >>Follow the path
-.talk Talen
+.talk Talen##3846
 >>en:Sitting next to a campfire.
 >>de:Sitzt neben einem Lagerfeür.
 .goto Ashenvale,14.79,31.30
@@ -279,12 +279,12 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Ancient Statuette
+.click Ancient Statuette##17783
 .goto Ashenvale,14.20,20.64
 .complete 1007,1 >>Collect Ancient Statuette
 
 #step
-.talk Talen
+.talk Talen##3846
 >>en:Sitting next to a campfire.
 >>de:Sitzt neben einem Lagerfeür.
 .goto Ashenvale,14.79,31.30
@@ -292,7 +292,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Talen
+.talk Talen##3846
 >>en:Sitting next to a campfire.
 >>de:Sitzt neben einem Lagerfeür.
 .goto Ashenvale,14.79,31.30
@@ -314,10 +314,10 @@ LLG.RegisterGuide([[
 >>She is a rare spawn naga that can spawn on the island here.
 >>She can also drop the Ring of Zoram and is much easier to kill.
 >>Skip this step if she is not up.
-.complete 1009,1 >>Collect Ring of Zoram
+.complete 1009,1 |or >>Collect Ring of Zoram
 
 #step
-.kill 1 Ruuzel
+.kill 1 Ruuzel##3943
 >>She looks like a green naga with pink fins.
 >>She walks clockwise near the water around this small island.
 >>She has 2 guards with her.
@@ -326,7 +326,7 @@ LLG.RegisterGuide([[
 .complete 1009,1 >>Collect Ring of Zoram
 
 #step
-.talk Talen
+.talk Talen##3846
 >>en:Sitting next to a campfire.
 >>de:Sitzt neben einem Lagerfeür.
 .goto Ashenvale,14.79,31.30
@@ -340,7 +340,7 @@ LLG.RegisterGuide([[
 >>[13.12,29.41]
 
 #step
-.talk Shindrell Swiftfire
+.talk Shindrell Swiftfire##3845
 >>en:Next to a sign post.
 >>de:Next to a sign post.
 .goto Ashenvale,34.67,48.84
@@ -349,7 +349,7 @@ LLG.RegisterGuide([[
 .accept Pridewings of Stonetalon##1134
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -364,7 +364,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,37.19,51.86
 >>Enter the building
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.

@@ -130,6 +130,21 @@ local function build()
         LLG.Print(LLG.L.Get("MSG_RECALIB"))
     end))
 
+    -- ----------------------------------------------------------- Automatik
+    addLeft(W.Heading(left, "OPT_AUTO"))
+    addLeft(W.CheckLine(left, "OPT_AUTO_ACCEPT",
+        function() return LLG.db.autoAccept end,
+        function(v) LLG.db.autoAccept = v end,
+        "OPT_AUTO_TIP"))
+    addLeft(W.CheckLine(left, "OPT_AUTO_TURNIN",
+        function() return LLG.db.autoTurnIn end,
+        function(v) LLG.db.autoTurnIn = v end,
+        "OPT_AUTO_TIP"))
+    addLeft(W.CheckLine(left, "OPT_AUTO_NEXT",
+        function() return LLG.db.autoNext end,
+        function(v) LLG.db.autoNext = v end,
+        "OPT_AUTO_NEXT_TIP"))
+
     -- ------------------------------------------------------------ pfQuest
     -- Der Abschnitt steht immer da, auch ohne pfQuest: sonst wundert sich,
     -- wer pfQuest spaeter nachinstalliert, warum nichts passiert.

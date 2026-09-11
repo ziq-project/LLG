@@ -20,12 +20,12 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Goli Krumn
+.talk Goli Krumn##1365
 .goto Ironforge,31.86,62.46
 .accept The Reason for the Season##7062
 
 #step
-.talk Historian Karnik
+.talk Historian Karnik##2916
 >>en:In the big circular library.
 >>de:In der großen runden Bibliothek.
 >>Inside the building.
@@ -37,18 +37,18 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,44.60,49.49
 >>Follow the path
-.talk King Magni Bronzebeard
+.talk King Magni Bronzebeard##2784
 >>Inside the building.
 .goto Ironforge,39.09,56.20
 .turnin The Feast of Winter Veil##7063
 
 #step
-.talk Wulmort Jinglepocket
+.talk Wulmort Jinglepocket##13433
 .goto Ironforge,33.70,67.23
 .accept Greatfather Winter is Here!##7022
 
 #step
-.talk Greatfather Winter
+.talk Greatfather Winter##13444
 .goto Ironforge,33.20,65.41
 .turnin Greatfather Winter is Here!##7022
 .goto Ironforge,33.20,65.41
@@ -59,16 +59,17 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Ironforge,59.41,37.77
 >>Enter the building
-.talk Daryl Riknussun
+.talk Daryl Riknussun##5159
 >>Inside the building.
 .goto Ironforge,60.08,36.43
 .train
+.condition skillmax("Cooking") >= 75 >>Learn Apprentice Cooking
 .only walking
 
 #step
-.talk Wulmort Jinglepocket
-.kill 1 Recipe: Gingerbread Cookie
-.click the Recipe: Gingerbread Cookie
+.talk Wulmort Jinglepocket##13433
+.kill 1 Recipe: Gingerbread Cookie##17200
+.click the Recipe: Gingerbread Cookie##17200
 .goto Ironforge,33.70,67.23
 .train
 
@@ -78,7 +79,7 @@ LLG.RegisterGuide([[
 >>only not selfmade :: You can also buy them from the Auction House.
 
 #step
-.talk Wulmort Jinglepocket
+.talk Wulmort Jinglepocket##13433
 .goto Ironforge,33.70,67.23
 .complete 7025 >>Buy 5 Holiday Spices
 
@@ -91,13 +92,13 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,20.63,53.23
 >>Enter the building
-.talk Gwenna Firebrew
+.talk Gwenna Firebrew##5112
 >>Inside the building.
 .goto Ironforge,18.64,51.76
 .complete 7025,2 >>Buy Ice Cold Milk
 
 #step
-.talk Greatfather Winter
+.talk Greatfather Winter##13444
 .goto Ironforge,33.20,65.41
 .turnin Treats for Greatfather Winter##7025
 >>After you turn in this quest, you can then repeat it to get more gifts to open.
@@ -108,7 +109,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Wulmort Jinglepocket
+.talk Wulmort Jinglepocket##13433
 .goto Ironforge,33.70,67.23
 .accept Stolen Winter Veil Treats##7042
 
@@ -117,7 +118,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Alterac Mountains,41.83,77.11
 >>Follow the path
-.talk Strange Snowman
+.talk Strange Snowman##13636
 .goto Alterac Mountains,35.44,72.46
 .turnin Stolen Winter Veil Treats##7042
 .goto Alterac Mountains,35.44,72.46
@@ -125,7 +126,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 The Abominable Greench
+.kill 1 The Abominable Greench##13602
 >>He looks like a level 36 elite yeti.
 >>If you have trouble, try to find someone to help you.
 >>He can spawn in random places around the "Growless Cave" area.
@@ -135,14 +136,14 @@ LLG.RegisterGuide([[
 .complete 7043,1 >>Collect Stolen Treats
 
 #step
-.talk Wulmort Jinglepocket
+.talk Wulmort Jinglepocket##13433
 .goto Ironforge,33.70,67.23
 .turnin You're a Mean One...##7043
 .goto Ironforge,33.70,67.23
 .accept A Smokywood Pastures Thank You!##7045
 
 #step
-.talk Greatfather Winter
+.talk Greatfather Winter##13444
 .goto Ironforge,33.20,65.41
 .turnin A Smokywood Pastures Thank You!##7045
 
@@ -152,12 +153,12 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Wulmort Jinglepocket
+.talk Wulmort Jinglepocket##13433
 .goto Ironforge,33.70,67.23
 .accept Metzen the Reindeer##8762
 
 #step
-.click the Smokywood Satchel
+.click the Smokywood Satchel##21315
 .complete 8762,2 >>Collect Pouch of Reindeer Dust
 
 #step
@@ -167,7 +168,7 @@ LLG.RegisterGuide([[
 >>Leave the tunnel
 .goto Tanaris,73.18,45.56
 >>Follow the path
-.talk Metzen the Reindeer
+.talk Metzen the Reindeer##15664
 >>Inside the building.
 >>Choose _"Sprinkle some of the reindeer dust onto Metzen."_
 .goto Tanaris,73.35,48.07
@@ -175,7 +176,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Wulmort Jinglepocket
+.talk Wulmort Jinglepocket##13433
 .goto Ironforge,33.70,67.23
 .turnin Metzen the Reindeer##8762
 

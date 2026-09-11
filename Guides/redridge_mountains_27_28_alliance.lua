@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Guard Howe
+.talk Guard Howe##903
 >>en:To the left of the bridge.
 >>de:Links von der Brücke.
 .goto Redridge Mountains,31.54,57.85
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Verner Osgood
+.talk Verner Osgood##415
 >>en:In the stable, under the wooden overhang.
 >>de:Im Stall, unter dem hölzernen Unterstand.
 .goto Redridge Mountains,30.97,47.27
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.50,46.12
 >>Enter the building
-.talk Bailiff Conacher
+.talk Bailiff Conacher##900
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathausgebäude, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 .only not hardcore and not Warlock
 
 #step
-.talk Gerald Crawley
+.talk Gerald Crawley##3090
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -60,20 +60,20 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Martie Jainrose
+.talk Martie Jainrose##342
 >>en:Up the hill, in front of a house.
 >>de:Oben auf dem Hügel, vor einem Haus.
 .goto Redridge Mountains,21.86,46.33
 .accept An Unwelcome Guest##34
 
 #step
-.kill 1 Bellygrub
+.kill 1 Bellygrub##345
 >>He looks like a darker brown boar that walks around this area.
 .goto Redridge Mountains,15.68,49.32
 .complete 34,1 >>Collect Bellygrub's Tusk
 
 #step
-.talk Martie Jainrose
+.talk Martie Jainrose##342
 >>en:Up the hill, in front of a house.
 >>de:Oben auf dem Hügel, vor einem Haus.
 .goto Redridge Mountains,21.86,46.33
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,17.27,44.89
 >>Follow the path up
-.kill 1 Yowler
+.kill 1 Yowler##518
 >>He walks between 2 of the gnolls camps.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Enemies around camp tend to pull in groups so be wary.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.kill 1 Lieutenant Fangore
+.kill 1 Lieutenant Fangore##703
 >>He looks like a gnoll wearing a red robe, and carrying a long sword, that walks around this area.
 >>Try to kite him away, so you can fight him alone.
 >>If you have trouble, try to find someone to help you.
@@ -156,7 +156,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Redridge Mountains,28.45,13.64
 >>Follow the path
-.talk Corporal Keeshan
+.talk Corporal Keeshan##349
 >>en:Deep in the cave, in a small little side room.
 >>de:Tief in der Höhle, in einem kleinen Nebenraum.
 >>Inside the cave.
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Marshal Marris
+.talk Marshal Marris##382
 >>en:Over the bridge, to the right.
 >>de:Ueber die Brücke, dann rechts.
 .goto Redridge Mountains,33.51,48.97
@@ -187,7 +187,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Verner Osgood
+.talk Verner Osgood##415
 >>en:In the stable, under the wooden overhang.
 >>de:Im Stall, unter dem hölzernen Unterstand.
 .goto Redridge Mountains,30.97,47.27
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.49,46.13
 >>Enter the building
-.talk Bailiff Conacher
+.talk Bailiff Conacher##900
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathausgebäude, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -205,7 +205,7 @@ LLG.RegisterGuide([[
 .turnin Solomon's Law##91
 
 #step
-.talk Magistrate Solomon
+.talk Magistrate Solomon##344
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathaus, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -216,7 +216,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.50,46.12
 >>Leave the building
-.talk Guard Howe
+.talk Guard Howe##903
 >>en:To the left of the bridge.
 >>de:Links von der Brücke.
 .goto Redridge Mountains,31.54,57.86
@@ -224,7 +224,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Guard Berton
+.talk Guard Berton##859
 .goto Redridge Mountains,26.26,46.57
 .accept What Comes Around...##386
 
@@ -237,7 +237,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,55.29,68.13
 >>Enter the building
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Put these items in the bank.
 .goto Stormwind City,57.55,72.43
@@ -247,17 +247,17 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,50.95,57.84
 >>Enter the building
-.talk Frederick Stover
-.kill 1 Sturdy Recurve
+.talk Frederick Stover##1298
+.kill 1 Sturdy Recurve##11306
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stormwind City,49.98,57.64
 >>Visit the Vendor
-.only Hunter
+.only Hunter and (itemcount(11306) == 0)
 
 #step
-.talk Collin Mauren
+.talk Collin Mauren##4078
 >>en:To the left of the path, up on the ledge, next to a light post.
 >>de:Links vom Weg, oben auf dem Vorsprung, neben einer Laterne.
 .goto Stormwind City,43.09,80.39
@@ -266,14 +266,14 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.19,74.12
 >>Enter the building
-.talk Zardeth of the Black Claw
+.talk Zardeth of the Black Claw##1435
 >>Downstairs inside the building.
 .goto Stormwind City,26.45,78.65
 .turnin A Noble Brew##335
 .only readyq(335)
 
 #step
-.talk Zardeth of the Black Claw
+.talk Zardeth of the Black Claw##1435
 >>Downstairs inside the building.
 .goto Stormwind City,26.45,78.65
 .accept A Noble Brew##336
@@ -282,21 +282,21 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.05,34.48
 >>Enter the building
-.talk Brother Sarno
+.talk Brother Sarno##7917
 >>Inside the building.
 .goto Stormwind City,40.56,30.91
 .accept Tinkmaster Overspark##2923
 .only Hunter or Mage
 
 #step
-.talk Thomas
+.talk Thomas##4982
 >>He runs around inside the cathedral.
 .goto Stormwind City,38.70,25.90
 .accept The Missing Diplomat##1274
 .only level <= 28
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -305,7 +305,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Bishop Farthing
+.talk Bishop Farthing##1212
 >>en:Standing inside the church, next to a candle post.
 >>de:Steht in der Kirche, neben einem Kerzenhalter.
 >>Inside the building.
@@ -317,7 +317,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,47.89,31.17
 >>Enter the building
-.talk Baros Alexston
+.talk Baros Alexston##1646
 .goto Stormwind City,49.20,30.28
 .turnin The Unsent Letter##373
 .goto Stormwind City,49.20,30.28
@@ -326,16 +326,17 @@ LLG.RegisterGuide([[
 .only haveq(373)
 
 #step
-.click An Old History Book
+.click An Old History Book##2794
 .goto Stormwind City,69.09,28.70
 .accept An Old History Book##337
+.only itemcount(337) > 0
 
 #step
 .goto Stormwind City,69.09,28.70
 >>Enter the building
 .goto Stormwind City,72.71,25.85
 >>Follow the path
-.talk Lord Baurles K. Wishock
+.talk Lord Baurles K. Wishock##1439
 >>Inside the building.
 .goto Stormwind City,75.23,31.67
 .turnin A Noble Brew##336
@@ -348,7 +349,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Stormwind City,77.88,21.14
 >>Follow the path
-.talk Bishop DeLavey
+.talk Bishop DeLavey##4960
 >>Inside the building.
 .goto Stormwind City,78.30,25.44
 .turnin The Missing Diplomat##1274
@@ -363,7 +364,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,70.17,11.34
 >>Continue following the path
-.talk Milton Sheaf
+.talk Milton Sheaf##1440
 >>Inside the building.
 .goto Stormwind City,74.17,7.49
 .turnin An Old History Book##337
@@ -378,7 +379,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Stormwind City,60.27,68.37
 >>Follow the path
-.talk Jorgen
+.talk Jorgen##4959
 .goto Stormwind City,73.17,78.42
 .turnin The Missing Diplomat##1241
 .goto Stormwind City,73.17,78.42
@@ -386,16 +387,16 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -420,7 +421,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Nikova Raskol
+.talk Nikova Raskol##1721
 >>en:She walks around the street in Old Town, so she may be standing in a different spot.
 >>She walks around this area.
 .goto Stormwind City,73.40,50.70
@@ -429,7 +430,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.20,58.77
 >>Enter the building
-.talk Warden Thelwater
+.talk Warden Thelwater##1719
 >>Inside the building.
 .goto Stormwind City,41.10,58.09
 .turnin Bazil Thredd##389
@@ -443,19 +444,19 @@ LLG.RegisterGuide([[
 >>Enter The Stockade Dungeon with Your Group
 
 #step
-.kill 1 Targorr the Dread
+.kill 1 Targorr the Dread##1696
 >>He is the first boss of the dungeon.
 >>He should be in one of the side rooms at the start of the dungeon or the single room straight to the north.
 .complete 386,1 >>Collect Head of Targorr
 
 #step
-.kill 1 Bazil Thredd
+.kill 1 Bazil Thredd##1716
 >>He is the fourth boss of the dungeon.
 >>Follow the east path all the way to the end.
 .complete 391,1 >>Collect Head of Bazil Thredd
 
 #step
-.kill 1 Dextren Ward
+.kill 1 Dextren Ward##1663
 >>He is the fifth boss of the dungeon.
 >>Follow the west path all the way to the end.
 .complete 377,1 >>Collect Hand of Dextren Ward
@@ -474,7 +475,7 @@ LLG.RegisterGuide([[
 .complete 388,1 >>Collect 10 Red Wool Bandana
 
 #step
-.talk Warden Thelwater
+.talk Warden Thelwater##1719
 >>Inside the building.
 .goto Stormwind City,41.10,58.09
 .turnin The Stockade Riots##391
@@ -493,7 +494,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.25,58.86
 >>Leave the building
-.talk Nikova Raskol
+.talk Nikova Raskol##1721
 >>en:She walks around the street in Old Town, so she may be standing in a different spot.
 >>She walks around this area.
 .goto Stormwind City,73.39,50.69
@@ -502,7 +503,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.05,34.48
 >>Leave the building
-.talk Tinkmaster Overspark
+.talk Tinkmaster Overspark##7944
 .goto Ironforge,69.54,50.32
 .turnin Tinkmaster Overspark##2923
 .only Hunter or Mage
@@ -510,25 +511,27 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.33,88.20
 >>Run up the stairs and enter the building
-.talk Buliwyf Stonehand
+.talk Buliwyf Stonehand##11865
 >>Inside the building.
 >>This will allow you to equip two-handed axes.
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_AXE") > 0 >>Train Two-Handed Axes
 .only Hunter
 
 #step
-.talk Bixi Wobblebonk
+.talk Bixi Wobblebonk##13084
 >>Inside the building.
 >>This will allow you to equip crossbows.
 .goto Ironforge,62.23,89.62
 .train
+.condition weaponskill("CROSSBOW") > 0 >>Train Crossbows
 .only Hunter
 
 #step
 .goto Ironforge,30.43,26.37
 >>Enter the building
-.talk Ginny Longberry
+.talk Ginny Longberry##5151
 >>Inside the building.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -539,7 +542,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,53.24,7.33
 >>Enter the building
-.talk Jubahl Corpseseeker
+.talk Jubahl Corpseseeker##6382
 >>Inside the building.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -549,7 +552,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building.
 >>Stock up on poisons if needed.
 >>Skip this step if you don' tneed to.

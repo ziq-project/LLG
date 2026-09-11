@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Festival Loremaster
+.talk Festival Loremaster##16817
 .goto Ironforge,63.83,25.55
 .accept The Festival of Fire##9367
 .goto Ironforge,63.83,25.55
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .accept Flickering Flames in Kalimdor##9388
 
 #step
-.talk Festival Flamekeeper
+.talk Festival Flamekeeper##16788
 .goto Ironforge,63.59,24.66
 .accept Wild Fires in the Eastern Kingdoms##9323
 .goto Ironforge,63.59,24.66
@@ -211,7 +211,7 @@ LLG.RegisterGuide([[
 .complete 9367,3 >>Touch the Flame of Darnassus
 
 #step
-.talk Festival Loremaster
+.talk Festival Loremaster##16817
 .goto Teldrassil,56.58,92.29
 .turnin The Festival of Fire##9367
 .goto Teldrassil,56.58,92.29
@@ -223,12 +223,12 @@ LLG.RegisterGuide([[
 .only readyq(9326) or completedq(9326)
 
 #step
-.talk Festival Talespinner
+.talk Festival Talespinner##16818
 .goto Teldrassil,56.58,92.29
 .accept A Thief's Reward##9365
 
 #step
-.talk Festival Flamekeeper
+.talk Festival Flamekeeper##16788
 .goto Teldrassil,56.55,91.98
 .turnin Flickering Flames in the Eastern Kingdoms##9389
 .goto Teldrassil,56.55,91.98

@@ -19,7 +19,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Rahauro
+.talk Rahauro##11833
 >>He walks around this area.
 .goto Thunder Bluff,70.51,31.83
 .accept Testing an Enemy's Strength##5723
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel
 .goto Undercity,45.95,73.73
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.19
 .accept The Power to Destroy...##5725
 .only walking
@@ -39,7 +39,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,55.22,40.76
 >>Follow the path down
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -106,7 +106,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,55.22,40.76
 >>Follow the path down
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 >>Enter the Ragefire Chasm Dungeon with Your Group
 
 #step
-.talk Maur Grimtotem
+.talk Maur Grimtotem##11834
 >>en:If you follow the right wall after you enter, you'll come across an area where the road forks. Take the first right you come across and follow the hill up to Maur Grimtotem.
 >>Follow long path down and take the first right.
 >>Run up the ramp in the room, killing the troggs.
@@ -128,7 +128,7 @@ LLG.RegisterGuide([[
 .accept Returning the Lost Satchel##5724
 
 #step
-.kill 1 Taragaman the Hungerer
+.kill 1 Taragaman the Hungerer##11520
 >>The second boss of the dungeon.
 .complete 5761,1 >>Collect Taragaman the Hungerer's Heart
 
@@ -141,12 +141,12 @@ LLG.RegisterGuide([[
 >>The final boss of the dungeon.
 
 #step
-.kill 1 Ragefire Trogg
+.kill 1 Ragefire Trogg##11318
 >>They are found throughout the instance.
 .complete 5723,1 >>Slay #8# Ragefire Troggs
 
 #step
-.kill 8 Ragefire Shaman
+.kill 8 Ragefire Shaman##11319
 >>They are found throughout the instance.
 .complete 5723,2 >>Slay #8# Ragefire Shaman
 
@@ -165,7 +165,7 @@ LLG.RegisterGuide([[
 .complete 5724 >>Click Here to Continue
 
 #step
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -190,7 +190,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the building.
@@ -206,7 +206,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,40.07,37.01
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -219,13 +219,13 @@ LLG.RegisterGuide([[
 >>Enter the tunnel
 .goto Undercity,45.95,73.73
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.19
 .turnin The Power to Destroy...##5725
 .only walking
 
 #step
-.talk Rahauro
+.talk Rahauro##11833
 >>He walks around this area.
 .goto Thunder Bluff,70.51,31.83
 .turnin Returning the Lost Satchel##5724

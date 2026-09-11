@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Malissa
+.talk Malissa##3135
 >>Walking around here.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.92,46.81
 >>Enter the building
-.talk Clerk Daltry
+.talk Clerk Daltry##267
 >>en:Right inside the town hall building.
 >>de:Direkt im Rathausgebäude.
 >>Inside the building.
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,75.23,48.25
 >>Enter the building
-.talk Jonathan Carevin
+.talk Jonathan Carevin##661
 >>en:Inside the big house, next to the fireplace.
 >>de:Im großen Haus, neben dem Kamin.
 >>Inside the building.
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 .goto Duskwood,73.04,75.09
 >>Enter the mine
 >>only hardcore :: Enemies tend to pull in groups around here.
-.click Mound of Dirt
+.click Mound of Dirt##19030
 >>Inside the mine.
 >>only hardcore :: Try not to linger around the cave longer than needed as the respawns are inconsistent.
 .goto Duskwood,73.53,79.14
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 >>Leave the mine
 .goto Duskwood,75.23,48.25
 >>Enter the building
-.talk Jonathan Carevin
+.talk Jonathan Carevin##661
 >>en:Inside the big house, next to the fireplace.
 >>de:Im großen Haus, neben dem Kamin.
 >>Inside the building.
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,54.08,59.01
 >>Enter the building
-.talk Auctioneer Jaxon
+.talk Auctioneer Jaxon##15659
 >>Inside the building.
 >>Buy these items from the auction house.
 >>If they're not available, or you can't afford them, skip this step.
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 >>Enter Stormwind Keep
 .goto Stormwind City,75.95,17.58
 >>Follow the path
-.talk Major Samuelson
+.talk Major Samuelson##2439
 >>en:In Stormwind Keep, standing in a small square room next to a table.
 >>de:In Burg Sturmwind, steht in einem kleinen quadratischen Raum neben einem Tisch.
 >>Inside the building.
@@ -99,16 +99,16 @@ LLG.RegisterGuide([[
 .turnin Reassignment##563
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 >>Leave Stormwind Keep
 .goto Ironforge,38.51,85.81
 >>Run up the stairs and enter the building
-.talk Grand Mason Marblesten
+.talk Grand Mason Marblesten##2790
 >>He walks around inside the building.
 .goto Ironforge,39.04,88.05
 .turnin A King's Tribute##689
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Grand Mason Marblesten
+.talk Grand Mason Marblesten##2790
 >>He walks around inside the building.
 .goto Ironforge,39.04,88.05
 .accept A King's Tribute##700
@@ -154,12 +154,12 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,44.56,49.58
 >>Follow the path
-.talk King Magni Bronzebeard
+.talk King Magni Bronzebeard##2784
 .goto Ironforge,39.09,56.20
 .turnin A King's Tribute##700
 
 #step
-.talk Roetten Stonehammer
+.talk Roetten Stonehammer##5637
 >>en:To the right as you enter the Hall of Explorers.
 >>de:To the right as you enter the Hall of Explorers.
 >>He walks around inside the building.
@@ -167,7 +167,7 @@ LLG.RegisterGuide([[
 .accept Reclaimers' Business in Desolace##1453
 
 #step
-.talk Prospector Stormpike
+.talk Prospector Stormpike##1356
 >>en:Right inside the Library.
 >>de:Right inside the Library.
 >>Inside the building.
@@ -175,7 +175,7 @@ LLG.RegisterGuide([[
 .turnin Letter to Stormpike##514
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 >>Inside the building.
 >>Follow the river north to travel to this location.
 >>Avoid Tarren Mill as you travel here.

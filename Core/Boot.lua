@@ -38,6 +38,8 @@ local function tryStart()
     -- (everything else goes through the localization system, see
     -- Locale/Strings.lua). Disabled entirely rather than translated, since
     -- it was only a first-run tip, not something players need every login.
+    -- Re-applied 2026-09-11: reverted by an addon rework built from an
+    -- older source snapshot.
     LLG.After(3.0, function()
         if LLG.chardb.freshInstall then
             LLG.chardb.freshInstall = nil
@@ -55,6 +57,12 @@ end)
 LLG.RegisterEvent("PLAYER_LOGIN", function()
     playerLogin = true
     tryStart()
+end)
+
+-- Ruf und Fertigkeiten koennen in Bedingungen stehen. Aendert sich etwas,
+-- ist der zwischengespeicherte Stand hinfaellig.
+LLG.RegisterEvent("UPDATE_FACTION", function()
+    if LLG.Parser and LLG.Parser.ForgetFactions then LLG.Parser.ForgetFactions() end
 end)
 
 LLG.RegisterEvent("PLAYER_ENTERING_WORLD", function()

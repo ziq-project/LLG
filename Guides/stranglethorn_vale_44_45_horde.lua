@@ -16,19 +16,19 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Zudd
+.talk Zudd##3624
 .goto Stranglethorn Vale,31.13,28.93
 .train
 .only Hunter
 
 #step
-.talk Kragg
+.talk Kragg##1404
 .goto Stranglethorn Vale,31.24,28.68
 .train
 .only Hunter
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 .goto Stranglethorn Vale,32.12,29.24
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .accept Speaking with Gan'zulah##586
 
 #step
-.kill 1 Tethis
+.kill 1 Tethis##730
 >>He looks like a blue raptor that walks around this area.
 >>He is a level 43 elite, but you should be able to kill him at this level.
 >>If you have trouble, try to find someone to help you.
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 >>[28.74,44.84]
 
 #step
-.kill 1 Bhag'thera
+.kill 1 Bhag'thera##728
 >>He looks like an unstealthed black panther.
 >>He is a level 40 elite, so you should be able to kill him pretty easily.
 >>If you have trouble, try to find someone to help you.
@@ -65,21 +65,21 @@ LLG.RegisterGuide([[
 .only haveq(193)
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
 .turnin Raptor Mastery##197
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
 .turnin Panther Mastery##193
 
 #step
-.talk Privateer Bloads
+.talk Privateer Bloads##2494
 >>en:On the dock, next to a mailbox, in front of the bank.
 >>de:Auf dem Steg, neben einem Briefkasten, vor der Bank.
 >>He walks around this area.
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -111,25 +111,25 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
 .goto Stranglethorn Vale,28.29,77.59
 .turnin Excelsior##628
-.only walking
+.only itemcount(4105) > 0
 
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
 .accept Scaring Shaky##606
 
 #step
-.talk First Mate Crazz
+.talk First Mate Crazz##2490
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 .goto Stranglethorn Vale,28.10,76.22
@@ -150,7 +150,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,29.56,72.51
 >>Enter the tunnel to enter Booty Bay
-.talk First Mate Crazz
+.talk First Mate Crazz##2490
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 .goto Stranglethorn Vale,28.10,76.21
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Deeg
+.talk Deeg##2488
 >>en:Upstairs in the inn.
 >>de:Oben im Gasthaus.
 >>Upstairs inside the building, on the top floor.
@@ -170,7 +170,7 @@ LLG.RegisterGuide([[
 .accept Up to Snuff##587
 
 #step
-.talk Fleet Master Seahorn
+.talk Fleet Master Seahorn##2487
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -182,7 +182,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.07,76.49
 >>Run up the ramp and follow the path
-.talk Dizzy One-Eye
+.talk Dizzy One-Eye##2493
 >>en:On the dock, standing next to a house.
 >>de:Auf dem Steg, steht neben einem Haus.
 >>Outside, next to the building.
@@ -241,7 +241,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,32.75,73.68
 >>Follow the path
-.kill 1 Elder Mistvale Gorilla
+.kill 1 Elder Mistvale Gorilla##1557
 >>This has a low drop rate, and can sometimes take a while to get, depending on your luck.
 >>If you reach 20% into level 45 without getting it, skip the quest.
 >>If you don't get it, you will have to skip multiple quests.
@@ -253,7 +253,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Wild and Shore")
 
 #step
-.kill 1 Elder Mistvale Gorilla
+.kill 1 Elder Mistvale Gorilla##1557
 .goto Stranglethorn Vale,31.72,67.03
 .complete 606,1 >>Collect 5 Mistvale Giblets
 >>You can find more around:
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,29.56,72.51
 >>Enter the tunnel to enter Booty Bay
-.talk Dizzy One-Eye
+.talk Dizzy One-Eye##2493
 >>en:On the dock, standing next to a house.
 >>de:Auf dem Steg, steht neben einem Haus.
 >>Outside, next to the building.
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Booty and Bay")
 
 #step
-.talk "Shaky" Phillipe
+.talk "Shaky" Phillipe##2502
 >>de:Steht am Fuß der Rampe.
 .goto Stranglethorn Vale,26.90,73.59
 .turnin Scaring Shaky##606
@@ -291,7 +291,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
@@ -302,7 +302,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Deeg
+.talk Deeg##2488
 >>en:Upstairs in the inn.
 >>de:Oben im Gasthaus.
 >>Upstairs inside the building, on the top floor.
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 .only not subzone("The and Salty and Sailor and Tavern")
 
 #step
-.talk Fleet Master Seahorn
+.talk Fleet Master Seahorn##2487
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -322,7 +322,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 .goto Stranglethorn Vale,32.12,29.24
@@ -350,7 +350,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Nek'mani and Wellspring")
 
 #step
-.kill 1 Naga Explorer
+.kill 1 Naga Explorer##1907
 .goto Stranglethorn Vale,27.88,62.75
 .complete 617,1 >>Collect 10 Akiris Reed
 >>You can find more around:
@@ -369,20 +369,20 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.20,58.95
 >>Cross the bridge
-.kill 1 Jon-Jon the Crow
+.kill 1 Jon-Jon the Crow##2536
 .goto Stranglethorn Vale,34.93,51.85
 .complete 609,2 >>Collect Jon-Jon's Golden Spyglass
 .only walking and subzone("Southern and Savage and Coast")
 
 #step
-.kill 1 Maury "Club Foot" Wilkins
+.kill 1 Maury "Club Foot" Wilkins##2535
 .goto Stranglethorn Vale,35.25,51.26
 .complete 609,1 >>Collect Maury's Clubbed Foot
 
 #step
 .goto Stranglethorn Vale,33.73,53.77
 >>Follow the path
-.kill 1 Chucky "Ten Thumbs"
+.kill 1 Chucky "Ten Thumbs"##2537
 .goto Stranglethorn Vale,40.00,58.24
 .complete 609,3 >>Collect Chucky's Huge Ring
 .only walking and not subzone("Ruins and of and Aboraz")
@@ -398,7 +398,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,37.84,56.28
 >>Follow the path back to the road
-.kill 1 Ana'thek the Cruel
+.kill 1 Ana'thek the Cruel##1059
 >>He patrols the road here with two guards. Clear out a safe area to fight him.
 >>You may have to kill Ana'thek himself then run away if your class isn't capable of fighting 3 enemies or crowd controlling.
 >>only hardcore :: Be very careful of patrols in the area.
@@ -439,27 +439,27 @@ LLG.RegisterGuide([[
 .accept The Fate of Yenniku##588
 
 #step
-.talk Kin'weelay
+.talk Kin'weelay##2519
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.27,27.71
 .turnin The Fate of Yenniku##588
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 .goto Stranglethorn Vale,32.12,29.24
 .turnin Mok'thardin's Enchantment##573
 
 #step
-.talk Uthok
+.talk Uthok##1149
 >>only Hunter :: Stock up on arrows.
 .goto Stranglethorn Vale,31.55,27.95
 .vendor
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -467,7 +467,7 @@ LLG.RegisterGuide([[
 .turnin Zanzil's Secret##621
 
 #step
-.talk Innkeeper Skindle
+.talk Innkeeper Skindle##6807
 >>Inside the building, on the bottom floor.
 .goto Stranglethorn Vale,27.04,77.31
 .hs
@@ -475,14 +475,14 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
 .turnin Voodoo Dues##609
 
 #step
-.talk Privateer Bloads
+.talk Privateer Bloads##2494
 >>en:On the dock, next to a mailbox, in front of the bank.
 >>de:Auf dem Steg, neben einem Briefkasten, vor der Bank.
 >>He walks around this area.
@@ -507,8 +507,8 @@ LLG.RegisterGuide([[
 >>It looks like a white rolled up scroll.
 >>It can spawn in multiple locations on any floor downstairs inside the ship.
 .goto Stranglethorn Vale,29.20,88.60
-.collect Cortello's Riddle,1
-.click Here if the Scroll is Not On This Ship
+.collect Cortello's Riddle,1 |or
+.click Here if the Scroll is Not On This Ship |or
 .only not hardcore
 
 #step
@@ -527,8 +527,8 @@ LLG.RegisterGuide([[
 >>It looks like a white rolled up scroll.
 >>It can spawn in multiple locations on any floor downstairs inside the ship.
 .goto Stranglethorn Vale,30.64,90.17
-.collect Cortello's Riddle,1
-.click Here if the Scroll is Not On This Ship
+.collect Cortello's Riddle,1 |or
+.click Here if the Scroll is Not On This Ship |or
 .only not hardcore
 
 #step
@@ -551,18 +551,19 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Cortello's Riddle
+.click Cortello's Riddle##4056
 .goto Stranglethorn Vale,27.07,77.28
 .accept Cortello's Riddle##624
+.only itemcount(4056) > 0
 
 #step
-.click the Hearthstone
+.click the Hearthstone##6948
 .goto Stranglethorn Vale,27.07,77.28
 .hs
 .only subzone("Wild and Shore")
 
 #step
-.talk Whiskey Slim
+.talk Whiskey Slim##2491
 >>en:Standing on the bottom floor of the inn.
 >>de:Steht im Erdgeschoss des Gasthauses.
 >>Inside the building, on the bottom floor.
@@ -570,7 +571,7 @@ LLG.RegisterGuide([[
 .accept Whiskey Slim's Lost Grog##580
 
 #step
-.talk Fleet Master Seahorn
+.talk Fleet Master Seahorn##2487
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs, on the balcony of the building.
@@ -579,7 +580,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Uthok
+.talk Uthok##1149
 >>Buy enough ammo to fill your ammo bag, plus 4-6 extra stacks.
 >>You will be out questing for a while with no arrow vendor nearby.
 .goto Stranglethorn Vale,31.55,27.95

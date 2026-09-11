@@ -16,14 +16,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Captain Nials
+.talk Captain Nials##2700
 >>en:Next to a big stump.
 >>de:Neben einem großen Baumstumpf.
 .goto Arathi Highlands,45.83,47.55
 .accept Northfold Manor##681
 
 #step
-.talk Skuerto
+.talk Skuerto##2789
 >>en:Standing next to a forge and an anvil.
 >>de:Steht neben einer Schmiede und einem Amboss.
 .goto Arathi Highlands,46.65,47.01
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,48.35,44.93
 >>Leave Refuge Pointe
-.talk Quae
+.talk Quae##2712
 >>en:Standing on the edge of the cliff, overlooking the Go'Shek Farm.
 >>de:Steht am Rand der Klippe mit Blick auf den Go'Shek-Hof.
 .goto Arathi Highlands,60.19,53.85
@@ -56,14 +56,14 @@ LLG.RegisterGuide([[
 >>You can find more stealted along the small hill ridges surrounding this village.
 
 #step
-.talk Captain Nials
+.talk Captain Nials##2700
 >>en:Next to a big stump.
 >>de:Neben einem großen Baumstumpf.
 .goto Arathi Highlands,45.83,47.55
 .turnin Northfold Manor##681
 
 #step
-.talk Vikki Lonsav
+.talk Vikki Lonsav##2808
 >>Buy enough ammo to fill your ammo bag, plus 10-12 extra stacks.
 >>You will be out questing for a while without access to an arrow vendor.
 .goto Arathi Highlands,46.45,47.60

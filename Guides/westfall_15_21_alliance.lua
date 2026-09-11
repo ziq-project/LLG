@@ -15,14 +15,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Farmer Furlbrow
+.talk Farmer Furlbrow##237
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.96,19.36
 .accept The Forgotten Heirloom##64
 
 #step
-.talk Verna Furlbrow
+.talk Verna Furlbrow##238
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.92,19.42
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 .accept Poor Old Blanchy##151
 
 #step
-.talk Farmer Saldean
+.talk Farmer Saldean##233
 >>en:Right in front of the steps to enter the house.
 >>de:Direkt vor den Stufen zum Hauseingang.
 .goto Westfall,56.04,31.23
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.04
 >>Enter the building
-.talk Salma Saldean
+.talk Salma Saldean##235
 >>en:Inside the house right next to the fireplace.
 >>de:Im Haus, direkt neben dem Kamin.
 >>Inside the building.
@@ -54,21 +54,21 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.04
 >>Leave the building
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.55,52.64
 .fly Sentinel Hill
 
 #step
-.talk Scout Galiaan
+.talk Scout Galiaan##878
 >>en:Right in front of the woodworking shop.
 >>de:Direkt vor der Schreinerei.
 .goto Westfall,53.98,52.98
 .accept Red Leather Bandanas##153
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 .accept The People's Militia##12
 
 #step
-.talk Captain Danuvin
+.talk Captain Danuvin##821
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.43,47.62
@@ -106,7 +106,7 @@ LLG.RegisterGuide([[
 >>[46.51,38.74]
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -115,7 +115,7 @@ LLG.RegisterGuide([[
 .accept The People's Militia##13
 
 #step
-.talk Scout Galiaan
+.talk Scout Galiaan##878
 >>en:Right in front of the woodworking shop.
 >>de:Direkt vor der Schreinerei.
 .goto Westfall,53.99,52.98
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.53,47.39
 >>Enter the building
-.talk Quartermaster Lewis
+.talk Quartermaster Lewis##491
 >>Inside the building.
 .goto Westfall,57.00,47.17
 .accept A Swift Message##6181
@@ -133,7 +133,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.53,47.39
 >>Leave the building
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.56,52.64
@@ -145,7 +145,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,73.68,47.66
 >>Enter the building
-.talk Osric Strang
+.talk Osric Strang##1323
 >>Inside the building.
 .goto Stormwind City,74.32,47.24
 .turnin Continue to Stormwind##6281
@@ -158,7 +158,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Stormwind City,62.46,62.32
 >>Run up the ramp
-.talk Dungar Longdrink
+.talk Dungar Longdrink##352
 >>en:Up the ramp by the huge eagle in the Trade District.
 >>de:Oben auf der Rampe beim riesigen Adler im Handelsdistrikt.
 .goto Stormwind City,66.27,62.13
@@ -170,7 +170,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.51,47.40
 >>Enter the building
-.talk Quartermaster Lewis
+.talk Quartermaster Lewis##491
 >>Inside the building.
 .goto Westfall,57.00,47.17
 .turnin Return to Lewis##6285
@@ -247,28 +247,28 @@ LLG.RegisterGuide([[
 >>[57.38,18.41]
 
 #step
-.talk Farmer Furlbrow
+.talk Farmer Furlbrow##237
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.96,19.36
 .turnin The Forgotten Heirloom##64
 
 #step
-.talk Verna Furlbrow
+.talk Verna Furlbrow##238
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.92,19.42
 .turnin Poor Old Blanchy##151
 
 #step
-.kill 1 Harvest Watcher
+.kill 1 Harvest Watcher##114
 .goto Westfall,53.89,32.26
 .complete 38,4 >>Collect 3 Okra
 >>Make sure not to sell these to a vendor.
 >>You can find more around [51.03,22.94]
 
 #step
-.kill 1 Harvest Watcher
+.kill 1 Harvest Watcher##114
 .goto Westfall,53.89,32.26
 .collect Flask of Oil,5
 >>Make sure not to sell these to a vendor.
@@ -280,7 +280,7 @@ LLG.RegisterGuide([[
 >>You can find more around [51.03,22.94]
 
 #step
-.talk Farmer Saldean
+.talk Farmer Saldean##233
 >>en:Right in front of the steps to enter the house.
 >>de:Direkt vor den Stufen zum Hauseingang.
 .goto Westfall,56.04,31.23
@@ -289,7 +289,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.05
 >>Enter the building
-.talk Salma Saldean
+.talk Salma Saldean##235
 >>en:Inside the house right next to the fireplace.
 >>de:Im Haus, direkt neben dem Kamin.
 >>Inside the building.
@@ -301,7 +301,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.05
 >>Leave the building
-.talk Captain Danuvin
+.talk Captain Danuvin##821
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.42,47.62
@@ -316,7 +316,7 @@ LLG.RegisterGuide([[
 .complete 13,2 >>Kill 15 Defias Looter
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -329,7 +329,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,53.00,53.36
 >>Enter the building
-.talk Innkeeper Heather
+.talk Innkeeper Heather##8931
 >>Inside the building.
 .goto Westfall,52.86,53.71
 .hs
@@ -360,7 +360,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,53.00,53.36
 >>Leave the building
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -369,7 +369,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,26.61,46.41
 >>Enter the building
-.talk Wiley the Black
+.talk Wiley the Black##266
 >>en:Upstairs in the inn, inside the room diagonally to the right from the top of the stairs.
 >>de:Oben im Gasthaus, im Raum schräg rechts vom oberen Ende der Treppe.
 >>Upstairs inside the building.
@@ -381,7 +381,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,26.61,46.41
 >>Leave the building
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -394,7 +394,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.14,58.04
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -404,7 +404,7 @@ LLG.RegisterGuide([[
 .accept The Defias Brotherhood##141
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -413,7 +413,7 @@ LLG.RegisterGuide([[
 .accept The Defias Brotherhood##142
 
 #step
-.kill 1 Defias Messenger
+.kill 1 Defias Messenger##550
 >>He walks along the road between Jangolode Mine and Moonbrook.
 >>He walks into Gold Coast Quarry before traveling to either Jangolode Mine or Moonbrook.
 >>Run on the road while looking for him.
@@ -426,14 +426,14 @@ LLG.RegisterGuide([[
 >>[44.44,25.91]
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
 .turnin The Defias Brotherhood##142
 
 #step
-.talk The Defias Traitor
+.talk The Defias Traitor##467
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 >>This is an escort quest.
@@ -450,14 +450,14 @@ LLG.RegisterGuide([[
 .complete 155,1 >>Escort The Defias Traitor to Discover Where VanCleef is Hiding
 
 #step
-.talk Captain Grayson
+.talk Captain Grayson##392
 >>en:On the little island, to the right of the lighthouse near the little pier.
 >>de:Auf der kleinen Insel, rechts vom Leuchtturm nahe dem kleinen Steg.
 .goto Westfall,30.02,86.02
 .accept Keeper of the Flame##103
 
 #step
-.talk Captain Grayson
+.talk Captain Grayson##392
 >>en:On the little island, to the right of the lighthouse near the little pier.
 >>de:Auf der kleinen Insel, rechts vom Leuchtturm nahe dem kleinen Steg.
 .goto Westfall,30.02,86.02
@@ -466,14 +466,14 @@ LLG.RegisterGuide([[
 .accept The Coastal Menace##104
 
 #step
-.kill 1 Old Murk-Eye
+.kill 1 Old Murk-Eye##391
 >>He walks along the beach around this area.
 .goto Westfall,26.61,66.94
 .complete 104,1 >>Collect Scale of Old Murk-Eye
 >>Also check around [34.95,84.87]
 
 #step
-.talk Captain Grayson
+.talk Captain Grayson##392
 >>en:On the little island, to the right of the lighthouse near the little pier.
 >>de:Auf der kleinen Insel, rechts vom Leuchtturm nahe dem kleinen Steg.
 .goto Westfall,30.02,86.02
@@ -482,7 +482,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,53.00,53.36
 >>Leave the building
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52

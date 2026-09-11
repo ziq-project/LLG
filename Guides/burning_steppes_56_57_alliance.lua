@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Laris Geardawdle
+.talk Laris Geardawdle##9616
 >>en:Next to some fossilized eggs.
 >>de:Next to some fossilized eggs.
 >>Inside the building.
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,20.65,53.22
 >>Enter the building
-.talk Innkeeper Firebrew
+.talk Innkeeper Firebrew##5111
 >>en:In a little sideshop, behind the bar.
 >>de:In a little sideshop, behind the bar.
 >>Inside the building.
@@ -36,7 +36,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,34.08,62.40
 >>Enter the building
-.talk Bailey Stonemantle
+.talk Bailey Stonemantle##2461
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Ironforge,35.92,60.14
@@ -46,7 +46,7 @@ LLG.RegisterGuide([[
 >>Leave the bank
 .goto Ironforge,44.57,49.50
 >>Enter the High Seat
-.talk Royal Historian Archesonus
+.talk Royal Historian Archesonus##8879
 >>en:In the throne room, standing to the right of the king.
 >>de:In the throne room, standing to the right of the king.
 >>Inside the building.
@@ -55,7 +55,7 @@ LLG.RegisterGuide([[
 .only not subzone("The and High and Seat")
 
 #step
-.talk Royal Historian Archesonus
+.talk Royal Historian Archesonus##8879
 >>en:In the throne room, standing to the right of the king.
 >>de:In the throne room, standing to the right of the king.
 >>Inside the building.
@@ -64,7 +64,7 @@ LLG.RegisterGuide([[
 .complete 3702,1 >>Listen to the Story of Thaurissan
 
 #step
-.talk Royal Historian Archesonus
+.talk Royal Historian Archesonus##8879
 >>en:In the throne room, standing to the right of the king.
 >>de:In the throne room, standing to the right of the king.
 >>Inside the building.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .accept The Smoldering Ruins of Thaurissan##3701
 
 #step
-.talk Tynnus Venomsprout
+.talk Tynnus Venomsprout##5169
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Ironforge,52.94,13.66
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.85,63.33
 >>Follow the path up into Morgan's Vigil
-.talk Borgus Stoutarm
+.talk Borgus Stoutarm##2299
 >>en:To the right as you enter town, next to a big eagle.
 >>de:Rechts beim Betreten der Stadt, neben einem großen Adler.
 .goto Burning Steppes,84.33,68.33
@@ -92,7 +92,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Oralius
+.talk Oralius##9177
 >>en:To the left of the flight path.
 >>de:Links vom Flugpunkt.
 .goto Burning Steppes,84.56,68.68
@@ -109,7 +109,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Helendis Riverhorn
+.talk Helendis Riverhorn##9562
 .goto Burning Steppes,85.82,68.94
 .accept Dragonkin Menace##4182
 >>only hardcore :: We are accepting this quest now so you get credit for killing Whelps.
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.85,63.33
 >>Follow the path up into Morgan's Vigil
-.talk Oralius
+.talk Oralius##9177
 >>en:To the left of the flight path.
 >>de:Links vom Flugpunkt.
 .goto Burning Steppes,84.56,68.68
@@ -149,7 +149,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,63.93,29.93
 >>Follow the path up
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.24,24.00
@@ -157,7 +157,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Maxwort Uberglint
+.talk Maxwort Uberglint##9536
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.16,23.92
@@ -166,7 +166,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,65.52,23.08
 >>Enter the cave
-.talk Yuka Screwspigot
+.talk Yuka Screwspigot##9544
 >>en:Standing inside the cave.
 >>de:Standing inside the cave.
 >>Inside the cave.
@@ -174,13 +174,13 @@ LLG.RegisterGuide([[
 .turnin Yuka Screwspigot##4324
 
 #step
-.click the Draco-Incarcinatrix 900
+.click the Draco-Incarcinatrix 900##12284
 >>Use it on Broodling enemies around this area.
 >>They look like small flying dragons.
 >>They share spawn points with the scorpids and wolves, so kill those also, if you can't find any.
 >>Use the Draco-Incarcinatrix before pulling the whelp, or when it is casting fireball.
 .kill 1 Broodling enemies around this area
-.click Broodling Essence
+.click Broodling Essence##175264
 >>They look like red floating crystals that appear above their corpses after you kill them.
 .goto Burning Steppes,72.83,28.41
 .complete 4726,1 >>Collect 8 Broodling Essence
@@ -193,7 +193,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,94.11,31.92
 >>Enter the cave
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -202,12 +202,12 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
 >>Select _"I do not posess proof any proof, Cyrus."_
-.kill 1 Frenzied Black Drake
+.kill 1 Frenzied Black Drake##9461
 >>This dragon is a 54 elite and will immediately attack you.
 >>You may need help with this.
 >>The molt item is not group loot, so only one person can loot it.
@@ -216,7 +216,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -226,7 +226,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -279,13 +279,13 @@ LLG.RegisterGuide([[
 >>[84.65,61.84]
 
 #step
-.click Tablet of the Seven
+.click Tablet of the Seven##169294
 >>Choose _"Transcribe the tablet."_
 .goto Burning Steppes,54.09,40.73
 .complete 4296,1 >>Collect Tablet Transcript
 
 #step
-.click Thaurissan Relic
+.click Thaurissan Relic##153556
 >>They look like cylindrical grey stones sitting upright on the ground around this area.
 .goto Burning Steppes,68.42,37.33
 .complete 3701,1 >>Recover #12# Information
@@ -297,7 +297,7 @@ LLG.RegisterGuide([[
 >>[52.89,35.96]
 
 #step
-.kill 1 Gor'tesh
+.kill 1 Gor'tesh##9176
 >>He walks around this area, in and out of this building.
 >>Be careful. He hits hard and has a guard that may pull with him.
 >>only hardcore :: He hurts VERY hard and does a stun. You likely want to use a health potion and do not be greedy with it incase he stuns you when you're low.
@@ -321,7 +321,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.85,63.33
 >>Follow the path up into Morgan's Vigil
-.talk Oralius
+.talk Oralius##9177
 >>en:To the left of the flight path.
 >>de:Links vom Flugpunkt.
 .goto Burning Steppes,84.56,68.67
@@ -338,7 +338,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Helendis Riverhorn
+.talk Helendis Riverhorn##9562
 .goto Burning Steppes,85.82,68.95
 .turnin Dragonkin Menace##4182
 .goto Burning Steppes,85.82,68.95
@@ -347,7 +347,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.49,46.11
 >>Enter the building
-.talk Magistrate Solomon
+.talk Magistrate Solomon##344
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathaus, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -361,7 +361,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Stormwind City,55.30,68.14
 >>Enter the bank
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Stormwind City,57.66,72.78
@@ -371,7 +371,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,47.79,31.24
 >>Enter the building
-.talk Royal Factor Bathrilor
+.talk Royal Factor Bathrilor##10782
 >>en:In the building to the right of the Cathedral, on the second floor in the small room.
 >>de:In the building to the right of the Cathedral, on the second floor in the small room.
 >>Upstairs inside the building.
@@ -381,7 +381,7 @@ LLG.RegisterGuide([[
 .accept Good Natured Emma##5048
 
 #step
-.talk Ol' Emma
+.talk Ol' Emma##3520
 >>en:I found her upstairs in the house to the left of the Stockades across the water. She walks around between the Cathedral District and the Trade District though, you may need to search for her.
 >>de:I found her upstairs in the house to the left of the Stockades across the water. She walks around between the Cathedral District and the Trade District though, you may need to search for her.
 >>She looks like an old human woman that walks in a counter-clockwise path around Stormwind City.
@@ -394,7 +394,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,69.09,28.71
 >>Enter Stormwind Keep
-.talk Highlord Bolvar Fordragon
+.talk Highlord Bolvar Fordragon##1748
 >>Inside the building.
 .goto Stormwind City,78.22,17.99
 .turnin The True Masters##4184
@@ -405,14 +405,14 @@ LLG.RegisterGuide([[
 .only completedq(4184)
 
 #step
-.talk Lady Katrana Prestor
+.talk Lady Katrana Prestor##1749
 >>Inside the building.
 >>Select _"Pardon the intrusion, Lady Prestor, but Highlord Bolvar suggested that I seek your advice."_
 .goto Stormwind City,78.11,17.75
 .complete 4185,1 >>Seek Advice from Lady Prestor
 
 #step
-.talk Highlord Bolvar Fordragon
+.talk Highlord Bolvar Fordragon##1748
 >>Inside the building.
 >>He may be bugged if another player has recently completed the Onyxia event.
 >>If so, you can skip this quest but you will need to grind a bit later to make up for skipping a few quests.
@@ -428,7 +428,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.12,58.01
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -439,7 +439,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -455,7 +455,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Redridge Mountains,29.49,46.11
 >>Enter the building
-.talk Magistrate Solomon
+.talk Magistrate Solomon##344
 >>en:In the town hall building, in the big room on the stage, next to the podeum.
 >>de:Im Rathaus, im großen Raum auf der Bühne, neben dem Rednerpult.
 >>Inside the building.
@@ -468,7 +468,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,29.49,46.11
 >>Leave the building
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.75,69.02
 .turnin The True Masters##4223
 .goto Burning Steppes,84.75,69.02
@@ -478,7 +478,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,63.96,29.79
 >>Follow the path up
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -488,14 +488,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Maxwort Uberglint
+.talk Maxwort Uberglint##9536
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.15,23.91
 .turnin Tablet of the Seven##4296
 
 #step
-.talk Ragged John
+.talk Ragged John##9563
 >>Select _"Official business, John. I need some information about Marshal Windsor. Tell me about the last time you saw him."_
 .goto Burning Steppes,65.01,23.76
 .complete 4224,1 >>Listen to Ragged John's Story
@@ -519,7 +519,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,82.85,63.31
 >>Follow the path up
-.talk Oralius
+.talk Oralius##9177
 >>en:To the left of the flight path.
 >>de:Links vom Flugpunkt.
 .goto Burning Steppes,84.56,68.67
@@ -527,14 +527,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Marshal Maxwell
+.talk Marshal Maxwell##9560
 .goto Burning Steppes,84.74,69.01
 .turnin The True Masters##4224
 
 #step
 .goto Ironforge,34.08,62.40
 >>Enter the building
-.talk Bailey Stonemantle
+.talk Bailey Stonemantle##2461
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Ironforge,35.92,60.14
@@ -551,7 +551,7 @@ LLG.RegisterGuide([[
 .complete 6030 >>Collect Studies in Spirit Speaking
 
 #step
-.talk Bailey Stonemantle
+.talk Bailey Stonemantle##2461
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Ironforge,35.92,60.14
@@ -561,7 +561,7 @@ LLG.RegisterGuide([[
 >>Leave the bank
 .goto Ironforge,44.57,49.50
 >>Enter the High Seat
-.talk Royal Historian Archesonus
+.talk Royal Historian Archesonus##8879
 >>en:In the throne room, standing to the right of the king.
 >>de:In the throne room, standing to the right of the king.
 >>Inside the building.
@@ -572,7 +572,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,26.11,72.17
 >>Enter the building
-.talk Auctioneer Redmuse
+.talk Auctioneer Redmuse##8720
 >>Inside the building.
 >>Buy these items from the auction house or collect them from your bank.
 >>You will turn them in for a lot of experience.
@@ -589,29 +589,33 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Wool##7802
+.only itemcount(2592) >= 60
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Silk##7803
+.only itemcount(4306) >= 60
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Mageweave##7804
+.only itemcount(4338) >= 60
 
 #step
-.talk Mistina Steelshield
+.talk Mistina Steelshield##14723
 .goto Ironforge,43.22,31.57
 .accept A Donation of Runecloth##7805
+.only itemcount(14047) >= 60
 
 #step
 .goto Ironforge,26.11,72.17
 >>Enter the building
-.talk Auctioneer Redmuse
+.talk Auctioneer Redmuse##8720
 >>Inside the building.
 >>Buy these items from the auction house or collect them from your bank.
 >>You will turn them in for a lot of experience.
@@ -628,22 +632,26 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Wool##7807
+.only itemcount(2592) >= 60
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Silk##7808
+.only itemcount(4306) >= 60
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Mageweave##7809
+.only itemcount(4338) >= 60
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Runecloth##7811
+.only itemcount(14047) >= 60
 ]])

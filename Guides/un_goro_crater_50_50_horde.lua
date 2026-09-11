@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,27.04,56.57
 >>Follow the path down into Un'Goro Crater
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.64,75.96
@@ -47,7 +47,7 @@ LLG.RegisterGuide([[
 .complete 4290,1 >>Collect Piece of Threshadon Carcass
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.64,75.97
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 .accept The Scent of Lar'korwi##4291
 
 #step
-.kill 1 Lar'korwi Mate
+.kill 1 Lar'korwi Mate##9683
 >>Stand on the pile of purple eggs to get it to appear.
 .goto Un'Goro Crater,67.32,73.05
 .complete 4291,1 >>Collect 2 Ravasaur Pheromone Gland
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 >>[66.60,66.73]
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.97
@@ -91,9 +91,10 @@ LLG.RegisterGuide([[
 .collect Yellow Power Crystal,7
 .collect Green Power Crystal,7
 .collect Blue Power Crystal,7
+.only itemcount(11184) < 7
 
 #step
-.click A Small Pack
+.click A Small Pack##11107
 .complete 3845,1 >>Collect Large Compass
 .complete 3845,2 >>Collect Curled Map Parchment
 .complete 3845,3 >>Collect Lion-headed Key
@@ -106,7 +107,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,46.01,13.45
 >>Follow the path up into Marshal's Refuge
-.talk Linken
+.talk Linken##8737
 >>en:Standing inside a hollowed out tree.
 >>de:Steht in einem ausgehöhlten Baum.
 .goto Un'Goro Crater,44.66,8.11
@@ -116,7 +117,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Marshal's and Refuge")
 
 #step
-.talk Williden Marshal
+.talk Williden Marshal##9270
 >>en:Standing to the right of the mouth of the cave.
 >>de:Standing to the right of the mouth of the cave.
 .goto Un'Goro Crater,43.95,7.14
@@ -124,7 +125,7 @@ LLG.RegisterGuide([[
 .only haveq(3884) or completedq(3884)
 
 #step
-.talk Nergal
+.talk Nergal##12959
 >>Buy enough ammo to fill your ammo bag, plus 10-15 extra stacks.
 >>You will be questing for a while in Blasted Lands soon, with no easy access to ammo.
 .goto Un'Goro Crater,43.27,7.73
@@ -134,7 +135,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.81
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -143,7 +144,7 @@ LLG.RegisterGuide([[
 .only subzone("Marshal's and Refuge")
 
 #step
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -164,7 +165,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.81
 >>Leave the cave
-.talk Gryfe
+.talk Gryfe##10583
 >>en:Standing up on a hill, next to a big white canopy.
 >>de:Steht oben auf einem Hügel, neben einem großen weißen Baldachin.
 .goto Un'Goro Crater,45.23,5.84
@@ -186,6 +187,7 @@ LLG.RegisterGuide([[
 .collect A Mangled Journal,1
 
 #step
-.click A Mangled Journal
+.click A Mangled Journal##11116
 .accept Williden's Journal##3884
+.only itemcount(11116) > 0
 ]])

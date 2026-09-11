@@ -28,16 +28,16 @@ LLG.RegisterGuide([[
 .kill 1 Magram enemies around this area
 >>They look like {o}centaurs{}.
 .goto Desolace,70.90,75.30
->>Reach _11999/20000 Honored_ Reputation with the Glekis Clan Centaur Faction
+.condition repval('Gelkis Clan Centaur', 'Honored') >= 11999 >>Reach _11999/20000 Honored_ Reputation with the Glekis Clan Centaur Faction
 
 #step
-.talk Captain Pentigast
+.talk Captain Pentigast##5396
 .goto Desolace,66.66,10.93
 .accept Strange Alliance##1382
 .only Alliance
 
 #step
-.talk Gurda Wildmane
+.talk Gurda Wildmane##5412
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Desolace,56.29,59.68
@@ -45,7 +45,7 @@ LLG.RegisterGuide([[
 .only Horde
 
 #step
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.23,79.25
@@ -58,16 +58,16 @@ LLG.RegisterGuide([[
 .kill 1 Gelkis enemies around this area
 >>They look like {o}centaurs{}.
 .goto Desolace,37.40,85.30
->>Reach _11999/20000 Honored_ Reputation with the Magram Clan Centaur Faction
+.condition repval('Magram Clan Centaur', 'Honored') >= 11999 >>Reach _11999/20000 Honored_ Reputation with the Magram Clan Centaur Faction
 
 #step
-.talk Captain Pentigast
+.talk Captain Pentigast##5396
 .goto Desolace,66.66,10.93
 .accept Brutal Politics##1385
 .only Alliance
 
 #step
-.talk Gurda Wildmane
+.talk Gurda Wildmane##5412
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Desolace,56.29,59.68
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 .only Horde
 
 #step
-.talk Warug
+.talk Warug##5398
 .goto Desolace,74.97,68.16
 .turnin Brutal Politics##1385
 .goto Desolace,74.97,68.16
@@ -83,6 +83,7 @@ LLG.RegisterGuide([[
 .only Horde
 
 #step
->>Reach Exalted Reputation with the Gelkis Clan Centaur Faction
->>Reach Exalted Reputation with the Magram Clan Centaur Faction
+.condition rep('Gelkis Clan Centaur') == Revered >>Reach Exalted Reputation with the Gelkis Clan Centaur Faction
+.condition rep('Magram Clan Centaur') == Revered >>Reach Exalted Reputation with the Magram Clan Centaur Faction
+.only rep('Magram and Clan and Centaur') == Revered
 ]])

@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Patrice Dwyer
+.talk Patrice Dwyer##3551
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Silverpine Forest,42.90,41.80
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Magus Wordeen Voidglare
+.talk Magus Wordeen Voidglare##2410
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -32,15 +32,15 @@ LLG.RegisterGuide([[
 .accept Dalaran Patrols##545
 
 #step
-.click Nature Protection Potion
+.click Nature Protection Potion##6052
 >>You are about to accept a quest soon to kill a level 40 elite enemy.
 >>You will need to use another Nature Protection Potion during the fight, so use one now, and wait until your potion cooldown is finished before accepting the quest in the next step.
 >>The potion lasts 1 hour, so you have plenty of time to get to the quest location in a few steps.
 .click Here to Continue
-.only Warrior
+.only Warrior and itemcount(6052) > 0
 
 #step
-.talk Keeper Bel'varil
+.talk Keeper Bel'varil##2437
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -48,14 +48,14 @@ LLG.RegisterGuide([[
 .accept Bracers of Binding##557
 
 #step
-.click WANTED
+.click WANTED##1763
 >>only hardcore :: As a hardcore player you may need to abandon this quest later.
 >>only hardcore :: We will try to complete it but if you are behind in levels it will be skipped.
 .goto Hillsbrad Foothills,62.62,20.74
 .accept WANTED: Baron Vardus##566
 
 #step
-.talk Krusk
+.talk Krusk##2229
 >>en:Standing inside the church.
 >>de:Steht in der Kirche.
 >>Inside the building.
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 .accept Gol'dir##503
 
 #step
-.click Bath'rah's Cauldron
+.click Bath'rah's Cauldron##89931
 >>Follow the river north to travel to this location.
 >>Complete the "Essence of the Exile" quest.
 .goto Alterac Mountains,79.32,66.81
@@ -71,7 +71,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 >>Inside the building.
 .goto Alterac Mountains,80.50,66.92
 .turnin Cyclonian##1712
@@ -84,15 +84,15 @@ LLG.RegisterGuide([[
 >>Watch the dialogue
 >>Follow Bath'rah the Windwatcher as he walks.
 >>He will summon Cyclonian, a level 40 elite.
-.kill 1 Cyclonian
->>Use the other Nature Protection Potion when the effect of the first one ends.
+.kill 1 Cyclonian##6239
+>>only itemcount(6052) > 0 :: Use the other Nature Protection Potion when the effect of the first one ends.
 >>If you have trouble, try to find someone to help you.
 .goto Alterac Mountains,80.60,62.52
 .complete 1713,1 >>Collect Whirlwind Heart
 .only Warrior
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 >>Inside the building.
 .goto Alterac Mountains,80.50,66.92
 .turnin The Summoning##1713
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Jailor Borhuin
+.kill 1 Jailor Borhuin##2431
 >>Inside the building.
 >>He can spawn in multiple buildings around this area.
 >>There are many stealthed enemies in this area, be careful and move slowly.
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 >>Upstairs inside the building.
 
 #step
-.talk Gol'dir
+.talk Gol'dir##2316
 >>Upstairs inside the building.
 .goto Alterac Mountains,59.96,43.74
 .turnin Gol'dir##503
@@ -129,7 +129,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,62.91,20.57
 >>Enter the building
-.talk Krusk
+.talk Krusk##2229
 >>en:Standing inside the church.
 >>de:Steht in der Kirche.
 >>Inside the building.
@@ -153,16 +153,16 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Alterac Mountains,37.55,68.05
 >>Enter the cave
-.click the Fresh Carcass
+.click the Fresh Carcass##5810
 >>Inside the cave.
-.kill 1 Frostmaw
+.kill 1 Frostmaw##4504
 >>He spawns outside of the cave then walks to the entrance.
 .goto Alterac Mountains,37.54,66.26
 .complete 1136,1 >>Collect Frostmaw's Mane
 .only walking
 
 #step
-.kill 1 Elemental Slave
+.kill 1 Elemental Slave##2359
 .goto Alterac Mountains,15.84,77.20
 .complete 557,1 >>Collect 4 Bracers of Earth Binding
 >>You can find more around [21.48,59.77]
@@ -192,7 +192,7 @@ LLG.RegisterGuide([[
 .only level <= 40 or not hardcore
 
 #step
-.talk Elysa
+.talk Elysa##2317
 >>Upstairs inside the building.
 .goto Alterac Mountains,39.30,14.31
 .turnin Lord Aliden Perenolde##507
@@ -201,7 +201,7 @@ LLG.RegisterGuide([[
 .only level <= 40 or not hardcore
 
 #step
-.kill 1 Baron Vardus
+.kill 1 Baron Vardus##2306
 >>He can spawn in multiple camps around this area.
 .goto Alterac Mountains,47.83,17.11
 .complete 566,1 >>Collect Head of Baron Vardus
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.58,20.61
 >>Enter the building
-.talk Magus Wordeen Voidglare
+.talk Magus Wordeen Voidglare##2410
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -223,7 +223,7 @@ LLG.RegisterGuide([[
 .turnin Dalaran Patrols##545
 
 #step
-.talk Keeper Bel'varil
+.talk Keeper Bel'varil##2437
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -231,7 +231,7 @@ LLG.RegisterGuide([[
 .turnin Bracers of Binding##557
 
 #step
-.talk High Executor Darthalia
+.talk High Executor Darthalia##2215
 >>en:Standing in the middle of town.
 >>de:Steht in der Mitte der Stadt.
 >>She walks around this area.
@@ -242,7 +242,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,62.91,20.57
 >>Enter the building
-.talk Krusk
+.talk Krusk##2229
 >>en:Standing inside the church.
 >>de:Steht in der Kirche.
 >>Inside the building.

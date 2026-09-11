@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Ruzan
+.talk Ruzan##5765
 >>en:Standing next to a big wooden cart.
 >>de:Steht neben einem großen Holzkarren.
 .goto Durotar,42.59,69.00
@@ -23,14 +23,14 @@ LLG.RegisterGuide([[
 .only Orc and Warlock
 
 #step
-.kill 1 Vile Familiar
+.kill 1 Vile Familiar##3101
 >>Inside and outside the cave.
 .goto Durotar,45.34,56.36
 .complete 1485,1 >>Collect 6 Vile Familiar Head
 .only Orc and Warlock
 
 #step
-.talk Ruzan
+.talk Ruzan##5765
 >>en:Standing next to a big wooden cart.
 >>de:Steht neben einem großen Holzkarren.
 .goto Durotar,42.59,69.00
@@ -40,14 +40,14 @@ LLG.RegisterGuide([[
 .only Orc and Warlock
 
 #step
-.talk Zureetha Fargaze
+.talk Zureetha Fargaze##3145
 >>de:Standing under a big red canopy.
 .goto Durotar,42.85,69.15
 .turnin Vile Familiars##1499
 .only Orc and Warlock
 
 #step
-.talk Venya Marthand
+.talk Venya Marthand##5667
 >>en:Standing inside the church, to the left as you enter.
 >>de:Steht in der Kirche, links beim Eintreten.
 >>Inside the building.
@@ -56,13 +56,13 @@ LLG.RegisterGuide([[
 .only Scourge and Warlock
 
 #step
-.kill 1 Rattlecage Skeleton
+.kill 1 Rattlecage Skeleton##1890
 .goto Durotar,32.73,60.10
 .complete 1470,1 >>Collect 3 Rattlecage Skull
 .only Scourge and Warlock
 
 #step
-.talk Venya Marthand
+.talk Venya Marthand##5667
 >>en:Standing inside the church, to the left as you enter.
 >>de:Steht in der Kirche, links beim Eintreten.
 >>Inside the building.
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tirisfal Glades,61.56,53.04
 >>Enter the building
-.talk Ageron Kargal
+.talk Ageron Kargal##5724
 >>en:Upstairs in the inn, standing next to a bed.
 >>de:Oben im Gasthaus, steht neben einem Bett.
 >>Upstairs inside the building.
@@ -89,7 +89,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Tirisfal Glades,61.88,65.06
 >>Enter Undercity
-.talk Carendin Halgar
+.talk Carendin Halgar##5675
 >>en:Standing next to a bubbling pool.
 >>de:Steht neben einem blubbernden Becken.
 .goto Undercity,85.04,26.01
@@ -114,7 +114,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Tirisfal Glades,61.88,65.06
 >>Enter Undercity
-.talk Carendin Halgar
+.talk Carendin Halgar##5675
 >>en:Standing next to a bubbling pool.
 >>de:Steht neben einem blubbernden Becken.
 .goto Undercity,85.04,26.01
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warlock
 
 #step
-.click the Runes of Summoning
+.click the Runes of Summoning##6284
 >>Use them on the pink symbol on the ground.
 .goto Undercity,86.62,27.10
 .complete 1471,1 >>Kill Summoned Voidwalker
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warlock
 
 #step
-.talk Carendin Halgar
+.talk Carendin Halgar##5675
 >>en:Standing next to a bubbling pool.
 >>de:Steht neben einem blubbernden Becken.
 .goto Undercity,85.04,26.01
@@ -140,7 +140,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warlock
 
 #step
-.talk Ophek
+.talk Ophek##3294
 >>en:Standing on the side of the big building, next to a red canopy.
 >>de:Steht seitlich am großen Gebäude, neben einem roten Baldachin.
 >>Outside, behind the building.
@@ -157,7 +157,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,55.96,41.03
 >>Follow the path down
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent.
@@ -184,7 +184,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Durotar,51.68,8.23
 >>Continue following the path
-.click Burning Blade Stash
+.click Burning Blade Stash##58595
 >>Inside the cave.
 .goto Durotar,51.62,9.74
 .complete 1501,1 >>Collect Tablet of Verga
@@ -205,7 +205,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,55.96,41.03
 >>Follow the path down
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent.
@@ -216,7 +216,7 @@ LLG.RegisterGuide([[
 .only Orc and Warlock
 
 #step
-.click Glyphs of Summoning
+.click Glyphs of Summoning##7464
 >>Use it while standing on the pink symbol on the ground.
 >>Inside the tent.
 .goto Orgrimmar,49.44,50.02
@@ -224,7 +224,7 @@ LLG.RegisterGuide([[
 .only Orc and Warlock
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent.
@@ -236,7 +236,7 @@ LLG.RegisterGuide([[
 .level 20
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent, inside the Cleft of Shadow.
@@ -245,7 +245,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Cazul
+.talk Cazul##5909
 >>en:Standing under a blue and purple canopy.
 >>de:Steht unter einem blaün und violetten Baldachin.
 .goto Orgrimmar,47.06,46.48
@@ -261,7 +261,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,38.07,60.65
 >>Enter the building
-.talk Zankaja
+.talk Zankaja##5910
 >>en:Inside a small house, standing behind a small round table.
 >>de:In einem kleinen Haus, steht hinter einem kleinen runden Tisch.
 >>Inside the building.
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gazrog
+.talk Gazrog##3464
 >>en:Standing in front of the inn.
 >>de:Steht vor dem Gasthaus.
 .goto The Barrens,51.93,30.32
@@ -292,7 +292,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stonetalon Mountains,75.01,97.08
 >>Jump down here
-.talk Ken'zigla
+.talk Ken'zigla##4197
 >>en:Standing under a canopy, in front of a serpent statue.
 >>de:Steht unter einem Baldachin, vor einer Schlangenstatü.
 .goto Stonetalon Mountains,73.25,95.12
@@ -312,7 +312,7 @@ LLG.RegisterGuide([[
 >>Continue following the road
 .goto The Barrens,50.83,29.09
 >>Follow the path
-.talk Grunt Logmar
+.talk Grunt Logmar##5911
 >>en:Standing next to some wooden crates.
 >>de:Standing next to some wooden crates.
 .goto The Barrens,44.62,59.27
@@ -322,7 +322,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Grunt Dogran
+.talk Grunt Dogran##5908
 >>en:Laying on the ground between 2 small huts.
 >>de:Laying on the ground between 2 small huts.
 >>Inside the hut.
@@ -335,7 +335,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,39.74,53.78
 >>Follow the path down
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent.
@@ -346,7 +346,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click Dogran's Pendant
+.click Dogran's Pendant##6626
 >>Use it while standing on the pink symbol on the ground.
 >>Inside the tent.
 .goto Orgrimmar,49.45,50.03
@@ -354,7 +354,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent.
@@ -366,7 +366,7 @@ LLG.RegisterGuide([[
 .level 30
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the building.
@@ -377,7 +377,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,61.93,36.72
 >>Follow the path up
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Seeking Strahad##2996
 .goto The Barrens,62.63,35.50
@@ -385,7 +385,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Jorah Annison
+.talk Jorah Annison##6293
 .goto Undercity,75.91,37.87
 .turnin Tome of the Cabal##1758
 .goto Undercity,75.91,37.87
@@ -395,7 +395,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,36.94,65.37
 >>Follow the path down
-.click Tome of the Cabal
+.click Tome of the Cabal##92013
 >>It looks like a blue book on the ground next to some crates.
 .goto Hillsbrad Foothills,27.78,72.78
 .complete 1803,1 >>Collect Moldy Tome
@@ -404,13 +404,13 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,44.09,37.29
 >>Enter the cave
-.click Damaged Chest
+.click Damaged Chest##92423
 .goto Thousand Needles,43.43,32.69
 .complete 1803,2 >>Collect Tattered Manuscript
 .only Warlock
 
 #step
-.talk Jorah Annison
+.talk Jorah Annison##6293
 .goto Undercity,75.91,37.87
 .turnin Tome of the Cabal##1803
 .goto Undercity,75.91,37.87
@@ -430,7 +430,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,61.93,36.72
 >>Follow the path up
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Tome of the Cabal##1805
 .goto The Barrens,62.63,35.50
@@ -438,14 +438,14 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click the Tome of the Cabal
+.click the Tome of the Cabal##6999
 >>Use it inside the building.
 .goto The Barrens,62.60,35.28
 .complete 1471,1 >>Kill Summoned Felhunter
 .only Warlock
 
 #step
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin The Binding##1471
 .only Warlock
@@ -454,7 +454,7 @@ LLG.RegisterGuide([[
 .level 40
 
 #step
-.talk Zevrost
+.talk Zevrost##3326
 >>Inside the building.
 .goto Orgrimmar,48.48,45.44
 .accept Summon Felsteed##3631
@@ -463,7 +463,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,61.93,36.72
 >>Follow the path up
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Summon Felsteed##3631
 .goto The Barrens,62.63,35.50
@@ -471,7 +471,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Summon Felsteed##4490
 .only Warlock
@@ -491,24 +491,23 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Niby the Almighty
+.talk Niby the Almighty##14469
 .goto Felwood,41.38,44.86
 .accept What Niby Commands##7601
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin What Niby Commands##7601
 .goto Felwood,41.36,45.02
 .accept Flawless Fel Essence##7602
 .goto Felwood,41.36,45.02
 .accept Hot and Itchy##8420
->>'
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin Hot and Itchy##8420
 .goto Felwood,41.36,45.02
@@ -516,7 +515,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.kill 1 Tainted Ooze
+.kill 1 Tainted Ooze##7092
 .goto Felwood,40.92,46.83
 .complete 8421,2 >>Collect 4 Bloodvenom Essence
 >>You can find more around here [41.93,49.75]
@@ -530,7 +529,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin The Wrong Stuff##8421
 .goto Felwood,41.36,45.02
@@ -540,7 +539,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,35.39,58.54
 >>Enter the building
-.kill 1 Jaedenar Legionnaire
+.kill 1 Jaedenar Legionnaire##9862
 >>They are found throughout the Shadow Hold.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Felwood,36.25,55.94
@@ -557,7 +556,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.kill 1 Felguard Sentry
+.kill 1 Felguard Sentry##6011
 .goto Blasted Lands,61.32,54.18
 .complete 7602,3 >>Collect Flawless Fel Essence (Dark Portal)
 >>You can find more around here [54.03,54.60]
@@ -613,7 +612,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin Flawless Fel Essence##7602
 .goto Felwood,41.36,45.02
@@ -629,15 +628,15 @@ LLG.RegisterGuide([[
 >>Continue following the road
 .goto Felwood,41.25,36.95
 >>Follow the path
-.click the Fel Fire
-.kill 1 Kroshius
+.click the Fel Fire##18626
+.kill 1 Kroshius##14467
 >>You may need help.
 .goto Felwood,45.73,34.81
 .complete 7603,1 >>Collect Kroshius' Infernal Core
 .only Warlock
 
 #step
-.talk Niby the Almighty
+.talk Niby the Almighty##14469
 .goto Felwood,41.38,44.86
 .turnin Kroshius' Infernal Core##7603
 .only Warlock
@@ -685,7 +684,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 .goto Orgrimmar,47.52,46.73
 .accept Mor'zul Bloodbringer##7562
 .only Warlock
@@ -693,7 +692,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .turnin Mor'zul Bloodbringer##7562
 .goto Burning Steppes,12.69,31.64
@@ -712,7 +711,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .turnin Rage of Blood##7563
 .goto Burning Steppes,12.69,31.64
@@ -720,7 +719,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Wildeyes##7564
 .goto Burning Steppes,12.43,31.63
@@ -728,7 +727,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .accept Bell of Dethmoora##7626
 .goto Burning Steppes,12.69,31.64
@@ -738,7 +737,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Bell of Dethmoora##7626
 .goto Burning Steppes,12.43,31.63
@@ -750,19 +749,19 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Arcanite##7630
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .complete 7623 >>Buy 6 Shadowy Potion
 .only Warlock
 
 #step
-.click the Shadowy Potion
+.click the Shadowy Potion##18802
 >>use it before you enter Shadow Hold.
 >>It will make most enemies inside friendly for 20 minutes.
 .goto Felwood,35.42,58.61
@@ -799,13 +798,13 @@ LLG.RegisterGuide([[
 >>[37.33,47.22]
 
 #step
-.click the Shadowy Potion
+.click the Shadowy Potion##18802
 >>You need to have this buff for the next step.
 .kill 1 the Taint of Shadow Buff
 .only Warlock
 
 #step
-.talk Lord Banehollow
+.talk Lord Banehollow##9516
 >>Inside the cave.
 .goto Felwood,35.93,44.41
 .turnin Lord Banehollow##7623
@@ -826,7 +825,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Felwood,40.06,48.94
 >>Cross the bridge
-.talk Ulathek
+.talk Ulathek##14523
 .goto Felwood,39.89,49.17
 >>Remove the Taint of Shadow buff
 .only Warlock
@@ -834,13 +833,13 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,40.02,48.99
 >>Cross the bridge
-.kill 1 Ulathek
+.kill 1 Ulathek##14523
 .goto Felwood,40.77,48.42
 .complete 7624,1 >>Collect The Traitor's Heart
 .only Warlock
 
 #step
-.click the Shadowy Potion
+.click the Shadowy Potion##18802
 .complete 7624 >>Collect the Taint of Shadow Buff
 .only Warlock
 
@@ -862,7 +861,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Felwood,37.46,47.35
 >>Cross the bridge
-.talk Lord Banehollow
+.talk Lord Banehollow##9516
 >>Inside the cave.
 .goto Felwood,35.93,44.41
 .turnin Ulathek the Traitor##7624
@@ -871,7 +870,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Ur'dan
+.talk Ur'dan##14522
 >>Inside the cave.
 .goto Felwood,36.17,44.46
 .complete 7625,1 >>Buy Xorothian Stardust
@@ -880,7 +879,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Xorothian Stardust##7625
 .goto Burning Steppes,12.43,31.63
@@ -902,7 +901,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click Imp in a Jar
+.click Imp in a Jar##18688
 >>Use it near the Alchemy Station at the start of the room with Ras Frostwhisper.
 >>Watch the dialogue
 .complete 7629,1 >>Create the Parchment
@@ -911,23 +910,23 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Imp Delivery##7629
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
-.kill 1 J'eevee's Jar
+.kill 1 J'eevee's Jar##18663
 .goto Burning Steppes,12.43,31.63
-.kill 1 Black Lodestone
+.kill 1 Black Lodestone##18629
 .goto Burning Steppes,12.43,31.63
-.kill 1 Xorothian glyphs
+.kill 1 Xorothian glyphs##18670
 .only Warlock
 
 #step
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .accept Dreadsteed of Xoroth##7631
 .only Warlock
@@ -958,7 +957,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul - West Dungeon:
-.click J'eevee's Jar
+.click J'eevee's Jar##18663
 >>Use it in the area where Immol'thar is.
 >>Clear the room before starting.
 .kill 1 enemies around this area
@@ -967,10 +966,10 @@ LLG.RegisterGuide([[
 >>Recharge the Bell, Wheel and Candle as they run out of charges.
 >>They will tilt when they need to be recharged.
 >>Use the "Black Lodestone" to fix them, which costs a soul shard.
-.click Xorothian glyphs
-.kill 1 Xorothian Dreadsteed
+.click Xorothian glyphs##18670
+.kill 1 Xorothian Dreadsteed##14502
 >>At 50% health, Lord Hel'nurath will appear and need to be killed.
-.talk Dreadsteed Spirit
+.talk Dreadsteed Spirit##14504
 .turnin Dreadsteed of Xoroth##7631
 .only Warlock
 ]])

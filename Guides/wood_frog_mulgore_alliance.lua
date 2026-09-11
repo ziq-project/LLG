@@ -14,12 +14,12 @@ LLG.RegisterGuide([[
 #category events
 
 #step
-.talk Flik
+.talk Flik##14860
 >>He's a little Orc boy running fast all over the Darkmoon Faire grounds.
 >>You will have to be quick to catch him.
 >>Talking to him will stop him for a short period of time.
 .goto Mulgore,36.72,37.36
-.kill 1 Wood Frog Box
+.kill 1 Wood Frog Box##11027
 >>This item costs 1 gold and has a limited quantity of 1.
 >>It respawns in approximately 20 minutes.
 ]])

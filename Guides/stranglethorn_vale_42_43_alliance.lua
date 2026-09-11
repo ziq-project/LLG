@@ -18,8 +18,8 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,50.94,57.84
 >>Enter the building
-.talk Frederick Stover
-.kill 1 Massive Longbow
+.talk Frederick Stover##1298
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in Stormwind City and Ironforge.
@@ -27,10 +27,10 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Stormwind City,49.98,57.64
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,55.29,68.12
 >>Enter the building
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Stormwind City,57.66,72.78
@@ -52,13 +52,13 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,41.16,63.63
 >>Enter the building
-.talk Mazen Mac'Nadir
+.talk Mazen Mac'Nadir##338
 >>Inside the building.
 .goto Stormwind City,41.52,64.38
 .accept Mazen's Behest##1363
 
 #step
-.talk Acolyte Dellis
+.talk Acolyte Dellis##5386
 >>Upstairs inside the building.
 .goto Stormwind City,40.97,63.83
 .turnin Mazen's Behest##1363
@@ -68,14 +68,14 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,39.32,81.50
 >>Run up the ramp and enter the building
-.talk High Sorcerer Andromath
+.talk High Sorcerer Andromath##5694
 >>Upstairs inside the building.
 .goto Stormwind City,37.52,81.67
 .accept Vital Supplies##1477
 .only walking
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 .accept Skullsplitter Tusks##209
 
 #step
-.talk Fleet Master Seahorn
+.talk Fleet Master Seahorn##2487
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building, on the top floor.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -103,7 +103,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -111,13 +111,13 @@ LLG.RegisterGuide([[
 .accept Venture Company Mining##600
 
 #step
-.talk Innkeeper Skindle
+.talk Innkeeper Skindle##6807
 >>Inside the building, on the bottom floor.
 .goto Stranglethorn Vale,27.04,77.31
 .hs
 
 #step
-.talk Catelyn the Blade
+.talk Catelyn the Blade##2542
 >>Upstairs inside the building, on the middle floor.
 .goto Stranglethorn Vale,27.28,77.53
 .turnin Ansirem's Key##603
@@ -127,7 +127,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
@@ -138,7 +138,7 @@ LLG.RegisterGuide([[
 >>Run up the ramp and cross the bridge
 .goto Stranglethorn Vale,28.21,77.32
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -147,7 +147,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk First Mate Crazz
+.talk First Mate Crazz##2490
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 .goto Stranglethorn Vale,28.10,76.22
@@ -156,7 +156,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.00,73.46
 >>Enter the tunnel to leave Booty Bay
-.kill 1 "Pretty Boy" Duncan
+.kill 1 "Pretty Boy" Duncan##2545
 >>only hardcore :: Watch for respawns while you make you way here.
 >>only hardcore :: Enemies tend to be bunched up at the camp.
 .goto Stranglethorn Vale,27.38,69.41
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Booty and Bay")
 
 #step
-.click Bloodsail Correspondence
+.click Bloodsail Correspondence##2083
 .goto Stranglethorn Vale,27.28,69.52
 .turnin The Bloodsail Buccaneers##595
 .goto Stranglethorn Vale,27.28,69.52
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,29.56,72.51
 >>Enter the tunnel to enter Booty Bay
-.talk First Mate Crazz
+.talk First Mate Crazz##2490
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 .goto Stranglethorn Vale,28.10,76.21
@@ -185,7 +185,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Catelyn the Blade
+.talk Catelyn the Blade##2542
 >>Upstairs inside the building, on the middle floor.
 .goto Stranglethorn Vale,27.28,77.53
 .turnin "Pretty Boy" Duncan##610
@@ -193,7 +193,7 @@ LLG.RegisterGuide([[
 .accept The Curse of the Tides##611
 
 #step
-.talk Fleet Master Seahorn
+.talk Fleet Master Seahorn##2487
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building, on the top floor.
@@ -203,7 +203,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.00,73.46
 >>Enter the tunnel to leave Booty Bay
-.kill 1 Elder Mistvale Gorilla
+.kill 1 Elder Mistvale Gorilla##1557
 .goto Stranglethorn Vale,31.72,67.03
 .complete 606,1 >>Collect 5 Mistvale Giblets
 >>You can find more around:
@@ -264,7 +264,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,39.04,5.15
 >>Follow the path up into the Rebel Camp
-.talk Brother Nimetz
+.talk Brother Nimetz##739
 .goto Stranglethorn Vale,37.83,3.56
 .turnin Troll Witchery##205
 .only walking and not subzone("Rebel and Camp")
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,39.28,5.59
 >>Leave the Rebel Camp
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
@@ -280,7 +280,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
@@ -290,7 +290,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.kill 1 Elder Saltwater Crocolisk
+.kill 1 Elder Saltwater Crocolisk##2635
 >>They are level 38 elites, but you should be able to kill one at this level.
 >>They share spawns with Saltwater Crocolisks, so kill those also, if you can't find any.
 >>If you have trouble, try to find someone to help you.
@@ -309,20 +309,20 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.click Altar of the Tides
+.click Altar of the Tides##2576
 >>It's important to pay attention to your breath during this step.
 >>It looks like a stone table underwater.
 >>Try to swim down directly on top of the stone table to avoid aggroing the elite murlocs nearby.
 >>If you can't do it without aggroing any murlocs, you should be able to kill them one at a time at this level.
 >>If you have trouble, try to find someone to help you, or skip the quest and abandon it.
-.kill 1 Gazban
+.kill 1 Gazban##2624
 >>He looks like a level 40 (non-elite) goblin that appears after you click the altar.
 >>Try to pull him away to fight him on the surface of the water, away from the elite murlocs.
 .goto Stranglethorn Vale,24.96,23.58
 .complete 611,1 >>Collect Stone of the Tides
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -330,7 +330,7 @@ LLG.RegisterGuide([[
 .turnin Venture Company Mining##600
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -338,7 +338,7 @@ LLG.RegisterGuide([[
 .accept Tran'rek##2864
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -346,7 +346,7 @@ LLG.RegisterGuide([[
 .turnin Skullsplitter Tusks##209
 
 #step
-.talk Baron Revilgaz
+.talk Baron Revilgaz##2496
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs, on the balcony of the building, on the top floor.
@@ -358,7 +358,7 @@ LLG.RegisterGuide([[
 >>Run up the ramp and cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -369,7 +369,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,75.00
 >>Enter the building
-.talk Haren Kanmae
+.talk Haren Kanmae##2839
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 8-10 extra stacks.
 >>You are about to have a long grind.
@@ -378,7 +378,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk "Shaky" Phillipe
+.talk "Shaky" Phillipe##2502
 >>de:Steht am Fuß der Rampe.
 .goto Stranglethorn Vale,26.90,73.59
 .turnin Scaring Shaky##606
@@ -403,7 +403,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel to enter Booty Bay
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07

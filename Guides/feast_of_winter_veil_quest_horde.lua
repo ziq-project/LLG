@@ -20,14 +20,14 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Furmund
+.talk Furmund##9550
 .goto Orgrimmar,50.85,65.26
 .accept The Reason for the Season##6964
 
 #step
 .goto Orgrimmar,40.32,36.94
 >>Enter the building
-.talk Sagorne Creststrider
+.talk Sagorne Creststrider##13417
 >>Inside the building.
 .goto Orgrimmar,38.66,35.92
 .turnin The Reason for the Season##6964
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.32,36.94
 >>Leave the building
-.talk Cairne Bloodhoof
+.talk Cairne Bloodhoof##3057
 >>en:Standing at the entrance of a hut.
 >>de:Steht am Eingang einer Hütte.
 >>Inside the building.
@@ -45,12 +45,12 @@ LLG.RegisterGuide([[
 .turnin The Feast of Winter Veil##7061
 
 #step
-.talk Kaymard Copperpinch
+.talk Kaymard Copperpinch##13418
 .goto Orgrimmar,53.33,66.49
 .accept Great-father Winter is Here!##6961
 
 #step
-.talk Great-father Winter
+.talk Great-father Winter##13445
 .goto Orgrimmar,52.49,69.18
 .turnin Great-father Winter is Here!##6961
 .goto Orgrimmar,52.49,69.18
@@ -61,16 +61,17 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,58.14,53.56
 >>Enter the building
-.talk Zamja
+.talk Zamja##3399
 >>Inside the building.
 .goto Orgrimmar,57.40,53.96
 .train
+.condition skillmax("Cooking") >= 75 >>Learn Apprentice Cooking
 .only walking
 
 #step
-.talk Penney Copperpinch
-.kill 1 Recipe: Gingerbread Cookie
-.click the Recipe: Gingerbread Cookie
+.talk Penney Copperpinch##13420
+.kill 1 Recipe: Gingerbread Cookie##17200
+.click the Recipe: Gingerbread Cookie##17200
 .goto Orgrimmar,53.21,65.89
 .train
 
@@ -80,7 +81,7 @@ LLG.RegisterGuide([[
 >>only not selfmade :: You can also buy them from the Auction House.
 
 #step
-.talk Penney Copperpinch
+.talk Penney Copperpinch##13420
 .goto Orgrimmar,53.21,65.89
 .complete 6962 >>Buy 5 Holiday Spices
 
@@ -94,13 +95,13 @@ LLG.RegisterGuide([[
 .complete 6962,1 >>Collect 5 Gingerbread Cookie
 
 #step
-.talk Barkeep Morag
+.talk Barkeep Morag##5611
 >>Inside the building.
 .goto Orgrimmar,54.64,67.68
 .complete 6962,2 >>Buy Ice Cold Milk
 
 #step
-.talk Great-father Winter
+.talk Great-father Winter##13445
 .goto Orgrimmar,52.49,69.18
 .turnin Treats for Great-father Winter##6962
 >>After you turn in this quest, you can then repeat it to get more gifts to open.
@@ -111,7 +112,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Kaymard Copperpinch
+.talk Kaymard Copperpinch##13418
 .goto Orgrimmar,53.33,66.49
 .accept Stolen Winter Veil Treats##6963
 
@@ -120,7 +121,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Alterac Mountains,41.83,77.11
 >>Continue following the path
-.talk Strange Snowman
+.talk Strange Snowman##13636
 .goto Alterac Mountains,35.44,72.46
 .turnin Stolen Winter Veil Treats##6963
 .goto Alterac Mountains,35.44,72.46
@@ -128,7 +129,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 The Abominable Greench
+.kill 1 The Abominable Greench##13602
 >>He looks like a level 36 elite yeti.
 >>If you have trouble, try to find someone to help you.
 >>He can spawn in random places around the "Growless Cave" area.
@@ -138,14 +139,14 @@ LLG.RegisterGuide([[
 .complete 6983,1 >>Collect Stolen Treats
 
 #step
-.talk Kaymard Copperpinch
+.talk Kaymard Copperpinch##13418
 .goto Orgrimmar,53.33,66.49
 .turnin You're a Mean One...##6983
 .goto Orgrimmar,53.33,66.49
 .accept A Smokywood Pastures Thank You!##6984
 
 #step
-.talk Great-father Winter
+.talk Great-father Winter##13445
 .goto Orgrimmar,52.49,69.18
 .turnin A Smokywood Pastures Thank You!##6984
 
@@ -155,12 +156,12 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Kaymard Copperpinch
+.talk Kaymard Copperpinch##13418
 .goto Orgrimmar,53.33,66.49
 .accept Metzen the Reindeer##8746
 
 #step
-.click the Smokywood Satchel
+.click the Smokywood Satchel##21315
 .complete 8746,2 >>Collect Pouch of Reindeer Dust
 
 #step
@@ -170,7 +171,7 @@ LLG.RegisterGuide([[
 >>Leave the tunnel
 .goto Tanaris,73.18,45.56
 >>Follow the path
-.talk Metzen the Reindeer
+.talk Metzen the Reindeer##15664
 >>Inside the building.
 >>Choose _"Sprinkle some of the reindeer dust onto Metzen."_
 .goto Tanaris,73.35,48.07
@@ -178,7 +179,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Kaymard Copperpinch
+.talk Kaymard Copperpinch##13418
 .goto Orgrimmar,53.33,66.49
 .turnin Metzen the Reindeer##8746
 

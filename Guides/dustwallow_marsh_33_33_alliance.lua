@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Baldruc
+.talk Baldruc##4321
 >>en:On the side of the road, next to 2 big eagles.
 >>de:Am Straßenrand, neben 2 großen Adlern.
 .goto Dustwallow Marsh,67.48,51.30
@@ -25,16 +25,16 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,66.12,51.56
 >>Enter the building
-.talk Helenia Olden
+.talk Helenia Olden##4897
 >>Inside the building.
 .goto Dustwallow Marsh,66.44,51.46
-.kill 3 Soothing Spices
+.kill 3 Soothing Spices##3713
 >>Be careful not to accidentally sell these to a vendor.
 
 #step
 .goto Dustwallow Marsh,65.99,45.20
 >>Enter the building
-.talk Fiora Longears
+.talk Fiora Longears##4456
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 >>Inside the building.
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 .accept Highperch Venom##1135
 
 #step
-.talk Innkeeper Janene
+.talk Innkeeper Janene##6272
 >>Inside the building.
 .goto Dustwallow Marsh,66.59,45.22
 .hs
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Dustwallow Marsh,68.17,48.77
 >>Run up the stairs
-.talk Clerk Lendry
+.talk Clerk Lendry##5083
 >>en:Upstairs in the fort, standing behind a small wooden desk.
 >>de:Upstairs in the fort, standing behind a small wooden desk.
 >>Upstairs inside the building.
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 .only subzone("Theramore and Isle")
 
 #step
-.talk Commander Samaul
+.talk Commander Samaul##4964
 >>Upstairs inside the building.
 .goto Dustwallow Marsh,68.02,48.71
 .turnin The Missing Diplomat##1264
@@ -75,13 +75,13 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Dustwallow Marsh,64.82,46.60
 >>Leave Theramore Isle and follow the road
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.44,26.27
 .accept Soothing Spices##1218
 .only walking and subzone("Theramore and Isle")
 
 #step
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.44,26.27
 .turnin Soothing Spices##1218
 
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 .accept The Orc Report##1219
 
 #step
-.talk Mudcrush Durtfeet
+.talk Mudcrush Durtfeet##4503
 >>Follow the road to this location.
 >>Be careful to avoid Brackenwall Village and enemies along the way.
 >>The enemies in this zone are a good bit higher level than you.

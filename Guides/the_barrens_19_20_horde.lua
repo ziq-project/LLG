@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Jorn Skyseer
+.talk Jorn Skyseer##3387
 >>de:Standing in front of a huge teepee hut building.
 .goto The Barrens,44.86,59.14
 .turnin Jorn Skyseer##3261
@@ -25,7 +25,7 @@ LLG.RegisterGuide([[
 .accept Ishamuhale##882
 
 #step
-.kill 1 Stormsnout
+.kill 1 Stormsnout##3240
 .goto The Barrens,47.33,55.94
 .complete 821,3 >>Collect Thunder Lizard Horn
 >>You can find more around:
@@ -68,7 +68,7 @@ LLG.RegisterGuide([[
 >>[52.85,53.42]
 
 #step
-.kill 1 Lakota'mani
+.kill 1 Lakota'mani##3474
 >>It looks like a grey kodo that walks around this area.
 >>It's level 22, but you should be able to kill it at this level.
 >>if you have trouble, try to find someone to help you, or skip the quest.
@@ -82,33 +82,34 @@ LLG.RegisterGuide([[
 >>[44.62,49.07]
 
 #step
-.click the Hoof of Lakota'mani
+.click the Hoof of Lakota'mani##5099
 .goto The Barrens,55.53,42.70
 .accept Lakota'mani##883
+.only itemcount(5099) > 0
 
 #step
-.kill 1 Oasis Snapjaw
+.kill 1 Oasis Snapjaw##3461
 >>They look like turtles.
 >>Underwater and along the edges of the water around this area.
 .goto The Barrens,55.53,42.70
 .complete 880,1 >>Collect 8 Altered Snapjaw Shell
 
 #step
-.kill 1 Zhevra Charger
+.kill 1 Zhevra Charger##3426
 >>Kill a Zhevra en route.
 .goto The Barrens,60.55,32.81
 .complete 882 >>Collect Fresh Zhevra Carcass
 
 #step
-.click the Fresh Zhevra Carcass
-.kill 1 Ishamuhale
+.click the Fresh Zhevra Carcass##10338
+.kill 1 Ishamuhale##3257
 >>Grind en route.
 >>He looks like a raptor that appears nearby.
 .goto The Barrens,59.89,30.29
 .complete 882,1 >>Collect Ishamuhale's Fang
 
 #step
-.talk Wrenix the Wretched
+.talk Wrenix the Wretched##7161
 .goto The Barrens,63.07,36.32
 .turnin Plundering the Plunderers##2381
 .only Rogue
@@ -116,7 +117,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.89,36.52
 >>Enter the building
-.talk Gazlowe
+.talk Gazlowe##3391
 >>en:Upstairs in the green goblin hut building.
 >>de:Oben im grünen Goblinhüttengebäude.
 >>Upstairs inside the building.
@@ -124,7 +125,7 @@ LLG.RegisterGuide([[
 .turnin Stolen Booty##888
 
 #step
-.talk Sputtervalve
+.talk Sputtervalve##3442
 >>en:Under a green canopy.
 >>de:Under a green canopy.
 .goto The Barrens,62.98,37.22
@@ -133,7 +134,7 @@ LLG.RegisterGuide([[
 .accept Further Instructions##1095
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Collect these items from the bank.
 .goto The Barrens,62.64,37.42
 .complete 821 >>Collect 5 Plainstrider Kidney
@@ -141,7 +142,7 @@ LLG.RegisterGuide([[
 .complete 821 >>Collect 5 Savannah Lion Tusk
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
@@ -155,7 +156,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Brewmaster Drohn
+.talk Brewmaster Drohn##3292
 >>en:Standing on the side of a house, next to a green canopy with a blue stripe through it.
 >>de:Standing on the side of a house, next to a green canopy with a blü stripe through it.
 .goto The Barrens,62.26,38.39
@@ -164,7 +165,7 @@ LLG.RegisterGuide([[
 .accept Chen's Empty Keg##822
 
 #step
-.talk Vexspindle
+.talk Vexspindle##3492
 >>Inside the building.
 >>only Hunter or Rogue or Shaman or Druid :: He can sell Wolf Bracers, which are very strong bracers for a long time.
 >>only Hunter or Rogue or Shaman or Druid :: Purchase them if they are available.
@@ -172,7 +173,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Darsok Swiftdagger
+.talk Darsok Swiftdagger##3449
 >>en:Standing at the top of the watch tower.
 >>de:Standing at the top of the watch tower.
 >>At the top of the tower.
@@ -182,7 +183,7 @@ LLG.RegisterGuide([[
 .accept Serena Bloodfeather##876
 
 #step
-.talk Mankrik
+.talk Mankrik##3432
 >>de:Standing to the side of the road, under a little red canopy.
 .goto The Barrens,51.95,31.58
 .turnin Consumed by Hatred##899
@@ -193,7 +194,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin Altered Beings##880
@@ -203,7 +204,7 @@ LLG.RegisterGuide([[
 .accept Mura Runetotem##3301
 
 #step
-.talk Apothecary Helbrim
+.talk Apothecary Helbrim##3390
 >>en:Under a red canopy, next to a bar with a bunch of potions on it.
 >>de:Under a red canopy, next to a bar with a bunch of potions on it.
 .goto The Barrens,51.44,30.15
@@ -216,7 +217,7 @@ LLG.RegisterGuide([[
 .complete 853 >>Click Here to Continue
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 .goto The Barrens,44.55,59.24
@@ -225,14 +226,14 @@ LLG.RegisterGuide([[
 .accept Blood Shards of Agamaggan##5052
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 .goto The Barrens,44.55,59.24
 .turnin Blood Shards of Agamaggan##5052
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 >>You can now talk to Mangletooth and give him Blood Shards in exchange for buffs.
@@ -265,7 +266,7 @@ LLG.RegisterGuide([[
 .level 20
 
 #step
-.talk Jorn Skyseer
+.talk Jorn Skyseer##3387
 >>de:Standing in front of a huge teepee hut building.
 .goto The Barrens,44.86,59.14
 .turnin Ishamuhale##882
@@ -275,13 +276,13 @@ LLG.RegisterGuide([[
 .turnin Lakota'mani##883
 
 #step
-.kill 1 Thunderhead
+.kill 1 Thunderhead##3239
 .goto The Barrens,45.68,62.35
 .complete 907,1 >>Collect 3 Thunder Lizard Blood
 >>You can find more around [48.77,60.76]
 
 #step
-.talk Jorn Skyseer
+.talk Jorn Skyseer##3387
 >>de:Standing in front of a huge teepee hut building.
 .goto The Barrens,44.86,59.14
 .turnin Enraged Thunder Lizards##907
@@ -299,7 +300,7 @@ LLG.RegisterGuide([[
 >>[48.11,60.01]
 
 #step
-.talk Jorn Skyseer
+.talk Jorn Skyseer##3387
 >>de:Standing in front of a huge teepee hut building.
 .goto The Barrens,44.86,59.14
 .turnin Cry of the Thunderhawk##913
@@ -307,13 +308,13 @@ LLG.RegisterGuide([[
 .accept Mahren Skyseer##874
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 >>You are about to journey to Thunder Bluff, grab Spirit of the Wind before going if you do not alredy have the flight path.
 .goto The Barrens,44.55,59.24
 .click Here to Continue
-.only not Tauren
+.only itemcount(5075) >= 10 and not Tauren
 
 #step
 .goto Thunder Bluff,31.78,66.01
@@ -323,7 +324,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,44.99,62.17
 >>Enter the building
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 .goto Thunder Bluff,45.81,64.71
 .hs
@@ -342,24 +343,24 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,53.89,55.52
 >>Enter the building
-.talk Etu Ragetotem
+.talk Etu Ragetotem##3020
 >>Inside the building.
-.kill 1 Maul
+.kill 1 Maul##924
 >>If you can afford it.
 >>You will use it when you reach level 21.
 >>If you have better or plan on running Wailing Caverns, skip this step.
 .goto Thunder Bluff,53.19,58.29
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(924) == 0
 
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Urek Thunderhorn
-.talk Ker Ragetotem
-.talk Siln Skychaser
-.talk Thurston Xane
-.talk Malakai Cross
+.talk Urek Thunderhorn##3040
+.talk Ker Ragetotem##3043
+.talk Siln Skychaser##3030
+.talk Thurston Xane##3049
+.talk Malakai Cross##3045
 .goto Thunder Bluff,59.09,86.85
 .train
 .goto Thunder Bluff,57.63,85.53
@@ -375,7 +376,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Hesuwa Thunderhorn
+.talk Hesuwa Thunderhorn##10086
 .goto Thunder Bluff,54.21,83.86
 .train
 .only Hunter
@@ -383,7 +384,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Apothecary Zamah
+.talk Apothecary Zamah##3419
 >>en:Inside the cave beneath the hanging bridge.
 >>de:Inside the cave beneath the hanging bridge.
 >>Inside the cave.
@@ -395,13 +396,13 @@ LLG.RegisterGuide([[
 .only not subzone("The and Pools and of and Vision")
 
 #step
-.talk Clarice Foster
+.talk Clarice Foster##5543
 >>She patrols inside the cave.
 .goto Thunder Bluff,28.78,26.03
 .accept Until Death Do Us Part##264
 
 #step
-.talk Rahauro
+.talk Rahauro##11833
 >>He walks around this area.
 .goto Thunder Bluff,70.51,31.83
 .turnin Returning the Lost Satchel##5724
@@ -414,7 +415,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Thunder Bluff,74.12,29.89
 >>Enter the building
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.62,28.56
@@ -424,13 +425,13 @@ LLG.RegisterGuide([[
 .only subzone("The and Pools and of and Vision")
 
 #step
-.talk Kym Wildmane
+.talk Kym Wildmane##3036
 .goto Thunder Bluff,77.07,29.87
 .train
 .only Druid
 
 #step
-.talk Nara Wildmane
+.talk Nara Wildmane##5770
 >>en:To the right as you enter the big building.
 >>de:To the right as you enter the big building.
 >>Inside the building.
@@ -442,18 +443,18 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Leave the cave
-.talk Kuna Thunderhorn
-.kill 1 Heavy Recurve Bow
+.talk Kuna Thunderhorn##3015
+.kill 1 Heavy Recurve Bow##3027
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Thunder Bluff,47.00,45.70
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(3027) == 0
 
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Leave the cave
-.talk Tal
+.talk Tal##2995
 >>en:All the way at the top of the huge totem pole looking tower.
 >>de:Ganz oben auf dem Gebäude, das wie ein riesiger Totempfahl aussieht.
 >>At the top of the tower.
@@ -462,13 +463,13 @@ LLG.RegisterGuide([[
 .only subzone("The and Pools and of and Vision")
 
 #step
-.talk Mirket
+.talk Mirket##3325
 .goto Orgrimmar,48.61,46.97
 .train
 .only Warlock
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent, inside the Cleft of Shadow.
@@ -477,7 +478,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -487,7 +488,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Cazul
+.talk Cazul##5909
 >>en:Standing under a blue and purple canopy.
 >>de:Steht unter einem blaün und violetten Baldachin.
 >>Inside the Cleft of Shadow.
@@ -498,19 +499,19 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Dusk Wand
+.kill 1 Dusk Wand##5211
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Warlock
+.only Warlock and itemcount(5211) == 0
 
 #step
 .goto Orgrimmar,38.07,60.65
 >>Enter the building
-.talk Zankaja
+.talk Zankaja##5910
 >>en:Inside a small house, standing behind a small round table.
 >>de:In einem kleinen Haus, steht hinter einem kleinen runden Tisch.
 >>Inside the building.
@@ -521,7 +522,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gazrog
+.talk Gazrog##3464
 >>en:Standing in front of the inn.
 >>de:Steht vor dem Gasthaus.
 .goto The Barrens,51.93,30.32
@@ -531,36 +532,36 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Dusk Wand
+.kill 1 Dusk Wand##5211
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Priest
+.only Priest and itemcount(5211) == 0
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Dusk Wand
+.kill 1 Dusk Wand##5211
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Mage
+.only Mage and itemcount(5211) == 0
 
 #step
 .goto Orgrimmar,38.75,83.34
 >>Enter the building
-.talk Thuul
+.talk Thuul##5958
 >>Upstairs, on top of the building.
 .goto Orgrimmar,38.68,85.41
 .train
 .only Mage
 
 #step
-.kill 1 Hezrul Bloodmark
+.kill 1 Hezrul Bloodmark##3396
 >>He patrols around the lake.
 >>He has two lower level guards with him. At this level most classes should be able to kill Hezrul and run away, then loot the head after the guards reset.
 >>If you are worried, ask for help in chat or skip this step. You will need to grind a few thousand experience later if you opt to skip.
@@ -569,7 +570,7 @@ LLG.RegisterGuide([[
 .complete 852,1 >>Collect Hezrul's Head
 
 #step
-.talk Regthar Deathgate
+.talk Regthar Deathgate##3389
 >>en:Standing upstairs inside the round orc hut building.
 >>de:Standing upstairs inside the round orc hut building.
 >>Upstairs inside the building.
@@ -577,7 +578,7 @@ LLG.RegisterGuide([[
 .turnin Hezrul Bloodmark##852
 
 #step
-.kill 1 Serena Bloodfeather
+.kill 1 Serena Bloodfeather##3452
 >>Be careful, some of the harpies are stealthed around this area.
 .goto The Barrens,39.16,12.17
 .complete 876,1 >>Collect Serena's Head
@@ -591,7 +592,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,40.17,24.03
 >>Follow the path to Stonetalon Mountains
-.talk Seereth Stonebreak
+.talk Seereth Stonebreak##4049
 >>en:In a small camp to the side of the road.
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.26,27.88
@@ -600,7 +601,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Seereth Stonebreak
+.talk Seereth Stonebreak##4049
 >>en:In a small camp to the side of the road.
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.26,27.88
@@ -609,7 +610,7 @@ LLG.RegisterGuide([[
 .accept Shredding Machines##1068
 
 #step
-.talk Makaba Flathoof
+.talk Makaba Flathoof##11857
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.19,27.79
 .turnin Protect Kaya##6523

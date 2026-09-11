@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,47.40,37.30
 >>Enter the building
-.talk Jesper
+.talk Jesper##15310
 >>Inside the building.
 .goto Stormwind City,47.63,35.32
 .accept Hallow's End Treats for Jesper!##8311
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,53.39,64.96
 >>Enter the building
-.talk Innkeeper Allison
+.talk Innkeeper Allison##6740
 >>Inside the building.
 .goto Stormwind City,52.61,65.71
 .accept Flexing for Nougat##8356
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 .complete 8356,1 >>Flex for Inkeeper Allison
 
 #step
-.talk Innkeeper Allison
+.talk Innkeeper Allison##6740
 >>Inside the building.
 .goto Stormwind City,52.61,65.71
 .turnin Flexing for Nougat##8356
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,20.57,53.22
 >>Enter the building
-.talk Innkeeper Firebrew
+.talk Innkeeper Firebrew##5111
 >>en:In a little sideshop, behind the bar.
 >>de:In a little sideshop, behind the bar.
 >>Inside the building.
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 .complete 8353,1 >>Cluck Like a Chicken for Innkeeper Firebrew
 
 #step
-.talk Innkeeper Firebrew
+.talk Innkeeper Firebrew##5111
 >>en:In a little sideshop, behind the bar.
 >>de:In a little sideshop, behind the bar.
 >>Inside the building.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .complete 8311,3 >>Collect Ironforge Mint
 
 #step
-.talk Talvash del Kissel
+.talk Talvash del Kissel##6826
 .goto Ironforge,36.38,3.62
 .accept Incoming Gumdrop##8355
 
@@ -84,13 +84,13 @@ LLG.RegisterGuide([[
 .complete 8355,1 >>Do the "Train" for Talvash
 
 #step
-.talk Talvash del Kissel
+.talk Talvash del Kissel##6826
 .goto Ironforge,36.38,3.62
 .turnin Incoming Gumdrop##8355
 .complete 8311,2 >>Collect Gnomeregan Gumdrop
 
 #step
-.talk Innkeeper Saelienne
+.talk Innkeeper Saelienne##6735
 .goto Darnassus,67.42,15.65
 .accept Dancing for Marzipan##8357
 
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 .complete 8357,1 >>Dance for Inkeeper Saelienne
 
 #step
-.talk Innkeeper Saelienne
+.talk Innkeeper Saelienne##6735
 .goto Darnassus,67.42,15.65
 .turnin Dancing for Marzipan##8357
 .complete 8311,4 >>Collect Darnassus Marzipan
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,47.40,37.30
 >>Enter the building
-.talk Jesper
+.talk Jesper##15310
 >>Inside the building.
 .goto Stormwind City,47.63,35.32
 .turnin Hallow's End Treats for Jesper!##8311
@@ -119,12 +119,12 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Sergeant Hartman
+.talk Sergeant Hartman##15199
 .goto Hillsbrad Foothills,50.00,57.34
 .accept The Power of Pine##8373
 
 #step
-.click Stink Bomb Cleaner
+.click Stink Bomb Cleaner##20604
 >>Use it next to a stink bomb placed by a Horde player.
 >>They look like small metal objects surrounded by orange smoke on the ground around Southshore.
 >>Run around Southshore and look for them, they will most likely be near the outskirts of the town.
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 .complete 8373,1 >>Clean Up a Stink Bomb in Southshore
 
 #step
-.talk Sergeant Hartman
+.talk Sergeant Hartman##15199
 .goto Hillsbrad Foothills,50.00,57.34
 .turnin The Power of Pine##8373
 

@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only level < 60
 
 #step
-.talk First Mate Fitzsimmons
+.talk First Mate Fitzsimmons##1239
 >>en:Standing right next to the mailbox in front of the inn.
 >>de:Steht direkt neben dem Briefkasten vor dem Gasthaus.
 .goto Wetlands,10.89,59.67
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.76
 >>Enter the building
-.talk Glorin Steelbrow
+.talk Glorin Steelbrow##1217
 >>en:Inside the inn, wearing a white robe.
 >>de:Im Gasthaus, trägt eine weisse Robe.
 >>Inside the building.
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 .turnin The Doomed Fleet##270
 
 #step
-.talk Innkeeper Helbrek
+.talk Innkeeper Helbrek##1464
 >>en:Inside the inn, he walks around a little inside the inn.
 >>de:Im Gasthaus, er läuft dort etwas umher.
 >>He walks around inside the building.
@@ -50,7 +50,7 @@ LLG.RegisterGuide([[
 .hs
 
 #step
-.talk Archaeologist Flagongut
+.talk Archaeologist Flagongut##2911
 >>Upstairs inside the building.
 .goto Wetlands,10.84,60.43
 .accept The Absent Minded Prospector##943
@@ -59,7 +59,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.76
 >>Leave the building
-.talk Harlo Barnaby
+.talk Harlo Barnaby##2097
 >>en:Laying face down next to a big stump, to the left of the fort entrance.
 >>de:Liegt mit dem Gesicht nach unten neben einem großen Baumstumpf, links vom Festungseingang.
 .goto Wetlands,10.85,55.90
@@ -71,7 +71,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Wetlands,9.80,57.77
 >>Run up the stairs
-.talk Captain Stoutfist
+.talk Captain Stoutfist##2104
 >>en:All the way at the top of the fort, in front of the table.
 >>de:Ganz oben in der Festung, vor dem Tisch.
 >>Upstairs inside the building, in the large room.
@@ -81,7 +81,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.29,56.31
 >>Leave the building
-.talk Tarrel Rockweaver
+.talk Tarrel Rockweaver##2096
 >>en:Standing on the bridge, next to some boxes and barrels.
 >>de:Steht auf der Brücke, neben einigen Kisten und Fässern.
 >>He walks around this area.
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 .only subzone("Menethil and Keep")
 
 #step
-.click Damaged Crate
+.click Damaged Crate##261
 >>only hardcore :: Watch for murloc patrols in the area.
 >>only hardcore :: Enemies near the buildings tend to pull in groups so be careful.
 .goto Wetlands,13.51,41.38
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 .accept The Search Continues##284
 
 #step
-.click Sealed Barrel
+.click Sealed Barrel##142151
 >>only hardcore :: Watch for murloc patrols in the area.
 >>only hardcore :: Enemies near the buildings tend to pull in groups so be careful.
 .goto Wetlands,13.61,38.21
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .accept Search More Hovels##285
 
 #step
-.click Half-buried Barrel
+.click Half-buried Barrel##259
 >>only hardcore :: Watch for murloc patrols in the area.
 >>only hardcore :: Enemies near the buildings tend to pull in groups so be careful.
 .goto Wetlands,13.95,34.81
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,14.05,30.54
 >>Enter the hole in the side of the ship
-.kill 1 First Mate Snellig
+.kill 1 First Mate Snellig##1159
 >>Underwater, inside the sunken ship.
 >>only hardcore :: This area is dangerous due to occasionally fast respawn rates and large aggro radius.
 >>only hardcore :: Try to pull mobs from nearby to avoid having to deal with multiple at once.
@@ -141,7 +141,7 @@ LLG.RegisterGuide([[
 >>You can find more around [14.82,24.62]
 
 #step
-.kill 1 Giant Wetlands Crocolisk
+.kill 1 Giant Wetlands Crocolisk##2089
 .goto Wetlands,16.57,28.25
 .complete 471,1 >>Collect 6 Giant Crocolisk Skin
 >>You can find more around:
@@ -163,7 +163,7 @@ LLG.RegisterGuide([[
 >>Enter Whelgar's Excavation Site
 .goto Wetlands,37.11,42.98
 >>Follow the path up
-.talk Ormer Ironbraid
+.talk Ormer Ironbraid##1078
 >>en:He paces out in front of the cave up the hill.
 >>de:Er patrouilliert vor der Höhle auf dem Hügel.
 >>He walks around this area.
@@ -174,7 +174,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,38.32,51.59
 >>Enter the cave
-.talk Merrin Rockweaver
+.talk Merrin Rockweaver##1076
 >>en:In the cave up the hill.
 >>de:In der Höhle auf dem Hügel.
 >>Inside the cave.
@@ -184,7 +184,7 @@ LLG.RegisterGuide([[
 .accept In Search of The Excavation Team##306
 
 #step
-.click Flagongut's Fossil
+.click Flagongut's Fossil##9630
 >>Inside the cave.
 .goto Wetlands,38.86,52.21
 .complete 943,2 >>Collect Flagongut's Fossil
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 >>Enter Whelgar's Excavation Site
 .goto Wetlands,37.11,42.98
 >>Follow the path up
-.talk Ormer Ironbraid
+.talk Ormer Ironbraid##1078
 >>en:He paces out in front of the cave up the hill.
 >>de:Er patrouilliert vor der Höhle auf dem Hügel.
 >>He walks around this area.
@@ -230,7 +230,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,38.32,51.59
 >>Enter the cave
-.talk Prospector Whelgar
+.talk Prospector Whelgar##1077
 >>en:In the cave up the hill.
 >>de:In der Höhle auf dem Hügel.
 >>Inside the cave.
@@ -238,7 +238,7 @@ LLG.RegisterGuide([[
 .accept Uncovering the Past##299
 
 #step
-.click Loose Soil
+.click Loose Soil##331
 >>It looks like a large pile of dark brown dirt on the ground.
 >>It randomly spawns in multiple locations around this area.
 >>It can also spawn up on the cliff next to the higher level Sarltooth raptor.
@@ -252,7 +252,7 @@ LLG.RegisterGuide([[
 >>Up the path at [31.90,50.17]
 
 #step
-.click Ancient Relic
+.click Ancient Relic##333
 >>It looks like a large wide yellow vase sitting upright on the ground.
 >>It randomly spawns in multiple locations around this area.
 >>It can also spawn up on the cliff next to the higher level Sarltooth raptor.
@@ -266,7 +266,7 @@ LLG.RegisterGuide([[
 >>Up the path at [31.90,50.17]
 
 #step
-.click Ancient Relic
+.click Ancient Relic##333
 >>It looks like a large tall red vase sitting upright on the ground.
 >>It randomly spawns in multiple locations around this area.
 >>It can also spawn up on the cliff next to the higher level Sarltooth raptor.
@@ -280,7 +280,7 @@ LLG.RegisterGuide([[
 >>Up the path at [31.90,50.17]
 
 #step
-.click Ancient Relic
+.click Ancient Relic##333
 >>It looks like a large stone box container on the ground.
 >>It randomly spawns in multiple locations around this area.
 >>It can also spawn up on the cliff next to the higher level Sarltooth raptor.
@@ -310,7 +310,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,37.11,42.98
 >>Follow the path up
-.talk Ormer Ironbraid
+.talk Ormer Ironbraid##1078
 >>en:He paces out in front of the cave up the hill.
 >>de:Er patrouilliert vor der Höhle auf dem Hügel.
 >>He walks around this area.
@@ -323,7 +323,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,38.32,51.59
 >>Enter the cave
-.talk Prospector Whelgar
+.talk Prospector Whelgar##1077
 >>en:In the cave up the hill.
 >>de:In der Höhle auf dem Hügel.
 >>Inside the cave.
@@ -337,7 +337,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Wetlands,31.90,50.17
 >>Continue up the path
-.kill 1 Sarltooth
+.kill 1 Sarltooth##1353
 >>Up on the cliff.
 >>He looks like a level 29 blue raptor.
 >>He sometimes walks around in the valley below, with the other raptors, so if he's not here, check around.
@@ -348,7 +348,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,37.11,42.98
 >>Follow the path up
-.talk Ormer Ironbraid
+.talk Ormer Ironbraid##1078
 >>en:He paces out in front of the cave up the hill.
 >>de:Er patrouilliert vor der Höhle auf dem Hügel.
 >>He walks around this area.
@@ -376,7 +376,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Whelgar's and Excavation and Site")
 
 #step
-.talk Rethiel the Greenwarden
+.talk Rethiel the Greenwarden##1244
 >>en:Standing in a dirt circle half-surrounded by flowers and plants.
 >>de:Steht in einem Erdkreis, halb umgeben von Blumen und Pflanzen.
 .goto Wetlands,56.37,40.40
@@ -404,7 +404,7 @@ LLG.RegisterGuide([[
 .complete 335,2 >>Collect Musquash Root
 
 #step
-.talk Glorin Steelbrow
+.talk Glorin Steelbrow##1217
 >>en:Inside the inn, wearing a white robe.
 >>de:Im Gasthaus, trägt eine weisse Robe.
 >>Inside the building.
@@ -413,7 +413,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: You may not be able to accept this quest if you skipped an earlier quest in the chain.
 
 #step
-.talk Archaeologist Flagongut
+.talk Archaeologist Flagongut##2911
 >>Upstairs inside the building.
 .goto Wetlands,10.84,60.43
 .turnin The Absent Minded Prospector##943
@@ -421,7 +421,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.77
 >>Leave the building
-.talk First Mate Fitzsimmons
+.talk First Mate Fitzsimmons##1239
 >>en:Standing right next to the mailbox in front of the inn.
 >>de:Steht direkt neben dem Briefkasten vor dem Gasthaus.
 .goto Wetlands,10.89,59.67
@@ -431,7 +431,7 @@ LLG.RegisterGuide([[
 .only subzone("Deepwater and Tavern")
 
 #step
-.talk Karl Boran
+.talk Karl Boran##1242
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 >>He walks around this area.
@@ -439,7 +439,7 @@ LLG.RegisterGuide([[
 .turnin Return the Statuette##286
 
 #step
-.talk James Halloran
+.talk James Halloran##2094
 >>en:Standing to the left of the entrance to a small house.
 >>de:Steht links vom Eingang eines kleinen Hauses.
 >>He walks around this area.
@@ -451,7 +451,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Wetlands,9.80,57.77
 >>Run up the stairs
-.talk Captain Stoutfist
+.talk Captain Stoutfist##2104
 >>en:All the way at the top of the fort, in front of the table.
 >>de:Ganz oben in der Festung, vor dem Tisch.
 >>Upstairs inside the building, in the large room.
@@ -473,7 +473,7 @@ LLG.RegisterGuide([[
 .only subzone("Menethil and Keep")
 
 #step
-.kill 1 Bluegill Raider
+.kill 1 Bluegill Raider##1418
 >>Underwater and on the land around this area.
 .goto Wetlands,11.19,64.73
 .complete 324,1 >>Collect 5 Lightforge Ingot
@@ -482,7 +482,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.76
 >>Enter the building
-.talk Glorin Steelbrow
+.talk Glorin Steelbrow##1217
 >>en:Inside the inn, wearing a white robe.
 >>de:Im Gasthaus, trägt eine weisse Robe.
 >>Inside the building.

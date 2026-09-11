@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 >>Follow the path up and through the mountains
 .goto Stonetalon Mountains,74.22,97.13
 >>Enter the cave
-.talk Witch Doctor Jin'Zil
+.talk Witch Doctor Jin'Zil##3995
 >>de:Standing inside a cave.
 >>Inside the cave.
 >>You must be level 20 to accept this quest.
@@ -29,7 +29,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Barrens")
 
 #step
-.talk Ken'zigla
+.talk Ken'zigla##4197
 >>en:Standing under a canopy, in front of a serpent statue.
 >>de:Steht unter einem Baldachin, vor einer Schlangenstatü.
 .goto Stonetalon Mountains,73.25,95.13
@@ -39,7 +39,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Xen'Zilla
+.talk Xen'Zilla##12816
 >>en:Standing in a troll hut.
 >>de:Steht in einer Trollhütte.
 >>Inside the building.
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 >>Follow the road to this path
 .goto Stonetalon Mountains,49.20,61.91
 >>Follow the path up
-.talk Tsunaman
+.talk Tsunaman##11862
 >>en:Up the hill, next to a tent.
 >>de:Den Hügel hinauf, neben einem Zelt.
 >>It walks around this area.
@@ -62,14 +62,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tharm
+.talk Tharm##4312
 >>en:Standing near the pond.
 >>de:Steht nahe dem Teich.
 .goto Stonetalon Mountains,45.13,59.84
 .fly Sun Rock Retreat
 
 #step
-.talk Tammra Windfield
+.talk Tammra Windfield##11864
 >>en:Kneeling next to a mound of dirt.
 >>de:Kneeling next to a mound of dirt.
 .goto Stonetalon Mountains,47.46,58.38
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 .only haveq(6401) or completedq(6401)
 
 #step
-.talk Gereck
+.talk Gereck##10048
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 3".
 .goto Stonetalon Mountains,47.93,61.39
@@ -96,7 +96,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Gereck
+.talk Gereck##10048
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 3" to your permanent pet.
 .goto Stonetalon Mountains,47.93,61.39
@@ -104,7 +104,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Jeeda
+.talk Jeeda##4083
 >>Upstairs in the inn.
 >>She can sell healing potions as a limited supply item, check if they are in stock.
 .goto Stonetalon Mountains,47.61,61.59
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Crane Operator Bigglefuzz
+.talk Crane Operator Bigglefuzz##3665
 >>We are starting to head to Wailing Caverns now.
 .goto The Barrens,63.09,37.61
 .accept Trouble at the Docks##959
@@ -131,19 +131,19 @@ LLG.RegisterGuide([[
 .goto The Barrens,45.77,36.16
 >>Jump down carefully here
 >>Aim for the stone.
->>'
+.condition completedq(1486) and completedq(1487)
 .only walking
 
 #step
 .goto The Barrens,45.85,35.95
 >>Enter the cave
-.talk Nalpak
+.talk Nalpak##5767
 >>Inside the cave.
 .goto The Barrens,45.98,35.66
 .accept Deviate Hides##1486
 
 #step
-.talk Ebru
+.talk Ebru##5768
 >>Inside the cave.
 .goto The Barrens,46.01,35.74
 .accept Deviate Eradication##1487
@@ -157,7 +157,7 @@ LLG.RegisterGuide([[
 >>Continue follow the path
 .goto The Barrens,45.94,34.24
 >>Follow the path
-.kill 1 Mad Magglish
+.kill 1 Mad Magglish##3655
 >>He is stealthed inside the cave.
 >>Do not attempt to do this quest until you have your group with you.
 .goto The Barrens,45.69,33.60
@@ -174,9 +174,9 @@ LLG.RegisterGuide([[
 
 #step
 .collect Glowing Shard,1
-.click the Glowing Shard
-.accept The Glowing Shard##6981
->>'
+.click the Glowing Shard##10441
+.accept The Glowing Shard##6981 |or
+.only itemcount(10441) > 0
 
 #step
 >>Weiter nach Wailing Caverns
@@ -196,7 +196,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,45.85,35.95
 >>Enter the cave
-.talk Nalpak
+.talk Nalpak##5767
 >>Inside the cave.
 >>only not completedq(1486) :: If you did not finish this quest we will not run Wailing Caverns again in our guide.
 >>only not completedq(1486) :: You should abandon the quest unless you plan to do Wailing Caverns more for your own enjoyment.
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 .turnin Deviate Hides##1486
 
 #step
-.talk Ebru
+.talk Ebru##5768
 >>Inside the cave.
 >>only not completedq(1487) :: It is possible to get very unlucky and not finish this quest.
 >>only not completedq(1487) :: You should abandon the quest unless you plan to do Wailing Caverns more for your own enjoyment.
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 .turnin Deviate Eradication##1487
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
@@ -220,12 +220,12 @@ LLG.RegisterGuide([[
 .only completedq(1491)
 
 #step
-.talk Crane Operator Bigglefuzz
+.talk Crane Operator Bigglefuzz##3665
 .goto The Barrens,63.09,37.61
 .turnin Trouble at the Docks##959
 
 #step
-.talk Sputtervalve
+.talk Sputtervalve##3442
 >>en:Under a green canopy.
 >>de:Under a green canopy.
 >>Select _"Tell me about the Glowing Shard."_
@@ -240,7 +240,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto The Barrens,49.17,34.09
 >>Continue up the path
-.talk Falla Sagewind
+.talk Falla Sagewind##8418
 >>Inside the building.
 .goto The Barrens,48.18,32.78
 .turnin The Glowing Shard##6981
@@ -251,7 +251,7 @@ LLG.RegisterGuide([[
 .only haveq(3366) or completedq(3366)
 
 #step
-.talk Nara Wildmane
+.talk Nara Wildmane##5770
 >>en:To the right as you enter the big building.
 >>de:To the right as you enter the big building.
 >>Inside the building.
@@ -259,7 +259,7 @@ LLG.RegisterGuide([[
 .turnin Leaders of the Fang##914
 
 #step
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.59,28.56
@@ -268,7 +268,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.89,29.80
 >>Enter the cave
-.talk Apothecary Zamah
+.talk Apothecary Zamah##3419
 >>en:Inside the cave beneath the hanging bridge.
 >>de:Inside the cave beneath the hanging bridge.
 >>Inside the cave.
@@ -280,7 +280,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,59.04,62.24
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.

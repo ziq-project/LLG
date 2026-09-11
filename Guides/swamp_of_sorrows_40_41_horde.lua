@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Duskwood,83.73,42.32
 >>Follow the road
-.talk Deathstalker Zraedus
+.talk Deathstalker Zraedus##5418
 >>en:Standing at the bas of the watch tower.
 >>de:Standing at the bas of the watch tower.
 >>Be careful to avoid Darkshire as you travel here.
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Apothecary Faustin
+.talk Apothecary Faustin##5414
 >>en:Standing at the bas of the watch tower.
 >>de:Standing at the bas of the watch tower.
 .goto Duskwood,87.46,35.25
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,45.26,55.32
 >>Enter the building
-.talk Dar
+.talk Dar##5591
 >>en:Standing inside the inn, next to a fire.
 >>de:Steht im Gasthaus, neben einem Feür.
 >>Inside the building.
@@ -64,13 +64,13 @@ LLG.RegisterGuide([[
 .accept Lack of Surplus##698
 
 #step
-.talk Thultazor
+.talk Thultazor##983
 >>He can sell potions as a limited stock item, they may not be up.
 .goto Swamp of Sorrows,45.78,52.85
 >>Check for Potions
 
 #step
-.talk Breyk
+.talk Breyk##6026
 >>en:Standing next to two wind riders perched up on wooden posts.
 >>de:Steht neben zwei Windreitern, die auf Holzpfosten sitzen.
 .goto Swamp of Sorrows,46.07,54.82
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,47.18,54.29
 >>Enter the building
-.talk Helgrum the Swift
+.talk Helgrum the Swift##1442
 >>en:Inside the big building, upstairs, standing in a small room.
 >>de:Im großen Gebäude, oben, in einem kleinen Raum.
 >>Upstairs inside the building.
@@ -87,13 +87,13 @@ LLG.RegisterGuide([[
 .turnin Report to Helgrum##1420
 
 #step
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Upstairs inside the building.
 .goto Swamp of Sorrows,47.93,54.80
 .accept Pool of Tears##1424
 
 #step
-.talk Hekkru
+.talk Hekkru##10049
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 6".
 .goto Swamp of Sorrows,45.56,55.15
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Hekkru
+.talk Hekkru##10049
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 6" to your permanent pet.
 .goto Swamp of Sorrows,45.56,55.15
@@ -121,17 +121,17 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.kill 1 Noboru the Cudgel
+.kill 1 Noboru the Cudgel##5477
 >>He looks like a larger Lost One creature that walks around this area with 2 bodyguards.
 .collect Noboru's Cudgel,1
 
 #step
-.click Noboru's Cudgel
+.click Noboru's Cudgel##6196
 .goto Swamp of Sorrows,25.99,31.40
 .accept Noboru the Cudgel##1392
 
 #step
-.talk Magtoor
+.talk Magtoor##1776
 .goto Swamp of Sorrows,25.99,31.40
 .accept Draenethyst Crystals##1389
 
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 >>[55.77,53.75]
 
 #step
-.talk Tok'Kar
+.talk Tok'Kar##5592
 >>en:Standing in a small camp, next to a bonfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Swamp of Sorrows,81.32,80.97
@@ -155,15 +155,16 @@ LLG.RegisterGuide([[
 .accept Lack of Surplus##699
 
 #step
-.click an Elixir of Water Breathing
-.click Atal'ai Artifact
+.click an Elixir of Water Breathing##5996
+.click Atal'ai Artifact##30854
 >>They look like various small objects on the ground underwater around this area.
 >>You can find them all around this large lake.
 .goto Swamp of Sorrows,67.14,58.70
 .complete 1424,1 >>Collect 10 Atal'ai Artifact
+.only itemcount(5996) > 0
 
 #step
-.talk Galen Goodward
+.talk Galen Goodward##5391
 >>This is an escort quest that can be very difficult.
 >>only hardcore :: Don't be afraid to let Galen die and run away.
 >>Methodically clear the camp beside Galen before starting the escort to make it easier.
@@ -182,7 +183,7 @@ LLG.RegisterGuide([[
 .only haveq(1393)
 
 #step
-.kill 1 Ongeku
+.kill 1 Ongeku##5622
 >>He walks around this area, and can spawn in multiple locations.
 >>This quest was picked up during the Desolace 34-36 guide.
 .goto Swamp of Sorrows,61.31,23.25
@@ -205,23 +206,23 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,47.01,54.13
 >>Enter the building
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Upstairs inside the building.
 .goto Swamp of Sorrows,47.93,54.79
 .turnin Pool of Tears##1424
 
 #step
-.talk Hartash
-.kill 1 Falchion
+.talk Hartash##981
+.kill 1 Falchion##2528
 >>If you can afford it.
 >>You will use it when you reach level 41.
 >>If you have better, skip this step.
 .goto Swamp of Sorrows,45.67,50.92
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2528) == 0
 
 #step
-.talk Magtoor
+.talk Magtoor##1776
 .goto Swamp of Sorrows,25.99,31.40
 .turnin Draenethyst Crystals##1389
 .goto Swamp of Sorrows,25.99,31.40
@@ -248,14 +249,14 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
 .only Druid
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -263,7 +264,7 @@ LLG.RegisterGuide([[
 .turnin Skullsplitter Tusks##209
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -271,7 +272,7 @@ LLG.RegisterGuide([[
 .turnin Dream Dust in the Swamp##1116
 
 #step
-.talk Fleet Master Seahorn
+.talk Fleet Master Seahorn##2487
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs, outside on the balcony of the building.
@@ -280,7 +281,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -290,7 +291,7 @@ LLG.RegisterGuide([[
 .accept Tran'rek##2864
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -300,30 +301,31 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
 .accept Stoley's Debt##2872
 
 #step
-.talk Viznik Goldgrubber
+.talk Viznik Goldgrubber##2625
 >>Deposit these items into the bank.
 .goto Stranglethorn Vale,26.54,76.57
 .goto Orgrimmar,49.58,69.12
 >>Collect these items from the bank.
 .goto Stranglethorn Vale,26.54,76.57
 .complete 1136 >>Collect Frostmaw's Mane
+.only itemcount(4105) > 0
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .turnin Stinky's Escape##1270
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -331,16 +333,16 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the building.
-.kill 1 Blackbone Wand
+.kill 1 Blackbone Wand##5239
 >>It costs 3g 48s 58c so don't travel if you don't want to spend the money.
 .goto Orgrimmar,44.17,48.44
 >>Visit the Vendor
 .only Priest
 
 #step
-.talk Ogron
+.talk Ogron##4983
 >>en:Standing off to the side of the road by himself.
 >>de:Steht allein abseits der Straße.
 >>This is an escort quest.
@@ -362,7 +364,7 @@ LLG.RegisterGuide([[
 .complete 1273,1 >>Question Reethe with Ogron
 
 #step
-.talk Krog
+.talk Krog##4926
 >>en:Standing next to a cart and a bunch of boxes.
 >>de:Steht neben einem Wagen und einem Haufen Kisten.
 .goto Dustwallow Marsh,36.42,31.88
@@ -373,14 +375,14 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,45.35,58.81
 >>Enter the building
-.talk Innkeeper Byula
+.talk Innkeeper Byula##7714
 >>Inside the building.
 .goto The Barrens,45.58,59.04
 .hs
 
 #step
-.talk Kuna Thunderhorn
-.kill 1 Massive Longbow
+.talk Kuna Thunderhorn##3015
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in major cities.
@@ -388,23 +390,23 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Thunder Bluff,47.00,45.70
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
-.talk Mosarn
+.talk Mosarn##4943
 >>Inside the tent.
 .goto Thunder Bluff,54.01,80.77
 .turnin The Black Shield##1276
 
 #step
-.talk Sage Truthseeker
+.talk Sage Truthseeker##3978
 >>Inside the building.
 .goto Thunder Bluff,34.41,46.90
 .turnin Compendium of the Fallen##1049
 .only completedq(1049)
 
 #step
-.talk Melor Stonehoof
+.talk Melor Stonehoof##3441
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Thunder Bluff,61.53,80.90

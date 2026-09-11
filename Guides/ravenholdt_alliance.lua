@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 .kill 1 Syndicate enemies around this area
 >>They look like {o}humans{}.
 .goto Arathi Highlands,27.10,30.60
->>Reach _11,999/12,000 Honored_ Reputation with the Ravenholdt Faction
+.condition repval('Ravenholdt','Honored') >= 11999 >>Reach _11,999/12,000 Honored_ Reputation with the Ravenholdt Faction
 >>You can find more around [Arathi Highlands 19.50,61.50]
 
 #step
@@ -41,9 +41,9 @@ LLG.RegisterGuide([[
 >>This step will complete {o}when you have enough{}.
 
 #step
-.talk Fahrad
+.talk Fahrad##6707
 >>Upstairs in the building, {o}outside on the balcony{}.
 >>Complete the {o}Junkboxes Needed{} quest {o}repeatedly{}.
 .goto Alterac Mountains,84.45,80.32
->>Reach Exalted Reputation with the Ravenholdt Faction
+.condition rep("Ravenholdt") >= Exalted >>Reach Exalted Reputation with the Ravenholdt Faction
 ]])

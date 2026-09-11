@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Javnir Nashak
+.talk Javnir Nashak##15012
 .goto Durotar,46.10,13.77
 .accept Honoring a Hero##8150
 
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Ashenvale,84.20,72.05
 >>Continue following the path
-.click Grom's Tribute
+.click Grom's Tribute##19851
 .goto Ashenvale,82.85,79.04
 >>Place a Tribute at Grom's Monument
 .only walking
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Ashenvale,73.51,63.53
 >>Follow the path
-.talk Javnir Nashak
+.talk Javnir Nashak##15012
 .goto Durotar,46.10,13.77
 .turnin Honoring a Hero##8150
 .only walking

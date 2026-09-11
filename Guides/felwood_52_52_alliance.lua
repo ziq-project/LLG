@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Arathandris Silversky
+.talk Arathandris Silversky##9528
 >>en:Off the road to the right, up the hill.
 >>de:Off the road to the right, up the hill.
 >>She walks around this area.
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .accept Cleansing Felwood##4101
 
 #step
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 >>She walks around this area.
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,51.27,81.69
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -42,15 +42,15 @@ LLG.RegisterGuide([[
 .accept The Corruption of the Jadefire##4421
 
 #step
-.click the Package of Empty Ooze Containers
+.click the Package of Empty Ooze Containers##11912
 .goto Felwood,41.22,71.29
 .complete 4512 >>Collect 6 Empty Cursed Ooze Jar
 .goto Felwood,41.22,71.29
 .complete 4512 >>Collect 6 Empty Tainted Ooze Jar
 
 #step
-.kill 1 Cursed Ooze
-.click the Empty Cursed Ooze Jar
+.kill 1 Cursed Ooze##7086
+.click the Empty Cursed Ooze Jar##11914
 >>Use them on their corpses.
 .goto Felwood,41.22,71.29
 .complete 4512,1 >>Collect 6 Filled Cursed Ooze Jar
@@ -95,8 +95,8 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,42.64,65.46
 >>Leave the Ruins of Constellas and follow the road north
-.kill 1 Tainted Ooze
-.click the Empty Tainted Ooze Jar
+.kill 1 Tainted Ooze##7092
+.click the Empty Tainted Ooze Jar##11948
 >>Use them on their corpses.
 .goto Felwood,40.76,59.25
 .complete 4512,2 >>Collect 6 Filled Tainted Ooze Jar
@@ -149,7 +149,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,41.37,57.71
 >>Leave Jaedenar and follow the road south
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 >>She walks around this area.
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,51.27,81.69
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -172,7 +172,7 @@ LLG.RegisterGuide([[
 .accept Further Corruption##4906
 
 #step
-.talk Taronn Redfeather
+.talk Taronn Redfeather##10921
 >>en:Standing in a big hut.
 >>de:Standing in a big hut.
 >>Inside the building.
@@ -180,7 +180,7 @@ LLG.RegisterGuide([[
 .accept Verifying the Corruption##5156
 
 #step
-.talk Grazle
+.talk Grazle##11554
 >>en:Standing to the side of the road, next to a huge tree.
 >>de:Steht am Straßenrand, neben einem riesigen Baum.
 .goto Felwood,50.93,85.01
@@ -220,7 +220,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,49.56,88.70
 >>Leave Deadwood Village
-.talk Grazle
+.talk Grazle##11554
 >>en:Standing to the side of the road, next to a huge tree.
 >>de:Steht am Straßenrand, neben einem riesigen Baum.
 .goto Felwood,50.93,85.02
@@ -232,7 +232,7 @@ LLG.RegisterGuide([[
 #step
 .kill 1 Deadwood enemies around this area
 .goto Felwood,48.32,92.99
->>Reach Unfriendly Reputation with the Timbermaw Hold Faction
+.condition rep('Timbermaw Hold') >= Unfriendly >>Reach Unfriendly Reputation with the Timbermaw Hold Faction
 >>You are about to go through a long tunnel soon, full of level 52-54 enemies.
 >>If you are not at least Unfriendly with this faction, you will be attacked.
 >>only hardcore :: Watch for enemies grouped at the camps here as they may pull in groups.
@@ -247,7 +247,7 @@ LLG.RegisterGuide([[
 >>Leave Deadwood Village and follow the road north
 .goto Felwood,38.37,59.85
 >>Follow the path into Jaedenar
-.click the Empty Canteen
+.click the Empty Canteen##12922
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Watch for Jaedenar Adepts as they are ranged attackers.
 >>only hardcore :: Enemies may run away in fear when at low health.
@@ -289,7 +289,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Flute of Xavaric
+.click the Flute of Xavaric##11668
 .accept Flute of Xavaric##939
 
 #step
@@ -340,7 +340,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Felwood,61.80,16.20
 >>Follow the path to Talonbranch Glade
-.talk Mishellena
+.talk Mishellena##12578
 >>en:In the small village, next to a hippogryph.
 >>de:Im kleinen Dorf, neben einem Hippogryphen.
 .goto Felwood,62.49,24.24
@@ -350,7 +350,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,64.61,14.86
 >>Follow the road up
-.talk Nafien
+.talk Nafien##15395
 >>en:Standing to the side of the road in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager am Straßenrand, neben einem Lagerfeür.
 .goto Felwood,64.77,8.13

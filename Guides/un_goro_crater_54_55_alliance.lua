@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Collect these items from the bank.
 .goto The Barrens,62.64,37.42
 .collect Un'Goro Soil,1
@@ -27,14 +27,14 @@ LLG.RegisterGuide([[
 .collect Mithril Casing,1
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .accept Super Sticky##4504
 
 #step
-.talk Alchemist Pestlezugg
+.talk Alchemist Pestlezugg##5594
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -44,21 +44,21 @@ LLG.RegisterGuide([[
 .accept Bungle in the Jungle##4496
 
 #step
-.talk Williden Marshal
+.talk Williden Marshal##9270
 >>en:Standing to the right of the mouth of the cave.
 >>de:Standing to the right of the mouth of the cave.
 .goto Un'Goro Crater,43.95,7.14
 .accept Expedition Salvation##3881
 
 #step
-.talk Hol'anyee Marshal
+.talk Hol'anyee Marshal##9271
 >>en:Standing to the right of the mouth of the cave.
 >>de:Standing to the right of the mouth of the cave.
 .goto Un'Goro Crater,43.89,7.24
 .accept Alien Ecology##3883
 
 #step
-.talk Spark Nilminer
+.talk Spark Nilminer##9272
 >>en:Standing at the mouth of the cave.
 >>de:Standing at the mouth of the cave.
 .goto Un'Goro Crater,43.50,7.42
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -77,21 +77,21 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Leave the cave
-.click Beware of Pterrordax
+.click Beware of Pterrordax##174682
 >>It's a wanted board.
 .goto Un'Goro Crater,43.55,8.42
 .accept Beware of Pterrordax##4501
 .only subzone("Marshal's and Refuge")
 
 #step
-.talk Shizzle
+.talk Shizzle##9998
 >>en:Standing up on a hill.
 >>de:Standing up on a hill.
 .goto Un'Goro Crater,44.24,11.59
 .accept Shizzle's Flyer##4503
 
 #step
-.talk Karna Remtravel
+.talk Karna Remtravel##9618
 >>en:Standing next to some busted crates.
 >>de:Standing next to some busted crates.
 .goto Un'Goro Crater,46.38,13.45
@@ -100,14 +100,14 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,54.83,13.49
 >>Run around the huge tree and follow the path up
-.click Northern Crystal Pylon
+.click Northern Crystal Pylon##164955
 >>Choose _"I want to examine this pylon."_
 .goto Un'Goro Crater,56.48,12.45
 .complete 4285,1 >>Discover and Examine the Northern Crystal Pylon
 .only walking
 
 #step
-.kill 1 Pterrordax
+.kill 1 Pterrordax##9166
 >>Kill all of them around this area.
 >>You will kill more of these later, so you don't need to complete the quest now.
 .goto Un'Goro Crater,56.71,9.55
@@ -122,7 +122,7 @@ LLG.RegisterGuide([[
 >>[63.54,23.41]
 
 #step
-.kill 1 Un'Goro Gorilla
+.kill 1 Un'Goro Gorilla##6514
 >>Inside and outside the cave.
 >>The gorillas share spawn points.
 >>only hardcore :: They will call for help at low health, which will cause nearby gorillas to come to their aid.
@@ -131,7 +131,7 @@ LLG.RegisterGuide([[
 .complete 4289,1 >>Collect 2 Un'Goro Gorilla Pelt
 
 #step
-.kill 1 Un'Goro Stomper
+.kill 1 Un'Goro Stomper##6513
 >>Inside and outside the cave.
 >>The gorillas share spawn points.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -140,7 +140,7 @@ LLG.RegisterGuide([[
 .complete 4289,2 >>Collect 2 Un'Goro Stomper Pelt
 
 #step
-.kill 1 Un'Goro Thunderer
+.kill 1 Un'Goro Thunderer##6516
 >>Inside and outside the cave.
 >>The gorillas share spawn points.
 >>only hardcore :: Be mindful of your surroundings while fighting the Gorillas.
@@ -154,7 +154,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Un'Goro Crater,65.87,16.75
 >>Follow the path inside the cave
-.talk A-Me 01
+.talk A-Me 01##9623
 >>en:She's a brown mechanical gorilla laying face down up on the ledge here inside the cave.
 >>de:Sie ist ein brauner mechanischer Gorilla und liegt hier in der Höhle bäuchlings auf dem Vorsprung.
 >>Inside the cave.
@@ -172,9 +172,10 @@ LLG.RegisterGuide([[
 >>You don't have the Mithril Casing item, so you're unable to complete 2 quests from A-Me 01.
 >>Grind 12,000 xp on the apes inside and outside this cave to make up for the lost xp.
 .click Here to Continue After Grinding
+.only (itemcount(10561) == 0)
 
 #step
-.talk A-Me 01
+.talk A-Me 01##9623
 >>en:She's a brown mechanical gorilla laying face down up on the ledge here inside the cave.
 >>de:Sie ist ein brauner mechanischer Gorilla und liegt hier in der Höhle bäuchlings auf dem Vorsprung.
 >>Inside the cave.
@@ -184,8 +185,8 @@ LLG.RegisterGuide([[
 >>only hardcore :: If you are waiting, clear enemies between this spot and the cave entrance while waiting.
 .goto Un'Goro Crater,67.65,16.76
 .turnin Chasing A-Me 01##4244
->>only not completedq(4244) :: If you don't have the Mithril Casing to complete this quest, abandon the quest and grind 12,000 xp on the apes.
->>only not completedq(4244) :: This will make up for skipping this quest, and the escort quest followup.
+>>only (itemcount(10561) == 0) and not completedq(4244) :: If you don't have the Mithril Casing to complete this quest, abandon the quest and grind 12,000 xp on the apes.
+>>only (itemcount(10561) == 0) and not completedq(4244) :: This will make up for skipping this quest, and the escort quest followup.
 .goto Un'Goro Crater,67.65,16.76
 .accept Chasing A-Me 01##4245
 .only haveq(4244) or completedq(4244)
@@ -199,7 +200,7 @@ LLG.RegisterGuide([[
 .only haveq(4245) or completedq(4245)
 
 #step
-.talk Karna Remtravel
+.talk Karna Remtravel##9618
 >>en:Standing next to some busted crates.
 >>de:Standing next to some busted crates.
 .goto Un'Goro Crater,46.38,13.45
@@ -209,7 +210,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -223,7 +224,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Leave the cave
-.click Crate of Foodstuffs
+.click Crate of Foodstuffs##249
 .goto Un'Goro Crater,68.51,36.54
 .complete 3881,1 >>Collect Crate of Foodstuffs
 .only subzone("Marshal's and Refuge")
@@ -231,23 +232,23 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,76.66,48.69
 >>Follow the path up
-.click Eastern Crystal Pylon
+.click Eastern Crystal Pylon##164957
 >>Choose _"I want to examine this pylon."_
 .goto Un'Goro Crater,77.24,49.97
 .complete 4287,1 >>Discover and Examine the Eastern Crystal Pylon
 .only walking
 
 #step
-.click Torwa's Pouch
+.click Torwa's Pouch##11568
 .complete 4292 >>Collect Preserved Threshadon Meat
 .complete 4292 >>Collect Preserved Pheromone Mixture
 
 #step
-.click the Preserved Threshadon Meat
+.click the Preserved Threshadon Meat##11569
 >>Use this first.
-.click the Preserved Pheromone Mixture
+.click the Preserved Pheromone Mixture##11570
 >>Use this second.
-.kill 1 Lar'korwi
+.kill 1 Lar'korwi##9684
 >>Be sure to heal up before engaging.
 >>He's level 56, but you should be able to kill him at this level.
 >>If you have trouble, try to find someone to help you.
@@ -256,7 +257,7 @@ LLG.RegisterGuide([[
 .complete 4292,1 >>Collect Lar'korwi's Head
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.64,75.97
@@ -281,7 +282,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Un'Goro Crater,49.48,83.08
 >>Follow the path down
-.click the Unused Scraping Vial
+.click the Unused Scraping Vial##11132
 >>Inside the cave.
 >>only hardcore :: This cave is dangerous.
 >>only hardcore :: Be mindful of patrolling enemies while you travel through.
@@ -303,13 +304,13 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,49.94,81.65
 >>Leave the cave
-.click Research Equipment
+.click Research Equipment##161521
 .goto Un'Goro Crater,38.47,66.11
 .complete 3881,2 >>Collect Research Equipment
 .only subzone("The and Slithering and Scar")
 
 #step
-.talk Krakle
+.talk Krakle##10302
 >>en:Standing by himself under a small palm tree next to a pond.
 >>de:Steht allein unter einer kleinen Palme neben einem Teich.
 .goto Un'Goro Crater,30.93,50.43
@@ -318,7 +319,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,24.20,61.28
 >>Follow the path up
-.click Western Crystal Pylon
+.click Western Crystal Pylon##164956
 >>Choose _"I want to examine this pylon."_
 .goto Un'Goro Crater,23.79,59.19
 .complete 4288,1 >>Discover and Examine the Western Crystal Pylon
@@ -368,7 +369,7 @@ LLG.RegisterGuide([[
 >>[31.50, 68.90]
 
 #step
-.click Un'Goro Dirt Pile
+.click Un'Goro Dirt Pile##157936
 >>They look like piles of dark brown dirt on the ground around this area.
 >>You can find them all over the entire zone.
 .kill 1 enemies around this area
@@ -377,14 +378,14 @@ LLG.RegisterGuide([[
 >>Be careful not to accidentally sell these to a vendor.
 
 #step
-.talk Shizzle
+.talk Shizzle##9998
 >>en:Standing up on a hill.
 >>de:Standing up on a hill.
 .goto Un'Goro Crater,44.23,11.59
 .turnin Shizzle's Flyer##4503
 
 #step
-.talk Spraggle Frock
+.talk Spraggle Frock##9997
 >>en:In front of a big tree.
 >>de:In front of a big tree.
 .goto Un'Goro Crater,43.62,8.50
@@ -393,21 +394,21 @@ LLG.RegisterGuide([[
 .accept Lost!##4492
 
 #step
-.talk Spark Nilminer
+.talk Spark Nilminer##9272
 >>en:Standing at the mouth of the cave.
 >>de:Standing at the mouth of the cave.
 .goto Un'Goro Crater,43.50,7.43
 .turnin Roll the Bones##3882
 
 #step
-.talk Hol'anyee Marshal
+.talk Hol'anyee Marshal##9271
 >>en:Standing to the right of the mouth of the cave.
 >>de:Standing to the right of the mouth of the cave.
 .goto Un'Goro Crater,43.89,7.24
 .turnin Alien Ecology##3883
 
 #step
-.talk Williden Marshal
+.talk Williden Marshal##9270
 >>en:Standing to the right of the mouth of the cave.
 >>de:Standing to the right of the mouth of the cave.
 .goto Un'Goro Crater,43.95,7.14
@@ -416,7 +417,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -428,7 +429,7 @@ LLG.RegisterGuide([[
 .accept Making Sense of It##4321
 
 #step
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -449,7 +450,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Un'Goro Crater,51.18,47.35
 >>Continue up the path
-.click Krakle's Thermometer
+.click Krakle's Thermometer##12472
 >>At the top of the mountain.
 .goto Un'Goro Crater,49.70,45.74
 .complete 974,1 >>Find the Hottest Area of Fire Plume Ridge
@@ -465,7 +466,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,52.44,51.07
 >>Enter the cave
-.talk Ringo
+.talk Ringo##9999
 >>en:Laying face down in the cave.
 >>de:Liegt bäuchlings in der Höhle.
 >>Inside the cave.
@@ -490,7 +491,7 @@ LLG.RegisterGuide([[
 >>Ringo will follow you, protect him as you walk.
 >>He will faint multiple times as he walks, so make sure he is with you at all times.
 >>You will see a message in your chat when he faints.
-.click Spraggle's Canteen
+.click Spraggle's Canteen##11804
 >>Use it on Ringo to revive him when he faints.
 .goto Un'Goro Crater,43.62,8.51
 .complete 4491,1 >>Escort Ringo to Spraggle Frock at Marshal's Refuge
@@ -498,7 +499,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Spraggle Frock
+.talk Spraggle Frock##9997
 >>en:In front of a big tree.
 >>de:In front of a big tree.
 .goto Un'Goro Crater,43.62,8.51
@@ -522,7 +523,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 >>only hardcore :: Un'goro Gorilla will call for support when at low health, aggroing nearby allies onto you.
 >>only hardcore :: Watch for patrols and respawn while in the area.
-.kill 1 U'cha
+.kill 1 U'cha##9622
 >>Upstairs inside the cave.
 .goto Un'Goro Crater,68.15,12.58
 .complete 4301,1 >>Collect U'cha's Pelt
@@ -530,7 +531,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,63.88,16.43
 >>Leave the cave
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -538,7 +539,7 @@ LLG.RegisterGuide([[
 .only subzone("Fungal and Rock")
 
 #step
-.talk Krakle
+.talk Krakle##10302
 >>en:Standing by himself under a small palm tree next to a pond.
 >>de:Steht allein unter einer kleinen Palme neben einem Teich.
 .goto Un'Goro Crater,30.93,50.44
@@ -554,14 +555,14 @@ LLG.RegisterGuide([[
 .level 54
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .turnin Super Sticky##4504
 
 #step
-.talk Alchemist Pestlezugg
+.talk Alchemist Pestlezugg##5594
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -571,7 +572,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 .goto Tanaris,52.30,28.91
 .complete 4441 >>Collect Eridan's Vial
@@ -585,7 +586,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.52,38.57
 >>Enter the building
-.talk Liv Rizzlefix
+.talk Liv Rizzlefix##8496
 >>en:Inside the small engineering looking hut.
 >>de:Inside the small engineering looking hut.
 >>Inside the building.
@@ -593,7 +594,7 @@ LLG.RegisterGuide([[
 .turnin Volcanic Activity##4502
 
 #step
-.talk Erelas Ambersky
+.talk Erelas Ambersky##7916
 >>en:Just inside the house directly across from the dock.
 >>de:Just inside the house directly across from the dock.
 >>Inside the building.
@@ -603,7 +604,7 @@ LLG.RegisterGuide([[
 .accept Find Ranshalla##979
 
 #step
-.talk Daryn Lightwind
+.talk Daryn Lightwind##7907
 >>en:Upstairs, next to 2 bookcases.
 >>de:Upstairs, next to 2 bookcases.
 >>Upstairs inside the building.
@@ -611,7 +612,7 @@ LLG.RegisterGuide([[
 .accept Starfall##5250
 
 #step
-.talk Herald Moonstalker
+.talk Herald Moonstalker##10878
 >>She looks like a night elf that walks in a large path around Darnassus.
 >>She walks clockwise, so run counter clockwise to find her faster.
 .accept The New Frontier##1047
@@ -619,7 +620,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,39.04,76.76
 >>Enter the building
-.click Eridan's Vial
+.click Eridan's Vial##11682
 >>Inside the building.
 .goto Darnassus,39.51,83.92
 .complete 4441,1 >>Collect Vial of Blessed Water
@@ -629,7 +630,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Darnassus,35.52,10.70
 >>Enter the building
-.talk Arch Druid Fandral Staghelm
+.talk Arch Druid Fandral Staghelm##3516
 >>en:In the big tower all the way at the top.
 >>de:In the big tower all the way at the top.
 >>He walks around inside the building, at the top.
@@ -642,7 +643,7 @@ LLG.RegisterGuide([[
 .only subzone("Temple and of and the and Moon")
 
 #step
-.talk Jenal
+.talk Jenal##9047
 >>en:Behind the big tower, next to 3 big dirt piles.
 >>de:Hinter dem großen Turm, neben 3 großen Erdhaufen.
 >>On the ground, outside the building.
@@ -657,7 +658,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.70
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building, on the middle floor.
@@ -667,7 +668,7 @@ LLG.RegisterGuide([[
 .accept Rabine Saturna##6762
 
 #step
-.talk Arch Druid Fandral Staghelm
+.talk Arch Druid Fandral Staghelm##3516
 >>en:In the big tower all the way at the top.
 >>de:In the big tower all the way at the top.
 >>He walks around inside the building, at the top.
@@ -675,7 +676,7 @@ LLG.RegisterGuide([[
 .accept Morrowgrain Research##3781
 
 #step
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Inside the tower, on the middle level.
@@ -683,13 +684,13 @@ LLG.RegisterGuide([[
 .turnin Morrowgrain Research##3781
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Sildanair
-.talk Denatharion
-.talk Jandria
+.talk Syurna##4163
+.talk Sildanair##4089
+.talk Denatharion##4218
+.talk Jandria##4091
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,61.78,42.28
@@ -705,7 +706,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Cyroen
+.talk Cyroen##4220
 >>Inside the building, on the bottom floor.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -714,7 +715,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Auctioneer Golothas
+.talk Auctioneer Golothas##8723
 >>Inside the building.
 >>Buy these items from the auction house or collect them from your bank.
 >>You will turn them in for a lot of experience.
@@ -733,28 +734,31 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,61.25,23.25
 >>Run up the ramp
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 .goto Darnassus,64.02,23.00
 .accept A Donation of Wool##7792
-.only walking
+.only itemcount(2592) >= 60
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 .goto Darnassus,64.02,23.00
 .accept A Donation of Silk##7798
+.only itemcount(4306) >= 60
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 .goto Darnassus,64.02,23.00
 .accept A Donation of Mageweave##7799
+.only itemcount(4338) >= 60
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 .goto Darnassus,64.02,23.00
 .accept A Donation of Runecloth##7800
+.only itemcount(14047) >= 60
 
 #step
-.talk Kyrai
+.talk Kyrai##3561
 >>Upstairs inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.

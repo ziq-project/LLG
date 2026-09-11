@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Ezekiel Graves
+.talk Ezekiel Graves##4585
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Undercity,75.20,51.19
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Deposit these items into the bank.
 .goto Undercity,65.97,44.75
 >>Collect these items from the bank.
@@ -38,7 +38,7 @@ LLG.RegisterGuide([[
 .complete 3123 >>Collect Wildkin Muisek Vessel
 
 #step
-.talk Oran Snakewrithe
+.talk Oran Snakewrithe##7825
 >>en:Standing in a side shop in front of a bookcase.
 >>de:Standing in a side shop in front of a bookcase.
 .goto Undercity,73.06,32.85
@@ -47,21 +47,21 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.86,77.57
 >>Follow the path down
-.talk Chemist Cuely
+.talk Chemist Cuely##8390
 >>en:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 >>de:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 .goto Undercity,48.71,71.42
 .accept Seeping Corruption##3568
 
 #step
-.talk Apothecary Zinge
+.talk Apothecary Zinge##5204
 >>en:Standing against the back wall in the big underground room.
 >>de:Standing against the back wall in the big underground room.
 .goto Undercity,50.14,67.97
 .turnin Return to Apothecary Zinge##864
 
 #step
-.talk Hannah Akeley
+.talk Hannah Akeley##4575
 >>If you can afford it.
 >>Stock up on a few Runes of Teleportation to use to travel faster while leveling.
 .goto Undercity,82.78,15.83
@@ -69,12 +69,12 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Deposit these items into the bank.
 .goto Undercity,65.97,44.75
 
 #step
-.talk Kayren Soothallow
+.talk Kayren Soothallow##2401
 >>Buy enough ammo to fill your ammo bag, plus 6-8 stacks.
 >>You cannot buy level 40 ammo in the Hinterlands, so you need to stock up now, so you don't run out while questing.
 .goto Hillsbrad Foothills,62.56,19.91
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.click Venom Bottle
+.click Venom Bottle##142702
 >>only hardcore :: Avoid Aerie Peak while making your way into the Hinterlands.
 .goto The Hinterlands,22.99,57.72
 .accept Venom Bottles##2933
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,20.80,47.91
 >>Follow the path up
-.talk Gilveradin Sunchaser
+.talk Gilveradin Sunchaser##7801
 >>en:In a small camp, standing in front of a tent.
 >>de:In a small camp, standing in front of a tent.
 .goto The Hinterlands,26.71,48.59
@@ -109,7 +109,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,72.48,66.10
 >>Follow the road around the mountain and run down this path
-.talk Smith Slagtree
+.talk Smith Slagtree##14737
 >>en:Standing under a red canopy.
 >>de:Standing under a red canopy.
 >>He walks around this area.
@@ -120,7 +120,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,78.54,80.72
 >>Enter the building
-.talk Lard
+.talk Lard##14731
 >>en:Sitting inside the inn.
 >>de:Sitzt im Gasthaus.
 >>Inside the building.
@@ -129,7 +129,7 @@ LLG.RegisterGuide([[
 .accept Lard Lost His Lunch##7840
 
 #step
-.talk Katoom the Angler
+.talk Katoom the Angler##14740
 >>en:Standing on a box, fishing off the dock.
 >>de:Standing on a box, fishing off the dock.
 .goto The Hinterlands,80.33,81.53
@@ -139,7 +139,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Gammerita is an elite quest and you may need help.
 
 #step
-.talk Gorkas
+.talk Gorkas##4314
 >>en:Standing on the end of the dock.
 >>de:Steht am Ende des Docks.
 .goto The Hinterlands,81.70,81.76
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 
 #step
 .goto The Hinterlands,75.62,67.03
-.kill 1 Gammerita
+.kill 1 Gammerita##7977
 >>It looks like a blue turtle that walks around this area.
 >>It's a level 48 elite, but you should be able to kill it at this level.
 >>If you have trouble, try to find someone to help you.
@@ -199,7 +199,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,78.54,80.72
 >>Enter the building
-.talk Lard
+.talk Lard##14731
 >>en:Sitting inside the inn.
 >>de:Sitzt im Gasthaus.
 >>Inside the building.
@@ -208,7 +208,7 @@ LLG.RegisterGuide([[
 .turnin Lard Lost His Lunch##7840
 
 #step
-.talk Katoom the Angler
+.talk Katoom the Angler##14740
 >>en:Standing on a box, fishing off the dock.
 >>de:Standing on a box, fishing off the dock.
 .goto The Hinterlands,80.33,81.53
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 .turnin Gammerita, Mon!##7816
 
 #step
-.talk Huntsman Markhor
+.talk Huntsman Markhor##14741
 >>en:Standing at the base of a big troll hut, next to some boxes.
 >>de:Standing at the base of a big troll hut, next to some boxes.
 .goto The Hinterlands,79.16,79.52
@@ -228,7 +228,7 @@ LLG.RegisterGuide([[
 .accept Avenging the Fallen##7830
 
 #step
-.talk Otho Moji'ko
+.talk Otho Moji'ko##14738
 >>en:Dancing in a troll hut.
 >>de:Tanzt in einer Trollhütte.
 >>Inside the building.
@@ -236,7 +236,7 @@ LLG.RegisterGuide([[
 .accept Message to the Wildhammer##7841
 
 #step
-.talk Mystic Yayo'jin
+.talk Mystic Yayo'jin##14739
 >>en:Sitting in a troll hut.
 >>de:Sitting in a troll hut.
 >>She walks around inside the building.
@@ -266,7 +266,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,57.46,38.88
 >>Enter the cave
-.click Horde Supply Crate
+.click Horde Supply Crate##142191
 >>They look like brown wooden boxes on the ground inside the cave.
 >>only hardcore :: Watch for patrols and respawns while here.
 .goto The Hinterlands,57.36,41.68
@@ -277,7 +277,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto The Hinterlands,49.41,37.62
 .accept Find OOX-09/HL!##485
-.only subzone("Skulk and Rock")
+.only itemcount(8704) > 0
 
 #step
 .goto The Hinterlands,57.46,38.88
@@ -285,14 +285,14 @@ LLG.RegisterGuide([[
 .goto The Hinterlands,49.41,37.62
 .turnin Find OOX-09/HL!##485
 >>Do not accept the follow up to do the escort unless you are in a group. It is extremely difficult.
-.only subzone("Skulk and Rock")
+.only itemcount(8704) > 0
 
 #step
 .goto The Hinterlands,57.46,38.88
 >>Leave the cave
-.kill 1 Savage Owlbeast
+.kill 1 Savage Owlbeast##2929
 >>They are pretty spread out all around the eastern side of the Hinterlands.
-.click the Wildkin Muisek Vessel
+.click the Wildkin Muisek Vessel##9618
 >>Use it on their corpses.
 .goto The Hinterlands,62.58,40.86
 .complete 3123,1 >>Collect 10 Wildkin Muisek
@@ -332,7 +332,7 @@ LLG.RegisterGuide([[
 >>[65.74,57.99]
 
 #step
-.kill 1 Razorbeak Skylord
+.kill 1 Razorbeak Skylord##2659
 >>They look like flying eagle beasts.
 >>There are only two in the zone.
 >>One of them flies low to the ground around this area.
@@ -369,7 +369,7 @@ LLG.RegisterGuide([[
 .complete 2995,1 >>Burn the Highvale Records
 
 #step
-.talk Rin'ji
+.talk Rin'ji##7780
 >>en:Inside a cage inside the big building.
 >>de:In einem Käfig im großen Gebäude.
 >>Inside the building.
@@ -390,14 +390,14 @@ LLG.RegisterGuide([[
 .complete 2742,1 >>Escort Rin'ji to Safety
 
 #step
-.click Highvale Notes
+.click Highvale Notes##144072
 >>It is by barrels in the corner.
 >>only hardcore :: Enemies around this area may run away at low health.
 .goto The Hinterlands,29.63,48.66
 .complete 2995,2 >>Burn the Highvale Notes
 
 #step
-.click Highvale Report
+.click Highvale Report##144073
 >>It is on a table inside the shrine.
 >>only hardcore :: Enemies around this area may run away at low health.
 .goto The Hinterlands,28.56,46.05
@@ -426,14 +426,14 @@ LLG.RegisterGuide([[
 >>You can find more around this area, surrounding this building.
 
 #step
-.click Rin'ji's Secret
+.click Rin'ji's Secret##142127
 .goto The Hinterlands,86.30,59.01
 .turnin Rin'ji is Trapped!##2742
 .goto The Hinterlands,86.30,59.01
 .accept Rin'ji's Secret##2782
 
 #step
-.talk Smith Slagtree
+.talk Smith Slagtree##14737
 >>en:Standing under a red canopy.
 >>de:Standing under a red canopy.
 >>He walks around this area.
@@ -441,7 +441,7 @@ LLG.RegisterGuide([[
 .turnin Vilebranch Hooligans##7839
 
 #step
-.talk Mystic Yayo'jin
+.talk Mystic Yayo'jin##14739
 >>en:Sitting in a troll hut.
 >>de:Sitting in a troll hut.
 >>She walks around inside the building.
@@ -449,7 +449,7 @@ LLG.RegisterGuide([[
 .turnin Cannibalistic Cousins##7844
 
 #step
-.talk Otho Moji'ko
+.talk Otho Moji'ko##14738
 >>en:Dancing in a troll hut.
 >>de:Tanzt in einer Trollhütte.
 >>Inside the building.
@@ -459,7 +459,7 @@ LLG.RegisterGuide([[
 .accept Another Message to the Wildhammer##7842
 
 #step
-.talk Otho Moji'ko
+.talk Otho Moji'ko##14738
 >>en:Dancing in a troll hut.
 >>de:Tanzt in einer Trollhütte.
 >>Inside the building.
@@ -474,7 +474,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Huntsman Markhor
+.talk Huntsman Markhor##14741
 >>en:Standing at the base of a big troll hut, next to some boxes.
 >>de:Standing at the base of a big troll hut, next to some boxes.
 .goto The Hinterlands,79.16,79.53
@@ -487,7 +487,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.50,19.45
 >>Enter the building
-.talk Apothecary Lydon
+.talk Apothecary Lydon##2216
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -497,13 +497,13 @@ LLG.RegisterGuide([[
 .accept Undamaged Venom Sac##2934
 
 #step
-.talk Kayren Soothallow
+.talk Kayren Soothallow##2401
 >>only Hunter :: Stock up on ammo
 .goto Hillsbrad Foothills,62.56,19.91
 >>Visit the Vendor
 
 #step
-.click the Final Message to the Wildhammer
+.click the Final Message to the Wildhammer##19036
 >>Be careful, Alliance NPC enemies sometimes walk near this location.
 >>only hardcore :: This quest may PvP flag you if you get too close.
 .goto The Hinterlands,14.39,48.03
@@ -512,7 +512,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,20.44,48.08
 >>Follow the path up
-.talk Gilveradin Sunchaser
+.talk Gilveradin Sunchaser##7801
 >>en:In a small camp, standing in front of a tent.
 >>de:In a small camp, standing in front of a tent.
 .goto The Hinterlands,26.71,48.59
@@ -528,7 +528,7 @@ LLG.RegisterGuide([[
 >>Jump on the side rail of the stairs and follow the path up
 .goto The Hinterlands,33.20,74.97
 >>Jump down here
-.talk Atal'ai Exile
+.talk Atal'ai Exile##5598
 >>Standing on a ledge on the side of the building.
 .goto The Hinterlands,33.75,75.21
 .turnin The Atal'ai Exile##1429
@@ -537,7 +537,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Witherbark Broodguard
+.kill 1 Witherbark Broodguard##2686
 >>They look like spiders.
 >>This droprate is very low, grind enemies if there are no more spiders alive to stay busy.
 .goto The Hinterlands,34.38,72.92
@@ -548,7 +548,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Hinterlands,49.41,37.62
 .accept Find OOX-09/HL!##485
-.only walking and subzone("Shadra'Alor")
+.only itemcount(8704) > 0
 
 #step
 .goto The Hinterlands,35.80,64.19
@@ -556,14 +556,14 @@ LLG.RegisterGuide([[
 .goto The Hinterlands,49.41,37.62
 .turnin Find OOX-09/HL!##485
 >>Do not accept the follow up to do the escort unless you are in a group. It is extremely difficult.
-.only walking and subzone("Shadra'Alor")
+.only itemcount(8704) > 0
 
 #step
 .goto The Hinterlands,35.80,64.19
 >>Follow the path
 .goto The Hinterlands,72.48,66.10
 >>Follow the road around the mountain and run down this path
-.talk Otho Moji'ko
+.talk Otho Moji'ko##14738
 >>en:Dancing in a troll hut.
 >>de:Tanzt in einer Trollhütte.
 >>Inside the building.
@@ -572,7 +572,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Huntsman Markhor
+.talk Huntsman Markhor##14741
 >>en:Standing at the base of a big troll hut, next to some boxes.
 >>de:Standing at the base of a big troll hut, next to some boxes.
 >>Stable your permanent pet.
@@ -594,7 +594,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Huntsman Markhor
+.talk Huntsman Markhor##14741
 >>en:Standing at the base of a big troll hut, next to some boxes.
 >>de:Standing at the base of a big troll hut, next to some boxes.
 >>Abandon your temporary pet and get your permanent pet from the stable.
@@ -606,7 +606,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.50,19.45
 >>Enter the building
-.talk Apothecary Lydon
+.talk Apothecary Lydon##2216
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -614,14 +614,14 @@ LLG.RegisterGuide([[
 .turnin Undamaged Venom Sac##2934
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Deposit these items into the bank.
 .goto Undercity,65.97,44.75
 .goto Undercity,65.97,44.75
 >>You should have 12 of these.
 
 #step
-.talk Ezekiel Graves
+.talk Ezekiel Graves##4585
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Undercity,75.20,51.19
@@ -629,7 +629,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Oran Snakewrithe
+.talk Oran Snakewrithe##7825
 >>en:Standing in a side shop in front of a bookcase.
 >>de:Standing in a side shop in front of a bookcase.
 .goto Undercity,73.07,32.85
@@ -640,7 +640,7 @@ LLG.RegisterGuide([[
 .accept Oran's Gratitude##8273
 
 #step
-.talk Sprinkle
+.talk Sprinkle##7583
 >>en:Standing next to a small cart.
 >>de:Standing next to a small cart.
 .goto Tanaris,51.06,26.87
@@ -648,14 +648,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Sprinkle
+.talk Sprinkle##7583
 >>en:Standing next to a small cart.
 >>de:Standing next to a small cart.
 .goto Tanaris,51.06,26.87
 .accept Delivery for Marin##2661
 
 #step
-.talk Marin Noggenfogger
+.talk Marin Noggenfogger##7564
 >>en:Standing next to a huge broken down cart.
 >>de:Steht neben einem riesigen kaputten Wagen.
 .goto Tanaris,51.81,28.66
@@ -665,7 +665,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Marin Noggenfogger
+.talk Marin Noggenfogger##7564
 >>en:Standing next to a huge broken down cart.
 >>de:Steht neben einem riesigen kaputten Wagen.
 .goto Tanaris,51.81,28.66

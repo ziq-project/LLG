@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,71.07,23.87
 >>Enter the building
-.talk Spoops
+.talk Spoops##15309
 >>Inside the building.
 .goto Orgrimmar,71.44,22.80
 .accept Hallow's End Treats for Spoops!##8312
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,54.03,68.94
 >>Enter the building
-.talk Innkeeper Gryshka
+.talk Innkeeper Gryshka##6929
 >>en:Standing in the doorway inside the inn.
 >>de:Standing in the doorway inside the inn.
 >>Inside the building.
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .complete 8359,1 >>Flex for Inkeeper Gryshka
 
 #step
-.talk Innkeeper Gryshka
+.talk Innkeeper Gryshka##6929
 >>en:Standing in the doorway inside the inn.
 >>de:Standing in the doorway inside the inn.
 >>Inside the building.
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 >>Follow the road south
 .goto Durotar,52.58,45.00
 >>Continue following the road south
-.talk Kali Remik
+.talk Kali Remik##11814
 .goto Durotar,56.12,74.24
 .accept Incoming Gumdrop##8358
 .only walking
@@ -68,7 +68,7 @@ LLG.RegisterGuide([[
 .complete 8358,1 >>Do the "Train" for Kali Remik
 
 #step
-.talk Kali Remik
+.talk Kali Remik##11814
 .goto Durotar,56.12,74.24
 .turnin Incoming Gumdrop##8358
 .complete 8312,2 >>Collect Darkspear Gumdrop
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,44.95,62.12
 >>Enter the building
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 .goto Thunder Bluff,45.81,64.71
 .accept Dancing for Marzipan##8360
@@ -88,14 +88,14 @@ LLG.RegisterGuide([[
 .complete 8360,1 >>Dance for Inkeeper Pala
 
 #step
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 .goto Thunder Bluff,45.81,64.71
 .turnin Dancing for Marzipan##8360
 .complete 8312,4 >>Collect Thunder Bluff Marzipan
 
 #step
-.talk Innkeeper Norman
+.talk Innkeeper Norman##6741
 .goto Undercity,67.73,37.88
 .accept Chicken Clucking for a Mint##8354
 
@@ -105,7 +105,7 @@ LLG.RegisterGuide([[
 .complete 8354,1 >>Cluck Like a Chicken for Innkeeper Norman
 
 #step
-.talk Innkeeper Norman
+.talk Innkeeper Norman##6741
 .goto Undercity,67.73,37.88
 .turnin Chicken Clucking for a Mint##8354
 .complete 8312,3 >>Collect Undercity Mint
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,71.07,23.87
 >>Enter the building
-.talk Spoops
+.talk Spoops##15309
 >>Inside the building.
 .goto Orgrimmar,71.44,22.80
 .turnin Hallow's End Treats for Spoops!##8312
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Darkcaller Yanka
+.talk Darkcaller Yanka##15197
 .goto Tirisfal Glades,55.57,69.90
 .accept Stinking Up Southshore##1657
 
@@ -133,14 +133,14 @@ LLG.RegisterGuide([[
 >>Avoid Southshore
 .goto Hillsbrad Foothills,46.66,58.05
 >>Avoid Southshore guards
-.click Forsaken Stink Bomb Cluster
+.click Forsaken Stink Bomb Cluster##20387
 >>Use it while standing here to throw stink bombs on the ground.
 .goto Hillsbrad Foothills,48.42,57.86
 .complete 1657,1 >>Toss Stink Bombs into Southshore
 .only walking
 
 #step
-.talk Darkcaller Yanka
+.talk Darkcaller Yanka##15197
 .goto Tirisfal Glades,55.57,69.90
 .turnin Stinking Up Southshore##1657
 

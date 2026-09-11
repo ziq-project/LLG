@@ -19,7 +19,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Motley Garmason
+.talk Motley Garmason##1074
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.67,18.24
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 >>You may need help with this.
 
 #step
-.talk Motley Garmason
+.talk Motley Garmason##1074
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.67,18.24
@@ -58,39 +58,39 @@ LLG.RegisterGuide([[
 .accept The Fury Runs Deep##378
 
 #step
-.talk Guard Berton
+.talk Guard Berton##859
 .goto Redridge Mountains,26.26,46.57
 .accept What Comes Around...##386
 
 #step
 .goto Duskwood,72.88,46.83
 >>Enter the building
-.talk Councilman Millstipe
+.talk Councilman Millstipe##270
 >>He walks around inside the building.
 .goto Duskwood,71.92,47.79
 .accept Crime and Punishment##377
 
 #step
-.talk Nikova Raskol
+.talk Nikova Raskol##1721
 >>en:She walks around the street in Old Town, so she may be standing in a different spot.
 >>She walks around this area.
 .goto Stormwind City,73.40,50.70
 .accept The Color of Blood##388
 
 #step
-.kill 1 Edwin Vancleef
+.kill 1 Edwin Vancleef##639
 >>This is the final boss of the Deadmines dungeon.
 >>Use our Dungeon guides to accomplish this.
 .collect An Unsent Letter,1
 
 #step
-.click An Unsent Letter
+.click An Unsent Letter##2874
 .accept The Unsent Letter##373
 
 #step
 .goto Stormwind City,47.89,31.17
 >>Enter the building
-.talk Baros Alexston
+.talk Baros Alexston##1646
 .goto Stormwind City,49.20,30.28
 .turnin The Unsent Letter##373
 .goto Stormwind City,49.20,30.28
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.20,58.77
 >>Enter the building
-.talk Warden Thelwater
+.talk Warden Thelwater##1719
 >>Inside the building.
 .goto Stormwind City,41.10,58.09
 .turnin Bazil Thredd##389
@@ -113,25 +113,25 @@ LLG.RegisterGuide([[
 >>Enter The Stockade Dungeon with Your Group
 
 #step
-.kill 1 Targorr the Dread
+.kill 1 Targorr the Dread##1696
 >>He is the first boss of the dungeon.
 >>He should be in one of the side rooms at the start of the dungeon or the single room straight to the north.
 .complete 386,1 >>Collect Head of Targorr
 
 #step
-.kill 1 Kam Deepfury
+.kill 1 Kam Deepfury##1666
 >>He is the second boss of the dungeon.
 >>After entering, head north and follow the path east, he is in the second small room on the left.
 .complete 378,1 >>Collect Head of Deepfury
 
 #step
-.kill 1 Bazil Thredd
+.kill 1 Bazil Thredd##1716
 >>He is the fourth boss of the dungeon.
 >>Follow the east path all the way to the end.
 .complete 391,1 >>Collect Head of Bazil Thredd
 
 #step
-.kill 1 Dextren Ward
+.kill 1 Dextren Ward##1663
 >>He is the fifth boss of the dungeon.
 >>Follow the west path all the way to the end.
 .complete 377,1 >>Collect Hand of Dextren Ward
@@ -150,7 +150,7 @@ LLG.RegisterGuide([[
 .complete 388,1 >>Collect 10 Red Wool Bandana
 
 #step
-.talk Warden Thelwater
+.talk Warden Thelwater##1719
 >>Inside the building.
 .goto Stormwind City,41.10,58.09
 .turnin The Stockade Riots##391
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.25,58.86
 >>Leave the building
-.talk Nikova Raskol
+.talk Nikova Raskol##1721
 >>en:She walks around the street in Old Town, so she may be standing in a different spot.
 >>She walks around this area.
 .goto Stormwind City,73.39,50.69
@@ -169,18 +169,18 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.88,46.83
 >>Enter the building
-.talk Councilman Millstipe
+.talk Councilman Millstipe##270
 >>He walks around inside the building.
 .goto Duskwood,71.92,47.79
 .turnin Crime and Punishment##377
 
 #step
-.talk Guard Berton
+.talk Guard Berton##859
 .goto Redridge Mountains,26.26,46.57
 .turnin What Comes Around...##386
 
 #step
-.talk Motley Garmason
+.talk Motley Garmason##1074
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.67,18.24

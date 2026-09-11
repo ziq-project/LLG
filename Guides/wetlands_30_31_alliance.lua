@@ -16,15 +16,15 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Dink
-.talk Regnus Thundergranite
-.talk Briarthorn
-.talk Bilban Tosslespanner
-.talk Toldren Deepiron
-.talk Brandur Ironhammer
+.talk Dink##7312
+.talk Regnus Thundergranite##5117
+.talk Briarthorn##5172
+.talk Bilban Tosslespanner##5114
+.talk Toldren Deepiron##5143
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
-.talk Fenthwick
+.talk Fenthwick##5167
 .goto Ironforge,27.10,8.49
 .train
 .goto Ironforge,69.86,82.94
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Tarrel Rockweaver
+.talk Tarrel Rockweaver##2096
 >>en:Standing on the bridge, next to some boxes and barrels.
 >>de:Steht auf der Brücke, neben einigen Kisten und Fässern.
 >>He walks around this area.
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,16.01,23.09
 >>Run up the ramp to board the ship
-.kill 1 Captain Halyndor
+.kill 1 Captain Halyndor##1160
 >>On the deck of the ship.
 >>only hardcore :: You can body aggro him from the ramp on leading to the ship to avoid adds.
 >>only Mage or Warlock or Priest :: He periodically casts Spell Reflect, be careful.
@@ -68,7 +68,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Turn on enemy name plates with "CTRL+V" so you can see the enemies underwater.
 >>only hardcore :: Try to pull them one at a time until they cleared before entering the boat.
 >>only hardcore :: Fight enemies outside of the water so you reduce the chance of drowning.
-.click Intrepid's Locked Strongbox
+.click Intrepid's Locked Strongbox##112948
 >>Underwater, at the bottom of the ship.
 .goto Wetlands,14.37,24.02
 .turnin Lifting the Curse##290
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 >>Leave Whelgar's Excavation Site
 .goto Wetlands,42.87,40.78
 >>Follow the path up
-.click Dragonmaw Catapult
+.click Dragonmaw Catapult##1609
 >>only hardcore :: Clear the enemies around the catapult before attempting to interact with it.
 >>Be careful, a group of 6 enemies will appear and attack you.
 >>Run away immediately after turning in the quest.
@@ -122,14 +122,14 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Rethiel the Greenwarden
+.talk Rethiel the Greenwarden##1244
 >>en:Standing in a dirt circle half-surrounded by flowers and plants.
 >>de:Steht in einem Erdkreis, halb umgeben von Blumen und Pflanzen.
 .goto Wetlands,56.38,40.40
 .turnin Blisters on The Land##275
 
 #step
-.talk Longbraid the Grim
+.talk Longbraid the Grim##1071
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.80,18.26
@@ -147,7 +147,7 @@ LLG.RegisterGuide([[
 .click Here if you'd prefer to grind
 
 #step
-.talk Rhag Garmason
+.talk Rhag Garmason##1075
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.92,18.21
@@ -180,7 +180,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,50.69,8.00
 >>Run up the stairs and leave the building
-.talk Rhag Garmason
+.talk Rhag Garmason##1075
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.92,18.22
@@ -203,7 +203,7 @@ LLG.RegisterGuide([[
 >>Cross the hanging bridge
 .goto Arathi Highlands,45.47,89.24
 >>Cross the bridge
-.talk Rhag Garmason
+.talk Rhag Garmason##1075
 >>en:Standing next to a barrel cart to the left of the road.
 >>de:Steht links der Straße neben einem Faßkarren.
 .goto Wetlands,49.92,18.22
@@ -213,7 +213,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Captain Nials
+.talk Captain Nials##2700
 >>en:Next to a big stump.
 >>de:Neben einem großen Baumstumpf.
 .goto Arathi Highlands,45.83,47.55
@@ -221,7 +221,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cedrik Prose
+.talk Cedrik Prose##2835
 >>en:Near a big eagle.
 >>de:In der Nähe eines großen Adlers.
 .goto Arathi Highlands,45.70,46.09
@@ -230,7 +230,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,20.17,29.54
 >>Follow the road and enter Hillsbrad Foothills
-.talk Darla Harris
+.talk Darla Harris##2432
 >>en:Next to a white canopy and 2 big eagles.
 >>de:Neben einem weissen Baldachin und 2 großen Adlern.
 .goto Hillsbrad Foothills,49.34,52.27
@@ -246,7 +246,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.77
 >>Enter the building
-.talk Glorin Steelbrow
+.talk Glorin Steelbrow##1217
 >>en:Inside the inn, wearing a white robe.
 >>de:Im Gasthaus, trägt eine weisse Robe.
 >>Inside the building.

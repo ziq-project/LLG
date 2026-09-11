@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Blasted Lands,66.40,18.98
 >>Enter the building
-.talk Ambassador Ardalan
+.talk Ambassador Ardalan##7826
 >>en:Standing at the top of the tower.
 >>de:Standing at the top of the tower.
 >>Inside the building, at the top.
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Blasted Lands,62.83,19.77
 >>Leave Nethergarde Keep
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.13
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Nethergarde and Keep")
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 >>Select _"Please continue, Hero..."_
@@ -48,7 +48,7 @@ LLG.RegisterGuide([[
 .complete 2801,1 >>Listen to a Tale of Sorrow
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.13
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Bloodmage Drazial
+.talk Bloodmage Drazial##7505
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.55,14.21
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .accept The Decisive Striker##2585
 
 #step
-.talk Bloodmage Lynnore
+.talk Bloodmage Lynnore##7506
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.64,14.30
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 .accept Vulture's Vigor##2603
 
 #step
-.kill 1 Black Slayer
+.kill 1 Black Slayer##5982
 >>Bonepickers will also drop the quest item.
 >>They look like vultures.
 >>You will collect enough of these to turn in all 5 quests at once.
@@ -140,7 +140,7 @@ LLG.RegisterGuide([[
 >>[50.96,38.09]
 
 #step
-.kill 1 Scorpok Stinger
+.kill 1 Scorpok Stinger##5988
 >>They look like scorpions.
 >>They share spawn locations with the hyenas.
 >>If you can't find any at these locations, kill other enemies to get them to spawn.
@@ -154,20 +154,21 @@ LLG.RegisterGuide([[
 >>[56.81,21.17]
 
 #step
-.talk Kum'isha the Collector
+.talk Kum'isha the Collector##7363
 >>He walks around this area.
 .goto Blasted Lands,51.80,35.64
 .accept Everything Counts In Large Amounts##3501
+.only itemcount(10593) > 0
 
 #step
-.talk Kum'isha the Collector
+.talk Kum'isha the Collector##7363
 >>He walks around this area.
 .goto Blasted Lands,51.80,35.64
 .turnin Everything Counts In Large Amounts##3501
 .only haveq(3501) or completedq(3501)
 
 #step
-.talk Bloodmage Lynnore
+.talk Bloodmage Lynnore##7506
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.64,14.30
@@ -176,7 +177,7 @@ LLG.RegisterGuide([[
 .turnin Vulture's Vigor##2603
 
 #step
-.talk Bloodmage Drazial
+.talk Bloodmage Drazial##7505
 >>en:In a small camp, standing next to a bonfire.
 >>de:In a small camp, standing next to a bonfire.
 .goto Blasted Lands,50.55,14.21
@@ -187,7 +188,7 @@ LLG.RegisterGuide([[
 .turnin The Decisive Striker##2585
 
 #step
-.talk Curator Thorius
+.talk Curator Thorius##8256
 >>en:He walks around this area.
 >>de:He walks around this area.
 >>He walks around this area inside the building.
@@ -199,7 +200,7 @@ LLG.RegisterGuide([[
 .accept At Last!##3201
 
 #step
-.talk Laris Geardawdle
+.talk Laris Geardawdle##9616
 >>en:Next to some fossilized eggs.
 >>de:Next to some fossilized eggs.
 >>Inside the building.
@@ -209,7 +210,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,53.24,7.33
 >>Enter the building
-.talk Jubahl Corpseseeker
+.talk Jubahl Corpseseeker##6382
 >>Inside the building.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -221,7 +222,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,20.65,53.22
 >>Enter the building
-.talk Innkeeper Firebrew
+.talk Innkeeper Firebrew##5111
 >>en:In a little sideshop, behind the bar.
 >>de:In a little sideshop, behind the bar.
 >>Inside the building.
@@ -231,7 +232,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,26.18,72.17
 >>Enter the building
-.talk Auctioneer Redmuse
+.talk Auctioneer Redmuse##8720
 >>Inside the building.
 >>Buy it from the Auction House.
 >>It is needed for a quest in Un'Goro Crater.
@@ -241,7 +242,7 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Courier Hammerfall
+.talk Courier Hammerfall##10877
 >>en:I found him here, but he walks all around Ironforge, so some searching may be necessary.
 >>de:I found him here, but he walks all around Ironforge, so some searching may be necessary.
 >>He looks like a dwarf that walks in a counter-clockwise path around Ironforge.
@@ -251,7 +252,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,34.09,62.38
 >>Enter the building
-.talk Bailey Stonemantle
+.talk Bailey Stonemantle##2461
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Ironforge,35.92,60.14
@@ -260,7 +261,7 @@ LLG.RegisterGuide([[
 .goto Ironforge,35.92,60.14
 
 #step
-.talk Bailey Stonemantle
+.talk Bailey Stonemantle##2461
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Ironforge,35.92,60.14
@@ -271,7 +272,7 @@ LLG.RegisterGuide([[
 .complete 3661 >>Collect 15 Wildkin Feather
 
 #step
-.talk Tynnus Venomsprout
+.talk Tynnus Venomsprout##5169
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Ironforge,52.94,13.66
@@ -279,7 +280,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Mountaineer Pebblebitty
+.talk Mountaineer Pebblebitty##3836
 >>en:Next to a big gate.
 >>de:Next to a big gate.
 .goto Loch Modan,18.19,84.00
@@ -288,7 +289,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,11.00,45.67
 >>Enter the building
-.talk Gryphon Master Talonaxe
+.talk Gryphon Master Talonaxe##5636
 >>en:At the very top of the hill, inside the cave.
 >>de:At the very top of the hill, inside the cave.
 >>Inside the building.
@@ -301,7 +302,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto The Hinterlands,14.19,45.18
 >>Enter the building
-.talk Fraggar Thundermantle
+.talk Fraggar Thundermantle##7884
 >>en:Inside the inn, to the right.
 >>de:Inside the inn, to the right.
 >>Inside the building.

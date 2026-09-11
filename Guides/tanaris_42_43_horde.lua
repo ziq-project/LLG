@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.click the Model 4711-FTZ Power Source
+.click the Model 4711-FTZ Power Source##8524
 >>Use this while you're in Gadgetzan.
 >>It gives you a time limited quest, so you'll want to get started right away.
 .goto Tanaris,51.59,28.85
@@ -60,7 +60,7 @@ LLG.RegisterGuide([[
 >>They look like basilisks.
 >>You can find them all throughout Tanaris.
 .collect Untested Basilisk Sample,1
-.click the Untested Basilisk Sample
+.click the Untested Basilisk Sample##9437
 >>Not all of the samples will be acceptable.
 .goto Tanaris,45.23,27.79
 .complete 654,1 >>Collect 8 Acceptable Basilisk Sample
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 >>They look like hyenas.
 >>You can find them all throughout Tanaris.
 .collect Untested Hyena Sample,1
-.click the Untested Hyena Sample
+.click the Untested Hyena Sample##9439
 >>Not all of the samples will be acceptable.
 .goto Tanaris,45.23,27.79
 .complete 654,2 >>Collect 8 Acceptable Hyena Sample
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 >>They look like scorpions.
 >>You can find them all throughout Tanaris.
 .collect Untested Scorpid Sample,1
-.click the Untested Scorpid Sample
+.click the Untested Scorpid Sample##9442
 >>Not all of the samples will be acceptable.
 .goto Tanaris,45.23,27.79
 .complete 654,3 >>Collect 8 Acceptable Scorpid Sample
@@ -105,7 +105,7 @@ LLG.RegisterGuide([[
 >>[56.86,25.30]
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
@@ -127,13 +127,13 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
 
 #step
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91

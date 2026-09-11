@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Conservator Ilthalaine
+.talk Conservator Ilthalaine##2079
 >>en:Standing next to a bench and a light post.
 >>de:Steht neben einer Bank und einer Laterne.
 .goto Teldrassil,58.69,44.27
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 .level 3
 
 #step
-.talk Dirania Silvershine
+.talk Dirania Silvershine##8583
 >>en:Next to a cauldron and a small table.
 >>de:Next to a cauldron and a small table.
 >>only level < 2 :: You must be level 2 for this quest to be available.
@@ -62,14 +62,14 @@ LLG.RegisterGuide([[
 .accept A Good Friend##4495
 
 #step
-.talk Melithar Staghelm
+.talk Melithar Staghelm##2077
 >>en:Standing on the steps of the big building, next to a light post.
 >>de:Steht auf den Stufen des großen Gebäudes, neben einer Laterne.
 .goto Teldrassil,59.93,42.48
 .accept The Woodland Protector##458
 
 #step
-.talk Keina
+.talk Keina##3589
 >>Inside the building
 >>Sell your goods from grinding.
 >>only Hunter :: Restock on ammo
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Conservator Ilthalaine
+.talk Conservator Ilthalaine##2079
 >>en:Standing next to a bench and a light post.
 >>de:Steht neben einer Bank und einer Laterne.
 .goto Teldrassil,58.70,44.27
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,59.19,40.00
 >>Run up the ramp inside the building
-.talk Alyissia
+.talk Alyissia##3593
 >>en:On the bottom floor of the tree, standing in the very back room in front of a nightstand.
 >>de:Im unteren Stockwerk des Baumes, ganz hinten im Raum vor einem Nachttisch.
 >>Inside the building.
@@ -111,7 +111,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,59.97,41.90
 >>Run up the ramp
-.talk Shanda
+.talk Shanda##3595
 >>en:On the top floor of the big building, standing in front of a stuffed bear statue.
 >>de:Im obersten Stockwerk des großen Gebäudes vor einer ausgestopften Bärenstatü.
 >>Upstairs inside the building.
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 >>Run up the large ramp
 .goto Teldrassil,58.51,40.71
 >>Enter the building
-.talk Mardant Strongoak
+.talk Mardant Strongoak##3597
 >>en:Up the huge spiral tree ramp, in a side room next to a small dresser.
 >>de:Up the huge spiral tree ramp, in a side room next to a small dresser.
 >>Up in the tall tree, inside the building.
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Tarindrella
+.talk Tarindrella##1992
 >>en:She is a centaur that paces around in this spot.
 >>de:Sie ist eine Zentaurin, die an dieser Stelle auf und ab läuft.
 .goto Teldrassil,57.83,45.20
@@ -143,7 +143,7 @@ LLG.RegisterGuide([[
 .accept The Woodland Protector##459
 
 #step
-.talk Gilshalan Windwalker
+.talk Gilshalan Windwalker##2082
 >>en:Standing next to the ramp heading up the big tree.
 >>de:Steht neben der Rampe, die zum großen Baum hinaufführt.
 .goto Teldrassil,57.81,41.65
@@ -161,7 +161,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,55.45,32.85
 >>Follow the path
-.talk Iverron
+.talk Iverron##8584
 >>en:Sitting down in a sidepath through the mountains.
 >>de:Sitzt auf einem Seitenpfad durch die Berge.
 .goto Teldrassil,54.60,32.99
@@ -171,7 +171,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Dirania Silvershine
+.talk Dirania Silvershine##8583
 >>en:Next to a cauldron and a small table.
 >>de:Next to a cauldron and a small table.
 .goto Teldrassil,60.90,41.96
@@ -180,7 +180,7 @@ LLG.RegisterGuide([[
 .accept Iverron's Antidote##3521
 
 #step
-.kill 1 Webwood Spider
+.kill 1 Webwood Spider##1986
 >>Inside and outside the cave.
 >>only hardcore :: Watch for respawns while in the area.
 .goto Teldrassil,56.80,31.59
@@ -193,17 +193,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,56.80,31.59
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Teldrassil,58.72,42.34
 .only not hardcore
 
 #step
-.talk Gilshalan Windwalker
+.talk Gilshalan Windwalker##2082
 >>en:Standing next to the ramp heading up the big tree.
 >>de:Steht neben der Rampe, die zum großen Baum hinaufführt.
 .goto Teldrassil,57.81,41.65
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 .accept Webwood Egg##917
 
 #step
-.talk Conservator Ilthalaine
+.talk Conservator Ilthalaine##2079
 >>en:Standing next to a bench and a light post.
 >>de:Steht neben einer Bank und einer Laterne.
 .goto Teldrassil,58.70,44.26
@@ -221,7 +221,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,59.19,40.00
 >>Run up the ramp inside the building
-.talk Frahun Shadewhisper
+.talk Frahun Shadewhisper##3594
 >>en:On the bottom floor of the tree building thing, all the way in the very back room.
 >>de:On the bottom floor of the tree building thing, all the way in the very back room.
 >>Inside the building.
@@ -234,7 +234,7 @@ LLG.RegisterGuide([[
 >>Run up the large ramp
 .goto Teldrassil,58.51,40.71
 >>Enter the building
-.talk Ayanna Everstride
+.talk Ayanna Everstride##3596
 >>en:Up the huge tree ramp, in a small room off to the side, next to a glowing lantern light.
 >>de:Up the huge tree ramp, in a small room off to the side, next to a glowing lantern light.
 >>Up in the tall tree, inside the building.
@@ -244,7 +244,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Moonpetal Lily
+.click Moonpetal Lily##152095
 >>They look like tall flowers with orange petals on the ground around this area.
 .goto Teldrassil,57.72,37.76
 .complete 3521,2 >>Collect 4 Moonpetal Lily
@@ -256,21 +256,21 @@ LLG.RegisterGuide([[
 >>Follow the path down
 .goto Teldrassil,55.75,25.49
 >>Follow the path up
-.click Webwood Eggs
+.click Webwood Eggs##4406
 >>Upstairs inside the cave.
 >>only hardcore :: Watch for respawns while in the area.
 .goto Teldrassil,56.80,26.43
 .complete 917,1 >>Collect Webwood Egg
 
 #step
-.kill 1 Webwood Spider
+.kill 1 Webwood Spider##1986
 >>Inside and outside the cave.
 >>only hardcore :: Watch for respawns while in the area.
 .goto Teldrassil,56.78,31.55
 .complete 3521,3 >>Collect Webwood Ichor
 
 #step
-.kill 1 Grell
+.kill 1 Grell##1988
 .goto Teldrassil,56.08,45.83
 .complete 459,1 >>Collect 8 Fel Moss
 .goto Teldrassil,56.08,45.83
@@ -278,14 +278,14 @@ LLG.RegisterGuide([[
 >>You can find more around [54.75,44.01]
 
 #step
-.talk Tarindrella
+.talk Tarindrella##1992
 >>en:She is a centaur that paces around in this spot.
 >>de:Sie ist eine Zentaurin, die an dieser Stelle auf und ab läuft.
 .goto Teldrassil,57.83,45.20
 .turnin The Woodland Protector##459
 
 #step
-.talk Gilshalan Windwalker
+.talk Gilshalan Windwalker##2082
 >>en:Standing next to the ramp heading up the big tree.
 >>de:Steht neben der Rampe, die zum großen Baum hinaufführt.
 .goto Teldrassil,57.81,41.65
@@ -296,7 +296,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,59.29,39.09
 >>Run up the ramp that wraps around the huge tree and enter the building
-.talk Tenaron Stormgrip
+.talk Tenaron Stormgrip##3514
 >>en:At the top of the big tree, all the way up the ramp. In a small room, in front of a bookshelf.
 >>de:At the top of the big tree, all the way up the ramp. In a small room, in front of a bookshelf.
 >>At the very top of the tall tree, inside the building.
@@ -306,7 +306,7 @@ LLG.RegisterGuide([[
 .accept Crown of the Earth##921
 
 #step
-.talk Dirania Silvershine
+.talk Dirania Silvershine##8583
 >>en:Next to a cauldron and a small table.
 >>de:Next to a cauldron and a small table.
 >>It is a TIMED quest! You will have 5 minutes to complete it.
@@ -316,13 +316,13 @@ LLG.RegisterGuide([[
 .accept Iverron's Antidote##3522
 
 #step
-.click the Crystal Phial
+.click the Crystal Phial##5185
 .goto Teldrassil,59.94,33.04
 .complete 921,1 >>Collect Filled Crystal Phial
 >>only level < 6 :: Grind enemies on the way to the fountain, we want to be level 6 soon.
 
 #step
-.talk Iverron
+.talk Iverron##8584
 >>en:Sitting down in a sidepath through the mountains.
 >>de:Sitzt auf einem Seitenpfad durch die Berge.
 .goto Teldrassil,54.59,32.99
@@ -336,11 +336,11 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,56.80,31.59
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore and level > 6
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Teldrassil,58.72,42.34
 .only not hardcore and level > 6
@@ -350,7 +350,7 @@ LLG.RegisterGuide([[
 >>Run up the ramp that wraps around the huge tree
 .goto Teldrassil,59.29,39.09
 >>Enter the building
-.talk Tenaron Stormgrip
+.talk Tenaron Stormgrip##3514
 >>en:At the top of the big tree, all the way up the ramp. In a small room, in front of a bookshelf.
 >>de:At the top of the big tree, all the way up the ramp. In a small room, in front of a bookshelf.
 >>At the very top of the tall tree, inside the building.
@@ -363,7 +363,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,59.96,41.88
 >>Run up the ramp
-.talk Shanda
+.talk Shanda##3595
 >>en:On the top floor of the big building, standing in front of a stuffed bear statue.
 >>de:Im obersten Stockwerk des großen Gebäudes vor einer ausgestopften Bärenstatü.
 >>Upstairs inside the building.
@@ -372,21 +372,21 @@ LLG.RegisterGuide([[
 .only NightElf and Priest
 
 #step
-.talk Porthannius
+.talk Porthannius##6780
 >>en:Standing to the right of the road, next to some baskets.
 >>de:Steht rechts der Straße, neben einigen Körben.
 .goto Teldrassil,61.16,47.64
 .accept Dolanaar Delivery##2159
 
 #step
-.talk Zenn Foulhoof
+.talk Zenn Foulhoof##2150
 >>en:He's a satyr standing to the side of the road next to a big tree.
 >>de:Er ist ein Satyr am Straßenrand neben einem großen Baum.
 .goto Teldrassil,60.45,56.15
 .accept Zenn's Bidding##488
 
 #step
-.talk Syral Bladeleaf
+.talk Syral Bladeleaf##2083
 >>en:Standing to the side of the road, in front of a big tower.
 >>de:Steht am Straßenrand vor einem großen Turm.
 .goto Teldrassil,56.08,57.73
@@ -394,7 +394,7 @@ LLG.RegisterGuide([[
 >>Go out of your way to kill any enemy on the way, you need them all for quests.
 
 #step
-.talk Athridas Bearmantle
+.talk Athridas Bearmantle##2078
 >>en:Standing on the porch of a big tower.
 >>de:Steht auf der Veranda eines großen Turms.
 .goto Teldrassil,55.95,57.28
@@ -403,7 +403,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,55.75,57.23
 >>Enter the building
-.talk Laurna Morninglight
+.talk Laurna Morninglight##3600
 >>Inside the building.
 .goto Teldrassil,55.56,56.75
 .turnin In Favor of Elune##5622
@@ -414,7 +414,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,55.75,57.23
 >>Enter the building
-.talk Tallonkai Swiftroot
+.talk Tallonkai Swiftroot##3567
 >>en:At the top of the big tower, in the middle of the room.
 >>de:At the top of the big tower, in the middle of the room.
 >>At the top of the tower.
@@ -425,47 +425,47 @@ LLG.RegisterGuide([[
 .only not Priest
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Jeena Featherbow
+.talk Jeena Featherbow##3610
 >>Inside the building.
-.kill 1 Hornwood Recurve Bow
+.kill 1 Hornwood Recurve Bow##2506
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,55.89,59.20
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2506) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Druid
+.only Druid and itemcount(2495) == 0
 
 #step
-.talk Innkeeper Keldamyr
+.talk Innkeeper Keldamyr##6736
 >>en:Standing on the middle floor of the inn.
 >>de:Standing on the middle floor of the inn.
 >>Upstairs inside the building.
@@ -473,14 +473,14 @@ LLG.RegisterGuide([[
 .turnin Dolanaar Delivery##2159
 
 #step
-.talk Innkeeper Keldamyr
+.talk Innkeeper Keldamyr##6736
 >>en:Standing on the middle floor of the inn.
 >>de:Standing on the middle floor of the inn.
 .goto Teldrassil,55.62,59.79
 .hs
 
 #step
-.talk Corithras Moonrage
+.talk Corithras Moonrage##3515
 >>en:Standing next to a moonwell.
 >>de:Standing next to a moonwell.
 .goto Teldrassil,56.14,61.71
@@ -499,17 +499,19 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,57.48,60.60
 >>Enter the building
-.talk Malorne Bladeleaf
+.talk Malorne Bladeleaf##3604
 >>Inside the building.
 .goto Teldrassil,57.72,60.64
 .train
+.condition skillmax("Herbalism") >= 75 >>Learn Apprentice Herbalism
+.optional
 >>You need Herbalism, so you can gather 5 Earthroot as you quest in Teldrassil.
 >>You will need the Earthroot for a later class quest.
 >>Once you have the 5 Earthroot, you can abandon Herbalism, if you want to.
 .only Druid
 
 #step
-.talk Denalan
+.talk Denalan##2080
 >>en:In a small camp near the lake.
 >>de:In einem kleinen Lager nahe dem See.
 >>He walks around this area.
@@ -518,7 +520,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Denalan
+.talk Denalan##2080
 >>en:In a small camp near the lake.
 >>de:In einem kleinen Lager nahe dem See.
 >>He walks around this area.
@@ -528,20 +530,20 @@ LLG.RegisterGuide([[
 .accept Timberling Sprouts##919
 
 #step
-.click Timberling Sprout
+.click Timberling Sprout##4608
 >>They look like green and brown vine balls on the ground around this area.
 .goto Teldrassil,59.52,72.20
 .complete 919,1 >>Collect 12 Timberling Sprout
 >>You can find more around [60.73,65.71]
 
 #step
-.kill 1 Timberling
+.kill 1 Timberling##2022
 .goto Teldrassil,59.52,72.20
 .complete 918,1 >>Collect 8 Timberling Seed
 >>You can find more around [60.73,65.71]
 
 #step
-.talk Denalan
+.talk Denalan##2080
 >>en:In a small camp near the lake.
 >>de:In einem kleinen Lager nahe dem See.
 >>He walks around this area.
@@ -553,63 +555,63 @@ LLG.RegisterGuide([[
 .turnin Timberling Sprouts##919
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Jeena Featherbow
+.talk Jeena Featherbow##3610
 >>Inside the building.
-.kill 1 Hornwood Recurve Bow
+.kill 1 Hornwood Recurve Bow##2506
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,55.89,59.20
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2506) ==0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Druid
+.only Druid and itemcount(2495) == 0
 
 #step
 .goto Teldrassil,55.75,57.23
 >>Enter the building
-.talk Laurna Morninglight
+.talk Laurna Morninglight##3600
 >>Inside the building.
 .goto Teldrassil,55.56,56.75
 .turnin Garments of the Moon##5621
 .only NightElf and Priest
 
 #step
-.click the Jade Phial
+.click the Jade Phial##5619
 .goto Teldrassil,63.38,58.08
 .complete 929,1 >>Collect Filled Jade Phial
 
 #step
 .goto Teldrassil,66.23,58.37
 >>Enter the building
-.talk Gaerolas Talvethren
+.talk Gaerolas Talvethren##2107
 >>en:Laying on the floor on the second floor of the big house.
 >>de:Liegt auf dem Boden im zweiten Stock des großen Hauses.
 >>Upstairs inside the building.
@@ -622,14 +624,14 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,67.82,59.46
 >>Enter the building
-.click Tallonkai's Dresser
+.click Tallonkai's Dresser##126158
 >>Inside the building.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Teldrassil,68.01,59.63
 .complete 2438,1 >>Collect Emerald Dreamcatcher
 
 #step
-.kill 1 Strigid Owl
+.kill 1 Strigid Owl##1995
 .goto Teldrassil,63.65,53.56
 .complete 488,2 >>Collect 3 Strigid Owl Feather
 >>You can find more around:
@@ -637,19 +639,19 @@ LLG.RegisterGuide([[
 >>[67.49,53.76]
 
 #step
-.kill 1 Nightsaber
+.kill 1 Nightsaber##2042
 .goto Teldrassil,62.05,60.06
 .complete 488,1 >>Collect 3 Nightsaber Fang
 >>You can find more around [59.77,62.02]
 
 #step
-.kill 1 Webwood Lurker
+.kill 1 Webwood Lurker##1998
 .goto Teldrassil,60.36,58.07
 .complete 488,3 >>Collect 3 Webwood Spider Silk
 >>You can find more around [61.11,54.53]
 
 #step
-.kill 1 Webwood Lurker
+.kill 1 Webwood Lurker##1998
 >>You are collecting these to be able to complete a future quest soon.
 .goto Teldrassil,60.36,58.07
 .collect Small Spider Leg,7
@@ -666,31 +668,31 @@ LLG.RegisterGuide([[
 >>You can find more around [61.11,54.53]
 
 #step
-.talk Zenn Foulhoof
+.talk Zenn Foulhoof##2150
 >>en:He's a satyr standing to the side of the road next to a big tree.
 >>de:Er ist ein Satyr am Straßenrand neben einem großen Baum.
 .goto Teldrassil,60.45,56.15
 .turnin Zenn's Bidding##488
 
 #step
-.talk Jeena Featherbow
+.talk Jeena Featherbow##3610
 >>Inside the building.
-.kill 1 Hornwood Recurve Bow
+.kill 1 Hornwood Recurve Bow##2506
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,55.89,59.20
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2506) == 0
 
 #step
-.talk Syral Bladeleaf
+.talk Syral Bladeleaf##2083
 >>en:Standing to the side of the road, in front of a big tower.
 >>de:Steht am Straßenrand vor einem großen Turm.
 .goto Teldrassil,56.08,57.73
 .accept Seek Redemption!##489
 
 #step
-.talk Athridas Bearmantle
+.talk Athridas Bearmantle##2078
 >>en:Standing on the porch of a big tower.
 >>de:Steht auf der Veranda eines großen Turms.
 .goto Teldrassil,55.95,57.28
@@ -699,16 +701,16 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,55.75,57.23
 >>Enter the building
-.talk Aldia
+.talk Aldia##3608
 >>Upstairs inside the building, on the middle level.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Teldrassil,55.51,57.15
 >>Visit the Vendor
 
 #step
-.talk Aldia
+.talk Aldia##3608
 >>Upstairs inside the building, on the middle level.
-.kill 1 Balanced Throwing Dagger
+.kill 1 Balanced Throwing Dagger##25872
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,55.51,57.15
@@ -716,7 +718,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Tallonkai Swiftroot
+.talk Tallonkai Swiftroot##3567
 >>en:At the top of the big tower, in the middle of the room.
 >>de:At the top of the big tower, in the middle of the room.
 >>At the top of the tower.
@@ -726,37 +728,37 @@ LLG.RegisterGuide([[
 .accept Ferocitas the Dream Eater##2459
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Druid
+.only Druid and itemcount(2495) == 0
 
 #step
-.talk Corithras Moonrage
+.talk Corithras Moonrage##3515
 >>en:Standing next to a moonwell.
 >>de:Standing next to a moonwell.
 .goto Teldrassil,56.14,61.71
@@ -765,28 +767,30 @@ LLG.RegisterGuide([[
 .accept Crown of the Earth##933
 
 #step
-.talk Zarrin
+.talk Zarrin##6286
 >>You need to have the Cooking profession learned in order to accept a quest here.
 .goto Teldrassil,57.12,61.30
 .train
+.condition skillmax("Cooking") >= 75 >>Learn Cooking
+.optional
 
 #step
-.talk Zarrin
+.talk Zarrin##6286
 .goto Teldrassil,57.12,61.30
 .accept Recipe of the Kaldorei##4161
 
 #step
-.talk Zarrin
+.talk Zarrin##6286
 .goto Teldrassil,57.12,61.30
 .turnin Recipe of the Kaldorei##4161
 
 #step
-.kill 1 Ferocitas the Dream Eater
+.kill 1 Ferocitas the Dream Eater##7234
 .goto Teldrassil,69.37,53.40
 .complete 2459 >>Collect Gnarlpine Necklace
 
 #step
-.click the Gnarlpine Necklace
+.click the Gnarlpine Necklace##8049
 .complete 2459,2 >>Collect Tallonkai's Jewel
 
 #step
@@ -796,7 +800,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Watch for respawns while in the area.
 
 #step
-.click Fel Cone
+.click Fel Cone##1673
 >>They look like small brown balls with green smoke rising out of them at the base of trees around this area.
 .goto Teldrassil,66.72,53.54
 .complete 489,1 >>Collect 3 Fel Cone
@@ -805,7 +809,7 @@ LLG.RegisterGuide([[
 >>[61.62,53.44]
 
 #step
-.talk Zenn Foulhoof
+.talk Zenn Foulhoof##2150
 >>en:He's a satyr standing to the side of the road next to a big tree.
 >>de:Er ist ein Satyr am Straßenrand neben einem großen Baum.
 .goto Teldrassil,60.45,56.15
@@ -820,7 +824,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Teldrassil,53.17,49.16
 >>Continue following the path
-.kill 1 Lord Melenas
+.kill 1 Lord Melenas##2038
 >>Inside the cave.
 >>He can spawn in multiple locations inside this cave.
 >>If he's not here, search around in the cave until you find him.
@@ -845,52 +849,54 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,53.69,51.17
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Teldrassil,56.20,63.26
 .only not hardcore
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Druid
+.only Druid and itemcount(2495) == 0
 
 #step
 .goto Teldrassil,55.76,57.24
 >>Enter the building
-.talk Byancie
+.talk Byancie##6094
 >>Inside the building.
 .goto Teldrassil,55.29,56.82
 .train
+.condition skillmax("First Aid") >= 75 >>Train Apprentice First Aid
+.optional
 
 #step
 >>Create Bandages in Downtime
@@ -900,14 +906,14 @@ LLG.RegisterGuide([[
 .complete 932 >>Click Here to Continue
 
 #step
-.talk Aldia
+.talk Aldia##3608
 >>Upstairs inside the building, on the middle level.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Teldrassil,55.51,57.15
 >>Visit the Vendor
 
 #step
-.talk Tallonkai Swiftroot
+.talk Tallonkai Swiftroot##3567
 >>en:At the top of the big tower, in the middle of the room.
 >>de:At the top of the big tower, in the middle of the room.
 >>At the top of the tower.
@@ -917,12 +923,12 @@ LLG.RegisterGuide([[
 .turnin Ferocitas the Dream Eater##2459
 
 #step
-.click Strange Fruited Plant
+.click Strange Fruited Plant##6751
 .goto Teldrassil,42.63,76.10
 .accept The Glowing Fruit##930
 
 #step
-.click the Tourmaline Phial
+.click the Tourmaline Phial##5621
 .goto Teldrassil,42.42,67.07
 .complete 933,1 >>Collect Filled Tourmaline Phial
 
@@ -933,17 +939,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,46.87,71.67
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Teldrassil,56.20,63.26
 .only not hardcore
 
 #step
-.talk Corithras Moonrage
+.talk Corithras Moonrage##3515
 >>en:Standing next to a moonwell.
 >>de:Standing next to a moonwell.
 .goto Teldrassil,56.14,61.71
@@ -952,37 +958,37 @@ LLG.RegisterGuide([[
 .accept Crown of the Earth##7383
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Shalomon
+.talk Shalomon##3609
 >>Inside the building.
-.kill 1 Walking Stick
+.kill 1 Walking Stick##2495
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Teldrassil,56.31,59.49
 >>Visit the Vendor
-.only Druid
+.only Druid and itemcount(2495) == 0
 
 #step
-.talk Moon Priestess Amara
+.talk Moon Priestess Amara##2151
 >>en:She walks the road from Dolanaar to Darnassus back and forth.
 >>de:Sie läuft die Straße zwischen Dolanaar und Darnaßus hin und her.
 >>She walks in a large pattern along the road from Dolanaar to Darnassus.
@@ -996,7 +1002,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,45.02,52.24
 >>Leave Ban'ethil Hollow
-.talk Sentinel Arynia Cloudsbreak
+.talk Sentinel Arynia Cloudsbreak##3519
 >>en:Standing next to a moonwell.
 >>de:Standing next to a moonwell.
 .goto Teldrassil,38.31,34.36
@@ -1004,17 +1010,17 @@ LLG.RegisterGuide([[
 .only walking and subzone("Ban'ethil and Hollow")
 
 #step
-.click the Amethyst Phial
+.click the Amethyst Phial##18152
 .goto Teldrassil,38.43,34.04
 .complete 7383,1 >>Collect Filled Amethyst Phial
 
 #step
-.click Strange Fronded Plant
+.click Strange Fronded Plant##6752
 .goto Teldrassil,34.60,28.85
 .accept The Shimmering Frond##931
 
 #step
-.talk Mist
+.talk Mist##3568
 >>This is an escort quest.
 >>If she's not here, someone may be escorting her.
 >>Wait until she respawns.
@@ -1036,7 +1042,7 @@ LLG.RegisterGuide([[
 >>Try to hurry, this quest is timed.
 
 #step
-.talk Sentinel Arynia Cloudsbreak
+.talk Sentinel Arynia Cloudsbreak##3519
 >>en:Standing next to a moonwell.
 >>de:Standing next to a moonwell.
 .goto Teldrassil,38.31,34.36
@@ -1054,7 +1060,7 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Rellian Greenspyre
+.talk Rellian Greenspyre##3517
 >>en:Standing to the side of the road, next to a light post.
 >>de:Standing to the side of the road, next to a light post.
 .goto Darnassus,38.19,21.63
@@ -1066,7 +1072,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.46,10.59
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building, on the middle floor.
@@ -1075,11 +1081,11 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Denatharion
+.talk Syurna##4163
+.talk Denatharion##4218
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,36.97,21.86
@@ -1093,7 +1099,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.46,10.59
 >>Enter the building
-.talk Arch Druid Fandral Staghelm
+.talk Arch Druid Fandral Staghelm##3516
 >>en:In the big tower all the way at the top.
 >>de:In the big tower all the way at the top.
 >>He walks around inside the building, at the top.
@@ -1104,7 +1110,7 @@ LLG.RegisterGuide([[
 .only not Druid
 
 #step
-.talk Sister Aquinne
+.talk Sister Aquinne##7316
 .goto Darnassus,28.94,45.82
 .accept The Temple of the Moon##2519
 
@@ -1113,7 +1119,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Darnassus,39.02,76.78
 >>Enter the building
-.talk Priestess A'moora
+.talk Priestess A'moora##7313
 >>Upstairs inside the building.
 .goto Darnassus,36.64,85.93
 .turnin The Temple of the Moon##2519
@@ -1122,14 +1128,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Jandria
+.talk Jandria##4091
 .goto Darnassus,37.91,82.80
 .train
 >>Train your spells.
 .only Priest
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -1142,7 +1148,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,42.47,34.44
 >>Follow the path
-.talk Great Bear Spirit
+.talk Great Bear Spirit##11956
 >>en:A bug bear spirit standing next to a log on the ground.
 >>de:A bug bear spirit standing next to a log on the ground.
 >>Select _"What do you represent, spirit?"_
@@ -1151,7 +1157,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -1162,7 +1168,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Kyra Windblade
+.talk Kyra Windblade##3598
 >>en:Inside the inn, standing next to the front desk.
 >>de:Inside the inn, standing next to the front desk.
 >>Inside the building.
@@ -1178,7 +1184,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Corithras Moonrage
+.talk Corithras Moonrage##3515
 >>en:Standing next to a moonwell.
 >>de:Standing next to a moonwell.
 .goto Teldrassil,56.14,61.71
@@ -1187,7 +1193,7 @@ LLG.RegisterGuide([[
 .accept Crown of the Earth##935
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -1195,7 +1201,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15921
 >>Use it on a Webwood Lurker around this area.
 >>They look like green spiders.
 .goto Teldrassil,59.81,59.06
@@ -1205,7 +1211,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -1215,7 +1221,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Denalan
+.talk Denalan##2080
 >>en:In a small camp near the lake.
 >>de:In einem kleinen Lager nahe dem See.
 >>He walks around this area.
@@ -1225,7 +1231,7 @@ LLG.RegisterGuide([[
 .turnin The Shimmering Frond##931
 
 #step
-.click Sprouted Frond
+.click Sprouted Frond##7510
 .goto Teldrassil,60.90,68.49
 .accept The Sprouted Fronds##2399
 
@@ -1235,17 +1241,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,60.82,70.87
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore and not NightElf and Hunter
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Teldrassil,56.20,63.26
 .only not hardcore and not NightElf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15922
 >>Use it on a Nightsaber Stalker around this area.
 >>They look like dark colored tigers.
 .goto Teldrassil,62.40,74.70
@@ -1255,7 +1261,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -1265,7 +1271,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15923
 >>Use it on a Strigid Screecher around this area.
 >>They look like grey birds.
 .goto Teldrassil,43.99,51.16
@@ -1273,7 +1279,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -1285,21 +1291,21 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,55.76,57.24
 >>Enter the building
-.talk Laurna Morninglight
+.talk Laurna Morninglight##3600
 >>Inside the building.
 .goto Teldrassil,55.57,56.75
 .accept Returning Home##5629
 .only NightElf and Priest
 
 #step
-.talk Moon Priestess Amara
+.talk Moon Priestess Amara##2151
 >>en:She walks the road from Dolanaar to Darnassus back and forth.
 >>de:Sie läuft die Straße zwischen Dolanaar und Darnaßus hin und her.
 >>She walks in a large pattern along the road from Dolanaar to Darnassus.
 .turnin The Road to Darnassus##487
 
 #step
-.talk Jannok Breezesong
+.talk Jannok Breezesong##3599
 >>Inside the building.
 .goto Teldrassil,56.38,60.14
 .accept The Apple Falls##2241
@@ -1312,11 +1318,11 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,42.77,52.55
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only Rogue and not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Darnassus,77.67,25.92
 .only Rogue and not hardcore
@@ -1324,7 +1330,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,32.12,16.46
 >>Enter the cave in the tree trunk
-.talk Syurna
+.talk Syurna##4163
 >>Inside the cave.
 .goto Darnassus,36.99,21.91
 .turnin The Apple Falls##2241
@@ -1367,9 +1373,10 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,48.08,25.10
 >>There is, unfortunately, never a good time to turn this in that is worthwhile.
+.only itemcount(5179) > 0
 
 #step
-.kill 1 Lady Sathrah
+.kill 1 Lady Sathrah##7319
 >>She looks like a a grey spider that walks around this area.
 >>She can spawn in multiple locations.
 .goto Teldrassil,48.08,25.10
@@ -1403,17 +1410,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Teldrassil,36.45,27.73
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Darnassus,77.67,25.92
 .only not hardcore
 
 #step
-.talk Mydrannul
+.talk Mydrannul##4241
 >>en:In a small camp to the side of the road near the entrance to Darnassus.
 >>de:In einem kleinen Lager seitlich der Straße nahe dem Eingang nach Darnaßus.
 .goto Darnassus,70.68,45.38
@@ -1421,7 +1428,7 @@ LLG.RegisterGuide([[
 .only NightElf
 
 #step
-.talk Mydrannul
+.talk Mydrannul##4241
 >>en:In a small camp to the side of the road near the entrance to Darnassus.
 >>de:In einem kleinen Lager seitlich der Straße nahe dem Eingang nach Darnaßus.
 >>If you can afford it, and you need more bag space, buy bags.
@@ -1429,7 +1436,7 @@ LLG.RegisterGuide([[
 >>Visit the Vendor
 
 #step
-.talk Elanaria
+.talk Elanaria##4088
 >>en:Standing on a balcony, overlooking the lake.
 >>de:Steht auf einem Balkon mit Blick auf den See.
 .goto Darnassus,57.30,34.61
@@ -1441,13 +1448,13 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,48.68,62.73
 >>Run around the mountain and follow the path up
-.kill 1 Vorlus Vilehoof
+.kill 1 Vorlus Vilehoof##6128
 .goto Teldrassil,47.25,63.60
 .complete 1683,1 >>Collect Horn of Vorlus
 .only Warrior
 
 #step
-.talk Elanaria
+.talk Elanaria##4088
 >>en:Standing on a balcony, overlooking the lake.
 >>de:Steht auf einem Balkon mit Blick auf den See.
 .goto Darnassus,57.30,34.61
@@ -1455,52 +1462,54 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Ilyenia Moonfire
+.talk Ilyenia Moonfire##11866
 >>This will allow you to use staves.
 .goto Darnassus,57.56,46.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Warrior
 
 #step
-.talk Ariyell Skyshadow
-.kill 1 Quarter Staff
+.talk Ariyell Skyshadow##4203
+.kill 1 Quarter Staff##854
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Darnassus,58.76,44.50
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(854) == 0
 
 #step
-.talk Ilyenia Moonfire
+.talk Ilyenia Moonfire##11866
 >>This will allow you to use staves.
 .goto Darnassus,57.56,46.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Hunter
 
 #step
-.talk Ariyell Skyshadow
-.kill 1 Laminated Recurve Bow
+.talk Ariyell Skyshadow##4203
+.kill 1 Laminated Recurve Bow##2507
 >>If you can afford it.
 >>You can't use it until level 11, but you'll be level 11 soon and it will be a nice instant upgrade.
 >>If you have better, skip this step.
 .goto Darnassus,58.76,44.50
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2507) == 0
 
 #step
-.talk Ariyell Skyshadow
-.kill 1 Medium Quiver
+.talk Ariyell Skyshadow##4203
+.kill 1 Medium Quiver##11362
 >>If you can afford it.
 .goto Darnassus,58.76,44.50
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11362) == 0
 
 #step
 .goto Darnassus,62.61,68.78
 >>Run up the ramp
-.talk Turian
+.talk Turian##4235
 >>Upstairs inside the building.
-.kill 1 Keen Throwing Knife
+.kill 1 Keen Throwing Knife##3107
 >>If you can afford it.
 >>If you have better, skip this step.
 >>You will equip it after you reach level 11 soon.
@@ -1509,10 +1518,11 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Ilyenia Moonfire
+.talk Ilyenia Moonfire##11866
 >>This will allow you to use staves.
 .goto Darnassus,57.56,46.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Priest
 
 #step
@@ -1532,10 +1542,12 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,61.25,23.27
 >>Run up the ramp
-.talk Trianna
+.talk Trianna##11050
 >>Inside the building.
 .goto Darnassus,63.55,21.21
 .train
+.condition skillmax("Tailoring") >= 75 >>Learn Tailoring
+.optional
 .only Priest
 
 #step
@@ -1546,7 +1558,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Elynna
+.talk Elynna##4168
 >>en:She is standing on the first floor next to some pants haning on a rack.|
 >>de:Sie steht im ersten Stock neben einigen Hosen, die an einem Gestell hängen.|
 >>Inside the building.
@@ -1555,7 +1567,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Trianna
+.talk Trianna##11050
 >>Inside the building.
 .goto Darnassus,63.55,21.21
 .train
@@ -1572,10 +1584,12 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,61.06,10.72
 >>Run up the ramp
-.talk Lalina Summermoon
+.talk Lalina Summermoon##11070
 >>Inside the building.
 .goto Darnassus,58.79,12.74
 .train
+.condition skillmax("Enchanting") >= 75 >>Learn Enchanting
+.optional
 .only Priest
 
 #step
@@ -1591,7 +1605,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Vaean
+.talk Vaean##4228
 >>en:He is standing next to a table with a glowing stone on it.|
 >>de:Er steht neben einem Tisch mit einem leuchtenden Stein darauf.|
 >>Inside the building.
@@ -1609,7 +1623,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Lalina Summermoon
+.talk Lalina Summermoon##11070
 >>Inside the building.
 >>This should be available with 10 Enchanting.
 .goto Darnassus,58.79,12.74
@@ -1624,26 +1638,26 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Innkeeper Saelienne
+.talk Innkeeper Saelienne##6735
 .goto Darnassus,67.37,15.72
 .hs
 >>This is a very important hearthstone, make sure you avoid overriding it until we hearth next.
 
 #step
-.talk Rellian Greenspyre
+.talk Rellian Greenspyre##3517
 >>en:Standing to the side of the road, next to a light post.
 >>de:Standing to the side of the road, next to a light post.
 .goto Darnassus,38.19,21.64
 .turnin Tumors##923
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Sildanair
-.talk Denatharion
-.talk Jandria
+.talk Syurna##4163
+.talk Sildanair##4089
+.talk Denatharion##4218
+.talk Jandria##4091
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,61.78,42.28
@@ -1661,7 +1675,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,32.12,16.46
 >>Enter the cave in the tree trunk
-.talk Syurna
+.talk Syurna##4163
 >>Inside the cave.
 .goto Darnassus,36.99,21.91
 .turnin Destiny Calls##2242
@@ -1675,7 +1689,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,39.62,16.40
 >>Run up the ramp
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
 >>Inside the building.
@@ -1694,7 +1708,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.46,10.59
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -1707,7 +1721,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.46,10.59
 >>Enter the building
-.talk Arch Druid Fandral Staghelm
+.talk Arch Druid Fandral Staghelm##3516
 >>en:In the big tower all the way at the top.
 >>de:In the big tower all the way at the top.
 >>He walks around inside the building, at the top.
@@ -1720,7 +1734,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Darnassus,39.02,76.78
 >>Enter the building
-.talk Priestess A'moora
+.talk Priestess A'moora##7313
 >>Upstairs inside the building.
 .goto Darnassus,36.64,85.93
 .turnin Tears of the Moon##2518
@@ -1729,7 +1743,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Priestess Alathea
+.talk Priestess Alathea##11401
 >>Upstairs inside the building.
 .goto Darnassus,39.53,81.18
 .turnin Returning Home##5629
@@ -1738,21 +1752,21 @@ LLG.RegisterGuide([[
 .only NightElf and Priest
 
 #step
-.click Sathrah's Sacrifice
+.click Sathrah's Sacrifice##8155
 >>Inside the building.
 .goto Darnassus,39.21,84.57
 .complete 2520,1 >>Offer the Sacrifice at the Fountain
 
 #step
-.talk Priestess A'moora
+.talk Priestess A'moora##7313
 >>Upstairs inside the building.
 .goto Darnassus,36.64,85.93
 .turnin Sathrah's Sacrifice##2520
 
 #step
-.talk Jaeana
+.talk Jaeana##4169
 >>Walking around this area.
-.kill 1 Tough Jerky
+.kill 1 Tough Jerky##117
 >>Buy up to 20, whatever you have money and bag space for if you weren't able to get many spare Spider Legs.
 >>This will be used to feed your permanent pet and keep it Happy, so it deals more damage and gains Loyalty faster.
 >>By keeping your pet Happy and ranking up its Loyalty, it won't run away and abandon you, and will need food less often to stay Happy.
@@ -1760,7 +1774,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Nessa Shadowsong
+.talk Nessa Shadowsong##10118
 >>en:Next to a huge tree root to the side of the road, holding a fishing pole.
 >>de:Next to a huge tree root to the side of the road, holding a fishing pole.
 .goto Teldrassil,56.25,92.43
@@ -1770,7 +1784,7 @@ LLG.RegisterGuide([[
 .only NightElf
 
 #step
-.talk Vesprystus
+.talk Vesprystus##3838
 >>en:At the end of big long dock.
 >>de:Am Ende des langen großen Docks.
 .goto Teldrassil,58.40,94.01
@@ -1780,7 +1794,7 @@ LLG.RegisterGuide([[
 .only NightElf
 
 #step
-.talk Laird
+.talk Laird##4200
 >>en:Standing inside the inn, next to some boxes.
 >>de:Steht im Gasthaus, neben einigen Kisten.
 >>Inside the building.
@@ -1789,7 +1803,7 @@ LLG.RegisterGuide([[
 .only NightElf
 
 #step
-.talk Shellei Brondir
+.talk Shellei Brondir##1571
 >>en:Next to a canopy and two big eagles.
 >>de:Neben einem Baldachin und zwei großen Adlern.
 .goto Wetlands,9.49,59.69
@@ -1824,7 +1838,7 @@ LLG.RegisterGuide([[
 >>Reach the Gates of Ironforge
 
 #step
-.talk Gryth Thurden
+.talk Gryth Thurden##1573
 >>en:Next to some eagles next to the Great Forge.
 >>de:Neben einigen Adlern bei der Großen Schmiede.
 .goto Ironforge,55.50,47.75
@@ -1833,19 +1847,21 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.32,88.18
 >>Run up the stairs and enter the building
-.talk Buliwyf Stonehand
+.talk Buliwyf Stonehand##11865
 >>Inside the building.
 >>This will allow you to equip two-handed axes and two-handed maces.
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_AXE") > 0 >>Train Two-Handed Axes
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_MACE") > 0 >>Train Two-Handed Maces
 .only Warrior
 
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Razzle Sprysprocket
+.talk Razzle Sprysprocket##1269
 >>en:In the underground house with a big gear spinning on top of it.
 >>de:Im unterirdischen Haus mit einem großen drehenden Zahnrad oben drauf.
 >>Inside the building.
@@ -1853,7 +1869,7 @@ LLG.RegisterGuide([[
 .accept Operation Recombobulation##412
 
 #step
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.83
@@ -1865,7 +1881,7 @@ LLG.RegisterGuide([[
 .goto Dun Morogh,36.01,51.96
 >>Follow the path up
 >>Go out of your way to grind mobs en route to this quest.
-.talk Tundra MacGrann
+.talk Tundra MacGrann##1266
 >>On top of the mountain.
 >>As you travel to him, be careful to avoid the elite yeti that walks around this area.
 .goto Dun Morogh,34.57,51.65
@@ -1875,7 +1891,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,37.80,53.69
 >>Enter the cave
-.click MacGrann's Meat Locker
+.click MacGrann's Meat Locker##272
 >>Inside the cave.
 >>Wait for the elite yeti to leave the cave and walk away before you enter the cave.
 .goto Dun Morogh,38.51,53.93
@@ -1887,7 +1903,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,36.01,51.96
 >>Follow the path up
-.talk Tundra MacGrann
+.talk Tundra MacGrann##1266
 >>On top of the mountain.
 .goto Dun Morogh,34.57,51.65
 .turnin Tundra MacGrann's Stolen Stash##312
@@ -1914,14 +1930,14 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,25.07,50.99
 >>Leave the cave
-.kill 1 Leper Gnome
+.kill 1 Leper Gnome##1211
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Dun Morogh,25.64,43.33
 .complete 412,1 >>Collect 8 Restabilization Cog
 .only subzone("Frostmane and Hold")
 
 #step
-.kill 1 Leper Gnome
+.kill 1 Leper Gnome##1211
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Dun Morogh,25.64,43.33
 .complete 412,2 >>Collect 8 Gyromechanic Gear
@@ -1929,7 +1945,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.05
 >>Leave the building
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.82
@@ -1939,7 +1955,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.97,48.84
 >>Enter the building
-.talk Razzle Sprysprocket
+.talk Razzle Sprysprocket##1269
 >>en:In the underground house with a big gear spinning on top of it.
 >>de:Im unterirdischen Haus mit einem großen drehenden Zahnrad oben drauf.
 >>Inside the building.
@@ -1947,7 +1963,7 @@ LLG.RegisterGuide([[
 .turnin Operation Recombobulation##412
 
 #step
-.talk Rudra Amberstill
+.talk Rudra Amberstill##1265
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 .goto Dun Morogh,63.08,49.89
@@ -1973,7 +1989,7 @@ LLG.RegisterGuide([[
 .only not Paladin
 
 #step
-.talk Rudra Amberstill
+.talk Rudra Amberstill##1265
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 .goto Dun Morogh,63.08,49.89
@@ -1981,14 +1997,14 @@ LLG.RegisterGuide([[
 .only not Paladin
 
 #step
-.talk Senator Mehr Stonehallow
+.talk Senator Mehr Stonehallow##1977
 >>en:Standing near a tent.
 >>de:Steht nahe einem Zelt.
 .goto Dun Morogh,68.67,55.97
 .accept The Public Servant##433
 
 #step
-.talk Foreman Stonebrow
+.talk Foreman Stonebrow##1254
 >>en:Standing on a hill, overlooking a dig site.
 >>de:Steht auf einem Hügel mit Blick auf eine Ausgrabungsstätte.
 .goto Dun Morogh,69.08,56.33
@@ -2013,7 +2029,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Dun Morogh,67.86,57.69
 >>Follow the path up
-.talk Senator Mehr Stonehallow
+.talk Senator Mehr Stonehallow##1977
 >>en:Standing near a tent.
 >>de:Steht nahe einem Zelt.
 .goto Dun Morogh,68.67,55.97
@@ -2021,7 +2037,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Foreman Stonebrow
+.talk Foreman Stonebrow##1254
 >>en:Standing on a hill, overlooking a dig site.
 >>de:Steht auf einem Hügel mit Blick auf eine Ausgrabungsstätte.
 .goto Dun Morogh,69.08,56.33
@@ -2032,26 +2048,26 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Dun Morogh,81.21,42.70
 >>Follow the road and run through the tunnel
-.talk Pilot Hammerfoot
+.talk Pilot Hammerfoot##1960
 .goto Dun Morogh,83.89,39.19
 .accept The Lost Pilot##419
 .only walking and not subzone("North and Gate and Outpost")
 
 #step
-.click A Dwarven Corpse
+.click A Dwarven Corpse##2059
 .goto Dun Morogh,79.67,36.17
 .turnin The Lost Pilot##419
 .goto Dun Morogh,79.67,36.17
 .accept A Pilot's Revenge##417
 
 #step
-.kill 1 Mangeclaw
+.kill 1 Mangeclaw##1961
 >>He walks around this area.
 .goto Dun Morogh,78.31,37.76
 .complete 417,1 >>Collect Mangy Claw
 
 #step
-.talk Pilot Hammerfoot
+.talk Pilot Hammerfoot##1960
 .goto Dun Morogh,83.89,39.19
 .turnin A Pilot's Revenge##417
 
@@ -2060,7 +2076,7 @@ LLG.RegisterGuide([[
 >>Run through the tunnel
 .goto Loch Modan,23.53,17.89
 >>Enter the building
-.talk Mountaineer Stormpike
+.talk Mountaineer Stormpike##1343
 >>en:All the way up the stairs in the watch tower.
 >>de:Ganz oben über die Treppe im Wachturm.
 >>Upstairs inside the building.
@@ -2086,7 +2102,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,35.23,47.75
 >>Enter the building
-.talk Vidra Hearthstove
+.talk Vidra Hearthstove##1963
 >>en:Inside the inn, behind the bar.
 >>de:Im Gasthaus, hinter dem Tresen.
 >>Inside the building.
@@ -2094,14 +2110,14 @@ LLG.RegisterGuide([[
 .accept Thelsamar Blood Sausages##418
 
 #step
-.talk Yanni Stoutheart
+.talk Yanni Stoutheart##1682
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Loch Modan,34.76,48.62
 >>Visit the Vendor
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
@@ -2110,7 +2126,7 @@ LLG.RegisterGuide([[
 >>only haveq(1338) :: This won't be available if you've picked up Stormpike's Order.
 
 #step
-.click Miners' League Crates
+.click Miners' League Crates##271
 >>They look like piles of brown boxes on the ground around this area inside the mine.
 >>This mine can be dangerous, so try to stay near the entrance and wait for boxes to respawn, if you can, so you can leave quickly when you're finished.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -2131,7 +2147,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.53,17.89
 >>Enter the building
-.talk Mountaineer Stormpike
+.talk Mountaineer Stormpike##1343
 >>en:All the way up the stairs in the watch tower.
 >>de:Ganz oben über die Treppe im Wachturm.
 >>Upstairs inside the building.
@@ -2143,14 +2159,14 @@ LLG.RegisterGuide([[
 .accept Stormpike's Order##1338
 
 #step
-.kill 1 Mountain Boar
+.kill 1 Mountain Boar##1190
 >>Kill the other types of enemies around this area for extra xp.
 .goto Loch Modan,36.99,34.36
 .collect Boar Intestines,3
 >>You can find more around [Loch Modan 29.17,23.57]
 
 #step
-.kill 1 Forest Lurker
+.kill 1 Forest Lurker##1195
 >>Kill the other types of enemies around this area for extra xp.
 .goto Loch Modan,35.69,31.78
 .collect Spider Ichor,3
@@ -2159,7 +2175,7 @@ LLG.RegisterGuide([[
 >>[29.43,48.28]
 
 #step
-.kill 1 Elder Black Bear
+.kill 1 Elder Black Bear##1186
 >>Kill the other types of enemies around this area for extra xp.
 .goto Loch Modan,35.68,32.10
 .collect Bear Meat,3
@@ -2171,14 +2187,14 @@ LLG.RegisterGuide([[
 >>[28.09,40.94]
 
 #step
-.talk Yanni Stoutheart
+.talk Yanni Stoutheart##1682
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Loch Modan,34.76,48.62
 >>Visit the Vendor
 
 #step
-.talk Vidra Hearthstove
+.talk Vidra Hearthstove##1963
 >>en:Inside the inn, behind the bar.
 >>de:Im Gasthaus, hinter dem Tresen.
 >>Inside the building.
@@ -2186,21 +2202,21 @@ LLG.RegisterGuide([[
 .turnin Thelsamar Blood Sausages##418
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
 .turnin Rat Catching##416
 
 #step
-.talk Thorgrum Borrelson
+.talk Thorgrum Borrelson##1572
 >>en:Up on a hill in between a big eagle and a canopy.
 >>de:Oben auf einem Hügel zwischen einem großen Adler und einem Baldachin.
 .goto Loch Modan,33.94,50.95
 .fly Thelsamar
 
 #step
-.talk Mountaineer Cobbleflint
+.talk Mountaineer Cobbleflint##1089
 >>en:Standing to the side of the road on a small hill.
 >>de:Steht seitlich der Straße auf einem kleinen Hügel.
 .goto Loch Modan,22.07,73.12
@@ -2209,7 +2225,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.71,75.47
 >>Enter the building
-.talk Captain Rugelfuss
+.talk Captain Rugelfuss##1092
 >>en:All the way at the top of the big round building.
 >>de:Ganz oben auf dem großen runden Gebäude.
 >>Upstairs inside the building.
@@ -2241,7 +2257,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,30.57,69.69
 >>Leave Stonesplinter Valley and follow the road
-.talk Mountaineer Cobbleflint
+.talk Mountaineer Cobbleflint##1089
 >>en:Standing to the side of the road on a small hill.
 >>de:Steht seitlich der Straße auf einem kleinen Hügel.
 .goto Loch Modan,22.07,73.13
@@ -2251,7 +2267,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.71,75.45
 >>Enter the building
-.talk Captain Rugelfuss
+.talk Captain Rugelfuss##1092
 >>en:All the way at the top of the big round building.
 >>de:Ganz oben auf dem großen runden Gebäude.
 >>Upstairs inside the building.
@@ -2269,30 +2285,31 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.32,88.18
 >>Run up the stairs and enter the building
-.talk Bixi Wobblebonk
+.talk Bixi Wobblebonk##13084
 >>Inside the building.
 >>This will allow you to equip thrown weapons.
 .goto Ironforge,62.23,89.62
 .train
+.condition weaponskill("THROWN") > 0 >>Train Thrown
 .only Warrior
 
 #step
 .goto Ironforge,72.82,50.18
 >>Follow the path
 .goto Ironforge,76.97,51.25
->>Enter the Deeprun Tram
+.condition subzone("Deeprun Tram") >>Enter the Deeprun Tram
 >>Walk into the swirling portal.
 .only Warrior or Rogue
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .accept Deeprun Rat Roundup##6661
 .only Warrior or Rogue
 
 #step
-.click Rat Catcher's Flute
+.click Rat Catcher's Flute##17117
 >>Use it on Deeprun Rats around this area.
 >>They look like small grey rats on the ground around this area.
 >>In the Ironforge section of the Deeprun Tram.
@@ -2300,7 +2317,7 @@ LLG.RegisterGuide([[
 .only Warrior or Rogue
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .turnin Deeprun Rat Roundup##6661
@@ -2308,7 +2325,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .accept Me Brother, Nipsy##6662
@@ -2317,7 +2334,7 @@ LLG.RegisterGuide([[
 #step
 >>Ride the Tram
 >>Ride the Deeprun Tram from Ironforge to Stormwind City.
-.talk Nipsy
+.talk Nipsy##13018
 >>On the middle platform, near the wall.
 >>In the Stormwind City section of the Deeprun Tram.
 .turnin Me Brother, Nipsy##6662
@@ -2325,12 +2342,12 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside Deeprun Tram:_
->>Enter Stormwind City
+.condition zone("Stormwind City") >>Enter Stormwind City
 >>Walk into the swirling portal.
 .only Warrior or Rogue
 
 #step
-.talk Furen Longbeard
+.talk Furen Longbeard##5413
 >>en:Standing in a corner by himself.
 >>de:Standing in a corner by himself.
 .goto Stormwind City,58.09,16.53
@@ -2342,7 +2359,7 @@ LLG.RegisterGuide([[
 >>Run through the doorway
 .goto Stormwind City,77.97,48.19
 >>Enter the building
-.talk Ilsa Corbin
+.talk Ilsa Corbin##5480
 >>Upstairs inside the building.
 .goto Stormwind City,78.50,45.71
 .accept A Warrior's Training##1638
@@ -2353,7 +2370,7 @@ LLG.RegisterGuide([[
 >>Leave the Command Center
 .goto Stormwind City,71.66,39.89
 >>Enter the building
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
@@ -2364,7 +2381,7 @@ LLG.RegisterGuide([[
 .only NightElf and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
@@ -2376,7 +2393,7 @@ LLG.RegisterGuide([[
 .only NightElf and Warrior
 
 #step
-.kill 1 Bartleby
+.kill 1 Bartleby##6090
 >>He walks around this area inside the building.
 >>He will eventually surrender.
 .goto Stormwind City,73.83,37.17
@@ -2384,7 +2401,7 @@ LLG.RegisterGuide([[
 .only NightElf and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
@@ -2395,7 +2412,7 @@ LLG.RegisterGuide([[
 .only NightElf and Warrior
 
 #step
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
@@ -2406,47 +2423,49 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,56.66,57.71
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to equip two-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_SWORD") > 0 >>Train Two-Handed Swords
 .only Warrior
 
 #step
-.talk Gunther Weller
+.talk Gunther Weller##1289
 >>Inside the building.
-.kill 1 Quarter Staff
+.kill 1 Quarter Staff##854
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,57.55,57.07
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(854) == 0
 
 #step
 .goto Stormwind City,56.66,57.71
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to equip one-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("SWORD") > 0 >>Train One-Handed Swords
 .only Rogue
 
 #step
-.talk Gunther Weller
+.talk Gunther Weller##1289
 >>Inside the building.
-.kill 1 Cutlass
+.kill 1 Cutlass##851
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,57.55,57.07
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(851) == 0
 
 #step
 .goto Stormwind City,62.39,62.31
 >>Run up the ramp
-.talk Dungar Longdrink
+.talk Dungar Longdrink##352
 >>en:Up the ramp by the huge eagle in the Trade District.
 >>de:Oben auf der Rampe beim riesigen Adler im Handelsdistrikt.
 >>Inside the building.
@@ -2455,19 +2474,19 @@ LLG.RegisterGuide([[
 .only Warrior or Rogue
 
 #step
-.talk Chief Archaeologist Greywhisker
+.talk Chief Archaeologist Greywhisker##2912
 >>He's outside the temple
 .goto Darnassus,31.40,83.20
 .accept Trouble In Darkshore?##730
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Sildanair
-.talk Denatharion
-.talk Jandria
+.talk Syurna##4163
+.talk Sildanair##4089
+.talk Denatharion##4218
+.talk Jandria##4091
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,61.78,42.28

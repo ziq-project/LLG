@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Razzeric
+.talk Razzeric##4706
 >>de:Standing next to some green bubbling tanks, next to a green canopy.
 .goto Thousand Needles,80.33,76.09
 .turnin The Eighteenth Pilot##1186
@@ -39,7 +39,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Dustwallow Marsh,68.17,48.76
 >>Run up the stairs
-.talk Captain Garran Vimes
+.talk Captain Garran Vimes##4944
 >>en:At the top of the fort, next to a table.
 >>de:At the top of the fort, next to a table.
 >>Upstairs inside the building.
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Dustwallow Marsh,66.00,45.20
 >>Enter the building
-.talk Morgan Stern
+.talk Morgan Stern##4794
 >>en:Inside the inn, to the right as you enter.
 >>de:Im Gasthaus, rechts beim Eintreten.
 >>Inside the building.
@@ -62,7 +62,7 @@ LLG.RegisterGuide([[
 .only subzone("Foothold and Citadel")
 
 #step
-.talk Innkeeper Janene
+.talk Innkeeper Janene##6272
 >>Inside the building.
 .goto Dustwallow Marsh,66.59,45.22
 .hs
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Theramore and Isle")
 
 #step
-.talk Archmage Tervosh
+.talk Archmage Tervosh##4967
 >>Inside the building.
 >>If he doesn't appear, walk out of the tower to the main road, then walk back into the tower.
 >>You also may need to check the tower inside of Theramore, but this is a very rare spawn location.
@@ -123,13 +123,13 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,57.90,18.51
 >>Follow the path up
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.44,26.27
 .accept Jarl Needs Eyes##1206
 .only walking and subzone("Dreadmurk and Shore")
 
 #step
-.talk "Stinky" Ignatz
+.talk "Stinky" Ignatz##4880
 >>de:Kneeling next to a pile of junk.
 >>Kill the raptors near him before accepting the quest.
 >>This is an escort quest.
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 .complete 1222,1 >>Help Stinky Find Bogbean Leaves
 
 #step
-.talk Private Hendel
+.talk Private Hendel##4966
 .goto Dustwallow Marsh,45.22,24.64
 .turnin The Missing Diplomat##1266
 .goto Dustwallow Marsh,45.22,24.64
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 >>Focus on killing Private Hendel. His helpers will stop attacking once he surrenders.
 
 #step
-.kill 1 Private Hendel
+.kill 1 Private Hendel##4966
 >>Focus on killing Private Hendel. His helpers will stop attacking once he surrenders.
 >>He will eventually surrender.
 .goto Dustwallow Marsh,45.22,24.64
@@ -163,14 +163,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Archmage Tervosh
+.talk Archmage Tervosh##4967
 >>He will appear nearby where Private Hendel surrendered.
 .goto Dustwallow Marsh,66.40,49.30
 .turnin The Missing Diplomat##1324
 
 #step
 >>Watch the dialogue
-.talk Lady Jaina Proudmoore
+.talk Lady Jaina Proudmoore##4968
 >>en:Standing at the top of this tower.
 >>She will appear nearby where Private Hendel surrendered.
 .goto Dustwallow Marsh,66.30,49.00
@@ -185,7 +185,7 @@ LLG.RegisterGuide([[
 .complete 1206,1 >>Collect 40 Unpopped Darkmist Eye
 
 #step
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.44,26.27
 .turnin Jarl Needs Eyes##1206
 
@@ -195,14 +195,14 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Mudcrush Durtfeet
+.talk Mudcrush Durtfeet##4503
 .goto Dustwallow Marsh,35.15,38.25
 .turnin Hungry!##1177
 
 #step
 .goto Dustwallow Marsh,35.73,53.99
 >>Enter the building
-.talk Balos Jacken
+.talk Balos Jacken##5089
 >>en:Balos Jacken is inside this tower.
 >>de:Balos Jacken ist in diesem Turm.
 >>Upstairs inside the building.
@@ -213,12 +213,12 @@ LLG.RegisterGuide([[
 .accept The Deserters##1287
 
 #step
-.click Gizmorium Shipping Crate
+.click Gizmorium Shipping Crate##20727
 .goto Dustwallow Marsh,54.07,56.48
 .complete 1187,1 >>Collect Seaforium Booster
 
 #step
-.talk Morgan Stern
+.talk Morgan Stern##4794
 >>en:Inside the inn, to the right as you enter.
 >>de:Im Gasthaus, rechts beim Eintreten.
 >>Inside the building.
@@ -236,7 +236,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Dustwallow Marsh,68.17,48.76
 >>Run up the stairs
-.talk Captain Garran Vimes
+.talk Captain Garran Vimes##4944
 >>en:At the top of the fort, next to a table.
 >>de:At the top of the fort, next to a table.
 >>Upstairs inside the building.

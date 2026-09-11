@@ -28,23 +28,24 @@ LLG.RegisterGuide([[
 >>{o}Any enemies{} can drop these.
 .collect Qiraji Lord's Insignia,1
 >>{o}Bosses{} drop these.
->>Reach _2999/3000 Neutral_ Reputation with Brood of Nozdormu
+.condition repval('Brood of Nozdormu','Neutral') >= 2999 >>Reach _2999/3000 Neutral_ Reputation with Brood of Nozdormu
 
 #step
-.click the Ancient Qiraji Artifact
+.click the Ancient Qiraji Artifact##21230
 >>Accept the {o}Secrets of the Qiraji{} quest.
-.talk Andorgos
+.talk Andorgos##15502
 >>Turn in the {o}repeatable quest{}.
 >>{o}Repeat this process{} until you have no more {o}Ancient Qiraji Artifacts{}.
 .click Here to Continue
+.only not rep('Brood and of and Nozdormu') == Exalted
 
 #step
-.talk Kandrostrasz
+.talk Kandrostrasz##15503
 .accept Mortal Champions##8579
 .only not completedq(8579)
 
 #step
-.talk Kandrostrasz
+.talk Kandrostrasz##15503
 .turnin Mortal Champions##8579
 .only not completedq(8579)
 
@@ -56,26 +57,29 @@ LLG.RegisterGuide([[
 .collect Qiraji Lord's Insignia,1
 >>{o}Bosses{} drop these.
 .click Here to Continue
+.only not rep('Brood and of and Nozdormu') == Exalted
 
 #step
-.click the Ancient Qiraji Artifact
+.click the Ancient Qiraji Artifact##21230
 >>Accept the {o}Secrets of the Qiraji{} quest.
-.talk Andorgos
+.talk Andorgos##15502
 >>Turn in the {o}repeatable quest{}.
 >>{o}Repeat this process{} until you have no more {o}Ancient Qiraji Artifacts{}.
 .click Here to Continue
+.only not rep('Brood and of and Nozdormu') == Exalted
 
 #step
-.talk Kandrostrasz
+.talk Kandrostrasz##15503
 >>Accept and turn in the {o}Mortal Champions{} quest.
 >>This is a {o}repeatable quest{}.
 >>You {o}must have{} a {o}Qiraji Lord's Insignia{} item to be {o}able to complete{} this quest.
 .click Here to Continue
+.only not rep('Brood and of and Nozdormu') == Exalted
 
 #step
->>Routing Guide
->>Routing Guide
+.condition rep('Brood of Nozdormu') < Exalted |or >>Routing Guide
+.condition rep('Brood of Nozdormu') == Exalted |or >>Routing Guide
 
 #step
->>Reach Exalted Reputation with the Brood of Nozdormu Faction
+.condition rep('Brood of Nozdormu') == Exalted >>Reach Exalted Reputation with the Brood of Nozdormu Faction
 ]])

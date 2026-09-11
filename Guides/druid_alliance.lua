@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Denatharion
+.talk Denatharion##4218
 .goto Darnassus,34.77,7.36
 .accept Heeding the Call##5923
 .only NightElf and Druid
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 >>Enter Darnassus
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,42.47,34.44
 >>Follow the path
-.talk Great Bear Spirit
+.talk Great Bear Spirit##11956
 >>en:A bug bear spirit standing next to a log on the ground.
 >>de:A bug bear spirit standing next to a log on the ground.
 >>Select _"What do you represent, spirit?"_
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,56.13,30.98
 >>Enter the building
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Sindrayl
+.talk Sindrayl##10897
 >>en:Off the road to the right, follow the path after the two bridges.
 >>de:Rechts abseits der Straße, folge dem Pfad nach den zwei Brücken.
 .goto Moonglade,48.10,67.34
@@ -86,7 +86,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -99,9 +99,9 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,43.06,45.55
 >>Enter the cave
-.click the Cenarion Moondust
+.click the Cenarion Moondust##15208
 >>Inside the cave.
-.kill 1 Lunaclaw
+.kill 1 Lunaclaw##12138
 >>only hardcore :: This enemy is level 12.
 >>only hardcore :: The area is surrounded by level 13 enemies.
 >>only hardcore :: The Owlbear enemies around here aggro from quite a bit away, so it may be safe to level up to 11 or even 12 before attempting the quest.
@@ -114,7 +114,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -143,7 +143,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Darkshore,54.64,31.76
 >>Follow the path up
-.click the Empty Cliffspring Falls Sampler
+.click the Empty Cliffspring Falls Sampler##15844
 >>At the entrance of the cave.
 >>only hardcore :: There may be around 4 naga around the cave entrance.
 >>only hardcore :: Pull them carefully before attempting to fill the sampler.
@@ -177,7 +177,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Alanndarian Nightsong
+.talk Alanndarian Nightsong##3702
 >>en:Inside the long building, to the right as you enter the building.
 >>de:Inside the long building, to the right as you enter the building.
 >>Inside the building.
@@ -192,7 +192,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Darkshore,40.04,46.77
 >>Follow the road
-.click Lunar Fungal Bloom
+.click Lunar Fungal Bloom##177750
 >>They look like clusters of small white-spotted mushrooms on the ground inside the small caves around this area.
 >>only hardcore :: Watch for respawns while in the area.
 >>only hardcore :: Owlbear enemies around here have an abnormal aggro radius.
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Alanndarian Nightsong
+.talk Alanndarian Nightsong##3702
 >>en:Inside the long building, to the right as you enter the building.
 >>de:Inside the long building, to the right as you enter the building.
 >>Inside the building.
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Darkshore,39.55,45.39
 >>Follow the road
-.click the Curative Animal Salve
+.click the Curative Animal Salve##15826
 >>Use it on Sickly Deer around this area.
 >>They look like green diseased deer in areas with trees.
 >>They are spread out all throughout Darkshore.
@@ -236,7 +236,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -249,7 +249,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -263,7 +263,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.49,10.63
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -292,13 +292,13 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.click the Shrine Bauble
+.click the Shrine Bauble##15877
 .goto Moonglade,35.92,41.38
 .complete 29,1 >>Complete the Trial of the Lake
 .only NightElf and Druid
 
 #step
-.talk Tajarri
+.talk Tajarri##11799
 >>en:Standing next to a big wooden archway thing.
 >>de:Steht neben einem großen hölzernen Torbogen.
 .goto Moonglade,36.51,40.11
@@ -329,13 +329,13 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.click the Half Pendant of Aquatic Agility
+.click the Half Pendant of Aquatic Agility##15883
 .goto Moonglade,35.92,41.42
 .complete 272,1 >>Collect Pendant of the Sea Lion
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -348,7 +348,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.49,10.63
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -362,7 +362,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building.
@@ -371,7 +371,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -399,7 +399,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -409,7 +409,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.click the Devilsaur Barb
+.click the Devilsaur Barb##22432
 >>Use it on roaming Devilsaur around Un'Goro Crater.
 >>only hardcore :: Root the Devisaur before trying to use the Barb and run away after you accomplish this.
 .goto Un'Goro Crater,67.31,33.89
@@ -417,7 +417,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -459,7 +459,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.kill 1 Atal'alarion
+.kill 1 Atal'alarion##8580
 >>Refer to the Temple of Atal'Hakkar Dungeon Guide to accomplish that.
 .complete 9053,1 >>Collect Putrid Vine
 .only NightElf and Druid
@@ -470,7 +470,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96

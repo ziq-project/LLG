@@ -25,5 +25,5 @@ LLG.RegisterGuide([[
 >>You will have to {o}clear the raid many times{}.
 >>You can only become {o}Exalted{} by killing the {o}Golemagg the Incinerator{} or {o}Ragnaros{} bosses.
 >>Otherwise, the {o}max{} reputation is {o}20999/21000 Revered{}.
->>Reach Exalted Reputation with the Hydraxian Waterlords Faction
+.condition rep('Hydraxian Waterlords') == Exalted >>Reach Exalted Reputation with the Hydraxian Waterlords Faction
 ]])

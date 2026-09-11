@@ -19,7 +19,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Sage Truthseeker
+.talk Sage Truthseeker##3978
 >>Inside the building.
 .goto Thunder Bluff,34.41,46.90
 .accept Compendium of the Fallen##1049
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Thousand Needles,53.67,42.51
 >>Enter the cave
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.
@@ -55,7 +55,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Thousand Needles,53.67,42.51
 >>Enter the cave
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.
@@ -72,10 +72,10 @@ LLG.RegisterGuide([[
 >>Continue up the path
 .goto Thousand Needles,27.27,51.29
 >>Enter the cave
-.click Harpy Foodstuffs
+.click Harpy Foodstuffs##20447
 >>Inside the cave.
 .kill 1 the enemies that attack in waves
-.kill 1 Grenka Bloodscreech
+.kill 1 Grenka Bloodscreech##4490
 .goto Thousand Needles,25.84,54.77
 .complete 1150,1 >>Collect Grenka's Claw
 .only walking
@@ -85,7 +85,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Thousand Needles,53.67,42.51
 >>Enter the cave
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.
@@ -96,12 +96,11 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Rok'Alim the Pounder
+.kill 1 Rok'Alim the Pounder##4499
 >>It patrols along this path.
 >>You may need help with this.
-.complete 1151,1 >>Collect Fragments of Rok'Alim
+.complete 1151,1 |or >>Collect Fragments of Rok'Alim
 .goto Thousand Needles,12.88,26.44
->>'
 >>[26.24,47.48]
 
 #step
@@ -109,7 +108,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Thousand Needles,53.67,42.51
 >>Enter the cave
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.
@@ -122,7 +121,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,61.45,66.35
 >>Follow the path
-.talk Braug Dimspirit
+.talk Braug Dimspirit##4489
 >>Inside the tent.
 .goto Stonetalon Mountains,78.78,45.67
 .turnin Test of Lore##1152
@@ -147,7 +146,7 @@ LLG.RegisterGuide([[
 >>Continue down the path
 .goto Ashenvale,75.41,75.11
 >>Cross the bridge
-.click The Legacy of the Aspects
+.click The Legacy of the Aspects##20725
 >>Inside the cave.
 .goto Ashenvale,75.56,74.37
 .complete 1154,1 >>Collect Legacy of the Aspects
@@ -155,7 +154,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,61.45,66.35
 >>Follow the path
-.talk Braug Dimspirit
+.talk Braug Dimspirit##4489
 >>Inside the tent.
 .goto Stonetalon Mountains,78.78,45.67
 .turnin Test of Lore##1154
@@ -164,14 +163,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Braug Dimspirit
+.talk Braug Dimspirit##4489
 >>Inside the tent.
 >>Select _"Neltharion is my answer."_
 .goto Stonetalon Mountains,78.78,45.67
 .complete 6627,1 >>Answer Braug Dimspirit's Question Correctly
 
 #step
-.talk Braug Dimspirit
+.talk Braug Dimspirit##4489
 >>Inside the tent.
 .goto Stonetalon Mountains,78.78,45.67
 .turnin Test of Lore##6627
@@ -179,7 +178,7 @@ LLG.RegisterGuide([[
 .accept Test of Lore##1159
 
 #step
-.talk Parqual Fintallas
+.talk Parqual Fintallas##4488
 >>Standing on the bridge.
 .goto Undercity,57.80,65.44
 .turnin Test of Lore##1159
@@ -189,7 +188,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.15,64.37
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.20
 .accept Into The Scarlet Monastery##1048
 .only walking
@@ -210,14 +209,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scarlet Monastery Library Dungeon:
-.click Beginnings of the Undead Threat
+.click Beginnings of the Undead Threat##20726
 >>It looks like an open book laying on a table.
 >>It is in the first room on the left once you enter the Gallery of Treasures.
 .complete 1160,1 >>Collect Beginnings of the Undead Threat
 
 #step
 >>Inside the Scarlet Monastery Library Dungeon:
-.click Compendium of the Fallen
+.click Compendium of the Fallen##19283
 >>Continue following the path through the dungeon to reach the Athenaeum.
 >>Once you enter the Athenaeum, follow the wall left and it will be on a nearby bookcase.
 .complete 1049,1 >>Collect Compendium of the Fallen
@@ -225,7 +224,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scarlet Monastery Library Dungeon:
-.click Doan's Strongbox
+.click Doan's Strongbox##103821
 >>It looks like a grey and black lockbox on the ground behind Arcanist Doan, the final boss of the dungeon.
 .collect The Scarlet Key,1
 >>This key is required to open the doors to access the last two wings of the Scarlet Monastery Dungeon.
@@ -236,7 +235,7 @@ LLG.RegisterGuide([[
 .complete 1160 >>Click Here to Continue
 
 #step
-.talk Parqual Fintallas
+.talk Parqual Fintallas##4488
 >>Standing on the bridge.
 .goto Undercity,57.80,65.44
 .turnin Test of Lore##1160
@@ -244,13 +243,13 @@ LLG.RegisterGuide([[
 .accept Test of Lore##6628
 
 #step
-.talk Parqual Fintallas
+.talk Parqual Fintallas##4488
 >>Choose "Ner'zhul", which should be the 3rd option.
 .goto Undercity,57.80,65.44
 .complete 6628,1 >>Answer Parqual Fintallas' Question Correctly
 
 #step
-.talk Parqual Fintallas
+.talk Parqual Fintallas##4488
 >>Standing on the bridge.
 .goto Undercity,57.80,65.44
 .turnin Test of Lore##6628
@@ -260,7 +259,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.15,64.37
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.20
 .turnin Into The Scarlet Monastery##1048
 >>This quest requires you to kill bosses in Scarlet Monastery - Library, Armory and Cathedral.
@@ -269,7 +268,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Sage Truthseeker
+.talk Sage Truthseeker##3978
 >>Inside the building.
 .goto Thunder Bluff,34.41,46.90
 .turnin Compendium of the Fallen##1049
@@ -280,7 +279,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Thousand Needles,53.67,42.51
 >>Enter the cave
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.

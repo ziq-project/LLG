@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Cerellean Whiteclaw
+.talk Cerellean Whiteclaw##3644
 >>en:To the left on the dock kneeling down.
 >>de:To the left on the dock kneeling down.
 >>On the dock.
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .accept For Love Eternal##963
 
 #step
-.talk Wizbang Cranktoggle
+.talk Wizbang Cranktoggle##3666
 >>en:Standing upstairs in the inn, next to a pink bed.
 >>de:Standing upstairs in the inn, next to a pink bed.
 >>Upstairs inside the building.
@@ -32,21 +32,21 @@ LLG.RegisterGuide([[
 .accept Buzzbox 827##983
 
 #step
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.59
 .accept Washed Ashore##3524
 
 #step
-.talk Caylais Moonfeather
+.talk Caylais Moonfeather##3841
 >>en:On the wooden platform to the right of the inn.
 >>de:Auf der Holzplattform rechts vom Gasthaus.
 .goto Darkshore,36.34,45.58
 .fly Auberdine
 
 #step
-.talk Barithras Moonshade
+.talk Barithras Moonshade##3583
 >>en:Next to the mailbox.
 >>de:Next to the mailbox.
 .goto Darkshore,37.32,43.64
@@ -55,7 +55,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: You will need to grind that xp later.
 
 #step
-.talk Sentinel Glynda Nal'Shea
+.talk Sentinel Glynda Nal'Shea##2930
 >>en:To the right of the road, near a light post.
 >>de:Rechts der Straße, nahe einer Laterne.
 >>She walks around this area.
@@ -65,14 +65,14 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Dalmond
+.talk Dalmond##4182
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Darkshore,37.45,40.50
 >>Visit the Vendor
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -82,14 +82,14 @@ LLG.RegisterGuide([[
 .accept Tools of the Highborne##958
 
 #step
-.talk Tharnariun Treetender
+.talk Tharnariun Treetender##3701
 >>en:Standing in front of a big house.
 >>de:Standing in front of a big house.
 .goto Darkshore,38.84,43.42
 .accept Plagued Lands##2118
 
 #step
-.talk Terenthis
+.talk Terenthis##3693
 >>en:Next to two bookcases on the first floor of the house across the road from the gazebo.
 >>de:Neben zwei Bücherregalen im Erdgeschoss des Hauses auf der anderen Straßenseite vom Pavillon.
 >>Inside the building.
@@ -97,14 +97,14 @@ LLG.RegisterGuide([[
 .accept How Big a Threat?##984
 
 #step
-.click Beached Sea Creature
+.click Beached Sea Creature##175207
 >>only hardcore :: There are several murlocs surrounding the corpse.
 >>only hardcore :: When low health, they will run away, so try to pull them a good deal away from the beached sea creature.
 .goto Darkshore,36.39,50.88
 .complete 3524,1 >>Collect Sea Creature Bones
 
 #step
-.kill 1 Pygmy Tide Crawler
+.kill 1 Pygmy Tide Crawler##2231
 .goto Darkshore,36.12,48.70
 .complete 983,1 >>Collect 6 Crawler Leg
 
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 .complete 984,1 >>Find a Corrupt Furbolg Camp
 
 #step
-.click Tharnariun's Hope
+.click Tharnariun's Hope##7586
 >>Use it on a Rabid Thistle Bear around this area.
 >>Be careful to not accidentally use it on a regular Thistle Bear.
 >>Make sure it's very close to you when you use it.
@@ -123,7 +123,7 @@ LLG.RegisterGuide([[
 >>If you need another quest item, talk to Tharnariun Treetender at [38.84,43.42]
 
 #step
-.click Buzzbox 827
+.click Buzzbox 827##17182
 .goto Darkshore,36.66,46.26
 .turnin Buzzbox 827##983
 .goto Darkshore,36.66,46.26
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,36.70,45.02
 >>Run up the ramp
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.59
@@ -144,7 +144,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,32.42,43.82
 >>Run on the dock and jump into the water here
-.click Skeletal Sea Turtle
+.click Skeletal Sea Turtle##176189
 >>Underwater.
 >>only hardcore :: Don't linger underwater for any reason.
 >>only hardcore :: If you get into combat, swim to the surface and kill the enemy, then try again.
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,36.70,45.02
 >>Run up the ramp
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.59
@@ -163,13 +163,13 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Innkeeper Shaussiy
+.talk Innkeeper Shaussiy##6737
 >>Inside the building.
 .goto Darkshore,37.04,44.12
 .hs
 
 #step
-.talk Tharnariun Treetender
+.talk Tharnariun Treetender##3701
 >>en:Standing in front of a big house.
 >>de:Standing in front of a big house.
 .goto Darkshore,38.84,43.42
@@ -178,7 +178,7 @@ LLG.RegisterGuide([[
 .accept Cleansing of the Infected##2138
 
 #step
-.talk Terenthis
+.talk Terenthis##3693
 >>en:Next to two bookcases on the first floor of the house across the road from the gazebo.
 >>de:Neben zwei Bücherregalen im Erdgeschoss des Hauses auf der anderen Straßenseite vom Pavillon.
 >>Inside the building.
@@ -190,7 +190,7 @@ LLG.RegisterGuide([[
 .accept Thundris Windweaver##4761
 
 #step
-.talk Gorbold Steelhand
+.talk Gorbold Steelhand##6301
 >>en:Standing under a red canopy, next to a wooden merchant cart.
 >>de:Standing under a red canopy, next to a wooden merchant cart.
 .goto Darkshore,38.11,41.17
@@ -199,14 +199,14 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Dalmond
+.talk Dalmond##4182
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Darkshore,37.45,40.50
 >>Visit the Vendor
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -234,7 +234,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,38.79,29.38
 >>Swim through the hole in the bottom of the underwater boat
-.click Silver Dawning's Lockbox
+.click Silver Dawning's Lockbox##175165
 >>Inside the sunken ship, at the very bottom.
 .goto Darkshore,38.24,28.80
 .complete 982,1 >>Collect Silver Dawning's Lockbox
@@ -248,7 +248,7 @@ LLG.RegisterGuide([[
 .complete 982,2 >>Collect Mist Veil's Lockbox
 
 #step
-.kill 1 Darkshore Thresher
+.kill 1 Darkshore Thresher##2185
 >>Underwater around this area.
 .goto Darkshore,31.60,39.75
 .complete 1001,1 >>Collect 3 Thresher Eye
@@ -257,14 +257,14 @@ LLG.RegisterGuide([[
 >>[39.63,27.46]
 
 #step
-.click Buzzbox 411
+.click Buzzbox 411##17183
 .goto Darkshore,41.96,28.64
 .turnin Buzzbox 411##1001
 .goto Darkshore,41.96,28.64
 .accept Buzzbox 323##1002
 
 #step
-.click Beached Sea Creature
+.click Beached Sea Creature##175233
 >>only hardcore :: The creature is surrounded by murlocs that can be hard to pull by themselves.
 >>only hardcore :: Greymist Seers will heal.
 >>only hardcore :: Greymist Coastrunners will run away quickly when at low health, so pull them away from the beached sea creature as best possible.
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 .accept Beached Sea Creature##4723
 
 #step
-.talk Asterion
+.talk Asterion##3650
 >>en:Kneeling in a blue glowing gazebo.
 >>de:Kniet in einem blau leuchtenden Pavillon.
 .goto Darkshore,44.17,36.29
@@ -288,7 +288,7 @@ LLG.RegisterGuide([[
 >>You can find more around [47.72,37.13]
 
 #step
-.talk Asterion
+.talk Asterion##3650
 >>en:Kneeling in a blue glowing gazebo.
 >>de:Kniet in einem blau leuchtenden Pavillon.
 .goto Darkshore,44.17,36.29
@@ -297,7 +297,7 @@ LLG.RegisterGuide([[
 .accept Bashal'Aran##956
 
 #step
-.kill 1 Deth'ryll Satyr
+.kill 1 Deth'ryll Satyr##2212
 .goto Darkshore,45.50,36.68
 .complete 956,1 >>Collect Ancient Moonstone Seal
 >>You can find more around:
@@ -306,7 +306,7 @@ LLG.RegisterGuide([[
 >>[47.71,36.91]
 
 #step
-.talk Asterion
+.talk Asterion##3650
 >>en:Kneeling in a blue glowing gazebo.
 >>de:Kniet in einem blau leuchtenden Pavillon.
 .goto Darkshore,44.17,36.30
@@ -321,14 +321,14 @@ LLG.RegisterGuide([[
 >>only hardcore :: Raging Moonkin will enrage when near death.
 
 #step
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.59
 .turnin Beached Sea Creature##4723
 
 #step
-.talk Sentinel Glynda Nal'Shea
+.talk Sentinel Glynda Nal'Shea##2930
 >>en:To the right of the road, near a light post.
 >>de:Rechts der Straße, nahe einer Laterne.
 >>She walks around this area.
@@ -338,21 +338,21 @@ LLG.RegisterGuide([[
 .accept As Water Cascades##4812
 
 #step
-.click the Empty Water Tube
+.click the Empty Water Tube##14338
 .goto Darkshore,37.79,44.06
 .complete 4812,1 >>Collect Moonwell Water Tube
 
 #step
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Dalmond
+.talk Dalmond##4182
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Darkshore,37.45,40.50
 >>Visit the Vendor
 
 #step
-.talk Gorbold Steelhand
+.talk Gorbold Steelhand##6301
 >>en:Standing under a red canopy, next to a wooden merchant cart.
 >>de:Standing under a red canopy, next to a wooden merchant cart.
 >>Outside the building.
@@ -362,9 +362,9 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,43.06,45.55
 >>Enter the cave
-.click the Cenarion Moondust
+.click the Cenarion Moondust##15208
 >>Inside the cave.
-.kill 1 Lunaclaw
+.kill 1 Lunaclaw##12138
 .goto Darkshore,43.48,45.96
 .complete 6001,1 >>Face Lunaclaw and Earn the Strength of Body and Heart it Possesses
 .only NightElf and Druid
@@ -372,7 +372,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,39.76,45.77
 >>Leave Auberdine
-.click Mysterious Red Crystal
+.click Mysterious Red Crystal##175524
 >>only hardcore :: The moonkin around this area have a pretty large aggro radius.
 >>only hardcore :: Approach the mysterious red crystal with great caution.
 .goto Darkshore,47.29,48.69
@@ -390,7 +390,7 @@ LLG.RegisterGuide([[
 .level 15
 
 #step
-.talk Sentinel Glynda Nal'Shea
+.talk Sentinel Glynda Nal'Shea##2930
 >>en:To the right of the road, near a light post.
 >>de:Rechts der Straße, nahe einer Laterne.
 >>She walks around this area.
@@ -398,25 +398,25 @@ LLG.RegisterGuide([[
 .turnin The Fragments Within##4813
 
 #step
-.talk Sentinel Tysha Moonblade
+.talk Sentinel Tysha Moonblade##3639
 >>en:Kneeling next to a tree on the side of the road.
 >>de:Kneeling next to a tree on the side of the road.
 .goto Darkshore,40.30,59.73
 .accept The Fall of Ameth'Aran##953
 
 #step
-.click Lay of Ameth'Aran
+.click Lay of Ameth'Aran##17188
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Darkshore,43.31,58.70
 .complete 953,1 >>Read the Lay of Ameth'Aran
 
 #step
-.click Ancient Flame
+.click Ancient Flame##16393
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Darkshore,42.37,61.79
 
 #step
-.click Fall of Ameth'Aran
+.click Fall of Ameth'Aran##17189
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Darkshore,42.67,63.10
 .complete 953,2 >>Read the Fall of Ameth'Aran
@@ -428,7 +428,7 @@ LLG.RegisterGuide([[
 .complete 958,1 >>Collect 7 Highborne Relic
 
 #step
-.kill 1 Anaya Dawnrunner
+.kill 1 Anaya Dawnrunner##3667
 >>She looks like a neutral female night elf ghost, in a green and yellow robe.
 >>She may spawn in multiple locations, and walks around this area.
 >>She has a long respawn timer, if you see her die to someone else, skip this step.
@@ -437,7 +437,7 @@ LLG.RegisterGuide([[
 .complete 963,1 >>Collect Anaya's Pendant
 
 #step
-.talk Sentinel Tysha Moonblade
+.talk Sentinel Tysha Moonblade##3639
 >>en:Kneeling next to a tree on the side of the road.
 >>de:Kneeling next to a tree on the side of the road.
 .goto Darkshore,40.30,59.73
@@ -459,7 +459,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.click Beached Sea Creature
+.click Beached Sea Creature##175226
 >>only hardcore :: The creature is surrounded by aggressive murlocs.
 >>only hardcore :: Try pulling them individually when possible.
 >>only hardcore :: Greymist Netters can immobilize you completely, so be wary of them.
@@ -469,7 +469,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Moonstalker enemies around this area
->>'
 >>They look like blue and black striped tigers.
 >>They share spawn points with Rabid Thistle Bears, so kill those too, if you can't find any Moonstalkers.
 .goto Darkshore,39.11,63.81
@@ -489,7 +488,7 @@ LLG.RegisterGuide([[
 >>[41.98,69.94]
 
 #step
-.talk Onu
+.talk Onu##3616
 >>en:A big tree elemental guy in a ring of stone pillars.
 >>de:Ein großes Baum-Elementar in einem Ring aus Steinsäulen.
 .goto Darkshore,43.56,76.30
@@ -497,7 +496,7 @@ LLG.RegisterGuide([[
 .only NightElf
 
 #step
-.click Beached Sea Turtle
+.click Beached Sea Turtle##176190
 >>only hardcore :: The creature is surrounded by murlocs that can be hard to pull by themselves.
 >>only hardcore :: Greymist Seers will heal.
 >>only hardcore :: Greymist Coastrunners will run away quickly when at low health, so pull them away from the creature as best possible.
@@ -529,7 +528,7 @@ LLG.RegisterGuide([[
 >>You can find more around [39.81,53.87]
 
 #step
-.click the Grimoire of Sacrifice (Rank 1)
+.click the Grimoire of Sacrifice (Rank 1)##16351
 >>Teach Your Voidwalker Sacrifice (Rank 1)
 >>You need to have your voidwalker active to be able to learn these new spells.
 .only Warlock
@@ -537,7 +536,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,36.85,44.12
 >>Run up the ramp inside the building
-.talk Cerellean Whiteclaw
+.talk Cerellean Whiteclaw##3644
 >>en:To the left on the dock kneeling down.
 >>de:To the left on the dock kneeling down.
 >>On the dock.
@@ -546,7 +545,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Gubber Blump
+.talk Gubber Blump##10216
 >>en:Fishing on the beach.
 >>de:Angelt am Strand.
 .goto Darkshore,36.09,44.93
@@ -555,7 +554,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,36.70,45.01
 >>Run up the ramp
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.60
@@ -565,14 +564,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tharnariun Treetender
+.talk Tharnariun Treetender##3701
 >>en:Standing in front of a big house.
 >>de:Standing in front of a big house.
 .goto Darkshore,38.84,43.41
 .turnin Cleansing of the Infected##2138
 
 #step
-.talk Terenthis
+.talk Terenthis##3693
 >>en:Next to two bookcases on the first floor of the house across the road from the gazebo.
 >>de:Neben zwei Bücherregalen im Erdgeschoss des Hauses auf der anderen Straßenseite vom Pavillon.
 >>Inside the building.
@@ -582,14 +581,14 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Dalmond
+.talk Dalmond##4182
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Darkshore,37.45,40.50
 >>Visit the Vendor
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -599,7 +598,7 @@ LLG.RegisterGuide([[
 .accept The Cliffspring River##4762
 
 #step
-.talk Asterion
+.talk Asterion##3650
 >>en:Kneeling in a blue glowing gazebo.
 >>de:Kniet in einem blau leuchtenden Pavillon.
 .goto Darkshore,44.17,36.30
@@ -608,7 +607,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.49,10.63
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>On the middle floor of the building.
@@ -619,7 +618,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -642,13 +641,13 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.click the Shrine Bauble
+.click the Shrine Bauble##15877
 .goto Moonglade,35.92,41.38
 .complete 29,1 >>Complete the Trial of the Lake
 .only NightElf and Druid
 
 #step
-.talk Tajarri
+.talk Tajarri##11799
 >>en:Standing next to a big wooden archway thing.
 >>de:Steht neben einem großen hölzernen Torbogen.
 .goto Moonglade,36.51,40.11
@@ -672,7 +671,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Darkshore,55.16,33.97
 >>Follow the path up
-.click Death Cap
+.click Death Cap##11713
 >>Upstairs inside the cave.
 >>They look like brown and white mushrooms on the ground around this area inside the cave.
 >>If there's not one around here, you can find more downstairs in the side rooms of the cave.
@@ -682,7 +681,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Scaber Stalk
+.click Scaber Stalk##11714
 >>They look like blue mushrooms on the ground around this area inside the cave.
 >>only hardcore :: Beware, Naga casters can aggro from far away and the melee Naga in the cave use a knockback which can send you into the depths of the cave.
 >>only hardcore :: If possible, only stay on the upper level of the cave as the spawn can be quite inconsistent.
@@ -690,7 +689,7 @@ LLG.RegisterGuide([[
 .complete 947,1 >>Collect 5 Scaber Stalk
 
 #step
-.click the Empty Cliffspring Falls Sampler
+.click the Empty Cliffspring Falls Sampler##15844
 >>At the entrance of the cave.
 >>only hardcore :: Be careful, 3 enemies will spawn when you collect the sample. Be prepared to run away.
 .goto Darkshore,54.93,33.32
@@ -708,23 +707,23 @@ LLG.RegisterGuide([[
 .only subzone("Cliffspring and Falls")
 
 #step
-.click the Empty Sampling Tube
+.click the Empty Sampling Tube##12350
 >>In the water, at the bottom of the waterfall.
 .goto Darkshore,50.84,25.50
 .complete 4762,1 >>Collect Cliffspring River Sample
 
 #step
-.click Beached Sea Turtle
+.click Beached Sea Turtle##176196
 .goto Darkshore,53.09,18.15
 .accept Beached Sea Turtle##4727
 
 #step
-.click Beached Sea Turtle
+.click Beached Sea Turtle##176197
 .goto Darkshore,44.21,20.64
 .accept Beached Sea Turtle##4725
 
 #step
-.kill 1 Reef Crawler
+.kill 1 Reef Crawler##2235
 .goto Darkshore,49.51,21.27
 .complete 1138,1 >>Collect 6 Fine Crab Chunks
 >>You can find more around [45.58,20.83]
@@ -737,14 +736,14 @@ LLG.RegisterGuide([[
 >>You can find more around [45.58,20.83]
 
 #step
-.click Strange Lockbox
+.click Strange Lockbox##177792
 >>Underwater.
 .goto Darkshore,48.87,11.32
 .complete 272 >>Collect Half Pendant of Aquatic Agility
 .only NightElf and Druid
 
 #step
-.talk Gubber Blump
+.talk Gubber Blump##10216
 >>en:Fishing on the beach.
 >>de:Angelt am Strand.
 .goto Darkshore,36.10,44.93
@@ -753,7 +752,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,36.70,45.01
 >>Run up the ramp
-.talk Gwennyth Bly'Leggonde
+.talk Gwennyth Bly'Leggonde##10219
 >>en:Standing on a wooden platform.
 >>de:Steht auf einer Holzplattform.
 .goto Darkshore,36.62,45.60
@@ -763,7 +762,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Barithras Moonshade
+.talk Barithras Moonshade##3583
 >>en:Next to the mailbox.
 >>de:Next to the mailbox.
 .goto Darkshore,37.32,43.64
@@ -775,14 +774,14 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Dalmond
+.talk Dalmond##4182
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Darkshore,37.45,40.50
 >>Visit the Vendor
 
 #step
-.talk Thundris Windweaver
+.talk Thundris Windweaver##3649
 >>en:Standing inside this long building, overlooking the water.
 >>de:Standing inside this long building, overlooking the water.
 >>Inside the building.
@@ -796,27 +795,27 @@ LLG.RegisterGuide([[
 .click Here To Confirm
 
 #step
-.talk Naela Trance
+.talk Naela Trance##1459
 >>She walks around this area.
-.kill 1 Fine Longbow
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
->>If it's not available, or you can't afford it, buy a Reinforced Bow instead.
+>>only itemcount(3026) == 0 :: If it's not available, or you can't afford it, buy a Reinforced Bow instead.
 >>If you have better, skip this step.
 .goto Wetlands,11.27,58.43
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
-.talk Naela Trance
-.kill 1 Medium Quiver
+.talk Naela Trance##1459
+.kill 1 Medium Quiver##11362
 >>If you can afford it.
 .goto Wetlands,11.27,58.43
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11362) == 0
 
 #step
-.talk Alanndarian Nightsong
+.talk Alanndarian Nightsong##3702
 >>en:Inside the long building, to the right as you enter the building.
 >>de:Inside the long building, to the right as you enter the building.
 >>Inside the building.
@@ -843,7 +842,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darkshore,37.77,41.36
 >>Enter the building
-.talk Alanndarian Nightsong
+.talk Alanndarian Nightsong##3702
 >>en:Inside the long building, to the right as you enter the building.
 >>de:Inside the long building, to the right as you enter the building.
 >>Inside the building.
@@ -854,7 +853,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.click the Curative Animal Salve
+.click the Curative Animal Salve##15826
 >>Use it on Sickly Deer around this area.
 >>They look like green diseased deer in areas with trees.
 >>They are spread out all throughout Darkshore.
@@ -863,7 +862,7 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -876,7 +875,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.72
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building, on the top floor.
@@ -887,20 +886,22 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,32.12,16.46
 >>Enter the cave in the tree trunk
-.talk Syurna
+.talk Syurna##4163
 >>Inside the cave.
 .goto Darnassus,36.99,21.91
 .train
+.condition skillmax("Lockpicking") >= 75 >>Train the "Pick Lock" Ability
+.optional
 .only Rogue
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Sildanair
-.talk Denatharion
-.talk Jandria
+.talk Syurna##4163
+.talk Sildanair##4089
+.talk Denatharion##4218
+.talk Jandria##4091
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,61.78,42.28

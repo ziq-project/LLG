@@ -25,21 +25,21 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.talk Sten Stoutarm
+.talk Sten Stoutarm##658
 >>en:In the small camp.
 >>de:Im kleinen Lager.
 .goto Dun Morogh,29.93,71.20
 .accept Dwarven Outfitters##179
 
 #step
-.kill 1 Ragged Young Wolf
-.kill 1 Ragged Timber Wolf
+.kill 1 Ragged Young Wolf##705
+.kill 1 Ragged Timber Wolf##704
 .goto Dun Morogh,30.14,74.59
 .complete 179,1 >>Collect 8 Tough Wolf Meat
 >>You can find more around [26.93,75.75]
 
 #step
-.talk Sten Stoutarm
+.talk Sten Stoutarm##658
 >>en:In the small camp.
 >>de:Im kleinen Lager.
 .goto Dun Morogh,29.93,71.20
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 .only Gnome and Rogue
 
 #step
-.talk Balir Frosthammer
+.talk Balir Frosthammer##713
 >>en:In the small camp.
 >>de:Im kleinen Lager.
 .goto Dun Morogh,29.71,71.25
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 .complete 170,2 >>Kill 6 Burly Rockjaw Trogg
 
 #step
-.talk Balir Frosthammer
+.talk Balir Frosthammer##713
 >>en:In the small camp.
 >>de:Im kleinen Lager.
 .goto Dun Morogh,29.71,71.25
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 >>Kill any enemies on your way to the turnin to save on grinding later
 
 #step
-.talk Adlin Pridedrift
+.talk Adlin Pridedrift##829
 .goto Dun Morogh,30.09,71.57
 >>Visit the vendor
 .goto Dun Morogh,30.09,71.57
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Talin Keeneye
+.talk Talin Keeneye##714
 >>en:By himself in a small camp, next to a tent and campfire.
 >>de:Allein in einem kleinen Lager, neben einem Zelt und Lagerfeür.
 .goto Dun Morogh,22.60,71.43
@@ -115,14 +115,14 @@ LLG.RegisterGuide([[
 .complete 183,1 >>Kill 12 Small Crag Boar
 
 #step
-.talk Talin Keeneye
+.talk Talin Keeneye##714
 >>en:By himself in a small camp, next to a tent and campfire.
 >>de:Allein in einem kleinen Lager, neben einem Zelt und Lagerfeür.
 .goto Dun Morogh,22.60,71.43
 .turnin The Boar Hunter##183
 
 #step
-.talk Grelin Whitebeard
+.talk Grelin Whitebeard##786
 >>en:In the small camp, next to two tents and a campfire.
 >>de:Im kleinen Lager, neben zwei Zelten und einem Lagerfeür.
 .goto Dun Morogh,25.08,75.71
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 >>Kill any enemies on your way to the turnin to save on grinding later.
 
 #step
-.talk Nori Pridedrift
+.talk Nori Pridedrift##12738
 >>en:In the small camp, next to two tents and a campfire.
 >>de:In the small camp, next to two tents and a campfire.
 .goto Dun Morogh,24.98,75.96
@@ -139,7 +139,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,28.79,69.05
 >>Enter the building
-.talk Felix Whindlebolt
+.talk Felix Whindlebolt##8416
 >>en:Inside Anvilmar, to the left of the big fire in the middle.
 >>de:Inside Anvilmar, to the left of the big fire in the middle.
 >>He walks around this area inside the building.
@@ -148,7 +148,7 @@ LLG.RegisterGuide([[
 .accept A Refugee's Quandary##3361
 
 #step
-.talk Durnan Furcutter
+.talk Durnan Furcutter##836
 >>en:Inside Anvilmar in the back room, behind the big fire.
 >>de:In Ambossar im hinteren Raum, hinter dem großen Feür.
 >>Inside the building.
@@ -159,7 +159,7 @@ LLG.RegisterGuide([[
 .accept Bring Back the Mug##3365
 
 #step
-.talk Thran Khorman
+.talk Thran Khorman##912
 >>en:Inside Anvilmar, standing near the big fire in the middle. He is the Warrior Class Trainer.
 >>de:In Ambossar, nahe dem großen Feür in der Mitte. Er ist der Krieger-Klassentrainer.
 >>Inside the building.
@@ -169,7 +169,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Warrior
 
 #step
-.talk Solm Hargrin
+.talk Solm Hargrin##916
 >>en:Inside Anvilmar, standing next to a table with some food on it. He is the Rogue Class Trainer.
 >>de:In Ambossar, neben einem Tisch mit etwas Essen darauf. Er ist der Schurken-Klassentrainer.
 >>Inside the building.
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Rogue
 
 #step
-.talk Branstock Khalder
+.talk Branstock Khalder##837
 >>en:In the very back room of Anvilmar, standing next to a bar. He is the Priest Class Trainer.
 >>de:Im hintersten Raum von Ambossar, neben einer Theke. Er ist der Priester-Klassentrainer.
 >>Inside the building.
@@ -189,7 +189,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Priest
 
 #step
-.talk Bromos Grummner
+.talk Bromos Grummner##926
 >>en:Inside Anvilmar, right behind the wall as you enter, standing near some tables, next to a small fire. He is the Paladin Class Trainer.
 >>de:In Ambossar, direkt hinter der Wand beim Eintreten, nahe einiger Tische neben einem kleinen Feür. Er ist der Paladin-Klassentrainer.
 >>Inside the building.
@@ -199,7 +199,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Thorgas Grimson
+.talk Thorgas Grimson##895
 >>en:Inside Anvilmar, standing next to a small fire. He is the Hunter Class Trainer.
 >>de:In Ambossar, neben einem kleinen Feür. Er ist der Jäger-Klassentrainer.
 >>Inside the building.
@@ -209,7 +209,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Thran Khorman
+.talk Thran Khorman##912
 >>en:Inside Anvilmar, standing near the big fire in the middle. He is the Warrior Class Trainer.
 >>de:In Ambossar, nahe dem großen Feür in der Mitte. Er ist der Krieger-Klassentrainer.
 >>Inside the building.
@@ -219,7 +219,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warrior
 
 #step
-.talk Solm Hargrin
+.talk Solm Hargrin##916
 >>en:Inside Anvilmar, standing next to a table with some food on it. He is the Rogue Class Trainer.
 >>de:In Ambossar, neben einem Tisch mit etwas Essen darauf. Er ist der Schurken-Klassentrainer.
 >>Inside the building.
@@ -229,7 +229,7 @@ LLG.RegisterGuide([[
 .only Gnome and Rogue
 
 #step
-.talk Marryk Nurribit
+.talk Marryk Nurribit##944
 >>Inside the building.
 >>Train your class spells.
 .goto Dun Morogh,28.71,66.36
@@ -239,7 +239,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,28.79,69.07
 >>Leave the building
-.talk Alamar Grimm
+.talk Alamar Grimm##460
 >>en:In the very back room of Anvilmar, standing upstairs on a bear rug.
 >>de:Im hintersten Raum von Ambossar, oben auf einem Bärenfell.
 >>Upstairs inside the building.
@@ -253,7 +253,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,28.79,69.07
 >>Leave the building
-.talk Nori Pridedrift
+.talk Nori Pridedrift##12738
 >>en:In the small camp, next to two tents and a campfire.
 >>de:In the small camp, next to two tents and a campfire.
 .goto Dun Morogh,24.98,75.96
@@ -261,7 +261,7 @@ LLG.RegisterGuide([[
 .only subzone("Anvilmar")
 
 #step
-.talk Grelin Whitebeard
+.talk Grelin Whitebeard##786
 >>en:In the small camp, next to two tents and a campfire.
 >>de:Im kleinen Lager, neben zwei Zelten und einem Lagerfeür.
 .goto Dun Morogh,25.08,75.71
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Dun Morogh,28.00,81.05
 >>Follow the path
-.kill 1 Frostmane Novice
+.kill 1 Frostmane Novice##946
 >>Inside the cave.
 >>There's not very many of them, and they can be spread out inside the cave.
 >>only hardcore :: Keep an eye out for ranged attackers while in the cave, as it's easy to be overwhelmed.
@@ -287,7 +287,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,28.79,69.05
 >>Enter the building
-.talk Alamar Grimm
+.talk Alamar Grimm##460
 >>en:In the very back room of Anvilmar, standing upstairs on a bear rug.
 >>de:Im hintersten Raum von Ambossar, oben auf einem Bärenfell.
 >>Upstairs inside the building.
@@ -296,16 +296,16 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
->>Summon Your Imp
+.condition warlockpet("Imp") >>Summon Your Imp
 >>Use the "Summon Imp" ability.
 .only Gnome and Warlock and not warlockpet("Imp")
 
 #step
-.talk Wren Darkspring
+.talk Wren Darkspring##6376
 >>Upstairs inside the building.
-.kill 1 Grimoire of Blood Pact (Rank 1)
+.kill 1 Grimoire of Blood Pact (Rank 1)##16321
 >>If you can't afford it, skip this step and make sure to buy it later.
-.click the Grimoire of Blood Pact (Rank 1)
+.click the Grimoire of Blood Pact (Rank 1)##16321
 .goto Dun Morogh,28.80,66.16
 >>Teach Your Imp Blood Pact (Rank 1)
 .only Gnome and Warlock
@@ -342,7 +342,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,26.78,79.83
 >>Leave the cave
-.talk Grelin Whitebeard
+.talk Grelin Whitebeard##786
 >>en:In the small camp, next to two tents and a campfire.
 >>de:Im kleinen Lager, neben zwei Zelten und einem Lagerfeür.
 .goto Dun Morogh,25.08,75.71
@@ -361,7 +361,7 @@ LLG.RegisterGuide([[
 .goto Dun Morogh,29.06,78.87
 >>Continue down the path
 >>only hardcore :: Watch for patrols and respawns while inside the cave.
-.kill 1 Grik'nir the Cold
+.kill 1 Grik'nir the Cold##808
 >>Inside the cave.
 .goto Dun Morogh,30.49,80.16
 .complete 218,1 >>Collect Grelin Whitebeard's Journal
@@ -369,7 +369,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,26.78,79.83
 >>Leave the cave
-.talk Grelin Whitebeard
+.talk Grelin Whitebeard##786
 >>en:In the small camp, next to two tents and a campfire.
 >>de:Im kleinen Lager, neben zwei Zelten und einem Lagerfeür.
 .goto Dun Morogh,25.08,75.71
@@ -399,11 +399,11 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Dun Morogh,26.78,79.83
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Dun Morogh,29.55,69.83
 .only not hardcore
@@ -411,7 +411,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,28.79,69.05
 >>Enter the building
-.talk Felix Whindlebolt
+.talk Felix Whindlebolt##8416
 >>en:Inside Anvilmar, to the left of the big fire in the middle.
 >>de:Inside Anvilmar, to the left of the big fire in the middle.
 >>He walks around this area inside the building.
@@ -421,7 +421,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,28.79,69.05
 >>Leave the building
-.talk Mountaineer Thalos
+.talk Mountaineer Thalos##1965
 >>en:Mountaineer Thalos is in the middle of the road.
 >>de:Gebirgsjäger Thalos steht mitten auf der Straße.
 .goto Dun Morogh,33.48,71.84
@@ -431,7 +431,7 @@ LLG.RegisterGuide([[
 .only subzone("Anvilmar")
 
 #step
-.talk Hands Springsprocket
+.talk Hands Springsprocket##6782
 >>en:Hands Springsprocket is in small camp to the right by fireworks barrels.
 >>de:Hands Springsprocket is in small camp to the right by fireworks barrels.
 .goto Dun Morogh,33.85,72.24
@@ -442,22 +442,22 @@ LLG.RegisterGuide([[
 >>Enter the tunnel
 .goto Dun Morogh,35.67,65.93
 >>Leave the tunnel and follow the road
-.talk Hegnar Rumbleshot
+.talk Hegnar Rumbleshot##1243
 >>en:In a small camp, next to two tents.
 >>de:In einem kleinen Lager, neben zwei Zelten.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step. Stock up on ammo while you're as well, however.
 .goto Dun Morogh,40.68,65.13
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2509) == 0
 
 #step
 .goto Dun Morogh,34.12,71.51
 >>Enter the tunnel
 .goto Dun Morogh,35.67,65.93
 >>Leave the tunnel and follow the road
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.83
@@ -465,7 +465,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Coldridge and Pass")
 
 #step
-.talk Ragnar Thunderbrew
+.talk Ragnar Thunderbrew##1267
 >>en:Right in front of the steps to the inn.
 >>de:Direkt vor den Stufen zum Gasthaus.
 .goto Dun Morogh,46.83,52.36
@@ -474,7 +474,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.04
 >>Enter the building
-.talk Tannok Frosthammer
+.talk Tannok Frosthammer##6806
 >>en:Inside the inn, down the stairs, first room on the right with the fireplace.
 >>de:Im Gasthaus die Treppe hinunter, erster Raum rechts mit dem Kamin.
 >>Inside the building.
@@ -482,23 +482,23 @@ LLG.RegisterGuide([[
 .turnin Supplies to Tannok##2160
 
 #step
-.talk Kreg Bilmn
+.talk Kreg Bilmn##1691
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Dun Morogh,47.19,52.40
 >>Visit the Vendor
 
 #step
-.talk Kreg Bilmn
+.talk Kreg Bilmn##1691
 >>Inside the building.
 >>If you afford it.
-.kill 1 Balanced Throwing Dagger
+.kill 1 Balanced Throwing Dagger##25872
 .goto Dun Morogh,47.19,52.40
 >>Visit the Vendor
 .only Rogue
 
 #step
-.talk Innkeeper Belm
+.talk Innkeeper Belm##1247
 >>Inside the building.
 .goto Dun Morogh,47.38,52.52
 .hs
@@ -506,7 +506,7 @@ LLG.RegisterGuide([[
 >>Stock up on food and drink if you have spare coin after.
 
 #step
-.talk Maxan Anvol
+.talk Maxan Anvol##1226
 >>Inside the building.
 .goto Dun Morogh,47.34,52.19
 .accept Garments of the Light##5625
@@ -525,7 +525,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.04
 >>Enter the building
-.talk Maxan Anvol
+.talk Maxan Anvol##1226
 >>Inside the building.
 .goto Dun Morogh,47.34,52.19
 .turnin Garments of the Light##5625
@@ -534,7 +534,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.03
 >>Leave the building
-.talk Tharek Blackstone
+.talk Tharek Blackstone##1872
 >>en:Across the street from the inn.
 >>de:Auf der gegenüberliegenden Straßenseite vom Gasthaus.
 .goto Dun Morogh,46.02,51.68
@@ -544,74 +544,74 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Large Axe
+.kill 1 Large Axe##2491
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Dwarf and Warrior
+.only Dwarf and Warrior and itemcount(2491) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Gnome and Warrior
+.only Gnome and Warrior and itemcount(2488) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Pilot Bellowfiz
+.talk Pilot Bellowfiz##1378
 >>en:Right in front of the big tank looking machines.
 >>de:Direkt vor den großen panzerartigen Maschinen.
 .goto Dun Morogh,49.43,48.41
 .accept Stocking Jetsteam##317
 
 #step
-.talk Pilot Stonegear
+.talk Pilot Stonegear##1377
 >>en:Right in front of the big tank looking machines.
 >>de:Direkt vor den großen panzerartigen Maschinen.
 .goto Dun Morogh,49.62,48.61
 .accept The Grizzled Den##313
 
 #step
-.talk Beldin Steelgrill
+.talk Beldin Steelgrill##1376
 >>en:In front of the second house on the right.
 >>de:Vor dem zweiten Haus auf der rechten Seite.
 .goto Dun Morogh,50.44,49.09
 .turnin Tools for Steelgrill##400
 
 #step
-.talk Loslor Rudge
+.talk Loslor Rudge##1694
 >>en:In front of the first house to the right, under a tree next to two rusted barrels.
 >>de:Vor dem ersten Haus rechts, unter einem Baum neben zwei rostigen Fässern.
 .goto Dun Morogh,50.08,49.42
@@ -638,7 +638,7 @@ LLG.RegisterGuide([[
 >>[42.18,65.32]
 
 #step
-.kill 1 Young Black Bear
+.kill 1 Young Black Bear##1128
 .goto Dun Morogh,49.76,51.15
 .complete 317,2 >>Collect 2 Thick Bear Fur
 >>You can find more around:
@@ -648,7 +648,7 @@ LLG.RegisterGuide([[
 >>[39.44,61.23]
 
 #step
-.click Ammo Crate
+.click Ammo Crate##176785
 .goto Dun Morogh,44.14,56.94
 .complete 5541,1 >>Collect Rumbleshot's Ammo
 
@@ -670,7 +670,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,40.60,62.56
 >>Follow the path up
-.talk Hegnar Rumbleshot
+.talk Hegnar Rumbleshot##1243
 >>en:In a small camp, next to two tents.
 >>de:In einem kleinen Lager, neben zwei Zelten.
 .goto Dun Morogh,40.68,65.13
@@ -679,15 +679,15 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Hegnar Rumbleshot
+.talk Hegnar Rumbleshot##1243
 >>en:In a small camp, next to two tents.
 >>de:In einem kleinen Lager, neben zwei Zelten.
-.kill 1 Ornate Blunderbuss
+.kill 1 Ornate Blunderbuss##2509
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,40.68,65.13
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2509) == 0
 
 #step
 >>Allow Enemies to Kill You
@@ -695,17 +695,17 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Dun Morogh,42.77,65.72
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Dun Morogh,47.05,55.10
 .only not hardcore
 
 #step
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.83
@@ -715,13 +715,13 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.04
 >>Enter the building
-.talk Innkeeper Belm
+.talk Innkeeper Belm##1247
 >>Inside the building.
 .goto Dun Morogh,47.38,52.52
 .complete 384,2 >>Buy Rhapsody Malt
 
 #step
-.talk Kreg Bilmn
+.talk Kreg Bilmn##1691
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Dun Morogh,47.19,52.40
@@ -730,7 +730,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.04
 >>Leave the building
-.talk Ragnar Thunderbrew
+.talk Ragnar Thunderbrew##1267
 >>en:Right in front of the steps to the inn.
 >>de:Direkt vor den Stufen zum Gasthaus.
 .goto Dun Morogh,46.83,52.36
@@ -740,53 +740,53 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Large Axe
+.kill 1 Large Axe##2491
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Dwarf and Warrior
+.only Dwarf and Warrior and itemcount(2491) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Gnome and Warrior
+.only Gnome and Warrior and itemcount(2488) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Pilot Bellowfiz
+.talk Pilot Bellowfiz##1378
 >>en:Right in front of the big tank looking machines.
 >>de:Direkt vor den großen panzerartigen Maschinen.
 .goto Dun Morogh,49.43,48.41
@@ -795,23 +795,23 @@ LLG.RegisterGuide([[
 .accept Evershine##318
 
 #step
-.talk Pilot Stonegear
+.talk Pilot Stonegear##1377
 >>en:Right in front of the big tank looking machines.
 >>de:Direkt vor den großen panzerartigen Maschinen.
 .goto Dun Morogh,49.62,48.61
 .turnin The Grizzled Den##313
 
 #step
->>Summon Your Imp
+.condition warlockpet("Imp") >>Summon Your Imp
 >>Use the "Summon Imp" ability.
 >>You need to have your Imp active in order to complete the next step.
 .only Gnome and Warlock and not warlockpet("Imp")
 
 #step
-.talk Dannie Fizzwizzle
-.kill 1 Grimoire of Firebolt (Rank 2)
+.talk Dannie Fizzwizzle##6328
+.kill 1 Grimoire of Firebolt (Rank 2)##16302
 >>If you can't afford it, skip this step and make sure to buy it later.
-.click the Grimoire of Firebolt (Rank 2)
+.click the Grimoire of Firebolt (Rank 2)##16302
 .goto Dun Morogh,47.28,53.67
 >>Teach Your Imp Firebolt (Rank 2)
 .only Gnome and Warlock
@@ -819,7 +819,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.05
 >>Enter the building
-.talk Kreg Bilmn
+.talk Kreg Bilmn##1691
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 >>Stock up on food and water, there's a lot of grinding ahead.
@@ -827,10 +827,12 @@ LLG.RegisterGuide([[
 >>Visit the Vendor
 
 #step
-.talk Thamner Pol
+.talk Thamner Pol##2326
 >>Inside the building.
 .goto Dun Morogh,47.18,52.61
 .train
+.condition skillmax("First Aid") >= 75 >>Train Apprentice First Aid
+.optional
 
 #step
 >>Create Bandages in Downtime
@@ -842,55 +844,55 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Large Axe
+.kill 1 Large Axe##2491
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Dwarf and Warrior
+.only Dwarf and Warrior and itemcount(2491) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Gnome and Warrior
+.only Gnome and Warrior and itemcount(2488) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Razzle Sprysprocket
+.talk Razzle Sprysprocket##1269
 >>en:In the underground house with a big gear spinning on top of it.
 >>de:Im unterirdischen Haus mit einem großen drehenden Zahnrad oben drauf.
 >>Inside the building.
@@ -903,7 +905,7 @@ LLG.RegisterGuide([[
 .goto Dun Morogh,36.01,51.96
 >>Follow the path up
 >>Go out of your way to grind mobs en route to this quest.
-.talk Tundra MacGrann
+.talk Tundra MacGrann##1266
 >>On top of the mountain.
 >>As you travel to him, be careful to avoid the elite yeti that walks around this area.
 .goto Dun Morogh,34.57,51.65
@@ -913,7 +915,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,37.80,53.69
 >>Enter the cave
-.click MacGrann's Meat Locker
+.click MacGrann's Meat Locker##272
 >>Inside the cave.
 >>Wait for the elite yeti to leave the cave and walk away before you enter the cave.
 .goto Dun Morogh,38.51,53.93
@@ -925,14 +927,14 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,36.01,51.96
 >>Follow the path up
-.talk Tundra MacGrann
+.talk Tundra MacGrann##1266
 >>On top of the mountain.
 .goto Dun Morogh,34.57,51.65
 .turnin Tundra MacGrann's Stolen Stash##312
 .only walking
 
 #step
-.talk Rejold Barleybrew
+.talk Rejold Barleybrew##1374
 >>en:In the small village under a big canopy, next to two tents.
 >>de:Im kleinen Dorf unter einem großen Baldachin, neben zwei Zelten.
 >>only hardcore :: Be very careful to jump onto the small hill and not all the way down.
@@ -945,7 +947,7 @@ LLG.RegisterGuide([[
 >>Grind enemies en route to these quests.
 
 #step
-.talk Marleth Barleybrew
+.talk Marleth Barleybrew##1375
 >>en:In the small village under a big canopy, next to two tents.
 >>de:Im kleinen Dorf unter einem großen Baldachin, neben zwei Zelten.
 .goto Dun Morogh,30.19,45.53
@@ -983,11 +985,11 @@ LLG.RegisterGuide([[
 >>This basically makes dying have no real penalty at this level.
 >>This will allow you to travel a long distance quickly.
 .goto Dun Morogh,30.71,39.90
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Dun Morogh,47.05,55.10
 .only not hardcore
@@ -995,20 +997,20 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.05
 >>Enter the building
-.talk Kreg Bilmn
+.talk Kreg Bilmn##1691
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Dun Morogh,47.19,52.40
 >>Visit the Vendor
 
 #step
-.talk Innkeeper Belm
+.talk Innkeeper Belm##1247
 >>Inside the building.
 .goto Dun Morogh,47.38,52.52
 .complete 310 >>Buy Thunder Ale
 
 #step
-.talk Jarven Thunderbrew
+.talk Jarven Thunderbrew##1373
 >>en:In the basement of the inn next to a lot of barrels.
 >>de:Im Keller des Gasthauses neben vielen Fässern.
 >>Downstairs inside the building.
@@ -1028,56 +1030,56 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Large Axe
+.kill 1 Large Axe##2491
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Dwarf and Warrior
+.only Dwarf and Warrior and itemcount(2491) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Gnome and Warrior
+.only Gnome and Warrior and itemcount(2488) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
 .goto Dun Morogh,38.44,42.11
 >>Follow the path up
-.kill 1 Frostmane Seer
-.click Shimmerweed Basket
+.kill 1 Frostmane Seer##1397
+.click Shimmerweed Basket##276
 >>They look like tan wooden baskets on the ground around this area.
 >>only hardcore :: Enemies tend to pull in groups around here.
 >>only hardcore :: Watch for respawns while in the area.
@@ -1090,7 +1092,7 @@ LLG.RegisterGuide([[
 .goto Dun Morogh,41.90,47.23
 >>Follow the path
 >>only level < 9 :: Grind mobs en route to this turn in. You want to be level 9 for this next quest.
-.talk Marleth Barleybrew
+.talk Marleth Barleybrew##1375
 >>en:In the small village under a big canopy, next to two tents.
 >>de:Im kleinen Dorf unter einem großen Baldachin, neben zwei Zelten.
 .goto Dun Morogh,30.19,45.53
@@ -1098,7 +1100,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Rejold Barleybrew
+.talk Rejold Barleybrew##1374
 >>en:In the small village under a big canopy, next to two tents.
 >>de:Im kleinen Dorf unter einem großen Baldachin, neben zwei Zelten.
 .goto Dun Morogh,30.19,45.73
@@ -1142,14 +1144,14 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,25.07,50.99
 >>Leave the cave
-.kill 1 Leper Gnome
+.kill 1 Leper Gnome##1211
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Dun Morogh,25.64,43.33
 .complete 412,1 >>Collect 8 Restabilization Cog
 .only subzone("Frostmane and Hold")
 
 #step
-.kill 1 Leper Gnome
+.kill 1 Leper Gnome##1211
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Dun Morogh,25.64,43.33
 .complete 412,2 >>Collect 8 Gyromechanic Gear
@@ -1188,7 +1190,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Wetlands,11.72,43.30
 .only not hardcore
@@ -1196,11 +1198,11 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.25,56.45
 >>Enter Menethil Harbor and the building
-.talk Neal Allen
+.talk Neal Allen##1448
 >>en:Go inside the keep and take a left. He is in the first room on the left.|
 >>de:Geh in die Burg und dann links. Er ist im ersten Raum links.|
 >>Inside the building.
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
@@ -1211,7 +1213,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.25,56.45
 >>Leave the building
-.talk Shellei Brondir
+.talk Shellei Brondir##1571
 >>en:Next to a canopy and two big eagles.
 >>de:Neben einem Baldachin und zwei großen Adlern.
 .goto Wetlands,9.49,59.69
@@ -1219,7 +1221,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Kreg Bilmn
+.talk Kreg Bilmn##1691
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Dun Morogh,47.19,52.40
@@ -1228,7 +1230,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.05
 >>Leave the building
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.82
@@ -1240,55 +1242,55 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Large Axe
+.kill 1 Large Axe##2491
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Dwarf and Warrior
+.only Dwarf and Warrior and itemcount(2491) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Gnome and Warrior
+.only Gnome and Warrior and itemcount(2488) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
 .goto Dun Morogh,45.74,51.84
 >>Enter the building
-.talk Grawn Thromwyn
+.talk Grawn Thromwyn##1273
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Dun Morogh,45.29,52.19
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
 .goto Dun Morogh,45.97,48.84
 >>Enter the building
-.talk Razzle Sprysprocket
+.talk Razzle Sprysprocket##1269
 >>en:In the underground house with a big gear spinning on top of it.
 >>de:Im unterirdischen Haus mit einem großen drehenden Zahnrad oben drauf.
 >>Inside the building.
@@ -1298,7 +1300,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.97,48.85
 >>Leave the building
-.talk Pilot Bellowfiz
+.talk Pilot Bellowfiz##1378
 >>en:Right in front of the big tank looking machines.
 >>de:Direkt vor den großen panzerartigen Maschinen.
 .goto Dun Morogh,49.43,48.41
@@ -1312,7 +1314,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.03
@@ -1320,7 +1322,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15911
 >>Use it on a Large Crag Boar around this area.
 .goto Dun Morogh,48.26,56.81
 .complete 6064,1 >>Tame a Large Crag Boar
@@ -1329,7 +1331,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.04
@@ -1339,7 +1341,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15913
 >>Use it on a Snow Leopard around this area.
 .goto Dun Morogh,48.68,58.93
 .complete 6084,1 >>Tame a Snow Leopard
@@ -1348,7 +1350,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.04
@@ -1358,7 +1360,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15908
 >>Use it on an Ice Claw Bear around this area.
 .goto Dun Morogh,49.06,62.12
 .complete 6085,1 >>Tame an Ice Claw Bear
@@ -1366,7 +1368,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.04
@@ -1380,7 +1382,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Ironforge,66.34,82.50
 >>Enter the building
-.talk Belia Thundergranite
+.talk Belia Thundergranite##10090
 >>en:Standing next to a cannon. She is the Pet Trainer.
 >>de:Standing next to a cannon. She is the Pet Trainer.
 >>Inside the building.
@@ -1396,9 +1398,9 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Sognar Cliffbeard
+.talk Sognar Cliffbeard##5124
 >>He walks around this area.
-.kill 1 Tough Jerky
+.kill 1 Tough Jerky##117
 >>Buy 20-40, whatever you have money and bag space for.
 >>This will be used to feed your permanent pet soon and keep it Happy, so it deals more damage and gains Loyalty faster.
 >>By keeping your pet Happy and ranking up its Loyalty, it won't run away and abandon you, and will need food less often to stay Happy.
@@ -1409,30 +1411,32 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.32,88.18
 >>Run up the stairs and enter the building
-.talk Buliwyf Stonehand
+.talk Buliwyf Stonehand##11865
 >>Inside the building.
 >>only Dwarf and Warrior :: This will allow you to equip two-handed maces.
 >>only Gnome and Warrior :: This will allow you to equip two-handed axes and two-handed maces.
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_AXE") > 0 >>Train Two-Handed Axes
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_MACE") > 0 >>Train Two-Handed Maces
 .only Warrior
 
 #step
-.talk Kelomir Ironhand
+.talk Kelomir Ironhand##5121
 >>Inside the building.
-.kill 1 Giant Mace
+.kill 1 Giant Mace##1197
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Ironforge,62.55,88.71
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(1197) == 0
 
 #step
 .goto Dun Morogh,46.95,52.06
 >>Enter the building
-.talk Maxan Anvol
+.talk Maxan Anvol##1226
 >>Inside the building
 .goto Dun Morogh,47.34,52.19
 .accept Desperate Prayer##5637
@@ -1455,10 +1459,12 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,43.84,29.66
 >>Enter the building
-.talk Uthrar Threx
+.talk Uthrar Threx##1703
 >>Inside the building.
 .goto Ironforge,43.82,27.86
 .train
+.condition skillmax("Tailoring") >= 75 >>Learn Tailoring
+.optional
 .only Dwarf and Priest
 
 #step
@@ -1469,14 +1475,14 @@ LLG.RegisterGuide([[
 .only Dwarf and Priest
 
 #step
-.talk Poranna Snowbraid
+.talk Poranna Snowbraid##5154
 >>Inside the building.
 .goto Ironforge,42.94,28.31
-.kill 10 Coarse Thread
+.kill 10 Coarse Thread##2320
 .only Dwarf and Priest
 
 #step
-.talk Uthrar Threx
+.talk Uthrar Threx##1703
 >>Inside the building.
 .goto Ironforge,43.82,27.86
 .train
@@ -1493,10 +1499,12 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,59.73,44.08
 >>Enter the building
-.talk Gimble Thistlefuzz
+.talk Gimble Thistlefuzz##5157
 >>Upstairs inside the building.
 .goto Ironforge,59.77,45.45
 .train
+.condition skillmax("Enchanting") >= 75 >>Learn Enchanting
+.optional
 .only Dwarf and Priest
 
 #step
@@ -1512,14 +1520,14 @@ LLG.RegisterGuide([[
 .only Dwarf and Priest
 
 #step
-.talk Tilli Thistlefuzz
+.talk Tilli Thistlefuzz##5158
 >>en:She is standing inside Thistlefuzz Arcanery next to the table with the floating book|
 >>de:Sie steht in \
 >>Inside the building.
 .goto Ironforge,61.03,44.00
-.kill 1 Copper Rod
+.kill 1 Copper Rod##6217
 .goto Ironforge,61.03,44.00
-.kill 1 Simple Wood
+.kill 1 Simple Wood##4470
 .only Dwarf and Priest
 
 #step
@@ -1530,7 +1538,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Priest
 
 #step
-.talk Gimble Thistlefuzz
+.talk Gimble Thistlefuzz##5157
 >>Upstairs inside the building.
 >>This should be available with 10 Enchanting.
 .goto Ironforge,59.77,45.45
@@ -1545,15 +1553,15 @@ LLG.RegisterGuide([[
 .only Dwarf and Priest
 
 #step
-.talk Dink
-.talk Regnus Thundergranite
-.talk Briarthorn
-.talk Bilban Tosslespanner
-.talk Toldren Deepiron
-.talk Brandur Ironhammer
+.talk Dink##7312
+.talk Regnus Thundergranite##5117
+.talk Briarthorn##5172
+.talk Bilban Tosslespanner##5114
+.talk Toldren Deepiron##5143
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
-.talk Fenthwick
+.talk Fenthwick##5167
 .goto Ironforge,27.10,8.49
 .train
 .goto Ironforge,69.86,82.94
@@ -1575,7 +1583,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,47.20,41.70
 >>Follow the path up
-.talk Lago Blackwrench
+.talk Lago Blackwrench##6120
 >>en:Standing next to some stairs.
 >>de:Standing next to some stairs.
 .goto Ironforge,47.63,9.26
@@ -1586,13 +1594,13 @@ LLG.RegisterGuide([[
 .goto Ironforge,72.82,50.18
 >>Follow the path
 .goto Ironforge,76.58,51.14
->>Enter the Deeprun Tram
+.condition subzone("Deeprun Tram") >>Enter the Deeprun Tram
 >>Walk into the swirling portal.
 >>We cannot give you an arrow to follow here as it is inside an instance.
 .only Gnome and Warlock
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 >>We cannot give you an arrow to follow here as it is inside an instance.
@@ -1600,7 +1608,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
-.click Rat Catcher's Flute
+.click Rat Catcher's Flute##17117
 >>Use it on Deeprun Rats around this area.
 >>They look like small grey rats on the ground around this area.
 >>In the Ironforge section of the Deeprun Tram.
@@ -1608,7 +1616,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 >>We cannot give you an arrow to follow here as it is inside an instance.
@@ -1617,7 +1625,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .accept Me Brother, Nipsy##6662
@@ -1626,7 +1634,7 @@ LLG.RegisterGuide([[
 #step
 >>Ride the Tram
 >>Ride the Deeprun Tram from Ironforge to Stormwind City.
-.talk Nipsy
+.talk Nipsy##13018
 >>On the middle platform, near the wall.
 >>In the Stormwind City section of the Deeprun Tram.
 .turnin Me Brother, Nipsy##6662
@@ -1642,14 +1650,14 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
->>Enter Stormwind City
+.condition zone("Stormwind City") >>Enter Stormwind City
 >>Walk into the swirling portal.
 .only Gnome and Warlock
 
 #step
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -1664,7 +1672,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Stormwind City,53.44,64.92
 >>Enter the building
-.talk Innkeeper Allison
+.talk Innkeeper Allison##6740
 >>Inside the building.
 .goto Stormwind City,52.62,65.70
 .hs
@@ -1673,7 +1681,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,70.93,80.43
 >>Enter the building
-.kill 1 Surena Caledon
+.kill 1 Surena Caledon##881
 >>Inside the building.
 >>You will pull 3 enemies. Apply DoTs and Wand Surena. Put your pet on Morgan, and fear the third.
 >>Make a healthstone and don't forget to use it if needed.
@@ -1688,7 +1696,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -1699,7 +1707,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
-.click the Bloodstone Choker
+.click the Bloodstone Choker##6928
 >>Use it while standing on the pink symbol on the ground.
 >>Downstairs inside the building, inside the crypt.
 .goto Stormwind City,25.11,77.46
@@ -1707,7 +1715,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Upstairs inside the building, in the basement above the crypt.
@@ -1729,7 +1737,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock and subzone("The and Slaughtered and Lamb")
 
 #step
-.talk Rudra Amberstill
+.talk Rudra Amberstill##1265
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 .goto Dun Morogh,63.08,49.89
@@ -1755,7 +1763,7 @@ LLG.RegisterGuide([[
 .only not Paladin
 
 #step
-.talk Rudra Amberstill
+.talk Rudra Amberstill##1265
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 .goto Dun Morogh,63.08,49.89
@@ -1763,14 +1771,14 @@ LLG.RegisterGuide([[
 .only not Paladin
 
 #step
-.talk Senator Mehr Stonehallow
+.talk Senator Mehr Stonehallow##1977
 >>en:Standing near a tent.
 >>de:Steht nahe einem Zelt.
 .goto Dun Morogh,68.67,55.97
 .accept The Public Servant##433
 
 #step
-.talk Foreman Stonebrow
+.talk Foreman Stonebrow##1254
 >>en:Standing on a hill, overlooking a dig site.
 >>de:Steht auf einem Hügel mit Blick auf eine Ausgrabungsstätte.
 .goto Dun Morogh,69.08,56.33
@@ -1830,7 +1838,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Dun Morogh,67.86,57.69
 >>Follow the path up
-.talk Senator Mehr Stonehallow
+.talk Senator Mehr Stonehallow##1977
 >>en:Standing near a tent.
 >>de:Steht nahe einem Zelt.
 .goto Dun Morogh,68.67,55.97
@@ -1838,44 +1846,46 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Foreman Stonebrow
+.talk Foreman Stonebrow##1254
 >>en:Standing on a hill, overlooking a dig site.
 >>de:Steht auf einem Hügel mit Blick auf eine Ausgrabungsstätte.
 .goto Dun Morogh,69.08,56.33
 .turnin Those Blasted Troggs!##432
 
 #step
-.talk Cook Ghilm
+.talk Cook Ghilm##1355
 >>He walks around this area.
 >>You need to have the Cooking profession learned in order to accept a quest soon.
 .goto Dun Morogh,68.38,54.49
 .train
+.condition skillmax("Cooking") >= 75 >>Learn Cooking
+.optional
 
 #step
 .goto Dun Morogh,67.68,52.75
 >>Follow the road
 .goto Dun Morogh,81.21,42.70
 >>Follow the road and run through the tunnel
-.talk Pilot Hammerfoot
+.talk Pilot Hammerfoot##1960
 .goto Dun Morogh,83.89,39.19
 .accept The Lost Pilot##419
 .only walking and not subzone("North and Gate and Outpost")
 
 #step
-.click A Dwarven Corpse
+.click A Dwarven Corpse##2059
 .goto Dun Morogh,79.67,36.17
 .turnin The Lost Pilot##419
 .goto Dun Morogh,79.67,36.17
 .accept A Pilot's Revenge##417
 
 #step
-.kill 1 Mangeclaw
+.kill 1 Mangeclaw##1961
 >>He walks around this area.
 .goto Dun Morogh,78.31,37.76
 .complete 417,1 >>Collect Mangy Claw
 
 #step
-.talk Pilot Hammerfoot
+.talk Pilot Hammerfoot##1960
 .goto Dun Morogh,83.89,39.19
 .turnin A Pilot's Revenge##417
 
@@ -1884,7 +1894,7 @@ LLG.RegisterGuide([[
 >>Run through the tunnel
 .goto Loch Modan,23.53,17.89
 >>Enter the building
-.talk Mountaineer Stormpike
+.talk Mountaineer Stormpike##1343
 >>en:All the way up the stairs in the watch tower.
 >>de:Ganz oben über die Treppe im Wachturm.
 >>Upstairs inside the building.
@@ -1917,7 +1927,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,35.23,47.75
 >>Enter the building
-.talk Vidra Hearthstove
+.talk Vidra Hearthstove##1963
 >>en:Inside the inn, behind the bar.
 >>de:Im Gasthaus, hinter dem Tresen.
 >>Inside the building.
@@ -1925,14 +1935,14 @@ LLG.RegisterGuide([[
 .accept Thelsamar Blood Sausages##418
 
 #step
-.talk Yanni Stoutheart
+.talk Yanni Stoutheart##1682
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Loch Modan,34.76,48.62
 >>Visit the Vendor
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
@@ -1940,18 +1950,18 @@ LLG.RegisterGuide([[
 .accept Mountaineer Stormpike's Task##1339
 
 #step
-.talk Vrok Blunderblast
-.kill 1 Hunter's Boomstick
+.talk Vrok Blunderblast##1469
+.kill 1 Hunter's Boomstick##2511
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Loch Modan,35.83,43.46
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2511) == 0
 
 #step
 .goto Loch Modan,37.18,47.09
 >>Enter the building
-.talk Brock Stoneseeker
+.talk Brock Stoneseeker##1681
 >>Downstairs inside the building.
 >>He sometimes walks out near the entrance of the building.
 .goto Loch Modan,37.02,47.81
@@ -1959,7 +1969,7 @@ LLG.RegisterGuide([[
 .only Dwarf or Gnome
 
 #step
-.click Miners' League Crates
+.click Miners' League Crates##271
 >>They look like piles of brown boxes on the ground around this area inside the mine.
 >>This mine can be dangerous, so try to stay near the entrance and wait for boxes to respawn, if you can, so you can leave quickly when you're finished.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -1980,7 +1990,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.53,17.89
 >>Enter the building
-.talk Mountaineer Stormpike
+.talk Mountaineer Stormpike##1343
 >>en:All the way up the stairs in the watch tower.
 >>de:Ganz oben über die Treppe im Wachturm.
 >>Upstairs inside the building.
@@ -1992,14 +2002,14 @@ LLG.RegisterGuide([[
 .accept Stormpike's Order##1338
 
 #step
-.kill 1 Mountain Boar
+.kill 1 Mountain Boar##1190
 >>Kill the other types of enemies around this area for extra xp.
 .goto Loch Modan,36.99,34.36
 .collect Boar Intestines,3
 >>You can find more around [Loch Modan 29.17,23.57]
 
 #step
-.kill 1 Forest Lurker
+.kill 1 Forest Lurker##1195
 >>Kill the other types of enemies around this area for extra xp.
 .goto Loch Modan,35.69,31.78
 .collect Spider Ichor,3
@@ -2008,7 +2018,7 @@ LLG.RegisterGuide([[
 >>[29.43,48.28]
 
 #step
-.kill 1 Elder Black Bear
+.kill 1 Elder Black Bear##1186
 >>Kill the other types of enemies around this area for extra xp.
 .goto Loch Modan,35.68,32.10
 .collect Bear Meat,3
@@ -2020,7 +2030,7 @@ LLG.RegisterGuide([[
 >>[28.09,40.94]
 
 #step
-.talk Vidra Hearthstove
+.talk Vidra Hearthstove##1963
 >>en:Inside the inn, behind the bar.
 >>de:Im Gasthaus, hinter dem Tresen.
 >>Inside the building.
@@ -2028,30 +2038,30 @@ LLG.RegisterGuide([[
 .turnin Thelsamar Blood Sausages##418
 
 #step
-.talk Vrok Blunderblast
-.kill 1 Hunter's Boomstick
+.talk Vrok Blunderblast##1469
+.kill 1 Hunter's Boomstick##2511
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Loch Modan,35.83,43.46
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2511) == 0
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
 .turnin Rat Catching##416
 
 #step
-.talk Thorgrum Borrelson
+.talk Thorgrum Borrelson##1572
 >>en:Up on a hill in between a big eagle and a canopy.
 >>de:Oben auf einem Hügel zwischen einem großen Adler und einem Baldachin.
 .goto Loch Modan,33.94,50.95
 .fly Thelsamar
 
 #step
-.talk Thorgrum Borrelson
+.talk Thorgrum Borrelson##1572
 >>en:Up on a hill in between a big eagle and a canopy.
 >>de:Oben auf einem Hügel zwischen einem großen Adler und einem Baldachin.
 .goto Loch Modan,33.94,50.95
@@ -2063,7 +2073,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,44.58,49.54
 >>Follow the path
-.talk Senator Barin Redstone
+.talk Senator Barin Redstone##1274
 >>en:Standing next to a throne.
 >>de:Steht neben einem Thron.
 .goto Ironforge,39.55,57.49
@@ -2072,7 +2082,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,49.59,28.51
 >>Run up the stairs and enter the building
-.talk Golnir Bouldertoe
+.talk Golnir Bouldertoe##4256
 >>Downstairs inside the building.
 .goto Ironforge,51.52,26.30
 .turnin Ride to Ironforge##6391
@@ -2081,15 +2091,15 @@ LLG.RegisterGuide([[
 .only Dwarf or Gnome
 
 #step
-.talk Dink
-.talk Regnus Thundergranite
-.talk Briarthorn
-.talk Bilban Tosslespanner
-.talk Toldren Deepiron
-.talk Brandur Ironhammer
+.talk Dink##7312
+.talk Regnus Thundergranite##5117
+.talk Briarthorn##5172
+.talk Bilban Tosslespanner##5114
+.talk Toldren Deepiron##5143
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
-.talk Fenthwick
+.talk Fenthwick##5167
 .goto Ironforge,27.10,8.49
 .train
 .goto Ironforge,69.86,82.94
@@ -2111,7 +2121,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,27.30,12.45
 >>Enter the building
-.talk Brandur Ironhammer
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
 >>Inside the building.
@@ -2120,7 +2130,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -2131,12 +2141,12 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.click the Tome of Divinity
+.click the Tome of Divinity##6916
 .accept The Tome of Divinity##1646
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -2147,14 +2157,14 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk John Turner
+.talk John Turner##6175
 >>He walks around this area in a large path.
 .turnin The Tome of Divinity##1647
 .accept The Tome of Divinity##1648
 .only Dwarf and Paladin
 
 #step
-.talk John Turner
+.talk John Turner##6175
 >>He walks around this area in a large path.
 >>You should already have 10 Linen Cloth from earlier in the guide.
 .turnin The Tome of Divinity##1648
@@ -2164,7 +2174,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,27.30,12.45
 >>Enter the building
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -2175,7 +2185,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Muiredon Battleforge
+.talk Muiredon Battleforge##6178
 >>en:Up the ramp of the Mystic Ward.
 >>de:Up the ramp of the Mystic Ward.
 >>Upstairs inside the building.
@@ -2186,7 +2196,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Gryth Thurden
+.talk Gryth Thurden##1573
 >>en:Next to some eagles next to the Great Forge.
 >>de:Neben einigen Adlern bei der Großen Schmiede.
 .goto Ironforge,55.51,47.74
@@ -2198,7 +2208,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,37.18,47.09
 >>Enter the building
-.talk Brock Stoneseeker
+.talk Brock Stoneseeker##1681
 >>Downstairs inside the building.
 >>He sometimes walks out near the entrance of the building.
 .goto Loch Modan,37.02,47.81
@@ -2208,13 +2218,13 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,35.23,47.74
 >>Enter the building
-.talk Innkeeper Hearthstove
+.talk Innkeeper Hearthstove##6734
 >>Inside the building.
 .goto Loch Modan,35.53,48.40
 .hs
 
 #step
-.talk Mountaineer Cobbleflint
+.talk Mountaineer Cobbleflint##1089
 >>en:Standing to the side of the road on a small hill.
 >>de:Steht seitlich der Straße auf einem kleinen Hügel.
 .goto Loch Modan,22.07,73.12
@@ -2223,7 +2233,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.71,75.47
 >>Enter the building
-.talk Captain Rugelfuss
+.talk Captain Rugelfuss##1092
 >>en:All the way at the top of the big round building.
 >>de:Ganz oben auf dem großen runden Gebäude.
 >>Upstairs inside the building.
@@ -2263,7 +2273,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,30.57,69.69
 >>Leave Stonesplinter Valley and follow the road
-.talk Mountaineer Cobbleflint
+.talk Mountaineer Cobbleflint##1089
 >>en:Standing to the side of the road on a small hill.
 >>de:Steht seitlich der Straße auf einem kleinen Hügel.
 .goto Loch Modan,22.07,73.13
@@ -2273,7 +2283,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.71,75.45
 >>Enter the building
-.talk Captain Rugelfuss
+.talk Captain Rugelfuss##1092
 >>en:All the way at the top of the big round building.
 >>de:Ganz oben auf dem großen runden Gebäude.
 >>Upstairs inside the building.
@@ -2285,7 +2295,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Loch Modan,19.56,62.74
 >>Run through the tunnel
-.talk Mountaineer Barleybrew
+.talk Mountaineer Barleybrew##1959
 .goto Dun Morogh,86.28,48.81
 .turnin Shimmer Stout##413
 .goto Dun Morogh,86.28,48.81
@@ -2295,11 +2305,11 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,84.20,51.34
 >>Run through the tunnel
-.click the Symbol of Life
+.click the Symbol of Life##6866
 >>Use it on Narm Faulk's corpse.
 >>This will resurrect him and allow you to talk to him.
 >>Watch the dialogue
-.talk Narm Faulk
+.talk Narm Faulk##6177
 >>en:Lying on top of the hill.
 >>de:Liegt oben auf dem Hügel.
 .goto Dun Morogh,78.32,58.09
@@ -2309,20 +2319,20 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.kill 1 Dark Iron Spy
+.kill 1 Dark Iron Spy##6123
 .goto Dun Morogh,77.39,61.27
 .complete 1784,1 >>Collect Dark Iron Script
 .only Dwarf and Paladin
 
 #step
-.talk Yanni Stoutheart
+.talk Yanni Stoutheart##1682
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Loch Modan,34.76,48.62
 >>Visit the Vendor
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
@@ -2331,17 +2341,18 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.32,88.18
 >>Run up the stairs and enter the building
-.talk Bixi Wobblebonk
+.talk Bixi Wobblebonk##13084
 >>Inside the building.
 >>This will allow you to equip thrown weapons.
 .goto Ironforge,62.23,89.62
 .train
+.condition weaponskill("THROWN") > 0 >>Train Thrown
 .only Warrior
 
 #step
 .goto Ironforge,27.30,12.45
 >>Enter the building
-.talk Muiredon Battleforge
+.talk Muiredon Battleforge##6178
 >>en:Up the ramp of the Mystic Ward.
 >>de:Up the ramp of the Mystic Ward.
 >>Upstairs inside the building.
@@ -2352,7 +2363,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Paladin
 
 #step
-.talk Tiza Battleforge
+.talk Tiza Battleforge##6179
 >>en:She is standing up the ramp in the Mystic Ward.
 >>de:She is standing up the ramp in the Mystic Ward.
 >>Upstairs inside the building.
@@ -2364,31 +2375,31 @@ LLG.RegisterGuide([[
 .goto Ironforge,72.82,50.18
 >>Follow the path
 .goto Ironforge,76.97,51.25
->>Enter the Deeprun Tram
+.condition subzone("Deeprun Tram") >>Enter the Deeprun Tram
 >>Walk into the swirling portal.
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .accept Deeprun Rat Roundup##6661
 
 #step
-.click Rat Catcher's Flute
+.click Rat Catcher's Flute##17117
 >>Use it on Deeprun Rats around this area.
 >>They look like small grey rats on the ground around this area.
 >>In the Ironforge section of the Deeprun Tram.
 .complete 6661,1 >>Capture #5# Rats
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .turnin Deeprun Rat Roundup##6661
 
 #step
 >>Watch the dialogue
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 .accept Me Brother, Nipsy##6662
@@ -2396,17 +2407,17 @@ LLG.RegisterGuide([[
 #step
 >>Ride the Tram
 >>Ride the Deeprun Tram from Ironforge to Stormwind City.
-.talk Nipsy
+.talk Nipsy##13018
 >>On the middle platform, near the wall.
 >>In the Stormwind City section of the Deeprun Tram.
 .turnin Me Brother, Nipsy##6662
 
 #step
->>Enter Stormwind City
+.condition zone("Stormwind City") >>Enter Stormwind City
 >>Walk into the swirling portal.
 
 #step
-.talk Furen Longbeard
+.talk Furen Longbeard##5413
 >>en:Standing in a corner by himself.
 >>de:Standing in a corner by himself.
 .goto Stormwind City,58.09,16.53
@@ -2417,11 +2428,11 @@ LLG.RegisterGuide([[
 >>Run through the doorway
 .goto Stormwind City,77.97,48.19
 >>Enter the building
-.talk Ilsa Corbin
+.talk Ilsa Corbin##5480
 >>Upstairs inside the building.
 .goto Stormwind City,78.50,45.71
-.accept A Warrior's Training##1638
->>'
+.accept A Warrior's Training##1638 |or
+.condition completedq(1679) |or
 .only (Dwarf or Gnome) and Warrior
 
 #step
@@ -2429,107 +2440,111 @@ LLG.RegisterGuide([[
 >>Leave the Command Center
 .goto Stormwind City,71.66,39.89
 >>Enter the building
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
 .goto Stormwind City,74.25,37.26
 .turnin A Warrior's Training##1638
 .goto Stormwind City,74.25,37.26
-.accept Bartleby the Drunk##1639
->>'
+.accept Bartleby the Drunk##1639 |or
+.condition completedq(1678) |or
 .only (Dwarf or Gnome) and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
 .goto Stormwind City,73.83,37.17
 .turnin Bartleby the Drunk##1639
 .goto Stormwind City,73.83,37.17
-.accept Beat Bartleby##1640
->>'
+.accept Beat Bartleby##1640 |or
+.condition completedq(1678) |or
 >>He will attack you immediately after you accept this quest.
 .only (Dwarf or Gnome) and Warrior
 
 #step
-.kill 1 Bartleby
+.kill 1 Bartleby##6090
 >>He walks around this area inside the building.
 >>He will eventually surrender.
 .goto Stormwind City,73.83,37.17
-.complete 1640,1 >>Beat Bartleby
->>'
+.complete 1640,1 |or >>Beat Bartleby
+.condition completedq(1678) |or
 .only (Dwarf or Gnome) and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
 .goto Stormwind City,73.83,37.17
 .turnin Beat Bartleby##1640
 .goto Stormwind City,73.83,37.17
-.accept Bartleby's Mug##1665
->>'
+.accept Bartleby's Mug##1665 |or
+.condition completedq(1678) |or
 .only (Dwarf or Gnome) and Warrior
 
 #step
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
 .goto Stormwind City,74.25,37.26
-.turnin Bartleby's Mug##1665
->>'
+.turnin Bartleby's Mug##1665 |or
+.condition completedq(1678) |or
 .only (Dwarf or Gnome) and Warrior
 
 #step
 .goto Stormwind City,56.66,57.71
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to equip two-handed swords and staves.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_SWORD") > 0 >>Train Two-Handed Swords
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Warrior
 
 #step
 .goto Stormwind City,56.66,57.71
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to equip two-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_SWORD") > 0 >>Train Two-Handed Swords
 .only Paladin
 
 #step
 .goto Stormwind City,56.66,57.71
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to equip one-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("SWORD") > 0 >>Train One-Handed Swords
 .only Rogue
 
 #step
-.talk Gunther Weller
+.talk Gunther Weller##1289
 >>Inside the building.
-.kill 1 Cutlass
+.kill 1 Cutlass##851
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,57.55,57.07
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(851) ==0
 
 #step
 .goto Stormwind City,43.04,34.49
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.01
 .turnin Desperate Prayer##5635
@@ -2538,40 +2553,44 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use staves.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Dwarf and Priest
 
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use one-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("SWORD") > 0 >>Train One-Handed Swords
 .only Mage
 
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use staves and one-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("SWORD") > 0 >>Train One-Handed Swords
 >>By the time you're able to use these, you'll be far away from a vendor that sells them, so we are buying them now.
 .only Warlock and subzone("The and Slaughtered and Lamb")
 
 #step
 .goto Stormwind City,62.39,62.31
 >>Run up the ramp
-.talk Dungar Longdrink
+.talk Dungar Longdrink##352
 >>en:Up the ramp by the huge eagle in the Trade District.
 >>de:Oben auf der Rampe beim riesigen Adler im Handelsdistrikt.
 >>Inside the building.
@@ -2659,7 +2678,7 @@ LLG.RegisterGuide([[
 >>[9.37,61.86]
 
 #step
-.talk Shellei Brondir
+.talk Shellei Brondir##1571
 >>en:Next to a canopy and two big eagles.
 >>de:Neben einem Baldachin und zwei großen Adlern.
 .goto Wetlands,9.49,59.69
@@ -2687,7 +2706,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Wetlands,11.72,43.30
 .only not hardcore
@@ -2695,11 +2714,11 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.25,56.45
 >>Enter Menethil Harbor and the building
-.talk Neal Allen
+.talk Neal Allen##1448
 >>en:Go inside the keep and take a left. He is in the first room on the left.|
 >>de:Geh in die Burg und dann links. Er ist im ersten Raum links.|
 >>Inside the building.
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
@@ -2708,7 +2727,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Vesprystus
+.talk Vesprystus##3838
 >>en:At the end of big long dock.
 >>de:Am Ende des langen großen Docks.
 .goto Teldrassil,58.40,94.02
@@ -2716,26 +2735,28 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Ilyenia Moonfire
+.talk Ilyenia Moonfire##11866
 >>This will allow you to use bows.
 .goto Darnassus,57.56,46.73
 .train
+.condition weaponskill("BOW") > 0 >>Train Bows
 .only Hunter
 
 #step
-.talk Ariyell Skyshadow
-.kill 1 Laminated Recurve Bow
+.talk Ariyell Skyshadow##4203
+.kill 1 Laminated Recurve Bow##2507
 >>If you can afford it.
 >>If you have better, skip this step.
 >>Also buy a Small Quiver or Medium Quiver, whichever you can afford.
 .goto Darnassus,58.76,44.50
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(2507) == 0
 
 #step
-.talk Ilyenia Moonfire
+.talk Ilyenia Moonfire##11866
 >>This will allow you to use staves.
 .goto Darnassus,57.56,46.73
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Hunter
 ]])

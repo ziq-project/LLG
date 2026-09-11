@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.14,58.02
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -29,7 +29,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.56,52.64
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Agent Kearnen
+.talk Agent Kearnen##7024
 .goto Westfall,68.49,70.08
 .turnin Mathias and the Defias##2360
 .goto Westfall,68.49,70.08
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,69.97,74.07
 >>Enter the building
-.click Duskwood Chest
+.click Duskwood Chest##123214
 >>Upstairs inside the building, on the top level.
 >>You will get a debuff after opening it.
 >>Use your "Sap" ability on Klaven Mortwake nearby before clicking the chest.
@@ -71,7 +71,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.14,58.02
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Doc Mixilpixil
+.talk Doc Mixilpixil##7207
 >>Downstairs inside the building.
 .goto Stormwind City,78.04,58.77
 .turnin The Touch of Zanzil##2607
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Doc Mixilpixil
+.talk Doc Mixilpixil##7207
 >>Downstairs inside the building.
 .goto Stormwind City,78.04,58.77
 .turnin The Touch of Zanzil##2608
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building, on the middle floor.
 >>Stock up on Dust of Decay and Empty Vials, at least 20 of each.
 >>You will use these to create poisons soon to use on your weapon to help you deal more damage.
@@ -128,7 +128,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,27.69,12.34
 >>Enter the building
-.talk Milstaff Stormeye
+.talk Milstaff Stormeye##2489
 >>Inside the building.
 .goto Ironforge,25.50,7.07
 .train
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,30.43,26.37
 >>Enter the building
-.talk Ginny Longberry
+.talk Ginny Longberry##5151
 >>Inside the building.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk James Halloran
+.talk James Halloran##2094
 >>en:Standing to the left of the entrance to a small house.
 >>de:Steht links vom Eingang eines kleinen Hauses.
 >>He walks around this area.
@@ -154,7 +154,7 @@ LLG.RegisterGuide([[
 .accept Young Crocolisk Skins##484
 
 #step
-.talk Karl Boran
+.talk Karl Boran##1242
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 >>He walks around this area.
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 .accept Claws from the Deep##279
 
 #step
-.talk First Mate Fitzsimmons
+.talk First Mate Fitzsimmons##1239
 >>en:Standing right next to the mailbox in front of the inn.
 >>de:Steht direkt neben dem Briefkasten vor dem Gasthaus.
 .goto Wetlands,10.89,59.67
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.76
 >>Enter the building
-.talk Innkeeper Helbrek
+.talk Innkeeper Helbrek##1464
 >>en:Inside the inn, he walks around a little inside the inn.
 >>de:Im Gasthaus, er läuft dort etwas umher.
 >>He walks around inside the building.
@@ -181,7 +181,7 @@ LLG.RegisterGuide([[
 .hs
 
 #step
-.talk Innkeeper Helbrek
+.talk Innkeeper Helbrek##1464
 >>en:Inside the inn, he walks around a little inside the inn.
 >>de:Im Gasthaus, er läuft dort etwas umher.
 >>He walks around inside the building.
@@ -189,7 +189,7 @@ LLG.RegisterGuide([[
 .complete 288,1 >>Buy Flagon of Mead
 
 #step
-.talk Archaeologist Flagongut
+.talk Archaeologist Flagongut##2911
 >>Upstairs inside the building.
 .goto Wetlands,10.84,60.43
 .turnin The Absent Minded Prospector##942
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.79,59.77
 >>Leave the building
-.talk First Mate Fitzsimmons
+.talk First Mate Fitzsimmons##1239
 >>en:Standing right next to the mailbox in front of the inn.
 >>de:Steht direkt neben dem Briefkasten vor dem Gasthaus.
 .goto Wetlands,10.89,59.67
@@ -205,7 +205,7 @@ LLG.RegisterGuide([[
 .only subzone("Deepwater and Tavern")
 
 #step
-.talk Edwina Monzor
+.talk Edwina Monzor##1462
 >>She walks around this area.
 >>If you need any more, only buy enough level 10 ammo to get you to level 25.
 >>You will switch to level 25 ammo at level 25.
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Sida
+.talk Sida##2111
 >>en:Standing outside a little house in a red dress.
 >>de:Steht in einem roten Kleid vor einem kleinen Haus.
 .goto Wetlands,11.80,57.99
@@ -224,23 +224,24 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.30,56.30
 >>Enter the building
-.talk Neal Allen
+.talk Neal Allen##1448
 >>en:Go inside the keep and take a left. He is in the first room on the left.|
 >>de:Geh in die Burg und dann links. Er ist im ersten Raum links.|
 >>Inside the building.
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 .goto Wetlands,10.75,56.75
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
 .goto Wetlands,10.30,56.30
 >>Leave the building
 .goto Wetlands,10.96,54.57
 >>Leave Menethil Harbor
-.kill 1 Gobbler
+.kill 1 Gobbler##1259
 >>He looks like a grey murloc that walks around this area.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Wetlands,17.99,40.38
@@ -275,26 +276,27 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Fradd Swiftgear
+.talk Fradd Swiftgear##2682
 >>en:He paces around outside of a dwarf house next to some mechanical items on the ground.|
 >>de:Er läuft vor einem Zwergenhaus neben einigen mechanischen Teilen auf dem Boden auf und ab.|
 >>He walks around this area.
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 .goto Wetlands,26.40,25.76
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
-.talk Einar Stonegrip
+.talk Einar Stonegrip##2093
 >>en:Standing at a fork int he road next to a sign post.
 >>de:Steht an einer Weggabelung neben einem Wegweiser.
 .goto Wetlands,49.91,39.37
 .accept Daily Delivery##469
 
 #step
-.talk Rethiel the Greenwarden
+.talk Rethiel the Greenwarden##1244
 >>en:Standing in a dirt circle half-surrounded by flowers and plants.
 >>de:Steht in einem Erdkreis, halb umgeben von Blumen und Pflanzen.
 .goto Wetlands,56.37,40.40
@@ -304,17 +306,17 @@ LLG.RegisterGuide([[
 
 #step
 .goto Wetlands,66.20,53.00
-.kill 1 Black Ooze enemies on the way south.
+.kill 1 Black Ooze enemies on the way south. |or
 >>This step will skip if you reach the waypoint without finding the bag.
 >>Don't worry, you'll have more chances later.
-.complete 470,1 >>Collect Sida's Bag
+.complete 470,1 |or >>Collect Sida's Bag
 
 #step
 .goto Wetlands,10.30,56.30
 >>Leave the building
 .goto Wetlands,10.96,54.57
 >>Leave Menethil Harbor
-.kill 1 Young Wetlands Crocolisk
+.kill 1 Young Wetlands Crocolisk##1417
 >>Go out of your way to kill Young Wetlands Crocolisks as you quest.
 >>The droprate for this quest can be low.
 .goto Wetlands,51.00,37.20
@@ -354,13 +356,13 @@ LLG.RegisterGuide([[
 
 #step
 .goto Wetlands,56.37,40.40
-.kill 1 Black Ooze enemies on the way north.
+.kill 1 Black Ooze enemies on the way north. |or
 >>This step will skip if you reach the waypoint without finding the bag.
 >>Don't worry, you'll have more chances later.
-.complete 470,1 >>Collect Sida's Bag
+.complete 470,1 |or >>Collect Sida's Bag
 
 #step
-.talk Rethiel the Greenwarden
+.talk Rethiel the Greenwarden##1244
 >>en:Standing in a dirt circle half-surrounded by flowers and plants.
 >>de:Steht in einem Erdkreis, halb umgeben von Blumen und Pflanzen.
 .goto Wetlands,56.37,40.40
@@ -382,7 +384,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Wetlands,50.65,8.53
 >>Jump off the bridge into the water
-.click Waterlogged Letter
+.click Waterlogged Letter##2656
 >>It looks like a rolled up white scroll in the hand of a dead dwarf.
 >>Underwater.
 .goto Arathi Highlands,44.29,92.88
@@ -396,12 +398,12 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click the Waterlogged Envelope
+.click the Waterlogged Envelope##4433
 .goto Wetlands,11.80,57.99
 .accept Sully Balloo's Letter##637
 
 #step
-.talk Sida
+.talk Sida##2111
 >>en:Standing outside a little house in a red dress.
 >>de:Steht in einem roten Kleid vor einem kleinen Haus.
 .goto Wetlands,11.80,57.99
@@ -410,21 +412,22 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.30,56.30
 >>Enter the building
-.talk Neal Allen
+.talk Neal Allen##1448
 >>en:Go inside the keep and take a left. He is in the first room on the left.|
 >>de:Geh in die Burg und dann links. Er ist im ersten Raum links.|
 >>Inside the building.
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 .goto Wetlands,10.75,56.75
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
 .goto Wetlands,10.30,56.30
 >>Leave the building
-.talk James Halloran
+.talk James Halloran##2094
 >>en:Standing to the left of the entrance to a small house.
 >>de:Steht links vom Eingang eines kleinen Hauses.
 >>He walks around this area.
@@ -437,7 +440,7 @@ LLG.RegisterGuide([[
 .only subzone("Menethil and Keep")
 
 #step
-.talk Karl Boran
+.talk Karl Boran##1242
 >>en:Standing on the dock.
 >>de:Steht auf dem Steg.
 >>He walks around this area.
@@ -449,48 +452,50 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.32,88.18
 >>Run up the stairs and enter the building
-.talk Buliwyf Stonehand
+.talk Buliwyf Stonehand##11865
 >>Inside the building.
 >>This will allow you to equip two-handed axes.
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_AXE") > 0 >>Train Two-Handed Axes
 .only Paladin
 
 #step
 .goto Ironforge,50.21,7.54
 >>Run up the stairs and enter the building
-.talk Gerrig Bonegrip
+.talk Gerrig Bonegrip##2786
 >>Inside the building.
 .goto Ironforge,50.83,5.62
 .turnin The Powers Below##968
 .only haveq(968) or completedq(968)
 
 #step
-.talk Gearcutter Cogspinner
+.talk Gearcutter Cogspinner##5175
 >>en:He's a gnome in the corner next to a rocket on wheels|
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 .goto Ironforge,67.84,42.50
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
-.talk Lomac Gearstrip
+.talk Lomac Gearstrip##4081
 >>en:To the right of the tram station entrance.
 >>de:To the right of the tram station entrance.
 .goto Ironforge,72.10,51.89
 .turnin An Old Colleague##1072
 
 #step
-.talk Sara Balloo
+.talk Sara Balloo##2695
 .goto Ironforge,63.48,67.29
 .turnin Sully Balloo's Letter##637
 
 #step
 .goto Ironforge,51.24,9.84
 >>Run up the stairs
-.talk Gerrig Bonegrip
+.talk Gerrig Bonegrip##2786
 >>Inside the building.
 .goto Ironforge,50.82,5.60
 .turnin Knowledge in the Deeps##971
@@ -498,14 +503,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Sara Balloo
+.talk Sara Balloo##2695
 .goto Ironforge,63.48,67.29
 .accept Sara Balloo's Plea##683
 
 #step
 .goto Ironforge,44.57,49.55
 >>Follow the path
-.talk King Magni Bronzebeard
+.talk King Magni Bronzebeard##2784
 .goto Ironforge,39.11,56.17
 .turnin Sara Balloo's Plea##683
 .goto Ironforge,39.11,56.17
@@ -516,7 +521,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Ironforge,38.53,85.78
 >>Run up the stairs and enter the building
-.talk Grand Mason Marblesten
+.talk Grand Mason Marblesten##2790
 >>He walks around inside the building.
 .goto Ironforge,39.03,88.02
 .turnin A King's Tribute##686
@@ -525,14 +530,14 @@ LLG.RegisterGuide([[
 .only subzone("The and High and Seat")
 
 #step
-.talk Dink
-.talk Regnus Thundergranite
-.talk Bilban Tosslespanner
-.talk Toldren Deepiron
-.talk Brandur Ironhammer
+.talk Dink##7312
+.talk Regnus Thundergranite##5117
+.talk Bilban Tosslespanner##5114
+.talk Toldren Deepiron##5143
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
-.talk Fenthwick
+.talk Fenthwick##5167
 .goto Ironforge,27.10,8.49
 .train
 .goto Ironforge,69.86,82.94
@@ -552,7 +557,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,27.69,12.34
 >>Enter the building
-.talk Milstaff Stormeye
+.talk Milstaff Stormeye##2489
 >>Inside the building.
 .goto Ironforge,25.50,7.07
 .train
@@ -561,7 +566,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,30.43,26.37
 >>Enter the building
-.talk Ginny Longberry
+.talk Ginny Longberry##5151
 >>Inside the building.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -570,16 +575,17 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Billibub Cogspinner
-.kill 1 Bronze Tube
+.talk Billibub Cogspinner##5519
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 .goto Stormwind City,55.21,7.05
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
-.talk Collin Mauren
+.talk Collin Mauren##4078
 >>en:To the left of the path, up on the ledge, next to a light post.
 >>de:Links vom Weg, oben auf dem Vorsprung, neben einer Laterne.
 .goto Stormwind City,43.09,80.38
@@ -588,7 +594,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.14,74.17
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -599,7 +605,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click the Heartswood Core
+.click the Heartswood Core##6913
 >>Use it while standing on the pink symbol on the ground.
 >>Further downstairs inside the building, inside the crypt.
 .goto Stormwind City,25.11,77.46
@@ -607,7 +613,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building, in the basement above the crypt.
@@ -616,7 +622,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Spackle Thornberry
+.talk Spackle Thornberry##5520
 >>Downstairs inside the building.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -626,7 +632,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Ursula Deline
+.talk Ursula Deline##5495
 .goto Stormwind City,26.13,77.20
 .train
 .only Warlock
@@ -648,7 +654,7 @@ LLG.RegisterGuide([[
 >>Follow the path up through the mountains
 .goto Westfall,38.44,82.68
 >>Follow the path around the mountain
-.talk Daphne Stilwell
+.talk Daphne Stilwell##6182
 >>She walks around this area.
 .goto Westfall,42.33,88.64
 .turnin The Tome of Valor##1650
@@ -671,7 +677,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Daphne Stilwell
+.talk Daphne Stilwell##6182
 >>She walks around this area.
 .goto Westfall,41.68,89.09
 .turnin The Tome of Valor##1651

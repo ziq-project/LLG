@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Run down the stairs and follow the path
 .goto Moonglade,35.75,72.48
 >>Leave the tunnel
-.talk Sindrayl
+.talk Sindrayl##10897
 >>en:Off the road to the right, follow the path after the two bridges.
 >>de:Rechts abseits der Straße, folge dem Pfad nach den zwei Brücken.
 .goto Moonglade,48.10,67.34
@@ -30,7 +30,7 @@ LLG.RegisterGuide([[
 .only not zone("Moonglade")
 
 #step
-.talk Keeper Remulos
+.talk Keeper Remulos##11832
 >>en:Standing at the base of a big tree, in front of a wooden entranceway.
 .goto Moonglade,36.18,41.82
 .turnin Seed of Life##7066
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Felwood,68.40,5.84
 >>Leave the tunnel
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -52,7 +52,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 >>[34.85,43.20]
 
 #step
-.talk Azzleby
+.talk Azzleby##11119
 >>Avoid higher level enemies while following the road to this location.
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet, so you can learn "Bite 7".
@@ -85,7 +85,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Maethrya
+.talk Maethrya##11138
 >>en:Outside of the town next to 3 Hippogryphs.
 >>de:Außerhalb der Stadt neben 3 Hippogryphen.
 >>Avoid higher level enemies while following the road to this location.

@@ -19,7 +19,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.kill 1 Pusillin
+.kill 1 Pusillin##14354
 >>He is the first boss in the Dire Maul East dungeon.
 >>Use the Dire Maul East dungeon guide to accomplish this.
 .collect Crescent Key,1
@@ -53,7 +53,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul West Dungeon:
-.talk Shen'dralar Ancient
+.talk Shen'dralar Ancient##14358
 >>She is above the platform overseeing Tendris Warpwood.
 >>Head south from the second pylon to reach the Shen'dralar Ancient.
 .accept The Madness Within##7461
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul West Dungeon:
-.kill 1 Immol'thar
+.kill 1 Immol'thar##11496
 >>Clear the remaining two pylons in this room in order to engage him.
 .complete 7461,1 >>Slay Immol'thar
 
@@ -90,14 +90,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul West Dungeon:
-.kill 1 Prince Tortheldrin
+.kill 1 Prince Tortheldrin##11486
 >>Once inside The Athenaeum, jump down.
 >>He is underneath the platform that you are on after entering the room.
 .complete 7461,2 >>Slay Prince Tortheldrin
 
 #step
 >>Inside the Dire Maul West Dungeon:
-.talk Shen'dralar Ancient
+.talk Shen'dralar Ancient##14358
 >>She is above the platform overseeing Tendris Warpwood.
 >>Go back up the ramp in The Athenaeum, and east through the Prison of Immol'thar.
 >>Go up the ramp in the Court of the Highborne, then north and up a second ramp, then follow the path east and south to reach her.

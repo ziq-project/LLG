@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel to leave Felwood
 .goto Felwood,68.40,5.84
 >>Leave the tunnel to enter Winterspring
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.kill 1 Winterfall Runner
+.kill 1 Winterfall Runner##10916
 >>They look like a group of 3 white furbolgs that walk back and forth along this road.
 >>Check these locations, and if you don't find them, wait at the location in this step closest to Everlook.
 >>They will eventually walk past this location.
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Winterspring,51.39,29.82
 >>Enter the building
-.talk Wynd Nightchaser
+.talk Wynd Nightchaser##11079
 >>en:In the big building on the balcony.
 >>de:In the big building on the balcony.
 >>Inside the building.
@@ -60,7 +60,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Jaron Stoneshaper
+.talk Jaron Stoneshaper##10301
 >>en:In the big building on the balcony.
 >>de:In the big building on the balcony.
 >>Inside the building.
@@ -72,28 +72,28 @@ LLG.RegisterGuide([[
 .accept Enraged Wildkin##4861
 
 #step
-.click Highborne Relic Fragment
+.click Highborne Relic Fragment##175892
 >>Two enemies will appear and attack you.
 >>only hardcore :: If the Water Invasion is up, be very mindful of Princess Tempestra patrolling the lake. She is an elite water elemental.
 .goto Winterspring,50.88,41.71
 .complete 5245,2 >>Collect Second Relic Fragment
 
 #step
-.click Highborne Relic Fragment
+.click Highborne Relic Fragment##175892
 >>Two enemies will appear and attack you.
 >>only hardcore :: If the Water Invasion is up, be very mindful of Princess Tempestra patrolling the lake. She is an elite water elemental.
 .goto Winterspring,52.42,41.50
 .complete 5245,4 >>Collect Fourth Relic Fragment
 
 #step
-.click Highborne Relic Fragment
+.click Highborne Relic Fragment##175892
 >>Two enemies will appear and attack you.
 >>only hardcore :: If the Water Invasion is up, be very mindful of Princess Tempestra patrolling the lake. She is an elite water elemental.
 .goto Winterspring,53.31,43.43
 .complete 5245,3 >>Collect Third Relic Fragment
 
 #step
-.click Highborne Relic Fragment
+.click Highborne Relic Fragment##175892
 >>Two enemies will appear and attack you.
 >>only hardcore :: If the Water Invasion is up, be very mindful of Princess Tempestra patrolling the lake. She is an elite water elemental.
 .goto Winterspring,55.14,42.98
@@ -115,7 +115,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,60.56,38.20
 >>Enter Everlook
-.talk Umi Rumplesnicker
+.talk Umi Rumplesnicker##10305
 >>en:Standing next to a broken down robot, under a blue canopy.
 >>de:Standing next to a broken down robot, under a blü canopy.
 .goto Winterspring,60.88,37.62
@@ -125,7 +125,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,61.32,38.72
 >>Enter the building
-.talk Innkeeper Vizzie
+.talk Innkeeper Vizzie##11118
 >>Inside the building.
 .goto Winterspring,61.36,38.83
 .hs
@@ -133,7 +133,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,61.33,37.35
 >>Enter the building
-.talk Izzy Coppergrab
+.talk Izzy Coppergrab##13917
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Winterspring,61.45,36.98
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,67.65,41.75
 >>Leave the cave
-.click Damaged Crate
+.click Damaged Crate##175587
 .goto Winterspring,59.00,59.78
 .turnin Enraged Wildkin##4861
 .goto Winterspring,59.00,59.78
@@ -168,20 +168,20 @@ LLG.RegisterGuide([[
 .only subzone("Ice and Thistle and Hills")
 
 #step
-.click Jaron's Wagon
+.click Jaron's Wagon##175586
 .goto Winterspring,61.41,60.68
 .turnin Enraged Wildkin##4863
 .goto Winterspring,61.41,60.68
 .accept Enraged Wildkin##4864
 
 #step
-.click Jaron's Supplies
+.click Jaron's Supplies##175629
 >>It is a small box beside the wagon.
 .goto Winterspring,61.39,60.73
 .complete 4864,1 >>Collect Jaron's Supplies
 
 #step
-.talk Ranshalla
+.talk Ranshalla##10300
 .goto Winterspring,63.07,59.47
 .turnin Find Ranshalla##979
 .goto Winterspring,63.07,59.47
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Gregor Greystone
+.talk Gregor Greystone##10431
 >>en:Standing inside the inn, next to some tables with a bunch of food on them.
 >>de:Standing inside the inn, next to some tables with a bunch of food on them.
 >>Inside the building.
@@ -225,7 +225,7 @@ LLG.RegisterGuide([[
 .accept Duke Nicholas Zverenhoff##6030
 
 #step
-.talk Jessica Redpath
+.talk Jessica Redpath##11629
 >>en:Standing inside the inn, next to some tables with a bunch of food on them.
 >>de:Standing inside the inn, next to some tables with a bunch of food on them.
 >>Inside the building.
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,61.33,37.35
 >>Enter the building
-.talk Izzy Coppergrab
+.talk Izzy Coppergrab##13917
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Winterspring,61.45,36.98
@@ -249,13 +249,13 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Izzy Coppergrab
+.talk Izzy Coppergrab##13917
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Winterspring,61.45,36.98
 
 #step
-.talk Umi Rumplesnicker
+.talk Umi Rumplesnicker##10305
 >>en:Standing next to a broken down robot, under a blue canopy.
 >>de:Standing next to a broken down robot, under a blü canopy.
 .goto Winterspring,60.88,37.62
@@ -268,7 +268,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Winterspring,51.39,29.82
 >>Enter the building
-.talk Jaron Stoneshaper
+.talk Jaron Stoneshaper##10301
 >>en:In the big building on the balcony.
 >>de:In the big building on the balcony.
 >>Inside the building.
@@ -277,7 +277,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Natheril Raincaller
+.talk Natheril Raincaller##2084
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10-12 extra stacks.
 >>You will be questing a while.
@@ -286,7 +286,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -296,7 +296,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Erelas Ambersky
+.talk Erelas Ambersky##7916
 >>en:Just inside the house directly across from the dock.
 >>de:Just inside the house directly across from the dock.
 >>Inside the building.
@@ -308,7 +308,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.52,10.70
 >>Enter the building
-.talk Arch Druid Fandral Staghelm
+.talk Arch Druid Fandral Staghelm##3516
 >>en:In the big tower all the way at the top.
 >>de:In the big tower all the way at the top.
 >>He walks around inside the building, at the top.
@@ -316,7 +316,7 @@ LLG.RegisterGuide([[
 .turnin Wildkin of Elune##4902
 
 #step
-.talk Kyrai
+.talk Kyrai##3561
 >>Upstairs inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.

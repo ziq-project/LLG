@@ -25,16 +25,16 @@ LLG.RegisterGuide([[
 >>Corrupted stones only come from bosses in dungeons.
 >>It is also advised to save any quests from the Argent Dawn that you haven't completed until Revered.
 >>You gain reputation from killing enemies in Stratholme and Scholomance until Honored, so it is recommended to save your Scourgestones until Honored.
-.click Here to Continue
->>'
+.click Here to Continue |or
+.condition rep("Argent Dawn") == Exalted |or
 
 #step
-.talk Argent Officer Pureheart
+.talk Argent Officer Pureheart##10840
 >>en:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>de:In the small camp, to the right, between two Argent Defenders in front of a tent.
 .goto Western Plaguelands,42.97,83.55
-.accept Argent Dawn Commission##5401
->>'
+.accept Argent Dawn Commission##5401 |or
+.condition rep("Argent Dawn") >= Friendly |or
 
 #step
 >>Equip the Argent Dawn Commission
@@ -47,7 +47,7 @@ LLG.RegisterGuide([[
 >>You need 1 Corruptor's Scourgestone for 1.
 >>Corruptor's Scourgestone drops from undead bosses, typically found in Scholomance and Stratholme.
 >>Gain the Argent Dawn Commission Buff
->>'
+.condition rep("Argent Dawn") >= Friendly |or
 
 #step
 .kill 1 Undead enemies around this area
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 >>You need 10 Invader's Scourgestones per turn in.
 >>Save any Scourgestones you collect for later.
 .goto Western Plaguelands,36.97,57.26
->>Reach Friendly Reputation with the Argent Dawn
+.condition rep("Argent Dawn") == Friendly >>Reach Friendly Reputation with the Argent Dawn
 >>You Can Find More Around:
 >>[Western Plaguelands/0 46.55,53.24]
 >>Enemies at the above coordinates tend to be around level 52-54.
@@ -73,7 +73,7 @@ LLG.RegisterGuide([[
 .collect Invader's Scourgestones,1
 >>You need 10 Invader's Scourgestones per turn in.
 .goto Western Plaguelands,36.97,57.26
->>Reach Honored Reputation with the Argent Dawn
+.condition rep("Argent Dawn") == Honored |or >>Reach Honored Reputation with the Argent Dawn
 >>You Can Find More Around:
 >>[Western Plaguelands/0 46.55,53.24]
 >>Enemies at the above coordinates tend to be around level 52-54.
@@ -82,19 +82,19 @@ LLG.RegisterGuide([[
 >>[62.78,58.75]
 >>Enemies at the above coordinates tend to be around level 56-58.
 >>If you have a group ready, you can also kill Elite Undead Enemies in the dungeons Scholomance and Stratholme for reputation.
-.click Here When You're Ready to Turn-in
+.click Here When You're Ready to Turn-in |or
 
 #step
-.talk Argent Officer Pureheart
+.talk Argent Officer Pureheart##10840
 >>en:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>de:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>Turn in all Scourgestone quests you can.
 .collect Argent Dawn Valor Token,1
-.click the Argent Dawn Valor Token
+.click the Argent Dawn Valor Token##12844
 >>You'll get 25 rep per token.
 .goto Western Plaguelands,42.97,83.55
->>Reach Honored Reputation with the Argent Dawn
-.click Here to Return to Farming
+.condition rep("Argent Dawn") == Honored |or >>Reach Honored Reputation with the Argent Dawn
+.click Here to Return to Farming |or
 
 #step
 .kill 1 Undead enemies around this area
@@ -103,9 +103,9 @@ LLG.RegisterGuide([[
 .collect Invader's Scourgestones,1
 >>You need 10 Invader's Scourgestones per turn in.
 .goto Western Plaguelands,36.97,57.26
->>Reach 11,999 Reputation into Honored with the Argent Dawn
+.condition rep("Argent Dawn","Honored") >= 11999 |or >>Reach 11,999 Reputation into Honored with the Argent Dawn
 >>Elite enemies stop giving reputation at this point.
->>'
+.condition rep("Argent Dawn") == Revered |or
 >>You Can Find More Around:
 >>[Western Plaguelands/0 46.55,53.24]
 >>Enemies at the above coordinates tend to be around level 52-54.
@@ -114,25 +114,25 @@ LLG.RegisterGuide([[
 >>[62.78,58.75]
 >>Enemies at the above coordinates tend to be around level 56-58.
 >>If you have a group ready, you can also kill Elite Undead Enemies in the dungeons Scholomance and Stratholme for reputation.
-.click Here When You're Ready to Turn-in
+.click Here When You're Ready to Turn-in |or
 
 #step
-.talk Argent Officer Pureheart
+.talk Argent Officer Pureheart##10840
 >>en:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>de:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>Turn in all Scourgestone quests you can.
 .collect Argent Dawn Valor Token,1
-.click the Argent Dawn Valor Token
+.click the Argent Dawn Valor Token##12844
 >>You'll get 25 rep per token.
 .goto Western Plaguelands,42.97,83.55
->>Reach Revered Reputation with the Argent Dawn
-.click Here to Return to Farming
+.condition rep("Argent Dawn") == Revered |or >>Reach Revered Reputation with the Argent Dawn
+.click Here to Return to Farming |or
 
 #step
 >>At This Point, Only Scourgestones and Bosses From Dungeons Award Reputation
 >>Without a group, you will be grinding Scourgestones.
-.click Here To Continue
->>'
+.click Here To Continue |or
+.condition rep("Argent Dawn") == Exalted |or
 
 #step
 .kill 1 Undead enemies around this area
@@ -141,9 +141,9 @@ LLG.RegisterGuide([[
 .collect Invader's Scourgestones,1
 >>You need 10 Invader's Scourgestones per turn in.
 .goto Western Plaguelands,36.97,57.26
->>Reach 11,999 Reputation into Honored with the Argent Dawn
+.condition rep("Argent Dawn","Honored") >= 11999 |or >>Reach 11,999 Reputation into Honored with the Argent Dawn
 >>Elite enemies stop giving reputation at this point.
->>'
+.condition rep("Argent Dawn") == Revered |or
 >>You Can Find More Around:
 >>[Western Plaguelands/0 46.55,53.24]
 >>Enemies at the above coordinates tend to be around level 52-54.
@@ -152,20 +152,20 @@ LLG.RegisterGuide([[
 >>[62.78,58.75]
 >>Enemies at the above coordinates tend to be around level 56-58.
 >>If you have a group ready, enter Scholomance and Stratholme for Corrupted Scourgestones.
->>Reach Exalted Reputation with the Argent Dawn
-.click Here When You're Ready to Turn-in
+.condition rep("Argent Dawn") == Exalted |or >>Reach Exalted Reputation with the Argent Dawn
+.click Here When You're Ready to Turn-in |or
 
 #step
-.talk Argent Officer Pureheart
+.talk Argent Officer Pureheart##10840
 >>en:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>de:In the small camp, to the right, between two Argent Defenders in front of a tent.
 >>Turn in all Scourgestone quests you can.
 .collect Argent Dawn Valor Token,1
-.click the Argent Dawn Valor Token
+.click the Argent Dawn Valor Token##12844
 >>You'll get 25 rep per token.
 .goto Western Plaguelands,42.97,83.55
->>Reach Exalted Reputation with the Argent Dawn
-.click Here to Return to Farming
+.condition rep("Argent Dawn") == Exalted |or >>Reach Exalted Reputation with the Argent Dawn
+.click Here to Return to Farming |or
 
 #step
 >>Congratulations!

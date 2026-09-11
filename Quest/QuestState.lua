@@ -373,6 +373,31 @@ function QS.ItemCount(itemName)
     return total
 end
 
+-- Anzahl eines Gegenstands ueber seine Kennung. Die Vorlage nennt in
+-- Bedingungen ("|complete itemcount(21377) < 5") nur die Zahl, nie den Namen -
+-- und der Name waere auf einem deutschen Client ohnehin ein anderer.
+function QS.ItemCountById(id)
+    if not id then return 0 end
+    local wanted = tostring(id)
+    local total = 0
+    for bag = 0, 4 do
+        local slots = GetContainerNumSlots(bag)
+        if slots and slots > 0 then
+            for slot = 1, slots do
+                local link = GetContainerItemLink(bag, slot)
+                if link then
+                    local iid = LLG.match(link, "item:(%d+)")
+                    if iid == wanted then
+                        local _, count = GetContainerItemInfo(bag, slot)
+                        total = total + (count or 1)
+                    end
+                end
+            end
+        end
+    end
+    return total
+end
+
 -- ------------------------------------------------------------------- Hooks
 
 local function hookAccept()

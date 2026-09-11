@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Leave the cave
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 .goto Felwood,51.21,82.11
@@ -26,14 +26,14 @@ LLG.RegisterGuide([[
 .only subzone("Marshal's and Refuge")
 
 #step
-.talk Jessir Moonbow
+.talk Jessir Moonbow##11019
 .goto Felwood,51.35,82.01
 .turnin Rescue From Jaedenar##5203
 
 #step
 .goto Felwood,51.26,81.70
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 .complete 4084,2 >>Collect Irontree Heart
 
 #step
-.kill 1 Toxic Horror
+.kill 1 Toxic Horror##7132
 >>All around this green lake.
 .goto Felwood,49.42,23.51
 .complete 5086,1 >>Collect 3 Toxic Horror Droplet

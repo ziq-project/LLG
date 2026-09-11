@@ -29,11 +29,11 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Shattered Necklace
+.click the Shattered Necklace##7666
 .accept The Shattered Necklace##2198
 
 #step
-.talk Talvash del Kissel
+.talk Talvash del Kissel##6826
 .goto Ironforge,36.37,3.62
 .turnin The Shattered Necklace##2198
 .goto Ironforge,36.36,3.62
@@ -46,14 +46,14 @@ LLG.RegisterGuide([[
 >>You can also purchase them from the Auction House.
 
 #step
-.talk Talvash del Kissel
+.talk Talvash del Kissel##6826
 .goto Ironforge,36.36,3.62
 .turnin Lore for a Price##2199
 .goto Ironforge,36.36,3.62
 .accept Back to Uldaman##2200
 
 #step
-.talk Prospector Stormpike
+.talk Prospector Stormpike##1356
 >>en:Right inside the Library.
 >>de:Right inside the Library.
 .goto Ironforge,74.62,11.79
@@ -72,7 +72,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,50.48,37.05
 >>Follow the path up
-.talk Prospector Ryedol
+.talk Prospector Ryedol##2910
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.42,43.40
@@ -86,14 +86,14 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Badlands,54.50,57.78
 >>Enter the cave
-.talk Hammertoe Grez
+.talk Hammertoe Grez##2909
 >>Inside the cave.
 .goto Badlands,54.04,57.67
 .complete 721,1 >>Find Hammertoe Grez in Uldaman
 .only walking
 
 #step
-.talk Hammertoe Grez
+.talk Hammertoe Grez##2909
 >>Inside the cave.
 .goto Badlands,54.04,57.67
 .turnin A Sign of Hope##721
@@ -101,14 +101,14 @@ LLG.RegisterGuide([[
 .accept Amulet of Secrets##722
 
 #step
-.kill 1 Magregan Deepshadow
+.kill 1 Magregan Deepshadow##2932
 >>He patrols through the tunnels before the entrance.
 >>He has a slow respawn rate.
 .goto Badlands,53.85,57.95
 .complete 722,1 >>Collect Hammertoe's Amulet
 
 #step
-.talk Hammertoe Grez
+.talk Hammertoe Grez##2909
 >>Inside the cave.
 .goto Badlands,54.04,57.67
 .turnin Amulet of Secrets##722
@@ -118,7 +118,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,54.48,57.78
 >>Leave the cave
-.talk Prospector Ryedol
+.talk Prospector Ryedol##2910
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.42,43.40
@@ -127,14 +127,14 @@ LLG.RegisterGuide([[
 .accept Prospect of Faith##724
 
 #step
-.talk Prospector Stormpike
+.talk Prospector Stormpike##1356
 >>en:Right inside the Library.
 >>de:Right inside the Library.
 .goto Ironforge,74.70,11.72
 .accept Ironband Wants You!##707
 
 #step
-.talk Historian Karnik
+.talk Historian Karnik##2916
 >>en:In the big circular library.
 >>de:In der großen runden Bibliothek.
 .goto Ironforge,77.57,11.83
@@ -143,14 +143,14 @@ LLG.RegisterGuide([[
 .accept Passing Word of a Threat##725
 
 #step
-.talk Advisor Belgrum
+.talk Advisor Belgrum##2918
 .goto Ironforge,77.32,9.75
 .turnin Passing Word of a Threat##725
 .goto Ironforge,77.32,9.75
 .accept Passing Word of a Threat##726
 
 #step
-.talk Historian Karnik
+.talk Historian Karnik##2916
 >>en:In the big circular library.
 >>de:In der großen runden Bibliothek.
 .goto Ironforge,77.57,11.83
@@ -161,13 +161,13 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,36.64,48.53
 >>Enter the building
-.talk Ghak Healtouch
+.talk Ghak Healtouch##1470
 >>Inside the building.
 .goto Loch Modan,37.07,49.38
 .accept Badlands Reagent Run##2500
 
 #step
-.talk Prospector Ironband
+.talk Prospector Ironband##1344
 >>en:Standing under a white canopy next to a small square table.
 >>de:Steht unter einem weissen Baldachin neben einem kleinen quadratischen Tisch.
 .goto Loch Modan,65.94,65.62
@@ -199,14 +199,14 @@ LLG.RegisterGuide([[
 >>Run down the stairs
 .goto Badlands,41.24,27.44
 >>Continue down the stairs
-.kill 1 Ambassador Infernus
+.kill 1 Ambassador Infernus##2745
 >>Downstairs inside the building.
 >>You may need help with this.
 .goto Badlands,42.10,28.90
 .complete 762,1 >>Collect Ambassador Infernus' Bracer
 
 #step
-.kill 1 Lesser Rock Elemental
+.kill 1 Lesser Rock Elemental##2735
 .goto Badlands,19.46,43.02
 .complete 2500,3 >>Collect 5 Rock Elemental Shard
 
@@ -232,7 +232,7 @@ LLG.RegisterGuide([[
 >>[31.58,65.16]
 
 #step
-.talk Prospector Ironband
+.talk Prospector Ironband##1344
 >>en:Standing under a white canopy next to a small square table.
 >>de:Steht unter einem weissen Baldachin neben einem kleinen quadratischen Tisch.
 .goto Loch Modan,65.94,65.62
@@ -243,7 +243,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,36.63,48.53
 >>Enter the building
-.talk Ghak Healtouch
+.talk Ghak Healtouch##1470
 >>Inside the building.
 .goto Loch Modan,37.07,49.38
 .turnin Badlands Reagent Run##2500
@@ -251,7 +251,7 @@ LLG.RegisterGuide([[
 .accept Uldaman Reagent Run##17
 
 #step
-.talk Advisor Belgrum
+.talk Advisor Belgrum##2918
 .goto Ironforge,77.32,9.75
 .turnin An Ambassador of Evil##762
 .goto Ironforge,77.32,9.75
@@ -263,14 +263,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.talk Remains of a Paladin
+.talk Remains of a Paladin##6912
 >>He's laying on the ground surrounded by enemies.
 .turnin Back to Uldaman##2200
 .accept Find the Gems##2201
 
 #step
 >>Inside the Uldaman Dungeon:
-.talk Baelog
+.talk Baelog##6906
 >>en:He is standing up on a ledge.
 >>He is the first boss of the dungeon.
 >>Follow the path through the first corridor to enter the big open room, then follow the left corridor and enter the room to the south to reach Dig Two.
@@ -291,14 +291,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.kill 1 Revelosh
+.kill 1 Revelosh##6910
 >>He is the second boss of the dungeon.
 >>Leave Dig Two and go left.
 .collect The Shaft of Tsol,1
 
 #step
 >>Inside the Uldaman Dungeon:
-.click The Shaft of Tsol
+.click The Shaft of Tsol##7741
 .collect Staff of Prehistoria,1
 
 #step
@@ -312,7 +312,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.click Shadowforge Cache
+.click Shadowforge Cache##113757
 >>Looting this will cause a few enemies to spawn.
 >>It looks like a stone chest on the northwestern side of Dig Three.
 >>Proceed north and follow the western-most path.
@@ -328,21 +328,21 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.kill 1 Grimlok
+.kill 1 Grimlok##4854
 >>Leave Dig Three and go left, then continue left to the end of The Stone Vault.
 .complete 2201,2 >>Collect Shattered Necklace Sapphire
 
 #step
 >>Inside the Uldaman Dungeon:
-.click Talvash's Phial of Scrying
-.click Talvash's Scrying Bowl
+.click Talvash's Phial of Scrying##7667
+.click Talvash's Scrying Bowl##112877
 .turnin Find the Gems##2201
 .accept Restoring the Necklace##2204
 
 #step
 >>Inside the Uldaman Dungeon:
 .click Altar of The Keepers
-.kill 1 Archaedas
+.kill 1 Archaedas##2748
 >>He is the last boss of the dungeon.
 >>Leave The Stone Vault and follow the left path to reach the Hall of the Crafters.
 .complete 2204,1 >>Collect Shattered Necklace Power Source
@@ -357,7 +357,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.talk Lore Keeper of Norgannon
+.talk Lore Keeper of Norgannon##7172
 >>en:He appears on the left side of the room, next to a stone altar, when you accept the quest \
 >>de:Erscheint links im Raum neben einem Steinaltar, wenn du die Qüst \
 >>Select _"Who are the Earthen?"_
@@ -380,7 +380,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.click Magenta Cap Cluster
+.click Magenta Cap Cluster##126049
 >>They look like a pair of mushrooms along the walls of the cave areas.
 >>You can find more outside of the dungeon.
 .complete 2202,1 >>Collect 12 Magenta Cap Cluster
@@ -390,7 +390,7 @@ LLG.RegisterGuide([[
 .complete 1139 >>Click Here to Continue
 
 #step
-.talk Prospector Ironband
+.talk Prospector Ironband##1344
 >>en:Standing under a white canopy next to a small square table.
 >>de:Steht unter einem weissen Baldachin neben einem kleinen quadratischen Tisch.
 .goto Loch Modan,65.93,65.62
@@ -399,7 +399,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,36.63,48.52
 >>Enter the building
-.talk Ghak Healtouch
+.talk Ghak Healtouch##1470
 >>Inside the building.
 .goto Loch Modan,37.07,49.37
 .turnin Uldaman Reagent Run##17
@@ -409,7 +409,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Ironforge,31.98,5.42
 >>Enter the building
-.talk Tymor
+.talk Tymor##8507
 >>en:Up the steps, in the door to the left, next to 2 bookcases.
 >>de:Die Stufen hinauf, durch die linke Tür, neben 2 Bücherregalen.
 >>Inside the building.
@@ -418,7 +418,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk High Explorer Magellas
+.talk High Explorer Magellas##5387
 .goto Ironforge,69.93,18.54
 .turnin The Platinum Discs##2279
 .goto Ironforge,69.93,18.54
@@ -428,25 +428,25 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,34.08,62.42
 >>Enter the building
-.talk Dinita Stonemantle
+.talk Dinita Stonemantle##7292
 >>Inside the building.
 .goto Ironforge,33.48,60.21
 .turnin The Platinum Discs##2439
 
 #step
-.talk Talvash del Kissel
+.talk Talvash del Kissel##6826
 .goto Ironforge,36.36,3.62
 .turnin Restoring the Necklace##2204
 
 #step
-.talk Prospector Stormpike
+.talk Prospector Stormpike##1356
 >>en:Right inside the Library.
 >>de:Right inside the Library.
 .goto Ironforge,74.66,11.73
 .turnin The Hidden Chamber##2240
 
 #step
-.talk Advisor Belgrum
+.talk Advisor Belgrum##2918
 .goto Ironforge,77.32,9.75
 .turnin The Lost Tablets of Will##1139
 ]])

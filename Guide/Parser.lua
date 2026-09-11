@@ -29,7 +29,11 @@
       .collect <Gegenstand>,<Anzahl>
       .talk <NPC>   .kill <Anzahl> <Gegner>   .click <Objekt>
       .hs .train .vendor .repair .fly <Ziel> .home .note <Text>
+      .condition <Ausdruck>     pruefbare Bedingung, z.B. skill("Mining")>=75
       .only <Bedingung>         Rasse, Klasse, Fraktion, level-Vergleiche
+
+  Ein "|or" hinter den Argumenten macht die Zeile zur Alternative: eine
+  erfuellte Zeile der Gruppe reicht fuer alle ("|or 2" verlangt zwei).
 
   Alles hinter ">>" ist Anzeigetext und beeinflusst die Auswertung nicht.
   Zwei Sonderformen:
@@ -49,6 +53,7 @@ local Parser = LLG.RegisterModule("Parser", {})
 -- Schritt als erledigt gilt; alles andere ist Anleitung fuer den Spieler.
 local HARD = {
     accept = true, turnin = true, complete = true, level = true, collect = true,
+    condition = true,
 }
 
 -- ".optional" markiert einen Schritt als Beiwerk. Er wird angezeigt und laesst
@@ -194,10 +199,284 @@ condEnv.warlockpet = function(name)
     return false
 end
 
+-- Berufe und andere Fertigkeiten.
+--
+-- Der Client fuehrt sie unter ihrem uebersetzten Namen; die Guides nennen den
+-- englischen. Die Liste ist kurz und abgeschlossen, deshalb steht sie hier und
+-- nicht im Lernsystem: zwoelf Berufe, drei Nebenfertigkeiten.
+local SKILL_DE = {
+    ["alchemy"] = "alchimie",
+    ["blacksmithing"] = "schmiedekunst",
+    ["enchanting"] = "verzauberkunst",
+    ["engineering"] = "ingenieurskunst",
+    ["herbalism"] = "kraeuterkunde",
+    ["leatherworking"] = "lederverarbeitung",
+    ["mining"] = "bergbau",
+    ["skinning"] = "kuerschnerei",
+    ["tailoring"] = "schneiderei",
+    ["cooking"] = "kochkunst",
+    ["first aid"] = "erste hilfe",
+    ["fishing"] = "angeln",
+}
+
+-- Die deutschen Namen oben stehen in Umschrift ("kraeuterkunde"), der Client
+-- liefert sie mit Umlaut. Ohne diese Faltung faende die Suche nichts. Der
+-- 1.12-Client schreibt je nach Sprachfassung Latin-1 oder UTF-8, deshalb
+-- beides.
+local function foldUmlauts(s)
+    if not s then return "" end
+    local out = s
+    out = string.gsub(out, "\195\164", "ae")
+    out = string.gsub(out, "\195\182", "oe")
+    out = string.gsub(out, "\195\188", "ue")
+    out = string.gsub(out, "\195\159", "ss")
+    out = string.gsub(out, "\195\132", "ae")
+    out = string.gsub(out, "\195\150", "oe")
+    out = string.gsub(out, "\195\156", "ue")
+    out = string.gsub(out, "\228", "ae")
+    out = string.gsub(out, "\246", "oe")
+    out = string.gsub(out, "\252", "ue")
+    out = string.gsub(out, "\223", "ss")
+    out = string.gsub(out, "\196", "ae")
+    out = string.gsub(out, "\214", "oe")
+    out = string.gsub(out, "\220", "ue")
+    return out
+end
+Parser.FoldUmlauts = foldUmlauts
+
+local function skillRanks(name)
+    if not name or not GetNumSkillLines or not GetSkillLineInfo then
+        return nil, nil
+    end
+    local want = LLG.normalize(foldUmlauts(name))
+    local alt = SKILL_DE[want]
+    local n = GetNumSkillLines()
+    if not n then return nil, nil end
+    for i = 1, n do
+        local sName, isHeader, _, rank, _, _, maxRank = GetSkillLineInfo(i)
+        if sName and not isHeader then
+            local have = LLG.normalize(foldUmlauts(sName))
+            if have == want or (alt and have == alt) then
+                return rank, maxRank
+            end
+        end
+    end
+    return nil, nil
+end
+
+-- Wie heisst die Fertigkeit auf diesem Client? Solange sie nicht gelernt ist,
+-- gibt es keine Antwort - dann bleibt der englische Name aus dem Guide stehen.
+function Parser.SkillDisplay(name)
+    if not name or not GetNumSkillLines or not GetSkillLineInfo then
+        return name
+    end
+    local want = LLG.normalize(foldUmlauts(name))
+    local alt = SKILL_DE[want]
+    local n = GetNumSkillLines() or 0
+    for i = 1, n do
+        local sName, isHeader = GetSkillLineInfo(i)
+        if sName and not isHeader then
+            local have = LLG.normalize(foldUmlauts(sName))
+            if have == want or (alt and have == alt) then return sName end
+        end
+    end
+    return name
+end
+
+-- Aktueller Stand einer Fertigkeit. Unbekannt heisst 0 - "noch nicht
+-- gelernt" ist fuer eine Bedingung dasselbe wie "Stand null".
+condEnv.skill = function(name)
+    local rank = skillRanks(name)
+    return rank or 0
+end
+
+condEnv.skillmax = function(name)
+    local _, maxRank = skillRanks(name)
+    return maxRank or 0
+end
+
+-- Waffenfertigkeiten stehen in 1.12 in derselben Liste wie die Berufe. Die
+-- Vorlage nennt sie allerdings mit einem Kuerzel ("TH_SWORD"), nicht mit dem
+-- Namen, unter dem der Client sie fuehrt.
+local WEAPON_TOKENS = {
+    ["sword"] = "swords", ["th_sword"] = "two-handed swords",
+    ["axe"] = "axes", ["th_axe"] = "two-handed axes",
+    ["mace"] = "maces", ["th_mace"] = "two-handed maces",
+    ["staff"] = "staves", ["th_staff"] = "staves",
+    ["dagger"] = "daggers", ["bow"] = "bows", ["crossbow"] = "crossbows",
+    ["gun"] = "guns", ["thrown"] = "thrown", ["wand"] = "wands",
+    ["polearm"] = "polearms", ["fist"] = "fist weapons",
+    ["unarmed"] = "unarmed",
+}
+local WEAPON_DE = {
+    ["swords"] = "schwerter", ["two-handed swords"] = "zweihandschwerter",
+    ["axes"] = "aexte", ["two-handed axes"] = "zweihandaexte",
+    ["maces"] = "streitkolben", ["two-handed maces"] = "zweihandstreitkolben",
+    ["staves"] = "staebe", ["daggers"] = "dolche", ["bows"] = "boegen",
+    ["crossbows"] = "armbrueste", ["guns"] = "schusswaffen",
+    ["thrown"] = "wurfwaffen", ["wands"] = "zauberstaebe",
+    ["polearms"] = "stangenwaffen", ["fist weapons"] = "faustwaffen",
+    ["unarmed"] = "waffenlos",
+}
+
+condEnv.weaponskill = function(name)
+    if not name then return 0 end
+    -- Erst das Kuerzel, und zwar ungefiltert: LLG.normalize wirft den
+    -- Unterstrich weg, und aus "TH_SWORD" wuerde "thsword".
+    local want = WEAPON_TOKENS[string.lower(name)]
+    if not want then
+        want = LLG.normalize(name)
+        want = WEAPON_TOKENS[want] or want
+    end
+    local rank = skillRanks(want)
+    if rank then return rank end
+    local de = WEAPON_DE[want]
+    if de then
+        rank = skillRanks(de)
+        if rank then return rank end
+    end
+    return 0
+end
+
+-- Gegenstaende in den Taschen. Die Vorlage nennt die Kennung, nicht den Namen.
+condEnv.itemcount = function(what)
+    if not what then return 0 end
+    if type(what) == "number" then
+        return LLG.QuestState.ItemCountById(what)
+    end
+    if LLG.match(tostring(what), "^%d+$") then
+        return LLG.QuestState.ItemCountById(tostring(what))
+    end
+    return LLG.QuestState.ItemCount(tostring(what))
+end
+
+-- Kennt der Charakter den Zauber? Das Zauberbuch fuehrt ihn unter dem
+-- uebersetzten Namen; ohne Uebersetzung bleibt nur der Vergleich mit dem
+-- englischen. Falsch-negativ ist hier die harmlose Richtung.
+condEnv.knowspell = function(name)
+    if not name or not GetSpellName then return false end
+    local want = LLG.normalize(name)
+    local i = 1
+    while true do
+        local sName = GetSpellName(i, "spell")
+        if not sName then break end
+        if LLG.normalize(sName) == want then return true end
+        i = i + 1
+        if i > 1024 then break end
+    end
+    return false
+end
+
+-- Ruf.
+--
+-- Die Rufliste des Clients versteckt zugeklappte Ueberschriften: was darunter
+-- liegt, liefert GetFactionInfo gar nicht erst. Deshalb wird einmal alles
+-- aufgeklappt, gelesen und der Zustand wieder hergestellt. Das Ergebnis haelt
+-- bis zur naechsten Rufaenderung.
+local STANDING = {
+    ["hated"] = 1, ["hostile"] = 2, ["unfriendly"] = 3, ["neutral"] = 4,
+    ["friendly"] = 5, ["honored"] = 6, ["revered"] = 7, ["exalted"] = 8,
+}
+-- Die Vorlage schreibt den Namen des Rufgrades als blosses Wort in die
+-- Bedingung ("rep('Timbermaw Hold') >= Revered"). Ohne diese Eintraege
+-- faenge der Rueckfall unten sie ab und machte daraus "false".
+condEnv.Hated, condEnv.Hostile, condEnv.Unfriendly = 1, 2, 3
+condEnv.Neutral, condEnv.Friendly, condEnv.Honored = 4, 5, 6
+condEnv.Revered, condEnv.Exalted = 7, 8
+for k, v in pairs(STANDING) do condEnv[k] = v end
+
+local repCache = nil
+
+local function scanFactions()
+    if repCache then return repCache end
+    repCache = {}
+    if not GetNumFactions or not GetFactionInfo then return repCache end
+    -- Zugeklappte Ueberschriften merken und aufklappen.
+    local collapsed = {}
+    local guard = 0
+    local i = 1
+    while guard < 512 do
+        guard = guard + 1
+        local n = GetNumFactions()
+        if not n or i > n then break end
+        local name, _, _, _, _, _, _, _, isHeader, isCollapsed = GetFactionInfo(i)
+        if not name then break end
+        if isHeader and isCollapsed and ExpandFactionHeader then
+            table.insert(collapsed, name)
+            ExpandFactionHeader(i)
+        else
+            i = i + 1
+        end
+    end
+    local n = GetNumFactions() or 0
+    for k = 1, n do
+        local name, _, standing, barMin, barMax, barValue = GetFactionInfo(k)
+        if name then
+            repCache[LLG.normalize(name)] = {
+                standing = standing or 0,
+                value = (barValue or 0) - (barMin or 0),
+                span = (barMax or 0) - (barMin or 0),
+                raw = barValue or 0,
+            }
+        end
+    end
+    -- Wieder zuklappen, was zugeklappt war.
+    if CollapseFactionHeader and LLG.getn(collapsed) > 0 then
+        local want = {}
+        for _, nm in ipairs(collapsed) do want[LLG.normalize(nm)] = true end
+        local j = 1
+        guard = 0
+        while guard < 512 do
+            guard = guard + 1
+            local total = GetNumFactions()
+            if not total or j > total then break end
+            local name, _, _, _, _, _, _, _, isHeader = GetFactionInfo(j)
+            if not name then break end
+            if isHeader and want[LLG.normalize(name)] then
+                CollapseFactionHeader(j)
+            end
+            j = j + 1
+        end
+    end
+    return repCache
+end
+
+function Parser.ForgetFactions()
+    repCache = nil
+end
+
+condEnv.rep = function(name)
+    if not name then return 0 end
+    local f = scanFactions()[LLG.normalize(name)]
+    return f and f.standing or 0
+end
+
+-- Punkte innerhalb des aktuellen Grades, wie die Vorlage sie zaehlt:
+-- repval('X','Honored') >= 11999 heisst "fast durch Ehrfuerchtig".
+condEnv.repval = function(name, standing)
+    if not name then return 0 end
+    local f = scanFactions()[LLG.normalize(name)]
+    if not f then return 0 end
+    if standing then
+        local want = STANDING[LLG.normalize(tostring(standing))]
+        if want and f.standing ~= want then
+            if f.standing > want then return 999999 end
+            return 0
+        end
+    end
+    return f.value
+end
+
 setmetatable(condEnv, {
     __index = function(t, k)
         if k == "level" then
             return UnitLevel and UnitLevel("player") or 1
+        end
+        -- "Die on Purpose |complete isdead": 62 Zeilen der Vorlage fragen den
+        -- Todeszustand ab, und zwar als blosses Wort, nicht als Aufruf.
+        if k == "isdead" then
+            if not UnitIsDeadOrGhost then return false end
+            return UnitIsDeadOrGhost("player") and true or false
         end
         if type(k) ~= "string" then return false end
         return traitMatches(k)
@@ -361,6 +640,19 @@ local function parseTask(cmd, args, texts, guide, lineNo)
         local v = toNumber(args)
         if not v then return nil, "level braucht eine Zahl" end
         task.level = v
+
+    elseif cmd == "condition" then
+        -- Eine pruefbare Bedingung als Aufgabe. Die Vorlage haengt sie an
+        -- Zeilen, deren Abschluss sich nicht an einer Quest festmachen laesst -
+        -- fast immer ein Berufsstand: "skill('Engineering') >= 75". Ohne sie
+        -- haben die Berufsguides nichts, woran sie sich messen koennen.
+        if args == "" then return nil, "condition braucht einen Ausdruck" end
+        task.condText = args
+        task.cond = Parser.Condition(args)
+        if not task.cond then
+            table.insert(guide.warnings,
+                "Zeile " .. lineNo .. ": Bedingung nicht auswertbar: " .. args)
+        end
 
     elseif cmd == "collect" then
         local name, count = splitTrailingNumber(args)
@@ -573,6 +865,18 @@ function Parser.Parse(text)
                     if LLG.getn(dispTexts) == 0 then dispTexts = nil end
                 end
                 args = LLG.trim(args)
+
+                -- "|or" kennzeichnet Alternativen innerhalb eines Schrittes:
+                -- eine erfuellte Zeile reicht fuer die ganze Gruppe. "|or 2"
+                -- verlangt zwei. Die Schreibweise ist von der Vorlage
+                -- uebernommen, damit der Konverter sie nicht uebersetzen muss.
+                local alt = nil
+                local base, cnt = LLG.match(args, "^(.-)%s*|or%s*(%d*)%s*$")
+                if base then
+                    args = LLG.trim(base)
+                    alt = tonumber(cnt) or 1
+                end
+
                 local dispText = dispTexts
 
                 if cmd == "only" then
@@ -586,6 +890,7 @@ function Parser.Parse(text)
                 else
                     local task, err = parseTask(cmd, args, dispText, guide, lineNo)
                     if task then
+                        task.alt = alt
                         table.insert(step.tasks, task)
                         lastTask = task
                         if task.hard then step.hardCount = step.hardCount + 1 end

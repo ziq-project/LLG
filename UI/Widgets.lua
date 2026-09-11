@@ -569,3 +569,137 @@ function W.Tooltip(frame, title, line)
         GameTooltip:Hide()
     end)
 end
+
+-- ---------------------------------------------------------------- Kontextmenue
+--
+-- Ein Rechtsklick soll fragen, nicht handeln. Frueher uebersprang er den
+-- Schritt sofort - eine Geste, die man leicht aus Versehen macht und deren
+-- Wirkung man erst merkt, wenn der Guide woanders steht.
+--
+-- Gebaut wird es von Hand, wie alles hier: UIDropDownMenu haengt in 1.12 an
+-- Blizzards Vorlagen und bringt Eigenheiten mit, die wir nicht brauchen.
+-- Es gibt genau ein Menue; es wird beim Oeffnen neu belegt.
+local menu = nil
+local MENU_ROW_H = 16
+local MENU_PAD = 4
+
+local function hideMenu()
+    if menu then menu:Hide() end
+end
+W.CloseMenu = hideMenu
+
+local function buildMenu()
+    if menu then return menu end
+    menu = CreateFrame("Frame", "LLGContextMenu", UIParent)
+    menu:SetFrameStrata("FULLSCREEN_DIALOG")
+    menu:EnableMouse(true)
+    W.Skin(menu, 0.06, 0.06, 0.09, 0.96)
+    menu.rows = {}
+    menu:Hide()
+
+    -- Ein Klick daneben schliesst das Menue. Der Fänger liegt darunter und
+    -- deckt den ganzen Bildschirm ab.
+    local catcher = CreateFrame("Button", "LLGContextCatcher", UIParent)
+    catcher:SetAllPoints(UIParent)
+    catcher:SetFrameStrata("FULLSCREEN")
+    catcher:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+    catcher:SetScript("OnClick", function() hideMenu() end)
+    catcher:Hide()
+    menu.catcher = catcher
+
+    menu:SetScript("OnHide", function()
+        if this.catcher then this.catcher:Hide() end
+    end)
+    return menu
+end
+
+local function menuRow(i)
+    local m = buildMenu()
+    if m.rows[i] then return m.rows[i] end
+    local row = CreateFrame("Button", "LLGContextRow" .. i, m)
+    row:SetHeight(MENU_ROW_H)
+
+    local hl = row:CreateTexture(nil, "BACKGROUND")
+    hl:SetTexture(0.30, 0.45, 0.65, 0.35)
+    hl:SetAllPoints(row)
+    hl:Hide()
+    row.highlight = hl
+
+    local fs = row:CreateFontString(nil, "OVERLAY")
+    fs:SetFont(W.Font(), 11)
+    fs:SetPoint("LEFT", row, "LEFT", 6, 0)
+    fs:SetJustifyH("LEFT")
+    row.label = fs
+
+    row:SetScript("OnEnter", function() this.highlight:Show() end)
+    row:SetScript("OnLeave", function() this.highlight:Hide() end)
+    row:SetScript("OnClick", function()
+        local fn = this.action
+        hideMenu()
+        if fn then fn() end
+    end)
+    m.rows[i] = row
+    return row
+end
+
+-- entries: { { text = "...", action = function() end, disabled = true }, ... }
+-- Ein Eintrag ohne action ist eine Ueberschrift.
+function W.ShowMenu(entries)
+    local m = buildMenu()
+    local n = LLG.getn(entries or {})
+    if n == 0 then return end
+
+    -- Breite nach dem laengsten Eintrag. Die Zeichenbreite laesst sich in
+    -- 1.12 nur ueber eine gesetzte FontString erfragen, also einmal
+    -- durchlaufen und messen.
+    local width = 80
+    for i = 1, n do
+        local row = menuRow(i)
+        row.label:SetText(entries[i].text or "")
+        local w = row.label:GetStringWidth()
+        if LLG.isNum(w) and w + 18 > width then width = w + 18 end
+    end
+    if width > 280 then width = 280 end
+
+    local y = MENU_PAD
+    for i = 1, n do
+        local e = entries[i]
+        local row = menuRow(i)
+        row:SetWidth(width - MENU_PAD * 2)
+        row:ClearAllPoints()
+        row:SetPoint("TOPLEFT", m, "TOPLEFT", MENU_PAD, -y)
+        row.action = (not e.disabled) and e.action or nil
+        if e.action == nil then
+            row.label:SetTextColor(0.72, 0.62, 0.35)
+        elseif e.disabled then
+            row.label:SetTextColor(0.45, 0.45, 0.48)
+        else
+            row.label:SetTextColor(0.88, 0.88, 0.92)
+        end
+        row:Show()
+        y = y + MENU_ROW_H
+    end
+    for i = n + 1, LLG.getn(m.rows) do m.rows[i]:Hide() end
+
+    m:SetWidth(width)
+    m:SetHeight(y + MENU_PAD)
+    m:ClearAllPoints()
+
+    -- An den Mauszeiger. Nahe am rechten oder unteren Rand kippt es auf die
+    -- andere Seite, damit es nicht aus dem Bild laeuft.
+    local x, cy = 0, 0
+    if GetCursorPosition then x, cy = GetCursorPosition() end
+    local scale = UIParent:GetEffectiveScale() or 1
+    if scale == 0 then scale = 1 end
+    x, cy = x / scale, cy / scale
+    local sw = UIParent:GetWidth() or 1024
+    local sh = UIParent:GetHeight() or 768
+    local anchor = "TOPLEFT"
+    if x + width > sw then anchor = "TOPRIGHT" end
+    if cy - m:GetHeight() < 0 then
+        anchor = (anchor == "TOPLEFT") and "BOTTOMLEFT" or "BOTTOMRIGHT"
+    end
+    m:SetPoint(anchor, UIParent, "BOTTOMLEFT", x, cy)
+    m.catcher:Show()
+    m:Show()
+end

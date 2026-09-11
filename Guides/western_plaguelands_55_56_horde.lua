@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Collect these items from the bank.
 .goto Undercity,65.97,44.75
 .complete 3568 >>Collect Filled Vial Labeled #1
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 .complete 6030 >>Collect Studies in Spirit Speaking
 
 #step
-.talk Harbinger Balthazad
+.talk Harbinger Balthazad##10879
 >>He walks around this area in the middle of Undercity.
 >>He's wearing holding a lantern, wearing a white shirt.
 >>He can also be in the ring hallway surrounding the center of Undercity.
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .only not haveq(5095)
 
 #step
-.talk Andron Gant
+.talk Andron Gant##6522
 >>en:Standing behind a stone slab desk, standing under a canopy.
 >>de:Steht hinter einem Schreibtisch aus Steinplatten, unter einem Baldachin.
 .goto Undercity,54.82,76.35
@@ -55,7 +55,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.92,77.65
 >>Follow the path down
-.talk Chemist Cuely
+.talk Chemist Cuely##8390
 >>en:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 >>de:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 .goto Undercity,48.71,71.40
@@ -63,28 +63,28 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Chemist Cuely
+.talk Chemist Cuely##8390
 >>en:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 >>de:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 .goto Undercity,48.71,71.40
 .accept Seeping Corruption##3569
 
 #step
-.talk Thersa Windsong
+.talk Thersa Windsong##8393
 >>en:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 >>de:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 .goto Undercity,49.03,70.82
 .turnin Seeping Corruption##3569
 
 #step
-.talk Chemist Cuely
+.talk Chemist Cuely##8390
 >>en:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 >>de:In the underground room, standing next to a table with a bunch of chemistry supplies on it.
 .goto Undercity,48.71,71.40
 .accept Seeping Corruption##3570
 
 #step
-.talk Hannah Akeley
+.talk Hannah Akeley##4575
 >>If you can afford it.
 >>Stock up on a few Runes of Teleportation to use to travel faster while leveling.
 .goto Undercity,82.78,15.83
@@ -92,17 +92,17 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Deposit these items into the bank.
 .goto Undercity,65.97,44.75
 
 #step
-.talk Mickey Levine
+.talk Mickey Levine##11615
 .goto Tirisfal Glades,83.29,72.33
 .accept A Plague Upon Thee##5901
 
 #step
-.talk High Executor Derrington
+.talk High Executor Derrington##10837
 >>en:Standing in the small camp, in front of a tent, next to a campfire.
 >>de:Standing in the small camp, in front of a tent, next to a campfire.
 .goto Tirisfal Glades,83.13,68.93
@@ -114,12 +114,12 @@ LLG.RegisterGuide([[
 .only haveq(5095)
 
 #step
-.click Box of Incendiaries
+.click Box of Incendiaries##176092
 .goto Tirisfal Glades,83.17,69.09
 .complete 5096 >>Collect Flame in a Bottle
 
 #step
-.talk Argent Officer Garush
+.talk Argent Officer Garush##10839
 >>en:Standing in front of a tent.
 >>de:Standing in front of a tent.
 .goto Tirisfal Glades,83.19,68.45
@@ -135,7 +135,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,38.04,54.61
 >>Enter the building
-.talk Janice Felstone
+.talk Janice Felstone##10778
 >>en:Standing upstairs in the house.
 >>de:Standing upstairs in the house.
 >>Upstairs inside the building.
@@ -157,7 +157,7 @@ LLG.RegisterGuide([[
 
 #step
 .click Command Tent
-.click the Scourge Banner
+.click the Scourge Banner##12807
 .goto Western Plaguelands,40.68,51.98
 >>These mobs can VERY easily chain pull. Be methodical about how you pull mobs out of the camp here and be ready to run if you get too many.
 >>The mages can do very high damage from far away, never pull more than two of them at once.
@@ -166,7 +166,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Unfortunately this is an important chain and you cannot do other quests in the zone if you don't do it.
 
 #step
-.talk High Executor Derrington
+.talk High Executor Derrington##10837
 >>en:Standing in the small camp, in front of a tent, next to a campfire.
 >>de:Standing in the small camp, in front of a tent, next to a campfire.
 .goto Tirisfal Glades,83.13,68.93
@@ -181,7 +181,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Shadow Priestess Vandis
+.talk Shadow Priestess Vandis##11055
 >>en:Standing in front of a camp, next to a campfire.
 >>de:Standing in front of a camp, next to a campfire.
 .goto Tirisfal Glades,83.03,71.91
@@ -190,20 +190,20 @@ LLG.RegisterGuide([[
 .accept Target: Felstone Field##5229
 
 #step
-.kill 1 Cauldron Lord Bilemaw
+.kill 1 Cauldron Lord Bilemaw##11075
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Western Plaguelands,37.03,57.11
 .complete 5229,1 >>Collect Felstone Field Cauldron Key
 
 #step
-.click Scourge Cauldron
+.click Scourge Cauldron##176361
 .goto Western Plaguelands,37.19,56.87
 .turnin Target: Felstone Field##5229
 .goto Western Plaguelands,37.19,56.87
 .accept Return to the Bulwark##5230
 
 #step
-.talk Shadow Priestess Vandis
+.talk Shadow Priestess Vandis##11055
 >>en:Standing in front of a camp, next to a campfire.
 >>de:Standing in front of a camp, next to a campfire.
 .goto Tirisfal Glades,83.04,71.91
@@ -212,13 +212,13 @@ LLG.RegisterGuide([[
 .accept Target: Dalson's Tears##5231
 
 #step
-.kill 1 Cauldron Lord Malvinious
+.kill 1 Cauldron Lord Malvinious##11077
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Western Plaguelands,46.18,52.38
 .complete 5231,1 >>Collect Dalson's Tears Cauldron Key
 
 #step
-.click Scourge Cauldron
+.click Scourge Cauldron##177289
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Western Plaguelands,46.18,52.02
 .turnin Target: Dalson's Tears##5231
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 .accept Mrs. Dalson's Diary##5058
 
 #step
-.kill 1 Wandering Skeleton
+.kill 1 Wandering Skeleton##10816
 >>It looks like a white skeleton that spawns here and walks around this area around the buildings nearby.
 >>You can wait here until it walks by here, or respawns, or you can search around the buildings.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -243,9 +243,9 @@ LLG.RegisterGuide([[
 .collect Dalson Outhouse Key,1
 
 #step
-.click Outhouse
+.click Outhouse##175925
 >>Accept the "Locked Away" quest.
-.kill 1 Farmer Dalson
+.kill 1 Farmer Dalson##10836
 .goto Western Plaguelands,48.11,49.71
 .collect Dalson Cabinet Key,1
 
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -276,7 +276,7 @@ LLG.RegisterGuide([[
 .accept A Matter of Time##4971
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -286,7 +286,7 @@ LLG.RegisterGuide([[
 .complete 5098,1 >>Mark Tower One
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -296,7 +296,7 @@ LLG.RegisterGuide([[
 .complete 5098,4 >>Mark Tower Four
 
 #step
-.click the Temporal Displacer
+.click the Temporal Displacer##12627
 >>Use it near the silos with blue light shining out of them around this area.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Try to pick silos near bodies of water.
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 >>[45.02,62.68]
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -321,7 +321,7 @@ LLG.RegisterGuide([[
 .complete 5098,3 >>Mark Tower Three
 
 #step
-.click the Beacon Torch
+.click the Beacon Torch##12815
 >>Use it in front of the tower entrance.
 >>Be careful, there is an elite enemy inside the tower.
 >>Avoid the doorway, making sure the elite inside can't see you.
@@ -333,7 +333,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -344,7 +344,7 @@ LLG.RegisterGuide([[
 .accept Counting Out Time##4972
 
 #step
-.click Small Lockbox
+.click Small Lockbox##175802
 >>They look like small grey metal chests on the ground inside the crumbled buildings around this area.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Western Plaguelands,38.29,69.63
@@ -358,7 +358,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -367,7 +367,7 @@ LLG.RegisterGuide([[
 .turnin Counting Out Time##4972
 
 #step
-.talk High Executor Derrington
+.talk High Executor Derrington##10837
 >>en:Standing in the small camp, in front of a tent, next to a campfire.
 >>de:Standing in the small camp, in front of a tent, next to a campfire.
 .goto Tirisfal Glades,83.13,68.93
@@ -380,7 +380,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Apothecary Dithers
+.talk Apothecary Dithers##11057
 >>en:Standing next to a cauldron and a blue flag.
 >>de:Standing next to a cauldron and a blü flag.
 .goto Tirisfal Glades,83.28,69.23
@@ -389,7 +389,7 @@ LLG.RegisterGuide([[
 .accept Skeletal Fragments##964
 
 #step
-.talk Shadow Priestess Vandis
+.talk Shadow Priestess Vandis##11055
 >>en:Standing in front of a camp, next to a campfire.
 >>de:Standing in front of a camp, next to a campfire.
 .goto Tirisfal Glades,83.04,71.91
@@ -404,13 +404,13 @@ LLG.RegisterGuide([[
 .complete 964,1 >>Collect 15 Skeletal Fragments
 
 #step
-.kill 1 Cauldron Lord Razarch
+.kill 1 Cauldron Lord Razarch##11076
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Western Plaguelands,53.02,66.06
 .complete 5233,1 >>Collect Writhing Haunt Cauldron Key
 
 #step
-.click Scourge Cauldron
+.click Scourge Cauldron##175925
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Western Plaguelands,53.02,65.72
 .turnin Target: Writhing Haunt##5233
@@ -420,7 +420,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,53.60,64.79
 >>Enter the building
-.talk Mulgris Deepriver
+.talk Mulgris Deepriver##10739
 >>en:Laying facedown in the small house.
 >>de:Laying facedown in the small house.
 >>Inside the building.
@@ -431,7 +431,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,50.41,29.78
 >>Follow the path
-.talk Kirsta Deepshadow
+.talk Kirsta Deepshadow##11610
 >>en:Down the path, deep in the mountains, kneeling by a cart.
 >>de:Down the path, deep in the mountains, kneeling by a cart.
 .goto Western Plaguelands,51.92,28.06
@@ -465,7 +465,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,50.41,29.78
 >>Follow the path
-.talk Kirsta Deepshadow
+.talk Kirsta Deepshadow##11610
 >>en:Down the path, deep in the mountains, kneeling by a cart.
 >>de:Down the path, deep in the mountains, kneeling by a cart.
 .goto Western Plaguelands,51.92,28.06
@@ -491,7 +491,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Watch for patrols and respawns while in the area.
 
 #step
-.talk Kirsta Deepshadow
+.talk Kirsta Deepshadow##11610
 >>en:Down the path, deep in the mountains, kneeling by a cart.
 >>de:Down the path, deep in the mountains, kneeling by a cart.
 .goto Western Plaguelands,51.92,28.06
@@ -509,7 +509,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,53.60,64.79
 >>Enter the building
-.talk Mulgris Deepriver
+.talk Mulgris Deepriver##10739
 >>en:Laying facedown in the small house.
 >>de:Laying facedown in the small house.
 >>Inside the building.

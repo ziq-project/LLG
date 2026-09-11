@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,48.19,79.68
 >>Enter the building
-.talk Trak'gen
+.talk Trak'gen##3313
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 6-8 extra stacks.
 >>You'll be questing for a while, without easy access to an ammo vendor.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -36,11 +36,11 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Grezz Ragefist
-.talk Kardris Dreamseeker
-.talk Mirket
-.talk Enyo
-.talk Ur'kyo
+.talk Grezz Ragefist##3353
+.talk Kardris Dreamseeker##3344
+.talk Mirket##3325
+.talk Enyo##5883
+.talk Ur'kyo##6018
 .goto Orgrimmar,79.76,31.42
 .train
 .goto Orgrimmar,38.81,36.47
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,53.68,64.58
 >>Enter the building
-.talk Auctioneer Thathung
+.talk Auctioneer Thathung##8673
 >>Buy these items from the auction house. They are usually very cheap and this gives a lot of exp.
 >>Try to make sure all of the pages are available before buying any.
 >>If you cannot get every page, skip this step.
@@ -88,28 +88,28 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.click Shredder Operating Manual - Page 1
+.click Shredder Operating Manual - Page 1##16645
 >>This will combine all 4 pages into a chapter.
 .goto Orgrimmar,54.64,67.73
 .collect Shredder Operating Manual - Chapter 1,1
-.only not selfmade
+.only not selfmade and itemcount (16645) > 0
 
 #step
-.click Shredder Operating Manual - Page 5
+.click Shredder Operating Manual - Page 5##16649
 >>This will combine all 4 pages into a chapter.
 .goto Orgrimmar,54.64,67.73
 .collect Shredder Operating Manual - Chapter 2,1
-.only not selfmade
+.only not selfmade and itemcount (16649) > 0
 
 #step
-.click Shredder Operating Manual - Page 9
+.click Shredder Operating Manual - Page 9##16653
 >>This will combine all 4 pages into the final chapter.
 .goto Orgrimmar,54.64,67.73
 .collect Shredder Operating Manual - Chapter 3,1
-.only not selfmade
+.only not selfmade and itemcount (16653) > 0
 
 #step
-.talk Barkeep Morag
+.talk Barkeep Morag##5611
 >>Stock up on a lot of food and water, there is no vendor in Ashenvale.
 .goto Orgrimmar,54.64,67.73
 .kill 1 Food and Water
@@ -135,7 +135,7 @@ LLG.RegisterGuide([[
 .only walking and not zone("Ashenvale")
 
 #step
-.talk Qeeju
+.talk Qeeju##15131
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Claw 4".
 .goto Ashenvale,73.38,61.03
@@ -154,7 +154,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Qeeju
+.talk Qeeju##15131
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Claw 4" to your permanent pet.
 .goto Ashenvale,73.38,61.03
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Senani Thunderheart
+.talk Senani Thunderheart##12696
 >>de:Standing in front of the inn.
 .goto Ashenvale,73.78,61.46
 .turnin The Ashenvale Hunt##6382
@@ -170,26 +170,26 @@ LLG.RegisterGuide([[
 .accept The Ashenvale Hunt##6383
 
 #step
-.talk Pixel
+.talk Pixel##12724
 >>de:Standing on a box next to a huge tree stump.
 .goto Ashenvale,73.06,61.48
 .accept Satyr Horns##6441
 
 #step
-.talk Mastok Wrilehiss
+.talk Mastok Wrilehiss##12737
 >>de:Standing next to some barrells.
 .goto Ashenvale,73.67,60.01
 .accept Stonetalon Standstill##25
 
 #step
-.talk Vhulgra
+.talk Vhulgra##12616
 >>en:Standing next to a tall red flag.
 >>de:Steht neben einer hohen roten Flagge.
 .goto Ashenvale,73.18,61.59
 .fly Splintertree Post
 
 #step
-.talk Kuray'bin
+.talk Kuray'bin##12867
 >>de:Standing at the base of the watch tower.
 .goto Ashenvale,71.10,68.12
 .accept Ashenvale Outrunners##6503
@@ -206,7 +206,7 @@ LLG.RegisterGuide([[
 >>[76.89,71.90]
 
 #step
-.talk Torek
+.talk Torek##12858
 >>en:Off to the side of the road a good ways, standing next to 3 kneeling Splintertree Raiders.
 >>de:Ein gutes Stück abseits der Straße, steht neben 3 knienden Splitterholzräubern.
 >>This is an escort quest.
@@ -228,18 +228,19 @@ LLG.RegisterGuide([[
 >>Let the group of orcs attack the 4 enemies that enter the building first so they get aggro, then go help.
 >>After you help Torek, kill the other enemies.
 >>Torek must survive.
-.kill 1 Duriel Moonfire
+.kill 1 Duriel Moonfire##12860
 .goto Ashenvale,64.66,75.34
 .complete 6544,1 >>Take Silverwing Outpost
 >>If you have trouble, try to find someone to help you, or skip the quest.
 
 #step
-.talk Gurda Ragescar
+.talk Gurda Ragescar##12718
 .goto Ashenvale,70.00,71.15
 .accept The Lost Pages##6504
+.only (itemcount(16645) > 0) and (itemcount(16649) > 0) and (itemcount(16653) > 0)
 
 #step
-.talk Gurda Ragescar
+.talk Gurda Ragescar##12718
 .goto Ashenvale,70.00,71.15
 .turnin The Lost Pages##6504
 .only haveq(6504)
@@ -249,7 +250,7 @@ LLG.RegisterGuide([[
 >>Follow the road to this path
 .goto Ashenvale,73.51,63.54
 >>Follow the path
-.talk Ertog Ragetusk
+.talk Ertog Ragetusk##12877
 >>en:Standing at the base of a watch tower.
 >>de:Standing at the base of a watch tower.
 .goto Ashenvale,73.03,62.47
@@ -257,7 +258,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Kuray'bin
+.talk Kuray'bin##12867
 >>de:Standing at the base of the watch tower.
 .goto Ashenvale,71.11,68.12
 .turnin Ashenvale Outrunners##6503
@@ -280,22 +281,23 @@ LLG.RegisterGuide([[
 >>Run here and prepare to jump down. You do not want to get stuck behind the trees or you will have to unstuck.
 .goto Ashenvale,64.91,51.41
 >>Jump towards the arrow to avoid the trees.
-.kill 1 Laughing Sister
+.kill 1 Laughing Sister##4054
 .goto Ashenvale,58.64,55.75
 .complete 1195 >>Collect Etched Phial
 >>You can find more around [60.63,52.19]
 .only walking and subzone("Night and Run")
 
 #step
-.kill 1 Shadumbra
+.kill 1 Shadumbra##12677
 >>It looks like a black panther that walks in a large pattern around this area.
 .collect Shadumbra's Head,1
 .only completedq(6383)
 
 #step
-.click Shadumbra's Head
+.click Shadumbra's Head##16304
 .goto Ashenvale,44.27,56.27
 .accept Shadumbra's Head##24
+.only itemcount(16304) > 0
 
 #step
 .goto Ashenvale,44.27,56.27
@@ -306,14 +308,14 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Ashenvale,38.41,30.57
 >>Enter the cave
-.click Troll Chest
+.click Troll Chest##178144
 >>They look like small brown wooden boxes on the ground all throughout the cave, but mainly on the top floor.
 .goto Ashenvale,39.94,32.08
 .complete 6462,1 >>Collect 8 Troll Charm
 .only walking
 
 #step
-.talk Ruul Snowhoof
+.talk Ruul Snowhoof##12818
 >>Inside the cave, on the bottom floor.
 >>This is an escort quest.
 >>If he's not here, someone may be escorting him.
@@ -351,21 +353,21 @@ LLG.RegisterGuide([[
 .only completedq(6383) and (not haveq(23) or not completedq(23))
 
 #step
-.kill 1 Ursangous
+.kill 1 Ursangous##12678
 >>He looks like a grey night elf druid bear that walks around this area.
 .collect Ursangous's Paw,1
 .only completedq(6383)
 
 #step
-.click Ursangous's Paw
+.click Ursangous's Paw##16303
 .goto Ashenvale,33.55,67.44
 .accept Ursangous's Paw##23
 .goto Ashenvale,48.92,69.57
 .accept Ursangous's Paw##23
-.only not Shaman
+.only itemcount(16303) > 0
 
 #step
-.click the Empty Blue Waterskin
+.click the Empty Blue Waterskin##7767
 .goto Ashenvale,33.55,67.44
 .complete 1534,1 >>Collect Filled Blue Waterskin
 .only Shaman
@@ -381,14 +383,14 @@ LLG.RegisterGuide([[
 .complete 25,2 >>Scout the Gazebo on Mystral Lake that Overlooks the Nearby Alliance Outpost
 
 #step
-.kill 1 Tideress
+.kill 1 Tideress##12759
 >>It looks like a darker green colored water elemental that moves around this area.
 >>It moves in the water of the whole lake, and on this small island, so you may need to search around for it.
 .goto Ashenvale,48.11,69.78
 .collect Befouled Water Globe,1
 
 #step
-.click the Befouled Water Globe
+.click the Befouled Water Globe##16408
 .goto Ashenvale,48.11,69.78
 .accept The Befouled Element##1918
 
@@ -398,14 +400,14 @@ LLG.RegisterGuide([[
 >>You can find more in the water around this area.
 
 #step
-.click the Etched Phial
+.click the Etched Phial##5867
 .goto Ashenvale,60.20,72.90
 .complete 1195,1 >>Collect Filled Etched Phial
 
 #step
 .goto Ashenvale,59.51,68.25
 >>Follow the path up and follow the road back to Splintertree Post
-.talk Senani Thunderheart
+.talk Senani Thunderheart##12696
 >>de:Standing in front of the inn.
 .goto Ashenvale,73.78,61.46
 .turnin Ursangous's Paw##23
@@ -416,13 +418,13 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,73.71,60.94
 >>Enter the building
-.talk Yama Snowhoof
+.talk Yama Snowhoof##12837
 >>Inside the building.
 .goto Ashenvale,74.11,60.92
 .turnin Freedom to Ruul##6482
 
 #step
-.talk Mastok Wrilehiss
+.talk Mastok Wrilehiss##12737
 >>de:Standing next to some barrells.
 .goto Ashenvale,73.67,60.00
 .turnin Stonetalon Standstill##25
@@ -432,26 +434,26 @@ LLG.RegisterGuide([[
 .accept Je'neu of the Earthen Ring##824
 
 #step
-.talk Pixel
+.talk Pixel##12724
 >>de:Standing on a box next to a huge tree stump.
 .goto Ashenvale,73.06,61.48
 .turnin Satyr Horns##6441
 
 #step
-.talk Karang Amakkar
+.talk Karang Amakkar##12757
 >>de:Standing in the middle of the small camp, next to a cauldron.
 .goto Ashenvale,11.90,34.54
 .turnin Between a Rock and a Thistlefur##216
 
 #step
-.talk Mitsuwa
+.talk Mitsuwa##12721
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.65,34.85
 .turnin Troll Charm##6462
 
 #step
-.talk Je'neu Sancrea
+.talk Je'neu Sancrea##12736
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.56,34.29
@@ -465,12 +467,12 @@ LLG.RegisterGuide([[
 >>Do not follow the Blackfathom Deep quest turnin guide.
 
 #step
-.click the Strange Water Globe
+.click the Strange Water Globe##16782
 .goto Ashenvale,11.57,34.28
 .accept Baron Aquanis##6922
 
 #step
-.talk Je'neu Sancrea
+.talk Je'neu Sancrea##12736
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.57,34.28
@@ -484,7 +486,7 @@ LLG.RegisterGuide([[
 .only haveq(6922)
 
 #step
-.talk Bashana Runetotem
+.talk Bashana Runetotem##9087
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -492,19 +494,19 @@ LLG.RegisterGuide([[
 .turnin Blackfathom Villainy##6561
 
 #step
-.talk Kuna Thunderhorn
-.kill 1 Sturdy Recurve
+.talk Kuna Thunderhorn##3015
+.kill 1 Sturdy Recurve##11306
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Thunder Bluff,47.00,45.70
 >>Visit the Vendor
-.only Hunter
+.only Hunter and (itemcount(11306) == 0)
 
 #step
 .goto Thunder Bluff,29.87,29.84
 >>Enter the cave
-.talk Apothecary Zamah
+.talk Apothecary Zamah##3419
 >>en:Inside the cave beneath the hanging bridge.
 >>de:Inside the cave beneath the hanging bridge.
 >>Inside the cave.
@@ -514,7 +516,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.87,29.84
 >>Leave the cave
-.talk Zangen Stonehoof
+.talk Zangen Stonehoof##4721
 >>en:Standing in the middle of the courtyard.
 >>de:Standing in the middle of the courtyard.
 .goto Thunder Bluff,54.97,51.41
@@ -524,14 +526,14 @@ LLG.RegisterGuide([[
 .only subzone("The and Pools and of and Vision")
 
 #step
-.talk Melor Stonehoof
+.talk Melor Stonehoof##3441
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Thunder Bluff,61.54,80.92
 .accept Steelsnap##1131
 
 #step
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 .goto Thunder Bluff,45.81,64.71
 .hs

@@ -17,13 +17,13 @@ LLG.RegisterGuide([[
 #step
 .collect Embossed Leather Boots,3
 >>only not selfmade :: Create them with Leatherworking or purchase them from the Auction House.
-.talk Chronos
+.talk Chronos##14833
 .goto Mulgore,36.15,35.18
-.accept Carnival Boots##7881
+.accept Carnival Boots##7881 |or
 >>Each turnin requires 3 Embossed Leather Boots and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 1 Darkmoon Faire Prize Ticket.
 >>You can turn this quest in until you reach 500 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 500 |or
 
 #step
 >>Reach Level 10
@@ -32,13 +32,13 @@ LLG.RegisterGuide([[
 #step
 .collect Toughened Leather Armor,3
 >>only not selfmade :: Create them with Leatherworking or purchase them from the Auction House.
-.talk Chronos
+.talk Chronos##14833
 .goto Mulgore,36.15,35.18
-.accept Carnival Jerkins##7882
+.accept Carnival Jerkins##7882 |or
 >>Each turnin requires 3 Toughened Leather Armors and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 4 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 1,100 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 1100 |or
 
 #step
 >>Reach Level 20
@@ -47,13 +47,13 @@ LLG.RegisterGuide([[
 #step
 .collect Barbaric Harness,3
 >>only not selfmade :: Create them with Leatherworking or purchase them from the Auction House.
-.talk Chronos
+.talk Chronos##14833
 .goto Mulgore,36.15,35.18
-.accept The World's Largest Gnome!##7883
+.accept The World's Largest Gnome!##7883 |or
 >>Each turnin requires 3 Barbaric Harnesses and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 8 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 1,700 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 1700 |or
 
 #step
 >>Reach Level 30
@@ -62,13 +62,13 @@ LLG.RegisterGuide([[
 #step
 .collect Turtle Scale Leggings,1
 >>only not selfmade :: Create them with Leatherworking or purchase them from the Auction House.
-.talk Chronos
+.talk Chronos##14833
 .goto Mulgore,36.15,35.18
-.accept Crocolisk Boy and the Bearded Murloc##7884
+.accept Crocolisk Boy and the Bearded Murloc##7884 |or
 >>Each turnin requires 1 Turtle Scale Leggings and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 12 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 2,500 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 2500 |or
 
 #step
 >>Reach Level 40
@@ -79,16 +79,16 @@ LLG.RegisterGuide([[
 >>only not selfmade :: Create them with Leatherworking or purchase them from the Auction House.
 
 #step
-.talk Chronos
+.talk Chronos##14833
 .goto Mulgore,36.15,35.18
 .accept Armor Kits##7885
 
 #step
 .collect Rugged Armor Kit,8
 >>only not selfmade :: Create them with Leatherworking or purchase them from the Auction House.
-.talk Chronos
+.talk Chronos##14833
 .goto Mulgore,36.15,35.18
-.accept More Armor Kits##7941
+.accept More Armor Kits##7941 |or
 >>From this point on, you can continue turning in Rugged Armor Kits.
 >>Each of these turnins will award 20 Darkmoon Faire Prize Tickets.
 >>Each turnin requires 8 Rugged Armor Kits and grants 100 reputation with the Darkmoon Faire.

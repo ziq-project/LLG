@@ -25,28 +25,28 @@ LLG.RegisterGuide([[
 .only not completedq(7792) and not completedq(7798) and not completedq(7799) and not completedq(7800)
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 >>Inside the building.
 .goto Darnassus,64.02,23.00
 .accept A Donation of Wool##7792
 .only not completedq(7792)
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 >>Inside the building.
 .goto Darnassus,64.02,23.00
 .accept A Donation of Silk##7798
 .only not completedq(7798)
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 >>Inside the building.
 .goto Darnassus,64.02,23.00
 .accept A Donation of Mageweave##7799
 .only not completedq(7799)
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 >>Inside the building.
 .goto Darnassus,64.02,23.00
 .accept A Donation of Runecloth##7800
@@ -56,11 +56,12 @@ LLG.RegisterGuide([[
 >>Farm or Buy Cloth
 >>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
 >>Collect Runecloth for Darnassus (Exalted)
+.only rep("Darnassus") < Exalted
 
 #step
-.talk Raedon Duskstriker
+.talk Raedon Duskstriker##14725
 >>Inside the building.
 >>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
 .goto Darnassus,64.02,23.00
->>Reach Exalted Reputation with the Darnassus Faction
+.condition rep("Darnassus") == Exalted >>Reach Exalted Reputation with the Darnassus Faction
 ]])

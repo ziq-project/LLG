@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15921
 >>Use it on a Webwood Lurker around this area.
 .goto Teldrassil,59.81,59.06
 .complete 6063,1 >>Tame a Webwood Lurker
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -45,7 +45,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15922
 >>Use it on a Nightsaber Stalker around this area.
 .goto Teldrassil,55.95,71.98
 .complete 6101,1 >>Tame a Nightsaber Stalker
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,54.81,58.48
 >>Follow the road
-.click the Taming Rod
+.click the Taming Rod##15923
 >>Use it on a Strigid Screecher around this area.
 .goto Teldrassil,43.99,51.16
 .complete 6102,1 >>Tame a Strigid Screecher
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 #step
 .goto Teldrassil,45.10,49.62
 >>Follow the road
-.talk Dazalar
+.talk Dazalar##3601
 >>en:Standing on the side of the inn, next to a huge tree.
 >>de:Steht seitlich am Gasthaus, neben einem riesigen Baum.
 .goto Teldrassil,56.68,59.49
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 >>Enter Darnassus
 .goto Darnassus,45.70,17.69
 >>Run up the ramp
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
 >>Inside the building.
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 .only NightElf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.03
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15911
 >>Use it on a Large Crag Boar around this area.
 .goto Dun Morogh,48.26,56.81
 .complete 6064,1 >>Tame a Large Crag Boar
@@ -117,7 +117,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.04
@@ -127,7 +127,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15913
 >>Use it on a Snow Leopard around this area.
 .goto Dun Morogh,48.68,58.93
 .complete 6084,1 >>Tame a Snow Leopard
@@ -136,7 +136,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.04
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.click the Taming Rod
+.click the Taming Rod##15908
 >>Use it on an Ice Claw Bear around this area.
 .goto Dun Morogh,49.06,62.12
 .complete 6085,1 >>Tame an Ice Claw Bear
@@ -154,7 +154,7 @@ LLG.RegisterGuide([[
 .only Dwarf and Hunter
 
 #step
-.talk Grif Wildheart
+.talk Grif Wildheart##1231
 >>en:Standing on top of a hill. He is the Hunter Class Trainer.
 >>de:Steht oben auf einem Hügel. Er ist der Jäger-Klassentrainer.
 .goto Dun Morogh,45.81,53.04
@@ -166,7 +166,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,66.34,82.50
 >>Enter the building
-.talk Belia Thundergranite
+.talk Belia Thundergranite##10090
 >>en:Standing next to a cannon. She is the Pet Trainer.
 >>de:Standing next to a cannon. She is the Pet Trainer.
 >>Inside the building.
@@ -183,7 +183,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Dorion
+.talk Dorion##4205
 >>Upstairs inside the building.
 .goto Darnassus,42.21,7.26
 .accept The Hunter's Charm##8151
@@ -192,7 +192,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,42.09,42.45
 >>Follow the path up
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.62
 .turnin The Hunter's Charm##8151
 .goto Azshara,42.40,42.62
@@ -200,7 +200,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.kill 1 Mosshoof Courser
+.kill 1 Mosshoof Courser##8761
 >>They are scattered all over the area.
 >>only hardcore :: These have a low drop rate.
 .goto Azshara,49.47,17.62
@@ -210,7 +210,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,42.09,42.45
 >>Follow the path up
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.62
 .turnin Courser Antlers##8153
 .goto Azshara,42.40,42.62
@@ -243,7 +243,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,42.09,42.45
 >>Follow the path up
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.62
 .turnin Wavethrashing##8231
 .goto Azshara,42.40,42.62
@@ -283,14 +283,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar:
-.kill 1 Morphaz
+.kill 1 Morphaz##5719
 .complete 8232,1 >>Collect Tooth of Morphaz
 .only Hunter
 
 #step
 .goto Azshara,42.09,42.45
 >>Follow the path up
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.62
 .turnin The Green Drake##8232
 .only Hunter
@@ -307,14 +307,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Molten Core Raid:
-.kill 1 Majordomo Executus
+.kill 1 Majordomo Executus##12018
 .collect Ancient Petrified Leaf,1
-.click the Ancient Petrified Leaf
+.click the Ancient Petrified Leaf##18703
 .accept The Ancient Leaf##7632
 .only Hunter
 
 #step
-.talk Vartus the Ancient
+.talk Vartus the Ancient##14524
 >>Kill enemies around the area for him to appear.
 .goto Felwood,48.99,24.44
 .turnin The Ancient Leaf##7632
@@ -325,7 +325,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Stoma the Ancient
+.talk Stoma the Ancient##14525
 >>Kill enemies around the area for him to appear.
 .goto Felwood,48.31,24.43
 .accept A Proper String##7635
@@ -333,36 +333,35 @@ LLG.RegisterGuide([[
 
 #step
 >>Follow the path
-.talk Simone the Inconspicuous
+.talk Simone the Inconspicuous##14527
 >>Use the "Track Demons" ability from the Survival Branch to accomplish this.
 >>She patrols all around Un'Goro Crater.
 >>Select _"Show me your real face, demon."_
-.kill 1 Simone the Inconspicuous
+.kill 1 Simone the Inconspicuous##14527
 >>This must be done alone or it will despawn.
-.complete 7636,1 >>Collect Simone's Head
+.complete 7636,1 |or >>Collect Simone's Head
 .goto Un'Goro Crater,31.58,44.98
->>'
 .only Hunter
 >>[40.66,79.79]
 
 #step
 >>Follow the path
-.talk Franklin the Friendly
+.talk Franklin the Friendly##14529
 >>Use the "Track Demons" ability from the Survival Branch to accomplish this.
 >>He patrols around Burning Steppes.
 >>Select _"Show me your real face, demon."_
-.kill 1 Klinfran the Crazed
+.kill 1 Klinfran the Crazed##14534
 >>This must be done alone or it will despawn.
 .complete 7636,2 >>Collect Klinfran's Head
 .only Hunter
 
 #step
 >>Follow the path
-.talk Nelson the Nice
+.talk Nelson the Nice##14536
 >>Use the "Track Demons" ability from the Survival Branch to accomplish this.
 >>He walks around the area.
 >>Select _"Show me your real face, demon."_
-.kill 1 Solenor the Slayer
+.kill 1 Solenor the Slayer##14530
 >>This must be done alone or it will despawn.
 .goto Silithus,26.00,81.20
 .complete 7636,3 >>Collect Solenor's Head
@@ -370,11 +369,11 @@ LLG.RegisterGuide([[
 
 #step
 >>Follow the path
-.talk Artorius the Amiable
+.talk Artorius the Amiable##14531
 >>Use the "Track Demons" ability from the Survival Branch to accomplish this.
 >>He walks around the area.
 >>Select _"Show me your real face, demon."_
-.kill 1 Artorius the Doombringer
+.kill 1 Artorius the Doombringer##14535
 >>This must be done alone or it will despawn and be on a 3 hour timer.
 .goto Winterspring,58.20,15.60
 .complete 7636,4 >>Collect Artorius's Head
@@ -382,27 +381,27 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Onyxia's Lair Raid:
-.kill 1 Onyxia
+.kill 1 Onyxia##10184
 .complete 7635,1 >>Collect Mature Black Dragon Sinew
 >>This isn't a 100% drop rate.
 .only Hunter
 
 #step
-.talk Vartus the Ancient
+.talk Vartus the Ancient##14524
 >>Kill enemies around the area for him to appear.
 .goto Felwood,48.99,24.44
 .turnin Stave of the Ancients##7636
 .only Hunter
 
 #step
-.talk Stoma the Ancient
+.talk Stoma the Ancient##14525
 >>Kill enemies around the area for him to appear.
 .goto Felwood,48.31,24.43
 .turnin A Proper String##7635
 .only Hunter
 
 #step
-.click the Ancient Rune Etched Stave
+.click the Ancient Rune Etched Stave##18707
 .collect Rhok'delar, Longbow of the Ancient Keepers,1
 .collect Lok'delar, Stave of the Ancient Keepers,1
 .only Hunter

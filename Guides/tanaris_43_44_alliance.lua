@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,66.00,45.20
 >>Enter the building
-.talk Morgan Stern
+.talk Morgan Stern##4794
 >>en:Inside the inn, to the right as you enter.
 >>de:Im Gasthaus, rechts beim Eintreten.
 >>Inside the building.
@@ -43,14 +43,14 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
 .complete 1188 >>Collect Seaforium Booster
 
 #step
-.talk Shreev
+.talk Shreev##4708
 >>en:Standing next to a hut.
 >>de:Standing next to a hut.
 .goto Tanaris,50.96,27.24
@@ -59,27 +59,27 @@ LLG.RegisterGuide([[
 .accept Safety First##1189
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .turnin Tran'rek##2864
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.13
 .turnin News for Fizzle##1137
 
 #step
-.talk Razzeric
+.talk Razzeric##4706
 >>de:Standing next to some green bubbling tanks, next to a green canopy.
 .goto Thousand Needles,80.33,76.09
 .turnin Safety First##1189
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -88,7 +88,7 @@ LLG.RegisterGuide([[
 >>This also requires completing "Martek the Exiled" and "Indurium" from the "Desolace (40-41)" and Badlands (41-42) guides.
 
 #step
-.talk Zamek
+.talk Zamek##4709
 >>de:Standing next to a green canopy.
 >>Click "Complete Quest" to complete "Zamek's Distraction".
 .goto Thousand Needles,79.81,77.02
@@ -97,7 +97,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,77.52,77.60
 >>Enter the building
-.click Rizzle's Unguarded Plans
+.click Rizzle's Unguarded Plans##20805
 >>Inside the building.
 >>Wait for Rizzle Brassbolts to run out of the building.
 .goto Thousand Needles,77.22,77.42
@@ -106,7 +106,7 @@ LLG.RegisterGuide([[
 .accept Rizzle's Schematics##1194
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -118,21 +118,21 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Spigot Operator Luglunket
+.talk Spigot Operator Luglunket##7408
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.48,28.44
 .accept Water Pouch Bounty##1707
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
 .accept Wastewander Justice##1690
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -148,7 +148,7 @@ LLG.RegisterGuide([[
 .complete 1452,1 >>Collect 3 Roc Gizzard
 
 #step
-.click the Untapped Dowsing Widget
+.click the Untapped Dowsing Widget##8584
 >>Avoid the elite enemies nearby this location while traveling here.
 >>Use it in the water.
 >>Once you get the Tapped Dowsing Widget, run away to safety immediately.
@@ -158,7 +158,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -166,7 +166,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.99,22.36
@@ -175,7 +175,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,66.99,23.87
 >>Enter the building
-.talk Stoley
+.talk Stoley##7881
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -211,14 +211,14 @@ LLG.RegisterGuide([[
 .complete 1452,1 >>Collect 3 Roc Gizzard
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
 .turnin Wastewander Justice##1690
 
 #step
-.talk Spigot Operator Luglunket
+.talk Spigot Operator Luglunket##7408
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.48,28.44
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91

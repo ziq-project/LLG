@@ -16,17 +16,17 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Shoni the Shilent
+.talk Shoni the Shilent##6579
 .goto Stormwind City,55.51,12.50
 .accept Gyrodrillmatic Excavationators##2928
 
 #step
-.talk Klockmort Spannerspan
+.talk Klockmort Spannerspan##6169
 .goto Ironforge,67.98,46.13
 .accept Essential Artificials##2924
 
 #step
-.talk Tinkmaster Overspark
+.talk Tinkmaster Overspark##7944
 .goto Ironforge,69.56,50.32
 .turnin Tinkmaster Overspark##2923
 .goto Ironforge,69.56,50.32
@@ -34,36 +34,36 @@ LLG.RegisterGuide([[
 .only haveq(2923)
 
 #step
-.talk Gnoarn
+.talk Gnoarn##6569
 .goto Ironforge,69.18,50.56
 .accept The Day After##2927
 
 #step
-.talk Master Mechanic Castpipe
+.talk Master Mechanic Castpipe##7950
 .goto Ironforge,69.82,48.08
 .accept Data Rescue##2930
 
 #step
-.talk High Tinker Mekkatorque
+.talk High Tinker Mekkatorque##7937
 .goto Ironforge,68.76,48.96
 .accept The Grand Betrayal##2929
 
 #step
 .goto Ironforge,44.78,8.50
 >>Run up the stairs and enter the building
-.talk Hjoldir Stoneblade
+.talk Hjoldir Stoneblade##5170
 >>Downstairs inside the building.
-.kill 1 Flamberge
+.kill 1 Flamberge##2521
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Ironforge,44.99,6.79
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2521) == 0
 
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Ozzie Togglevolt
+.talk Ozzie Togglevolt##1268
 >>Inside the building.
 .goto Dun Morogh,45.88,49.38
 .turnin The Day After##2927
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .collect White Punch Card,1
 
 #step
-.kill 1 Techbot
+.kill 1 Techbot##6231
 >>Weiter nach Gnomeregan
 .complete 2922,1 >>Collect Techbot's Memory Core
 
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Empty Leaden Collection Phial
+.click the Empty Leaden Collection Phial##9283
 >>Use it on Irradiated Invaders or Irradiated Pillagers.
 >>Weiter nach Gnomeregan
 .complete 2926,1 >>Collect Full Leaden Collection Phial
@@ -110,7 +110,7 @@ LLG.RegisterGuide([[
 >>We will turn in Gnogaine later.
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Ozzie Togglevolt
+.talk Ozzie Togglevolt##1268
 >>Inside the building.
 .goto Dun Morogh,45.88,49.38
 .turnin Gnogaine##2926
@@ -138,16 +138,16 @@ LLG.RegisterGuide([[
 .collect Blue Punch Card,1
 
 #step
-.kill 1 Viscous Fallout
+.kill 1 Viscous Fallout##7079
 >>It is the first boss of the dungeon.
 >>It is in the lower level of the Hall of Gears.
 >>Leave The Dormitory and reenter The Hall of Gears and then jump down to the lower level.
-.click the Heavy Leaden Collection Phial
+.click the Heavy Leaden Collection Phial##9364
 >>Use it on a living Irradiated Slime.
 .complete 2962,1 >>Collect High Potency Radioactive Fallout
 
 #step
-.kill 1 Electrocutioner 6000
+.kill 1 Electrocutioner 6000##6235
 >>He is the third boss of the dungeon.
 >>He is in the center of the upper level of the Launch Bay.
 >>Follow the west path from The Hall of Gears to enter the Launch Bay.
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 .complete 2928,1 >>Collect 24 Robo-mechanical Guts
 
 #step
-.click Artificial Extrapolator
+.click Artificial Extrapolator##142344
 >>They look like square upright machines scattered all over the instance.
 .complete 2924,1 >>Collect 12 Essential Artificial
 
@@ -183,11 +183,12 @@ LLG.RegisterGuide([[
 >>Leave the Engineering Labs through the lower level and follow the southwest path up and out, then continue west after the path splits.
 
 #step
-.click Grime-Encrusted Ring
+.click Grime-Encrusted Ring##9326
 .accept Grime-Encrusted Ring##2945
+.only itemcount(9326) > 0
 
 #step
-.click The Sparklematic 5200
+.click The Sparklematic 5200##142487
 >>Head back to the Dormatory.
 >>You may have to click on multiple Sparklematics to get the quest.
 .turnin Grime-Encrusted Ring##2945
@@ -202,7 +203,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Ozzie Togglevolt
+.talk Ozzie Togglevolt##1268
 >>Inside the building.
 .goto Dun Morogh,45.88,49.38
 .turnin Gnogaine##2926
@@ -219,7 +220,7 @@ LLG.RegisterGuide([[
 .only haveq(2947)
 
 #step
-.talk Talvash del Kissel
+.talk Talvash del Kissel##6826
 .goto Ironforge,36.35,3.61
 .turnin Return of the Ring##2947
 .goto Ironforge,36.35,3.61
@@ -229,29 +230,29 @@ LLG.RegisterGuide([[
 .only completedq(2945)
 
 #step
-.talk Klockmort Spannerspan
+.talk Klockmort Spannerspan##6169
 .goto Ironforge,67.98,46.13
 .turnin Essential Artificials##2924
 
 #step
-.talk Tinkmaster Overspark
+.talk Tinkmaster Overspark##7944
 .goto Ironforge,69.56,50.32
 .turnin Save Techbot's Brain!##2922
 
 #step
-.talk Master Mechanic Castpipe
+.talk Master Mechanic Castpipe##7950
 .goto Ironforge,69.82,48.08
 .turnin Data Rescue##2930
 
 #step
-.talk High Tinker Mekkatorque
+.talk High Tinker Mekkatorque##7937
 .goto Ironforge,68.76,48.96
 .turnin The Grand Betrayal##2929
 
 #step
 .goto Ironforge,66.36,82.45
 >>Enter the building
-.talk Pilot Longbeard
+.talk Pilot Longbeard##2092
 >>en:Standing in front of two big yellow bird tanks.
 >>de:Steht vor zwei großen gelben Flugmaschinen.
 >>Inside the building.
@@ -261,7 +262,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,30.43,26.37
 >>Enter the building
-.talk Ginny Longberry
+.talk Ginny Longberry##5151
 >>Inside the building.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -270,14 +271,14 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Shoni the Shilent
+.talk Shoni the Shilent##6579
 .goto Stormwind City,55.51,12.50
 .turnin Gyrodrillmatic Excavationators##2928
 
 #step
 .goto Stormwind City,51.82,13.27
 >>Enter the building
-.talk Grimand Elmore
+.talk Grimand Elmore##1416
 >>en:Inside the shop, to the right, next to the staircase.
 >>de:Im Laden rechts, neben der Treppe.
 >>Inside the building.
@@ -290,7 +291,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.05,34.48
 >>Enter the building
-.talk Archbishop Benedictus
+.talk Archbishop Benedictus##1284
 >>en:Inside the huge church building, next to a candle post.
 >>de:Im großen Kirchengebäude, neben einem Kerzenhalter.
 >>Inside the building.
@@ -298,7 +299,7 @@ LLG.RegisterGuide([[
 .turnin Cleansing the Eye##293
 
 #step
-.talk Thomas
+.talk Thomas##4982
 >>He walks around this area inside the building.
 .goto Stormwind City,40.37,29.40
 .accept The Missing Diplomat##1274
@@ -310,7 +311,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Stormwind City,77.88,21.14
 >>Follow the path
-.talk Bishop DeLavey
+.talk Bishop DeLavey##4960
 >>Inside the building.
 .goto Stormwind City,78.30,25.44
 .turnin The Missing Diplomat##1274
@@ -325,7 +326,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Stormwind City,60.27,68.37
 >>Follow the path
-.talk Jorgen
+.talk Jorgen##4959
 .goto Stormwind City,73.17,78.42
 .turnin The Missing Diplomat##1241
 .goto Stormwind City,73.17,78.42
@@ -335,33 +336,34 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,56.65,57.72
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>This will allow you to equip two-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_SWORD") > 0 >>Train Two-Handed Swords
 .only Hunter
 
 #step
-.talk Marda Weller
-.kill 1 Heavy Quiver
+.talk Marda Weller##1287
+.kill 1 Heavy Quiver##7371
 >>If you can afford it.
 .goto Stormwind City,57.38,56.77
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(7371) == 0
 
 #step
-.talk Marda Weller
-.kill 1 Heavy Crossbow
+.talk Marda Weller##1287
+.kill 1 Heavy Crossbow##15809
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,57.38,56.77
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(15809) == 0
 
 #step
 .goto Stormwind City,59.96,64.19
 >>Enter the building
-.talk Elling Trias
+.talk Elling Trias##482
 >>Upstairs inside the building.
 .goto Stormwind City,59.91,64.17
 .turnin The Missing Diplomat##1242
@@ -371,7 +373,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,55.30,68.13
 >>Enter the building
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Stormwind City,57.66,72.78
@@ -379,7 +381,7 @@ LLG.RegisterGuide([[
 .only haveq(335) or completedq(335)
 
 #step
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Stormwind City,57.66,72.78
@@ -389,14 +391,14 @@ LLG.RegisterGuide([[
 .only haveq(159) or completedq(159)
 
 #step
-.talk Collin Mauren
+.talk Collin Mauren##4078
 >>en:To the left of the path, up on the ledge, next to a light post.
 >>de:Links vom Weg, oben auf dem Vorsprung, neben einer Laterne.
 .goto Stormwind City,43.09,80.39
 .turnin Retrieval for Mauren##1078
 
 #step
-.talk Malissa
+.talk Malissa##3135
 >>Walking around here.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -407,7 +409,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,79.79,47.69
 >>Enter the building
-.talk Viktori Prism'Antras
+.talk Viktori Prism'Antras##276
 >>en:Inside the small house tot he right of the road, up the hill.
 >>de:Im kleinen Haus rechts der Straße, oben auf dem Hügel.
 >>Inside the building.
@@ -415,7 +417,7 @@ LLG.RegisterGuide([[
 .accept Look To The Stars##181
 
 #step
-.talk Calor
+.talk Calor##663
 >>en:On the side of the road, standing next to the well.
 >>de:Am Straßenrand, steht neben dem Brunnen.
 >>He walks around this area in front of the building.
@@ -423,7 +425,7 @@ LLG.RegisterGuide([[
 .accept Worgen in the Woods##173
 
 #step
-.talk Commander Althea Ebonlocke
+.talk Commander Althea Ebonlocke##264
 >>en:Right in front of the steps to the town hall building.
 >>de:Direkt vor den Stufen des Rathauses.
 >>She walks around this area.
@@ -433,7 +435,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.83,46.02
 >>Enter the building
-.talk Innkeeper Trelayne
+.talk Innkeeper Trelayne##6790
 >>Inside the building.
 .goto Duskwood,73.87,44.41
 .hs
@@ -444,7 +446,7 @@ LLG.RegisterGuide([[
 .only subzone("Scarlet and Raven and Tavern")
 
 #step
-.talk Watcher Backus
+.talk Watcher Backus##840
 >>He walks back and forth along this road.
 .turnin The Missing Diplomat##1243
 .accept The Missing Diplomat##1244
@@ -456,7 +458,7 @@ LLG.RegisterGuide([[
 >>You can find more around [64.69,46.79]
 
 #step
-.talk Calor
+.talk Calor##663
 >>en:On the side of the road, standing next to the well.
 >>de:Am Straßenrand, steht neben dem Brunnen.
 >>He walks around this area in front of the building.
@@ -473,9 +475,10 @@ LLG.RegisterGuide([[
 >>You can find more around [63.76,50.90]
 
 #step
-.click An Old History Book
+.click An Old History Book##2794
 .goto Duskwood,61.76,41.04
 .accept An Old History Book##337
+.only itemcount(337) > 0
 
 #step
 .goto Duskwood,61.76,41.04
@@ -484,7 +487,7 @@ LLG.RegisterGuide([[
 >>You can find more around [63.76,50.90]
 
 #step
-.talk Marshal Haggard
+.talk Marshal Haggard##294
 >>en:Standing next to a lamp post.
 >>de:Steht neben einer Laterne.
 .goto Elwynn Forest,84.61,69.38
@@ -504,7 +507,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,85.11,69.71
 >>Leave the building
-.talk Marshal Haggard
+.talk Marshal Haggard##294
 >>en:Standing next to a lamp post.
 >>de:Steht neben einer Laterne.
 .goto Elwynn Forest,84.61,69.38
@@ -514,7 +517,7 @@ LLG.RegisterGuide([[
 .only subzone("Eastvale and Logging and Camp")
 
 #step
-.talk Abercrombie
+.talk Abercrombie##289
 >>en:In a small shack.
 >>de:In einer kleinen Hütte.
 >>Inside the building.
@@ -548,7 +551,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,23.63,34.92
 >>Leave the crypt
-.talk Abercrombie
+.talk Abercrombie##289
 >>en:In a small shack.
 >>de:In einer kleinen Hütte.
 >>Inside the building.
@@ -561,13 +564,13 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,23.88,71.75
 >>Enter the building
-.click Defias Strongbox
+.click Defias Strongbox##21052
 >>Inside the building.
 .goto Duskwood,23.93,72.07
 .complete 1244,1 >>Collect Defias Docket
 
 #step
-.click Abercrombie's Crate
+.click Abercrombie's Crate##119
 .goto Duskwood,33.42,76.34
 .complete 134,1 >>Collect Abercrombie's Crate
 
@@ -578,7 +581,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Duskwood,36.83,81.89
 >>Continue following the path
-.kill 1 Zzarc' Vul
+.kill 1 Zzarc' Vul##300
 >>Inside the cave.
 >>He can spawn in multiple locations inside the cave, so if he's not here, search around.
 >>only hardcore :: Watch out for casters aggroing from far away as well as inconsistent respawns.
@@ -590,7 +593,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Duskwood,31.34,67.17
 >>Follow the path up to leave the ogre area
-.talk Abercrombie
+.talk Abercrombie##289
 >>en:In a small shack.
 >>de:In einer kleinen Hütte.
 >>Inside the building.
@@ -601,13 +604,13 @@ LLG.RegisterGuide([[
 .only walking and subzone("Vul'Gol and Ogre and Mound")
 
 #step
-.click A Weathered Grave
+.click A Weathered Grave##61
 >>Leave the crypt, if you went inside there in the previous step.
 .goto Duskwood,17.72,29.08
 .accept The Weathered Grave##225
 
 #step
-.talk Sven Yorgen
+.talk Sven Yorgen##311
 >>en:In a little camp, next to a campfire.
 >>de:In einem kleinen Lager, neben einem Lagerfeür.
 .goto Duskwood,7.78,34.07
@@ -624,7 +627,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,75.57,45.37
 >>Enter the building
-.talk Madame Eva
+.talk Madame Eva##265
 >>en:Right inside the big house as you walk in.
 >>de:Direkt im großen Haus beim Eintreten.
 >>She walks around this area inside the building.
@@ -633,7 +636,7 @@ LLG.RegisterGuide([[
 .only readyq(101)
 
 #step
-.talk Tavernkeep Smitts
+.talk Tavernkeep Smitts##273
 >>en:Inside the inn, in the middle of the room.
 >>de:Im Gasthaus, in der Mitte des Raums.
 >>He walks around this area inside the building.
@@ -645,7 +648,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.83,46.01
 >>Leave the building
-.talk Commander Althea Ebonlocke
+.talk Commander Althea Ebonlocke##264
 >>en:Right in front of the steps to the town hall building.
 >>de:Direkt vor den Stufen des Rathauses.
 >>She walks around this area.
@@ -660,7 +663,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.92,46.81
 >>Enter the building
-.talk Clerk Daltry
+.talk Clerk Daltry##267
 >>en:Right inside the town hall building.
 >>de:Direkt im Rathausgebäude.
 >>He walks around this area inside the building.
@@ -670,7 +673,7 @@ LLG.RegisterGuide([[
 .accept The Legend of Stalvan##97
 
 #step
-.talk Sirra Von'Indi
+.talk Sirra Von'Indi##268
 >>en:In the room to the left as you enter the town hall.
 >>de:Im linken Raum beim Betreten des Rathauses.
 >>Inside the building.
@@ -680,7 +683,7 @@ LLG.RegisterGuide([[
 .accept Morgan Ladimore##227
 
 #step
-.talk Lord Ello Ebonlocke
+.talk Lord Ello Ebonlocke##263
 >>en:Inside the town hall building, standing next to a podium on the stage.
 >>de:Im Rathausgebäude, neben einem Rednerpult auf der Bühne.
 >>Inside the building.
@@ -690,7 +693,7 @@ LLG.RegisterGuide([[
 .accept Translate Abercrombie's Note##251
 
 #step
-.talk Sirra Von'Indi
+.talk Sirra Von'Indi##268
 >>en:In the room to the left as you enter the town hall.
 >>de:Im linken Raum beim Betreten des Rathauses.
 >>He walks around inside the building.
@@ -701,7 +704,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Sirra Von'Indi
+.talk Sirra Von'Indi##268
 >>en:In the room to the left as you enter the town hall.
 >>de:Im linken Raum beim Betreten des Rathauses.
 >>He walks around inside the building.
@@ -711,7 +714,7 @@ LLG.RegisterGuide([[
 .accept Translation to Ello##252
 
 #step
-.talk Lord Ello Ebonlocke
+.talk Lord Ello Ebonlocke##263
 >>en:Inside the town hall building, standing next to a podium on the stage.
 >>de:Im Rathausgebäude, neben einem Rednerpult auf der Bühne.
 >>Inside the building.
@@ -726,7 +729,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.93,46.80
 >>Leave the building
-.talk Commander Althea Ebonlocke
+.talk Commander Althea Ebonlocke##264
 >>en:Right in front of the steps to the town hall building.
 >>de:Direkt vor den Stufen des Rathauses.
 >>She walks around this area.
@@ -744,7 +747,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Calor
+.talk Calor##663
 >>en:On the side of the road, standing next to the well.
 >>de:Am Straßenrand, steht neben dem Brunnen.
 >>He walks around this area in front of the building.
@@ -754,26 +757,26 @@ LLG.RegisterGuide([[
 .accept Worgen in the Woods##222
 
 #step
-.talk Watcher Backus
+.talk Watcher Backus##840
 >>He walks back and forth along this road.
 .turnin The Missing Diplomat##1244
 .accept The Missing Diplomat##1245
 
 #step
-.kill 1 Stalvan Mistmantle
+.kill 1 Stalvan Mistmantle##315
 >>Inside, or just outside, the building.
 .goto Duskwood,77.35,36.19
 .complete 98,1 >>Collect Mistmantle Family Ring
 
 #step
-.click Tear of Tilloa
+.click Tear of Tilloa##321
 .goto Duskwood,78.35,35.95
 .complete 335,1 >>Collect Tear of Tilloa
 
 #step
 .goto Duskwood,75.55,45.37
 >>Enter the building
-.talk Madame Eva
+.talk Madame Eva##265
 >>en:Right inside the big house as you walk in.
 >>de:Direkt im großen Haus beim Eintreten.
 >>She walks around this area inside the building.
@@ -783,7 +786,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,79.79,47.69
 >>Enter the building
-.talk Viktori Prism'Antras
+.talk Viktori Prism'Antras##276
 >>en:Inside the small house tot he right of the road, up the hill.
 >>de:Im kleinen Haus rechts der Straße, oben auf dem Hügel.
 >>Inside the building.

@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 >>She walks around this area.
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 .accept Forces of Jaedenar##5155
 
 #step
-.talk Taronn Redfeather
+.talk Taronn Redfeather##10921
 >>en:Standing in a big hut.
 >>de:Standing in a big hut.
 >>Inside the building.
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .accept Verifying the Corruption##5156
 
 #step
-.talk Maybess Riverbreeze
+.talk Maybess Riverbreeze##9529
 >>en:Standing off to the side of the road, in a small clearing.
 >>de:Standing off to the side of the road, in a small clearing.
 >>She walks around this area.
@@ -88,7 +88,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Felwood,37.54,49.25
 >>Follow the river west
-.talk Winna Hazzard
+.talk Winna Hazzard##9996
 >>en:Standing on a small hill.
 >>de:Steht auf einem kleinen Hügel.
 .goto Felwood,34.21,52.34
@@ -96,14 +96,14 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Bloodvenom and Post")
 
 #step
-.talk Dreka'Sur
+.talk Dreka'Sur##9620
 >>en:Next to a campfire.
 >>de:Neben einem Lagerfeür.
 .goto Felwood,34.80,52.73
 .accept A Husband's Last Battle##6162
 
 #step
-.talk Brakkar
+.talk Brakkar##11900
 >>en:Standing in the very back of town, under a red canopy, up on a hill.
 >>de:Steht ganz hinten in der Stadt auf einem Hügel unter einem roten Baldachin.
 .goto Felwood,34.44,53.96
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 >>Follow the road south and follow the path
 .goto Felwood,36.64,66.86
 >>Follow the path
-.click the Hardened Flasket
+.click the Hardened Flasket##12566
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Be careful there are a lot of stealthed enemies here.
 .goto Felwood,32.41,66.58
@@ -124,14 +124,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Grazle
+.talk Grazle##11554
 >>en:Standing to the side of the road, next to a huge tree.
 >>de:Steht am Straßenrand, neben einem riesigen Baum.
 .goto Felwood,50.93,85.01
 .accept Timbermaw Ally##8460
 
 #step
-.kill 1 Overlord Ror
+.kill 1 Overlord Ror##9464
 >>only hardcore :: Watch out for patrols and respawns while in the area.
 .goto Felwood,48.23,94.27
 .complete 6162,1 >>Collect Overlord Ror's Claw
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 >>[48.77,89.62]
 
 #step
-.talk Grazle
+.talk Grazle##11554
 >>en:Standing to the side of the road, next to a huge tree.
 >>de:Steht am Straßenrand, neben einem riesigen Baum.
 .goto Felwood,50.93,85.02
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 .accept Speak to Nafien##8462
 
 #step
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 >>She walks around this area.
@@ -185,7 +185,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,38.43,59.68
 >>Follow the path
-.click the Empty Canteen
+.click the Empty Canteen##12922
 >>only hardcore :: Watch out for patrols and respawns while in the area.
 .goto Felwood,35.19,59.95
 .complete 5157,1 >>Collect Corrupt Moonwell Water
@@ -276,7 +276,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,64.18,15.20
 >>Follow the road
-.talk Nafien
+.talk Nafien##15395
 >>en:Standing to the side of the road in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager am Straßenrand, neben einem Lagerfeür.
 .goto Felwood,64.77,8.13
@@ -319,7 +319,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,64.18,15.20
 >>Follow the road
-.talk Nafien
+.talk Nafien##15395
 >>en:Standing to the side of the road in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager am Straßenrand, neben einem Lagerfeür.
 >>You may have Deadwood Headdress Feathers from killing Deadwood enemies nearby.
@@ -333,7 +333,7 @@ LLG.RegisterGuide([[
 #step
 .kill 1 Deadwood enemies around this area
 .goto Felwood,63.08,8.82
->>Reach Unfriendly Reputation with the Timbermaw Hold Faction
+.condition rep('Timbermaw Hold') >= Unfriendly >>Reach Unfriendly Reputation with the Timbermaw Hold Faction
 >>You are about to go through a long tunnel full of level 52-54 enemies.
 >>If you are not at least Unfriendly with this faction, you will be attacked.
 >>You can find more around:

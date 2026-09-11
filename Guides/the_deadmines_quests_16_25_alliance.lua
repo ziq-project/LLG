@@ -21,7 +21,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,63.62,22.82
 >>Enter the building
-.talk Wilder Thistlenettle
+.talk Wilder Thistlenettle##656
 >>Inside the building.
 .goto Stormwind City,65.45,21.21
 .accept Oh Brother...##167
@@ -29,12 +29,12 @@ LLG.RegisterGuide([[
 .accept Collecting Memories##168
 
 #step
-.talk Shoni the Shilent
+.talk Shoni the Shilent##6579
 .goto Stormwind City,55.52,12.54
 .accept Underground Assault##2040
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 #step
 .goto Redridge Mountains,26.61,46.41
 >>Enter the building
-.talk Wiley the Black
+.talk Wiley the Black##266
 >>en:Upstairs in the inn, inside the room diagonally to the right from the top of the stairs.
 >>de:Oben im Gasthaus, im Raum schräg rechts vom oberen Ende der Treppe.
 >>Upstairs inside the building.
@@ -53,7 +53,7 @@ LLG.RegisterGuide([[
 .accept The Defias Brotherhood##132
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,77.14,58.04
 >>Enter the building
-.talk Master Mathias Shaw
+.talk Master Mathias Shaw##332
 >>en:Upstairs in the SI:7 building.
 >>de:Oben im SI:7-Gebäude.
 >>Upstairs inside the building.
@@ -80,7 +80,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stormwind City,62.44,62.33
 >>Run up the ramp
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Check For the Defias Messenger Along This Path
-.kill 1 Defias Messenger
+.kill 1 Defias Messenger##550
 >>He walks along the road between Jangolode Mine and Moonbrook.
 >>He walks into Gold Coast Quarry before traveling to either Jangolode Mine or Moonbrook.
 >>Run on the road while looking for him.
@@ -99,14 +99,14 @@ LLG.RegisterGuide([[
 .complete 142,1 >>Collect A Mysterious Message
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
 .turnin The Defias Brotherhood##142
 
 #step
-.talk The Defias Traitor
+.talk The Defias Traitor##467
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 >>This is an escort quest.
@@ -123,7 +123,7 @@ LLG.RegisterGuide([[
 .complete 155,1 >>Escort The Defias Traitor to Discover Where VanCleef is Hiding
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.51,47.41
 >>Enter the building
-.talk Scout Riell
+.talk Scout Riell##820
 >>At the top of the tower.
 .goto Westfall,56.67,47.35
 .accept Red Silk Bandanas##214
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Westfall,41.09,79.93
 >>Follow the path
-.kill 1 Foreman Thistlenettle
+.kill 1 Foreman Thistlenettle##626
 >>He looks like a ghoul.
 >>He walks around this area.
 .goto Westfall,41.08,80.08
@@ -181,24 +181,24 @@ LLG.RegisterGuide([[
 >>Enter the Deadmines Dungeon with Your Group
 
 #step
-.kill 1 Sneed's Shredder
+.kill 1 Sneed's Shredder##642
 >>The second boss of the dungeon.
 .complete 2040,1 >>Collect Gnoam Sprecklesprocket
 
 #step
-.kill 1 Edwin Vancleef
+.kill 1 Edwin Vancleef##639
 >>The last boss of the dungeon.
 >>Aboard the ship.
 .complete 166,1 >>Collect Head of VanCleef
 
 #step
-.kill 1 Edwin Vancleef
+.kill 1 Edwin Vancleef##639
 >>The last boss of the dungeon.
 >>Aboard the ship.
 .collect An Unsent Letter,1
 
 #step
-.click An Unsent Letter
+.click An Unsent Letter##2874
 .accept The Unsent Letter##373
 
 #step
@@ -211,7 +211,7 @@ LLG.RegisterGuide([[
 .complete 168 >>Click Here to Continue
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
@@ -220,7 +220,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.51,47.41
 >>Enter the building
-.talk Scout Riell
+.talk Scout Riell##820
 >>At the top of the tower.
 .goto Westfall,56.67,47.35
 .turnin Red Silk Bandanas##214
@@ -229,19 +229,19 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,47.89,31.17
 >>Enter the building
-.talk Baros Alexston
+.talk Baros Alexston##1646
 .goto Stormwind City,49.20,30.28
 .turnin The Unsent Letter##373
 
 #step
-.talk Shoni the Shilent
+.talk Shoni the Shilent##6579
 .goto Stormwind City,55.52,12.54
 .turnin Underground Assault##2040
 
 #step
 .goto Stormwind City,63.64,22.78
 >>Enter the building
-.talk Wilder Thistlenettle
+.talk Wilder Thistlenettle##656
 >>Inside the building
 .goto Stormwind City,65.45,21.21
 .turnin Oh Brother...##167

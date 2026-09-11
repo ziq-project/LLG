@@ -20,27 +20,27 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,53.24,42.59
 >>Enter the building
-.talk Tai'jin
+.talk Tai'jin##3706
 >>Inside the building.
 .goto Durotar,41.90,10.10
 .accept Hex of Weakness##5652
 .only Troll and Priest
 
 #step
-.talk Ur'kyo
+.talk Ur'kyo##6018
 >>Inside the building.
 .goto Orgrimmar,35.59,87.83
 .turnin Hex of Weakness##5652
 .only Troll and Priest
 
 #step
-.talk Father Lankester
+.talk Father Lankester##4607
 .goto Undercity,49.14,14.61
 .accept Touch of Weakness##5658
 .only Scourge and Priest
 
 #step
-.talk Aelthalyste
+.talk Aelthalyste##4606
 .goto Undercity,49.27,17.11
 .turnin Touch of Weakness##5658
 .only Scourge and Priest
@@ -51,28 +51,28 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.73,29.76
 >>Enter the cave
-.talk Miles Welsh
+.talk Miles Welsh##3044
 >>Inside the cave.
 .goto Thunder Bluff,25.32,15.24
 .accept Shadowguard##5643
 .only Troll and Priest
 
 #step
-.talk Ur'kyo
+.talk Ur'kyo##6018
 >>Inside the building.
 .goto Orgrimmar,35.59,87.83
 .turnin Shadowguard##5643
 .only Troll and Priest
 
 #step
-.talk Ur'kyo
+.talk Ur'kyo##6018
 >>Upstairs inside the building.
 .goto Orgrimmar,35.59,87.83
 .accept Devouring Plague##5644
 .only Scourge and Priest
 
 #step
-.talk Aelthalyste
+.talk Aelthalyste##4606
 .goto Undercity,49.27,17.11
 .turnin Devouring Plague##5644
 .only Scourge and Priest
@@ -81,14 +81,14 @@ LLG.RegisterGuide([[
 .level 52
 
 #step
-.talk Ur'kyo
+.talk Ur'kyo##6018
 >>Inside the building.
 .goto Orgrimmar,35.60,87.60
 .accept Cenarion Aid##8254
 .only Priest
 
 #step
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.60
 .turnin Cenarion Aid##8254
 .goto Azshara,42.40,42.60
@@ -96,14 +96,14 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.kill 1 Mosshoof Courser
+.kill 1 Mosshoof Courser##8761
 >>they are scattered all over the area.
 .goto Azshara,49.47,17.62
 .complete 8255,1 >>Collect 4 Healthy Courser Gland
 .only Priest
 
 #step
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.60
 .turnin Of Coursers We know##8255
 .goto Azshara,42.40,42.60
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Ogtinc
+.talk Ogtinc##8405
 .goto Azshara,42.40,42.60
 .turnin The Ichor of Undeath##8256
 .goto Azshara,42.40,42.60
@@ -153,12 +153,12 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.kill 1 Morphaz
+.kill 1 Morphaz##5719
 .complete 8257,1 >>Collect Blood of Morphaz
 .only Priest
 
 #step
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 .goto Felwood,51.20,82.20
@@ -169,7 +169,7 @@ LLG.RegisterGuide([[
 .level 58
 
 #step
-.talk Movkar
+.talk Movkar##16012
 >>Inside the building.
 .goto Orgrimmar,34.80,38.00
 .accept An Earnest Proposition##8916
@@ -193,7 +193,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Movkar
+.talk Movkar##16012
 >>Inside the building.
 .goto Orgrimmar,34.80,38.00
 .turnin An Earnest Proposition##8916

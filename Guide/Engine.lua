@@ -98,6 +98,12 @@ function E.EvaluateTask(task)
 
     elseif kind == "collect" then
         return LLG.QuestState.ItemCount(task.item) >= (task.count or 1)
+
+    elseif kind == "condition" then
+        -- Ohne auswertbaren Ausdruck lieber nichts behaupten: der Schritt
+        -- haelt dann nicht auf, statt fuer immer offen zu bleiben.
+        if not task.cond then return nil end
+        return LLG.Parser.Evaluate(task.cond) and true or false
     end
 
     return nil
@@ -110,7 +116,6 @@ local function evaluateStep(index)
     if not step then return false, false end
 
     local states = {}
-    local allDone = true
     local hasHard = false
     local n = LLG.getn(step.tasks)
     local key = E.guide.key
@@ -127,10 +132,33 @@ local function evaluateStep(index)
             hasHard = true
         end
         states[i] = res
-        if res ~= nil then
-            hasHard = true
-            if res == false then allDone = false end
+        if res ~= nil then hasHard = true end
+    end
+
+    -- Alternativen: "nimm dieses **oder** jenes".
+    --
+    -- Die Vorlage kennzeichnet solche Zeilen mit "|or" - 989 Schritte tun das,
+    -- meist beim Sammeln ("Grober Faden oder Seidenfaden") und bei Quests, von
+    -- denen man nur eine braucht. Ohne diese Regel verlangt der Schritt alle
+    -- Zeilen, und der Guide bleibt an einer Aufgabe stehen, die man gar nicht
+    -- machen soll. Erfuellt wird die Gruppe, sobald genug ihrer Zeilen
+    -- erfuellt sind; die uebrigen gelten dann mit.
+    local altNeed, altDone, altList = 0, 0, {}
+    for i = 1, n do
+        local task = step.tasks[i]
+        if task.alt then
+            if task.alt > altNeed then altNeed = task.alt end
+            table.insert(altList, i)
+            if states[i] == true then altDone = altDone + 1 end
         end
+    end
+    if altNeed > 0 and altDone >= altNeed then
+        for a = 1, LLG.getn(altList) do states[altList[a]] = true end
+    end
+
+    local allDone = true
+    for i = 1, n do
+        if states[i] == false then allDone = false end
     end
 
     E.taskState[index] = states
@@ -193,6 +221,9 @@ function E.StepBlocks(index)
     -- nicht auf, wenn eine pruefbare Aufgabe darin steht.
     local step = E.guide.steps[index]
     if step and step.optional then return false end
+    -- Haengt nur noch an einer Quest, die man beim Ueberspringen ausgelassen
+    -- hat: zeigen ja, aufhalten nein.
+    if E.StepOrphaned(index) then return false end
     -- Laufwegschritte halten auf, bis man da ist. Sonst hat der Guide sie
     -- stumm uebersprungen, und "Enter the Deeprun Tram" bekam man nie zu
     -- sehen. Reine Hinweise ohne Ziel halten weiterhin nicht auf.
@@ -263,8 +294,106 @@ end
 
 -- --------------------------------------------------------------- Neuaufbau
 
+-- ------------------------------------------------- Uebersprungene Questreihen
+--
+-- Wer einen Schritt ueberspringt, in dem eine Quest angenommen wird, kann
+-- deren Abgabe zwei Schritte spaeter nicht erledigen - die Quest liegt ja
+-- nicht im Log. Vorher blieb der Guide genau dort stehen: eine Abgabe, die
+-- nie moeglich wird, und nur ein weiterer Rechtsklick half.
+--
+-- Deshalb wird gemerkt, welche Quests durch Ueberspringen ausgelassen wurden.
+-- Schritte, die nur noch an solchen Quests haengen, werden weiterhin gezeigt -
+-- man soll sehen, was man sich vergibt -, aber blass und ohne aufzuhalten.
+local ORPHAN_KINDS = { accept = true, turnin = true, complete = true }
+
+function E.ScanSkipped()
+    E.orphanQuest = nil
+    if not E.guide then return end
+    local out = nil
+    local n = LLG.getn(E.guide.steps)
+    for i = 1, n do
+        if E.StepActive(i) and E.IsSkipped(i) then
+            local step = E.guide.steps[i]
+            local tn = LLG.getn(step.tasks)
+            for t = 1, tn do
+                local task = step.tasks[t]
+                -- Nur wirklich ausgelassene Quests. Wer den Schritt
+                -- uebersprungen, die Quest aber trotzdem genommen hat, soll
+                -- den Rest der Reihe normal vorgesetzt bekommen.
+                if task.kind == "accept" and task.quest
+                        and not LLG.QuestState.IsActive(task.quest)
+                        and not LLG.DB.IsTurnedIn(task.quest)
+                        and not LLG.DB.WasAccepted(task.quest) then
+                    out = out or {}
+                    out[task.quest] = true
+                end
+            end
+        end
+    end
+    if not out then
+        E.orphanQuest = nil
+        return
+    end
+
+    -- Die Kette weiterverfolgen. Wer die Annahme von "Icons of Power"
+    -- auslaesst, kann auch die Folgequest nicht mehr nehmen - und die steht
+    -- zwanzig Schritte spaeter, ohne dass ihr anzusehen waere, woran es
+    -- liegt. Welche Quest auf welcher aufbaut, weiss pfQuest ("pre"); ohne
+    -- pfQuest bleibt es bei der unmittelbar ausgelassenen Quest.
+    if LLG.PfQuest and LLG.PfQuest.Available() then
+        for round = 1, 6 do
+            local grew = false
+            for i = 1, n do
+                if E.StepActive(i) and not E.IsSkipped(i) then
+                    local step = E.guide.steps[i]
+                    local tn = LLG.getn(step.tasks)
+                    for t = 1, tn do
+                        local task = step.tasks[t]
+                        if task.kind == "accept" and task.quest
+                                and not out[task.quest]
+                                and not LLG.QuestState.IsActive(task.quest)
+                                and not LLG.DB.IsTurnedIn(task.quest)
+                                and not LLG.DB.WasAccepted(task.quest) then
+                            local pre = LLG.PfQuest.Prerequisites(task.quest)
+                            local pn = pre and LLG.getn(pre) or 0
+                            for k = 1, pn do
+                                if out[pre[k]] then
+                                    out[task.quest] = true
+                                    grew = true
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+            if not grew then break end
+        end
+    end
+
+    E.orphanQuest = out
+end
+
+-- Haengt dieser Schritt ausschliesslich an ausgelassenen Quests?
+function E.StepOrphaned(index)
+    if not E.orphanQuest or not E.guide then return false end
+    if E.IsSkipped(index) then return false end
+    local step = E.guide.steps[index]
+    if not step then return false end
+    local any = false
+    local tn = LLG.getn(step.tasks)
+    for t = 1, tn do
+        local task = step.tasks[t]
+        if ORPHAN_KINDS[task.kind] and task.quest then
+            if not E.orphanQuest[task.quest] then return false end
+            any = true
+        end
+    end
+    return any
+end
+
 function E.EvaluateAll()
     if not E.guide then return end
+    E.ScanSkipped()
     local n = LLG.getn(E.guide.steps)
     for i = 1, n do
         local done = evaluateStep(i)
@@ -482,12 +611,17 @@ function E.Refresh()
     local n = LLG.getn(E.guide.steps)
     local cur = E.currentStep
     while cur <= n and not E.StepBlocks(cur) do cur = cur + 1 end
-    if cur > n then cur = n end
+    -- Nichts haelt mehr auf: der Guide ist durch. Das ist zugleich das
+    -- Signal fuer den Folgeguide - ohne eine zweite Runde ueber alle
+    -- Schritte, die Bewertung steht ja gerade.
+    local finished = (cur > n)
+    if finished then cur = n end
     if cur ~= E.currentStep then
         E.currentStep = cur
         LLG.chardb.step = cur
     end
     E.Notify()
+    if finished then E.CheckNextGuide() end
 end
 
 -- Fortschritt im Guide: erledigte Schritte von allen, die fuer diesen
@@ -650,6 +784,10 @@ function E.SkipStep(index)
     LLG.DB.SetSkipped(E.guide.key, index, true)
     E.stepDone[index] = nil
     E.Unpin()
+    -- Erst die ausgelassenen Questreihen neu bestimmen, dann weiterruecken:
+    -- sonst bliebe der Guide an der Abgabe haengen, die durch genau dieses
+    -- Ueberspringen unmoeglich geworden ist.
+    E.ScanSkipped()
     local n = LLG.getn(E.guide.steps)
     if index == E.currentStep then
         local cur = index + 1
@@ -665,6 +803,7 @@ function E.UnskipStep(index)
     if not E.guide then return end
     LLG.DB.SetSkipped(E.guide.key, index, false)
     E.stepDone[index] = nil
+    E.ScanSkipped()
     E.SetStep(index, true)
 end
 
@@ -717,6 +856,73 @@ function E.ExpectedQuest(kind, level)
         if found then return found end
     end
     return found
+end
+
+-- ------------------------------------------------------------- Anvisieren
+--
+-- RestedXP setzt an jede Kampfaufgabe eine Zielschaltflaeche; das ist die
+-- Geste, die man im Spiel am haeufigsten braucht und die im Guide am
+-- laestigsten fehlt. In 1.12 ist TargetByName noch frei benutzbar.
+--
+-- Der Name im Guide ist englisch. Der Client kennt ihn unter Umstaenden nur
+-- uebersetzt - deshalb zuerst die Namenstabelle von pfQuest, die ueber die
+-- Kennung geht und die Clientsprache liefert.
+function E.TaskTargetName(task)
+    if type(task) ~= "table" then return nil end
+    local id, name
+    if task.kind == "kill" then
+        id, name = task.mobId, task.mob
+    elseif task.kind == "talk" then
+        id, name = task.npcId, task.npc
+    elseif task.kind == "click" then
+        id, name = task.objectId, task.object
+    else
+        return nil
+    end
+    if id and LLG.PfQuest and LLG.PfQuest.Available() then
+        local loc = (task.kind == "click") and LLG.PfQuest.ObjectName(id)
+            or LLG.PfQuest.UnitName(id)
+        if loc and loc ~= "" then return loc end
+    end
+    return name
+end
+
+-- Rueckgabe: der Name, auf den anvisiert wurde, oder nil.
+function E.TargetTask(index, taskIndex)
+    if not E.guide then return nil end
+    local step = E.guide.steps[index]
+    local task = step and step.tasks and step.tasks[taskIndex]
+    local name = E.TaskTargetName(task)
+    if not name or name == "" then return nil end
+    if task.kind == "click" then return nil end   -- Objekte kann man nicht anvisieren
+    if not TargetByName then return nil end
+    TargetByName(name, true)
+    return name
+end
+
+-- Steht diese Quest in der Naehe der aktuellen Stelle im Guide, und zwar mit
+-- genau dieser Absicht? Das ist die Frage, die ueber das automatische
+-- Bestaetigen entscheidet: nur was der Guide hier ohnehin verlangt, darf ihm
+-- aus der Hand genommen werden. Bei allem anderen - einer Quest nebenbei, dem
+-- falschen NPC im selben Lager - bleibt das Fenster offen.
+function E.WantsQuest(kind, key)
+    if not E.guide or not key then return false end
+    local n = LLG.getn(E.guide.steps)
+    local from = E.currentStep - 2
+    local to = E.currentStep + 5
+    if from < 1 then from = 1 end
+    if to > n then to = n end
+    for i = from, to do
+        if E.StepActive(i) then
+            local step = E.guide.steps[i]
+            local tn = LLG.getn(step.tasks)
+            for t = 1, tn do
+                local task = step.tasks[t]
+                if task.kind == kind and task.quest == key then return true end
+            end
+        end
+    end
+    return false
 end
 
 -- Im Spiel ist etwas passiert: der Halt von Hand ist damit hinfaellig.
@@ -849,6 +1055,53 @@ function E.CurrentTarget()
 end
 
 -- ------------------------------------------------------------------- Laden
+
+-- ------------------------------------------------------------ Folgeguide
+--
+-- 112 der 294 Guides nennen im Kopf ihren Nachfolger ("#next The Barrens
+-- (10-12)"). Bisher stand die Angabe nur da: wer einen Guide durchhatte,
+-- stand vor einer Liste von 294 Eintraegen und musste selbst herausfinden,
+-- welcher als naechster kommt.
+--
+-- Der Nachfolger wird ueber den Titel gefunden, nicht ueber den Schluessel -
+-- so steht es in der Vorlage. Titel gibt es doppelt (einmal Allianz, einmal
+-- Horde), deshalb entscheidet die Fraktion mit.
+function E.ResolveGuide(title)
+    if not title or title == "" then return nil end
+    local want = LLG.normalize(title)
+    local faction = UnitFactionGroup and UnitFactionGroup("player") or nil
+    local fallback = nil
+    local n = LLG.getn(LLG.guideOrder)
+    for i = 1, n do
+        local g = LLG.guides[LLG.guideOrder[i]]
+        if g and LLG.normalize(g.title) == want then
+            if g.faction == faction then return g.key end
+            if g.faction == "Any" then fallback = fallback or g.key end
+        end
+    end
+    return fallback
+end
+
+local nextOffered = nil
+
+-- Wird aus Refresh gerufen, sobald dort kein Schritt mehr aufhaelt.
+function E.CheckNextGuide()
+    if not E.guide or not E.guide.nextGuide then return end
+    if not LLG.db.autoNext then return end
+    local key = E.ResolveGuide(E.guide.nextGuide)
+    if not key or key == E.guide.key then return end
+    -- Nur einmal je Guide fragen, sonst kaeme der Hinweis bei jedem
+    -- Questlog-Update erneut.
+    if nextOffered == E.guide.key then return end
+    nextOffered = E.guide.key
+    local from = E.guide.title
+    LLG.Print(LLG.L.Format("GUIDE_DONE_NEXT", from, LLG.guides[key].title))
+    LLG.After(1.0, function()
+        if E.guide and E.guide.title == from then
+            E.LoadGuide(key)
+        end
+    end, "nextGuide")
+end
 
 function E.LoadGuide(key, silent)
     local guide = LLG.guides[key]

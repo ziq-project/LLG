@@ -1,8 +1,8 @@
 ## Interface: 11200
 ## Title: |cff40c0ffLegacy Leveling Guide|r
 ## Notes: Leveling guide with quest detection and map markers, written from scratch for the 1.12.1 client. Guides included. Uses pfQuest for waypoints if present.
-## Author: Ayrill (Ziq)
-## Version: 0.9.0
+## Author: Benny
+## Version: 0.11.0
 ## SavedVariables: LLG_DB
 ## SavedVariablesPerCharacter: LLG_CharDB
 ## X-Category: Quests
@@ -22,6 +22,8 @@ Quest\PfQuest.lua
 
 Guide\Parser.lua
 Guide\Engine.lua
+
+Quest\Auto.lua
 
 UI\Widgets.lua
 UI\Main.lua

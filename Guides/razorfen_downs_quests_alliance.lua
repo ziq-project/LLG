@@ -21,7 +21,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.88,34.14
 >>Enter the building
-.talk Archbishop Benedictus
+.talk Archbishop Benedictus##1284
 >>en:Inside the huge church building, next to a candle post.
 >>de:Im großen Kirchengebäude, neben einem Kerzenhalter.
 >>Inside the building.
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,49.10,94.49
 >>Follow the path up
-.talk Myriam Moonsinger
+.talk Myriam Moonsinger##12866
 >>en:Follow the bath through the quillboars. She's kneeling high up on a hill, near the Razorfen Downs dungeon entrance.
 .goto The Barrens,49.01,94.94
 .accept A Host of Evil##6626
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,49.10,94.49
 >>Follow the path up
-.talk Myriam Moonsinger
+.talk Myriam Moonsinger##12866
 >>en:Follow the bath through the quillboars. She's kneeling high up on a hill, near the Razorfen Downs dungeon entrance.
 .goto The Barrens,49.01,94.94
 .turnin A Host of Evil##6626
@@ -72,13 +72,13 @@ LLG.RegisterGuide([[
 >>Follow the path left along the north side of the dungeon to reach the Spiral of Thorns and eventually The Caller's Chamber.
 >>Continue through The Caller's Chamber to reach The Murder Pens and immediately go left.
 >>Be sure to clear each area of enemies as you go.
-.talk Belnistrasz
+.talk Belnistrasz##8516
 >>Inside the Holding Pen.
 .accept Scourge of the Downs##3523
 
 #step
 >>Inside the Razorfen Downs Dungeon:
-.talk Belnistrasz
+.talk Belnistrasz##8516
 >>Inside the Holding Pen.
 .turnin Scourge of the Downs##3523
 .accept Extinguishing the Idol##3525
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 >>Inside the Razorfen Downs Dungeon:
 >>Follow and protect Belnistrasz
 .kill 1 the enemies that attack in waves
-.kill 1 Plaguemaw the Rotting
+.kill 1 Plaguemaw the Rotting##7356
 .complete 3525,1 >>Escort Belnistrasz to the Quilboar's Idol
 
 #step
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,42.88,34.14
 >>Enter the building
-.talk Archbishop Benedictus
+.talk Archbishop Benedictus##1284
 >>en:Inside the huge church building, next to a candle post.
 >>de:Im großen Kirchengebäude, neben einem Kerzenhalter.
 >>Inside the building.

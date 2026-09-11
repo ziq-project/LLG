@@ -25,25 +25,25 @@ LLG.RegisterGuide([[
 .only not completedq(7807) and not completedq(7808) and not completedq(7809) and not completedq(7811)
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Wool##7807
 .only not completedq(7807)
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Silk##7808
 .only not completedq(7808)
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Mageweave##7809
 .only not completedq(7809)
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 .goto Ironforge,74.09,48.22
 .accept A Donation of Runecloth##7811
 .only not completedq(7811)
@@ -52,10 +52,11 @@ LLG.RegisterGuide([[
 >>Farm or Buy Cloth
 >>{o}Farm{} the following {o}cloth{}, or purchase them from the {o}Auction House{}.
 >>Collect Runecloth for Gnomeregan Exiles (Exalted)
+.only rep("Gnomeregan and Exiles") < Exalted
 
 #step
-.talk Bubulo Acerbus
+.talk Bubulo Acerbus##14724
 >>{o}Repeatedly complete the {o}Additional Runecloth{} quest.
 .goto Ironforge,74.09,48.22
->>Reach Exalted Reputation with the Gnomeregan Exiles Faction
+.condition rep("Gnomeregan Exiles") == Exalted >>Reach Exalted Reputation with the Gnomeregan Exiles Faction
 ]])

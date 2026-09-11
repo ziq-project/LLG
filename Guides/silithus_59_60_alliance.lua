@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Layo Starstrike
+.talk Layo Starstrike##13220
 >>en:In the small camp inside the hut to the right of the bonfire.
 >>de:In the small camp inside the hut to the right of the bonfire.
 >>Inside the building.
@@ -25,7 +25,7 @@ LLG.RegisterGuide([[
 .accept The Spirits of Southwind##1125
 
 #step
-.talk Windcaller Proudhorn
+.talk Windcaller Proudhorn##15191
 >>en:Standing next to a big wagon.
 >>de:Standing next to a big wagon.
 .goto Silithus,51.15,38.29
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 .accept Securing the Supply Lines##8280
 
 #step
-.talk Beetix Ficklespragg
+.talk Beetix Ficklespragg##15189
 >>en:Upstairs in the inn, next to some bookcases.
 >>de:Upstairs in the inn, next to some bookcases.
 >>She walks around this area upstairs inside the building.
@@ -42,21 +42,21 @@ LLG.RegisterGuide([[
 .accept Deadly Desert Venom##8277
 
 #step
-.talk Geologist Larksbane
+.talk Geologist Larksbane##15183
 >>en:Standing next to a tall blue tent.
 >>de:Standing next to a tall blü tent.
 .goto Silithus,49.67,37.46
 .accept The Twilight Mystery##8284
 
 #step
-.talk Bor Wildmane
+.talk Bor Wildmane##15306
 .goto Silithus,48.57,37.78
 .accept Secret Communication##8318
 
 #step
 .goto Silithus,49.60,36.02
 >>Enter the building
-.talk Commander Mar'alith
+.talk Commander Mar'alith##15181
 >>en:Standing on the balcony in the very back of this big building.
 >>de:Standing on the balcony in the very back of this big building.
 >>Outside, on the balcony of the building.
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silithus,50.57,35.93
 >>Follow the path up
-.talk Cloud Skydancer
+.talk Cloud Skydancer##15177
 >>en:To the left in front of the big tower, next to a hippogryph.
 >>de:Links vor dem großen Turm, neben einem Hippogryphen.
 .goto Silithus,50.58,34.45
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Layo Starstrike
+.talk Layo Starstrike##13220
 >>en:In the small camp inside the hut to the right of the bonfire.
 >>de:In the small camp inside the hut to the right of the bonfire.
 >>Inside the building.
@@ -124,12 +124,12 @@ LLG.RegisterGuide([[
 >>only hardcore :: This quest is dangerous.
 >>Three silithid will ambush you when you enter the tower.
 >>only hardcore :: Make sure you have cooldowns and healing potions prepared for the encounter if possible.
-.click Hive'Ashi Pod
+.click Hive'Ashi Pod##178553
 >>only hardcore :: Remember, 3 Hive'Ashi Ambushers will spawn upon interacting with this object.
 >>only hardcore :: They will keep spawning until you loot the item and retreat.
 >>only hardcore :: Skip this quest if you can't find help.
 >>At the top of the tower.
-.kill 1 Hive'Ashi Ambusher
+.kill 1 Hive'Ashi Ambusher##13301
 .goto Silithus,60.35,52.55
 .complete 1126,1 >>Collect Encrusted Silithid Object
 
@@ -145,12 +145,12 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Brann Bronzebeard's Lost Letter
+.click Brann Bronzebeard's Lost Letter##20461
 .accept Brann Bronzebeard's Lost Letter##8308
 .only not hardcore
 
 #step
-.talk Layo Starstrike
+.talk Layo Starstrike##13220
 >>en:In the small camp inside the hut to the right of the bonfire.
 >>de:In the small camp inside the hut to the right of the bonfire.
 >>Inside the building.
@@ -172,7 +172,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Stonelash Scorpid
+.kill 1 Stonelash Scorpid##11735
 >>They look like scorpions.
 .goto Silithus,60.63,17.19
 .complete 8277,1 >>Collect 8 Stonelash Scorpid Stinger
@@ -183,7 +183,7 @@ LLG.RegisterGuide([[
 >>[59.11,23.46]
 
 #step
-.kill 1 Sand Skitterer
+.kill 1 Sand Skitterer##11738
 >>They look like spiders.
 .goto Silithus,60.63,17.19
 .complete 8277,2 >>Collect 8 Sand Skitterer Fang
@@ -203,7 +203,7 @@ LLG.RegisterGuide([[
 >>[59.11,23.46]
 
 #step
-.talk Windcaller Proudhorn
+.talk Windcaller Proudhorn##15191
 >>en:Standing next to a big wagon.
 >>de:Standing next to a big wagon.
 .goto Silithus,51.15,38.29
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 .accept Stepping Up Security##8281
 
 #step
-.talk Beetix Ficklespragg
+.talk Beetix Ficklespragg##15189
 >>en:Upstairs in the inn, next to some bookcases.
 >>de:Upstairs in the inn, next to some bookcases.
 >>She walks around this area upstairs inside the building.
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 .accept Noggle's Last Hope##8278
 
 #step
-.talk Bor Wildmane
+.talk Bor Wildmane##15306
 .goto Silithus,48.58,37.78
 .turnin Secret Communication##8318
 
@@ -249,7 +249,7 @@ LLG.RegisterGuide([[
 >>[57.55,60.78]
 
 #step
-.kill 1 Stonelash Pincer
+.kill 1 Stonelash Pincer##11736
 .goto Silithus,27.26,43.55
 .complete 8278,2 >>Collect 3 Stonelash Pincer Stinger
 >>You can find more around:
@@ -259,7 +259,7 @@ LLG.RegisterGuide([[
 >>[57.55,60.78]
 
 #step
-.talk Rutgar Glyphshaper
+.talk Rutgar Glyphshaper##15170
 >>en:Standing in a small camp, in front of a white canopy.
 >>de:Standing in a small camp, in front of a white canopy.
 .goto Silithus,41.28,88.45
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Rutgar Glyphshaper
+.talk Rutgar Glyphshaper##15170
 >>en:Standing in a small camp, in front of a white canopy.
 >>de:Standing in a small camp, in front of a white canopy.
 >>Select _"Hello, Rutgar. The Commander has sent me here to gather some information about his missing wife."_
@@ -275,7 +275,7 @@ LLG.RegisterGuide([[
 .complete 8304,2 >>Question Rutgar
 
 #step
-.talk Frankal Stonebridge
+.talk Frankal Stonebridge##15171
 >>en:Sitting in a small camp, on a red rug, in front of a white tent.
 >>de:Sitting in a small camp, on a red rug, in front of a white tent.
 >>Select _"Hello, Frankal. I've heard that you might have some information as to the whereabouts of Mistress Natalia Mar'alith."_
@@ -283,7 +283,7 @@ LLG.RegisterGuide([[
 .complete 8304,1 >>Question Frankal
 
 #step
-.kill 1 Stonelash Flayer
+.kill 1 Stonelash Flayer##11737
 .goto Silithus,45.44,86.38
 .complete 8278,1 >>Collect 3 Stonelash Flayer Stinger
 >>You can find more around:
@@ -293,7 +293,7 @@ LLG.RegisterGuide([[
 >>[35.23,71.64]
 
 #step
-.kill 1 Rock Stalker
+.kill 1 Rock Stalker##11739
 .goto Silithus,45.44,86.38
 .complete 8278,3 >>Collect 3 Rock Stalker Fang
 >>You can find more around:
@@ -303,14 +303,14 @@ LLG.RegisterGuide([[
 >>[35.23,71.64]
 
 #step
-.talk Windcaller Proudhorn
+.talk Windcaller Proudhorn##15191
 >>en:Standing next to a big wagon.
 >>de:Standing next to a big wagon.
 .goto Silithus,51.15,38.29
 .turnin Stepping Up Security##8281
 
 #step
-.talk Beetix Ficklespragg
+.talk Beetix Ficklespragg##15189
 >>en:Upstairs in the inn, next to some bookcases.
 >>de:Upstairs in the inn, next to some bookcases.
 >>She walks around this area upstairs inside the building.
@@ -318,7 +318,7 @@ LLG.RegisterGuide([[
 .turnin Noggle's Last Hope##8278
 
 #step
-.talk Geologist Larksbane
+.talk Geologist Larksbane##15183
 >>en:Standing next to a tall blue tent.
 >>de:Standing next to a tall blü tent.
 .goto Silithus,49.67,37.46
@@ -329,7 +329,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silithus,49.61,36.05
 >>Enter the building
-.talk Commander Mar'alith
+.talk Commander Mar'alith##15181
 >>en:Standing on the balcony in the very back of this big building.
 >>de:Standing on the balcony in the very back of this big building.
 >>Outside, on the balcony of the building.
@@ -340,7 +340,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silithus,66.32,70.03
 >>Enter the cave
-.talk Hermit Ortell
+.talk Hermit Ortell##15194
 >>en:Standing inside the cave.
 >>de:Standing inside the cave.
 >>Inside the cave.
@@ -350,20 +350,20 @@ LLG.RegisterGuide([[
 .accept The Twilight Lexicon##8279
 
 #step
-.kill 1 Twilight Keeper Havunth
+.kill 1 Twilight Keeper Havunth##11804
 >>He looks like an orc that walks around this area wearing a bright purple robe.
 >>You can wait around this spot to avoid going into the camp looking for him.
 .goto Silithus,42.00,44.13
 .complete 8279,3 >>Collect Twilight Lexicon - Chapter 3
 
 #step
-.kill 1 Twilight Keeper Mayna
+.kill 1 Twilight Keeper Mayna##15200
 >>She walks around this area.
 .goto Silithus,26.46,36.45
 .complete 8279,1 >>Collect Twilight Lexicon - Chapter 1
 
 #step
-.kill 1 Twilight Keeper Exeter
+.kill 1 Twilight Keeper Exeter##11803
 .goto Silithus,16.09,86.37
 .complete 8279,2 >>Collect Twilight Lexicon - Chapter 2
 
@@ -372,7 +372,7 @@ LLG.RegisterGuide([[
 >>Run around the bug area
 .goto Silithus,66.32,70.03
 >>Enter the cave
-.talk Hermit Ortell
+.talk Hermit Ortell##15194
 >>en:Standing inside the cave.
 >>de:Standing inside the cave.
 >>Inside the cave.
@@ -385,7 +385,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Hermit Ortell
+.talk Hermit Ortell##15194
 >>en:Standing inside the cave.
 >>de:Standing inside the cave.
 >>Inside the cave.
@@ -397,7 +397,7 @@ LLG.RegisterGuide([[
 >>Follow the path up into Cenarion Hold
 .goto Silithus,49.61,36.05
 >>Enter the building
-.talk Commander Mar'alith
+.talk Commander Mar'alith##15181
 >>en:Standing on the balcony in the very back of this big building.
 >>de:Standing on the balcony in the very back of this big building.
 >>Outside, on the balcony of the building.
@@ -406,7 +406,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Umi Rumplesnicker
+.talk Umi Rumplesnicker##10305
 >>en:Standing next to a broken down robot, under a blue canopy.
 >>de:Standing next to a broken down robot, under a blü canopy.
 .goto Winterspring,60.88,37.62
@@ -415,7 +415,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,40.73,35.75
 >>Follow the road
-.talk Umber
+.talk Umber##11939
 >>He walks around this area.
 .goto Moonglade,44.89,35.59
 .turnin Umber, Archivist##6844
@@ -426,7 +426,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,51.47,41.44
 >>Enter the building
-.talk Rabine Saturna
+.talk Rabine Saturna##11801
 >>en:Inside a long house, standing on the balcony, overlooking the lake.
 >>de:In einem Langhaus, steht auf dem Balkon mit Blick auf den See.
 >>Inside the building.
@@ -436,7 +436,7 @@ LLG.RegisterGuide([[
 .turnin Uncovering Past Secrets##6845
 
 #step
-.talk Umber
+.talk Umber##11939
 >>He walks around this area.
 .goto Moonglade,44.89,35.59
 .accept Under the Chitin Was...##1185

@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.talk Hansel Heavyhands
+.talk Hansel Heavyhands##14627
 >>en:Standing next to some boxes at the corner of the building.
 >>de:Standing next to some boxes at the corner of the building.
 .goto Searing Gorge,38.57,27.80
@@ -33,21 +33,21 @@ LLG.RegisterGuide([[
 .accept Incendosaurs? Whateverosaur is More Like It##7727
 
 #step
-.talk Master Smith Burninate
+.talk Master Smith Burninate##14624
 >>en:Standing under a white canopy, next to a forge.
 >>de:Standing under a white canopy, next to a forge.
 .goto Searing Gorge,38.77,28.50
 .accept What the Flux?##7722
 
 #step
-.click Wanted/Missing/Lost & Found
+.click Wanted/Missing/Lost & Found##179827
 .goto Searing Gorge,37.63,26.53
 .accept STOLEN: Smithing Tuyere and Lookout's Spyglass##7728
 .goto Searing Gorge,37.63,26.53
 .accept JOB OPPORTUNITY: Culling the Competition##7729
 
 #step
-.kill 1 Dark Iron Lookout
+.kill 1 Dark Iron Lookout##8566
 >>They are around the watch towers on the cliff surrounding the huge pit.
 .goto Searing Gorge,33.03,53.44
 .complete 7728,2 >>Collect Lookout's Spyglass
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 >>[Searing Gorge 52.47,57.97]
 
 #step
-.kill 1 Dark Iron Steamsmith
+.kill 1 Dark Iron Steamsmith##5840
 >>They have a roughly 5 minute respawn time.
 >>Work on the other quests around this area while waiting for them to respawn.
 .goto Searing Gorge,39.13,49.64
@@ -88,7 +88,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,44.45,37.35
 >>Cross the bridge
-.click Secret Plans: Fiery Flux
+.click Secret Plans: Fiery Flux##179826
 >>It looks like an {o}unrolled scroll on a bench{}.
 >>Inside the cave.
 >>{o}Overseer Maltorius{} can be a {o}very deadly{} enemy, so you {o}may need help{} with this.
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,47.52,46.46
 >>Leave the cave
-.talk Hansel Heavyhands
+.talk Hansel Heavyhands##14627
 >>en:Standing next to some boxes at the corner of the building.
 >>de:Standing next to some boxes at the corner of the building.
 .goto Searing Gorge,38.59,27.81
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 .turnin Incendosaurs? Whateverosaur is More Like It##7727
 
 #step
-.talk Taskmaster Scrange
+.talk Taskmaster Scrange##14626
 >>en:Standing under a canopy next to a big barrel.
 >>de:Standing under a canopy next to a big barrel.
 .goto Searing Gorge,38.98,27.51
@@ -128,7 +128,7 @@ LLG.RegisterGuide([[
 .turnin JOB OPPORTUNITY: Culling the Competition##7729
 
 #step
-.talk Master Smith Burninate
+.talk Master Smith Burninate##14624
 >>en:Standing under a white canopy, next to a forge.
 >>de:Standing under a white canopy, next to a forge.
 .goto Searing Gorge,38.77,28.50
@@ -139,12 +139,12 @@ LLG.RegisterGuide([[
 >>Jump down onto the metal walkway here
 .goto Searing Gorge,49.58,45.49
 >>Enter the cave
-.only walking
+.only rep('Thorium and Brotherhood') < Friendly
 
 #step
 .goto Searing Gorge,47.73,41.92
 >>Jump down from the bridge inside the cave
-.kill 1 Incendosaur
+.kill 1 Incendosaur##9318
 >>Inside the cave.
 .goto Searing Gorge,51.73,37.16
 >>Collect Incendosaur Scale for Thorium Brotherhood (Friendly)
@@ -152,6 +152,7 @@ LLG.RegisterGuide([[
 >>You can find more around:
 >>[Searing Gorge 50.37,24.75]
 >>[Searing Gorge 45.03,21.73]
+.only rep('Thorium and Brotherhood') < Friendly
 
 #step
 >>Farm or Buy Items
@@ -164,36 +165,39 @@ LLG.RegisterGuide([[
 >>Collect Heavy Leather for Thorium Brotherhood (Friendly)
 >>Collect Iron Bar for Thorium Brotherhood (Friendly)
 >>Collect Kingsblood for Thorium Brotherhood (Friendly)
+.only rep('Thorium and Brotherhood') < Friendly
 
 #step
-.talk Master Smith Burninate
+.talk Master Smith Burninate##14624
 >>en:Standing under a white canopy, next to a forge.
 >>de:Standing under a white canopy, next to a forge.
 >>Buy the amount of {o}Coal{} you need to reach {o}Friendly{} reputation.
-.kill 1 Coal
+.kill 1 Coal##3857
 .goto Searing Gorge,38.80,28.51
 >>Collect Coal for Thorium Brotherhood (Friendly)
+.only rep('Thorium and Brotherhood') < Friendly
 
 #step
-.talk Master Smith Burninate
+.talk Master Smith Burninate##14624
 >>en:Standing under a white canopy, next to a forge.
 >>de:Standing under a white canopy, next to a forge.
 >>Complete the {o}repeatable quest{} he offers that you {o}have the items for{}.
 .goto Searing Gorge,38.80,28.51
->>Reach Friendly Reputation with the Thorium Brotherhood Faction
+.condition rep ('Thorium Brotherhood') >= Friendly >>Reach Friendly Reputation with the Thorium Brotherhood Faction
 
 #step
 >>Collect Dark Iron Residue for Thorium Brotherhood (Honored)
 >>You can {o}collect{} these from {o}killing enemies{} in the {o}Blackrock Depths{} dungeon.
 >>You can also {o}buy it from the Auction House{}, and it's usually cheap{}.
+.only rep('Thorium and Brotherhood') < Honored
 
 #step
-.talk Master Smith Burninate
+.talk Master Smith Burninate##14624
 >>en:Standing under a white canopy, next to a forge.
 >>de:Standing under a white canopy, next to a forge.
 >>Complete the {o}Gaining Acceptance{} quest {o}repeatedly{}.
 .goto Searing Gorge,38.80,28.51
->>Reach Honored Reputation with the Thorium Brotherhood Faction
+.condition rep ('Thorium Brotherhood') >= Honored >>Reach Honored Reputation with the Thorium Brotherhood Faction
 
 #step
 >>Farm or Buy Items
@@ -208,10 +212,11 @@ LLG.RegisterGuide([[
 >>Collect Lava Core for Thorium Brotherhood (Exalted)
 >>Collect Blood of the Mountain for Thorium Brotherhood (Exalted)
 >>Collect Core Leather for Thorium Brotherhood (Exalted)
+.only rep('Thorium and Brotherhood') < Exalted
 
 #step
-.talk Lokhtos Darkbargainer
+.talk Lokhtos Darkbargainer##12944
 >>In the Grim Guzzler (bar area) inside {o}Blackrock Depths{}.
 >>Complete the {o}repeatable quest{} he offers that you {o}have the items for{}.
->>Reach Exalted Reputation with the Thorium Brotherhood Faction
+.condition rep ('Thorium Brotherhood') >= Exalted >>Reach Exalted Reputation with the Thorium Brotherhood Faction
 ]])

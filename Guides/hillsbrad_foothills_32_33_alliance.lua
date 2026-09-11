@@ -16,21 +16,21 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Darren Malvew
+.talk Darren Malvew##2382
 >>en:To the right of the stables.
 >>de:Rechts der Stallungen.
 .goto Hillsbrad Foothills,52.42,55.96
 .accept Costly Menace##564
 
 #step
-.talk Loremaster Dibbs
+.talk Loremaster Dibbs##2277
 >>en:Standing in front of a little house.
 >>de:Steht vor einem kleinen Haus.
 .goto Hillsbrad Foothills,50.57,57.09
 .turnin Southshore##538
 
 #step
-.talk Wesley
+.talk Wesley##9978
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 5" to your permanent pet.
 .goto Hillsbrad Foothills,50.42,58.80
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Lieutenant Farren Orinelle
+.talk Lieutenant Farren Orinelle##2228
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -48,7 +48,7 @@ LLG.RegisterGuide([[
 .accept Down the Coast##536
 
 #step
-.talk Chef Jessen
+.talk Chef Jessen##2430
 >>en:Standing in the back room of the inn, next to a table with chopped meat on it.
 >>de:Steht im Hinterzimmer des Gasthauses, neben einem Tisch mit zerkleinertem Fleisch.
 >>Inside the building.
@@ -85,7 +85,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Lieutenant Farren Orinelle
+.talk Lieutenant Farren Orinelle##2228
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Lieutenant Farren Orinelle
+.talk Lieutenant Farren Orinelle##2228
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -125,7 +125,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Leave the building
-.talk Marshal Redpath
+.talk Marshal Redpath##2263
 >>en:Next to a well.
 >>de:Neben einem Brunnen.
 .goto Hillsbrad Foothills,49.48,58.73
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.00,59.12
 >>Enter the building
-.talk Magistrate Henry Maleb
+.talk Magistrate Henry Maleb##2276
 >>en:Inside the town hall, in the big room.
 >>de:Im Rathaus, im großen Raum.
 >>Inside the building.
@@ -149,7 +149,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Lieutenant Farren Orinelle
+.talk Lieutenant Farren Orinelle##2228
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -200,7 +200,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Lieutenant Farren Orinelle
+.talk Lieutenant Farren Orinelle##2228
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Leave the building
-.talk Bartolo Ginsetti
+.talk Bartolo Ginsetti##2438
 .goto Hillsbrad Foothills,49.60,55.80
 .accept Bartolo's Yeti Fur Cloak##565
 .only subzone("Southshore")
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Hillsbrad Foothills,49.31,55.49
 >>Enter the building
-.talk Micha Yance
+.talk Micha Yance##2381
 >>en:He is in the large house standing next to the fireplace|
 >>de:Er ist im großen Haus und steht neben dem Kamin.|
 >>Inside the building.
@@ -246,7 +246,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.31,55.49
 >>Leave the building
-.click Alterac Granite
+.click Alterac Granite##2714
 >>They look like flat grey stones standing upright near the walls inside the cave.
 >>only hardcore :: Watch for patrols and respawns while inside the cave.
 .goto Hillsbrad Foothills,46.18,31.83
@@ -269,7 +269,7 @@ LLG.RegisterGuide([[
 .only subzone("Darrow and Hill")
 
 #step
-.click Syndicate Documents
+.click Syndicate Documents##1738
 >>Be careful, the enemies in these camps respawn pretty quickly.
 >>If you have trouble, try to find someone to help you.
 .goto Alterac Mountains,58.30,68.00
@@ -308,7 +308,7 @@ LLG.RegisterGuide([[
 >>[32.86,83.10]
 
 #step
-.kill 1 Snapjaw
+.kill 1 Snapjaw##2408
 .goto Hillsbrad Foothills,70.16,11.90
 .complete 555,1 >>Collect 10 Turtle Meat
 >>Be careful not to accidentally sell these to a vendor.
@@ -324,7 +324,7 @@ LLG.RegisterGuide([[
 >>Follow the path north to the road
 .goto Alterac Mountains,80.02,42.29
 >>Follow the road
-.talk Bibilfaz Featherwhistle
+.talk Bibilfaz Featherwhistle##12596
 >>en:Next to the big eagles.
 >>de:Neben den großen Adlern.
 .goto Western Plaguelands,42.93,85.06
@@ -332,19 +332,19 @@ LLG.RegisterGuide([[
 .only walking and not zone("Western and Plaguelands")
 
 #step
-.talk Darren Malvew
+.talk Darren Malvew##2382
 >>en:To the right of the stables.
 >>de:Rechts der Stallungen.
 .goto Hillsbrad Foothills,52.42,55.96
 .turnin Costly Menace##564
 
 #step
-.talk Bartolo Ginsetti
+.talk Bartolo Ginsetti##2438
 .goto Hillsbrad Foothills,49.60,55.80
 .turnin Bartolo's Yeti Fur Cloak##565
 
 #step
-.talk Loremaster Dibbs
+.talk Loremaster Dibbs##2277
 >>en:Standing in front of a little house.
 >>de:Steht vor einem kleinen Haus.
 .goto Hillsbrad Foothills,50.57,57.09
@@ -355,7 +355,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Chef Jessen
+.talk Chef Jessen##2430
 >>en:Standing in the back room of the inn, next to a table with chopped meat on it.
 >>de:Steht im Hinterzimmer des Gasthauses, neben einem Tisch mit zerkleinertem Fleisch.
 >>Inside the building.
@@ -365,7 +365,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Leave the building
-.talk Phin Odelic
+.talk Phin Odelic##2711
 >>en:To the right of the entrance to the inn, next to a cart.
 >>de:Rechts vom Eingang zum Gasthaus, neben einem Karren.
 .goto Hillsbrad Foothills,50.34,59.05
@@ -375,7 +375,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.02,59.12
 >>Enter the building
-.talk Magistrate Henry Maleb
+.talk Magistrate Henry Maleb##2276
 >>en:Inside the town hall, in the big room.
 >>de:Im Rathaus, im großen Raum.
 >>Inside the building.

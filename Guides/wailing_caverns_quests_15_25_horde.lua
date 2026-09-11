@@ -19,7 +19,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.59,28.56
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .only of not haveq(870) or completedq(870)
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Barrens Oasis##886
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 >>Underwater.
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Forgotten Pools##870
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Stagnant Oasis##877
@@ -69,13 +69,13 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.kill 1 Oasis Snapjaw
+.kill 1 Oasis Snapjaw##3461
 >>Underwater and along the edges of the water around this area.
 .goto The Barrens,55.53,42.70
 .complete 880,1 >>Collect 8 Altered Snapjaw Shell
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin Altered Beings##880
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 .accept Hamuul Runetotem##1489
 
 #step
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.59,28.56
@@ -92,7 +92,7 @@ LLG.RegisterGuide([[
 .accept Nara Wildmane##1490
 
 #step
-.talk Nara Wildmane
+.talk Nara Wildmane##5770
 >>en:To the right as you enter the big building.
 >>de:To the right as you enter the big building.
 >>Inside the building.
@@ -104,7 +104,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.89,29.80
 >>Enter the cave
-.talk Apothecary Zamah
+.talk Apothecary Zamah##3419
 >>en:Inside the cave beneath the hanging bridge.
 >>de:Inside the cave beneath the hanging bridge.
 >>Inside the cave.
@@ -112,21 +112,21 @@ LLG.RegisterGuide([[
 .accept Serpentbloom##962
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .accept Raptor Horns##865
 
 #step
-.kill 1 Sunscale Scytheclaw
+.kill 1 Sunscale Scytheclaw##3256
 >>They look like purple raptors.
 .goto The Barrens,43.36,15.57
 .complete 865,1 >>Collect 5 Intact Raptor Horn
 >>You can find more around [45.27,14.94]
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
@@ -135,7 +135,7 @@ LLG.RegisterGuide([[
 .accept Smart Drinks##1491
 
 #step
-.talk Crane Operator Bigglefuzz
+.talk Crane Operator Bigglefuzz##3665
 .goto The Barrens,63.09,37.61
 .accept Trouble at the Docks##959
 
@@ -153,19 +153,19 @@ LLG.RegisterGuide([[
 .goto The Barrens,45.77,36.16
 >>Jump down carefully here
 >>Aim for the stone.
->>'
+.condition completedq(1486) and completedq(1487)
 .only walking
 
 #step
 .goto The Barrens,45.85,35.95
 >>Enter the cave
-.talk Nalpak
+.talk Nalpak##5767
 >>Inside the cave.
 .goto The Barrens,45.98,35.66
 .accept Deviate Hides##1486
 
 #step
-.talk Ebru
+.talk Ebru##5768
 >>Inside the cave.
 .goto The Barrens,46.01,35.74
 .accept Deviate Eradication##1487
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 >>Continue follow the path
 .goto The Barrens,45.94,34.24
 >>Follow the path
-.kill 1 Mad Magglish
+.kill 1 Mad Magglish##3655
 >>He is stealthed inside the cave.
 .goto The Barrens,45.69,33.60
 .complete 959,1 >>Collect 99-Year-Old Port
@@ -192,20 +192,20 @@ LLG.RegisterGuide([[
 >>Enter the Wailing Caverns Dungeon with Your Group
 
 #step
-.kill 1 Lady Anacondra
+.kill 1 Lady Anacondra##3671
 >>She is the first boss of the dungeon.
 >>She can spawn at several locations in the Screaming Gully.
 .complete 914,2 >>Collect Gem of Anacondra
 
 #step
-.kill 1 Lord Cobrahn
+.kill 1 Lord Cobrahn##3669
 >>He is the second boss of the dungeon.
 >>Follow the water path west from the Screaming Gully into the Pit of Fangs.
 >>Follow the path up and around through the Pit of Fangs.
 .complete 914,1 >>Collect Gem of Cobrahn
 
 #step
-.kill 1 Lord Pythas
+.kill 1 Lord Pythas##3670
 >>He is the third boss of the dungeon.
 >>Leave the Pit of Fangs and reenter the Screaming Gully.
 >>Follow the water path east to briefly enter The Wailing Caverns and then the Crag of the Everliving.
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 .complete 914,3 >>Collect Gem of Pythas
 
 #step
-.kill 1 Lord Serpentis
+.kill 1 Lord Serpentis##3673
 >>After killing Lord Pythas in the Winding Chasm, head southeast to enter The Wailing Caverns.
 >>Continue south a short distance and head left after reaching an area with lots of small white candles on the ground and a Druid of the Fang.
 >>You will now be back in the Winding Chasm, continue straight southeast through this cave section, passing a pool of water on your left.
@@ -230,7 +230,7 @@ LLG.RegisterGuide([[
 .complete 1491,1 >>Collect 6 Wailing Essence
 
 #step
-.click Serpentbloom
+.click Serpentbloom##13874
 >>They look like small green, purple and pink plants along the walls inside of the dungeon.
 .complete 962,1 >>Collect 10 Serpentbloom
 
@@ -256,19 +256,18 @@ LLG.RegisterGuide([[
 >>They are found in the Winding Chasm.
 
 #step
-.talk Disciple of Naralex
+.talk Disciple of Naralex##3678
 >>He is standing at the dungeon entrance.
 >>Select _"Let the event begin!"_
 >>This will only be an available option once the previous bosses have been killed.
 >>Escort the Disciple of Naralex
 >>Kill the enemies that spawn and attack and don't let him die.
 >>This will be easier if the Screaming Gully is already cleared of enemies.
-.kill 1 Mutanus the Devourer
+.kill 1 Mutanus the Devourer##3654
 >>He will spawn at Dreamer's Rock, after several waves of enemies.
 .collect Glowing Shard,1
-.click the Glowing Shard
-.accept The Glowing Shard##6981
->>'
+.click the Glowing Shard##10441
+.accept The Glowing Shard##6981 |or
 
 #step
 >>Leave the Wailing Caverns Dungeon
@@ -292,31 +291,31 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,45.85,35.95
 >>Enter the cave
-.talk Nalpak
+.talk Nalpak##5767
 >>Inside the cave.
 .goto The Barrens,45.98,35.66
 .turnin Deviate Hides##1486
 
 #step
-.talk Ebru
+.talk Ebru##5768
 >>Inside the cave.
 .goto The Barrens,46.01,35.74
 .turnin Deviate Eradication##1487
 
 #step
-.talk Mebok Mizzyrix
+.talk Mebok Mizzyrix##3446
 >>en:Under a blue canopy with a green stripe on it.
 >>de:Under a blü canopy with a green stripe on it.
 .goto The Barrens,62.37,37.62
 .turnin Smart Drinks##1491
 
 #step
-.talk Crane Operator Bigglefuzz
+.talk Crane Operator Bigglefuzz##3665
 .goto The Barrens,63.09,37.61
 .turnin Trouble at the Docks##959
 
 #step
-.talk Sputtervalve
+.talk Sputtervalve##3442
 >>en:Under a green canopy.
 >>de:Under a green canopy.
 >>Select _"Tell me about the Glowing Shard."_
@@ -331,7 +330,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto The Barrens,49.17,34.09
 >>Continue up the path
-.talk Falla Sagewind
+.talk Falla Sagewind##8418
 >>Inside the building.
 .goto The Barrens,48.18,32.78
 .turnin The Glowing Shard##6981
@@ -342,7 +341,7 @@ LLG.RegisterGuide([[
 .only haveq(3366) or completedq(3366)
 
 #step
-.talk Nara Wildmane
+.talk Nara Wildmane##5770
 >>en:To the right as you enter the big building.
 >>de:To the right as you enter the big building.
 >>Inside the building.
@@ -350,7 +349,7 @@ LLG.RegisterGuide([[
 .turnin Leaders of the Fang##914
 
 #step
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.59,28.56
@@ -359,7 +358,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.89,29.80
 >>Enter the cave
-.talk Apothecary Zamah
+.talk Apothecary Zamah##3419
 >>en:Inside the cave beneath the hanging bridge.
 >>de:Inside the cave beneath the hanging bridge.
 >>Inside the cave.

@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Azzleby
+.talk Azzleby##11119
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 7" to your permanent pet.
 .goto Winterspring,60.39,37.92
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Arathandris Silversky
+.talk Arathandris Silversky##9528
 >>en:Off the road to the right, up the hill.
 >>de:Off the road to the right, up the hill.
 >>She walks around this area.
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 .turnin Cleansing Felwood##4101
 
 #step
-.talk Arathandris Silversky
+.talk Arathandris Silversky##9528
 >>en:Off the road to the right, up the hill.
 >>de:Off the road to the right, up the hill.
 >>She walks around this area.
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,60.92,15.98
 >>Follow the road south to Emerald Sanctuary
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 >>She walks around this area.
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,51.26,81.70
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 .turnin Further Corruption##4906
 
 #step
-.talk Taronn Redfeather
+.talk Taronn Redfeather##10921
 >>en:Standing in a big hut.
 >>de:Standing in a big hut.
 >>Inside the building.
@@ -114,17 +114,18 @@ LLG.RegisterGuide([[
 >>[48.77,89.62]
 
 #step
-.talk Grazle
+.talk Grazle##11554
 >>en:Standing to the side of the road, next to a huge tree.
 >>de:Steht am Straßenrand, neben einem riesigen Baum.
 >>Each turnin is 5 feathers, you should have enough to do multiple turnins.
 .goto Felwood,51.00,85.00
 .accept Feathers for Grazle##8466
+.only itemcount(21377) >= 5
 
 #step
 .goto Felwood,49.56,88.70
 >>Leave Deadwood Village
-.talk Arathandris Silversky
+.talk Arathandris Silversky##9528
 >>en:Off the road to the right, up the hill.
 >>de:Off the road to the right, up the hill.
 >>She walks around this area.

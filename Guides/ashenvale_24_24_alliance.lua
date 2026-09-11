@@ -22,14 +22,14 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.talk Shindrell Swiftfire
+.talk Shindrell Swiftfire##3845
 >>en:Next to a sign post.
 >>de:Next to a sign post.
 .goto Ashenvale,34.67,48.84
 .turnin Pridewings of Stonetalon##1134
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -73,7 +73,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,50.12,66.47
 >>Enter the building
-.talk Sentinel Velene Starstrike
+.talk Sentinel Velene Starstrike##3885
 >>en:In the big building, to the right as you enter.
 >>de:In the big building, to the right as you enter.
 >>Inside the building.
@@ -81,7 +81,7 @@ LLG.RegisterGuide([[
 .accept Elemental Bracers##1016
 
 #step
-.kill 1 Befouled Water Elemental
+.kill 1 Befouled Water Elemental##3917
 >>You can find more in the water surrounding this small island.
 >>Be careful of Tideress, a level 27 green water elemental that moves around this area.
 >>These enemies are immune to frost damage.
@@ -89,11 +89,11 @@ LLG.RegisterGuide([[
 .complete 1016 >>Collect 5 Intact Elemental Bracer
 
 #step
-.click the Divining Scroll
+.click the Divining Scroll##5456
 .complete 1016,1 >>Collect Divined Scroll
 
 #step
-.talk Sentinel Velene Starstrike
+.talk Sentinel Velene Starstrike##3885
 >>en:In the big building, to the right as you enter.
 >>de:In the big building, to the right as you enter.
 >>Inside the building.
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 .turnin Elemental Bracers##1016
 
 #step
-.talk Jarrodenus
+.talk Jarrodenus##12577
 >>en:Next to 2 hippogryphs.
 >>de:Neben 2 Hippogryphen.
 >>This step is necessary to access some flight paths to Ratchet.
@@ -111,7 +111,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,41.67,49.97
 >>Follow the path up
-.kill 1 Dal Bloodclaw
+.kill 1 Dal Bloodclaw##3987
 >>He looks like a grey furbolg that walks around this area.
 >>only hardcore :: Avoid pulling him when near buildings.
 >>only hardcore :: Clear an area before engaging.
@@ -131,7 +131,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Thistlefur and Village")
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -164,14 +164,14 @@ LLG.RegisterGuide([[
 .complete 971,1 >>Collect Lorgalis Manuscript
 
 #step
-.talk Argent Guard Thaelrid
+.talk Argent Guard Thaelrid##4787
 >>Head southwest again in The Pool of Ask'ar and swim into the underwater cave.
 >>He is laying on the ground inside the underwater cave.
 .turnin In Search of Thaelrid##1198
 .accept Blackfathom Villainy##1200
 
 #step
-.kill 1 Twilight Lord Kelris
+.kill 1 Twilight Lord Kelris##4832
 >>The fourth boss of the dungeon.
 >>Leave the underwater cave and reenter the main room in The Pool of Ask'ar.
 >>Swim south and follow the path to the left to reach the Moonshrine Ruins.
@@ -193,7 +193,7 @@ LLG.RegisterGuide([[
 .complete 971 >>Click Here to Continue
 
 #step
-.talk Terenthis
+.talk Terenthis##3693
 >>en:Next to two bookcases on the first floor of the house across the road from the gazebo.
 >>de:Neben zwei Bücherregalen im Erdgeschoss des Hauses auf der anderen Straßenseite vom Pavillon.
 >>Inside the building.
@@ -202,33 +202,33 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Gershala Nightwhisper
+.talk Gershala Nightwhisper##8997
 .goto Darkshore,38.33,43.04
 .turnin Researching the Corruption##1275
 
 #step
 .goto Darnassus,56.46,20.41
 >>Run up the ramp
-.talk Argent Guard Manados
+.talk Argent Guard Manados##4784
 >>Inside the building.
 .goto Darnassus,55.23,24.00
 .turnin Twilight Falls##1199
 .only walking
 
 #step
-.talk Dawnwatcher Selgorm
+.talk Dawnwatcher Selgorm##4783
 >>Inside the building.
 .goto Darnassus,56.17,24.38
 .turnin Blackfathom Villainy##1200
 
 #step
-.talk Jocaste
+.talk Jocaste##4146
 >>en:Standing in a big round wooden house thing.
 >>de:Steht in einem großen runden Holzhaus.
-.talk Syurna
-.talk Sildanair
-.talk Denatharion
-.talk Jandria
+.talk Syurna##4163
+.talk Sildanair##4089
+.talk Denatharion##4218
+.talk Jandria##4091
 .goto Darnassus,40.40,8.58
 .train
 .goto Darnassus,61.78,42.28

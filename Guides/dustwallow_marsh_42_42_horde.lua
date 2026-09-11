@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Zanara
+.talk Zanara##9552
 >>Buy enough ammo to fill your ammo bag, plus 5 extra stacks.
 >>You have a long grind coming up soon.
 .goto Dustwallow Marsh,35.50,30.09
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Overlord Mok'Morokk
+.talk Overlord Mok'Morokk##4500
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Dustwallow Marsh,36.30,31.42
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,36.83,32.41
 >>Enter the cave
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 >>Inside the cave.
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 .accept Identifying the Brood##1169
 
 #step
-.talk Tharg
+.talk Tharg##4502
 >>en:Standing next to the fence, under a small red canopy.
 >>de:Steht neben dem Zaun, unter einem kleinen roten Baldachin.
 .goto Dustwallow Marsh,37.37,31.39
@@ -59,14 +59,14 @@ LLG.RegisterGuide([[
 .click Here if you'd prefer to grind
 
 #step
-.kill 1 Deadmire
+.kill 1 Deadmire##4841
 >>He looks like a white crocodile that walks in a large pattern in the water around this area.
 >>He's level 45, but you should be able to kill him at this level.
 .complete 1205,1 >>Collect Deadmire's Tooth
 .only not hardcore
 
 #step
-.click Gizmorium Shipping Crate
+.click Gizmorium Shipping Crate##20727
 .goto Dustwallow Marsh,54.07,56.48
 .complete 1187,1 >>Collect Seaforium Booster
 
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,45.88,57.22
 >>Enter the building
-.talk Tabetha
+.talk Tabetha##6546
 >>en:Inside the small house and standing outside.
 >>de:Im kleinen Haus und draußen davor.
 >>Inside the building.
@@ -93,14 +93,14 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,55.47,65.33
 >>Follow the path up
-.click Mok'Morokk's Snuff
+.click Mok'Morokk's Snuff##19904
 >>only hardcore :: Searing Whelps are ranged attackers that hit fairly hard.
 .goto Dustwallow Marsh,44.53,66.04
 .complete 1166,1 >>Collect Mok'Morokk's Snuff
 .only walking and subzone("Tidefury and Cove")
 
 #step
-.click Mok'Morokk's Grog
+.click Mok'Morokk's Grog##19905
 >>only hardcore :: Searing Whelps are ranged attackers that hit fairly hard.
 .goto Dustwallow Marsh,38.67,65.58
 .complete 1166,2 >>Collect Mok'Morokk's Grog
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Dustwallow Marsh,37.29,68.69
 >>Continue following the path
-.click Mok'Morokk's Strongbox
+.click Mok'Morokk's Strongbox##19906
 >>Inside the cave.
 >>only hardcore :: Watch for patrols and respawns while in the cave.
 .goto Dustwallow Marsh,36.64,69.57
@@ -172,7 +172,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,36.83,32.42
 >>Enter the cave
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 >>Inside the cave.
@@ -182,21 +182,21 @@ LLG.RegisterGuide([[
 #step
 >>Watch the dialogue
 >>Inside the cave.
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 .goto Dustwallow Marsh,37.15,33.08
 .accept The Brood of Onyxia##1170
 
 #step
-.talk Tharg
+.talk Tharg##4502
 >>en:Standing next to the fence, under a small red canopy.
 >>de:Steht neben dem Zaun, unter einem kleinen roten Baldachin.
 .goto Dustwallow Marsh,37.37,31.39
 .turnin Army of the Black Dragon##1168
 
 #step
-.talk Overlord Mok'Morokk
+.talk Overlord Mok'Morokk##4500
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Dustwallow Marsh,36.30,31.42
@@ -209,7 +209,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,36.83,32.42
 >>Enter the cave
-.talk Draz'Zilb
+.talk Draz'Zilb##4501
 >>en:Standing in the back of the cave.
 >>de:Steht im hinteren Teil der Höhle.
 >>Inside the cave.
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 .turnin The Brood of Onyxia##1171
 
 #step
-.talk Nazeer Bloodpike
+.talk Nazeer Bloodpike##4791
 >>en:At the back of the camp, standing next to a red canopy.
 >>de:At the back of the camp, standing next to a red canopy.
 .goto Dustwallow Marsh,35.21,30.66
@@ -226,7 +226,7 @@ LLG.RegisterGuide([[
 .accept Report to Zor##1262
 
 #step
-.talk Zanara
+.talk Zanara##9552
 >>Buy enough ammo to fill your ammo bag, plus 5-6 extra stacks.
 >>You will be questing a while.
 .goto Dustwallow Marsh,35.50,30.09

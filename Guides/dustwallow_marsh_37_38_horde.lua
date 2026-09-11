@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -27,17 +27,17 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,48.19,79.69
 >>Enter the building
-.talk Shimra
+.talk Shimra##5817
 >>Inside the building.
 .goto Orgrimmar,47.91,80.35
-.kill 3 Soothing Spices
+.kill 3 Soothing Spices##3713
 >>Make sure to not accidentally sell these to a vendor.
 >>You will need them for a quest soon.
 
 #step
 .goto Orgrimmar,49.86,70.42
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Orgrimmar,49.58,69.12
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 .click Here if you'd prefer to grind
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -66,57 +66,57 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click Hoofprints
+.click Hoofprints##21015
 .goto Dustwallow Marsh,29.70,47.63
 .accept Suspicious Hoofprints##1268
 .only hardcore
 
 #step
-.click Theramore Guard Badge
+.click Theramore Guard Badge##21042
 >>It looks like a tiny metal object on the floor.
 .goto Dustwallow Marsh,29.83,48.24
 .accept Lieutenant Paval Reethe##1269
 .only hardcore
 
 #step
-.click Black Shield
+.click Black Shield##20992
 .goto Dustwallow Marsh,29.63,48.59
 .accept The Black Shield##1251
 .only hardcore
 
 #step
-.talk Mudcrush Durtfeet
+.talk Mudcrush Durtfeet##4503
 .goto Dustwallow Marsh,35.15,38.25
 .accept Hungry!##1177
 
 #step
-.talk Nazeer Bloodpike
+.talk Nazeer Bloodpike##4791
 >>en:At the back of the camp, standing next to a red canopy.
 >>de:At the back of the camp, standing next to a red canopy.
 .goto Dustwallow Marsh,35.21,30.66
 .accept Theramore Spies##1201
 
 #step
-.click Hoofprints
+.click Hoofprints##21015
 .goto Dustwallow Marsh,29.70,47.63
 .accept Suspicious Hoofprints##1268
 .only not hardcore
 
 #step
-.click Theramore Guard Badge
+.click Theramore Guard Badge##21042
 >>It looks like a tiny metal object on the floor.
 .goto Dustwallow Marsh,29.83,48.24
 .accept Lieutenant Paval Reethe##1269
 .only not hardcore
 
 #step
-.click Black Shield
+.click Black Shield##20992
 .goto Dustwallow Marsh,29.63,48.59
 .accept The Black Shield##1251
 .only not hardcore
 
 #step
-.talk Krog
+.talk Krog##4926
 >>en:Standing next to a cart and a bunch of boxes.
 >>de:Steht neben einem Wagen und einem Haufen Kisten.
 .goto Dustwallow Marsh,36.42,31.88
@@ -129,7 +129,7 @@ LLG.RegisterGuide([[
 .accept The Black Shield##1321
 
 #step
-.talk Do'gol
+.talk Do'gol##5087
 >>en:Standing next to a big bone wagon.
 >>de:Steht neben einem großen Knochenwagen.
 .goto Dustwallow Marsh,36.53,30.80
@@ -138,7 +138,7 @@ LLG.RegisterGuide([[
 .accept The Black Shield##1322
 
 #step
-.talk Shardi
+.talk Shardi##11899
 >>en:Standing in the back of the town, next to a red canopy.
 >>de:Steht hinten in der Stadt neben einem roten Baldachin.
 .goto Dustwallow Marsh,35.56,31.88
@@ -151,7 +151,7 @@ LLG.RegisterGuide([[
 >>This path will lead you to many locations to check for them.
 
 #step
-.talk "Stinky" Ignatz
+.talk "Stinky" Ignatz##4880
 >>de:Kneeling next to a pile of junk.
 >>Kill the raptors near him before accepting the quest.
 >>This is an escort quest.
@@ -168,20 +168,20 @@ LLG.RegisterGuide([[
 .complete 1270,1 >>Help Stinky Find Bogbean Leaves
 
 #step
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.43,26.27
 .accept Soothing Spices##1218
 >>You will need the Soothing Spices you purchased in Orgrimmar earlier in the guide.
 
 #step
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.43,26.27
 .turnin Soothing Spices##1218
 .goto Dustwallow Marsh,55.43,26.27
 .accept Jarl Needs Eyes##1206
 
 #step
-.click Loose Dirt
+.click Loose Dirt##20985
 .goto Dustwallow Marsh,55.44,25.93
 .accept The Lost Report##1238
 
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.talk Nazeer Bloodpike
+.talk Nazeer Bloodpike##4791
 >>en:At the back of the camp, standing next to a red canopy.
 >>de:At the back of the camp, standing next to a red canopy.
 .goto Dustwallow Marsh,35.21,30.66
@@ -236,7 +236,7 @@ LLG.RegisterGuide([[
 .turnin The Lost Report##1238
 
 #step
-.talk Do'gol
+.talk Do'gol##5087
 >>en:Standing next to a big bone wagon.
 >>de:Steht neben einem großen Knochenwagen.
 .goto Dustwallow Marsh,36.53,30.80
@@ -245,14 +245,14 @@ LLG.RegisterGuide([[
 .accept The Black Shield##1323
 
 #step
-.talk Krog
+.talk Krog##4926
 >>en:Standing next to a cart and a bunch of boxes.
 >>de:Steht neben einem Wagen und einem Haufen Kisten.
 .goto Dustwallow Marsh,36.42,31.88
 .turnin The Black Shield##1323
 
 #step
-.talk Mudcrush Durtfeet
+.talk Mudcrush Durtfeet##4503
 .goto Dustwallow Marsh,35.15,38.25
 .turnin Hungry!##1177
 
@@ -266,7 +266,7 @@ LLG.RegisterGuide([[
 .level 37
 
 #step
-.talk "Swamp Eye" Jarl
+.talk "Swamp Eye" Jarl##4792
 .goto Dustwallow Marsh,55.43,26.27
 .turnin Jarl Needs Eyes##1206
 
@@ -276,12 +276,12 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.click Loose Dirt
+.click Loose Dirt##20985
 .goto Dustwallow Marsh,55.44,25.93
 .accept The Severed Head##1239
 
 #step
-.talk Nazeer Bloodpike
+.talk Nazeer Bloodpike##4791
 >>en:At the back of the camp, standing next to a red canopy.
 >>de:At the back of the camp, standing next to a red canopy.
 .goto Dustwallow Marsh,35.21,30.66
@@ -292,7 +292,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.58
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
@@ -301,7 +301,7 @@ LLG.RegisterGuide([[
 .complete 1183 >>Collect Fuel Regulator Blueprints
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -310,7 +310,7 @@ LLG.RegisterGuide([[
 .accept The Eighteenth Pilot##1186
 
 #step
-.talk Razzeric
+.talk Razzeric##4706
 >>de:Standing next to some green bubbling tanks, next to a green canopy.
 .goto Thousand Needles,80.33,76.09
 .turnin The Eighteenth Pilot##1186
@@ -318,14 +318,14 @@ LLG.RegisterGuide([[
 .accept Razzeric's Tweaking##1187
 
 #step
-.talk Sage Truthseeker
+.talk Sage Truthseeker##3978
 >>Inside the building.
 .goto Thunder Bluff,34.41,46.90
 .accept Compendium of the Fallen##1049
 .only not Undead
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
@@ -334,7 +334,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.86,77.57
 >>Follow the path down
-.talk Apothecary Zinge
+.talk Apothecary Zinge##5204
 >>en:Standing against the back wall in the big underground room.
 >>de:Standing against the back wall in the big underground room.
 .goto Undercity,50.13,67.99
@@ -343,7 +343,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,47.90,76.49
 >>Follow the path up
-.talk Alessandro Luca
+.talk Alessandro Luca##7683
 >>en:Standing in a side shop behind a stone table.
 >>de:Steht in einem Seitenladen hinter einem Steintisch.
 .goto Undercity,58.62,54.67
@@ -354,7 +354,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.86,77.57
 >>Follow the path down
-.talk Apothecary Zinge
+.talk Apothecary Zinge##5204
 >>en:Standing against the back wall in the big underground room.
 >>de:Standing against the back wall in the big underground room.
 .goto Undercity,50.13,67.99
@@ -365,14 +365,14 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.15,64.37
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.20
 .accept Into The Scarlet Monastery##1048
 .only walking
 
 #step
-.talk Abigail Sawyer
-.kill 1 Massive Longbow
+.talk Abigail Sawyer##4604
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in major cities.
@@ -380,10 +380,10 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Undercity,54.70,38.76
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
-.talk Auctioneer Epitwee
+.talk Auctioneer Epitwee##8721
 >>Buy these items from the Auction House.
 >>If you can't get them, you can skip this step. They just make some quests easier to do later, but you can still get it done without them.
 >>There are more auction steps after this one, skip this step after completeing it and don't run to the mailbox yet.
@@ -392,7 +392,7 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Auctioneer Epitwee
+.talk Auctioneer Epitwee##8721
 >>Buy these items from the Auction House.
 >>Each item is for an individual optional quest. If you can't get them it's fine you'll just have to grind more later.
 >>This is the best time to get these items, but the quest is still a while away.
@@ -414,17 +414,17 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Geoffrey Hartwell
-.kill 1 Rondel
+.talk Geoffrey Hartwell##4600
+.kill 1 Rondel##2534
 >>If you can afford it.
 >>You will use it when you reach level 39.
 >>If you have better, skip this step.
 .goto Undercity,58.67,33.06
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2534) == 0
 
 #step
-.talk Auctioneer Naxxremis
+.talk Auctioneer Naxxremis##15683
 >>Buy these items from the Auction House.
 >>If you can't get them, you can kill enemies for them in the next few steps, but it will likely take a long time.
 >>You need these for your Whirlwind weapon class quest, which gives a big weapon upgrade.
@@ -442,26 +442,26 @@ LLG.RegisterGuide([[
 .only Warrior and not selfmade
 
 #step
-.kill 1 Cresting Exile
+.kill 1 Cresting Exile##2761
 .goto Arathi Highlands,66.71,30.04
 .collect Cresting Charm,8
 .only Warrior
 
 #step
-.kill 1 Thundering Exile
+.kill 1 Thundering Exile##2762
 .goto Arathi Highlands,52.05,50.59
 .collect Thundering Charm,8
 .only Warrior
 
 #step
-.kill 1 Burning Exile
+.kill 1 Burning Exile##2760
 >>Be careful to avoid Refuge Pointe while traveling here.
 .goto Arathi Highlands,25.40,30.28
 .collect Burning Charm,8
 .only Warrior
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Deposit these items into the bank.
 .goto Undercity,65.97,44.75
 >>Collect these items from the bank.
@@ -469,7 +469,7 @@ LLG.RegisterGuide([[
 .complete 1106 >>Collect Fizzle Brassbolts' Letter
 
 #step
-.talk Martha Strain
+.talk Martha Strain##5753
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
 >>After buying them, make sure to use them in your bags to learn the spells.
@@ -478,7 +478,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Hannah Akeley
+.talk Hannah Akeley##4575
 >>If you can afford it.
 >>Stock up on a few Runes of Teleportation to use to travel faster while leveling.
 .goto Undercity,82.78,15.83
@@ -494,7 +494,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.15,64.37
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.26,92.20
 .turnin Into The Scarlet Monastery##1048
 .only walking

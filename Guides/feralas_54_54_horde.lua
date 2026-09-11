@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Talo Thornhoof
+.talk Talo Thornhoof##7776
 >>en:Standing ina small house.
 >>de:Standing ina small house.
 >>Inside the building.
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,44.64,9.95
 >>Jump out of the building
-.talk Gregan Brewspewer
+.talk Gregan Brewspewer##7775
 >>en:Standing in a small camp, up on a big hill, next to a white tent and a bonfire.
 >>de:Standing in a small camp, up on a big hill, next to a white tent and a bonfire.
 >>Complete the repeatable "The Videre Elixir" quest.
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,45.01,62.18
 >>Enter the building
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 >>Restock on food and water while you're here.
 .goto Thunder Bluff,45.81,64.71
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,45.80,58.83
 >>Enter the building
-.talk Chesmu
+.talk Chesmu##8356
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Thunder Bluff,47.13,57.89
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .complete 3563 >>Collect Jes'rimon's Note
 
 #step
-.talk Bluff Runner Windstrider
+.talk Bluff Runner Windstrider##10881
 >>en:He walks around Thunder Bluff.
 >>de:He walks around Thunder Bluff.
 >>He walks around in Thunder Bluff.
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 >>This quest may not be avaialble if you've accepted other Plaguelands quests.
 
 #step
-.talk Magatha Grimtotem
+.talk Magatha Grimtotem##4046
 >>en:Standing inside a small hut.
 >>de:Standing inside a small hut.
 >>Inside the tent.
@@ -95,7 +95,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.16,29.88
 >>Enter the building
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.59,28.55
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .accept Un'Goro Soil##3761
 
 #step
-.talk Ghede
+.talk Ghede##9076
 >>en:Standing next to 3 big piles of dirt.
 >>de:Steht neben 3 großen Erdhaufen.
 >>Outside the tent.
@@ -123,7 +123,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.16,29.88
 >>Enter the building
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.59,28.57
@@ -131,7 +131,7 @@ LLG.RegisterGuide([[
 >>This will require you to have completed 'Un'Goro Soil' from the Un'Goro Crater (53-54) guide.
 
 #step
-.talk Bashana Runetotem
+.talk Bashana Runetotem##9087
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -141,12 +141,12 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Urek Thunderhorn
-.talk Ker Ragetotem
-.talk Siln Skychaser
-.talk Thurston Xane
-.talk Malakai Cross
-.talk Kym Wildmane
+.talk Urek Thunderhorn##3040
+.talk Ker Ragetotem##3043
+.talk Siln Skychaser##3030
+.talk Thurston Xane##3049
+.talk Malakai Cross##3045
+.talk Kym Wildmane##3036
 .goto Thunder Bluff,59.09,86.85
 .train
 .goto Thunder Bluff,57.63,85.53
@@ -169,7 +169,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.52,38.57
 >>Enter the building
-.talk Liv Rizzlefix
+.talk Liv Rizzlefix##8496
 >>en:Inside the small engineering looking hut.
 >>de:Inside the small engineering looking hut.
 >>Inside the building.
@@ -189,7 +189,7 @@ LLG.RegisterGuide([[
 .turnin Marvon's Workshop##4147
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78

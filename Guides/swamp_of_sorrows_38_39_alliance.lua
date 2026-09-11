@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,63.60,22.83
 >>Enter the building
-.talk Brohann Caskbelly
+.talk Brohann Caskbelly##5384
 >>Inside the building.
 .goto Stormwind City,64.33,20.66
 .accept In Search of The Temple##1448
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,39.84,85.25
 >>Enter the building
-.talk Angus Stern
+.talk Angus Stern##1141
 >>Inside the building.
 .goto Stormwind City,41.50,89.39
 .accept Morgan Stern##1260
@@ -43,8 +43,8 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,50.94,57.84
 >>Enter the building
-.talk Frederick Stover
-.kill 1 Massive Longbow
+.talk Frederick Stover##1298
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in Stormwind City and Ironforge.
@@ -52,12 +52,12 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Stormwind City,49.98,57.64
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
 .goto Stormwind City,29.14,74.17
 >>Enter the building
-.talk Spackle Thornberry
+.talk Spackle Thornberry##5520
 >>Downstairs inside the building.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -69,7 +69,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,75.56,45.37
 >>Enter the building
-.talk Alyssa Eva
+.talk Alyssa Eva##1673
 >>Inside the building.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -103,22 +103,22 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,17.74,55.71
 >>Follow the path
-.talk Watcher Biggs
+.talk Watcher Biggs##5476
 .goto Swamp of Sorrows,26.74,59.83
 .accept Encroaching Wildlife##1396
 .only walking and subzone("Itharius's and Cave")
 
 #step
-.kill 1 Noboru the Cudgel
+.kill 1 Noboru the Cudgel##5477
 >>He looks like a larger Lost One creature that walks around this area with 2 bodyguards.
 .collect Noboru's Cudgel,1
 
 #step
-.click Noboru's Cudgel
+.click Noboru's Cudgel##6196
 .accept Noboru the Cudgel##1392
 
 #step
-.talk Magtoor
+.talk Magtoor##1776
 .goto Swamp of Sorrows,25.99,31.40
 .turnin Noboru the Cudgel##1392
 .goto Swamp of Sorrows,25.99,31.40
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,17.74,55.71
 >>Follow the path
-.talk Watcher Biggs
+.talk Watcher Biggs##5476
 .goto Swamp of Sorrows,26.74,59.83
 .turnin Encroaching Wildlife##1396
 .goto Swamp of Sorrows,26.74,59.83
@@ -170,7 +170,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Itharius's and Cave")
 
 #step
-.kill 1 Ongeku
+.kill 1 Ongeku##5622
 >>He walks around this area, and can spawn in multiple locations.
 >>only hardcore :: Watch for enemies around the buildings here as they tend to aggro in groups.
 >>only hardcore :: Pull carefully while in the area.
@@ -181,7 +181,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Caravan Chest
+.click Caravan Chest##28024
 >>only hardcore :: Watch for enemies around the buildings here as they tend to aggro in groups.
 >>only hardcore :: Pull carefully while in the area.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -189,7 +189,7 @@ LLG.RegisterGuide([[
 .complete 1421,1 >>Collect Wizards' Reagents
 
 #step
-.talk Galen Goodward
+.talk Galen Goodward##5391
 >>This is an escort quest.
 >>If he's not here, someone may be escorting him.
 >>Wait until he respawns.
@@ -208,7 +208,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Draenethyst Crystal
+.click Draenethyst Crystal##22550
 >>They look like large clusters of blue crystals on the ground around this area.
 >>only hardcore :: Watch for enemies around the buildings here as they tend to aggro in groups.
 >>only hardcore :: Pull carefully while in the area.
@@ -222,18 +222,18 @@ LLG.RegisterGuide([[
 .complete 1448,1 >>Search for the Temple of Atal'Hakkar
 
 #step
-.click Galen's Strongbox
+.click Galen's Strongbox##32569
 .goto Swamp of Sorrows,47.81,39.76
 .turnin Galen's Escape##1393
 .only not hardcore
 
 #step
-.talk Magtoor
+.talk Magtoor##1776
 .goto Swamp of Sorrows,25.99,31.40
 .turnin Draenethyst Crystals##1389
 
 #step
-.talk Watcher Biggs
+.talk Watcher Biggs##5476
 .goto Swamp of Sorrows,26.74,59.83
 .turnin The Lost Caravan##1421
 
@@ -245,7 +245,7 @@ LLG.RegisterGuide([[
 .complete 1116,1 >>Collect 10 Speck of Dream Dust
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -254,7 +254,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -264,8 +264,8 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,50.94,57.84
 >>Enter the building
-.talk Frederick Stover
-.kill 1 Massive Longbow
+.talk Frederick Stover##1298
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in Stormwind City and Ironforge.
@@ -273,12 +273,12 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Stormwind City,49.98,57.64
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
 .goto Stormwind City,55.30,68.14
 >>Enter the building
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Stormwind City,57.66,72.78
@@ -287,7 +287,7 @@ LLG.RegisterGuide([[
 .complete 602 >>Collect Bag of Water Elemental Bracers
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building.
 >>You're about to travel to an area where there aren't poison vendors nearby.
 >>Stock up on poisons.
@@ -297,7 +297,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Olivia Burnside
+.talk Olivia Burnside##2455
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Stormwind City,57.66,72.78
@@ -305,7 +305,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,54.07,59.02
 >>Enter the building
-.talk Auctioneer Jaxon
+.talk Auctioneer Jaxon##15659
 >>Buy these items from the Auction House.
 >>If you can't get them, you can skip this step. They just make some quests easier to do later, but you can still get it done without them.
 .goto Stormwind City,53.61,59.76
@@ -314,19 +314,19 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,73.64,43.52
 >>Enter the building
-.talk Heinrich Stone
+.talk Heinrich Stone##1324
 >>Inside the building.
-.kill 1 Rondel
+.kill 1 Rondel##2534
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,74.37,42.56
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2534) == 0
 
 #step
 .goto Stormwind City,63.59,22.85
 >>Enter the building
-.talk Brohann Caskbelly
+.talk Brohann Caskbelly##5384
 >>Inside the building.
 .goto Stormwind City,64.33,20.66
 .turnin In Search of The Temple##1448
@@ -347,7 +347,7 @@ LLG.RegisterGuide([[
 .click Here if you'd prefer to grind
 
 #step
-.talk Roetten Stonehammer
+.talk Roetten Stonehammer##5637
 >>en:To the right as you enter the Hall of Explorers.
 >>de:To the right as you enter the Hall of Explorers.
 >>He walks around inside the building.
@@ -355,7 +355,7 @@ LLG.RegisterGuide([[
 .turnin The Karnitol Shipwreck##1457
 
 #step
-.talk Prospector Stormpike
+.talk Prospector Stormpike##1356
 >>en:Right inside the Library.
 >>de:Right inside the Library.
 >>Inside the building.
@@ -363,15 +363,15 @@ LLG.RegisterGuide([[
 .accept Further Mysteries##525
 
 #step
-.talk Librarian Mae Paledust
+.talk Librarian Mae Paledust##3979
 .goto Ironforge,74.97,12.46
 .accept Mythology of the Titans##1050
 
 #step
 .goto Ironforge,72.16,67.56
 >>Enter the building
-.talk Skolmin Goldfury
-.kill 1 Massive Longbow
+.talk Skolmin Goldfury##5122
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in Stormwind City and Ironforge.
@@ -379,12 +379,12 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Ironforge,71.76,66.70
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
 .goto Ironforge,26.10,72.19
 >>Enter the building
-.talk Auctioneer Redmuse
+.talk Auctioneer Redmuse##8720
 >>Inside the building.
 >>Buy these items from the Auction House.
 >>If you can't get them, you can kill enemies for them later, but it will likely take a long time.
@@ -403,19 +403,19 @@ LLG.RegisterGuide([[
 .only Warrior and not selfmade
 
 #step
-.kill 1 Cresting Exile
+.kill 1 Cresting Exile##2761
 .goto Arathi Highlands,66.71,30.04
 .collect Cresting Charm,8
 .only Warrior
 
 #step
-.kill 1 Thundering Exile
+.kill 1 Thundering Exile##2762
 .goto Arathi Highlands,52.05,50.59
 .collect Thundering Charm,8
 .only Warrior
 
 #step
-.kill 1 Burning Exile
+.kill 1 Burning Exile##2760
 >>Be careful to avoid Refuge Point while traveling here.
 .goto Arathi Highlands,25.40,30.28
 .collect Burning Charm,8

@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Malissa
+.talk Malissa##3135
 >>Walking around here.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Watchmaster Sorigal
+.talk Watchmaster Sorigal##5464
 >>en:Standing next to a cart on the side of the road.
 >>de:Standing next to a cart on the side of the road.
 .goto Duskwood,75.77,46.15
@@ -44,13 +44,13 @@ LLG.RegisterGuide([[
 >>Cross the bridge and follow the road
 .goto Deadwind Pass,52.29,43.58
 >>Follow the road into Swamp of Sorrows
-.talk Watcher Biggs
+.talk Watcher Biggs##5476
 .goto Swamp of Sorrows,26.74,59.83
 .accept Driftwood##1398
 .only walking and not zone("Swamp and of and Sorrows")
 
 #step
-.click Sundried Driftwood
+.click Sundried Driftwood##24798
 >>They look like wooden logs on the ground around this area.
 >>You can find them along this entire coast.
 >>only not subzone("Misty and Reed and Strand") :: Avoid Stonard as you travel here.
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 >>[81.33,10.31]
 
 #step
-.talk Watcher Biggs
+.talk Watcher Biggs##5476
 >>Avoid Stonard as you travel here.
 .goto Swamp of Sorrows,26.74,59.83
 .turnin Driftwood##1398
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 >>Enter Nethergarde Keep
 .goto Blasted Lands,66.38,18.99
 >>Enter the building
-.talk Watcher Mahar Ba
+.talk Watcher Mahar Ba##5385
 >>Inside the tower, at the top.
 .goto Blasted Lands,67.65,19.16
 .turnin Mazen's Behest##1364
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 #step
 .goto Blasted Lands,66.38,18.99
 >>Leave the building
-.talk Quartermaster Lungertz
+.talk Quartermaster Lungertz##5393
 >>en:Standing by himself in the stable yard.
 >>de:Standing by himself in the stable yard.
 .goto Blasted Lands,66.52,21.38
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 .only subzone("Nethergarde and Keep")
 
 #step
-.talk Alexandra Constantine
+.talk Alexandra Constantine##8609
 >>en:On top of the little tower with the spiral ramp.
 >>de:Oben auf dem kleinen Turm mit der spiralförmigen Rampe.
 >>On top of the wooden platform, outside behind the building.
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 .fly Nethergarde Keep
 
 #step
-.talk Watchmaster Sorigal
+.talk Watchmaster Sorigal##5464
 >>en:Standing next to a cart on the side of the road.
 >>de:Standing next to a cart on the side of the road.
 >>This quest is timed, so we will accept it now and quickly fly back to Nethergarde Keep to turn it in.
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 .accept Supplies for Nethergarde##1395
 
 #step
-.talk Quartermaster Lungertz
+.talk Quartermaster Lungertz##5393
 >>en:Standing by himself in the stable yard.
 >>de:Standing by himself in the stable yard.
 .goto Blasted Lands,66.52,21.38

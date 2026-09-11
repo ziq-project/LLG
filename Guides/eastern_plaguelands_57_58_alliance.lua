@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,69.30,45.04
 >>Cross into Eastern Plaguelands and follow the river north
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 .complete 6185,1 >>Collect SI:7 Insignia (Rutger)
 
 #step
-.talk Pamela Redpath
+.talk Pamela Redpath##10926
 >>en:She's a ghost child, walking around in a small broken down house.
 >>de:She's a ghost child, walking around in a small broken down house.
 >>She walks around this area inside this crumbled house.
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 .accept Pamela's Doll##5149
 
 #step
-.click Pamela's Doll's Head
+.click Pamela's Doll's Head##176116
 >>It looks like a brown ball, with two X's for eyes, with flies buzzing around it.
 >>It can be in any of the 3 buildings around this area.
 >>only hardcore :: Enemies may spawn after interacting with the doll.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .complete 5149 >>Collect Pamela's Doll's Head
 
 #step
-.click Pamela's Doll's Left Side
+.click Pamela's Doll's Left Side##176142
 >>It looks like a brown half of a doll, with one arm and one leg, with flies buzzing around it.
 >>It can be in any of the 3 buildings around this area.
 >>only hardcore :: Enemies may spawn after interacting with the doll.
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .complete 5149 >>Collect Pamela's Doll's Left Side
 
 #step
-.click Pamela's Doll's Right Side
+.click Pamela's Doll's Right Side##176143
 >>It looks like a brown half of a doll, with one arm and one leg, with flies buzzing around it.
 >>It can be in any of the 3 buildings around this area.
 >>only hardcore :: Enemies may spawn after interacting with the doll.
@@ -90,11 +90,11 @@ LLG.RegisterGuide([[
 .complete 5149 >>Collect Pamela's Doll's Right Side
 
 #step
-.click Pamela's Doll's Head
+.click Pamela's Doll's Head##12886
 .complete 5149,1 >>Collect Pamela's Doll
 
 #step
-.talk Pamela Redpath
+.talk Pamela Redpath##10926
 >>en:She's a ghost child, walking around in a small broken down house.
 >>de:She's a ghost child, walking around in a small broken down house.
 >>She walks around this area inside this crumbled house.
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 >>[71.11,56.12]
 
 #step
-.talk Caretaker Alen
+.talk Caretaker Alen##11038
 >>He walks around this area.
 .goto Eastern Plaguelands,79.54,63.77
 .accept Zaeldarr the Outcast##6021
@@ -142,14 +142,14 @@ LLG.RegisterGuide([[
 .accept The Restless Souls##5281
 
 #step
-.talk Duke Nicholas Zverenhoff
+.talk Duke Nicholas Zverenhoff##11039
 >>en:In front of a tent next to a campfire.
 >>de:In front of a tent next to a campfire.
 .goto Eastern Plaguelands,81.43,59.82
 .turnin Duke Nicholas Zverenhoff##6030
 
 #step
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.52,59.77
@@ -158,14 +158,14 @@ LLG.RegisterGuide([[
 .accept Defenders of Darrowshire##5211
 
 #step
-.talk Khaelyn Steelwing
+.talk Khaelyn Steelwing##12617
 >>en:Next to two big eagles.
 >>de:Neben zwei großen Adlern.
 .goto Eastern Plaguelands,81.63,59.28
 .fly Light's Hope Chapel
 
 #step
-.talk Aurora Skycaller
+.talk Aurora Skycaller##10304
 .goto Eastern Plaguelands,53.51,22.00
 .turnin Troubled Spirits of Kel'Theril##5245
 
@@ -188,7 +188,7 @@ LLG.RegisterGuide([[
 >>[49.69,35.97]
 
 #step
-.click Large Termite Mound
+.click Large Termite Mound##177464
 >>They look like large brown and white stones cracked open with green goo leaking out of the top of them around this area.
 >>only hardcore :: When fighting near the road, watch for a group of elite patrols and avoid them.
 .goto Eastern Plaguelands,45.90,34.10
@@ -211,7 +211,7 @@ LLG.RegisterGuide([[
 .kill 1 ghouls around this area
 >>Only enemies that look like ghouls will count.
 >>They share spawn points with other undead in the area.
-.talk Darrowshire Spirit
+.talk Darrowshire Spirit##11064
 >>They appear after you kill the ghouls.
 .goto Eastern Plaguelands,66.88,40.62
 .complete 5211,1 >>Free #15# Darrowshire Spirits
@@ -232,13 +232,13 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,14.59,33.47
 >>Enter the building
-.talk Egan
+.talk Egan##11140
 >>Inside the building.
 .goto Eastern Plaguelands,14.45,33.74
 .turnin The Restless Souls##5281
 
 #step
-.talk Augustus the Touched
+.talk Augustus the Touched##12384
 >>Inside the building.
 .goto Eastern Plaguelands,14.45,33.48
 .accept Augustus' Receipt Book##6164
@@ -254,13 +254,13 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,14.59,33.47
 >>Enter the building
-.talk Augustus the Touched
+.talk Augustus the Touched##12384
 >>Inside the building.
 .goto Eastern Plaguelands,14.45,33.48
 .turnin Augustus' Receipt Book##6164
 
 #step
-.kill 1 Carrion Grub
+.kill 1 Carrion Grub##8603
 >>Go out of your way to kill grubs, the drop rate can be bad.
 .goto Eastern Plaguelands,43.24,82.95
 .complete 5544,1 >>Collect 15 Slab of Carrion Worm Meat
@@ -275,7 +275,7 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,11.93,61.49
 >>Follow the path
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -292,7 +292,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -308,7 +308,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -318,19 +318,19 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,27.86,85.48
 >>Enter the crypt
-.kill 1 Zaeldarr the Outcast
+.kill 1 Zaeldarr the Outcast##12250
 >>Downstairs inside the crypt.
 .goto Eastern Plaguelands,27.46,84.88
 .complete 6021,1 >>Collect Zaeldarr's Head
 
 #step
-.talk Caretaker Alen
+.talk Caretaker Alen##11038
 >>He walks around this area.
 .goto Eastern Plaguelands,79.54,63.77
 .turnin Zaeldarr the Outcast##6021
 
 #step
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.52,59.76

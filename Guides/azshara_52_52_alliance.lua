@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Jarrodenus
+.talk Jarrodenus##12577
 >>en:Next to 2 hippogryphs.
 >>de:Neben 2 Hippogryphen.
 .goto Azshara,11.90,77.59
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Loh'atu
+.talk Loh'atu##11548
 >>en:Standing in front of a tent.
 >>de:Steht vor einem Zelt.
 .goto Azshara,11.37,78.16
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Watch for respawns while in the area.
 
 #step
-.talk Loh'atu
+.talk Loh'atu##11548
 >>en:Standing in front of a tent.
 >>de:Steht vor einem Zelt.
 .goto Azshara,11.37,78.17
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 .turnin A Land Filled with Hatred##5536
 
 #step
-.talk Brinna Valanaar
+.talk Brinna Valanaar##14301
 >>Buy enough ammo to fill your ammo bag, plus 12-15 extra stacks.
 >>You will be questing a while without easy access to an ammo vendor.
 .goto Azshara,12.00,78.38

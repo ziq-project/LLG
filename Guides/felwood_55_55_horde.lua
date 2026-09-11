@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Trull Failbane
+.talk Trull Failbane##10306
 >>en:Next to a campfire.
 .goto Felwood,34.73,52.79
 .turnin Wild Guardians##4521
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,37.69,49.42
 >>Run along the river to leave Bloodvenom Post
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 .goto Felwood,51.21,82.11
@@ -34,13 +34,13 @@ LLG.RegisterGuide([[
 .only walking and (subzone("Bloodvenom and Post") or subzone("Bloodvenom and River"))
 
 #step
-.talk Jessir Moonbow
+.talk Jessir Moonbow##11019
 .goto Felwood,51.35,82.01
 .turnin Rescue From Jaedenar##5203
 .only completedq(5203)
 
 #step
-.talk Maybess Riverbreeze
+.talk Maybess Riverbreeze##9529
 >>en:Standing off to the side of the road, in a small clearing.
 >>de:Standing off to the side of the road, in a small clearing.
 >>She walks around this area.
@@ -52,7 +52,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,51.26,81.70
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -68,7 +68,7 @@ LLG.RegisterGuide([[
 .complete 4084,2 >>Collect Irontree Heart
 
 #step
-.kill 1 Toxic Horror
+.kill 1 Toxic Horror##7132
 >>All around this green lake.
 .goto Felwood,49.42,23.51
 .complete 5086,1 >>Collect 3 Toxic Horror Droplet

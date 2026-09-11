@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -23,7 +23,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.08,39.26
 >>Enter the building
-.talk Innkeeper Wiley
+.talk Innkeeper Wiley##6791
 >>Inside the building.
 .goto The Barrens,62.05,39.41
 .hs
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.52,38.58
 >>Enter the building
-.talk Liv Rizzlefix
+.talk Liv Rizzlefix##8496
 >>en:Inside the small engineering looking hut.
 >>de:Inside the small engineering looking hut.
 >>Inside the building.
@@ -48,7 +48,7 @@ LLG.RegisterGuide([[
 .accept Volcanic Activity##4502
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Desposit these items into the bank.
 .goto The Barrens,62.64,37.42
 .goto The Barrens,62.64,37.42

@@ -19,21 +19,21 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Argos Nightwhisper
+.talk Argos Nightwhisper##4984
 .goto Stormwind City,21.41,55.77
 .accept The Corruption Abroad##3765
 
 #step
 .goto Ironforge,51.24,9.84
 >>Run up the stairs
-.talk Gerrig Bonegrip
+.talk Gerrig Bonegrip##2786
 >>Inside the building.
 .goto Ironforge,50.82,5.60
 .accept Knowledge in the Deeps##971
 .only walking
 
 #step
-.talk Gershala Nightwhisper
+.talk Gershala Nightwhisper##8997
 .goto Darkshore,38.33,43.04
 .turnin The Corruption Abroad##3765
 .goto Darkshore,38.33,43.04
@@ -42,14 +42,14 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,56.46,20.41
 >>Run up the ramp
-.talk Argent Guard Manados
+.talk Argent Guard Manados##4784
 >>Inside the building.
 .goto Darnassus,55.23,24.00
 .accept Twilight Falls##1199
 .only walking
 
 #step
-.talk Dawnwatcher Shaedlass
+.talk Dawnwatcher Shaedlass##4786
 >>Inside the building.
 .goto Darnassus,55.37,25.00
 .accept In Search of Thaelrid##1198
@@ -79,14 +79,14 @@ LLG.RegisterGuide([[
 .complete 971,1 >>Collect Lorgalis Manuscript
 
 #step
-.talk Argent Guard Thaelrid
+.talk Argent Guard Thaelrid##4787
 >>Head southwest again in The Pool of Ask'ar and swim into the underwater cave.
 >>He is laying on the ground inside the underwater cave.
 .turnin In Search of Thaelrid##1198
 .accept Blackfathom Villainy##1200
 
 #step
-.kill 1 Twilight Lord Kelris
+.kill 1 Twilight Lord Kelris##4832
 >>The fourth boss of the dungeon.
 >>Leave the underwater cave and reenter the main room in The Pool of Ask'ar.
 >>Swim south and follow the path to the left to reach the Moonshrine Ruins.
@@ -108,21 +108,21 @@ LLG.RegisterGuide([[
 .complete 971 >>Click Here to Continue
 
 #step
-.talk Gershala Nightwhisper
+.talk Gershala Nightwhisper##8997
 .goto Darkshore,38.33,43.04
 .turnin Researching the Corruption##1275
 
 #step
 .goto Darnassus,56.46,20.41
 >>Run up the ramp
-.talk Argent Guard Manados
+.talk Argent Guard Manados##4784
 >>Inside the building.
 .goto Darnassus,55.23,24.00
 .turnin Twilight Falls##1199
 .only walking
 
 #step
-.talk Dawnwatcher Selgorm
+.talk Dawnwatcher Selgorm##4783
 >>Inside the building.
 .goto Darnassus,56.17,24.38
 .turnin Blackfathom Villainy##1200
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,51.24,9.84
 >>Run up the stairs
-.talk Gerrig Bonegrip
+.talk Gerrig Bonegrip##2786
 >>Inside the building.
 .goto Ironforge,50.82,5.60
 .turnin Knowledge in the Deeps##971

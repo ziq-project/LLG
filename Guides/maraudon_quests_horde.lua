@@ -23,7 +23,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,38.75,83.33
 >>Enter the building
-.talk Uthel'nay
+.talk Uthel'nay##7311
 >>en:Standing inside a large troll hut.
 >>de:Steht in einer großen Trollhütte.
 >>Inside the building.
@@ -34,25 +34,25 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,23.61,70.08
 >>Run up the stairs
-.talk Vark Battlescar
+.talk Vark Battlescar##11823
 >>Upstairs inside the building.
 .goto Desolace,23.22,70.32
 .accept Vyletongue Corruption##7029
 .only walking
 
 #step
-.talk Selendra
+.talk Selendra##13699
 .goto Desolace,26.86,77.67
 .accept Corruption of Earth and Seed##7064
 
 #step
-.talk Willow
+.talk Willow##13656
 >>Inside the building.
 .goto Desolace,62.19,39.63
 .accept Twisted Evils##7028
 
 #step
-.talk Centuar Pariah
+.talk Centuar Pariah##13717
 >>en:He walks through the path behind the mountains
 >>He walks around this area.
 .goto Desolace,51.47,87.41
@@ -70,7 +70,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 The Nameless Prophet
+.kill 1 The Nameless Prophet##13718
 >>He spawns in multiple locations outside of the Maraudon dungeon.
 >>You may need help with this.
 .goto Desolace,38.31,57.96
@@ -98,10 +98,10 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,28.71,56.20
 >>Enter the cave
-.click the Amulet of Spirits
+.click the Amulet of Spirits##17757
 >>Use it on the Spirit of Gelk.
 >>He walks around this area.
-.kill 1 Gelk
+.kill 1 Gelk##13741
 .goto Desolace,38.47,57.29
 .complete 7067 >>Collect Gem of the Second Khan
 .only walking
@@ -124,9 +124,9 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,38.53,57.60
 >>Jump down here
-.click the Amulet of Spirits
+.click the Amulet of Spirits##17757
 >>Use it on the Spirit of Kolk.
-.kill 1 Kolk
+.kill 1 Kolk##13742
 .goto Desolace,38.50,57.72
 .complete 7067 >>Collect Gem of the First Khan
 .only walking
@@ -141,7 +141,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Cavindra
+.talk Cavindra##13697
 >>en:She's in the section outside of the instance that has orange crystals on the walls
 .goto Desolace,32.00,63.70
 .accept Legend of Maraudon##7044
@@ -149,7 +149,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,38.82,58.31
 >>Follow the path
-.click Coated Cerulean Vial
+.click Coated Cerulean Vial##17693
 .goto Desolace,38.92,58.36
 .complete 7029,2 >>Collect Filled Cerulean Vial
 .only walking
@@ -159,10 +159,10 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Desolace,39.35,58.03
 >>Continue following the path
-.click the Amulet of Spirits
+.click the Amulet of Spirits##17757
 >>Use it on the Spirit of Magra.
 >>He walks around this area.
-.kill 1 Magra
+.kill 1 Magra##13740
 .goto Desolace,39.20,57.68
 .complete 7067 >>Collect Gem of the Third Khan
 .only walking
@@ -178,27 +178,27 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Maraudon Dungeon:
-.kill 1 Noxxion
+.kill 1 Noxxion##13282
 >>It is the first boss on the Orange side of Maraudon.
 >>After entering the dungeon, run up the stairs and follow the path to the right whenever possible.
 .complete 7044,2 >>Collect Celebrian Rod
 
 #step
 >>Inside the Maraudon Dungeon:
-.click the Amulet of Spirits
+.click the Amulet of Spirits##17757
 >>Use it on the Spirit of Veng.
 >>He walks around the Orange side of Maraudon.
-.kill 1 Veng
+.kill 1 Veng##13738
 .complete 7067 >>Collect Gem of the Fifth Khan
 
 #step
 >>Inside the Maraudon Dungeon:
-.click the Filled Cerulean Vial
+.click the Filled Cerulean Vial##17696
 >>While in the Foulspore Cavern, or Orange side of Maraudon, there will be tree stumps with a red top.
 >>You won't be able to target them.
 >>They have five leaves growing out of them.
 >>Use the Filled Cerulean Vial near them and Noxxious Scion will spawn.
-.kill 1 Noxxious Scion
+.kill 1 Noxxious Scion##13696
 .complete 7029,1 >>Heal 8 Vylestem Vines
 
 #step
@@ -224,20 +224,20 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Maraudon Dungeon:
-.click the Amulet of Spirits
+.click the Amulet of Spirits##17757
 >>Use it on the Spirit of Maraudos.
 >>He walks around The Wicked Grotto in the Purple side of Maraudon.
-.kill 1 Maraudos
+.kill 1 Maraudos##13739
 .complete 7067 >>Collect Gem of the Fourth Khan
 
 #step
 >>Inside the Maraudon Dungeon:
-.click the Gem of the Fifth Khan
+.click the Gem of the Fifth Khan##17765
 .complete 7067,1 >>Collect Amulet of Union
 
 #step
 >>Inside the Maraudon Dungeon:
-.kill 1 Lord Vyletongue
+.kill 1 Lord Vyletongue##12236
 >>He is Purple side of Maraudon.
 >>Proceed through The Wicked Grotto and enter the Vyletongue Seat.
 >>He is in a small room on the northern side.
@@ -245,11 +245,11 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Maraudon Dungeon:
-.kill 1 Celebras the Cursed
+.kill 1 Celebras the Cursed##12225
 >>He is Purple side of Maraudon.
 >>Continue through the Vyletongue Seat and into the Poison Falls.
 >>Once you reach the Poison Falls, continue working your way west and then south, where he will be on a small island.
-.talk Celebras the Redeemed
+.talk Celebras the Redeemed##13716
 >>He will appear after you kill Celebras the Cursed.
 .turnin Legend of Maraudon##7044
 .accept The Scepter of Celebras##7046
@@ -264,7 +264,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Maraudon Dungeon:
-.talk Celebras the Redeemed
+.talk Celebras the Redeemed##13716
 .turnin The Scepter of Celebras##7046
 
 #step
@@ -277,7 +277,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Maraudon Dungeon:
-.talk Zaetar's Spirit
+.talk Zaetar's Spirit##12238
 >>He will appear at the center of the room once Princess Theradras is killed.
 .accept Seed of Life##7066
 
@@ -296,7 +296,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,38.75,83.33
 >>Enter the building
-.talk Uthel'nay
+.talk Uthel'nay##7311
 >>en:Standing inside a large troll hut.
 >>de:Steht in einer großen Trollhütte.
 .goto Orgrimmar,39.16,86.26
@@ -306,19 +306,19 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,23.61,70.08
 >>Run up the stairs
-.talk Vark Battlescar
+.talk Vark Battlescar##11823
 >>Upstairs inside the building.
 .goto Desolace,23.22,70.32
 .turnin Vyletongue Corruption##7029
 .only walking
 
 #step
-.talk Selendra
+.talk Selendra##13699
 .goto Desolace,26.86,77.67
 .turnin Corruption of Earth and Seed##7064
 
 #step
-.talk Centuar Pariah
+.talk Centuar Pariah##13717
 >>en:He walks through the path behind the mountains
 >>He walks around this area.
 .goto Desolace,51.47,87.41
@@ -328,13 +328,13 @@ LLG.RegisterGuide([[
 >>[43.95,86.00]
 
 #step
-.talk Willow
+.talk Willow##13656
 >>Inside the building.
 .goto Desolace,62.19,39.63
 .turnin Twisted Evils##7028
 
 #step
-.talk Keeper Remulos
+.talk Keeper Remulos##11832
 >>en:Standing at the base of a big tree, in front of a wooden entranceway.
 .goto Moonglade,36.18,41.82
 .turnin Seed of Life##7066

@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Mickey Levine
+.talk Mickey Levine##11615
 .goto Tirisfal Glades,83.29,72.33
 .turnin A Plague Upon Thee##5901
 .goto Tirisfal Glades,83.29,72.33
@@ -28,7 +28,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Shadow Priestess Vandis
+.talk Shadow Priestess Vandis##11055
 >>en:Standing in front of a camp, next to a campfire.
 >>de:Standing in front of a camp, next to a campfire.
 .goto Tirisfal Glades,83.04,71.91
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 .accept Target: Gahrron's Withering##5235
 
 #step
-.talk Apothecary Dithers
+.talk Apothecary Dithers##11057
 >>en:Standing next to a cauldron and a blue flag.
 >>de:Standing next to a cauldron and a blü flag.
 .goto Tirisfal Glades,83.28,69.23
@@ -46,7 +46,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,38.04,54.61
 >>Enter the building
-.talk Janice Felstone
+.talk Janice Felstone##10778
 >>en:Standing upstairs in the house.
 >>de:Standing upstairs in the house.
 >>Upstairs inside the building.
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 .accept Two Halves Become One##5051
 
 #step
-.kill 1 Jabbering Ghoul
+.kill 1 Jabbering Ghoul##10801
 >>It looks like a green ghoul holding a pitchfork.
 >>He can possibly spawn in multiple locations, and may walk around this area.
 >>only hardcore :: Watch for patrols and respawns while you navigate the area.
@@ -65,13 +65,13 @@ LLG.RegisterGuide([[
 .complete 5051 >>Collect Good Luck Other-Half-Charm
 
 #step
-.click the Good Luck Other-Half-Charm
+.click the Good Luck Other-Half-Charm##12722
 .complete 5051,1 >>Collect Good Luck Charm
 
 #step
 .goto Western Plaguelands,38.04,54.61
 >>Enter the building
-.talk Janice Felstone
+.talk Janice Felstone##10778
 >>en:Standing upstairs in the house.
 >>de:Standing upstairs in the house.
 >>Upstairs inside the building.
@@ -80,7 +80,7 @@ LLG.RegisterGuide([[
 .turnin Two Halves Become One##5051
 
 #step
-.click Northridge Lumber Mill Crate
+.click Northridge Lumber Mill Crate##177490
 >>Inside the building.
 >>Choose _"Place Termite Barrel on the crate."_
 .click Termite Barrel
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,49.29,78.56
 >>Enter the building
-.talk Marlene Redpath
+.talk Marlene Redpath##10927
 >>en:Inside the house, she walks up and down the stairs.
 >>de:Inside the house, she walks up and down the stairs.
 >>Upstairs inside the building.
@@ -103,7 +103,7 @@ LLG.RegisterGuide([[
 .accept A Strange Historian##5153
 
 #step
-.click Joseph Redpath's Monument
+.click Joseph Redpath's Monument##176145
 .goto Western Plaguelands,49.68,76.77
 .complete 5153,1 >>Collect Joseph's Wedding Ring
 
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -128,7 +128,7 @@ LLG.RegisterGuide([[
 >>Hug the outside of this building carefully to avoid enemies and get to the building entrance
 .goto Western Plaguelands,44.09,69.22
 >>Enter the building
-.click Musty Tome
+.click Musty Tome##176150
 >>They look like blue books on the floor inside this building.
 >>Only one of them is the real book, and it's random.
 >>If you click fake books, enemies will spawn, so try to only click the real book.
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 >>Leave the building and be careful to avoid the enemies nearby
 .goto Western Plaguelands,39.57,68.38
 >>Enter the building
-.talk Chromie
+.talk Chromie##10667
 >>en:Upstairs in the house that looks like an inn, in the very back room, next to a blue bed.
 >>de:Oben in dem Haus, das wie ein Gasthaus aussieht, ganz hinten im Raum, neben einem blaün Bett.
 >>Upstairs inside the building.
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,53.60,64.79
 >>Enter the building
-.talk Mulgris Deepriver
+.talk Mulgris Deepriver##10739
 >>en:Laying facedown in the small house.
 >>de:Laying facedown in the small house.
 >>Inside the building.
@@ -171,14 +171,14 @@ LLG.RegisterGuide([[
 .accept Glyphed Oaken Branch##4987
 
 #step
-.kill 1 Cauldron Lord Soulwrath
+.kill 1 Cauldron Lord Soulwrath##11078
 >>He walks around this area.
 >>only hardcore :: Watch for patrols and respawns while you navigate the area.
 .goto Western Plaguelands,62.78,58.75
 .complete 5235,1 >>Collect Gahrron's Withering Cauldron Key
 
 #step
-.click Scourge Cauldron
+.click Scourge Cauldron##176361
 >>only hardcore :: Watch for patrols and respawns while you navigate the area.
 .goto Western Plaguelands,62.56,58.57
 .turnin Target: Gahrron's Withering##5235
@@ -186,26 +186,26 @@ LLG.RegisterGuide([[
 .accept Return to the Bulwark##5236
 
 #step
-.talk Shadow Priestess Vandis
+.talk Shadow Priestess Vandis##11055
 >>en:Standing in front of a camp, next to a campfire.
 >>de:Standing in front of a camp, next to a campfire.
 .goto Tirisfal Glades,83.03,71.91
 .turnin Return to the Bulwark##5236
 
 #step
-.talk Mickey Levine
+.talk Mickey Levine##11615
 .goto Tirisfal Glades,83.29,72.33
 .turnin A Plague Upon Thee##6390
 
 #step
-.talk High Executor Derrington
+.talk High Executor Derrington##10837
 >>en:Standing in the small camp, in front of a tent, next to a campfire.
 >>de:Standing in the small camp, in front of a tent, next to a campfire.
 .goto Tirisfal Glades,83.13,68.94
 .accept Mission Accomplished!##5238
 
 #step
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.52,59.77
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.

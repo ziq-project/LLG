@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.40,30.20
@@ -24,14 +24,14 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 .goto The Barrens,44.55,59.24
 .accept Betrayal from Within##879
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 >>You can now talk to Mangletooth and give him Blood Shards in exchange for buffs.
@@ -54,10 +54,10 @@ LLG.RegisterGuide([[
 >>only not Hunter or Warlock :: +Armor and Returns Damage to Enemies (10 Minutes) - 4 Blood Shards
 .goto The Barrens,44.55,59.24
 .click Here to Continue
-.only not Hunter or Warlock
+.only itemcount(5075) >= 4
 
 #step
-.talk Tatternack Steelforge
+.talk Tatternack Steelforge##3433
 >>de:Standing next to a forge.
 .goto The Barrens,45.10,57.68
 .accept Weapons of Choice##893
@@ -65,13 +65,13 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,45.35,58.81
 >>Enter the building
-.talk Innkeeper Byula
+.talk Innkeeper Byula##7714
 >>Inside the building.
 .goto The Barrens,45.58,59.04
 .hs
 
 #step
-.kill 1 Owatanka
+.kill 1 Owatanka##3473
 >>It looks like a blue thunder lizard that walks around this area.
 .goto The Barrens,44.20,62.31
 .collect Owatanka's Tailspike,1
@@ -81,12 +81,12 @@ LLG.RegisterGuide([[
 >>[49.41,58.78]
 
 #step
-.click Owatanka's Tailspike
+.click Owatanka's Tailspike##5102
 .goto The Barrens,47.99,70.25
 .accept Owatanka##884
 
 #step
-.click Silithid Mound
+.click Silithid Mound##3685
 >>They look like larger rocks with green liquid oozing out of their tops on the ground around this area.
 >>You may sometimes be attacked by enemies that appear after you loot them.
 .goto The Barrens,47.99,70.25
@@ -97,25 +97,26 @@ LLG.RegisterGuide([[
 >>[44.57,72.12]
 
 #step
-.kill 1 Silithid Harvester
+.kill 1 Silithid Harvester##3253
 >>This is a very rare spawn that can appear around the Silithid Mounds. Do not worry if you cannot find him and skip this step.
 .goto The Barrens,47.99,70.25
 .complete 868 >>Collect Harvester's Head
 
 #step
-.click Harvester's Head
+.click Harvester's Head##5138
 .goto The Barrens,46.13,75.54
 .accept The Harvester##897
+.only itemcount(5138) > 0
 
 #step
-.talk Gann Stonespire
+.talk Gann Stonespire##3341
 >>He walks north and south along this road.
 .goto The Barrens,46.13,75.54
 .accept Gann's Reclamation##843
 >>He walks between here and [46.12,81.24]
 
 #step
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 >>On top of the hill.
@@ -137,7 +138,7 @@ LLG.RegisterGuide([[
 >>[47.62,65.62]
 
 #step
-.kill 1 Kuz
+.kill 1 Kuz##3436
 >>He walks around this area.
 >>This enemy can have a long respawn time, grind around the area if you do not see him.
 .goto The Barrens,45.44,80.02
@@ -145,7 +146,7 @@ LLG.RegisterGuide([[
 >>He walks between here and around the burned buildings around [44.11,80.70]
 
 #step
-.kill 1 Nak
+.kill 1 Nak##3434
 >>He walks around this area.
 >>Be careful, some enemies are stealthed around this area.
 >>This enemy can have a long respawn time, grind around the area if you do not see him.
@@ -157,7 +158,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto The Barrens,40.30,80.72
 >>Enter the building
-.kill 1 Lok Orcbane
+.kill 1 Lok Orcbane##3435
 >>Inside the building.
 >>This enemy can have a long respawn time, grind around the area if you do not see him.
 .goto The Barrens,40.15,80.54
@@ -177,7 +178,7 @@ LLG.RegisterGuide([[
 >>[41.65,78.79]
 
 #step
-.kill 1 Razormane Seer
+.kill 1 Razormane Seer##3458
 >>Be careful, some enemies are stealthed around this area.
 .goto The Barrens,42.14,81.41
 .complete 893,2 >>Collect Charred Razormane Wand
@@ -185,7 +186,7 @@ LLG.RegisterGuide([[
 >>You can find more around [41.65,78.79]
 
 #step
-.kill 1 Razormane Warfrenzy
+.kill 1 Razormane Warfrenzy##3459
 >>Be careful, some enemies are stealthed around this area.
 .goto The Barrens,42.14,81.41
 .complete 893,3 >>Collect Razormane War Shield
@@ -193,7 +194,7 @@ LLG.RegisterGuide([[
 >>You can find more around [41.65,78.79]
 
 #step
-.kill 1 Washte Pawne
+.kill 1 Washte Pawne##3472
 >>It looks like a red wind serpent that flies around this area.
 >>If you don't see him after checking every location, grind in the area until he respawns.
 .goto The Barrens,43.18,80.92
@@ -205,14 +206,15 @@ LLG.RegisterGuide([[
 >>[47.63,80.29]
 
 #step
-.click Washte Pawne's Feather
+.click Washte Pawne's Feather##5103
 .goto The Barrens,46.34,85.00
 .accept Washte Pawne##885
+.only itemcount(5103) > 0
 
 #step
 .goto The Barrens,46.34,85.00
 >>Follow the path down
-.kill 1 Prospector Khazgorm
+.kill 1 Prospector Khazgorm##3392
 >>He walks around this area.
 .goto The Barrens,47.55,85.26
 .complete 843,3 >>Collect Khazgorm's Journal
@@ -230,7 +232,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,46.85,84.89
 >>Follow the path up
-.talk Gann Stonespire
+.talk Gann Stonespire##3341
 >>He walks north and south along this road.
 .goto The Barrens,45.90,77.00
 .turnin Gann's Reclamation##843
@@ -264,7 +266,7 @@ LLG.RegisterGuide([[
 .complete 846,3 >>Collect 6 Sodium Nitrate
 
 #step
-.talk Gann Stonespire
+.talk Gann Stonespire##3341
 >>He walks north and south along this road.
 .goto The Barrens,45.90,77.00
 .turnin Revenge of Gann##846
@@ -284,7 +286,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,46.53,85.38
 >>Follow the path up
-.talk Gann Stonespire
+.talk Gann Stonespire##3341
 >>He walks north and south along this road.
 .goto The Barrens,45.90,77.00
 .turnin Revenge of Gann##849
@@ -292,7 +294,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Bael and Modan")
 
 #step
-.kill 1 Greater Thunderhawk
+.kill 1 Greater Thunderhawk##3249
 >>They look like wind serpents.
 .goto The Barrens,46.81,76.62
 .complete 822,2 >>Collect Thunderhawk Saliva Gland
@@ -301,7 +303,7 @@ LLG.RegisterGuide([[
 >>[44.62,76.62]
 
 #step
-.kill 1 Stormhide
+.kill 1 Stormhide##3238
 >>They look like kodo dinosaurs.
 .goto The Barrens,46.81,76.62
 .complete 822,1 >>Collect 5 Lightning Gland
@@ -325,7 +327,7 @@ LLG.RegisterGuide([[
 >>Grind XP Until Your Hearth is off CD
 
 #step
-.talk Shardi
+.talk Shardi##11899
 >>en:Standing in the back of the town, next to a red canopy.
 >>de:Steht hinten in der Stadt neben einem roten Baldachin.
 >>Be careful as you run here, there are higher level enemies in this zone.
@@ -334,42 +336,42 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
 .only Druid
 
 #step
-.talk Zulrg
-.kill 1 Big Stick
+.talk Zulrg##4884
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>You can't use it until level 32, but it would be good to have now, if it's available, for an instant weapon upgrade later.
 >>If you have better, skip this step.
 .goto Dustwallow Marsh,36.17,31.80
 >>Visit the Vendor
-.only Warrior and not hardcore
+.only Warrior and itemcount(12251) == 0 and not hardcore
 
 #step
-.talk Zulrg
-.kill 1 Big Stick
+.talk Zulrg##4884
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>You can't use it until level 32, but it would be good to have now, if it's available, for an instant weapon upgrade later.
 >>If you have better, skip this step.
 .goto Dustwallow Marsh,36.17,31.80
 >>Visit the Vendor
-.only Shaman and not hardcore
+.only Shaman and itemcount(12251) == 0 and not hardcore
 
 #step
-.talk Tatternack Steelforge
+.talk Tatternack Steelforge##3433
 >>de:Standing next to a forge.
 .goto The Barrens,45.10,57.68
 .turnin Weapons of Choice##893
 
 #step
-.talk Jorn Skyseer
+.talk Jorn Skyseer##3387
 >>de:Standing in front of a huge teepee hut building.
 .goto The Barrens,44.86,59.14
 .turnin Owatanka##884
@@ -382,7 +384,7 @@ LLG.RegisterGuide([[
 .only haveq(897)
 
 #step
-.talk Mangletooth
+.talk Mangletooth##3430
 >>en:In a little cage.
 >>de:In a little cage.
 .goto The Barrens,44.55,59.24
@@ -391,13 +393,13 @@ LLG.RegisterGuide([[
 .accept Betrayal from Within##906
 
 #step
-.talk Thork
+.talk Thork##3429
 >>de:Standing at the base of the watch tower.
 .goto The Barrens,51.50,30.87
 .turnin Betrayal from Within##906
 
 #step
-.talk Korran
+.talk Korran##3428
 >>en:Standing in front of a small house.
 >>de:Steht vor einem kleinen Haus.
 .goto The Barrens,51.07,29.63
@@ -411,13 +413,13 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,52.03,30.16
 >>Enter the building
-.talk Innkeeper Boorand Plainswind
+.talk Innkeeper Boorand Plainswind##3934
 >>Inside the building.
 .goto The Barrens,51.99,29.90
 .hs
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Collect these items from the bank.
 .goto The Barrens,62.64,37.42
 .complete 1086 >>Collect Toxic Fogger
@@ -425,14 +427,14 @@ LLG.RegisterGuide([[
 .complete 1060 >>Collect Letter to Jin'Zil
 
 #step
-.talk Brewmaster Drohn
+.talk Brewmaster Drohn##3292
 >>en:Standing on the side of a house, next to a green canopy with a blue stripe through it.
 >>de:Standing on the side of a house, next to a green canopy with a blü stripe through it.
 .goto The Barrens,62.26,38.39
 .turnin Chen's Empty Keg##822
 
 #step
-.talk Vexspindle
+.talk Vexspindle##3492
 >>This merchant can sell Wolf Bracers as a limited supply item.
 >>They are very powerful bracers for you, buy them if they're available.
 .goto The Barrens,62.16,38.45
@@ -440,14 +442,14 @@ LLG.RegisterGuide([[
 .only Rogue or Druid or Shaman or Hunter
 
 #step
-.talk Mahren Skyseer
+.talk Mahren Skyseer##3388
 .goto The Barrens,65.84,43.86
 .turnin Mahren Skyseer##874
 .goto The Barrens,65.84,43.86
 .accept Isha Awak##873
 
 #step
-.kill 1 Isha Awak
+.kill 1 Isha Awak##3476
 >>It looks like a loch ness dinosaur creature that swims in the water around this area.
 >>It can spawn in 3 locations off the coast.
 .goto The Barrens,65.63,47.08
@@ -457,7 +459,7 @@ LLG.RegisterGuide([[
 >>[63.59,53.52]
 
 #step
-.talk Mahren Skyseer
+.talk Mahren Skyseer##3388
 .goto The Barrens,65.84,43.86
 .turnin Isha Awak##873
 ]])

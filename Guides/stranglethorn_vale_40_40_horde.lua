@@ -18,46 +18,46 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Shaman
+.only Shaman and itemcount(12251) == 0
 
 #step
-.talk Zudd
+.talk Zudd##3624
 .goto Stranglethorn Vale,31.13,28.93
 .train
 .only Hunter
 
 #step
-.talk Kragg
+.talk Kragg##1404
 .goto Stranglethorn Vale,31.24,28.68
 .train
 .only Hunter
 
 #step
-.talk Nimboya
+.talk Nimboya##2497
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.16,27.72
 .accept Bloodscalp Clan Heads##584
 
 #step
-.talk Kin'weelay
+.talk Kin'weelay##2519
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.27,27.71
 .turnin The Troll Witchdoctor##1240
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 .goto Stranglethorn Vale,32.12,29.24
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Kin'weelay
+.talk Kin'weelay##2519
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 .goto Stranglethorn Vale,32.27,27.71
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,21.43,10.13
 >>Run down the coast and follow the path up
-.kill 1 Gan'zulah
+.kill 1 Gan'zulah##1061
 >>only hardcore :: Watch for patrols and respawn while in the area.
 >>only hardcore :: Bloodscalp Headhunters and Beastmasters are ranged attackers that can pile on quickly.
 .goto Stranglethorn Vale,23.44,8.12
@@ -82,7 +82,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Nezzliok the Dire
+.kill 1 Nezzliok the Dire##1062
 >>He walks around this area.
 >>only hardcore :: Watch for patrols and respawn while in the area.
 >>only hardcore :: Bloodscalp Headhunters and Beastmasters are ranged attackers that can pile on quickly.
@@ -103,7 +103,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,31.32,29.58
 >>Enter the building
-.talk Innkeeper Thulbek
+.talk Innkeeper Thulbek##5814
 >>Inside the building.
 .goto Stranglethorn Vale,31.49,29.75
 .hs
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 >>[27.19,49.65]
 
 #step
-.kill 1 Jungle Stalker
+.kill 1 Jungle Stalker##687
 .goto Stranglethorn Vale,33.70,38.83
 .complete 572,1 >>Collect 10 Jungle Stalker Feather
 >>Be careful to avoid Tethis.
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 >>[27.19,49.65]
 
 #step
-.kill 1 Elder Saltwater Crocolisk
+.kill 1 Elder Saltwater Crocolisk##2635
 >>This is a crocodile that can spawn along the beach.
 >>He is an elite enemy that you should be able to solo at this level.
 >>You kite him to Grom'Gol and have the guards help you, as long as you weaken him to 50% hp you'll get kill credit.
@@ -182,7 +182,7 @@ LLG.RegisterGuide([[
 >>[45.33,42.07]
 
 #step
-.kill 1 Bhag'thera
+.kill 1 Bhag'thera##728
 >>He looks like an unstealthed black panther.
 >>He is a level 40 elite, you should be able to kill him if you let your pet tank.
 >>If you have trouble or want to be safe, you'll get another chance later.
@@ -196,13 +196,13 @@ LLG.RegisterGuide([[
 .only Hunter or Warlock
 
 #step
-.talk Uthok
+.talk Uthok##1149
 >>only Hunter :: Stock up on arrows.
 .goto Stranglethorn Vale,31.55,27.95
 .vendor
 
 #step
-.talk Far Seer Mok'thardin
+.talk Far Seer Mok'thardin##2465
 >>en:Standing under a red hut canopy thing.
 >>de:Steht unter einem roten Hütten-Baldachin.
 >>only not selfmade :: If you purchased Green Hills of Stranglethorn pages from the auction house earlier, grab them from the mailbox now.
@@ -210,7 +210,7 @@ LLG.RegisterGuide([[
 .turnin Mok'thardin's Enchantment##572
 
 #step
-.talk Kin'weelay
+.talk Kin'weelay##2519
 >>en:Standing next to the blacksmithing building.
 >>de:Steht neben dem Schmiedegebäude.
 >>only not selfmade :: If you purchased Green Hills of Stranglethorn pages from the auction house earlier, grab them from the mailbox now.
@@ -225,7 +225,7 @@ LLG.RegisterGuide([[
 .accept Marg Speaks##1261
 
 #step
-.talk Barnil Stonepot
+.talk Barnil Stonepot##716
 >>en:In a small camp with 2 tents on the beach.
 >>de:In einem kleinen Lager mit 2 Zelten am Strand.
 >>If you purchased or found all of the Green Hills of Stranglethorn pages, accept this quest.
@@ -234,7 +234,7 @@ LLG.RegisterGuide([[
 .accept The Green Hills of Stranglethorn##338
 
 #step
-.talk Barnil Stonepot
+.talk Barnil Stonepot##716
 >>en:In a small camp with 2 tents on the beach.
 >>de:In einem kleinen Lager mit 2 Zelten am Strand.
 >>Depending on your quest log space you may have to accept and turn in these quests one by one.
@@ -249,7 +249,7 @@ LLG.RegisterGuide([[
 .only haveq(338)
 
 #step
-.talk Barnil Stonepot
+.talk Barnil Stonepot##716
 >>en:In a small camp with 2 tents on the beach.
 >>de:In einem kleinen Lager mit 2 Zelten am Strand.
 .goto Stranglethorn Vale,35.66,10.53
@@ -263,7 +263,7 @@ LLG.RegisterGuide([[
 .only haveq(338)
 
 #step
-.talk Barnil Stonepot
+.talk Barnil Stonepot##716
 >>en:In a small camp with 2 tents on the beach.
 >>de:In einem kleinen Lager mit 2 Zelten am Strand.
 .goto Stranglethorn Vale,35.66,10.53
@@ -271,14 +271,15 @@ LLG.RegisterGuide([[
 .only readyq(338)
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
 .turnin Panther Mastery##193
+.only itemcount(3876) > 0
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81

@@ -24,14 +24,14 @@ LLG.RegisterGuide([[
 .only level < 60
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.24,24.00
 .accept Broodling Essence##4726
 
 #step
-.talk Maxwort Uberglint
+.talk Maxwort Uberglint##9536
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.16,23.92
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .click Sha'ni Proudtusk's Remains
 >>On a stone table at the top of the mountain.
-.talk Sha'ni Proudtusk
+.talk Sha'ni Proudtusk##9136
 >>en:She is standing up top of Dreadmaul Rock next to a stone altar with a skeleton on it. Click the skeleton to summon her.
 >>de:She is standing up top of Dreadmaul Rock next to a stone altar with a skeleton on it. Click the skeleton to summon her.
 >>She appears nearby.
@@ -53,7 +53,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,94.11,31.92
 >>Enter the cave
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -62,12 +62,12 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
 >>Select _"I do not posess proof any proof, Cyrus."_
-.kill 1 Frenzied Black Drake
+.kill 1 Frenzied Black Drake##9461
 >>This dragon is a 54 elite and will immediately attack you.
 >>You may need help with this.
 >>The molt item is not group loot, so only one person can loot it.
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -86,7 +86,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cyrus Therepentous
+.talk Cyrus Therepentous##9459
 >>en:Inside the cave.
 >>de:In der Höhle.
 >>Inside the cave.
@@ -95,7 +95,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click the Draco-Incarcinatrix 900
+.click the Draco-Incarcinatrix 900##12284
 >>Use it on Broodling enemies around this area.
 >>They look like small flying dragons.
 >>They share spawn points with the scorpids and wolves, so kill those also, if you can't find any.
@@ -118,7 +118,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click Tablet of the Seven
+.click Tablet of the Seven##169294
 >>Choose _"Transcribe the tablet."_
 .goto Burning Steppes,54.09,40.73
 .complete 4296,1 >>Collect Tablet Transcript
@@ -126,7 +126,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,63.92,29.88
 >>Follow the path up
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -136,14 +136,14 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Flame and Crest")
 
 #step
-.talk Maxwort Uberglint
+.talk Maxwort Uberglint##9536
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.15,23.91
 .turnin Tablet of the Seven##4296
 
 #step
-.talk Chemist Fuely
+.talk Chemist Fuely##10136
 >>en:Standing in front of a stack of barrels in the big underground room.
 >>de:Standing in front of a stack of barrels in the big underground room.
 .goto Undercity,47.45,73.36
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 .accept ... and a Batch of Ooze##4294
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Collect these items from the bank.
 .goto Undercity,65.97,44.75
 .complete 3568 >>Collect Box of Empty Vials
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 .complete 4300 >>Collect 8 White Ravasaur Claw
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,48.19,79.68
 >>Enter the building
-.talk Trak'gen
+.talk Trak'gen##3313
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10-15 extra stacks.
 >>You will be out questing for a while, with no easy access to an ammo vendor.
@@ -182,15 +182,15 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Ormak Grimshot
+.talk Ormak Grimshot##3352
 >>en:Standing on top of a big stone building, next to a wall, near a bonfire.
 >>de:Standing on top of a big stone building, next to a wall, near a bonfire.
-.talk Grezz Ragefist
-.talk Kardris Dreamseeker
-.talk Ormok
-.talk Mirket
-.talk Enyo
-.talk Ur'kyo
+.talk Grezz Ragefist##3353
+.talk Kardris Dreamseeker##3344
+.talk Ormok##3328
+.talk Mirket##3325
+.talk Enyo##5883
+.talk Ur'kyo##6018
 .goto Orgrimmar,66.08,18.51
 .train
 .goto Orgrimmar,79.76,31.42
@@ -213,7 +213,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,57.06,45.88
 >>Enter the building
-.talk Zilzibin Drumlore
+.talk Zilzibin Drumlore##7010
 >>en:Standing inside a hut, up on the ledge.
 >>de:Standing inside a hut, up on the ledge.
 >>Inside the building.
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -232,7 +232,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -243,7 +243,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,58.97,37.57
 >>Enter the building
-.talk Dran Droffers
+.talk Dran Droffers##6986
 >>en:Standing inside a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -253,7 +253,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,56.47,35.25
 >>Enter the building
-.talk Jes'rimon
+.talk Jes'rimon##8659
 >>en:Upstairs in the house, on the balcony.
 >>de:Oben im Haus, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -263,7 +263,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,54.04,68.86
 >>Enter the building
-.talk Innkeeper Gryshka
+.talk Innkeeper Gryshka##6929
 >>en:Standing in the doorway inside the inn.
 >>de:Standing in the doorway inside the inn.
 >>Inside the building.
@@ -271,7 +271,7 @@ LLG.RegisterGuide([[
 .hs
 
 #step
-.talk Barkeep Morag
+.talk Barkeep Morag##5611
 .goto Orgrimmar,54.63,67.81
 >>Restock Food / Water
 ]])

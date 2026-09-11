@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -24,13 +24,13 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Innkeeper Pala
+.talk Innkeeper Pala##6746
 >>Inside the building.
 .goto Thunder Bluff,45.81,64.71
 .hs
 
 #step
-.talk Auctioneer Stampi
+.talk Auctioneer Stampi##8674
 >>Buy these items from the Auction House.
 >>If you can't get them, you can skip this step. They just make some quests easier to do later, but you can still get it done without them.
 .goto Thunder Bluff,40.43,51.77
@@ -40,12 +40,12 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Urek Thunderhorn
-.talk Ker Ragetotem
-.talk Siln Skychaser
-.talk Thurston Xane
-.talk Malakai Cross
-.talk Kym Wildmane
+.talk Urek Thunderhorn##3040
+.talk Ker Ragetotem##3043
+.talk Siln Skychaser##3030
+.talk Thurston Xane##3049
+.talk Malakai Cross##3045
+.talk Kym Wildmane##3036
 .goto Thunder Bluff,59.09,86.85
 .train
 .goto Thunder Bluff,57.63,85.53
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.79,29.81
 >>Enter the cave
-.talk Birgitte Cranston
+.talk Birgitte Cranston##5957
 >>Inside the cave.
 .goto Thunder Bluff,22.50,16.91
 .train
@@ -86,12 +86,12 @@ LLG.RegisterGuide([[
 .only walking and not zone("Desolace")
 
 #step
-.click the Flayed Demon Skin
+.click the Flayed Demon Skin##20310
 .goto Desolace,38.88,27.17
 .accept The Corrupter##1480
 
 #step
-.talk Azore Aldamort
+.talk Azore Aldamort##11863
 >>en:Standing on a ledge below a big lighthouse to the right.
 >>de:Steht auf einem Vorsprung unterhalb des großen Leuchtturms auf der rechten Seite.
 .goto Desolace,38.88,27.17
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,56.10,53.66
 >>Follow the path up
-.talk Nataka Longhorn
+.talk Nataka Longhorn##11259
 >>en:Standing in front of a teepee house.
 >>de:Standing in front of a teepee house.
 .goto Desolace,55.41,55.81
@@ -108,14 +108,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Felgur Twocuts
+.talk Felgur Twocuts##5395
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Desolace,56.20,59.57
 .accept Khan Dez'hepah##1365
 
 #step
-.talk Gurda Wildmane
+.talk Gurda Wildmane##5412
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Desolace,56.29,59.68
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,54.70,55.06
 >>Cross the bridge
-.talk Takata Steelblade
+.talk Takata Steelblade##5641
 >>en:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 >>de:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 .goto Desolace,52.57,54.39
@@ -136,7 +136,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Maurin Bonesplitter
+.talk Maurin Bonesplitter##4498
 >>en:Standing in front of a small hut.
 >>de:Standing in front of a small hut.
 .goto Desolace,52.24,53.44
@@ -151,7 +151,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,73.24,42.41
 >>Enter the building
-.kill 1 Khan Dez'hepah
+.kill 1 Khan Dez'hepah##5600
 >>Inside the building.
 .goto Desolace,73.38,41.62
 .complete 1365,1 >>Collect Khan Dez'hepah's Head
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 >>Inside the tent at [74.68,48.84]
 
 #step
-.kill 1 Hatefury Shadowstalker
+.kill 1 Hatefury Shadowstalker##4674
 >>They share spawn points with the others, so kill those also, if you can't find any.
 .goto Desolace,75.60,23.34
 .complete 1481,1 >>Collect Shadowstalker Scalp
@@ -206,7 +206,7 @@ LLG.RegisterGuide([[
 >>[72.61,18.28]
 
 #step
-.talk Bibbly F'utzbuckle
+.talk Bibbly F'utzbuckle##11438
 >>en:Standing next to a hut, inside a bone fence.
 >>de:Standing next to a hut, inside a bone fence.
 >>He walks around this area.
@@ -218,7 +218,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,54.73,55.09
 >>Cross the bridge
-.talk Takata Steelblade
+.talk Takata Steelblade##5641
 >>en:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 >>de:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 .goto Desolace,52.57,54.38
@@ -226,7 +226,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Maurin Bonesplitter
+.talk Maurin Bonesplitter##4498
 >>en:Standing in front of a small hut.
 >>de:Standing in front of a small hut.
 .goto Desolace,52.25,53.45
@@ -237,7 +237,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,53.07,53.73
 >>Cross the bridge
-.talk Felgur Twocuts
+.talk Felgur Twocuts##5395
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Desolace,56.20,59.56
@@ -247,14 +247,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Smeed Scrabblescrew
+.talk Smeed Scrabblescrew##11596
 >>en:Standing in front of a small hut, next to some kodos.
 >>de:Standing in front of a small hut, next to some kodos.
 .goto Desolace,60.86,61.86
 .accept Kodo Roundup##5561
 
 #step
-.click the Kodo Kombobulator
+.click the Kodo Kombobulator##13892
 >>Use it on Kodo enemies around this area.
 >>You can find more all around this bone graveyard area.
 .goto Desolace,54.45,63.19
@@ -264,14 +264,14 @@ LLG.RegisterGuide([[
 >>Bring the Kodos back to [60.73,61.96]
 
 #step
-.talk Smeed Scrabblescrew
+.talk Smeed Scrabblescrew##11596
 >>en:Standing in front of a small hut, next to some kodos.
 >>de:Standing in front of a small hut, next to some kodos.
 .goto Desolace,60.86,61.86
 .turnin Kodo Roundup##5561
 
 #step
-.click Kodo Bones
+.click Kodo Bones##176751
 >>They look like large white horned animal skulls on the ground around this area.
 >>only not hardcore :: If a Kodo Apparition appears and attacks you, run away until it leaves you alone, if you can't kill them.
 >>only hardcore :: Kodo Aparitions may spawn after looting a bone and are very high level, be ready to run after each bone is looted. You should not fight them at this level.
@@ -302,7 +302,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,57.68,56.38
 >>Follow the path up
-.talk Felgur Twocuts
+.talk Felgur Twocuts##5395
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Desolace,56.19,59.56
@@ -312,7 +312,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,48.69,75.76
 >>Follow the road
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.23,79.25
@@ -324,7 +324,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,26.27,74.83
 >>Enter Shadowprey Village
-.talk Roon Wildmane
+.talk Roon Wildmane##11877
 >>en:Standing next to a big cart.
 >>de:Standing next to a big cart.
 .goto Desolace,25.05,72.28
@@ -332,27 +332,27 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tukk
+.talk Tukk##12027
 >>only Hunter :: Restock on arrows.
 .goto Desolace,24.94,71.85
 .vendor
 
 #step
-.talk Taiga Wisemane
+.talk Taiga Wisemane##11624
 >>en:Standing on a small hill near a big gong.
 >>de:Standing on a small hill near a big gong.
 .goto Desolace,25.81,68.22
 .accept Hand of Iruxos##5381
 
 #step
-.talk Drulzegar Skraghook
+.talk Drulzegar Skraghook##12340
 >>en:Standing next to a meat smoker next to the ocean.
 >>de:Standing next to a meat smoker next to the ocean.
 .goto Desolace,23.32,72.87
 .accept Other Fish to Fry##6143
 
 #step
-.talk Mai'Lahii
+.talk Mai'Lahii##12031
 >>en:Standing in a small troll hut.
 >>de:Standing in a small troll hut.
 >>Inside the building.
@@ -360,7 +360,7 @@ LLG.RegisterGuide([[
 .accept Clam Bait##6142
 
 #step
-.talk Thalon
+.talk Thalon##6726
 >>en:Standing at the end of the dock.
 >>de:Steht am Ende des Docks.
 .goto Desolace,21.60,74.13
@@ -373,7 +373,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,45.92,70.92
 >>Continue up the path
-.talk Bibbly F'utzbuckle
+.talk Bibbly F'utzbuckle##11438
 >>en:Standing next to a hut, inside a bone fence.
 >>de:Standing next to a hut, inside a bone fence.
 >>He walks around this area.
@@ -384,7 +384,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,56.06,29.54
 >>Follow the path
-.kill 1 Burning Blade Seer
+.kill 1 Burning Blade Seer##13019
 >>At the top of the tower.
 .goto Desolace,55.17,30.15
 .complete 5741,1 >>Collect Sceptre of Light
@@ -393,16 +393,16 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,55.35,27.54
 >>Enter the building
-.click Hand of Iruxos Crystal
+.click Hand of Iruxos Crystal##176581
 >>Inside the building.
 >>Kill all of the enemies in this room before clicking it.
 >>A level 37 enemy will appear, so be prepared to fight.
-.kill 1 Demon Spirit
+.kill 1 Demon Spirit##11876
 .goto Desolace,54.97,26.65
 .complete 5381,1 >>Collect Demon Box
 
 #step
-.click the Burning Gem
+.click the Burning Gem##6436
 >>Use it on Burning Blade enemies around this area when they are low health.
 .goto Desolace,55.20,28.90
 .complete 1435,1 >>Collect 15 Infused Burning Gem
@@ -410,7 +410,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,56.06,29.53
 >>Leave Thunder Axe Fortress
-.talk Azore Aldamort
+.talk Azore Aldamort##11863
 >>en:Standing on a ledge below a big lighthouse to the right.
 >>de:Steht auf einem Vorsprung unterhalb des großen Leuchtturms auf der rechten Seite.
 .goto Desolace,38.88,27.17
@@ -432,12 +432,12 @@ LLG.RegisterGuide([[
 .complete 6161,1 >>Collect Rackmore's Silver Key
 
 #step
-.click Giant Softshell Clam
+.click Giant Softshell Clam##177784
 >>They look like large white clam shells on the ground underwater around this area.
-.kill 1 Enraged Reef Crawler
+.kill 1 Enraged Reef Crawler##12347
 >>They look like crabs underwater around this area.
 .collect Soft-shelled Clam,1
-.click the Soft-shelled Clam
+.click the Soft-shelled Clam##15874
 .goto Desolace,33.70,27.83
 .complete 6142,1 >>Collect 10 Soft-shelled Clam Meat
 
@@ -449,7 +449,7 @@ LLG.RegisterGuide([[
 .complete 6161,2 >>Collect Rackmore's Golden Key
 
 #step
-.click Rackmore's Chest
+.click Rackmore's Chest##177786
 >>On the ground at the base of the tree.
 .goto Desolace,30.00,8.70
 .turnin Claim Rackmore's Treasure!##6161
@@ -457,12 +457,12 @@ LLG.RegisterGuide([[
 #step
 .click Serpent Statue
 >>A level 38 enemy will appear, so be prepared to fight.
-.kill 1 Lord Kragaru
+.kill 1 Lord Kragaru##12369
 .goto Desolace,28.19,6.62
 .complete 6027,1 >>Collect Book of the Ancients
 
 #step
-.kill 1 Slitherblade Oracle
+.kill 1 Slitherblade Oracle##4718
 >>Underwater and on the islands around this area.
 >>They share spawn points with the other nagas, so kill them too, if you can't find any Oracles.
 .goto Desolace,28.19,6.43
@@ -495,7 +495,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,40.91,29.00
 >>Follow the path up
-.talk Azore Aldamort
+.talk Azore Aldamort##11863
 >>en:Standing on a ledge below a big lighthouse to the right.
 >>de:Steht auf einem Vorsprung unterhalb des großen Leuchtturms auf der rechten Seite.
 .goto Desolace,38.89,27.17
@@ -507,7 +507,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,54.72,55.08
 >>Cross the bridge
-.talk Maurin Bonesplitter
+.talk Maurin Bonesplitter##4498
 >>en:Standing in front of a small hut.
 >>de:Standing in front of a small hut.
 .goto Desolace,52.24,53.44
@@ -517,20 +517,20 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Harnor
+.talk Harnor##8152
 .goto Desolace,51.22,53.27
 .vendor
 
 #step
 >>Watch the dialogue
-.talk Maurin Bonesplitter
+.talk Maurin Bonesplitter##4498
 >>en:Standing in front of a small hut.
 >>de:Standing in front of a small hut.
 .goto Desolace,52.25,53.44
 .accept The Corrupter##1484
 
 #step
-.talk Takata Steelblade
+.talk Takata Steelblade##5641
 >>en:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 >>de:Standing on the edge of a cliff, overlooking the Kodo Graveyard.
 .goto Desolace,52.57,54.38
@@ -539,7 +539,7 @@ LLG.RegisterGuide([[
 .accept Alliance Relations##1436
 
 #step
-.click Sack of Meat
+.click Sack of Meat##22245
 >>They look like tan leather bags on the ground near the buildings around this area.
 >>Not all of the tan bags you see will be clickable.
 .goto Desolace,70.90,75.47
@@ -563,7 +563,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,48.69,75.76
 >>Follow the road
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.23,79.25
@@ -575,7 +575,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,26.62,75.41
 >>Enter Shadowprey Village
-.talk Tukk
+.talk Tukk##12027
 .goto Desolace,24.94,71.85
 .vendor
 .only walking and not subzone("Shadowprey and Village")
@@ -583,7 +583,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,26.62,75.41
 >>Enter Shadowprey Village
-.talk Taiga Wisemane
+.talk Taiga Wisemane##11624
 >>en:Standing on a small hill near a big gong.
 >>de:Standing on a small hill near a big gong.
 .goto Desolace,25.81,68.22
@@ -591,7 +591,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Shadowprey and Village")
 
 #step
-.talk Aboda
+.talk Aboda##11105
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Claw 5".
 .goto Desolace,24.88,68.68
@@ -610,7 +610,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Aboda
+.talk Aboda##11105
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Claw 5" to your permanent pet.
 .goto Desolace,24.88,68.68
@@ -618,14 +618,14 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Drulzegar Skraghook
+.talk Drulzegar Skraghook##12340
 >>en:Standing next to a meat smoker next to the ocean.
 >>de:Standing next to a meat smoker next to the ocean.
 .goto Desolace,23.32,72.87
 .turnin Other Fish to Fry##6143
 
 #step
-.talk Mai'Lahii
+.talk Mai'Lahii##12031
 >>en:Standing in a small troll hut.
 >>de:Standing in a small troll hut.
 >>Inside the building.
@@ -635,7 +635,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,22.28,53.78
 >>Enter the building
-.talk Keldran
+.talk Keldran##5640
 >>en:Standing in the entrance of a small house.
 >>de:Steht im Eingang eines kleinen Hauses.
 >>He walks around inside the building.
@@ -645,7 +645,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,75.22,24.61
 >>Enter the building
-.talk Nogg
+.talk Nogg##3412
 >>Inside the building.
 .goto Orgrimmar,76.00,25.42
 .turnin Rig Wars##2841
@@ -653,7 +653,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,53.68,64.58
 >>Enter the building
-.talk Auctioneer Thathung
+.talk Auctioneer Thathung##8673
 >>Inside the building.
 >>Buy these items from the auction house.
 >>If they're not available, or you can't afford them, skip this step.
@@ -663,12 +663,12 @@ LLG.RegisterGuide([[
 .only Warrior and not selfmade
 
 #step
-.talk Grezz Ragefist
-.talk Kardris Dreamseeker
-.talk Ormok
-.talk Mirket
-.talk Enyo
-.talk Ur'kyo
+.talk Grezz Ragefist##3353
+.talk Kardris Dreamseeker##3344
+.talk Ormok##3328
+.talk Mirket##3325
+.talk Enyo##5883
+.talk Ur'kyo##6018
 .goto Orgrimmar,79.76,31.42
 .train
 .goto Orgrimmar,38.81,36.47
@@ -685,7 +685,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -695,7 +695,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Belgrom Rockmaul
+.talk Belgrom Rockmaul##4485
 >>en:Standing next to a sign.
 >>de:Standing next to a sign.
 .goto Orgrimmar,75.23,34.24
@@ -704,7 +704,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,49.86,70.45
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Orgrimmar,49.58,69.12

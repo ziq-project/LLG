@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Western Plaguelands,69.30,45.04
 >>Cross into Eastern Plaguelands and follow the river north
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 .only walking and zone("Western and Plaguelands")
 
 #step
-.talk Nathanos Blightcaller
+.talk Nathanos Blightcaller##11878
 >>en:Standing in front of a house.
 >>de:Standing in front of a house.
 .goto Eastern Plaguelands,26.54,74.74
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .accept Un-Life's Little Annoyances##6042
 
 #step
-.talk Pamela Redpath
+.talk Pamela Redpath##10926
 >>en:She's a ghost child, walking around in a small broken down house.
 >>de:She's a ghost child, walking around in a small broken down house.
 >>She walks around this area inside this crumbled house.
@@ -50,7 +50,7 @@ LLG.RegisterGuide([[
 .accept Pamela's Doll##5149
 
 #step
-.click Pamela's Doll's Head
+.click Pamela's Doll's Head##176116
 >>It looks like a brown ball, with two X's for eyes, with flies buzzing around it.
 >>It can be in any of the 3 buildings around this area.
 >>only hardcore :: Enemies may spawn after interacting with the doll.
@@ -58,7 +58,7 @@ LLG.RegisterGuide([[
 .complete 5149 >>Collect Pamela's Doll's Head
 
 #step
-.click Pamela's Doll's Left Side
+.click Pamela's Doll's Left Side##176142
 >>It looks like a brown half of a doll, with one arm and one leg, with flies buzzing around it.
 >>It can be in any of the 3 buildings around this area.
 >>only hardcore :: Enemies may spawn after interacting with the doll.
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 .complete 5149 >>Collect Pamela's Doll's Left Side
 
 #step
-.click Pamela's Doll's Right Side
+.click Pamela's Doll's Right Side##176143
 >>It looks like a brown half of a doll, with one arm and one leg, with flies buzzing around it.
 >>It can be in any of the 3 buildings around this area.
 >>only hardcore :: Enemies may spawn after interacting with the doll.
@@ -74,12 +74,12 @@ LLG.RegisterGuide([[
 .complete 5149 >>Collect Pamela's Doll's Right Side
 
 #step
-.click Pamela's Doll's Head
+.click Pamela's Doll's Head##12886
 .goto Eastern Plaguelands,36.45,90.80
 .complete 5149,1 >>Collect Pamela's Doll
 
 #step
-.talk Pamela Redpath
+.talk Pamela Redpath##10926
 >>en:She's a ghost child, walking around in a small broken down house.
 >>de:She's a ghost child, walking around in a small broken down house.
 >>She walks around this area inside this crumbled house.
@@ -119,7 +119,7 @@ LLG.RegisterGuide([[
 >>[71.11,56.12]
 
 #step
-.talk Caretaker Alen
+.talk Caretaker Alen##11038
 >>He walks around this area.
 .goto Eastern Plaguelands,79.54,63.77
 .accept Zaeldarr the Outcast##6021
@@ -127,14 +127,14 @@ LLG.RegisterGuide([[
 .accept The Restless Souls##5281
 
 #step
-.talk Duke Nicholas Zverenhoff
+.talk Duke Nicholas Zverenhoff##11039
 >>en:In front of a tent next to a campfire.
 >>de:In front of a tent next to a campfire.
 .goto Eastern Plaguelands,81.43,59.82
 .turnin Duke Nicholas Zverenhoff##6030
 
 #step
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.52,59.77
@@ -143,14 +143,14 @@ LLG.RegisterGuide([[
 .accept Defenders of Darrowshire##5211
 
 #step
-.talk Georgia
+.talk Georgia##12636
 >>en:Standing next to a big metal contraption.
 >>de:Steht neben einer großen Metallkonstruktion.
 .goto Eastern Plaguelands,80.22,57.01
 .fly Light's Hope Chapel
 
 #step
-.talk Aurora Skycaller
+.talk Aurora Skycaller##10304
 .goto Eastern Plaguelands,53.51,22.00
 .turnin Troubled Spirits of Kel'Theril##5245
 
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 >>These items do not stack, so make sure you have 7 free bag spaces to collect them.
 >>only hardcore :: Watch for stealthed enemies around here.
 >>only hardcore :: Walk carefully through the area to avoid pulling many enemies.
-.click Mortar and Pestle
+.click Mortar and Pestle##15454
 .goto Eastern Plaguelands,59.90,68.41
 .complete 6022,1 >>Collect Coagulated Rot
 
@@ -209,7 +209,7 @@ LLG.RegisterGuide([[
 >>[52.38,24.42]
 
 #step
-.click Large Termite Mound
+.click Large Termite Mound##177464
 >>They look like large brown and white stones cracked open with green goo leaking out of the top of them around this area.
 >>only hardcore :: When fighting near the road, watch for a group of elite patrols and avoid them.
 .goto Eastern Plaguelands,45.90,34.10
@@ -232,7 +232,7 @@ LLG.RegisterGuide([[
 .kill 1 ghouls as you quest
 >>Only enemies that look like ghouls will count.
 >>They share spawn points with other undead in the area. IF you don't see any you may need to grind other mobs to force them to respawn.
-.talk Darrowshire Spirit
+.talk Darrowshire Spirit##11064
 >>They appear after you kill the ghouls.
 .goto Eastern Plaguelands,66.88,40.62
 .complete 5211,1 >>Free #15# Darrowshire Spirits
@@ -253,13 +253,13 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,14.59,33.47
 >>Enter the building
-.talk Egan
+.talk Egan##11140
 >>Inside the building.
 .goto Eastern Plaguelands,14.45,33.74
 .turnin The Restless Souls##5281
 
 #step
-.talk Augustus the Touched
+.talk Augustus the Touched##12384
 >>Inside the building.
 .goto Eastern Plaguelands,14.45,33.48
 .accept Augustus' Receipt Book##6164
@@ -275,13 +275,13 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,14.59,33.47
 >>Enter the building
-.talk Augustus the Touched
+.talk Augustus the Touched##12384
 >>Inside the building.
 .goto Eastern Plaguelands,14.45,33.48
 .turnin Augustus' Receipt Book##6164
 
 #step
-.kill 1 Carrion Grub
+.kill 1 Carrion Grub##8603
 >>Go out of your way to kill grubs, the drop rate can be bad.
 .goto Eastern Plaguelands,43.24,82.95
 .complete 5544,1 >>Collect 15 Slab of Carrion Worm Meat
@@ -296,7 +296,7 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,11.93,61.49
 >>Follow the path
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -313,7 +313,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -324,7 +324,7 @@ LLG.RegisterGuide([[
 .complete 5742,1 >>Listen to Tirion's Tale
 
 #step
-.talk Tirion Fordring
+.talk Tirion Fordring##1855
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 >>He walks around this area.
@@ -332,7 +332,7 @@ LLG.RegisterGuide([[
 .turnin Redemption##5742
 
 #step
-.talk Nathanos Blightcaller
+.talk Nathanos Blightcaller##11878
 >>en:Standing in front of a house.
 >>de:Standing in front of a house.
 .goto Eastern Plaguelands,26.54,74.74
@@ -343,26 +343,26 @@ LLG.RegisterGuide([[
 #step
 .goto Eastern Plaguelands,27.86,85.48
 >>Enter the crypt
-.kill 1 Zaeldarr the Outcast
+.kill 1 Zaeldarr the Outcast##12250
 >>Downstairs inside the crypt.
 .goto Eastern Plaguelands,27.46,84.88
 .complete 6021,1 >>Collect Zaeldarr's Head
 
 #step
-.talk Caretaker Alen
+.talk Caretaker Alen##11038
 >>He walks around this area.
 .goto Eastern Plaguelands,79.54,63.77
 .turnin Zaeldarr the Outcast##6021
 
 #step
-.talk Carlin Redpath
+.talk Carlin Redpath##11063
 >>en:Standing in front of a tent, next to a campfire.
 >>de:Standing in front of a tent, next to a campfire.
 .goto Eastern Plaguelands,81.52,59.76
 .turnin Defenders of Darrowshire##5211
 
 #step
-.talk Royal Overseer Bauhaus
+.talk Royal Overseer Bauhaus##10781
 >>en:Standing up on the ledge in the Guild Creation Sector, next to some boxes.
 >>de:Standing up on the ledge in the Guild Creation Sector, next to some boxes.
 .goto Undercity,69.78,43.15
@@ -371,7 +371,7 @@ LLG.RegisterGuide([[
 .accept The Jeremiah Blues##5049
 
 #step
-.talk Jeremiah Payson
+.talk Jeremiah Payson##8403
 >>en:Under the bank, crouching next to a bunch of cockroaches.
 >>de:Unterhalb der Bank, hockt neben einem Haufen Kakerlaken.
 >>Under the stairs.
@@ -381,7 +381,7 @@ LLG.RegisterGuide([[
 .accept Good Luck Charm##5050
 
 #step
-.talk Auctioneer Rhyker
+.talk Auctioneer Rhyker##15686
 >>Buy these items from the auction house or collect them from your bank.
 >>You will turn them in for a lot of experience.
 >>If you have any in your bank, get them out before you buy more.
@@ -397,31 +397,35 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Wool##7813
+.only itemcount(2592) >= 60
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Silk##7814
+.only itemcount(4306) >= 60
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Mageweave##7817
+.only itemcount(4338) >= 60
 
 #step
-.talk Ralston Farnsley
+.talk Ralston Farnsley##14729
 .goto Undercity,71.66,29.23
 .accept A Donation of Runecloth##7818
+.only itemcount(14047) >= 60
 
 #step
-.talk Kaelystia Hatebringer
-.talk Kaal Soulreaper
-.talk Aelthalyste
-.talk Baltus Fowler
-.talk Carolyn Ward
+.talk Kaelystia Hatebringer##4566
+.talk Kaal Soulreaper##4563
+.talk Aelthalyste##4606
+.talk Baltus Fowler##4595
+.talk Carolyn Ward##4582
 .goto Undercity,85.04,14.03
 .train
 .goto Undercity,86.07,15.78
@@ -436,7 +440,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Ezekiel Graves
+.talk Ezekiel Graves##4585
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Undercity,75.20,51.19

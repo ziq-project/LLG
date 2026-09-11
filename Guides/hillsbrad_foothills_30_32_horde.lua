@@ -25,7 +25,7 @@ LLG.RegisterGuide([[
 .only level < 60
 
 #step
-.talk William Montague
+.talk William Montague##4549
 >>Deposit these items into the bank.
 .goto Undercity,65.97,44.75
 >>Collect these items from the bank.
@@ -37,56 +37,60 @@ LLG.RegisterGuide([[
 >>Collect all of the skulls you have in the bank.
 
 #step
-.talk Eunice Burch
+.talk Eunice Burch##4552
 >>You need to have the Cooking profession learned in order to accept a quest soon.
 .goto Undercity,62.14,44.91
 .train
+.condition skillmax("Cooking") >= 75 >>Learn Cooking
+.optional
 
 #step
-.talk Archibald
+.talk Archibald##11870
 >>This will allow you to equip crossbows and two-handed swords.
 .goto Undercity,57.31,32.77
 .train
+.condition weaponskill("CROSSBOW") > 0 >>Train Crossbows
 .goto Undercity,57.31,32.77
 .train
+.condition weaponskill("TH_SWORD") > 0 >>Train Two-Handed Swords
 .only Hunter
 
 #step
-.talk Benijah Fenner
-.kill 1 Heavy Quiver
+.talk Benijah Fenner##4602
+.kill 1 Heavy Quiver##7371
 >>If you can afford it.
 .goto Undercity,58.82,32.82
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(7371) == 0
 
 #step
-.talk Benijah Fenner
-.kill 1 Heavy Crossbow
+.talk Benijah Fenner##4602
+.kill 1 Heavy Crossbow##15809
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Undercity,58.82,32.82
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(15809) == 0
 
 #step
-.talk Genavie Callow
+.talk Genavie Callow##4486
 >>en:On the top floor of Undercity.
 >>de:On the top floor of Undercity.
 .goto Undercity,63.83,49.45
 .accept To Steal From Thieves##1164
 
 #step
-.talk Geoffrey Hartwell
-.kill 1 Broadsword
+.talk Geoffrey Hartwell##4600
+.kill 1 Broadsword##2520
 >>If you can afford it.
 >>You will use it when you reach level 31.
 >>If you have better, skip this step.
 .goto Undercity,58.67,33.06
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2520) == 0
 
 #step
-.talk Ezekiel Graves
+.talk Ezekiel Graves##4585
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Undercity,75.60,51.60
@@ -94,7 +98,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Hannah Akeley
+.talk Hannah Akeley##4575
 >>If you can afford it.
 >>Stock up on a few Runes of Teleportation to use to travel faster while leveling.
 .goto Undercity,82.78,15.83
@@ -104,15 +108,15 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,42.03,40.66
 >>Jump up and follow the path behind the tree
-.click the Water Sapta
+.click the Water Sapta##6637
 >>This will allow you to see the green water elementals you need to kill.
-.kill 1 Corrupt Water Spirit
+.kill 1 Corrupt Water Spirit##5897
 .goto Silverpine Forest,38.28,44.56
 .complete 63,1 >>Collect Corrupt Manifestation's Bracers
 .only Shaman
 
 #step
-.click Brazier of Everfount
+.click Brazier of Everfount##113791
 .goto Silverpine Forest,38.28,44.56
 .turnin Call of Water##63
 .goto Silverpine Forest,38.28,44.56
@@ -121,7 +125,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Minor Manifestation of Water
+.talk Minor Manifestation of Water##5895
 >>en:Standing on the small island in the pond.
 .goto Silverpine Forest,38.75,44.62
 .turnin Call of Water##100
@@ -137,7 +141,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.49,19.43
 >>Enter the building
-.talk Apothecary Lydon
+.talk Apothecary Lydon##2216
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -145,14 +149,14 @@ LLG.RegisterGuide([[
 .accept Elixir of Agony##509
 
 #step
-.talk Tallow
+.talk Tallow##2770
 >>en:Standing next to a fence.
 >>de:Steht neben einem Zaun.
 .goto Hillsbrad Foothills,61.87,19.58
 .accept The Hammer May Fall##676
 
 #step
-.click Shipment of Iron
+.click Shipment of Iron##1736
 >>Inside the building.
 >>If Blacksmith Verringtan is inside the building, you may need help with this.
 .goto Hillsbrad Foothills,32.01,45.45
@@ -171,7 +175,7 @@ LLG.RegisterGuide([[
 >>All around this blacksmith building.
 
 #step
-.talk High Executor Darthalia
+.talk High Executor Darthalia##2215
 >>en:Standing in the middle of town.
 >>de:Steht in der Mitte der Stadt.
 .goto Hillsbrad Foothills,62.33,20.45
@@ -182,16 +186,17 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,62.51,19.61
 >>Enter the building
-.talk Christoph Jeffcoat
+.talk Christoph Jeffcoat##2393
 >>en:He is inside the inn to the left next to the staircase
 >>Inside the building.
 .goto Hillsbrad Foothills,62.29,19.04
 .accept Soothing Turtle Bisque##7321
+.only skill("Cooking") > 0
 
 #step
 .goto Hillsbrad Foothills,62.91,20.56
 >>Enter the building
-.talk Krusk
+.talk Krusk##2229
 >>en:Standing inside the church.
 >>de:Steht in der Kirche.
 >>Inside the building.
@@ -199,7 +204,7 @@ LLG.RegisterGuide([[
 .accept Infiltration##533
 
 #step
-.talk Novice Thaivand
+.talk Novice Thaivand##2429
 >>en:Standing in the graveyard.
 >>de:Steht auf dem Friedhof.
 >>Outside in the graveyard.
@@ -207,7 +212,7 @@ LLG.RegisterGuide([[
 .accept Helcular's Revenge##552
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 >>Inside the building.
 >>Follow the river north to travel to this location.
 .goto Alterac Mountains,80.50,66.92
@@ -217,7 +222,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Snapjaw
+.kill 1 Snapjaw##2408
 >>They look like turtles.
 >>You can find more all along the river to the north and south.
 >>If you go far south, be careful to avoid Southshore.
@@ -228,15 +233,15 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,62.51,19.61
 >>Enter the building
-.talk Christoph Jeffcoat
+.talk Christoph Jeffcoat##2393
 >>en:He is inside the inn to the left next to the staircase
 >>Inside the building.
-.kill 1 Soothing Spices
+.kill 1 Soothing Spices##3713
 .goto Hillsbrad Foothills,62.29,19.04
 .complete 7321,2 >>Collect Soothing Spices
 
 #step
-.talk Christoph Jeffcoat
+.talk Christoph Jeffcoat##2393
 >>en:He is inside the inn to the left next to the staircase
 >>Inside the building.
 .goto Hillsbrad Foothills,62.29,19.04
@@ -245,7 +250,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.58,20.61
 >>Enter the building
-.talk Magus Wordeen Voidglare
+.talk Magus Wordeen Voidglare##2410
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -253,7 +258,7 @@ LLG.RegisterGuide([[
 .accept Prison Break In##544
 
 #step
-.talk Keeper Bel'varil
+.talk Keeper Bel'varil##2437
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -284,14 +289,14 @@ LLG.RegisterGuide([[
 >>Inside the building.
 
 #step
-.click Hillsbrad Proclamation
+.click Hillsbrad Proclamation##1761
 >>Inside the building on the railing.
 >>Be careful this building is full of enemies that run at low health.
 >>Try to pull them outside the building 1-2 at a time so it's safer.
 .goto Hillsbrad Foothills,29.73,41.75
 
 #step
-.click Hillsbrad Town Registry
+.click Hillsbrad Town Registry##1759
 >>Inside the building. It is a book in the corner.
 >>Be careful this building is full of enemies that run at low health.
 >>Try to pull them outside the building 1-2 at a time so it's safer.
@@ -304,7 +309,7 @@ LLG.RegisterGuide([[
 >>Inside and outside the building.
 
 #step
-.talk High Executor Darthalia
+.talk High Executor Darthalia##2215
 >>en:Standing in the middle of town.
 >>de:Steht in der Mitte der Stadt.
 .goto Hillsbrad Foothills,62.33,20.45
@@ -313,7 +318,7 @@ LLG.RegisterGuide([[
 .accept Battle of Hillsbrad##539
 
 #step
-.talk Novice Thaivand
+.talk Novice Thaivand##2429
 >>en:Standing in the graveyard.
 >>de:Steht auf dem Friedhof.
 .goto Hillsbrad Foothills,63.88,19.66
@@ -323,7 +328,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Kayren Soothallow
+.talk Kayren Soothallow##2401
 >>Buy enough ammo to fill your ammo bag, plus 6-8 extra stacks.
 >>You have a long grind coming up soon. If you didn't grind earlier at level 30, buy a LOT of arrows.
 .goto Hillsbrad Foothills,62.56,19.91
@@ -335,7 +340,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Hillsbrad Foothills,45.00,28.07
 >>Run down the ramp and follow the path
-.click Flame of Veraz
+.click Flame of Veraz##1769
 >>Downstairs inside the cave.
 >>Watch for patrols and respawns.
 .goto Hillsbrad Foothills,44.04,26.56
@@ -352,7 +357,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Flame of Azel
+.click Flame of Azel##1768
 >>Upstairs inside the cave.
 >>Watch for patrols and respawns.
 .goto Hillsbrad Foothills,43.90,28.05
@@ -412,7 +417,7 @@ LLG.RegisterGuide([[
 >>Fight your way to any of them and leave the mine.
 
 #step
-.kill 1 Ricter
+.kill 1 Ricter##2411
 >>He walks around this area.
 >>He runs away really fast at low health, try to slow or CC him so he doesn't run and pull more enemies.
 .goto Alterac Mountains,20.20,84.08
@@ -421,13 +426,13 @@ LLG.RegisterGuide([[
 #step
 .goto Alterac Mountains,20.46,86.09
 >>Enter the building
-.kill 1 Alina
+.kill 1 Alina##2412
 >>She walks around inside the building.
 .goto Alterac Mountains,20.35,86.35
 .complete 544,3 >>Collect Bloodstone Shard
 
 #step
-.kill 1 Dermot
+.kill 1 Dermot##2413
 >>He walks around inside the building.
 .goto Alterac Mountains,20.01,86.13
 .complete 544,1 >>Collect Bloodstone Wedge
@@ -435,7 +440,7 @@ LLG.RegisterGuide([[
 #step
 .goto Alterac Mountains,18.65,84.41
 >>Enter the building
-.kill 1 Kegan Darkmar
+.kill 1 Kegan Darkmar##2414
 >>Upstairs inside the building.
 >>He is guarded by Warden Belamoore, a high level mage. Use the stairs or the doorway downstairs to break line of sight of her casts and prevent her from damaging you.
 >>Don't fight her in a position you can get fireballed repeatedly or you will die.
@@ -462,7 +467,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Alterac Mountains,37.55,68.05
 >>Enter the cave
-.click Flame of Uzel
+.click Flame of Uzel##1770
 >>Inside the cave.
 .goto Alterac Mountains,37.54,66.26
 .complete 553,3 >>Charge the Flame of Uzel
@@ -483,7 +488,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.58,20.61
 >>Enter the building
-.talk Magus Wordeen Voidglare
+.talk Magus Wordeen Voidglare##2410
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -491,7 +496,7 @@ LLG.RegisterGuide([[
 .turnin Prison Break In##544
 
 #step
-.talk Keeper Bel'varil
+.talk Keeper Bel'varil##2437
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -499,12 +504,12 @@ LLG.RegisterGuide([[
 .turnin Stone Tokens##556
 
 #step
-.talk Deathguard Samsa
+.talk Deathguard Samsa##2418
 .goto Hillsbrad Foothills,62.11,19.70
 .turnin Souvenirs of Death##546
 
 #step
-.talk High Executor Darthalia
+.talk High Executor Darthalia##2215
 >>en:Standing in the middle of town.
 >>de:Steht in der Mitte der Stadt.
 >>She walks around this area.
@@ -516,7 +521,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,62.91,20.56
 >>Enter the building
-.talk Krusk
+.talk Krusk##2229
 >>en:Standing inside the church.
 >>de:Steht in der Kirche.
 >>Inside the building.
@@ -524,7 +529,7 @@ LLG.RegisterGuide([[
 .turnin Infiltration##533
 
 #step
-.talk Kayren Soothallow
+.talk Kayren Soothallow##2401
 .goto Hillsbrad Foothills,62.53,19.91
 .vendor
 
@@ -533,13 +538,13 @@ LLG.RegisterGuide([[
 >>Avoid Southshore
 .goto Hillsbrad Foothills,53.54,52.18
 >>Follow the path and be careful to avoid the guards
-.click Helcular's Grave
+.click Helcular's Grave##1767
 .goto Hillsbrad Foothills,52.78,53.38
 .turnin Helcular's Revenge##553
 .only not hardcore
 
 #step
-.click Mudsnout Blossom
+.click Mudsnout Blossom##1723
 >>They look like large white and blue mushrooms on the ground around this area.
 .goto Hillsbrad Foothills,64.26,61.28
 .complete 509,1 >>Collect 6 Mudsnout Blossoms

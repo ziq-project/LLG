@@ -16,14 +16,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Shindrell Swiftfire
+.talk Shindrell Swiftfire##3845
 >>en:Next to a sign post.
 >>de:Next to a sign post.
 .goto Ashenvale,34.67,48.84
 .accept Kayneth Stillwind##4581
 
 #step
-.talk Fahran Silentblade
+.talk Fahran Silentblade##3969
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -41,14 +41,14 @@ LLG.RegisterGuide([[
 >>This quest is grey, but the many followups will be yellow/green, and give a lot of xp.
 
 #step
-.talk Sentinel Melyria Frostshadow
+.talk Sentinel Melyria Frostshadow##3880
 >>en:Next to a tall blue hut.
 >>de:Next to a tall blü hut.
 .goto Ashenvale,22.23,52.98
 .accept The Howling Vale##1022
 
 #step
-.talk Illiyana
+.talk Illiyana##3901
 >>en:She's a dryad standing in the glowing gazeebo or walking around Forest Song.
 >>de:She's a centaur standing in the glowing gazeebo or walking around Forest Song.
 .goto Ashenvale,21.73,53.35
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,37.19,51.86
 >>Enter the building
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.
@@ -70,7 +70,7 @@ LLG.RegisterGuide([[
 >>Follow the road to this path
 .goto Ashenvale,51.80,45.73
 >>Continue following the path
-.talk Shael'dryn
+.talk Shael'dryn##3916
 >>en:Deep in the moutaints, next to a moonwell.
 >>de:Tief in den Bergen, neben einem Mondbrunnen.
 >>She walks around this area.
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,54.56,34.55
 >>Follow the path up
-.click Worn Chest
+.click Worn Chest##19022
 .goto Ashenvale,54.41,35.39
 .complete 1026,1 >>Collect Iron Shaft
 .only walking
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 .goto Ashenvale,52.92,37.64
 >>Run through the tunnel to enter the Howling Vale
 >>only hardcore :: Watch for patrols and respawns while in the area.
-.click Tome of Mel'Thandris
+.click Tome of Mel'Thandris##19027
 .goto Ashenvale,50.49,39.13
 .complete 1022,1 >>View the Tome of Mel'Thandris
 .only walking and not subzone("The and Howling and Vale")
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Ashenvale,67.32,49.70
 >>Follow the path through the forest
-.talk Anilia
+.talk Anilia##3920
 >>en:She's laying on the ground in a camp of satyrs, next to a square campfire.
 >>de:Sie liegt in einem Satyrlager auf dem Boden, neben einem viereckigen Lagerfeür.
 .goto Ashenvale,78.32,44.82
@@ -134,7 +134,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Xavian")
 
 #step
-.kill 1 Geltharis
+.kill 1 Geltharis##4619
 >>only hardcore :: He is level 32, so be careful. If you don't feel comfortable, or don't have someone to help you, skip the quest and grind more later to make up for it.
 >>If you skip it, abandon the quest "The Brand of Cenarius".
 >>only hardcore :: Xavian Hellcallers are ranged attackers that deal heavy damage and may aggro from quite a range.
@@ -143,7 +143,7 @@ LLG.RegisterGuide([[
 .complete 1031,1 >>Collect Branch of Cenarius
 
 #step
-.talk Kayneth Stillwind
+.talk Kayneth Stillwind##3848
 >>en:Up on the stone foundation, next to a campfire.
 >>de:Oben auf dem Steinfundament, neben einem Lagerfeür.
 .goto Ashenvale,85.24,44.71
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 .accept Forsaken Diseases##1011
 
 #step
-.talk Sentinel Melyria Frostshadow
+.talk Sentinel Melyria Frostshadow##3880
 >>en:Next to a tall blue hut.
 >>de:Next to a tall blü hut.
 .goto Ashenvale,22.23,52.98
@@ -161,7 +161,7 @@ LLG.RegisterGuide([[
 .accept Velinde Starsong##1037
 
 #step
-.talk Illiyana
+.talk Illiyana##3901
 >>en:She's a dryad standing in the glowing gazeebo or walking around Forest Song.
 >>de:She's a centaur standing in the glowing gazeebo or walking around Forest Song.
 .goto Ashenvale,21.73,53.35
@@ -174,7 +174,7 @@ LLG.RegisterGuide([[
 >>Follow the road to this path
 .goto Ashenvale,51.80,45.73
 >>Continue following the path
-.talk Shael'dryn
+.talk Shael'dryn##3916
 >>en:Deep in the moutaints, next to a moonwell.
 >>de:Tief in den Bergen, neben einem Mondbrunnen.
 >>She walks around this area.
@@ -187,13 +187,13 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,50.61,46.04
 >>Follow the path back to the road
-.kill 1 Shadethicket Oracle
+.kill 1 Shadethicket Oracle##3931
 .goto Ashenvale,66.68,82.19
 .complete 1035,1 >>Collect Fallen Moonstone
 .only walking and not subzone("Nightsong and Woods")
 
 #step
-.kill 1 Rotting Slime
+.kill 1 Rotting Slime##3928
 .click Rusty Chest+
 >>They sometimes appear on the ground after you kill the Rotting Slimes.
 .goto Ashenvale,70.95,74.87
@@ -215,7 +215,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,73.90,66.81
 >>Follow the road back to Forest Song
-.talk Kayneth Stillwind
+.talk Kayneth Stillwind##3848
 >>en:Up on the stone foundation, next to a campfire.
 >>de:Oben auf dem Steinfundament, neben einem Lagerfeür.
 .goto Ashenvale,85.24,44.71
@@ -223,7 +223,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Dor'Danil and Barrow and Den")
 
 #step
-.talk Jarrodenus
+.talk Jarrodenus##12577
 >>en:Next to 2 hippogryphs.
 >>de:Neben 2 Hippogryphen.
 >>This step is necessary to access some flight paths to Ratchet.
@@ -232,7 +232,7 @@ LLG.RegisterGuide([[
 .fly Talrendis Point
 
 #step
-.click Circle of Imprisonment
+.click Circle of Imprisonment##19901
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Enemies tend to pull together in this area, so be careful.
 .goto Ashenvale,81.60,48.58
@@ -245,7 +245,7 @@ LLG.RegisterGuide([[
 >>Cross the river
 .goto Ashenvale,68.75,52.75
 >>Follow the path
-.click Circle of Imprisonment
+.click Circle of Imprisonment##19901
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Enemies tend to pull together in this area, so be careful.
 .goto Ashenvale,66.63,56.98
@@ -272,7 +272,7 @@ LLG.RegisterGuide([[
 >>Continue following the path through the forest
 .goto Ashenvale,51.62,45.58
 >>Follow the path to the moonwell
-.talk Shael'dryn
+.talk Shael'dryn##3916
 >>en:Deep in the moutaints, next to a moonwell.
 >>de:Tief in den Bergen, neben einem Mondbrunnen.
 >>She walks around this area.
@@ -282,7 +282,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Shael'dryn
+.talk Shael'dryn##3916
 >>en:Deep in the moutaints, next to a moonwell.
 >>de:Tief in den Bergen, neben einem Mondbrunnen.
 >>She walks around this area.
@@ -300,7 +300,7 @@ LLG.RegisterGuide([[
 >>Continue up the winding dirt path
 .goto Ashenvale,57.11,50.35
 >>Continue following the path
-.click Hidden Shrine
+.click Hidden Shrine##19024
 >>At the end of the path.
 .goto Ashenvale,56.38,49.23
 .turnin Raene's Cleansing##1028
@@ -313,7 +313,7 @@ LLG.RegisterGuide([[
 >>Jump down and follow the path through the forest
 .goto Ashenvale,51.62,45.58
 >>Follow the path around the mountain to the moonwell
-.talk Shael'dryn
+.talk Shael'dryn##3916
 >>en:Deep in the moutaints, next to a moonwell.
 >>de:Tief in den Bergen, neben einem Mondbrunnen.
 >>She walks around this area.
@@ -328,7 +328,7 @@ LLG.RegisterGuide([[
 >>Follow the road back to Astranaar
 .goto Ashenvale,37.19,51.87
 >>Enter the building
-.talk Pelturas Whitemoon
+.talk Pelturas Whitemoon##3894
 >>en:In a small house next to a sleeping girl.
 >>de:In a small house next to a sleeping girl.
 >>Inside the building.
@@ -337,7 +337,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -349,7 +349,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,51.21,58.32
 >>Follow the path down
-.click Dartol's Rod of Transformation
+.click Dartol's Rod of Transformation##5462
 >>Use it at this location.
 .goto Ashenvale,54.00,72.61
 >>Gain Furbolg Form
@@ -358,7 +358,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,53.85,73.90
 >>Follow the path up
-.talk Krolg
+.talk Krolg##3897
 .goto Ashenvale,50.85,75.07
 .turnin Raene's Cleansing##1030
 .goto Ashenvale,50.85,75.07
@@ -385,13 +385,13 @@ LLG.RegisterGuide([[
 >>only hardcore :: Destroy totems as they are summoned.
 
 #step
-.click Dartol's Rod of Transformation
+.click Dartol's Rod of Transformation##5462
 >>Use it at this location.
 .goto Ashenvale,53.67,74.00
 >>Gain Furbolg Form
 
 #step
-.talk Krolg
+.talk Krolg##3897
 .goto Ashenvale,50.85,75.07
 .turnin Raene's Cleansing##1045
 .goto Ashenvale,50.85,75.07
@@ -406,7 +406,7 @@ LLG.RegisterGuide([[
 .complete 1046 >>Click Here to Continue
 
 #step
-.talk Raene Wolfrunner
+.talk Raene Wolfrunner##3691
 >>en:Inside the inn, standing next to a wolf.
 >>de:Inside the inn, standing next to a wolf.
 >>Inside the building.
@@ -414,13 +414,13 @@ LLG.RegisterGuide([[
 .turnin Raene's Cleansing##1046
 
 #step
-.talk Innkeeper Kimlya
+.talk Innkeeper Kimlya##6738
 >>Inside the building.
 .goto Ashenvale,36.99,49.22
 .hs
 
 #step
-.talk Illiyana
+.talk Illiyana##3901
 >>en:She's a dryad standing in the glowing gazeebo or walking around Forest Song.
 >>de:She's a centaur standing in the glowing gazeebo or walking around Forest Song.
 .goto Ashenvale,21.73,53.34
@@ -429,7 +429,7 @@ LLG.RegisterGuide([[
 #step
 .goto Ashenvale,25.37,48.35
 >>Follow the path up and follow the road to Maestra's Post
-.talk Delgren the Purifier
+.talk Delgren the Purifier##3663
 >>en:Standing to the right of 3 big rocks.
 >>de:Standing to the right of 3 big rocks.
 .goto Ashenvale,26.19,38.70
@@ -443,7 +443,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Thyn'tel Bladeweaver
+.talk Thyn'tel Bladeweaver##8026
 >>en:Up the ramp, to the left behind a big stone pillar.
 >>de:Up the ramp, to the left behind a big stone pillar.
 .goto Darnassus,61.78,39.19
@@ -463,7 +463,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Thyn'tel Bladeweaver
+.talk Thyn'tel Bladeweaver##8026
 >>en:Up the ramp, to the left behind a big stone pillar.
 >>de:Up the ramp, to the left behind a big stone pillar.
 .goto Darnassus,61.78,39.19
@@ -474,18 +474,18 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,67.55,61.15
 >>Run up the ramp
-.talk Merelyssa
+.talk Merelyssa##4171
 >>Inside the building.
-.kill 1 Broadsword
+.kill 1 Broadsword##2520
 >>If you can afford it.
 >>You will use it when you reach level 31.
 >>If you have better, skip this step.
 .goto Darnassus,65.36,59.74
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2520) == 0
 
 #step
-.talk Kyrai
+.talk Kyrai##3561
 >>Upstairs inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -496,19 +496,19 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,23.09,17.43
 >>Run up the stairs and enter the building
-.talk Harick Boulderdrum
+.talk Harick Boulderdrum##5133
 >>Downstairs inside the building.
-.kill 1 Pestilent Wand
+.kill 1 Pestilent Wand##5347
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Ironforge,23.13,15.94
 >>Visit the Vendor
-.only Priest
+.only Priest and itemcount(5347) == 0
 
 #step
 .goto Darnassus,39.04,76.75
 >>Enter the building
-.talk Elissa Dumas
+.talk Elissa Dumas##4165
 >>Inside the building.
 .goto Darnassus,40.60,82.13
 .train

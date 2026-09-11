@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 >>Enter the Badlands
 .goto Searing Gorge,31.51,33.47
 >>Follow the path up into Thorium Point
-.click Wanted/Missing/Lost & Found
+.click Wanted/Missing/Lost & Found##179827
 .goto Searing Gorge,37.63,26.53
 .accept STOLEN: Smithing Tuyere and Lookout's Spyglass##7728
 .goto Searing Gorge,37.63,26.53
@@ -28,7 +28,7 @@ LLG.RegisterGuide([[
 .only walking and hardcore and not zone("Searing and Gorge")
 
 #step
-.talk Hansel Heavyhands
+.talk Hansel Heavyhands##14627
 >>en:Standing next to some boxes at the corner of the building.
 >>de:Standing next to some boxes at the corner of the building.
 .goto Searing Gorge,38.57,27.80
@@ -39,7 +39,7 @@ LLG.RegisterGuide([[
 .accept Incendosaurs? Whateverosaur is More Like It##7727
 
 #step
-.talk Lanie Reed
+.talk Lanie Reed##2941
 >>en:Next to a big eagle.
 >>de:Neben einem großen Adler.
 .goto Searing Gorge,37.94,30.86
@@ -47,14 +47,14 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
 .accept Divine Retribution##3441
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 >>Select _"Tell me what drives this vengeance?"_
@@ -62,7 +62,7 @@ LLG.RegisterGuide([[
 .complete 3441,1 >>Listen to Kalaran's Story
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -71,7 +71,7 @@ LLG.RegisterGuide([[
 .accept The Flawless Flame##3442
 
 #step
-.kill 1 Dark Iron Steamsmith
+.kill 1 Dark Iron Steamsmith##5840
 >>Prioritize this step heavily.
 >>They have a roughly 5 minute respawn time and a low drop rate.
 >>Work on the other quests around this area while waiting for them to respawn.
@@ -80,7 +80,7 @@ LLG.RegisterGuide([[
 >>You can find more around [42.86,51.59]
 
 #step
-.kill 1 Dark Iron Lookout
+.kill 1 Dark Iron Lookout##8566
 >>They are around the watch towers on the cliff surrounding the huge pit.
 >>There are not many of these and should be your second priority for clears after Steamsmiths.
 .goto Searing Gorge,33.03,53.44
@@ -116,7 +116,7 @@ LLG.RegisterGuide([[
 >>[31.52,72.23]
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -186,13 +186,14 @@ LLG.RegisterGuide([[
 >>You can also find some outside, near Thorium Point.
 
 #step
-.click the Grimesilt Outhouse Key
+.click the Grimesilt Outhouse Key##11818
 .accept The Key to Freedom##4451
+.only itemcount(11818) > 0
 
 #step
 .goto Searing Gorge,49.58,45.49
 >>Leave the cave
-.talk Hansel Heavyhands
+.talk Hansel Heavyhands##14627
 >>en:Standing next to some boxes at the corner of the building.
 >>de:Standing next to some boxes at the corner of the building.
 .goto Searing Gorge,38.59,27.81
@@ -203,7 +204,7 @@ LLG.RegisterGuide([[
 .turnin Incendosaurs? Whateverosaur is More Like It##7727
 
 #step
-.talk Taskmaster Scrange
+.talk Taskmaster Scrange##14626
 >>en:Standing under a canopy next to a big barrel.
 >>de:Standing under a canopy next to a big barrel.
 .goto Searing Gorge,38.98,27.51
@@ -212,7 +213,7 @@ LLG.RegisterGuide([[
 .turnin JOB OPPORTUNITY: Culling the Competition##7729
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.06,38.99
@@ -245,7 +246,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -261,7 +262,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,38.99
@@ -271,13 +272,13 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Torch of Retribution
+.click Torch of Retribution##149047
 .goto Searing Gorge,39.06,39.06
 .turnin The Torch of Retribution##3454
 .only not hardcore
 
 #step
-.talk Kalaran Windblade
+.talk Kalaran Windblade##8479
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.05,39.00
@@ -285,7 +286,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Squire Maltrake
+.talk Squire Maltrake##8509
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.16,38.99
@@ -297,7 +298,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,33.50,53.64
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149025
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -308,7 +309,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,35.92,59.85
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149025
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -321,7 +322,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Searing Gorge,44.10,61.85
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149025
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -334,7 +335,7 @@ LLG.RegisterGuide([[
 >>Cross the hanging bridge
 .goto Searing Gorge,50.19,55.61
 >>Run up the ramp
-.click Sentry Brazier
+.click Sentry Brazier##149025
 >>On the metal platform of the tower.
 >>You have to equip the Torch of Retribution.
 >>Remember to re-equip your normal weapon after.
@@ -343,7 +344,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Wooden Outhouse
+.click Wooden Outhouse##173265
 .goto Searing Gorge,65.53,62.23
 .turnin The Key to Freedom##4451
 .goto Searing Gorge,65.54,62.24
@@ -364,7 +365,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 
 #step
-.kill 1 Margol the Rager
+.kill 1 Margol the Rager##5833
 >>It's a level 48 elite, but you should be able to kill it at this level.
 >>Clear enemies around the area before attempting to kill it.
 >>It looks like a blue dinosaur that walks on the path around this area.
@@ -372,7 +373,7 @@ LLG.RegisterGuide([[
 .collect Margol's Horn,1
 
 #step
-.click Margol's Horn
+.click Margol's Horn##10000
 .accept The Horn of the Beast##3181
 
 #step
@@ -382,13 +383,13 @@ LLG.RegisterGuide([[
 >>only hardcore :: Enemies tend to bunch together so be prepared for adds.
 
 #step
-.click Wooden Outhouse
+.click Wooden Outhouse##173265
 >>You should have the Silk Cloth already from a previous guide.
 .goto Searing Gorge,65.54,62.24
 .turnin Caught!##4449
 
 #step
-.talk Dorius Stonetender
+.talk Dorius Stonetender##8284
 >>en:Laying on the ground at the bottom of the camp.
 >>de:Laying on the ground at the bottom of the camp.
 >>This is an escort quest.
@@ -415,7 +416,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,67.18,34.60
 >>Follow the path
-.talk Squire Maltrake
+.talk Squire Maltrake##8509
 >>en:Standing in the wide open, next to a small chest.
 >>de:Standing in the wide open, next to a small chest.
 .goto Searing Gorge,39.17,39.00
@@ -442,7 +443,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click the Hoard of the Black Dragonflight
+.click the Hoard of the Black Dragonflight##10569
 .collect Black Dragonflight Molt,1
 >>Keep this, you'll need it for a future quest.
 .only not hardcore
@@ -450,7 +451,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,31.51,33.47
 >>Follow the path up into Thorium Point
-.talk Master Smith Burninate
+.talk Master Smith Burninate##14624
 >>en:Standing under a white canopy, next to a forge.
 >>de:Standing under a white canopy, next to a forge.
 >>Buy enough ammo to fill your ammo bag, plus 6-8 extra stacks.
@@ -462,7 +463,7 @@ LLG.RegisterGuide([[
 #step
 .goto Searing Gorge,31.51,33.47
 >>Follow the path up into Thorium Point
-.talk Mountaineer Pebblebitty
+.talk Mountaineer Pebblebitty##3836
 >>en:Next to a big gate.
 >>de:Next to a big gate.
 .goto Loch Modan,18.19,84.00

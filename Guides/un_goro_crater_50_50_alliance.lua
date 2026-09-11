@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,27.04,56.57
 >>Follow the path down into Un'Goro Crater
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.64,75.96
@@ -28,12 +28,12 @@ LLG.RegisterGuide([[
 .only walking and not zone("Un'Goro and Crater")
 
 #step
-.click A Wrecked Raft
+.click A Wrecked Raft##161505
 .goto Un'Goro Crater,63.02,68.50
 .accept It's a Secret to Everybody##3844
 
 #step
-.click A Small Pack
+.click A Small Pack##161504
 >>Underwater.
 .goto Un'Goro Crater,63.12,69.02
 .turnin It's a Secret to Everybody##3844
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 .accept It's a Secret to Everybody##3845
 
 #step
-.click Fresh Threshadon Carcass
+.click Fresh Threshadon Carcass##166863
 >>Avoid the elite t-rex that sometimes walks near this location.
 .goto Un'Goro Crater,68.75,56.66
 .complete 4290,1 >>Collect Piece of Threshadon Carcass
@@ -49,7 +49,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,46.01,13.45
 >>Follow the path up into Marshal's Refuge
-.talk Muigin
+.talk Muigin##9119
 >>en:Up the little hill, holding a big mallet.
 >>de:Oben auf dem kleinen Hügel, hält einen großen Hammer.
 .goto Un'Goro Crater,42.94,9.64
@@ -70,7 +70,7 @@ LLG.RegisterGuide([[
 >>[55.87,34.69]
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.64,75.97
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 .accept The Scent of Lar'korwi##4291
 
 #step
-.kill 1 Lar'korwi Mate
+.kill 1 Lar'korwi Mate##9683
 >>Stand on the pile of purple eggs to get it to appear.
 .goto Un'Goro Crater,67.32,73.05
 .complete 4291,1 >>Collect 2 Ravasaur Pheromone Gland
@@ -89,7 +89,7 @@ LLG.RegisterGuide([[
 >>[66.60,66.73]
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.97
@@ -106,6 +106,7 @@ LLG.RegisterGuide([[
 .collect Yellow Power Crystal,7
 .collect Green Power Crystal,7
 .collect Blue Power Crystal,7
+.only itemcount(11184) < 7
 
 #step
 .kill 1 Bloodpetal enemies while heading back towards town.
@@ -131,13 +132,14 @@ LLG.RegisterGuide([[
 >>[55.87,34.69]
 
 #step
-.click A Mangled Journal
+.click A Mangled Journal##11116
 .accept Williden's Journal##3884
+.only itemcount(11116) > 0
 
 #step
 .goto Un'Goro Crater,46.01,13.45
 >>Follow the path up into Marshal's Refuge
-.talk Muigin
+.talk Muigin##9119
 >>en:Up the little hill, holding a big mallet.
 >>de:Oben auf dem kleinen Hügel, hält einen großen Hammer.
 .goto Un'Goro Crater,42.94,9.64
@@ -147,7 +149,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Marshal's and Refuge")
 
 #step
-.click A Small Pack
+.click A Small Pack##11107
 .complete 3845,1 >>Collect Large Compass
 .complete 3845,2 >>Collect Curled Map Parchment
 .complete 3845,3 >>Collect Lion-headed Key
@@ -160,7 +162,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Linken
+.talk Linken##8737
 >>en:Standing inside a hollowed out tree.
 >>de:Steht in einem ausgehöhlten Baum.
 .goto Un'Goro Crater,44.66,8.11
@@ -169,7 +171,7 @@ LLG.RegisterGuide([[
 .accept It's a Secret to Everybody##3908
 
 #step
-.talk Williden Marshal
+.talk Williden Marshal##9270
 >>en:Standing to the right of the mouth of the cave.
 >>de:Standing to the right of the mouth of the cave.
 .goto Un'Goro Crater,43.95,7.14
@@ -178,7 +180,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.81
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -187,7 +189,7 @@ LLG.RegisterGuide([[
 .only subzone("Marshal's and Refuge")
 
 #step
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -208,7 +210,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.81
 >>Leave the cave
-.talk Gryfe
+.talk Gryfe##10583
 >>en:Standing up on a hill, next to a big white canopy.
 >>de:Steht oben auf einem Hügel, neben einem großen weißen Baldachin.
 .goto Un'Goro Crater,45.23,5.84
@@ -216,7 +218,7 @@ LLG.RegisterGuide([[
 .only subzone("Marshal's and Refuge")
 
 #step
-.click Un'Goro Dirt Pile
+.click Un'Goro Dirt Pile##157936
 >>It can appear as a small pile on the ground.
 >>Any enemy in Un'Goro Crater can drop the quest item.
 .collect Un'Goro Soil,20
@@ -225,7 +227,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
@@ -240,7 +242,7 @@ LLG.RegisterGuide([[
 .complete 580 >>Collect 12 Pupellyverbos Port
 
 #step
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
@@ -250,7 +252,7 @@ LLG.RegisterGuide([[
 .goto Tanaris,52.30,28.91
 
 #step
-.talk Oglethorpe Obnoticus
+.talk Oglethorpe Obnoticus##7406
 >>In an upstairs building.
 .goto Stranglethorn Vale,28.01,76.43
 .turnin Rescue OOX-17/TN!##648
@@ -263,7 +265,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.64,77.09
 >>Enter the building
-.talk "Sea Wolf" MacKinley
+.talk "Sea Wolf" MacKinley##2501
 >>de:Im Haus mit dem hängenden Hai davor, links beim Eintreten.
 >>Inside the building.
 .goto Stranglethorn Vale,27.78,77.07
@@ -272,7 +274,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Whiskey Slim
+.talk Whiskey Slim##2491
 >>en:Standing on the bottom floor of the inn.
 >>de:Steht im Erdgeschoss des Gasthauses.
 >>Inside the building, on the bottom floor.
@@ -280,7 +282,7 @@ LLG.RegisterGuide([[
 .turnin Whiskey Slim's Lost Grog##580
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -290,7 +292,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,53.44,64.92
 >>Enter the building
-.talk Innkeeper Allison
+.talk Innkeeper Allison##6740
 >>Inside the building.
 .goto Stormwind City,52.62,65.70
 .hs
@@ -298,13 +300,13 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,63.60,22.83
 >>Enter the building
-.talk Brohann Caskbelly
+.talk Brohann Caskbelly##5384
 >>Inside the building.
 .goto Stormwind City,64.33,20.66
 .turnin Rhapsody's Tale##1469
 
 #step
-.talk Jasper Fel
+.talk Jasper Fel##1325
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.

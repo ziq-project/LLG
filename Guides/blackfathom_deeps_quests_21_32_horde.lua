@@ -19,7 +19,7 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Je'neu Sancrea
+.talk Je'neu Sancrea##12736
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.57,34.28
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 >>Jump down into the water
 .goto Ashenvale,43.94,35.27
 >>Enter the underwater cave
-.kill 1 Blackfathom Tide Priestess
+.kill 1 Blackfathom Tide Priestess##4802
 >>You may need help with this.
 .goto Ashenvale,43.82,35.14
 .collect Damp Note,1
@@ -42,11 +42,11 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click the Damp Note
+.click the Damp Note##16790
 .accept Allegience to the Old Gods##6564
 
 #step
-.talk Je'neu Sancrea
+.talk Je'neu Sancrea##12736
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.57,34.28
@@ -59,7 +59,7 @@ LLG.RegisterGuide([[
 >>Jump into the water
 .goto Ashenvale,13.28,13.23
 >>Swim underwater into the cave
-.click Sapphire of Aku'Mai
+.click Sapphire of Aku'Mai##178184
 >>They look like light-blue crystals along the cavern walls all through out this area.
 .goto Ashenvale,13.74,9.38
 .complete 6563,1 >>Collect 20 Sapphire of Aku'Mai
@@ -73,7 +73,7 @@ LLG.RegisterGuide([[
 >>Enter the Blackfathom Deeps Dungeon with Your Group
 
 #step
-.talk Argent Guard Thaelrid
+.talk Argent Guard Thaelrid##4787
 >>Follow the path inside the dungeon to enter The Drowned Sacellum.
 >>Swim to the south side of the room and then jump across the platforms to reach the southwest path.
 >>Continue following the path to The Pool of Ask'ar then head southwest again and swim into the underwater cave.
@@ -95,17 +95,17 @@ LLG.RegisterGuide([[
 .complete 6921 >>Collect Fathom Core
 
 #step
-.kill 1 Baron Aquanis
+.kill 1 Baron Aquanis##12876
 >>He is an optional boss in the dungeon.
 >>He spawns after clicking the Fathom Stone underwater in the Moonshrine Ruins.
 .collect Strange Water Globe,1
 
 #step
-.click the Strange Water Globe
+.click the Strange Water Globe##16782
 .accept Baron Aquanis##6922
 
 #step
-.kill 1 Twilight Lord Kelris
+.kill 1 Twilight Lord Kelris##4832
 .complete 6561,1 >>Collect Head of Kelris
 
 #step
@@ -113,7 +113,7 @@ LLG.RegisterGuide([[
 .complete 6561 >>Click Here to Continue
 
 #step
-.talk Je'neu Sancrea
+.talk Je'neu Sancrea##12736
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.57,34.28
@@ -126,7 +126,7 @@ LLG.RegisterGuide([[
 .turnin Baron Aquanis##6922
 
 #step
-.talk Bashana Runetotem
+.talk Bashana Runetotem##9087
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.

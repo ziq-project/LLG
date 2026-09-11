@@ -26,33 +26,33 @@ LLG.RegisterGuide([[
 >>Follow the road to this path
 .goto Ashenvale,16.93,29.97
 >>Run around the mountains
-.talk Andruk
+.talk Andruk##11901
 .goto Ashenvale,12.23,33.80
 .fly Zoram'gar Outpost
 .only walking
 
 #step
-.talk Je'neu Sancrea
+.talk Je'neu Sancrea##12736
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.57,34.29
 .turnin Trouble in the Deeps##6562
 
 #step
-.talk Karang Amakkar
+.talk Karang Amakkar##12757
 >>de:Standing in the middle of the small camp, next to a cauldron.
 .goto Ashenvale,11.90,34.53
 .accept Between a Rock and a Thistlefur##216
 
 #step
-.talk Marukai
+.talk Marukai##12719
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.69,34.90
 .accept Naga at the Zoram Strand##6442
 
 #step
-.talk Mitsuwa
+.talk Mitsuwa##12721
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.65,34.85
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 >>You can find more around [14.62,19.38]
 
 #step
-.talk Marukai
+.talk Marukai##12719
 >>de:Standing in a troll hut.
 >>Inside the building.
 .goto Ashenvale,11.69,34.90
@@ -83,17 +83,17 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,53.89,55.49
 >>Enter the building
-.talk Kard Ragetotem
+.talk Kard Ragetotem##3021
 >>Inside the building.
-.kill 1 Longsword
+.kill 1 Longsword##923
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Thunder Bluff,52.98,56.63
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(923) ==0
 
 #step
-.talk Magatha Grimtotem
+.talk Magatha Grimtotem##4046
 >>en:Standing inside a small hut.
 >>de:Standing inside a small hut.
 >>Inside the building.
@@ -102,7 +102,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Magatha Grimtotem
+.talk Magatha Grimtotem##4046
 >>en:Standing inside a small hut.
 >>de:Standing inside a small hut.
 >>Inside the building.
@@ -114,7 +114,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.12,29.89
 >>Enter the building
-.talk Arch Druid Hamuul Runetotem
+.talk Arch Druid Hamuul Runetotem##5769
 >>de:In the big building, in the back of the room.
 >>Inside the building.
 .goto Thunder Bluff,78.62,28.56
@@ -123,7 +123,7 @@ LLG.RegisterGuide([[
 .accept Nara Wildmane##1490
 
 #step
-.talk Nara Wildmane
+.talk Nara Wildmane##5770
 >>en:To the right as you enter the big building.
 >>de:To the right as you enter the big building.
 >>Inside the building.
@@ -133,7 +133,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Apothecary Zamah
+.talk Apothecary Zamah##3419
 >>en:Inside the cave beneath the hanging bridge.
 >>de:Inside the cave beneath the hanging bridge.
 >>Inside the cave.
@@ -147,7 +147,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Thunder Bluff,45.80,58.83
 >>Enter the building
-.talk Chesmu
+.talk Chesmu##8356
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Thunder Bluff,47.13,57.89
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 .only subzone("The and Pools and of and Vision")
 
 #step
-.talk Grunt Logmar
+.talk Grunt Logmar##5911
 >>en:Standing next to some wooden crates.
 >>de:Standing next to some wooden crates.
 .goto The Barrens,44.62,59.27
@@ -165,7 +165,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Grunt Dogran
+.talk Grunt Dogran##5908
 >>en:Laying on the ground between 2 small huts.
 >>de:Laying on the ground between 2 small huts.
 >>Inside the hut.
@@ -176,7 +176,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Darsok Swiftdagger
+.talk Darsok Swiftdagger##3449
 >>en:Standing at the top of the watch tower.
 >>de:Standing at the top of the watch tower.
 >>At the top of the tower.
@@ -186,14 +186,14 @@ LLG.RegisterGuide([[
 .accept Letter to Jin'Zil##1060
 
 #step
-.talk Korran
+.talk Korran##3428
 >>en:Standing in front of a small house.
 >>de:Steht vor einem kleinen Haus.
 .goto The Barrens,51.07,29.63
 .accept Egg Hunt##868
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .accept The Shattered Salute##2460
@@ -209,7 +209,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .turnin The Shattered Salute##2460
@@ -218,7 +218,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.click the Flare Gun
+.click the Flare Gun##8051
 >>Use it while targeting Taskmaster Fizzule nearby to the north.
 >>You must use it TWICE in a row.
 >>After shooting 2 flares, perform the "/salute" emote while still targeting Taskmaster Fizzule.
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Taskmaster Fizzule
+.talk Taskmaster Fizzule##7233
 .goto The Barrens,55.44,5.56
 .turnin Deep Cover##2458
 .goto The Barrens,55.44,5.56
@@ -261,7 +261,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.kill 1 Grand Foreman Puzik Gallywix
+.kill 1 Grand Foreman Puzik Gallywix##7288
 >>Upstairs inside the building, on the top floor.
 >>He is level 23 elite, but you should be able to kill him at this level.
 >>If you have trouble, try to find someone to help you.
@@ -273,7 +273,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.click Gallywix's Lockbox
+.click Gallywix's Lockbox##129127
 >>Upstairs inside the building, on the top floor.
 >>You will get a debuff after opening it, but don't worry about it.
 .goto The Barrens,54.75,5.55
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .turnin Mission: Possible But Not Probable##2478
@@ -290,7 +290,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on Dust of Decay and Empty Vials, at least 20 of each.
 >>You will use these to create poisons soon to use on your weapon to help you deal more damage.
@@ -302,7 +302,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.21,36.95
 >>Enter the building
-.talk Searn Firewarder
+.talk Searn Firewarder##5892
 >>en:Inside the huge building, to the left as you enter, next to a little round table.
 >>de:Inside the huge building, to the left as you enter, next to a little round table.
 >>Inside the building.
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -321,7 +321,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 >>On top of the hill.
@@ -332,13 +332,13 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.click the Empty Brown Waterskin
+.click the Empty Brown Waterskin##7766
 .goto The Barrens,44.19,76.90
 .complete 1535,1 >>Collect Filled Brown Waterskin
 .only Shaman
 
 #step
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 >>On top of the hill.
@@ -349,7 +349,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent, inside the Cleft of Shadow.
@@ -360,7 +360,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click Dogran's Pendant
+.click Dogran's Pendant##6626
 >>Use it while standing on the pink symbol on the ground.
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,49.45,50.03
@@ -368,7 +368,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gan'rul Bloodeye
+.talk Gan'rul Bloodeye##5875
 >>en:Standing in a small hut, next to a blue fire.
 >>de:Standing in a small hut, next to a blü fire.
 >>Inside the tent, inside the Cleft of Shadow.
@@ -377,7 +377,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -387,22 +387,22 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Dusk Wand
+.kill 1 Dusk Wand##5211
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Warlock
+.only Warlock and itemcount(5211) == 0
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Dusk Wand
+.kill 1 Dusk Wand##5211
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Mage
+.only Mage and itemcount(5211) == 0
 ]])

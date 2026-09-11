@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -32,14 +32,14 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
 .only Druid
 
 #step
-.talk Cliffwatcher Longhorn
+.talk Cliffwatcher Longhorn##10537
 >>de:Pacing next to a bonfire.
 >>He walks around this area.
 .goto Thousand Needles,45.65,50.80
@@ -48,19 +48,19 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,54.67,44.77
 >>Follow the path up
-.talk Prate Cloudseer
+.talk Prate Cloudseer##5905
 .goto Thousand Needles,53.54,42.65
 .turnin Call of Air##1531
 .only Shaman
 
 #step
-.talk Starn
+.talk Starn##9551
 >>only Hunter :: Restock on ammo
 .goto Thousand Needles,44.90,50.68
 .vendor
 
 #step
-.talk Moktar Krin
+.talk Moktar Krin##4483
 >>en:Standing in a small camp, next to some kodos, under a red canopy.
 >>de:Steht in einem kleinen Lager, neben einigen Kodos, unter einem roten Baldachin.
 .goto Thousand Needles,67.58,63.94
@@ -69,7 +69,7 @@ LLG.RegisterGuide([[
 .accept The Swarm Grows##1147
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 >>Grind en route to this turnin. Every enemy is used for a quest.
 .goto Thousand Needles,77.79,77.27
@@ -77,20 +77,20 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Delivery to the Gnomes##1114
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.12
 .turnin Delivery to the Gnomes##1114
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept The Rumormonger##1115
@@ -136,7 +136,7 @@ LLG.RegisterGuide([[
 #step
 .kill 1 Silithid enemies around this area
 .collect Cracked Silithid Carapace,1
-.click the Cracked Silithid Carapace
+.click the Cracked Silithid Carapace##5877
 .goto Thousand Needles,69.50,84.74
 .accept Parts of the Swarm##1148
 
@@ -171,7 +171,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Scorpid enemies around this area
->>'
 >>They look like scorpions.
 >>These should be your second priority, the drop rate is rather low.
 .goto Thousand Needles,71.60,73.80
@@ -206,7 +205,7 @@ LLG.RegisterGuide([[
 .complete 1175,2 >>Kill 10 Saltstone Crystalhide
 
 #step
-.click Rocket Car Rubble
+.click Rocket Car Rubble##19868
 >>They look like various machine parts scattered on the ground.
 >>You can find them all throughout the Shimmering Flats.
 .goto Thousand Needles,83.06,61.38
@@ -218,7 +217,7 @@ LLG.RegisterGuide([[
 >>[77.61,68.70]
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .turnin Rocket Car Parts##1110
@@ -226,21 +225,21 @@ LLG.RegisterGuide([[
 .accept Hemet Nesingwary##5762
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.13
 .turnin Salt Flat Venom##1104
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.14,77.12
 .turnin Hardened Shells##1105
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.12
@@ -248,7 +247,7 @@ LLG.RegisterGuide([[
 >>You must have completed "Salt Flat Venom" and "Hardened Shells" from previous guides to accept this.
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -257,21 +256,21 @@ LLG.RegisterGuide([[
 .accept Goblin Sponsorship##1178
 
 #step
-.talk Trackmaster Zherin
+.talk Trackmaster Zherin##4629
 >>en:Standing next to the finish line banner post.
 >>de:Standing next to the finish line banner post.
 .goto Thousand Needles,81.63,77.95
 .turnin A Bump in the Road##1175
 
 #step
-.talk Moktar Krin
+.talk Moktar Krin##4483
 >>en:Standing in a small camp, next to some kodos, under a red canopy.
 >>de:Steht in einem kleinen Lager, neben einigen Kodos, unter einem roten Baldachin.
 .goto Thousand Needles,67.58,63.94
 .turnin The Swarm Grows##1147
 
 #step
-.talk Korran
+.talk Korran##3428
 >>en:Standing in front of a small house.
 >>de:Steht vor einem kleinen Haus.
 .goto The Barrens,51.07,29.63
@@ -286,7 +285,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.89,36.52
 >>Enter the building
-.talk Gazlowe
+.talk Gazlowe##3391
 >>en:Upstairs in the green goblin hut building.
 >>de:Oben im grünen Goblinhüttengebäude.
 >>Upstairs inside the building.
@@ -296,13 +295,13 @@ LLG.RegisterGuide([[
 .accept Goblin Sponsorship##1180
 
 #step
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Deposit these items into the bank.
 .goto The Barrens,62.64,37.42
 .goto The Barrens,62.64,37.42
 
 #step
-.talk Wharfmaster Lozgil
+.talk Wharfmaster Lozgil##4631
 >>en:On the dock near where the boat is.
 >>de:On the dock near where the boat is.
 .goto Stranglethorn Vale,26.34,73.56
@@ -313,32 +312,32 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12251) == 0
 
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Shaman
+.only Shaman and itemcount(12251) == 0
 
 #step
 .goto Stranglethorn Vale,27.85,76.74
@@ -347,7 +346,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -358,7 +357,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building.
@@ -366,12 +365,12 @@ LLG.RegisterGuide([[
 .accept Singing Blue Shards##605
 
 #step
-.talk Nixxrax Fillamug
+.talk Nixxrax Fillamug##2832
 .goto Stranglethorn Vale,27.05,77.19
 >>Stock up on Food and Water
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -381,7 +380,7 @@ LLG.RegisterGuide([[
 .accept Hostile Takeover##213
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -391,7 +390,7 @@ LLG.RegisterGuide([[
 .accept Investigate the Camp##201
 
 #step
-.talk Baron Revilgaz
+.talk Baron Revilgaz##2496
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -401,14 +400,14 @@ LLG.RegisterGuide([[
 .accept Goblin Sponsorship##1182
 
 #step
-.talk Ian Strom
+.talk Ian Strom##1411
 .goto Stranglethorn Vale,26.82,77.16
 .train
 >>He is on the second floor of the inn, in a back room.
 .only Rogue
 
 #step
-.talk Gringer
+.talk Gringer##2858
 >>en:On the top floor of the inn, to the left as you walk out onto the balcony.
 >>de:Im obersten Stockwerk des Gasthauses, links, wenn du auf den Balkon hinausgehst.
 >>Upstairs on the balcony of the building.
@@ -416,13 +415,13 @@ LLG.RegisterGuide([[
 .fly Booty Bay
 
 #step
-.talk Innkeeper Skindle
+.talk Innkeeper Skindle##6807
 >>Inside the building, on the bottom floor.
 .goto Stranglethorn Vale,27.04,77.31
 .hs
 
 #step
-.talk Scooty
+.talk Scooty##7853
 .goto Stranglethorn Vale,27.60,77.48
 .turnin Chief Engineer Scooty##2842
 .goto Stranglethorn Vale,27.60,77.48
@@ -433,7 +432,7 @@ LLG.RegisterGuide([[
 .complete 2843,1 >>Wait for Scooty to Calibrate the Goblin Transponder
 
 #step
-.talk Scooty
+.talk Scooty##7853
 .goto Stranglethorn Vale,27.60,77.48
 .turnin Gnomer-gooooone!##2843
 
@@ -446,7 +445,7 @@ LLG.RegisterGuide([[
 >>Do not follow the Wailing Caverns quest turnin guide.
 
 #step
-.talk Scooty
+.talk Scooty##7853
 .goto Stranglethorn Vale,27.60,77.48
 .turnin A Fine Mess##2904
 .only completedq(2904)

@@ -16,28 +16,28 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Ardwyn Cailen
+.talk Ardwyn Cailen##1312
 >>Inside the building.
-.kill 1 Blackbone Wand
+.kill 1 Blackbone Wand##5239
 >>It costs 3g 48s 58c so don't travel if you don't want to spend the money.
 .goto Stormwind City,42.80,65.60
 >>Visit the Vendor
 .only Priest
 
 #step
-.talk Innkeeper Lyshaerya
+.talk Innkeeper Lyshaerya##11103
 >>Inside the building.
 .goto Desolace,66.27,6.55
 .hs
 
 #step
-.talk Brother Anton
+.talk Brother Anton##1182
 >>Inside the building.
 .goto Desolace,66.52,7.91
 .accept Down the Scarlet Path##261
 
 #step
-.talk Kreldig Ungor
+.talk Kreldig Ungor##5638
 >>en:Next to a small white round table.
 >>de:Neben einem kleinen weißen runden Tisch.
 .goto Desolace,66.20,9.63
@@ -46,7 +46,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,48.99,53.86
 >>Avoid Ghost Walker Post and follow the path
-.talk Hornizz Brimbuzzle
+.talk Hornizz Brimbuzzle##6019
 .goto Desolace,47.83,61.82
 .accept Ghost-o-plasm Round Up##6134
 .only walking
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,46.76,67.06
 >>Follow the path up and over the mountain
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.22,79.25
@@ -68,7 +68,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Desolace,52.07,82.38
 >>Follow the path up
-.kill 1 Doomwarder Captain
+.kill 1 Doomwarder Captain##4680
 >>There aren't many available, so you may have to wait for them to respawn.
 >>Work on the other steps around this area while waiting.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -115,10 +115,10 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,59.06,89.28
 >>Enter the Valley of Bones
-.click the Crate of Ghost Magnets
+.click the Crate of Ghost Magnets##15848
 >>Kill any nearby enemies before using it.
 >>Use it next to the huge bones on the ground around this area.
-.kill 1 Magrami Spectre
+.kill 1 Magrami Spectre##11560
 >>They continuously walk to the spinning object that appears on the ground.
 >>They will become hostile when they reach the spinning object.
 >>Pull them away from the spinning object to fight them.
@@ -143,21 +143,21 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,65.27,85.25
 >>Leave the Valley of Bones and follow the path up
-.kill 1 Khan Jehn
+.kill 1 Khan Jehn##5601
 >>He walks in and out of this tent.
 .goto Desolace,66.39,80.08
 .complete 1374,1 >>Collect Khan Jehn's Head
 .only not hardcore
 
 #step
-.talk Hornizz Brimbuzzle
+.talk Hornizz Brimbuzzle##6019
 .goto Desolace,47.83,61.83
 .turnin Ghost-o-plasm Round Up##6134
 
 #step
 .goto Desolace,46.76,67.06
 >>Follow the path up and over the mountain
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.22,79.25
@@ -169,7 +169,7 @@ LLG.RegisterGuide([[
 >>Follow the road into Feralas and run down the path
 .goto Feralas,43.39,42.75
 >>Ride the boat or swim across the water
-.talk Fyldren Moonfeather
+.talk Fyldren Moonfeather##8019
 >>en:Next to 2 hippogryphs.
 >>de:Neben 2 Hippogryphen.
 >>As you travel here, stay on the road and avoid enemies.
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Faralorn
+.talk Faralorn##7942
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10-12 extra stacks.
 >>You will be questing for a long time without easy access to an ammo vendor.
@@ -188,7 +188,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Antarius
+.talk Antarius##10059
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet, so you can learn "Bite 6".
 .goto Feralas,31.47,43.15
@@ -207,7 +207,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Antarius
+.talk Antarius##10059
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 6" to your permanent pet.
 .goto Feralas,31.47,43.15
@@ -217,33 +217,33 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
 .complete 1117 >>Collect Goblin Rumors
 
 #step
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .turnin Rumors for Kravel##1117
 
 #step
 >>Watch the dialogue
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Back to Booty Bay##1118
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.12
@@ -251,7 +251,7 @@ LLG.RegisterGuide([[
 >>You must have completed "Salt Flat Venom" and "Hardened Shells" from the "Thousand Needles (33-34)" guide.
 
 #step
-.talk Razzeric
+.talk Razzeric##4706
 >>de:Standing next to some green bubbling tanks, next to a green canopy.
 .goto Thousand Needles,80.33,76.10
 .turnin Razzeric's Tweaking##1187
@@ -259,7 +259,7 @@ LLG.RegisterGuide([[
 .accept Safety First##1188
 
 #step
-.talk Shreev
+.talk Shreev##4708
 >>en:Standing next to a hut.
 >>de:Standing next to a hut.
 .goto Tanaris,51.00,27.20
@@ -268,13 +268,13 @@ LLG.RegisterGuide([[
 .accept Safety First##1189
 
 #step
-.talk Brother Anton
+.talk Brother Anton##1182
 >>Inside the building.
 .goto Desolace,66.52,7.91
 .turnin Down the Scarlet Path##261
 
 #step
-.talk Kreldig Ungor
+.talk Kreldig Ungor##5638
 >>en:Next to a small white round table.
 >>de:Neben einem kleinen weißen runden Tisch.
 .goto Desolace,66.20,9.63

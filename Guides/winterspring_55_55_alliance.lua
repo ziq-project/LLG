@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel to leave Felwood
 .goto Felwood,68.40,5.84
 >>Leave the tunnel to enter Winterspring
-.talk Salfa
+.talk Salfa##11556
 >>en:Standing to the left of the tunnel entrance, kind of hidden.
 >>de:Steht links vom Tunneleingang, etwas versteckt.
 .goto Winterspring,27.74,34.50
@@ -28,7 +28,7 @@ LLG.RegisterGuide([[
 .only not zone("Winterspring")
 
 #step
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -78,11 +78,12 @@ LLG.RegisterGuide([[
 >>[41.78,43.14]
 
 #step
-.click the Empty Firewater Flask
+.click the Empty Firewater Flask##12771
 .accept Winterfall Firewater##5083
+.only itemcount(12771) > 0
 
 #step
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -98,7 +99,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel to leave Winterspring
 .goto Felwood,65.13,8.01
 >>Leave the tunnel to enter Felwood
-.click Deadwood Cauldron
+.click Deadwood Cauldron##176091
 >>Try to kite the enemies near the cauldron away one at a time to fight them alone, until you can kill the rest.
 >>If you have trouble, try to find someone to help you.
 .goto Felwood,60.20,5.87
@@ -114,7 +115,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel to leave Felwood
 .goto Felwood,68.40,5.84
 >>Leave the tunnel to enter Winterspring
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -124,15 +125,15 @@ LLG.RegisterGuide([[
 .only not zone("Winterspring")
 
 #step
-.click the Videre Elixir
+.click the Videre Elixir##11243
 >>only not hardcore :: You will die.
 >>only hardcore :: It will bring you to 1 hp, make sure no other enemies are nearby that could hit you.
 >>only hardcore :: This quest was updated to no longer kill you on Hardcore servers
 .goto Tanaris,54.03,28.73
->>Drink the Videre Elixir
+.condition isdead >>Drink the Videre Elixir
 
 #step
-.talk Gaeriyan
+.talk Gaeriyan##9299
 >>en:He is a ghost that walks in this little spot.
 >>de:Er ist ein Geist, der in diesem kleinen Bereich umherläuft.
 >>He looks like a human ghost that walks around this small area.
@@ -154,7 +155,7 @@ LLG.RegisterGuide([[
 .accept Linken's Sword##3914
 
 #step
-.talk Linken
+.talk Linken##8737
 >>en:Standing inside a hollowed out tree.
 >>de:Steht in einem ausgehöhlten Baum.
 .goto Un'Goro Crater,44.66,8.10
@@ -165,7 +166,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -174,7 +175,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.

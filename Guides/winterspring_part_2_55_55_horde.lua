@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Felwood,68.40,5.84
 >>Leave the tunnel
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 .only walking and not zone("Winterspring")
 
 #step
-.kill 1 Winterfall Runner
+.kill 1 Winterfall Runner##10916
 >>They look like a group of 3 white furbolgs that walk back and forth along this road.
 >>Check these locations, and if you don't find them, wait at the location in this step closest to Everlook.
 >>They will eventually walk past this location.
@@ -47,7 +47,7 @@ LLG.RegisterGuide([[
 >>If you don't want to wait for the patrol, there's also usually one in Felwood around [Felwood 60.23,5.75]
 
 #step
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.17
@@ -58,7 +58,7 @@ LLG.RegisterGuide([[
 >>Run along the river to leave Bloodvenom Post
 .goto Felwood,51.26,81.70
 >>Enter the building
-.talk Eridan Bluewind
+.talk Eridan Bluewind##9116
 >>en:Standing inside a house.
 >>de:Standing inside a house.
 >>Inside the building.
@@ -71,7 +71,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,49.85,70.43
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Orgrimmar,49.58,69.12
@@ -80,7 +80,7 @@ LLG.RegisterGuide([[
 .complete 3507 >>Collect Head of Magus Rimtori
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,48.19,79.68
 >>Enter the building
-.talk Trak'gen
+.talk Trak'gen##3313
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10-12 extra stacks.
 >>You will be out questing for a while, with no easy access to an ammo vendor.
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Belgrom Rockmaul
+.talk Belgrom Rockmaul##4485
 >>en:Standing next to a sign.
 >>de:Standing next to a sign.
 .goto Orgrimmar,75.23,34.24

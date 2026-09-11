@@ -16,13 +16,13 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Ag'tor Bloodfist
+.talk Ag'tor Bloodfist##8576
 >>de:Standing under a small red hut canopy.
 .goto Azshara,22.26,51.48
 .accept Betrayed##3505
 
 #step
-.talk Jediga
+.talk Jediga##8587
 >>en:Standing under a low red hut canopy.
 >>de:Steht unter einem niedrigen roten Hüttendach.
 .goto Azshara,22.56,51.42
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 .accept Delivery to Andron Gant##3542
 
 #step
-.talk Kim'jael
+.talk Kim'jael##8420
 >>en:On top of the big hill in a small camp, standing next to a tent.
 >>de:Oben auf dem großen Hügel in einem kleinen Lager, neben einem Zelt.
 >>On top of the big hill.
@@ -71,7 +71,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Watch for respawns while in this area.
 
 #step
-.click Kaldorei Tome of Summoning
+.click Kaldorei Tome of Summoning##151286
 .goto Azshara,59.51,31.30
 .turnin Betrayed##3505
 .goto Azshara,59.51,31.30
@@ -80,14 +80,14 @@ LLG.RegisterGuide([[
 #step
 .click Arcane Focusing Crystal
 >>You will be attacked.
-.kill 1 Blood Elf Defender
+.kill 1 Blood Elf Defender##8581
 >>He will call for Magus Rimtori when his health gets low.
-.kill 1 Magus Rimtori
+.kill 1 Magus Rimtori##8578
 .goto Azshara,59.55,31.52
 .complete 3506,1 >>Collect Head of Magus Rimtori
 
 #step
-.click Kim'jael's Equipment
+.click Kim'jael's Equipment##153123
 >>They look like wooden boxes on the ground around this area.
 >>Some of them may be empty.
 >>They respawn very quickly, you can find one safe area and stay at it to complete the quest.
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 >>[59.61,30.93]
 
 #step
-.talk Kim'jael
+.talk Kim'jael##8420
 >>en:On top of the big hill in a small camp, standing next to a tent.
 >>de:Oben auf dem großen Hügel in einem kleinen Lager, neben einem Zelt.
 >>On top of the big hill.
@@ -135,7 +135,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,45.95,38.62
 >>Follow the path up
-.talk Kim'jael
+.talk Kim'jael##8420
 >>en:On top of the big hill in a small camp, standing next to a tent.
 >>de:Oben auf dem großen Hügel in einem kleinen Lager, neben einem Zelt.
 >>On top of the big hill.
@@ -144,7 +144,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Shattered and Strand")
 
 #step
-.talk Ag'tor Bloodfist
+.talk Ag'tor Bloodfist##8576
 >>de:Standing under a small red hut canopy.
 .goto Azshara,22.26,51.48
 .turnin Betrayed##3506

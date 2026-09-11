@@ -23,7 +23,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Undercity,44.56,66.51
 >>Run down the ramp
-.talk Master Apothecary Faranell
+.talk Master Apothecary Faranell##2055
 >>en:He's standing at the bottom of the Apothecarium next to a chopped up Abomination.
 >>de:Er steht ganz unten im Apothekarium neben einer zerlegten Monstrosität.
 .goto Undercity,48.81,69.30
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Undercity,44.56,66.51
 >>Run down the ramp
-.talk Master Apothecary Faranell
+.talk Master Apothecary Faranell##2055
 >>en:He's standing at the bottom of the Apothecarium next to a chopped up Abomination.
 >>de:Er steht ganz unten im Apothekarium neben einer zerlegten Monstrosität.
 .goto Undercity,48.81,69.30
@@ -59,7 +59,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scarlet Monastery Graveyard Dungeon:
-.talk Vorrel Sengutz
+.talk Vorrel Sengutz##3981
 >>en:He's an undead, chained to a wooden torturing table.
 >>After entering the Chamber of Atonement, he is laying on a table to the right, next to Interrogator Vishas.
 .accept Vorrel's Revenge##1051
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 >>Cross the water
 .goto Silverpine Forest,81.11,30.01
 >>Continue across the water
-.kill 1 Nancy Vishas
+.kill 1 Nancy Vishas##3984
 >>Inside the building.
 >>You may need help with this.
 .goto Alterac Mountains,32.34,32.78
@@ -87,7 +87,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Monika Sengutz
+.talk Monika Sengutz##3982
 >>Inside the building.
 .goto Hillsbrad Foothills,62.67,18.88
 .turnin Vorrel's Revenge##1051
@@ -97,7 +97,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Undercity,44.56,66.51
 >>Run down the ramp
-.talk Master Apothecary Faranell
+.talk Master Apothecary Faranell##2055
 >>en:He's standing at the bottom of the Apothecarium next to a chopped up Abomination.
 >>de:Er steht ganz unten im Apothekarium neben einer zerlegten Monstrosität.
 .goto Undercity,48.81,69.30

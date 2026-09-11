@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 .level 4
 
 #step
-.talk Seer Ravenfeather
+.talk Seer Ravenfeather##5888
 >>en:Standing in front of a huge totem pole.
 >>de:Standing in front of a huge totem pole.
 .goto Mulgore,44.73,76.18
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.kill 1 Bristleback Shaman
+.kill 1 Bristleback Shaman##2953
 >>They can be pretty spread out around this area.
 .goto Mulgore,63.87,80.34
 .complete 1519,1 >>Collect 2 Ritual Salve
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Seer Ravenfeather
+.talk Seer Ravenfeather##5888
 >>en:Standing in front of a huge totem pole.
 >>de:Standing in front of a huge totem pole.
 .goto Mulgore,44.73,76.19
@@ -44,8 +44,8 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.click the Earth Sapta
-.talk the Minor Manifestation of Earth
+.click the Earth Sapta##6635
+.talk the Minor Manifestation of Earth##5891
 >>en:He is a huge rock elemental standing in front of a tall stone slab.
 .goto Mulgore,53.88,80.56
 .turnin Call of Earth##1520
@@ -54,7 +54,7 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Seer Ravenfeather
+.talk Seer Ravenfeather##5888
 >>en:Standing in front of a huge totem pole.
 >>de:Standing in front of a huge totem pole.
 .goto Mulgore,44.73,76.19
@@ -62,20 +62,20 @@ LLG.RegisterGuide([[
 .only Tauren and Shaman
 
 #step
-.talk Canaga Earthcaller
+.talk Canaga Earthcaller##5887
 >>en:Standing next to a wooden cart.
 >>de:Standing next to a wooden cart.
 .goto Durotar,42.41,69.17
 .accept Call of Earth##1516
 
 #step
-.kill 1 Felstalker
+.kill 1 Felstalker##3102
 >>Inside the cave.
 .goto Durotar,44.82,54.59
 .complete 1516,1 >>Collect 2 Felstalker Hoof
 
 #step
-.talk Canaga Earthcaller
+.talk Canaga Earthcaller##5887
 >>en:Standing next to a wooden cart.
 >>de:Standing next to a wooden cart.
 .goto Durotar,42.41,69.17
@@ -92,8 +92,8 @@ LLG.RegisterGuide([[
 >>Continue up the path
 .goto Durotar,42.49,74.89
 >>Follow the path
-.click the Earth Sapta
-.talk Minor Manifestation of Earth
+.click the Earth Sapta##6635
+.talk Minor Manifestation of Earth##5891
 >>en:He is a huge rock elemental standing in front of a tall stone slab.
 .goto Durotar,44.03,76.20
 .turnin Call of Earth##1517
@@ -106,7 +106,7 @@ LLG.RegisterGuide([[
 >>Jump down here
 .goto Durotar,43.49,69.67
 >>Follow the path
-.talk Canaga Earthcaller
+.talk Canaga Earthcaller##5887
 >>en:Standing next to a wooden cart.
 >>de:Standing next to a wooden cart.
 .goto Durotar,42.41,69.17
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,53.25,42.59
 >>Enter the building
-.talk Swart
+.talk Swart##3173
 >>en:In the big building, standing under a big red canopy.
 >>de:Im großen Gebäude unter einem großen roten Baldachin.
 >>Inside the building.
@@ -139,7 +139,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Durotar,34.60,42.31
 >>Cross the bridge
-.talk Kranal Fiss
+.talk Kranal Fiss##5907
 >>en:He walks back and forth.
 >>de:Standing in the doorway of a tower house building.
 .goto The Barrens,56.03,19.89
@@ -161,7 +161,7 @@ LLG.RegisterGuide([[
 >>Continue up the path
 .goto Durotar,39.18,58.63
 >>Follow the path
-.talk Telf Joolam
+.talk Telf Joolam##5900
 >>en:Standing all the way at the top of the mountain.
 >>de:Steht ganz oben auf dem Berg.
 >>On top of the mountain.
@@ -193,7 +193,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Durotar,53.07,27.09
 >>Follow the path
-.kill 1 Burning Blade Cultist
+.kill 1 Burning Blade Cultist##3199
 >>Inside the cave.
 >>They seem to mostly be towards the back of the cave.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -218,7 +218,7 @@ LLG.RegisterGuide([[
 >>Continue up the path
 .goto Durotar,39.18,58.63
 >>Follow the path
-.talk Telf Joolam
+.talk Telf Joolam##5900
 >>en:Standing all the way at the top of the mountain.
 >>de:Steht ganz oben auf dem Berg.
 >>On top of the mountain.
@@ -231,8 +231,8 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,38.34,58.52
 >>Follow the path up
-.click the Fire Sapta
-.kill 1 Minor Manifestation of Fire
+.click the Fire Sapta##6636
+.kill 1 Minor Manifestation of Fire##5893
 >>On top of the mountain.
 >>only hardcore :: It will be immune to fire damage.
 .goto Durotar,38.84,58.24
@@ -240,7 +240,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.click Brazier of the Dormant Flame
+.click Brazier of the Dormant Flame##61934
 >>On top of the mountain.
 .goto Durotar,38.95,58.22
 .turnin Call of Fire##1526
@@ -251,7 +251,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,39.19,57.81
 >>Follow the path down
-.talk Kranal Fiss
+.talk Kranal Fiss##5907
 >>en:He walks back and forth.
 >>de:Standing in the doorway of a tower house building.
 .goto The Barrens,56.04,19.89
@@ -264,7 +264,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.21,36.95
 >>Enter the building
-.talk Searn Firewarder
+.talk Searn Firewarder##5892
 >>en:Inside the huge building, to the left as you enter, next to a little round table.
 >>de:Inside the huge building, to the left as you enter, next to a little round table.
 >>Inside the building.
@@ -275,7 +275,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -289,7 +289,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto The Barrens,44.28,77.29
 >>Follow the path up
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 .goto The Barrens,43.42,77.41
@@ -299,7 +299,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.click the Empty Brown Waterskin
+.click the Empty Brown Waterskin##7766
 .goto The Barrens,44.19,76.90
 .complete 1535,1 >>Collect Filled Brown Waterskin
 .only Shaman
@@ -307,7 +307,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,44.28,77.29
 >>Follow the path up
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 .goto The Barrens,43.42,77.41
@@ -317,7 +317,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.click the Empty Red Waterskin
+.click the Empty Red Waterskin##7768
 .goto Hillsbrad Foothills,62.15,20.75
 .complete 1536,1 >>Collect Filled Red Waterskin
 .only Shaman
@@ -327,7 +327,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto The Barrens,44.28,77.29
 >>Follow the path up
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 .goto The Barrens,43.42,77.41
@@ -339,7 +339,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,38.83,58.05
 >>Follow the path
-.click the Empty Blue Waterskin
+.click the Empty Blue Waterskin##7767
 .goto Ashenvale,33.55,67.44
 .complete 1534,1 >>Collect Filled Blue Waterskin
 .only Shaman
@@ -349,7 +349,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto The Barrens,44.28,77.29
 >>Follow the path up
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 .goto The Barrens,43.42,77.41
@@ -361,7 +361,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,46.85,65.69
 >>Follow the road
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -377,8 +377,8 @@ LLG.RegisterGuide([[
 >>Jump down carefully
 .goto Silverpine Forest,39.09,43.05
 >>Follow the path
-.click the Water Sapta
-.kill 1 Corrupt Water Manifestation
+.click the Water Sapta##6637
+.kill 1 Corrupt Water Manifestation##5894
 .goto Silverpine Forest,38.84,44.25
 .complete 63,1 >>Collect Corrupt Manifestation's Bracers
 .only Shaman
@@ -393,7 +393,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Minor Manifestation of Water
+.talk Minor Manifestation of Water##5895
 >>en:Standing on the small island in the pond.
 .goto Silverpine Forest,38.75,44.62
 .turnin Call of Water##100
@@ -402,7 +402,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -415,7 +415,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.25,36.98
 >>Enter the building
-.talk Searn Firewarder
+.talk Searn Firewarder##5892
 >>en:Inside the huge building, to the left as you enter, next to a little round table.
 >>de:Inside the huge building, to the left as you enter, next to a little round table.
 >>Inside the building.
@@ -426,7 +426,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,54.68,44.78
 >>Follow the path up
-.talk Prate Cloudseer
+.talk Prate Cloudseer##5905
 .goto Thousand Needles,53.54,42.65
 .turnin Call of Air##1531
 .only Shaman
@@ -459,14 +459,14 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Beram Skychaser
+.talk Beram Skychaser##3032
 >>Inside the building.
 .goto Thunder Bluff,22.80,19.40
 .accept Elemental Mastery##8410
 .only Shaman
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin Elemental Mastery##8410
 .goto Alterac Mountains,80.50,66.92
@@ -488,7 +488,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin Spirit Totem##8412
 .goto Alterac Mountains,80.50,66.92
@@ -545,7 +545,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin Da Voodoo##8413
 .only Shaman

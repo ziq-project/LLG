@@ -27,18 +27,18 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Henrig Lonebrow's Journal
+.click Henrig Lonebrow's Journal##5791
 .accept Lonebrow's Journal##1100
 
 #step
-.talk Thyssiana
+.talk Thyssiana##4319
 >>en:Next to 2 hippogryphs, near a moonwell.
 >>de:Neben 2 Hippogryphen, nahe einem Mondbrunnen.
 .goto Feralas,89.50,45.85
 .fly Thalanaar
 
 #step
-.talk Falfindel Waywarder
+.talk Falfindel Waywarder##4048
 >>en:Standing next to a glowing gazeebo and a moonwell.
 >>de:Standing next to a glowing gazeebo and a moonwell.
 .goto Feralas,89.64,46.56
@@ -59,7 +59,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,13.79,33.69
 >>Leave Highperch
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 >>Avoid Freewind Post while you travel here.
 .goto Thousand Needles,77.79,77.27
@@ -67,14 +67,14 @@ LLG.RegisterGuide([[
 .only walking and subzone("Highperch")
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.13
 .accept Salt Flat Venom##1104
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.14,77.12
@@ -83,14 +83,14 @@ LLG.RegisterGuide([[
 .accept Hardened Shells##1105
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.89
 .accept Load Lightening##1176
 
 #step
-.talk Trackmaster Zherin
+.talk Trackmaster Zherin##4629
 >>en:Standing next to the finish line banner post.
 >>de:Standing next to the finish line banner post.
 .goto Thousand Needles,81.64,77.95
@@ -112,7 +112,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Scorpid enemies around this area
->>'
 >>They look like scorpions.
 >>These should be your second priority, the drop rate is rather low.
 .goto Thousand Needles,71.60,73.80
@@ -148,7 +147,7 @@ LLG.RegisterGuide([[
 .complete 1175,2 >>Kill 10 Saltstone Crystalhide
 
 #step
-.click Rocket Car Rubble
+.click Rocket Car Rubble##19868
 >>They look like various machine parts scattered on the ground.
 >>You can find them all throughout the Shimmering Flats.
 .goto Thousand Needles,83.06,61.38
@@ -160,7 +159,7 @@ LLG.RegisterGuide([[
 >>[77.61,68.70]
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 >>Avoid Freewind Post while you travel here.
 .goto Thousand Needles,77.79,77.27
@@ -171,21 +170,21 @@ LLG.RegisterGuide([[
 .accept Hemet Nesingwary##5762
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.13
 .turnin Salt Flat Venom##1104
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.14,77.12
 .turnin Hardened Shells##1105
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -194,14 +193,14 @@ LLG.RegisterGuide([[
 .accept Goblin Sponsorship##1178
 
 #step
-.talk Trackmaster Zherin
+.talk Trackmaster Zherin##4629
 >>en:Standing next to the finish line banner post.
 >>de:Standing next to the finish line banner post.
 .goto Thousand Needles,81.63,77.95
 .turnin A Bump in the Road##1175
 
 #step
-.talk Bera Stonehammer
+.talk Bera Stonehammer##7823
 >>en:Next to a white canopy and a big eagle.
 >>de:Neben einem weißen Baldachin und einem großen Adler.
 .goto Tanaris,51.01,29.34

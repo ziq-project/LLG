@@ -19,14 +19,14 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
 .accept The Sunken Temple##3380
 
 #step
-.talk Marvon Rivetseeker
+.talk Marvon Rivetseeker##7771
 >>en:In a small camp, standing under a blue canopy with a yellow stripe through it.
 >>de:In a small camp, standing under a blü canopy with a yellow stripe through it.
 .goto Tanaris,52.71,45.92
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .complete 3444,1 >>Collect Stone Circle
 
 #step
-.talk Marvon Rivetseeker
+.talk Marvon Rivetseeker##7771
 >>en:In a small camp, standing under a blue canopy with a yellow stripe through it.
 >>de:In a small camp, standing under a blü canopy with a yellow stripe through it.
 .goto Tanaris,52.71,45.92
@@ -49,23 +49,23 @@ LLG.RegisterGuide([[
 .accept Into the Depths##3446
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
 .accept Screecher Spirits##3520
 
 #step
-.kill 1 Vale Screecher
+.kill 1 Vale Screecher##5307
 >>These have a low spawn rate.
-.click Yeh'Kinya's Bramble
+.click Yeh'Kinya's Bramble##10699
 >>Use it on their corpse.
-.talk Screecher Spirit
+.talk Screecher Spirit##8612
 .goto Feralas,58.31,57.70
 .complete 3520,1 >>Collect 3 Screecher Spirits
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
@@ -80,7 +80,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Theka the Martyr
+.kill 1 Theka the Martyr##7272
 >>Follow the path north and then go right when the path splits.
 >>Quickly go left afterwards and then north.
 >>He is the second boss of the dungeon.
@@ -89,7 +89,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Zul'Farrak Dungeon:
-.kill 1 Hydromancer Velratha
+.kill 1 Hydromancer Velratha##7795
 >>Follow the path west to reach an open room with a large pyramid on the western side.
 >>Continue following the path southeast to reach the large room with a pool in the center.
 >>She walks around this area.
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 .complete 3527 >>Click Here to Continue
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 >>Weiter nach Zul'Farrak
@@ -112,14 +112,14 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,47.23,54.36
 >>Enter the building
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Inside the building.
 .goto Swamp of Sorrows,47.94,54.79
 .accept Pool of Tears##1424
 
 #step
-.click an Elixir of Water Breathing
-.click Atal'ai Artifact
+.click an Elixir of Water Breathing##5996
+.click Atal'ai Artifact##30856
 >>They look like various small objects on the ground underwater around this area.
 >>You can find them all around this large lake.
 .goto Swamp of Sorrows,67.14,58.70
@@ -128,7 +128,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,47.23,54.36
 >>Enter the building
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Inside the building.
 .goto Swamp of Sorrows,47.94,54.79
 .turnin Pool of Tears##1424
@@ -142,7 +142,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto The Hinterlands,33.11,75.53
 >>Jump down here
-.talk Atal'ai Exile
+.talk Atal'ai Exile##5598
 .goto The Hinterlands,33.75,75.22
 .turnin The Atal'ai Exile##1429
 .goto The Hinterlands,33.75,75.22
@@ -181,14 +181,14 @@ LLG.RegisterGuide([[
 >>Follow the path down
 .goto The Hinterlands,54.81,83.42
 >>Follow the path up
-.click Ancient Egg
+.click Ancient Egg##175889
 >>Inside the cave.
 >>You may need help with this.
 .goto The Hinterlands,57.52,86.78
 .complete 4787,1 >>Collect Ancient Egg
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
@@ -199,7 +199,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,47.23,54.36
 >>Enter the building
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Inside the building.
 .goto Swamp of Sorrows,47.94,54.79
 .turnin Return to Fel'Zerul##1444
@@ -209,7 +209,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,45.72,13.08
 >>Follow the path up
-.talk Larion
+.talk Larion##9118
 >>en:Standing up on a hill, kind of hidden.
 >>de:Steht oben auf einem Hügel, etwas versteckt.
 .goto Un'Goro Crater,45.53,8.71
@@ -243,7 +243,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,45.72,13.08
 >>Follow the path up
-.talk Larion
+.talk Larion##9118
 >>en:Standing up on a hill, kind of hidden.
 >>de:Steht oben auf einem Hügel, etwas versteckt.
 .goto Un'Goro Crater,45.53,8.71
@@ -255,7 +255,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.52,38.57
 >>Enter the building
-.talk Liv Rizzlefix
+.talk Liv Rizzlefix##8496
 >>en:Inside the small engineering looking hut.
 >>de:Inside the small engineering looking hut.
 >>Inside the building.
@@ -290,11 +290,11 @@ LLG.RegisterGuide([[
 >>Inside the Temple of Atal'Hakkar Dungeon:
 >>After entering the dungeon follow the left path and then go down the stairs to reach the Hall of Serpents.
 >>Run around the outside ring and clear each of the small inside rooms.
-.click Atal'ai Statue
+.click Atal'ai Statue##148830
 >>Click the serpent statues in the inside rooms in this order:
 >>South, north, southwest, southeast, northwest then finally the northeast altar.
 >>Atal'alarion will appear after clicking the statues in the correct order; jump down and kill him.
-.kill 1 Atal'alarion
+.kill 1 Atal'alarion##8580
 .click Altar of Hakkar
 >>At the top of the stairs in The Pit of Refuse.
 .turnin Into the Depths##3446
@@ -302,13 +302,13 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.click Idol of Hakkar
+.click Idol of Hakkar##148838
 >>In the center of the room in The Pit of Refuse.
 .turnin Secret of the Circle##3447
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.kill 1 Jammal'an the Prophet
+.kill 1 Jammal'an the Prophet##5710
 >>Follow the path up and out of The Pit of Refuse.
 >>Follow the left path again and go up three large sets of stairs, immediately go right to follow a short hallway and reach the upper level of The Pit of Sacrifice.
 >>There should be an elite enemy named Hukku channeling a spell on this balcony; kill him and then go back down the short hallway, but turn right and continue up the stairs to the Hall of the Cursed.
@@ -320,38 +320,38 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.kill 1 Shade of Eranikus
+.kill 1 Shade of Eranikus##5709
 >>Return to the main central room in The Pit of Sacrifice and follow the southern path.
 .collect Essence of Eranikus,1
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.click the Essence of Eranikus
+.click the Essence of Eranikus##10454
 .accept The Essence of Eranikus##3373
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.click Essence Font
+.click Essence Font##148512
 >>It looks like a stone table in the northeastern corner of the room with the Shade of Eranikus.
 .turnin The Essence of Eranikus##3373
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.click the Egg of Hakkar
+.click the Egg of Hakkar##10465
 >>Use it next to the skeleton laying on the ground in the Sanctum of the Fallen God.
 >>Return to the main central room in The Pit of Sacrifice and follow the southwestern path to reach the Sanctum of the Fallen God.
 .kill 1 the enemies that spawn in waves
-.kill 1 Hakkari Bloodkeeper
+.kill 1 Hakkari Bloodkeeper##8438
 .collect Hakkari Blood,1
 >>Use it to put out the braziers in each corner of the room.
-.click Eternal Flame
-.kill 1 Avatar of Hakkar
+.click Eternal Flame##148420
+.kill 1 Avatar of Hakkar##8443
 >>It will spawn after the four Eternal Flames have been extinguished.
 .complete 3528 >>Collect Essence of Hakkar
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.click the Essence of Hakkar
+.click the Essence of Hakkar##10663
 .complete 3528,1 >>Fill the Egg of Hakkar
 
 #step
@@ -373,7 +373,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,47.23,54.36
 >>Enter the building
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Inside the building.
 .goto Swamp of Sorrows,47.94,54.79
 .turnin The Temple of Atal'Hakkar##1445
@@ -385,20 +385,20 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto The Hinterlands,33.11,75.53
 >>Jump down here
-.talk Atal'ai Exile
+.talk Atal'ai Exile##5598
 .goto The Hinterlands,33.75,75.22
 .turnin Jammal'an the Prophet##1446
 .only walking
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
 .turnin The God Hakkar##3528
 
 #step
-.talk Larion
+.talk Larion##9118
 >>en:Standing up on a hill, kind of hidden.
 >>de:Steht oben auf einem Hügel, etwas versteckt.
 .goto Un'Goro Crater,45.54,8.71

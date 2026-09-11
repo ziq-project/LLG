@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Fiora Longears
+.talk Fiora Longears##4456
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 >>Inside the building.
@@ -26,7 +26,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,65.99,45.20
 >>Leave the building
-.talk Theramore Lieutenant
+.talk Theramore Lieutenant##4947
 .goto Dustwallow Marsh,65.07,47.13
 .turnin The Orc Report##1219
 .goto Dustwallow Marsh,65.07,47.13
@@ -38,7 +38,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Dustwallow Marsh,68.17,48.76
 >>Run up the stairs
-.talk Captain Garran Vimes
+.talk Captain Garran Vimes##4944
 >>en:At the top of the fort, next to a table.
 >>de:At the top of the fort, next to a table.
 >>Upstairs inside the building.
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 .accept The Black Shield##1319
 
 #step
-.talk Adjutant Tesoran
+.talk Adjutant Tesoran##4948
 >>en:At the top of the fort, standing behind a small desk.
 >>de:Oben auf dem Fort, steht hinter einem kleinen Schreibtisch.
 >>Upstairs inside the building.
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 .accept Daelin's Men##1285
 
 #step
-.talk Captain Garran Vimes
+.talk Captain Garran Vimes##4944
 >>en:At the top of the fort, next to a table.
 >>de:At the top of the fort, next to a table.
 >>Upstairs inside the building.
@@ -78,7 +78,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Dustwallow Marsh,64.69,49.97
 >>Follow the road and enter the building
-.talk Caz Twosprocket
+.talk Caz Twosprocket##4941
 >>en:Inside the blacksmith house.
 >>de:Inside the blacksmith house.
 >>Inside the building.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 >>Follow the road and enter the building
 .goto Dustwallow Marsh,68.17,48.76
 >>Run up the stairs
-.talk Captain Garran Vimes
+.talk Captain Garran Vimes##4944
 >>en:At the top of the fort, next to a table.
 >>de:At the top of the fort, next to a table.
 >>Upstairs inside the building.
@@ -109,7 +109,7 @@ LLG.RegisterGuide([[
 >>Avoid the murloc islands
 .goto The Barrens,64.04,58.31
 >>Avoid the murloc islands and follow the path north toward Ratchet
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -124,7 +124,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Affray Challenger
+.kill 1 Affray Challenger##6240
 >>You will have to kill six of them before Big Will will appear.
 >>You will fight them one at a time.
 .goto The Barrens,68.61,48.72
@@ -133,7 +133,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 >>You will learn Berserker Stance from completing this quest.
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 >>Avoid the murloc islands
 .goto The Barrens,64.04,58.31
 >>Avoid the murloc islands and follow the path north toward Ratchet
-.talk Fuzruckle
+.talk Fuzruckle##3496
 >>Deposit these items into the bank.
 .goto The Barrens,62.64,37.42
 >>You should have 5 of these.
@@ -161,7 +161,7 @@ LLG.RegisterGuide([[
 .only walking and zone("Dustwallow and Marsh")
 
 #step
-.talk Bragok
+.talk Bragok##16227
 >>en:Under a blue canopy with a green stripe through it.
 >>de:Unter einem blaün Baldachin mit grünem Streifen.
 .goto The Barrens,63.09,37.16
@@ -170,7 +170,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,62.89,36.52
 >>Enter the building
-.talk Gazlowe
+.talk Gazlowe##3391
 >>en:Upstairs in the green goblin hut building.
 >>de:Oben im grünen Goblinhüttengebäude.
 >>Upstairs inside the building.
@@ -180,7 +180,7 @@ LLG.RegisterGuide([[
 .accept Goblin Sponsorship##1180
 
 #step
-.talk Wharfmaster Dizzywig
+.talk Wharfmaster Dizzywig##3453
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 .goto The Barrens,63.35,38.45

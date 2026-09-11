@@ -21,7 +21,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Silverpine Forest,56.30,9.25
 >>Enter the building
-.talk Deathstalker Erland
+.talk Deathstalker Erland##1978
 >>Inside the building.
 >>This is an escort quest.
 >>If he's not here, someone may be escorting him.
@@ -38,7 +38,7 @@ LLG.RegisterGuide([[
 .complete 435,1 >>Erland Must Reach Rane Yorick
 
 #step
-.talk Rane Yorick
+.talk Rane Yorick##1950
 >>en:Standing in front of a big house with a deer head mounted above the doorway.
 >>de:Steht vor einem großen Haus mit einem Hirschkopf über dem Eingang.
 .goto Silverpine Forest,53.46,13.43
@@ -48,7 +48,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Worg enemies around this area
->>'
 >>They look like black wolves.
 .goto Silverpine Forest,57.05,11.75
 .collect Discolored Worg Heart,6
@@ -64,7 +63,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Silverpine Forest,50.97,36.80
 >>Follow the road
-.talk Karos Razok
+.talk Karos Razok##2226
 >>en:Get The Sepulcher Flight Path.
 >>de:Hol dir den Flugpunkt Das Grabmal.
 .goto Silverpine Forest,45.62,42.60
@@ -72,7 +71,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 >>He walks around this area.
@@ -80,21 +79,21 @@ LLG.RegisterGuide([[
 .accept Prove Your Worth##421
 
 #step
-.talk Shadow Priest Allister
+.talk Shadow Priest Allister##2121
 >>en:He is standing in front of a huge tombstone.
 >>de:Er steht vor einem riesigen Grabstein.
 .goto Silverpine Forest,43.98,40.93
 .accept Border Crossings##477
 
 #step
-.talk Innkeeper Bates
+.talk Innkeeper Bates##6739
 >>en:He is standing at the entrance of the crypt next to a mailbox.
 >>de:Er steht am Eingang der Krypta neben einem Briefkasten.
 .goto Silverpine Forest,43.18,41.28
 .hs
 
 #step
-.talk Deathguard Podrig
+.talk Deathguard Podrig##6389
 >>en:He's standing next to a mailbox.
 >>de:He's standing next to a mailbox.
 .goto Silverpine Forest,43.43,41.68
@@ -102,7 +101,7 @@ LLG.RegisterGuide([[
 .only Scourge
 
 #step
-.talk Apothecary Renferrel
+.talk Apothecary Renferrel##1937
 >>en:He's standing behind a counter with a bubbling container on it.
 >>de:Er steht hinter einem Tresen mit einem blubbernden Behälter darauf.
 .goto Silverpine Forest,42.80,40.87
@@ -114,7 +113,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,43.09,41.39
 >>Enter the crypt
-.talk High Executor Hadrec
+.talk High Executor Hadrec##1952
 >>en:He's standing at the bottom of the crypt next to a bookcase.
 >>de:Er steht unten in der Gruft neben einem Bücherregal.
 >>Downstairs inside the crypt.
@@ -134,7 +133,7 @@ LLG.RegisterGuide([[
 >>Leave the crypt
 
 #step
-.talk Apothecary Renferrel
+.talk Apothecary Renferrel##1937
 >>en:He's standing behind a counter with a bubbling container on it.
 >>de:Er steht hinter einem Tresen mit einem blubbernden Behälter darauf.
 .goto Silverpine Forest,42.80,40.87
@@ -143,7 +142,7 @@ LLG.RegisterGuide([[
 .accept Zinge's Delivery##1359
 
 #step
-.talk Karos Razok
+.talk Karos Razok##2226
 >>en:Get The Sepulcher Flight Path.
 >>de:Hol dir den Flugpunkt Das Grabmal.
 .goto Silverpine Forest,45.62,42.60
@@ -153,7 +152,7 @@ LLG.RegisterGuide([[
 .only Scourge
 
 #step
-.talk Gordon Wendham
+.talk Gordon Wendham##4556
 >>de:Standing next to a weapon rack.
 .goto Undercity,61.49,41.80
 .turnin Ride to the Undercity##6323
@@ -162,7 +161,7 @@ LLG.RegisterGuide([[
 .only Scourge
 
 #step
-.talk Michael Garrett
+.talk Michael Garrett##4551
 >>de:Standing on the top level of Undercity.
 .goto Undercity,63.26,48.56
 .turnin Michael Garrett##6322
@@ -171,7 +170,7 @@ LLG.RegisterGuide([[
 .only Scourge
 
 #step
-.talk Deathguard Podrig
+.talk Deathguard Podrig##6389
 >>en:He's standing next to a mailbox.
 >>de:He's standing next to a mailbox.
 .goto Silverpine Forest,43.42,41.68
@@ -191,7 +190,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Ferocious Grizzled Bear
+.kill 1 Ferocious Grizzled Bear##1778
 .goto Silverpine Forest,49.54,35.83
 .complete 447,1 >>Collect 6 Grizzled Bear Heart
 >>You can find more around:
@@ -205,7 +204,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Silverpine Forest,46.22,41.49
 >>Follow the path
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 >>He walks around this area.
@@ -234,7 +233,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Silverpine Forest,51.14,24.36
 >>Follow the road
-.talk Rane Yorick
+.talk Rane Yorick##1950
 >>en:Standing in front of a big house with a deer head mounted above the doorway.
 >>de:Steht vor einem großen Haus mit einem Hirschkopf über dem Eingang.
 >>She may be fighting nearby.
@@ -250,20 +249,20 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Rot Hide enemies around this area
-.kill 1 Nightlash
+.kill 1 Nightlash##1983
 >>She will eventually spawn at this location, once you've killed enough Rot Hide enemies.
 .goto Silverpine Forest,45.44,21.01
 .complete 437,1 >>Collect Essence of Nightlash
 
 #step
-.kill 1 Moss Stalker
+.kill 1 Moss Stalker##1780
 >>Inside and outside the mine.
 >>Be careful of the elite worgen that walks around this area.
 .goto Silverpine Forest,35.65,13.58
 .complete 447,2 >>Collect 6 Skittering Blood
 
 #step
-.talk Apothecary Renferrel
+.talk Apothecary Renferrel##1937
 >>en:He's standing behind a counter with a bubbling container on it.
 >>de:Er steht hinter einem Tresen mit einem blubbernden Behälter darauf.
 .goto Silverpine Forest,42.80,40.86
@@ -274,7 +273,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,43.09,41.39
 >>Enter the crypt
-.talk High Executor Hadrec
+.talk High Executor Hadrec##1952
 >>en:He's standing at the bottom of the crypt next to a bookcase.
 >>de:Er steht unten in der Gruft neben einem Bücherregal.
 >>Downstairs inside the crypt.
@@ -288,7 +287,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Silverpine Forest,43.10,41.38
 >>Leave the crypt
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 >>He walks around this area.
@@ -300,14 +299,14 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.84,77.62
 >>Follow the path down
-.talk Master Apothecary Faranell
+.talk Master Apothecary Faranell##2055
 >>en:He's standing at the bottom of the Apothecarium next to a chopped up Abomination.
 >>de:Er steht ganz unten im Apothekarium neben einer zerlegten Monstrosität.
 .goto Undercity,48.82,69.29
 .turnin A Recipe For Death##447
 
 #step
-.talk Apothecary Zinge
+.talk Apothecary Zinge##5204
 >>en:Standing against the back wall in the big underground room.
 >>de:Standing against the back wall in the big underground room.
 .goto Undercity,50.13,67.99
@@ -348,7 +347,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Silverpine Forest,53.40,13.27
 >>Enter the building
-.talk Quinn Yorick
+.talk Quinn Yorick##1951
 >>Upstairs inside the building.
 .goto Silverpine Forest,53.43,12.59
 .turnin Return to Quinn##430
@@ -357,7 +356,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,53.40,13.27
 >>Leave the building
-.talk Rane Yorick
+.talk Rane Yorick##1950
 >>en:Standing in front of a big house with a deer head mounted above the doorway.
 >>de:Steht vor einem großen Haus mit einem Hirschkopf über dem Eingang.
 .goto Silverpine Forest,53.46,13.43
@@ -366,7 +365,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,52.00,14.07
 >>Enter the building
-.kill 1 Ivar the Foul
+.kill 1 Ivar the Foul##1971
 >>Inside the building.
 .goto Silverpine Forest,51.53,13.91
 .complete 425,1 >>Collect Ivar's Head
@@ -374,7 +373,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,52.00,14.07
 >>Leave the building
-.talk Rane Yorick
+.talk Rane Yorick##1950
 >>en:Standing in front of a big house with a deer head mounted above the doorway.
 >>de:Steht vor einem großen Haus mit einem Hirschkopf über dem Eingang.
 .goto Silverpine Forest,53.46,13.43
@@ -385,7 +384,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Silverpine Forest,51.66,22.55
 >>Follow the path
-.kill 1 Moonrage Darksoul
+.kill 1 Moonrage Darksoul##1782
 >>Be careful of the elite worgen that walks around this area.
 .goto Silverpine Forest,45.98,28.13
 .complete 423,2 >>Collect 3 Darksoul Shackle
@@ -395,7 +394,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Moonrage Glutton
+.kill 1 Moonrage Glutton##1779
 >>Be careful of the elite worgen that walks around this area.
 .goto Silverpine Forest,45.98,28.13
 .complete 423,1 >>Collect 6 Glutton Shackle
@@ -406,7 +405,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,43.08,41.39
 >>Enter the crypt
-.talk High Executor Hadrec
+.talk High Executor Hadrec##1952
 >>en:He's standing at the bottom of the crypt next to a bookcase.
 >>de:Er steht unten in der Gruft neben einem Bücherregal.
 >>Downstairs inside the crypt.
@@ -420,7 +419,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Silverpine Forest,43.09,41.38
 >>Leave the crypt
-.talk Shadow Priest Allister
+.talk Shadow Priest Allister##2121
 >>en:He is standing in front of a huge tombstone.
 >>de:Er steht vor einem riesigen Grabstein.
 .goto Silverpine Forest,43.98,40.93
@@ -429,7 +428,7 @@ LLG.RegisterGuide([[
 .accept Dalar's Analysis##481
 
 #step
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 >>He walks around this area.
@@ -443,7 +442,7 @@ LLG.RegisterGuide([[
 .accept Dalaran's Intentions##482
 
 #step
-.talk Shadow Priest Allister
+.talk Shadow Priest Allister##2121
 >>en:He is standing in front of a huge tombstone.
 >>de:Er steht vor einem riesigen Grabstein.
 .goto Silverpine Forest,43.98,40.93
@@ -462,7 +461,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Silverpine Forest,56.54,46.01
 >>Enter the mine
-.kill 1 Grimson the Pale
+.kill 1 Grimson the Pale##1972
 >>Inside the mine.
 .goto Silverpine Forest,58.58,44.85
 .complete 424,1 >>Collect Head of Grimson
@@ -487,7 +486,7 @@ LLG.RegisterGuide([[
 >>Continue following the road
 .goto Silverpine Forest,46.26,41.52
 >>Follow the path
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 >>He walks around this area.
@@ -496,7 +495,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Shadow Priest Allister
+.talk Shadow Priest Allister##2121
 >>en:He is standing in front of a huge tombstone.
 >>de:Er steht vor einem riesigen Grabstein.
 .goto Silverpine Forest,43.98,40.94
@@ -505,7 +504,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tirisfal Glades,60.90,51.51
 >>Enter the building
-.talk Magistrate Sevren
+.talk Magistrate Sevren##1499
 >>de:Steht im Rathausgebäude, neben einem Rednerpult.
 >>Inside the building.
 .goto Tirisfal Glades,61.26,50.85
@@ -518,7 +517,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Thunder Bluff,29.84,29.88
 >>Enter the cave
-.talk Clarice Foster
+.talk Clarice Foster##5543
 >>She walks around this area inside the cave.
 .goto Thunder Bluff,28.90,26.40
 .accept Until Death Do Us Part##264
@@ -526,7 +525,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.84,29.88
 >>Leave the cave
-.talk Raleigh Andrean
+.talk Raleigh Andrean##2050
 .goto Undercity,61.99,42.72
 .turnin Raleigh and the Undercity##441
 .goto Undercity,61.99,42.72
@@ -540,7 +539,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,43.10,41.39
 >>Enter the crypt
-.talk High Executor Hadrec
+.talk High Executor Hadrec##1952
 >>en:He's standing at the bottom of the crypt next to a bookcase.
 >>de:Er steht unten in der Gruft neben einem Bücherregal.
 >>Downstairs inside the crypt.
@@ -556,7 +555,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Silverpine Forest,52.86,43.74
 >>Continue following the road
-.kill 1 Valdred Moray
+.kill 1 Valdred Moray##2332
 >>He walks around this area.
 .goto Silverpine Forest,45.88,84.92
 .complete 530,1 >>Collect Valdred's Hands
@@ -580,7 +579,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click A Talking Head
+.click A Talking Head##3317
 .accept Resting in Pieces##460
 
 #step
@@ -622,7 +621,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Apothecary Renferrel
+.talk Apothecary Renferrel##1937
 >>en:He's standing behind a counter with a bubbling container on it.
 >>de:Er steht hinter einem Tresen mit einem blubbernden Behälter darauf.
 .goto Silverpine Forest,42.80,40.86
@@ -631,12 +630,12 @@ LLG.RegisterGuide([[
 .accept Rot Hide Origins##444
 
 #step
-.talk Raleigh Andrean
+.talk Raleigh Andrean##2050
 .goto Undercity,61.99,42.72
 .turnin A Husband's Revenge##530
 
 #step
-.talk Bethor Iceshard
+.talk Bethor Iceshard##1498
 >>en:Standing on this platform, up some stairs, and looking at a big green staircase.
 >>de:Steht auf dieser Plattform, einige Stufen hinauf, und blickt auf eine große grüne Treppe.
 >>At the top of the stairs.
@@ -646,14 +645,14 @@ LLG.RegisterGuide([[
 .turnin Wand to Bethor##491
 
 #step
-.talk Shadow Priest Allister
+.talk Shadow Priest Allister##2121
 >>en:He is standing in front of a huge tombstone.
 >>de:Er steht vor einem riesigen Grabstein.
 .goto Silverpine Forest,43.98,40.93
 .accept Beren's Peril##516
 
 #step
-.talk Apothecary Renferrel
+.talk Apothecary Renferrel##1937
 >>en:He's standing behind a counter with a bubbling container on it.
 >>de:Er steht hinter einem Tresen mit einem blubbernden Behälter darauf.
 .goto Silverpine Forest,42.80,40.87
@@ -691,7 +690,7 @@ LLG.RegisterGuide([[
 >>Continue following the road
 .goto Silverpine Forest,50.83,37.00
 >>Continue following the road
-.talk Shadow Priest Allister
+.talk Shadow Priest Allister##2121
 >>en:He is standing in front of a huge tombstone.
 >>de:Er steht vor einem riesigen Grabstein.
 .goto Silverpine Forest,43.98,40.93

@@ -16,14 +16,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Tatternack Steelforge
+.talk Tatternack Steelforge##3433
 >>de:Standing next to a forge.
 .goto The Barrens,45.10,57.68
 .accept A New Ore Sample##1153
 >>This requires you to complete the prequest "Weapons of Choice" found in "The Barrens (24-26)" guide.
 
 #step
-.talk Brine
+.talk Brine##5899
 >>en:Standing in front of a teepee house.
 >>de:Steht vor einem Tipi-Haus.
 >>On top of the hill.
@@ -34,7 +34,7 @@ LLG.RegisterGuide([[
 .only Shaman
 
 #step
-.talk Grish Longrunner
+.talk Grish Longrunner##12576
 >>en:Standing next to a big barrel.
 >>de:Standing next to a big barrel.
 >>This npc gets killed fairly often by Alliance players entering Thousand Needles.
@@ -43,7 +43,7 @@ LLG.RegisterGuide([[
 .turnin Calling in the Reserves##5881
 
 #step
-.talk Brave Moonhorn
+.talk Brave Moonhorn##10079
 >>en:Standing in front of a big fire totem.
 >>de:Standing in front of a big fire totem.
 >>This npc gets killed fairly often by Alliance players entering Thousand Needles.
@@ -54,20 +54,20 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,46.81,47.35
 >>Ride an elevator down into Thousand Needles, follow the road to Freewind Post, and ride an elevator up
-.talk Nyse
+.talk Nyse##4317
 .goto Thousand Needles,45.14,49.11
 .fly Freewind Post
 .only walking
 
 #step
-.kill 1 Galak Messenger
+.kill 1 Galak Messenger##10617
 >>He looks like a black centaur that runs around this area.
 >>He very rarely passes through here but it will save you searching later if you see him now.
 >>Don't stress if you don't see him before you reach Freewind Post.
 .collect Assassination Note,1
 
 #step
-.talk Elu
+.talk Elu##10377
 >>en:Pacing back and forth.
 >>de:Läuft hin und her.
 >>He walks around this area.
@@ -75,14 +75,14 @@ LLG.RegisterGuide([[
 .accept Wind Rider##4767
 
 #step
-.talk Hagar Lightninghoof
+.talk Hagar Lightninghoof##10539
 >>en:Standing next to a big totem pole and a spinning grain grinder thing.
 >>de:Standing next to a big totem pole and a spinning grain grinder thing.
 .goto Thousand Needles,44.64,50.29
 .accept Alien Egg##4821
 
 #step
-.talk Cliffwatcher Longhorn
+.talk Cliffwatcher Longhorn##10537
 >>de:Pacing next to a bonfire.
 >>He walks around this area.
 .goto Thousand Needles,45.65,50.80
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,45.95,51.07
 >>Enter the building
-.talk Rau Cliffrunner
+.talk Rau Cliffrunner##4722
 >>de:Standing in the back of a tent.
 >>Inside the building.
 .goto Thousand Needles,46.14,51.72
@@ -104,12 +104,12 @@ LLG.RegisterGuide([[
 >>This questline also continues in "Ashenvale (27-28)".
 
 #step
-.click Wanted Poster - Arnak Grimtotem
+.click Wanted Poster - Arnak Grimtotem##176115
 .goto Thousand Needles,46.00,50.84
 .accept Wanted - Arnak Grimtotem##5147
 
 #step
-.talk Starn
+.talk Starn##9551
 >>only Hunter :: Restock on arrows
 .goto Thousand Needles,44.91,50.67
 .vendor
@@ -123,7 +123,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Thousand Needles,42.06,34.68
 >>Continue following the path
-.click Ancient Brazier
+.click Ancient Brazier##20807
 >>Inside the cave.
 >>only hardcore :: Clear all enemies as you make your way to the Brazier.
 >>There's two level 30 enemies guarding it, but you should be able to kill them at this level.
@@ -159,7 +159,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Thousand Needles,53.67,42.51
 >>Enter the cave
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.
@@ -177,7 +177,7 @@ LLG.RegisterGuide([[
 >>Jump directly off the wooden platform, you will not die.
 
 #step
-.talk Dorn Plainstalker
+.talk Dorn Plainstalker##2986
 >>en:Follow the path up into the cave.
 >>de:Folge dem Pfad hinauf in die Höhle.
 >>Inside the cave.
@@ -185,7 +185,7 @@ LLG.RegisterGuide([[
 .turnin Test of Faith##1149
 
 #step
-.click Alien Egg
+.click Alien Egg##175565
 >>It looks like a large white egg sitting upright on the ground.
 >>It can spawn in multiple locations.
 .goto Thousand Needles,56.35,50.36
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 .goto Thousand Needles,47.02,48.32
 >>Ride an elevator up
 >>Grind en route to this turnin.
-.talk Hagar Lightninghoof
+.talk Hagar Lightninghoof##10539
 >>en:Standing next to a big totem pole and a spinning grain grinder thing.
 >>de:Standing next to a big totem pole and a spinning grain grinder thing.
 .goto Thousand Needles,44.64,50.29
@@ -214,7 +214,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Starn
+.talk Starn##9551
 >>Buy enough ammo to fill your ammo bag, plus 8-10 extra stacks.
 >>You have a long grind coming up soon.
 .goto Thousand Needles,44.89,50.68
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Cliffwatcher Longhorn
+.talk Cliffwatcher Longhorn##10537
 >>de:Pacing next to a bonfire.
 >>He walks around this area.
 .goto Thousand Needles,45.65,50.80
@@ -233,7 +233,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,45.94,51.06
 >>Enter the building
-.talk Rau Cliffrunner
+.talk Rau Cliffrunner##4722
 >>de:Standing in the back of a tent.
 >>Inside the building.
 .goto Thousand Needles,46.14,51.71
@@ -244,7 +244,7 @@ LLG.RegisterGuide([[
 >>Ride an elevator down
 .goto Thousand Needles,14.75,32.83
 >>Follow the path up
-.click Highperch Wyvern Egg
+.click Highperch Wyvern Egg##175384
 >>They look like large eggs with blue spots on them on the ground near walls and pillars in this area.
 .goto Thousand Needles,11.22,36.01
 .complete 4767,1 >>Collect 10 Highperch Wyvern Egg
@@ -253,7 +253,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,13.17,39.51
 >>Follow the path up
-.talk Pao'ka Swiftmountain
+.talk Pao'ka Swiftmountain##10427
 >>This is an escort quest.
 >>If he's not here, someone else may be escorting him.
 >>Wait until he respawns.
@@ -275,21 +275,21 @@ LLG.RegisterGuide([[
 .complete 4770,1 >>Escort Pao'ka Swiftmountain to Safety
 
 #step
-.click Highperch Wyvern Egg
+.click Highperch Wyvern Egg##175384
 >>They look like large eggs with blue spots on them on the ground near walls and pillars in this area.
 >>Finish this before finishing the escort.
 .goto Thousand Needles,11.22,36.01
 .complete 4767,1 >>Collect 10 Highperch Wyvern Egg
 
 #step
-.kill 1 Steelsnap
+.kill 1 Steelsnap##4548
 >>He looks like a brown hyena that walks around this area with 2 purple hyena guards.
 >>If you need to, kite him away from his bodyguards, so you can fight him alone.
 >>Make sure to clear a safe area before kiting him, there can be stealthed cats in the area.
 .complete 1131,1 >>Collect Steelsnap's Rib
 
 #step
-.kill 1 Galak Messenger
+.kill 1 Galak Messenger##10617
 >>He looks like a black centaur that runs around this area in a large clockwise path.
 >>This path will take you in a counter-clockwise pattern, to find him faster.
 >>If you don't want to search for him, and don't mind waiting, skip to the next step.
@@ -298,12 +298,12 @@ LLG.RegisterGuide([[
 >>[31.50,29.96]
 
 #step
-.click the Assassination Note
+.click the Assassination Note##12564
 .goto Thousand Needles,21.55,32.35
 .accept Assassination Plot##4881
 
 #step
-.talk Motega Firemane
+.talk Motega Firemane##10428
 >>de:In a small camp, standing next to a camp fire.
 >>He walks around this area.
 .goto Thousand Needles,21.55,32.35
@@ -315,7 +315,7 @@ LLG.RegisterGuide([[
 .only haveq(4770) or completedq(4770)
 
 #step
-.talk Kanati Greycloud
+.talk Kanati Greycloud##10638
 >>de:Standing in front of a teepee hut.
 .goto Thousand Needles,21.26,32.07
 .turnin Assassination Plot##4881
@@ -329,13 +329,13 @@ LLG.RegisterGuide([[
 .complete 4966,1 >>Protect Kanati Greycloud
 
 #step
-.talk Kanati Greycloud
+.talk Kanati Greycloud##10638
 >>de:Standing in front of a teepee hut.
 .goto Thousand Needles,21.26,32.07
 .turnin Protect Kanati Greycloud##4966
 
 #step
-.click Incendia Agave
+.click Incendia Agave##175928
 >>They look like yellow-brown spikey plants on the ground around the water, and underwater, around this area.
 >>You will likely have to do multiple laps between respawns. Grind mobs as you wait.
 >>only hardcore :: The elementals can do an instant high damage stun, be careful of being low health!
@@ -346,7 +346,7 @@ LLG.RegisterGuide([[
 >>[36.84,37.54]
 
 #step
-.talk Melor Stonehoof
+.talk Melor Stonehoof##3441
 >>en:Standing in front of a small house.
 >>de:Standing in front of a small house.
 .goto Thunder Bluff,61.53,80.90
@@ -361,12 +361,12 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,29.81,29.82
 >>Enter the cave
-.talk Urek Thunderhorn
-.talk Ker Ragetotem
-.talk Siln Skychaser
-.talk Thurston Xane
-.talk Malakai Cross
-.talk Kym Wildmane
+.talk Urek Thunderhorn##3040
+.talk Ker Ragetotem##3043
+.talk Siln Skychaser##3030
+.talk Thurston Xane##3049
+.talk Malakai Cross##3045
+.talk Kym Wildmane##3036
 .goto Thunder Bluff,59.09,86.85
 .train
 .goto Thunder Bluff,57.63,85.53
@@ -385,7 +385,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Magatha Grimtotem
+.talk Magatha Grimtotem##4046
 >>en:Standing inside a small hut.
 >>de:Standing inside a small hut.
 >>Inside the tent.
@@ -395,13 +395,13 @@ LLG.RegisterGuide([[
 .accept Arikara##5088
 
 #step
-.talk Tatternack Steelforge
+.talk Tatternack Steelforge##3433
 >>de:Standing next to a forge.
 .goto The Barrens,45.10,57.68
 .turnin A New Ore Sample##1153
 
 #step
-.talk Elu
+.talk Elu##10377
 >>en:Pacing back and forth.
 >>de:Läuft hin und her.
 >>He walks around this area.
@@ -409,7 +409,7 @@ LLG.RegisterGuide([[
 .turnin Wind Rider##4767
 
 #step
-.talk Starn
+.talk Starn##9551
 >>Buy enough ammo to fill your ammo bag, plus 6 extra stacks.
 >>You'll be questing a while, without easy access to an ammo vendor.
 .goto Thousand Needles,44.89,50.68
@@ -433,7 +433,7 @@ LLG.RegisterGuide([[
 >>Cross the hanging bridge
 .goto Thousand Needles,38.97,41.15
 >>Enter the building
-.click Document Chest
+.click Document Chest##176344
 >>Inside the building.
 .goto Thousand Needles,39.32,41.52
 .complete 5064,3 >>Collect Secret Note #3
@@ -442,7 +442,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,34.11,39.49
 >>Enter the building
-.click Document Chest
+.click Document Chest##176344
 >>Inside the building.
 .goto Thousand Needles,33.78,39.97
 .complete 5064,2 >>Collect Secret Note #2
@@ -450,7 +450,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,33.26,36.30
 >>Cross the hanging bridge
-.click Document Chest
+.click Document Chest##176344
 .goto Thousand Needles,31.80,32.59
 .complete 5064,1 >>Collect Secret Note #1
 .only walking
@@ -464,7 +464,7 @@ LLG.RegisterGuide([[
 >>Cross the hanging bridge
 .goto Thousand Needles,37.15,33.10
 >>Cross the hanging bridge
-.click Sacred Fire of Life
+.click Sacred Fire of Life##175944
 >>Clear the area of enemies first.
 >>A level 28 elite enemy will spawn, but it's pretty easy to kill.
 .goto Thousand Needles,38.02,35.32
@@ -472,7 +472,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Arikara
+.kill 1 Arikara##10882
 >>It's elite, but pretty easy to kill.
 >>If you have trouble killing it, try to get someone to help you, or skip the quest.
 .goto Thousand Needles,38.29,35.54
@@ -483,14 +483,14 @@ LLG.RegisterGuide([[
 >>Cross the hanging bridge
 .goto Thousand Needles,37.62,31.50
 >>Cross the hanging bridge
-.kill 1 Arnak Grimtotem
+.kill 1 Arnak Grimtotem##10896
 >>He walks around this area.
 .goto Thousand Needles,38.08,26.85
 .complete 5147,1 >>Collect Arnak's Hoof
 .only walking
 
 #step
-.talk Lakota Windsong
+.talk Lakota Windsong##10646
 >>de:Pacing outside a little house.
 >>This is an escort quest.
 >>If she's not here, someone else may be escorting her.
@@ -509,13 +509,13 @@ LLG.RegisterGuide([[
 .complete 4904,1 >>Escort Lakota Windsong from the Darkcloud Pinnacle
 
 #step
-.talk Motega Firemane
+.talk Motega Firemane##10428
 >>de:In a small camp, standing next to a camp fire.
 .goto Thousand Needles,21.55,32.35
 .turnin Arikara##5088
 
 #step
-.talk Wizlo Bearingshiner
+.talk Wizlo Bearingshiner##10941
 >>en:In a small camp, standing next to a camp fire.
 >>de:In a small camp, standing next to a camp fire.
 .goto Thousand Needles,21.45,32.54
@@ -523,7 +523,7 @@ LLG.RegisterGuide([[
 .only Hunter or Warlock
 
 #step
-.kill 1 Enraged Panther
+.kill 1 Enraged Panther##10992
 >>This is an elite quest, but you should be able to easily solo her if you let your pet tank.
 >>only Hunter :: Drop an immolation trap infront of the cage before opening it.
 >>only Hunter :: If your pet is about to die, use Aspect of the Cheetah and prepare to head back to the road and kite her along it until she dies.
@@ -541,7 +541,7 @@ LLG.RegisterGuide([[
 >>Make sure to not accidentally sell these to a vendor.
 
 #step
-.talk Laer Stepperunner
+.talk Laer Stepperunner##3689
 >>You have a long grind ahead.
 .goto Thousand Needles,21.06,31.87
 >>Stock up on food and water
@@ -559,7 +559,7 @@ LLG.RegisterGuide([[
 >>You can sell items at [21.06,31.86]
 
 #step
-.talk Wizlo Bearingshiner
+.talk Wizlo Bearingshiner##10941
 >>en:In a small camp, standing next to a camp fire.
 >>de:In a small camp, standing next to a camp fire.
 .goto Thousand Needles,21.45,32.54
@@ -569,7 +569,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,7.68,10.62
 >>Follow the road up into Feralas
-.talk Shyn
+.talk Shyn##8020
 >>en:Standing at the edge of the cliff, overlooking the lake.
 >>de:Steht am Rand der Klippe und blickt auf den See.
 >>Be careful when walking to this location.
@@ -580,7 +580,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Cliffwatcher Longhorn
+.talk Cliffwatcher Longhorn##10537
 >>de:Pacing next to a bonfire.
 >>He walks around this area.
 .goto Thousand Needles,45.65,50.80
@@ -591,20 +591,20 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,45.94,51.07
 >>Enter the building
-.talk Innkeeper Abeqwa
+.talk Innkeeper Abeqwa##11116
 >>Inside the building.
 .goto Thousand Needles,46.07,51.51
 .hs
 
 #step
-.talk Thalia Amberhide
+.talk Thalia Amberhide##10645
 >>de:Standing in the back of a tent.
 >>Inside the building.
 .goto Thousand Needles,45.97,51.61
 .turnin Free at Last##4904
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Rocket Car Parts##1110
@@ -612,35 +612,35 @@ LLG.RegisterGuide([[
 .accept Wharfmaster Dizzywig##1111
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.13
 .accept Salt Flat Venom##1104
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.14,77.12
 .accept Hardened Shells##1105
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.89
 .accept Load Lightening##1176
 
 #step
-.talk Trackmaster Zherin
+.talk Trackmaster Zherin##4629
 >>en:Standing next to the finish line banner post.
 >>de:Standing next to the finish line banner post.
 .goto Thousand Needles,81.64,77.95
 .accept A Bump in the Road##1175
 
 #step
-.talk Bulkrek Ragefist
+.talk Bulkrek Ragefist##7824
 >>en:Standing next to a red canopy.
 >>de:Steht neben einem roten Baldachin.
 >>Avoid enemies as you walk here, they are higher level than you.
@@ -648,14 +648,14 @@ LLG.RegisterGuide([[
 .fly Gadgetzan
 
 #step
-.talk Korran
+.talk Korran##3428
 >>en:Standing in front of a small house.
 >>de:Steht vor einem kleinen Haus.
 .goto The Barrens,51.07,29.63
 .accept The Swarm Grows##1145
 
 #step
-.talk Wharfmaster Dizzywig
+.talk Wharfmaster Dizzywig##3453
 >>en:Standing on the dock.
 >>de:Standing on the dock.
 .goto The Barrens,63.35,38.45
@@ -664,7 +664,7 @@ LLG.RegisterGuide([[
 .accept Parts for Kravel##1112
 
 #step
-.talk Islen Waterseer
+.talk Islen Waterseer##5901
 >>en:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 >>de:Standing next to the ocean, in a small camp, next to a bonfire and a big tent.
 .goto The Barrens,65.83,43.78
@@ -676,7 +676,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,49.90,70.55
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Put these items in the bank.
 .goto Orgrimmar,49.58,69.12
@@ -684,7 +684,7 @@ LLG.RegisterGuide([[
 >>Try to keep these separated from the cloth you're saving for cloth donation quests.
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -695,7 +695,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,45.74,57.43
 >>Enter the building
-.talk Horthus
+.talk Horthus##3323
 >>Inside the building.
 >>If you can afford it.
 >>Stock up on a few Runes of Teleportation to use to travel faster while leveling.
@@ -704,7 +704,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Belgrom Rockmaul
+.talk Belgrom Rockmaul##4485
 >>en:Standing next to a sign.
 >>de:Standing next to a sign.
 .goto Orgrimmar,75.23,34.23
@@ -715,7 +715,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,76.57,32.86
 >>Enter the building
-.talk Sorek
+.talk Sorek##3354
 >>en:Inside the big round building, standing under a red canopy.
 >>de:Steht im großen runden Gebäude unter einem roten Baldachin.
 >>Inside the building.
@@ -726,15 +726,16 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,81.05,19.76
 >>Enter the building
-.talk Sayoc
+.talk Sayoc##11868
 >>Inside the building.
 >>This will allow you to equip two-handed axes.
 .goto Orgrimmar,81.70,19.55
 .train
+.condition weaponskill("TH_AXE") > 0 >>Train Two-Handed Axes
 .only Hunter
 
 #step
-.talk Craven Drok
+.talk Craven Drok##5639
 >>en:He walks around the Cleft of Shadow.
 >>de:Er läuft im Schattenspalt umher.
 >>He walks around this area inside the Cleft of Shadow.
@@ -742,7 +743,7 @@ LLG.RegisterGuide([[
 .accept Alliance Relations##1431
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -752,7 +753,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -767,7 +768,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Affray Challenger
+.kill 1 Affray Challenger##6240
 >>You will have to kill six of them before Big Will will appear.
 >>You will fight them one at a time.
 .goto The Barrens,68.61,48.72
@@ -776,7 +777,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 >>You will learn Berserker Stance from completing this quest.
@@ -787,18 +788,19 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Sharptalon
+.kill 1 Sharptalon##12676
 >>He looks like a large blue bird that flies low to the ground around this area.
 .collect Sharptalon's Claw,1
 .only completedq(6383)
 
 #step
-.click Sharptalon's Claw
+.click Sharptalon's Claw##16305
 .goto Ashenvale,73.78,61.46
 .accept Sharptalon's Claw##2
+.only itemcount(16305) > 0
 
 #step
-.talk Senani Thunderheart
+.talk Senani Thunderheart##12696
 >>de:Standing in front of the inn.
 .goto Ashenvale,73.78,61.46
 .turnin Sharptalon's Claw##2
@@ -808,7 +810,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,22.28,53.78
 >>Enter the building
-.talk Keldran
+.talk Keldran##5640
 >>en:Standing in the entrance of a small house.
 >>de:Steht im Eingang eines kleinen Hauses.
 >>He walks around inside the building.
@@ -820,7 +822,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.30,36.97
 >>Enter the building
-.talk Searn Firewarder
+.talk Searn Firewarder##5892
 >>en:Inside the huge building, to the left as you enter, next to a little round table.
 >>de:Inside the huge building, to the left as you enter, next to a little round table.
 >>Inside the building.
@@ -842,7 +844,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,75.22,24.61
 >>Enter the building
-.talk Nogg
+.talk Nogg##3412
 >>Inside the building.
 >>It is likely your quest log will be full carrying this quest.
 >>However, you need to accept it to be eligible for the next quest.
@@ -852,18 +854,18 @@ LLG.RegisterGuide([[
 .accept Rig Wars##2841
 
 #step
-.talk Sovik
+.talk Sovik##3413
 >>Inside the building.
 .goto Orgrimmar,75.49,25.35
 .accept Chief Engineer Scooty##2842
 
 #step
-.talk Katis
+.talk Katis##5816
 >>Inside the tent, inside the Cleft of Shadow.
-.kill 1 Pestilent Wand
+.kill 1 Pestilent Wand##5347
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Orgrimmar,44.18,48.44
 >>Visit the Vendor
-.only Priest
+.only Priest and itemcount(5347) == 0
 ]])

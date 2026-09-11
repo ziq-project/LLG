@@ -19,24 +19,24 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Patrick Garrett
+.talk Patrick Garrett##5651
 .goto Undercity,62.32,48.62
 .accept Reclaimed Treasure##2342
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.38,52.95
 .accept Power Stones##2418
 
 #step
-.talk Theldurin the Lost
+.talk Theldurin the Lost##2785
 .goto Badlands,51.39,76.86
 .accept Solution to Doom##709
 
 #step
 .goto Badlands,3.83,46.98
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -46,7 +46,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,9.18,43.23
 >>Follow the path
-.kill 1 Lesser Rock Elemental
+.kill 1 Lesser Rock Elemental##2735
 .goto Badlands,19.46,43.02
 .complete 2258,3 >>Collect 5 Rock Elemental Shard
 >>You can find more around [13.98,39.71]
@@ -76,7 +76,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,3.83,46.98
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 .collect Shattered Necklace,1
 
 #step
-.talk Dran Droffers
+.talk Dran Droffers##6986
 >>en:Standing inside a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 .accept Necklace Recovery##2283
 
 #step
-.talk Dran Droffers
+.talk Dran Droffers##6986
 >>en:Standing inside a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Badlands,54.08,58.00
 >>Continue following the path
-.click Ancient Chest
+.click Ancient Chest##126260
 >>Inside the cave.
 .goto Badlands,54.14,58.24
 .complete 709,1 >>Collect Tablet of Ryun'eh
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Badlands,53.78,57.96
 >>Continue following the path
-.click Garrett Family Chest
+.click Garrett Family Chest##124388
 >>Inside the cave.
 .goto Badlands,53.78,58.23
 .complete 2342,1 >>Collect Garrett Family Treasure
@@ -144,7 +144,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.talk Remains of a Paladin
+.talk Remains of a Paladin##6912
 >>After entering the dungeon, follow the corridor on the right into the big open room, then continue to the second corridor on the right.
 >>He's laying on the ground surrounded by enemies.
 .turnin Necklace Recovery, Take 2##2284
@@ -157,7 +157,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,3.83,46.98
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -167,7 +167,7 @@ LLG.RegisterGuide([[
 .accept Translating the Journal##2338
 
 #step
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -182,14 +182,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.click Conspicuous Urn
+.click Conspicuous Urn##125477
 >>It looks like a tall brown urn in the southeastern side of Dig Two, to the right of the large double doors.
 >>Follow the path through the first corridor to enter the big open room, then follow the left corridor and enter the room to the south to reach Dig Two.
 .complete 2339,3 >>Collect Shattered Necklace Topaz
 
 #step
 >>Inside the Uldaman Dungeon:
-.click Shadowforge Cache
+.click Shadowforge Cache##113757
 >>Looting this will cause a few enemies to spawn.
 >>It looks like a stone chest on the northwestern side of Dig Three.
 >>Continue west through the dungeon, pass through the Map Chamber and then continue north.
@@ -200,7 +200,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.kill 1 Grimlok
+.kill 1 Grimlok##4854
 >>Leave Dig Three and go left, then continue left to the end of The Stone Vault.
 .complete 2339,2 >>Collect Shattered Necklace Sapphire
 
@@ -208,7 +208,7 @@ LLG.RegisterGuide([[
 >>Inside the Uldaman Dungeon:
 .click Altar of The Keepers
 >>Leave The Stone Vault and follow the left path to reach the Hall of the Crafters.
-.kill 1 Archaedas
+.kill 1 Archaedas##2748
 >>He is the last boss of the dungeon.
 .complete 2339,4 >>Collect Shattered Necklace Power Source
 
@@ -222,7 +222,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.talk Lore Keeper of Norgannon
+.talk Lore Keeper of Norgannon##7172
 >>en:He appears on the left side of the room, next to a stone altar, when you accept the quest \
 >>de:Erscheint links im Raum neben einem Steinaltar, wenn du die Qüst \
 >>Select _"Who are the Earthen?"_
@@ -239,7 +239,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Uldaman Dungeon:
-.click Magenta Cap Clusters
+.click Magenta Cap Clusters##126049
 >>They look like a pair of mushrooms along the walls of the cave areas.
 >>You can find more outside of the dungeon.
 .complete 2202,1 >>Collect 12 Magenta Cap Cluster
@@ -263,7 +263,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,3.83,46.98
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.
@@ -276,24 +276,24 @@ LLG.RegisterGuide([[
 .accept Deliver the Gems##2340
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.38,52.95
 .turnin Power Stones##2418
 
 #step
-.talk Theldurin the Lost
+.talk Theldurin the Lost##2785
 .goto Badlands,51.39,76.86
 .turnin Solution to Doom##709
 
 #step
-.talk Patrick Garrett
+.talk Patrick Garrett##5651
 .goto Undercity,62.32,48.62
 .turnin Reclaimed Treasure##2342
 
 #step
 .goto Orgrimmar,59.01,37.57
 >>Enter the building
-.talk Dran Droffers
+.talk Dran Droffers##6986
 >>en:Standing inside a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -305,7 +305,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,36.34,50.53
 >>Enter the building
-.talk Sage Truthseeker
+.talk Sage Truthseeker##3978
 >>Inside the building.
 .goto Thunder Bluff,34.40,46.91
 .turnin The Platinum Discs##2280
@@ -314,7 +314,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,3.83,46.98
 >>Enter the building
-.talk Jarkal Mossmeld
+.talk Jarkal Mossmeld##6868
 >>en:Upstairs in the big building.
 >>de:Upstairs in the big building.
 >>Upstairs inside the building.

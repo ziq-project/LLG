@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Use the leveling guides to accomplish this.
 
 #step
-.talk Osborne the Night Man
+.talk Osborne the Night Man##918
 .goto Stormwind City,74.64,52.82
 .train
 
@@ -31,14 +31,14 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Stormwind City,77.12,58.02
 >>Enter the building
-.talk Renzik "The Shiv"
+.talk Renzik "The Shiv"##6946
 >>Upstairs inside the building.
 .goto Stormwind City,75.76,60.36
 .accept Redridge Rendezvous##2281
 .only walking
 
 #step
-.talk Lucius
+.talk Lucius##6966
 .goto Redridge Mountains,28.06,52.04
 .turnin Redridge Rendezvous##2281
 >>Save the Thieves' Tools you get as a reward.
@@ -51,22 +51,22 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Redridge Mountains,43.36,37.56
 >>Follow the path
-.click Practice Lockbox
+.click Practice Lockbox##178244
 >>Inside the building.
 .goto Redridge Mountains,51.99,45.19
->>Reach Skill 100 in Lockpicking
+.condition skill("Lockpicking") >= 100 >>Reach Skill 100 in Lockpicking
 .only walking
 
 #step
-.click Lucius's Lockbox
+.click Lucius's Lockbox##121264
 >>Inside the building.
 .goto Redridge Mountains,52.04,44.69
-.complete 2282,1 >>Collect Token of Thievery
+.complete 2282,1 |or >>Collect Token of Thievery
 
 #step
 .goto Redridge Mountains,42.87,37.52
 >>Follow the road
-.talk Lucius
+.talk Lucius##6966
 .goto Redridge Mountains,28.06,52.04
 .turnin Alther's Mill##2282
 .only walking
@@ -78,9 +78,9 @@ LLG.RegisterGuide([[
 >>Use the leveling guides to accomplish this.
 
 #step
-.click Waterlogged Footlocker
+.click Waterlogged Footlocker##179487
 >>They look like small yellow and brown wooden chests on the ground around this area.
->>Reach Skill 150 in Lockpicking
+.condition skill("Lockpicking") >= 150 >>Reach Skill 150 in Lockpicking
 
 #step
 >>Reach Level 40
@@ -95,15 +95,15 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
->>'
+.condition skill("Lockpicking") >= 200 |or
 
 #step
-.click Battered Footlocker
+.click Battered Footlocker##179490
 >>They look like small wooden chests upstairs inside the building.
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
 .goto Badlands,40.49,28.01
->>Reach Skill 175 in Lockpicking
+.condition skill("Lockpicking") >= 175 >>Reach Skill 175 in Lockpicking
 >>You can find more at:
 >>[41.29,29.31]
 >>[41.44,29.95]
@@ -116,15 +116,15 @@ LLG.RegisterGuide([[
 >>Run down the stairs
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
->>'
+.condition skill("Lockpicking") >= 200 |or
 
 #step
-.click Dented Footlocker
+.click Dented Footlocker##179492
 >>They look like small wooden chests downstairs inside the building.
 >>You can also farm under the water in Desolace with Water Breathing.
 >>There are boxes off the coast at 35.02,21.03
 .goto Badlands,41.08,27.42
->>Reach Skill 200 in Lockpicking
+.condition skill("Lockpicking") >= 200 >>Reach Skill 200 in Lockpicking
 >>You can find more at:
 >>[40.73,28.07]
 >>[40.81,28.68]
@@ -143,15 +143,15 @@ LLG.RegisterGuide([[
 >>Run up the ramp
 .goto Searing Gorge,41.38,53.89
 >>Enter the cave
->>'
+.condition skill("Lockpicking") >= 250 |or
 .only walking
 
 #step
-.click Dented Footlocker
+.click Dented Footlocker##179492
 >>They look like small wooden chests on the ground around this area inside the cave, in the lower section.
 >>You can also try to pickpocket enemies around this area to get Sturdy Junkboxes to unlock.
 .goto Searing Gorge,38.44,50.83
->>Reach Skill 225 in Lockpicking
+.condition skill("Lockpicking") >= 225 >>Reach Skill 225 in Lockpicking
 >>You can find more at:
 >>[Searing Gorge 38.00,45.87]
 >>Through the Quarry Gate at [Searing Gorge 37.82,44.31]
@@ -165,14 +165,14 @@ LLG.RegisterGuide([[
 >>Run up the ramp
 .goto Searing Gorge,42.47,30.78
 >>Follow the path
->>'
+.condition skill("Lockpicking") >= 250 |or
 
 #step
-.click Dented Footlocker
+.click Dented Footlocker##179492
 >>They look like small wooden chests on the ground around this area inside the cave, in the upper section.
 >>You can also try to pickpocket enemies around this area to get Sturdy Junkboxes to unlock.
 .goto Searing Gorge,42.90,31.18
->>Reach Skill 250 in Lockpicking
+.condition skill("Lockpicking") >= 250 >>Reach Skill 250 in Lockpicking
 >>You can find more around:
 >>[43.93,30.88]
 >>[45.77,28.35]
@@ -196,7 +196,7 @@ LLG.RegisterGuide([[
 >>Walk across the large chain and follow the path into the Grinding Quarry.
 >>Once in the Grinding Quarry, follow the path northwest through the tunnel to find the dungeon portal entrance.
 .click Here After Entering the Blackrock Depths Dungeon
->>'
+.condition skill("Lockpicking") >= 300 |or
 .only walking
 
 #step
@@ -209,5 +209,5 @@ LLG.RegisterGuide([[
 >>After you pick these 4 locks, leave the dungeon the way you came.
 >>Outside the dungeon portal, right-click your player portrait.
 >>Select "Reset all instances" and re-enter the dungeon to repeat this process.
->>Reach Skill 300 in Lockpicking
+.condition skill("Lockpicking") >= 300 >>Reach Skill 300 in Lockpicking
 ]])

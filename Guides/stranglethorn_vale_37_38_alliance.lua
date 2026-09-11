@@ -18,17 +18,17 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12251) == 0
 
 #step
 .goto Stranglethorn Vale,27.85,76.76
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -48,13 +48,13 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,27.08,77.62
 >>Enter the building
-.talk Innkeeper Skindle
+.talk Innkeeper Skindle##6807
 >>Inside the building.
 .goto Stranglethorn Vale,27.04,77.31
 .hs
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -62,7 +62,7 @@ LLG.RegisterGuide([[
 .turnin The Rumormonger##1115
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -70,7 +70,7 @@ LLG.RegisterGuide([[
 .accept Bloodscalp Ears##189
 
 #step
-.talk Baron Revilgaz
+.talk Baron Revilgaz##2496
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -80,27 +80,27 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,39.06,5.21
 >>Follow the path up into the Rebel Camp
-.talk Brother Nimetz
+.talk Brother Nimetz##739
 .goto Stranglethorn Vale,37.83,3.56
 .accept Kurzen's Mystery##207
 .only walking
 
 #step
-.talk Sergeant Yohwa
+.talk Sergeant Yohwa##733
 >>en:Up the path in the Rebel Camp, next to a campfire.
 >>de:Den Pfad hinauf im Rebellenlager, neben einem Lagerfeür.
 .goto Stranglethorn Vale,38.02,3.33
 .accept Special Forces##574
 
 #step
-.talk Corporal Kaleb
+.talk Corporal Kaleb##770
 >>en:Up the path in the Rebel Camp, next to a campfire.
 >>de:Den Pfad hinauf im Rebellenlager, neben einem Lagerfeür.
 .goto Stranglethorn Vale,37.74,3.30
 .turnin Return to Corporal Kaleb##622
 
 #step
-.talk Lieutenant Doren
+.talk Lieutenant Doren##469
 >>en:Up the hill, next to a cart.
 >>de:Oben auf dem Hügel, neben einem Karren.
 .goto Stranglethorn Vale,38.04,3.01
@@ -122,7 +122,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Kurzen's and Compound")
 
 #step
-.kill 1 Kurzen Medicine Man
+.kill 1 Kurzen Medicine Man##940
 >>They share spawn points with the other enemies around this area, so kill those too, if you can't find any.
 .goto Stranglethorn Vale,44.34,10.02
 .complete 1712,1 >>Collect 8 Liferoot
@@ -139,7 +139,7 @@ LLG.RegisterGuide([[
 >>Follow the path down
 .goto Stranglethorn Vale,48.78,8.64
 >>Follow the path
-.click Bookie Herod's Strongbox
+.click Bookie Herod's Strongbox##288
 >>Downstairs inside the cave.
 >>only hardcore :: Kurzen Headshrinkers are ranged attackers that deal heavy damage.
 >>only hardcore :: Watch for stealthed Kurzen Commandos while traversing the cave.
@@ -184,7 +184,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Stranglethorn Vale,42.25,18.10
 >>Follow the path up
-.kill 1 Foreman Cozzle
+.kill 1 Foreman Cozzle##4723
 >>Inside the building at the top of the platform.
 >>Be careful not to accidentally aggro him while killing other enemies near the building.
 >>Try to clear all enemies as you travel up as they can aggro randomly through the floor.
@@ -196,7 +196,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,43.45,20.36
 >>Enter the building
-.click Cozzle's Footlocker
+.click Cozzle's Footlocker##20691
 >>Inside the building.
 .goto Stranglethorn Vale,43.34,20.34
 .complete 1182,1 >>Collect Fuel Regulator Blueprints
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 >>You can find more around [46.42,27.34]
 
 #step
-.kill 1 Snapjaw Crocolisk
+.kill 1 Snapjaw Crocolisk##1152
 >>Underwater and on the shores near the water around this area.
 .goto Stranglethorn Vale,39.28,30.27
 .complete 577,1 >>Collect 5 Snapjaw Crocolisk Skin
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 >>You can find more around [31.55,19.39]
 
 #step
-.talk Hemet Nesingwary
+.talk Hemet Nesingwary##715
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.66,10.81
@@ -244,7 +244,7 @@ LLG.RegisterGuide([[
 .accept Raptor Mastery##196
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.62,10.62
@@ -253,28 +253,28 @@ LLG.RegisterGuide([[
 .accept Tiger Mastery##188
 
 #step
-.talk Sir S. J. Erlgadin
+.talk Sir S. J. Erlgadin##718
 >>en:In a small camp on the beach.
 >>de:In einem kleinen Lager am Strand.
 .goto Stranglethorn Vale,35.55,10.55
 .turnin Panther Mastery##192
 
 #step
-.kill 1 Sin'Dall
+.kill 1 Sin'Dall##729
 >>He looks like an orange tiger that walks around this area.
 >>He's usually on top of this hill, though.
 .goto Stranglethorn Vale,32.21,17.39
 .complete 188,1 >>Collect Paw of Sin'Dall
 
 #step
-.click Moon Over the Vale
+.click Moon Over the Vale##57
 >>only hardcore :: Enemies are close togheter around this area.
 >>only hardcore :: Try to pull form the North Eastern end of the ruins while clearing.
 .goto Stranglethorn Vale,29.48,19.15
 .complete 207,1 >>Collect The First Troll Legend
 
 #step
-.click Gri'lek the Wanderer
+.click Gri'lek the Wanderer##179426
 >>Underwater.
 >>Be careful to avoid the elite murlocs nearby.
 >>only hardcore :: Swim down when near the coordinate provided for the step.
@@ -283,7 +283,7 @@ LLG.RegisterGuide([[
 .complete 207,2 >>Collect The Second Troll Legend
 
 #step
-.kill 1 Lesser Water Elemental
+.kill 1 Lesser Water Elemental##691
 >>These enemies are immune to frost damage.
 .goto Stranglethorn Vale,21.13,22.70
 .complete 601,1 >>Collect 6 Water Elemental Bracers
@@ -293,7 +293,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Stranglethorn Vale,23.84,10.65
 >>Continue up the path
-.click The Emperor's Tomb
+.click The Emperor's Tomb##54
 >>only hardcore :: Watch for patrols and respawns while traveling through this area.
 >>only hardcore :: Be wary of Bloodscalp Headhunters as they are ranged attackers and may aggro from a distance.
 >>only hardcore :: Bloodscalp enemies enrage to deal more damage when at low health.
@@ -304,7 +304,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,24.51,11.72
 >>Follow the path
-.click Fall of Gurubashi
+.click Fall of Gurubashi##52
 >>only hardcore :: Watch for patrols and respawns while traveling through this area.
 >>only hardcore :: Be wary of Bloodscalp Headhunters as they are ranged attackers and may aggro from a distance.
 >>only hardcore :: Bloodscalp enemies enrage to deal more damage when at low health.
@@ -335,7 +335,7 @@ LLG.RegisterGuide([[
 >>You can find more around [Stranglethorn Vale 26.26,16.06]
 
 #step
-.talk Ajeck Rouack
+.talk Ajeck Rouack##717
 >>en:Standing in a small camp with 2 tents.
 >>de:Steht in einem kleinen Lager mit 2 Zelten.
 .goto Stranglethorn Vale,35.62,10.62
@@ -344,7 +344,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,39.04,5.19
 >>Follow the path up into the Rebel Camp
-.talk Brother Nimetz
+.talk Brother Nimetz##739
 .goto Stranglethorn Vale,37.83,3.56
 .turnin Kurzen's Mystery##207
 .goto Stranglethorn Vale,37.83,3.56
@@ -352,7 +352,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Lieutenant Doren
+.talk Lieutenant Doren##469
 >>en:Up the hill, next to a cart.
 >>de:Oben auf dem Hügel, neben einem Karren.
 .goto Stranglethorn Vale,38.04,3.01
@@ -363,21 +363,21 @@ LLG.RegisterGuide([[
 .accept Patrol Schedules##330
 
 #step
-.talk Corporal Sethman
+.talk Corporal Sethman##1422
 .goto Stranglethorn Vale,37.66,3.39
 .turnin Patrol Schedules##330
 .goto Stranglethorn Vale,37.66,3.39
 .accept Report to Doren##331
 
 #step
-.talk Lieutenant Doren
+.talk Lieutenant Doren##469
 >>en:Up the hill, next to a cart.
 >>de:Oben auf dem Hügel, neben einem Karren.
 .goto Stranglethorn Vale,38.04,3.01
 .turnin Report to Doren##331
 
 #step
-.talk Corporal Bluth
+.talk Corporal Bluth##734
 >>en:He is a human standing in front of a bunch of stacked boxes
 >>de:Er ist ein Mensch und steht vor einem Stapel Kisten.
 >>Buy enough ammo to fill your ammo bag, plus 6-8 extra stacks.
@@ -387,7 +387,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Krazek
+.talk Krazek##773
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -395,7 +395,7 @@ LLG.RegisterGuide([[
 .accept Dream Dust in the Swamp##1116
 
 #step
-.talk Kebok
+.talk Kebok##737
 >>en:Upstairs in the inn, standing on the top floor.
 >>de:Oben im Gasthaus, im obersten Stockwerk.
 >>Upstairs inside the building, on the top floor.
@@ -403,7 +403,7 @@ LLG.RegisterGuide([[
 .turnin Bloodscalp Ears##189
 
 #step
-.talk Baron Revilgaz
+.talk Baron Revilgaz##2496
 >>en:On the top floor of the inn, standing out on the balcony.
 >>de:Im obersten Stock des Gasthauses, auf dem Balkon.
 >>Upstairs on the balcony of the building.
@@ -418,7 +418,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Viznik Goldgrubber
+.talk Viznik Goldgrubber##2625
 >>Deposit these items into the bank.
 .goto Stranglethorn Vale,26.54,76.57
 .goto Stranglethorn Vale,26.54,76.57
@@ -431,7 +431,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Stranglethorn Vale,28.21,77.33
 >>Enter the building
-.talk Drizzlik
+.talk Drizzlik##2495
 >>en:Upstairs on the dock, in the Tan-Your-Hide Leatherworks shop.
 >>de:Oben auf dem Steg, im Lederladen Tan-Your-Hide.
 >>Inside the building.
@@ -442,15 +442,15 @@ LLG.RegisterGuide([[
 #step
 .goto Stranglethorn Vale,28.11,74.98
 >>Enter the building
-.talk Zarena Cromwind
+.talk Zarena Cromwind##2482
 >>en:She is found in the Old Port Authority. When you walk in go right and she is under a sign that says Cuts-N-Bruises Incorporated.|
 >>de:Sie befindet sich in der Alten Hafenbehoerde. Wenn du hineingehst, rechts; sie steht unter einem Schild mit \\\
 >>Inside the building.
-.kill 1 Big Stick
+.kill 1 Big Stick##12251
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Stranglethorn Vale,28.34,75.46
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12251) == 0
 ]])

@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Festival Talespinner
+.talk Festival Talespinner##16818
 .goto Orgrimmar,42.53,34.61
 .accept The Festival of Fire##9368
 .goto Orgrimmar,42.53,34.61
@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .accept Flickering Flames in Kalimdor##9388
 
 #step
-.talk Festival Flamekeeper
+.talk Festival Flamekeeper##16788
 .goto Orgrimmar,42.63,34.31
 .accept Wild Fires in the Eastern Kingdoms##9323
 .goto Orgrimmar,42.63,34.31
@@ -219,7 +219,7 @@ LLG.RegisterGuide([[
 .only haveq(9319) or completedq(9319)
 
 #step
-.talk Festival Talespinner
+.talk Festival Talespinner##16818
 .goto Orgrimmar,42.50,34.60
 .turnin The Festival of Fire##9368
 .goto Orgrimmar,42.50,34.60
@@ -231,12 +231,12 @@ LLG.RegisterGuide([[
 .only readyq(9331) or completedq(9331)
 
 #step
-.talk Festival Talespinner
+.talk Festival Talespinner##16818
 .goto Orgrimmar,56.58,92.29
 .accept A Thief's Reward##9339
 
 #step
-.talk Festival Flamekeeper
+.talk Festival Flamekeeper##16788
 .goto Orgrimmar,42.60,34.30
 .turnin Flickering Flames in the Eastern Kingdoms##9389
 .goto Orgrimmar,42.60,34.30

@@ -26,26 +26,26 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.kill 1 Booty Bay Bruiser
+.kill 1 Booty Bay Bruiser##4624
 >>This is the {o}safest location{} to grind if you are {o}solo{}.
 >>There are {o}4 patrolling guards{} that you can {o}kill one at a time{}.
 >>If you kill the {o}patrolling guards quickly{}, go inside the {o}Blacksmithing Houses{} and {o}attack civilians{} to {o}spawn more guards{}.
 >>To get the {o}Admiral's Hat{}, you must be {o}Hated with Booty Bay{}.
 >>You {o}can't keep{} both {o}reputations Friendly{} at the {o}same time{}.
 .goto Stranglethorn Vale,28.77,74.70
->>Reach Hated Reputation with Booty Bay
+.condition rep('Booty Bay') == Hated >>Reach Hated Reputation with Booty Bay
 .goto Stranglethorn Vale,28.77,74.70
->>Reach Friendly Reputation with the Bloodsail Buccaneers Faction
+.condition rep('Bloodsail Buccaneers') == Friendly >>Reach Friendly Reputation with the Bloodsail Buccaneers Faction
 
 #step
-.talk "Pretty Boy" Duncan
+.talk "Pretty Boy" Duncan##2545
 >>He gets {o}killed for a quest{}.
 >>If he's {o}not here{}, wait for him to {o}respawn{}.
 .goto Stranglethorn Vale,27.60,69.60
 .accept Avast Ye, Scallywag##1036
 
 #step
-.talk Fleet Master Firallon
+.talk Fleet Master Firallon##2546
 >>Inside the ship, on the {o}middle floor{}.
 >>You must be {o}Hated with Booty Bay{}.
 .goto Stranglethorn Vale,30.60,90.60
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 >>On the {o}top floor{} of the building, {o}outside{} on the {o}balcony{}.
 
 #step
-.talk Fleet Master Firallon
+.talk Fleet Master Firallon##2546
 >>Inside the ship, on the {o}middle floor{}.
 .goto Stranglethorn Vale,30.60,90.60
 .turnin Avast Ye, Admiral!##4621

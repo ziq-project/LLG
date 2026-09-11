@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Fahran Silentblade
+.talk Fahran Silentblade##3969
 >>Inside the building.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -25,19 +25,19 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Innkeeper Lyshaerya
+.talk Innkeeper Lyshaerya##11103
 >>Inside the building.
 .goto Desolace,66.27,6.56
 .hs
 
 #step
-.talk Brother Anton
+.talk Brother Anton##1182
 >>Inside the building.
 .goto Desolace,66.52,7.91
 .accept Down the Scarlet Path##261
 
 #step
-.talk Kreldig Ungor
+.talk Kreldig Ungor##5638
 >>en:Next to a small white round table.
 >>de:Neben einem kleinen weißen runden Tisch.
 .goto Desolace,66.20,9.63
@@ -48,17 +48,17 @@ LLG.RegisterGuide([[
 .accept Reagents for Reclaimers Inc.##1458
 
 #step
-.talk Captain Pentigast
+.talk Captain Pentigast##5396
 .goto Desolace,66.66,10.93
 .accept Strange Alliance##1382
 
 #step
-.talk Corporal Melkins
+.talk Corporal Melkins##5752
 .goto Desolace,66.74,10.87
 .accept Centaur Bounty##1387
 
 #step
-.talk Vahlarriel Demonslayer
+.talk Vahlarriel Demonslayer##5642
 >>en:To the left as you enter town.
 >>de:To the left as you enter town.
 .goto Desolace,66.44,11.82
@@ -101,7 +101,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,67.43,15.57
 >>Follow the path up into Nijel's Point
-.talk Kreldig Ungor
+.talk Kreldig Ungor##5638
 >>en:Next to a small white round table.
 >>de:Neben einem kleinen weißen runden Tisch.
 .goto Desolace,66.20,9.63
@@ -111,14 +111,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Malem Chest
+.click Malem Chest##50961
 .goto Desolace,56.54,17.83
 .turnin Vahlarriel's Search##1437
 .goto Desolace,56.54,17.83
 .accept Vahlarriel's Search##1465
 
 #step
-.talk Bibbly F'utzbuckle
+.talk Bibbly F'utzbuckle##11438
 >>en:Standing next to a hut, inside a bone fence.
 >>de:Standing next to a hut, inside a bone fence.
 >>He walks around this area.
@@ -126,21 +126,21 @@ LLG.RegisterGuide([[
 .accept Bone Collector##5501
 
 #step
-.talk Azore Aldamort
+.talk Azore Aldamort##11863
 >>en:Standing on a ledge below a big lighthouse to the right.
 >>de:Steht auf einem Vorsprung unterhalb des großen Leuchtturms auf der rechten Seite.
 .goto Desolace,38.88,27.17
 .accept Sceptre of Light##5741
 
 #step
-.click Karnitol's Chest
+.click Karnitol's Chest##35251
 .goto Desolace,36.11,30.45
 .turnin The Karnitol Shipwreck##1454
 .goto Desolace,36.11,30.45
 .accept The Karnitol Shipwreck##1455
 
 #step
-.click Rackmore's Log
+.click Rackmore's Log##177787
 >>It's a small book on the ground.
 .goto Desolace,36.07,30.41
 .accept Claim Rackmore's Treasure!##6161
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,36.05,31.01
 >>Leave the water
-.talk Smeed Scrabblescrew
+.talk Smeed Scrabblescrew##11596
 >>en:Standing in front of a small hut, next to some kodos.
 >>de:Standing in front of a small hut, next to some kodos.
 >>Avoid Ghost Walker Post as you travel here.
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Sar'theris and Strand")
 
 #step
-.click the Kodo Kombobulator
+.click the Kodo Kombobulator##13892
 >>Use it on Kodo enemies around this area.
 >>You can find more all around this bone graveyard area.
 .goto Desolace,54.45,63.19
@@ -175,21 +175,21 @@ LLG.RegisterGuide([[
 >>Gather more Kodos from here [54.45,63.19]
 
 #step
-.talk Smeed Scrabblescrew
+.talk Smeed Scrabblescrew##11596
 >>en:Standing in front of a small hut, next to some kodos.
 >>de:Standing in front of a small hut, next to some kodos.
 .goto Desolace,60.86,61.86
 .turnin Kodo Roundup##5561
 
 #step
-.click Kodo Bones
+.click Kodo Bones##176751
 >>They look like large white horned animal skulls on the ground around this area.
 >>A Kodo Apparition may appear and attack you.
 .goto Desolace,51.31,58.04
 .complete 5501,1 >>Collect 10 Kodo Bone
 
 #step
-.kill 1 Aged Kodo
+.kill 1 Aged Kodo##4700
 .goto Desolace,51.41,58.45
 .complete 1459,2 >>Collect 3 Aged Kodo Hide
 
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,50.33,75.54
 >>Follow the road
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.23,79.25
@@ -214,7 +214,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Kreldig Ungor
+.talk Kreldig Ungor##5638
 >>en:Next to a small white round table.
 >>de:Neben einem kleinen weißen runden Tisch.
 .goto Desolace,66.20,9.63
@@ -225,12 +225,12 @@ LLG.RegisterGuide([[
 .turnin Reagents for Reclaimers Inc.##1459
 
 #step
-.talk Corporal Melkins
+.talk Corporal Melkins##5752
 .goto Desolace,66.74,10.87
 .turnin Centaur Bounty##1387
 
 #step
-.talk Vahlarriel Demonslayer
+.talk Vahlarriel Demonslayer##5642
 >>en:To the left as you enter town.
 >>de:To the left as you enter town.
 .goto Desolace,66.44,11.82
@@ -257,7 +257,7 @@ LLG.RegisterGuide([[
 .complete 1387,1 >>Collect 15 Centaur Ear
 
 #step
-.talk Bibbly F'utzbuckle
+.talk Bibbly F'utzbuckle##11438
 >>en:Standing next to a hut, inside a bone fence.
 >>de:Standing next to a hut, inside a bone fence.
 >>He walks around this area.
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,56.06,29.54
 >>Follow the path
-.kill 1 Burning Blade Seer
+.kill 1 Burning Blade Seer##13019
 >>At the top of the tower.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Burning Blade Adepts/Augurs are ranged attackers that deal heavy damage
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 .goto Desolace,55.48,27.83
 >>Enter the building
 >>only hardcore :: Watch for the patrol that walks counter clock-wise around this building.
-.talk Dalinda Malem
+.talk Dalinda Malem##5644
 >>en:Crouching next to the wall in the middle circle room in the biggest building.
 >>de:Hockt neben der Wand im mittleren runden Raum des größten Gebäudes.
 >>Inside the building.
@@ -298,7 +298,7 @@ LLG.RegisterGuide([[
 .goto Desolace,53.73,29.42
 >>Enter the building
 >>only hardcore :: Watch for the patrol that walks clock-wise around this building.
-.kill 1 Tyranis Malem
+.kill 1 Tyranis Malem##5643
 >>Inside the building.
 >>Try to pull him toward the building entrance, so you don't accidentally aggro other enemies.
 .goto Desolace,53.01,29.08
@@ -310,7 +310,7 @@ LLG.RegisterGuide([[
 .goto Desolace,55.48,27.83
 >>Enter the building
 >>only hardcore :: Watch for the patrol that walks counter clock-wise around this building.
-.talk Dalinda Malem
+.talk Dalinda Malem##5644
 >>en:Crouching next to the wall in the middle circle room in the biggest building.
 >>de:Hockt neben der Wand im mittleren runden Raum des größten Gebäudes.
 >>Inside the building.
@@ -332,7 +332,7 @@ LLG.RegisterGuide([[
 .complete 1440,1 >>Rescue Dalinda Malem
 
 #step
-.talk Azore Aldamort
+.talk Azore Aldamort##11863
 >>en:Standing on a ledge below a big lighthouse to the right.
 >>de:Steht auf einem Vorsprung unterhalb des großen Leuchtturms auf der rechten Seite.
 .goto Desolace,38.89,27.17
@@ -343,14 +343,14 @@ LLG.RegisterGuide([[
 #step
 .click Serpent Statue
 >>You will be attacked immediately, so make sure you are ready before hand.
-.kill 1 Lord Kragaru
+.kill 1 Lord Kragaru##12369
 >>He's level 38, but you should be able to kill him at this level.
 >>If you have trouble, try to find someone to help you.
 .goto Desolace,28.19,6.62
 .complete 6027,1 >>Collect Book of the Ancients
 
 #step
-.click Rackmore's Chest
+.click Rackmore's Chest##177786
 >>On the ground at the base of the tree.
 >>only hardcore :: Enemies around this area may run away when at low health.
 >>only hardcore :: Destroy totems that Slitherblade Oracles summon.
@@ -391,7 +391,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,40.99,28.91
 >>Follow the path up
-.talk Azore Aldamort
+.talk Azore Aldamort##11863
 >>en:Standing on a ledge below a big lighthouse to the right.
 >>de:Steht auf einem Vorsprung unterhalb des großen Leuchtturms auf der rechten Seite.
 .goto Desolace,38.89,27.17
@@ -401,7 +401,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,41.53,65.03
 >>Follow the path through the mountains
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.22,79.25
@@ -413,7 +413,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,47.02,75.18
 >>Follow the road
-.click Sack of Meat
+.click Sack of Meat##22245
 >>They look like tan leather bags on the ground near the buildings around this area.
 >>Not all of the tan bags you see will be clickable.
 >>The ones in the outskirts of the village are a bit lower level and easier to grind.
@@ -437,7 +437,7 @@ LLG.RegisterGuide([[
 #step
 .goto Desolace,48.39,75.67
 >>Follow the road
-.talk Uthek the Wise
+.talk Uthek the Wise##5397
 >>en:Standing in front of a small tent.
 >>de:Standing in front of a small tent.
 .goto Desolace,36.22,79.25
@@ -448,7 +448,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Scorpashi enemies as you quest.
->>'
 >>These scorpions share spawn points with basilisk enemies, so kill those too, if you can't find any.
 .goto Desolace,72.00,31.00
 .complete 1459,1 >>Collect 10 Scorpashi Venom
@@ -457,7 +456,7 @@ LLG.RegisterGuide([[
 >>[59.00,21.00]
 
 #step
-.talk Kreldig Ungor
+.talk Kreldig Ungor##5638
 >>en:Next to a small white round table.
 >>de:Neben einem kleinen weißen runden Tisch.
 .goto Desolace,66.20,9.63
@@ -468,14 +467,14 @@ LLG.RegisterGuide([[
 .turnin Reagents for Reclaimers Inc.##1459
 
 #step
-.talk Vahlarriel Demonslayer
+.talk Vahlarriel Demonslayer##5642
 >>en:To the left as you enter town.
 >>de:To the left as you enter town.
 .goto Desolace,66.44,11.82
 .turnin Return to Vahlarriel##1440
 
 #step
-.talk Brother Anton
+.talk Brother Anton##1182
 >>Inside the building.
 .goto Desolace,66.52,7.91
 .turnin Down the Scarlet Path##261
@@ -485,46 +484,46 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
 .complete 1112 >>Collect Kravel's Parts
 
 #step
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.26
 .turnin Parts for Kravel##1112
 
 #step
 >>Watch the dialogue
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Delivery to the Gnomes##1114
 
 #step
-.talk Fizzle Brassbolts
+.talk Fizzle Brassbolts##4454
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.06,77.12
 .turnin Delivery to the Gnomes##1114
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept The Rumormonger##1115
 
 #step
-.talk Pozzik
+.talk Pozzik##4630
 >>en:At the very top of Fizzle & Pozzik's Speedbarge, in a room with a bunch of machines in it.
 >>de:Standing next to a goblin drag car, under a green canopy.
 .goto Thousand Needles,80.18,75.88
@@ -533,7 +532,7 @@ LLG.RegisterGuide([[
 .accept The Eighteenth Pilot##1186
 
 #step
-.talk Razzeric
+.talk Razzeric##4706
 >>de:Standing next to some green bubbling tanks, next to a green canopy.
 .goto Thousand Needles,80.33,76.09
 .turnin The Eighteenth Pilot##1186

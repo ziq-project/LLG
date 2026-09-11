@@ -19,17 +19,17 @@ LLG.RegisterGuide([[
 >>Use the leveling guides to accomplish this.
 
 #step
-.kill 1 Charlga Razorflank
+.kill 1 Charlga Razorflank##4421
 >>She is the last boss of the Razorfen Kraul Dungeon.
 >>Use the Razorfen Kraul Dungeon guide to accomplish this.
 .collect Small Scroll,1
-.click the Small Scroll
+.click the Small Scroll##17008
 .accept An Unholy Alliance##6522
 
 #step
 .goto Undercity,51.86,64.67
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.23,92.18
 .turnin An Unholy Alliance##6522
 .goto Undercity,56.23,92.18
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Andrew Brownell
+.talk Andrew Brownell##2308
 .goto Undercity,74.06,33.29
 .accept Bring the End##3341
 
@@ -46,14 +46,14 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,49.10,94.49
 >>Follow the path up
-.talk Myriam Moonsinger
+.talk Myriam Moonsinger##12866
 >>en:Follow the bath through the quillboars. She's kneeling high up on a hill, near the Razorfen Downs dungeon entrance.
 .goto The Barrens,49.01,94.94
 .accept A Host of Evil##6626
 .only walking
 
 #step
-.kill 1 Ambassador Malcin
+.kill 1 Ambassador Malcin##12865
 .goto The Barrens,48.52,95.62
 .complete 6521,1 >>Collect Ambassador Malcin's Head
 >>You can also find him around:
@@ -78,7 +78,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,49.10,94.49
 >>Follow the path up
-.talk Myriam Moonsinger
+.talk Myriam Moonsinger##12866
 >>en:Follow the bath through the quillboars. She's kneeling high up on a hill, near the Razorfen Downs dungeon entrance.
 .goto The Barrens,49.01,94.94
 .turnin A Host of Evil##6626
@@ -94,13 +94,13 @@ LLG.RegisterGuide([[
 >>Follow the path left along the north side of the dungeon to reach the Spiral of Thorns and eventually The Caller's Chamber.
 >>Continue through The Caller's Chamber to reach The Murder Pens and immediately go left.
 >>Be sure to clear each area of enemies as you go.
-.talk Belnistrasz
+.talk Belnistrasz##8516
 >>Inside the Holding Pen.
 .accept Scourge of the Downs##3523
 
 #step
 >>Inside the Razorfen Downs Dungeon:
-.talk Belnistrasz
+.talk Belnistrasz##8516
 >>Inside the Holding Pen.
 .turnin Scourge of the Downs##3523
 .accept Extinguishing the Idol##3525
@@ -112,7 +112,7 @@ LLG.RegisterGuide([[
 >>Inside the Razorfen Downs Dungeon:
 >>Follow and protect Belnistrasz
 .kill 1 the enemies that attack in waves
-.kill 1 Plaguemaw the Rotting
+.kill 1 Plaguemaw the Rotting##7356
 .complete 3525,1 >>Escort Belnistrasz to the Quilboar's Idol
 
 #step
@@ -123,7 +123,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Razorfen Downs Dungeon:
-.kill 1 Amnennar the Coldbringer
+.kill 1 Amnennar the Coldbringer##7358
 >>He is the last boss of the dungeon.
 >>Follow the left path out of the Belnistrasz escort room, then go right in the Spiral of Thorns and jump down.
 >>From here, go west and follow the path as it wraps up and around, eventually reaching Amnennar at the top.
@@ -134,14 +134,14 @@ LLG.RegisterGuide([[
 .complete 6521 >>Click Here to Continue
 
 #step
-.talk Andrew Brownell
+.talk Andrew Brownell##2308
 .goto Undercity,74.06,33.29
 .turnin Bring the End##3341
 
 #step
 .goto Undercity,51.86,64.67
 >>Follow the path
-.talk Varimathras
+.talk Varimathras##2425
 .goto Undercity,56.23,92.18
 .turnin An Unholy Alliance##6521
 .only walking

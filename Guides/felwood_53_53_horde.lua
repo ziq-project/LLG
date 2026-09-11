@@ -15,14 +15,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Dreka'Sur
+.talk Dreka'Sur##9620
 >>en:Next to a campfire.
 >>de:Neben einem Lagerfeür.
 .goto Felwood,34.80,52.73
 .turnin A Husband's Last Battle##6162
 
 #step
-.talk Winna Hazzard
+.talk Winna Hazzard##9996
 >>en:Standing on a small hill.
 >>de:Steht auf einem kleinen Hügel.
 .goto Felwood,34.21,52.34
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,37.69,49.42
 >>Run along the river to leave Bloodvenom Post
-.talk Maybess Riverbreeze
+.talk Maybess Riverbreeze##9529
 >>en:Standing off to the side of the road, in a small clearing.
 >>de:Standing off to the side of the road, in a small clearing.
 >>She walks around this area.
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .only walking and (subzone("Bloodvenom and Post") or subzone("Bloodvenom and River"))
 
 #step
-.talk Maybess Riverbreeze
+.talk Maybess Riverbreeze##9529
 >>en:Standing off to the side of the road, in a small clearing.
 >>de:Standing off to the side of the road, in a small clearing.
 >>She walks around this area.
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,37.69,49.42
 >>Run along the river to leave Bloodvenom Post
-.talk Greta Mosshoof
+.talk Greta Mosshoof##10922
 >>en:She paces back and forth in this spot in the small village.
 >>de:She paces back and forth in this spot in the small village.
 >>She walks around this area.
@@ -62,7 +62,7 @@ LLG.RegisterGuide([[
 .only walking and (subzone("Bloodvenom and Post") or subzone("Bloodvenom and River"))
 
 #step
-.talk Taronn Redfeather
+.talk Taronn Redfeather##10921
 >>en:Standing in a big hut.
 >>de:Standing in a big hut.
 >>Inside the building.

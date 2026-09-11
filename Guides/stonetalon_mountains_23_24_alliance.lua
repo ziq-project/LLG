@@ -22,7 +22,7 @@ LLG.RegisterGuide([[
 >>Run through the tunnel to Stonetalon Mountains
 .goto Stonetalon Mountains,59.04,62.24
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,60.06,70.00
 >>Follow the path up around the cliff
-.talk Kaela Shadowspear
+.talk Kaela Shadowspear##4080
 >>en:Up on the hill in a small camp, to the right of the road.
 >>de:Up on the hill in a small camp, to the right of the road.
 .goto Stonetalon Mountains,59.90,66.85
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Gaxim Rustfizzle
+.talk Gaxim Rustfizzle##4077
 >>en:Up on the hill in a small camp, to the right of the road.
 >>de:Up on the hill in a small camp, to the right of the road.
 .goto Stonetalon Mountains,59.52,67.15
@@ -53,7 +53,7 @@ LLG.RegisterGuide([[
 .accept A Gnome's Respite##1071
 
 #step
-.kill 1 Venture Co. Operator
+.kill 1 Venture Co. Operator##3988
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Venture Co. Deforesters are casters that aggro from a wide range and deal heavy damage.
 .goto Stonetalon Mountains,62.33,53.49
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,59.04,62.24
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.
@@ -109,7 +109,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,60.06,70.00
 >>Follow the path up around the cliff
-.talk Gaxim Rustfizzle
+.talk Gaxim Rustfizzle##4077
 >>en:Up on the hill in a small camp, to the right of the road.
 >>de:Up on the hill in a small camp, to the right of the road.
 .goto Stonetalon Mountains,59.52,67.15
@@ -122,7 +122,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Pridewing enemies around this area
->>'
 >>They look like wyverns.
 .goto Stonetalon Mountains,51.55,45.08
 .complete 1134,1 >>Collect 12 Pridewing Venom Sac
@@ -134,7 +133,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,46.86,31.45
 >>Follow the path to Stonetalon Peak
-.talk Keeper Albagorm
+.talk Keeper Albagorm##3994
 >>en:Standing in front of a moonwell.
 >>de:Standing in front of a moonwell.
 .goto Stonetalon Mountains,37.10,8.10
@@ -142,7 +141,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Stonetalon and Peak")
 
 #step
-.talk Teloren
+.talk Teloren##4407
 >>en:Standing next to 2 hippogryphs.
 >>de:Steht neben 2 Hippogryphen.
 .goto Stonetalon Mountains,36.44,7.18

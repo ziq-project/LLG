@@ -15,41 +15,41 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Orphan Matron Nightingale
+.talk Orphan Matron Nightingale##14450
 .goto Stormwind City,47.35,38.19
 .accept Children's Week##1468
 
 #step
-.talk Emmithue Smails
+.talk Emmithue Smails##14481
 .goto Stormwind City,53.79,65.38
-.kill 1 Tigule and Foror's Strawberry Ice Cream
+.kill 1 Tigule and Foror's Strawberry Ice Cream##7228
 
 #step
-.click the Human Orphan Whistle
-.talk Human Orphan
+.click the Human Orphan Whistle##18598
+.talk Human Orphan##14305
 .turnin Children's Week##1468
 .accept The Bough of the Eternals##1479
 .accept The Stonewrought Dam##1558
 .accept Spooky Lighthouse##1687
 
 #step
-.click the Human Orphan Whistle
+.click the Human Orphan Whistle##18598
 .goto Westfall,30.52,85.82
 .complete 1687,1 >>Go to the Westfall Lighthouse
 
 #step
-.click the Human Orphan Whistle
+.click the Human Orphan Whistle##18598
 .goto Loch Modan,48.26,14.11
 .complete 1558,1 >>Go to the Top of the Stonewrought Dam
 
 #step
-.click the Human Orphan Whistle
+.click the Human Orphan Whistle##18598
 .goto Darnassus,41.04,42.91
 .complete 1479,1 >>Go to the Bank in Darnassus
 
 #step
-.click the Human Orphan Whistle
-.talk Human Orphan
+.click the Human Orphan Whistle##18598
+.talk Human Orphan##14305
 .turnin The Bough of the Eternals##1479
 .turnin The Stonewrought Dam##1558
 .turnin Spooky Lighthouse##1687
@@ -59,7 +59,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dustwallow Marsh,65.74,48.63
 >>Enter the building
-.talk Lady Jaina Proudmoore
+.talk Lady Jaina Proudmoore##4968
 >>en:Standing at the top of this tower.
 >>Inside at the top of the tower.
 >>She walks around the area.
@@ -68,14 +68,14 @@ LLG.RegisterGuide([[
 .complete 558 >>Collect Jaina's Autograph
 
 #step
-.click the Human Orphan Whistle
-.talk Human Orphan
+.click the Human Orphan Whistle##18598
+.talk Human Orphan##14305
 .turnin You Scream, I Scream...##4822
 .turnin Jaina's Autograph##558
 .accept A Warden of the Alliance##171
 
 #step
-.talk Orphan Matron Nightingale
+.talk Orphan Matron Nightingale##14450
 .goto Stormwind City,47.35,38.19
 .turnin A Warden of the Alliance##171
 ]])

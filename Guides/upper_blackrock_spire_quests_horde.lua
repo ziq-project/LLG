@@ -21,7 +21,7 @@ LLG.RegisterGuide([[
 #step
 .goto Undercity,52.89,77.39
 >>Follow the path down
-.talk Apothecary Zinge
+.talk Apothecary Zinge##5204
 >>en:Standing against the back wall in the big underground room.
 >>de:Standing against the back wall in the big underground room.
 .goto Undercity,50.14,67.98
@@ -29,7 +29,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Shadowmage Vivian Lagrave
+.talk Shadowmage Vivian Lagrave##9078
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Badlands,2.90,47.75
@@ -38,25 +38,25 @@ LLG.RegisterGuide([[
 .accept The Darkstone Tablet##4768
 
 #step
-.talk Warlord Goretooth
+.talk Warlord Goretooth##9077
 >>He patrols around town.
 >>He must be at the top of the tower to accept this quest.
 .goto Badlands,5.82,47.53
 .accept Warlord's Command##4903
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.24,24.00
 .accept Broodling Essence##4726
 
 #step
-.click the Draco-Incarcinatrix 900
+.click the Draco-Incarcinatrix 900##12284
 >>Use it on Broodling enemies around this area.
 >>They look like small flying dragons.
 .kill 1 Broodling enemies around this area
-.click Broodling Essence
+.click Broodling Essence##175264
 >>They look like red floating crystals that appear above their corpses after you kill them.
 .goto Burning Steppes,59.26,32.49
 .complete 4726,1 >>Collect 8 Broodling Essence
@@ -69,7 +69,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,63.92,29.88
 >>Follow the path up
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -88,7 +88,7 @@ LLG.RegisterGuide([[
 .accept Chillwind Horns##4809
 
 #step
-.kill 1 Chillwind Ravager
+.kill 1 Chillwind Ravager##7449
 >>They look like chimeras.
 >>They share spawn points with the bears, so kill them too.
 .goto Winterspring,59.97,21.54
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 >>[57.99,14.79]
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
@@ -109,21 +109,21 @@ LLG.RegisterGuide([[
 .accept Return to Tinkee##4810
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
 .turnin Return to Tinkee##4810
 
 #step
-.talk Felnok Steelspring
+.talk Felnok Steelspring##10468
 >>en:Standing under a blue canopy.
 >>de:Standing under a blü canopy.
 .goto Winterspring,61.63,38.61
 .accept Tinkee Steamboil##4907
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 .accept Egg Freezing##4734
 
 #step
-.talk Duke Hydraxis
+.talk Duke Hydraxis##13278
 .goto Azshara,79.28,73.69
 .accept Poisoned Water##6804
 .goto Azshara,79.28,73.69
@@ -153,14 +153,14 @@ LLG.RegisterGuide([[
 >>[29.37,15.01]
 
 #step
-.click the Aspect of Neptulon
+.click the Aspect of Neptulon##17310
 >>Use it on Plague Ravagers and Blighted Surge around this area.
-.kill 1 Discordant Surge
+.kill 1 Discordant Surge##13279
 .goto Eastern Plaguelands,62.61,79.45
 .complete 6804,1 >>Collect 12 Discordant Bracers
 
 #step
-.talk Duke Hydraxis
+.talk Duke Hydraxis##13278
 .goto Azshara,79.28,73.69
 .turnin Poisoned Water##6804
 .goto Azshara,79.28,73.69
@@ -207,7 +207,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Lower Blackrock Spire Dungeon:
-.click Inconspicuous Documents
+.click Inconspicuous Documents##175785
 >>It looks like a small open scroll laying on the ground behind one of these three bosses.
 >>Check behind each boss after killing them to see if it's there.
 .complete 4903,4 >>Collect Important Blackrock Documents
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 .complete 4903 >>Click Here to Continue
 
 #step
-.talk Warlord Goretooth
+.talk Warlord Goretooth##9077
 >>He patrols around town.
 >>He must be at the top of the tower to accept this quest.
 .goto Badlands,5.82,47.53
@@ -239,7 +239,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.kill 1 Pyroguard Emberseer
+.kill 1 Pyroguard Emberseer##9816
 >>After entering the dungeon, follow the path to the left to enter the Upper Blackrock Spire.
 >>Someone in your group must have the Seal of Ascension in order to open the door.
 >>Clear the enemies in the first room to unlock the door to the next room.
@@ -248,20 +248,20 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click the Eggscilloscope Prototype
+.click the Eggscilloscope Prototype##12286
 >>Use it on the eggs in The Rookery, just past Pyroguard Emberseer.
 >>Don't get too close or they will hatch if they aren't frozen.
 .complete 4734,1 >>Test the Eggscilloscope Prototype
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click Darkstone Tablet
+.click Darkstone Tablet##175385
 >>It looks like a square silver tablet in the center of The Rookery, just before the ramp.
 .complete 4768,1 >>Collect Darkstone Tablet
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.talk Awbee
+.talk Awbee##10740
 >>Proceed through the upper level of The Rookery to reach the Hall of Blackhand.
 >>Go east in the Hall of Blackhand and jump down into the Blackrock Stadium to start the encounter.
 >>Kill the enemies that attack, then finally Gyth and Warchief Rend Blackhand.
@@ -271,19 +271,19 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.kill 1 The Beast
+.kill 1 The Beast##10430
 >>Head east up the stairs from Awbee and go right into The Furnace, followed by a left to reach The Beast.
 .collect Finkle's Skinner,1
 >>This is a rare drop and may take multiple attempts to get.
 >>If you don't have Skinning or you don't want to do this you can skip this step but you will have to skip the next quest.
-.click Finkle's Skinner
+.click Finkle's Skinner##12709
 >>Skin The Beast
 >>This requires level 315 Skinning to accomplish.
 >>You can achieve this with the "Enchant Gloves - Skinning" along with Finkle's Skinner equipped.
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.talk Finkle Einhorn
+.talk Finkle Einhorn##10776
 >>He will appear after skinning The Beast.
 >>Select _"How the hell did you get in there to begin with?"_
 .accept Finkle Einhorn, At Your Service!##5047
@@ -293,14 +293,14 @@ LLG.RegisterGuide([[
 .complete 4768 >>Click Here to Continue
 
 #step
-.talk Shadowmage Vivian Lagrave
+.talk Shadowmage Vivian Lagrave##9078
 >>en:Standing next to a bonfire.
 >>de:Standing next to a bonfire.
 .goto Badlands,2.90,47.75
 .turnin The Darkstone Tablet##4768
 
 #step
-.talk Warlord Goretooth
+.talk Warlord Goretooth##9077
 >>He patrols around town.
 >>He must be at the top of the tower to accept this quest.
 .goto Badlands,5.82,47.53
@@ -311,7 +311,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.25,36.95
 >>Enter the building
-.talk Eitrigg
+.talk Eitrigg##3144
 >>Inside the building.
 >>Select _"Hello, Eitrigg. I bring news back from Blackrock Spire."_
 >>Click through the dialogue.
@@ -319,7 +319,7 @@ LLG.RegisterGuide([[
 .complete 4941,1 >>Council with Eitrigg
 
 #step
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -329,7 +329,7 @@ LLG.RegisterGuide([[
 .accept For The Horde!##4974
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -338,7 +338,7 @@ LLG.RegisterGuide([[
 .accept Egg Collection##4735
 
 #step
-.talk Malyfous Darkhammer
+.talk Malyfous Darkhammer##10637
 .goto Winterspring,60.99,38.78
 .turnin Finkle Einhorn, At Your Service!##5047
 
@@ -353,7 +353,7 @@ LLG.RegisterGuide([[
 >>Jump down here
 .goto Winterspring,54.16,52.01
 >>Jump up here
-.talk Haleh
+.talk Haleh##10929
 .goto Winterspring,54.54,51.20
 .turnin The Matron Protectorate##5160
 .goto Winterspring,54.54,51.20
@@ -361,14 +361,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Haleh
+.talk Haleh##10929
 .goto Winterspring,54.54,51.20
 .turnin Wrath of the Blue Flight##5161
 .goto Winterspring,54.54,51.20
 .accept Wrath of the Blue Flight##5162
 
 #step
-.talk Jeziba
+.talk Jeziba##10976
 >>Upstairs inside the building.
 .goto Western Plaguelands,39.38,66.78
 .turnin Wrath of the Blue Flight##5162
@@ -376,13 +376,13 @@ LLG.RegisterGuide([[
 .accept Catalogue of the Wayward##5164
 
 #step
-.click Catalogue of the Wayward
+.click Catalogue of the Wayward##176192
 >>It looks like a blue book on the bedside table upstairs inside the building.
 .goto Western Plaguelands,39.35,66.60
 .turnin Catalogue of the Wayward##5164
 
 #step
-.talk Duke Hydraxis
+.talk Duke Hydraxis##13278
 .goto Azshara,79.28,73.69
 .turnin Eye of the Emberseer##6821
 
@@ -400,17 +400,17 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.click the Eggscilloscope Prototype
+.click the Eggscilloscope Prototype##12286
 >>Use it on the eggs in The Rookery, just past Pyroguard Emberseer.
 >>Use it to freeze the eggs.
 >>Don't get too close or they will hatch if they aren't frozen.
-.click the Collectronic Module
+.click the Collectronic Module##12287
 >>Use it to collect the eggs.
 .complete 4735,1 >>Collect 8 Collected Dragon Egg
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.kill 1 Warchief Rend Blackhand
+.kill 1 Warchief Rend Blackhand##10429
 >>Proceed through the upper level of The Rookery to reach the Hall of Blackhand.
 >>Go east in the Hall of Blackhand and jump down into the Blackrock Stadium to start the encounter.
 >>Kill the enemies that attack, then finally Gyth and Warchief Rend Blackhand.
@@ -421,7 +421,7 @@ LLG.RegisterGuide([[
 .complete 4974 >>Click Here to Continue
 
 #step
-.talk Tinkee Steamboil
+.talk Tinkee Steamboil##10267
 >>en:Standing under a small red canopy.
 >>de:Standing under a small red canopy.
 .goto Burning Steppes,65.23,23.99
@@ -432,7 +432,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Orgrimmar,40.25,36.95
 >>Enter the building
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -443,7 +443,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -453,7 +453,7 @@ LLG.RegisterGuide([[
 .complete 6566,1 >>Listen to Thrall's Tale
 
 #step
-.talk Thrall
+.talk Thrall##4949
 >>en:.
 >>de:In the huge building, up the steps, standing in front of the throne.
 >>Inside the building.
@@ -464,20 +464,19 @@ LLG.RegisterGuide([[
 
 #step
 >>Follow the path looking for Rexxar
-.talk Rexxar
+.talk Rexxar##10182
 >>He walks along the road through Stonetalon Mountains, Desolace and Feralas.
 >>He's an Orc that walks with a pet bear.
-.turnin The Champion of the Horde##6567
+.turnin The Champion of the Horde##6567 |or
 .goto Feralas,48.79,25.33
->>'
 >>[30.39,73.93]
 
 #step
-.talk Rexxar
+.talk Rexxar##10182
 .accept The Testament of Rexxar##6568
 
 #step
-.talk Myranda the Hag
+.talk Myranda the Hag##11872
 .goto Western Plaguelands,50.79,77.85
 .turnin The Testament of Rexxar##6568
 .goto Western Plaguelands,50.79,77.85
@@ -506,7 +505,7 @@ LLG.RegisterGuide([[
 .complete 6569 >>Click Here to Continue
 
 #step
-.talk Myranda the Hag
+.talk Myranda the Hag##11872
 .goto Western Plaguelands,50.79,77.85
 .turnin Oculus Illusions##6569
 .goto Western Plaguelands,50.79,77.85
@@ -521,7 +520,7 @@ LLG.RegisterGuide([[
 >>Equip the Amulet of Draconic Subversion
 
 #step
-.click Amulet of Draconic Subversion
+.click Amulet of Draconic Subversion##16787
 .goto Dustwallow Marsh,55.09,85.62
 >>Become Disguised
 
@@ -530,7 +529,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Dustwallow Marsh,57.76,86.86
 >>Continue following the path
-.talk Emberstrife
+.talk Emberstrife##10321
 >>Inside the cave.
 .goto Dustwallow Marsh,56.65,87.71
 .turnin Emberstrife##6570
@@ -544,7 +543,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,61.28,50.59
 >>Follow the path
-.kill 1 Chronalis
+.kill 1 Chronalis##8197
 >>It flies around this area.
 >>Killing it will require a full group.
 .goto Tanaris,64.07,48.75
@@ -558,7 +557,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Winterspring,54.65,49.94
 >>Follow the path down
-.kill 1 Scryer
+.kill 1 Scryer##10664
 >>Inside the cave.
 >>It flies around this area.
 >>Killing it will require a full group.
@@ -567,7 +566,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.kill 1 Somnus
+.kill 1 Somnus##12900
 >>It flies around this area, between these two spots.
 >>Killing it will require a full group.
 .goto Swamp of Sorrows,80.44,68.40
@@ -583,7 +582,7 @@ LLG.RegisterGuide([[
 >>Equip the Amulet of Draconic Subversion
 
 #step
-.click Amulet of Draconic Subversion
+.click Amulet of Draconic Subversion##16787
 .goto Dustwallow Marsh,55.09,85.62
 >>Become Disguised
 
@@ -592,7 +591,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Dustwallow Marsh,57.76,86.86
 >>Continue following the path
-.talk Emberstrife
+.talk Emberstrife##10321
 >>Inside the cave.
 .goto Dustwallow Marsh,56.65,87.71
 .turnin The Test of Skulls, Scryer##6582
@@ -606,7 +605,7 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,74.18,47.32
 >>Follow the path up
-.kill 1 Axtroz
+.kill 1 Axtroz##12899
 >>It flies back and forth between these two gates.
 >>Killing it will require a full group.
 .goto Wetlands,82.81,48.88
@@ -622,7 +621,7 @@ LLG.RegisterGuide([[
 >>Equip the Amulet of Draconic Subversion
 
 #step
-.click Amulet of Draconic Subversion
+.click Amulet of Draconic Subversion##16787
 .goto Dustwallow Marsh,55.09,85.62
 >>Become Disguised
 
@@ -631,7 +630,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Dustwallow Marsh,57.76,86.86
 >>Continue following the path
-.talk Emberstrife
+.talk Emberstrife##10321
 >>Inside the cave.
 .goto Dustwallow Marsh,56.65,87.71
 .turnin The Test of Skulls, Axtroz##6585
@@ -640,16 +639,15 @@ LLG.RegisterGuide([[
 
 #step
 >>Follow the path looking for Rexxar
-.talk Rexxar
+.talk Rexxar##10182
 >>He walks along the road through Stonetalon Mountains, Desolace and Feralas.
 >>He's an Orc that walks with a pet bear.
-.turnin Ascension...##6601
+.turnin Ascension...##6601 |or
 .goto Feralas,48.79,25.33
->>'
 >>[30.39,73.93]
 
 #step
-.talk Rexxar
+.talk Rexxar##10182
 .accept Blood of the Black Dragon Champion##6602
 
 #step
@@ -666,7 +664,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Upper Blackrock Spire Dungeon:
-.kill 1 General Drakkisath
+.kill 1 General Drakkisath##10363
 >>After entering the dungeon, follow the path to the left to enter the Upper Blackrock Spire.
 >>Someone in your group must have the Seal of Ascension in order to open the door.
 >>Follow the path in the dungeon to reach The Rookery.
@@ -682,13 +680,12 @@ LLG.RegisterGuide([[
 
 #step
 >>Follow the path looking for Rexxar
-.talk Rexxar
+.talk Rexxar##10182
 >>He walks along the road through Stonetalon Mountains, Desolace and Feralas.
 >>He's an Orc that walks with a pet bear.
-.turnin Blood of the Black Dragon Champion##6602
+.turnin Blood of the Black Dragon Champion##6602 |or
 >>Completing this quest will award you with a Darkfire Amulet, which will allow you to enter the Onyxia's Lair raid.
 >>You must keep it in your inventory in order to enter the raid instance.
 .goto Feralas,48.79,25.33
->>'
 >>[30.39,73.93]
 ]])

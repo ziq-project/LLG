@@ -22,16 +22,17 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,62.23,45.64
 >>Enter the building
-.talk Thuwd
+.talk Thuwd##7088
 >>Inside the building.
 .goto Orgrimmar,63.36,45.41
 .train
+.condition skillmax("Skinning") >= 75 >>Train Apprentice Skinning
 
 #step
-.talk Tamar
+.talk Tamar##3366
 >>Inside the building.
 .goto Orgrimmar,63.04,45.53
-.kill 1 Skinning Knife
+.kill 1 Skinning Knife##7005
 >>You must have a Skinning Knife in your bags to be able to skin enemies.
 
 #step
@@ -39,7 +40,7 @@ LLG.RegisterGuide([[
 >>Only beast enemies, or certain humanoid enemies such as yetis or worgen, will be skinnable.
 >>Skin their corpses.
 .goto Durotar,44.13,18.79
->>Reach Skill 75 in Skinning
+.condition skill("Skinning") >= 75 >>Reach Skill 75 in Skinning
 >>You can find more around:
 >>[Durotar 39.38,18.92]
 >>[Durotar 36.57,24.98]
@@ -54,17 +55,18 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,62.23,45.64
 >>Enter the building
-.talk Thuwd
+.talk Thuwd##7088
 >>Inside the building.
 .goto Orgrimmar,63.36,45.41
 .train
+.condition skillmax("Skinning") >= 150 >>Train Journeyman Skinning
 
 #step
 .kill 1 enemies around this area
 >>Only beast enemies will be skinnable.
 >>Skin their corpses.
 .goto The Barrens,53.93,30.27
->>Reach Skill 90 in Skinning
+.condition skill("Skinning") >= 90 >>Reach Skill 90 in Skinning
 >>You can find more around:
 >>[The Barrens 53.44,33.96]
 >>[The Barrens 50.98,33.32]
@@ -83,15 +85,16 @@ LLG.RegisterGuide([[
 .only ZGV.IsClassicSoD
 
 #step
-.talk Dranh
+.talk Dranh##6387
 .goto The Barrens,45.07,59.09
 .train
+.condition skillmax("Skinning") >= 225 >>Train Expert Skinning
 
 #step
 .kill 1 enemies around this area
 >>Skin their corpses.
 .goto The Barrens,44.89,75.35
->>Reach Skill 165 in Skinning
+.condition skill("Skinning") >= 165 >>Reach Skill 165 in Skinning
 >>You can find more around:
 >>[48.02,75.51]
 >>[49.18,79.05]
@@ -107,10 +110,11 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.69,42.99
 >>Enter the building
-.talk Kulleg Stonehorn
+.talk Kulleg Stonehorn##8144
 >>Inside the building.
 .goto Feralas,74.47,43.04
 .train
+.condition skillmax("Skinning") >= 300 >>Train Artisan Skinning
 
 #step
 .kill 1 Feral Scar enemies around this area
@@ -118,13 +122,13 @@ LLG.RegisterGuide([[
 >>Skin their corpses.
 >>You can find more through the tunnel.
 .goto Feralas,55.24,56.36
->>Reach Skill 270 in Skinning
+.condition skill("Skinning") >= 270 >>Reach Skill 270 in Skinning
 
 #step
 .kill 1 enemies around this area
 >>Skin their corpses.
 .goto Feralas,48.69,37.24
->>Reach Skill 300 in Skinning
+.condition skill("Skinning") >= 300 >>Reach Skill 300 in Skinning
 >>You can find more around:
 >>[49.97,33.40]
 >>[49.69,28.62]

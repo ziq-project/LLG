@@ -29,20 +29,20 @@ LLG.RegisterGuide([[
 >>You can also purchase these from the Auction House.
 
 #step
-.talk Borya
+.talk Borya##3364
 >>Inside the building.
 .goto Orgrimmar,63.06,51.41
-.kill 2 Rune Thread
+.kill 2 Rune Thread##14341
 
 #step
-.talk Sage Korolusk
+.talk Sage Korolusk##14373
 >>He patrols along the road.
 .goto Feralas,75.45,43.68
 .accept Elven Legends##7481
 
 #step
 >>Inside the Dire Maul East Dungeon:
-.kill 1 Pusillin
+.kill 1 Pusillin##14354
 >>He is the first boss in the Dire Maul East dungeon.
 >>Use the Dire Maul East dungeon guide to accomplish this.
 .complete 7481 >>Collect Crescent Key
@@ -73,13 +73,13 @@ LLG.RegisterGuide([[
 >>Once there, head west down a ramp with the Conservatory Door.
 >>Run through the tunnel to reach The Athenaeum.
 >>You will need the Crescent Key from Dire Maul East or a Rogue to open this.
-.click Skeletal Remains of Kariel Winthalus
+.click Skeletal Remains of Kariel Winthalus##179544
 >>On the ground next to an elf and a bookcase in the north part of the room.
 .complete 7481,1 >>Find the Skeletal Remains of Master Kariel Winthalus
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.click Fengus's Chest
+.click Fengus's Chest##179516
 >>It looks like a brown and black chest in the middle of the courtyard.
 >>Leave The Athenaeum and go back through the long tunnel to return to Dire Maul North.
 >>Head west into the second large open room.
@@ -93,7 +93,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Knot Thimblejack
+.talk Knot Thimblejack##14338
 >>en:He's a goblin standing in the northeast corner of the room, with a ball and chain on his leg.
 >>Follow the tunnel to reach the Halls of Destruction.
 >>He is in the northeast corner of the Halls of Destruction.
@@ -101,14 +101,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.click Ogre Tannin Basket
+.click Ogre Tannin Basket##179499
 >>It is up the ramp just above where Knot Thimblejack is, in the northwest corner of the room.
 >>Only one person in your group will be able to collect this.
 .complete 5518,4 >>Collect Ogre Tannin
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Knot Thimblejack
+.talk Knot Thimblejack##14338
 >>en:He's a goblin standing in the northeast corner of the room, with a ball and chain on his leg.
 >>He is in the northeast corner of the Halls of Destruction.
 .turnin The Gordok Ogre Suit##5518
@@ -124,35 +124,35 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Knot Thimblejack
+.talk Knot Thimblejack##14338
 >>en:He's a goblin standing in the northeast corner of the room, with a ball and chain on his leg.
 >>He is in the northeast corner of the Halls of Destruction.
 .turnin Free Knot!##7429
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Stomper Kreeg
+.talk Stomper Kreeg##14322
 >>You will only be able to speak with him after a tribute run.
 >>Use the Dire Maul North Tribute dungeon guide to accomplish this.
 .accept The Gordok Taste Test##5528
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Captain Kromcrush
+.talk Captain Kromcrush##14325
 >>To do this, you will need to do a tribute run.
 >>Use the Dire Maul North Tribute dungeon guide to accomplish this.
 .accept Unfinished Gordok Business##7703
 
 #step
 >>Inside the Dire Maul West Dungeon:
-.click The Prince's Chest
+.click The Prince's Chest##179545
 >>Run back to the start of the instance and enter the Library through the courtyard door.
 >>The chest will be behind where he stands.
 .complete 7703,1 >>Collect Gauntlet of Gordok Might
 
 #step
 >>Inside the Dire Maul North Dungeon:
-.talk Captain Kromcrush
+.talk Captain Kromcrush##14325
 >>To do this, you will need to do a tribute run.
 >>You may need to run another Tribute Run to accomplish this.
 .turnin Unfinished Gordok Business##7703
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 .complete 7481 >>Click Here to Continue
 
 #step
-.talk Sage Korolusk
+.talk Sage Korolusk##14373
 >>He patrols along the road.
 .goto Feralas,75.45,43.68
 .turnin Elven Legends##7481

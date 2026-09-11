@@ -19,12 +19,12 @@ LLG.RegisterGuide([[
 >>Use the Leveling guides to accomplish this.
 
 #step
-.talk Keeper Bel'dugur
+.talk Keeper Bel'dugur##2934
 .goto Undercity,53.72,54.45
 .accept The Book of Ur##1013
 
 #step
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 .goto Silverpine Forest,44.20,39.79
@@ -33,7 +33,7 @@ LLG.RegisterGuide([[
 #step
 .goto Silverpine Forest,43.09,41.38
 >>Enter the crypt
-.talk High Executor Hadrec
+.talk High Executor Hadrec##1952
 >>en:He's standing at the bottom of the crypt next to a bookcase.
 >>de:Er steht unten in der Gruft neben einem Bücherregal.
 >>Inside the crypt.
@@ -45,27 +45,27 @@ LLG.RegisterGuide([[
 >>Enter the Shadowfang Keep Dungeon with Your Group
 
 #step
-.kill 1 Rethilgore
+.kill 1 Rethilgore##3914
 >>The first boss of the dungeon.
 .click Lever
 >>Open the cell door and speak with Deathstalker Adamant.
-.talk Deathstalker Adamant
+.talk Deathstalker Adamant##3849
 >>Select _"Please unlock the courtyard door."_
 >>Follow him and once he opens the door, jump down to the right of the stairs.
-.talk Deathstalker Vincent
+.talk Deathstalker Vincent##4444
 .turnin Deathstalkers in Shadowfang##1098
 
 #step
 >>Follow the path through the dungeon, defeat Baron Silverlaine, and then head upstairs.
 >>Continue following the path to defeat Commander Springvale then go downstairs and outside.
 >>Continue along the outside path to reenter the building and reach Odo the Blindwatcher and eventually Fenrus the Devourer.
-.kill 1 Fenrus the Devourer
-.click The Book of Ur
+.kill 1 Fenrus the Devourer##4274
+.click The Book of Ur##36738
 >>It looks like a blue blook on a bookshelf on the left side of the room where Fenrus the Devourer is.
 .complete 1013,1 >>Collect The Book of Ur
 
 #step
-.kill 1 Archmage Arugal
+.kill 1 Archmage Arugal##4275
 >>He is the last boss of the dungeon.
 .complete 1014,1 >>Collect Head of Arugal
 
@@ -74,14 +74,14 @@ LLG.RegisterGuide([[
 .complete 1013 >>Click Here to Continue
 
 #step
-.talk Dalar Dawnweaver
+.talk Dalar Dawnweaver##1938
 >>en:He's standing near some crates and barrels.
 >>de:Er steht nahe einiger Kisten und Fässer.
 .goto Silverpine Forest,44.20,39.79
 .turnin Arugal Must Die##1014
 
 #step
-.talk Keeper Bel'dugur
+.talk Keeper Bel'dugur##2934
 .goto Undercity,53.72,54.45
 .turnin The Book of Ur##1013
 ]])

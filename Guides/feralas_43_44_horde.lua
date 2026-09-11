@@ -16,20 +16,20 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Bronk
+.talk Bronk##8158
 >>Bronk sells potions as a limited stock item, they may not be here if another player recently bought them.
 .goto Feralas,76.08,43.30
 >>Check for Potions
 
 #step
-.talk Orwin Gizzmick
+.talk Orwin Gizzmick##8021
 >>en:Standing on a small hill, overlooking the lake.
 >>de:Steht auf einem kleinen Hügel mit Blick auf den See.
 .goto Feralas,75.70,44.30
 .accept Gordunni Cobalt##2987
 
 #step
-.talk Shyn
+.talk Shyn##8020
 >>en:Standing at the edge of the cliff, overlooking the lake.
 >>de:Steht am Rand der Klippe und blickt auf den See.
 .goto Feralas,75.45,44.36
@@ -37,14 +37,14 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Krueg Skullsplitter
+.talk Krueg Skullsplitter##4544
 >>en:Up on a hill, next to a small windmill.
 >>de:Up on a hill, next to a small windmill.
 .goto Feralas,75.94,42.74
 .accept A New Cloak's Sheen##2973
 
 #step
-.talk Hadoken Swiftstrider
+.talk Hadoken Swiftstrider##7875
 >>en:Standing on the right side of the big long house.
 >>de:Standing on the right side of the big long house.
 .goto Feralas,74.91,42.47
@@ -53,7 +53,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.69,43.00
 >>Enter the building
-.talk Jangdor Swiftstrider
+.talk Jangdor Swiftstrider##7854
 >>en:Standing inside the big long house.
 >>de:Standing inside the big long house.
 >>Inside the building.
@@ -61,7 +61,7 @@ LLG.RegisterGuide([[
 .accept The Mark of Quality##2822
 
 #step
-.talk Rok Orhan
+.talk Rok Orhan##7777
 >>en:An orc with red armor, she wanders around town.
 >>de:Eine Orkin in roter Rüstung, sie läuft in der Stadt umher.
 >>She walks around this area wearing red armor.
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.63,44.69
 >>Enter the building
-.talk Innkeeper Greul
+.talk Innkeeper Greul##7737
 .goto Feralas,74.80,45.18
 .hs
 
@@ -92,18 +92,18 @@ LLG.RegisterGuide([[
 .only not subzone("Gordunni and Outpost") and haveq(2978)
 
 #step
-.click Gordunni Scroll
+.click Gordunni Scroll##143980
 >>It looks like a while unrolled scroll.
 >>It can spawn in multiple locations around this ogre area. The arrow will guide you through all possible spawn locations.
 .collect Gordunni Scroll,1
 
 #step
-.click the Gordunni Scroll
+.click the Gordunni Scroll##9370
 .goto Feralas,75.74,33.79
 .accept The Gordunni Scroll##2978
 
 #step
-.click Orwin's Shovel
+.click Orwin's Shovel##9466
 >>Use it next to glowing blue dots on the ground around this area.
 >>You can use it multiple times, one for each blue dot.
 .click Gordunni Dirt Mound+
@@ -147,7 +147,7 @@ LLG.RegisterGuide([[
 >>[76.30,33.02]
 
 #step
-.talk Hadoken Swiftstrider
+.talk Hadoken Swiftstrider##7875
 >>en:Standing on the right side of the big long house.
 >>de:Standing on the right side of the big long house.
 .goto Feralas,74.91,42.47
@@ -156,14 +156,14 @@ LLG.RegisterGuide([[
 .accept Alpha Strike##2863
 
 #step
-.talk Orwin Gizzmick
+.talk Orwin Gizzmick##8021
 >>en:Standing on a small hill, overlooking the lake.
 >>de:Steht auf einem kleinen Hügel mit Blick auf den See.
 .goto Feralas,75.70,44.31
 .turnin Gordunni Cobalt##2987
 
 #step
-.talk Rok Orhan
+.talk Rok Orhan##7777
 >>en:An orc with red armor, she wanders around town.
 >>de:Eine Orkin in roter Rüstung, sie läuft in der Stadt umher.
 >>She walks around this area wearing red armor.
@@ -180,12 +180,12 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.63,44.69
 >>Enter the building
-.talk Innkeeper Greul
+.talk Innkeeper Greul##7737
 .goto Feralas,74.80,45.18
 .hs
 
 #step
-.kill 1 Sprite Darter
+.kill 1 Sprite Darter##5278
 >>Try to hurry, you have another quest that is timed.
 .goto Feralas,70.01,47.07
 .complete 2973,1 >>Collect 10 Iridescent Sprite Darter Wing
@@ -208,7 +208,7 @@ LLG.RegisterGuide([[
 >>[71.42,55.92]
 
 #step
-.talk Hadoken Swiftstrider
+.talk Hadoken Swiftstrider##7875
 >>en:Standing on the right side of the big long house.
 >>de:Standing on the right side of the big long house.
 .goto Feralas,74.91,42.46
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 .accept Woodpaw Investigation##2902
 
 #step
-.talk Krueg Skullsplitter
+.talk Krueg Skullsplitter##4544
 >>en:Up on a hill, next to a small windmill.
 >>de:Up on a hill, next to a small windmill.
 .goto Feralas,75.94,42.74
@@ -230,7 +230,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.click Woodpaw Battle Map
+.click Woodpaw Battle Map##142195
 .goto Feralas,71.63,55.92
 .turnin Woodpaw Investigation##2902
 .goto Feralas,71.63,55.92
@@ -249,7 +249,7 @@ LLG.RegisterGuide([[
 >>You can find more around [69.66,39.93]
 
 #step
-.talk Hadoken Swiftstrider
+.talk Hadoken Swiftstrider##7875
 >>en:Standing on the right side of the big long house.
 >>de:Standing on the right side of the big long house.
 .goto Feralas,74.91,42.47
@@ -260,13 +260,13 @@ LLG.RegisterGuide([[
 .accept Stinglasher##7731
 
 #step
-.talk Bronk
+.talk Bronk##8158
 >>Bronk sells potions as a limited stock item, they may not be here if another player recently bought them.
 .goto Feralas,76.08,43.30
 >>Check for Potions
 
 #step
-.talk Krueg Skullsplitter
+.talk Krueg Skullsplitter##4544
 >>en:Up on a hill, next to a small windmill.
 >>de:Up on a hill, next to a small windmill.
 .goto Feralas,75.94,42.74
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.64,44.70
 >>Enter the building
-.talk Cawind Trueaim
+.talk Cawind Trueaim##9548
 >>Upstairs, outside on the balcony of the building.
 >>Buy enough ammo to fill your ammo bag, plus 4-5 stacks.
 >>You will be out questing for a while.
@@ -290,7 +290,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.kill 1 Stinglasher
+.kill 1 Stinglasher##14661
 >>He looks like a flying green bug, flying around this area, with a small green cloud below him.
 >>He's a level 47, but you should be able to kill him at this level.
 >>He sometimes temporarily goes inside the bug caves around this area, but most of the time he's outside.
@@ -315,9 +315,9 @@ LLG.RegisterGuide([[
 .kill 1 Screecher enemies around this area
 >>Vale Screechers and Rogue Vale Screechers will count for the quest.
 >>They look like thin red flying serpents.
-.click Yeh'kinya's Bramble
+.click Yeh'kinya's Bramble##10699
 >>Use it on their corpses.
-.talk Screecher Spirit
+.talk Screecher Spirit##8612
 >>They appear after using Yeh'kinya's Bramble on the corpses.
 .goto Feralas,60.77,49.94
 .complete 3520,1 >>Collect #3# Screecher Spirits
@@ -336,7 +336,7 @@ LLG.RegisterGuide([[
 >>You can find more around [60.77,57.89]
 
 #step
-.kill 1 Gordunni Mage-Lord
+.kill 1 Gordunni Mage-Lord##5239
 >>only hardcore :: Watch for patrols and respawns while in this area.
 .goto Feralas,59.67,66.85
 .complete 2979,1 >>Collect Gordunni Orb
@@ -356,7 +356,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,54.10,68.24
 >>Follow the path up
-.click Hippogryph Egg
+.click Hippogryph Egg##141931
 .goto Feralas,56.66,75.90
 .collect Hippogryph Egg,1
 >>You will use this for a future quest.
@@ -371,7 +371,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Frayfeather and Highlands")
 
 #step
-.kill 1 Frayfeather Hippogryph
+.kill 1 Frayfeather Hippogryph##5300
 >>The other types of Frayfeather enemies will not drop the quest item.
 >>This is for a future quest. The drop rate is very low but grinding here will reduce a grind we have to do later.
 .goto Feralas,56.04,62.91
@@ -394,14 +394,15 @@ LLG.RegisterGuide([[
 >>You can find more through the tunnel at [55.14,56.36]
 
 #step
-.click OOX-22/FE Distress Beacon
+.click OOX-22/FE Distress Beacon##8705
 .goto Feralas,53.63,55.29
 .accept Find OOX-22/FE!##2766
+.only itemcount(2766) > 0
 
 #step
 .goto Feralas,55.22,56.39
 >>Enter the tunnel
-.talk Homing Robot OOX-22/FE
+.talk Homing Robot OOX-22/FE##7807
 >>On the ground, in the outdoor clearing between the tunnel and the cave.
 >>only hardcore :: Watch for respawns and patrols while in the area.
 .goto Feralas,53.35,55.70
@@ -409,7 +410,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -418,7 +419,7 @@ LLG.RegisterGuide([[
 #step
 .goto Feralas,74.69,43.00
 >>Enter the building
-.talk Jangdor Swiftstrider
+.talk Jangdor Swiftstrider##7854
 >>en:Standing inside the big long house.
 >>de:Standing inside the big long house.
 >>Inside the building.
@@ -426,7 +427,7 @@ LLG.RegisterGuide([[
 .turnin The Mark of Quality##2822
 
 #step
-.talk Hadoken Swiftstrider
+.talk Hadoken Swiftstrider##7875
 >>en:Standing on the right side of the big long house.
 >>de:Standing on the right side of the big long house.
 .goto Feralas,74.91,42.47
@@ -437,7 +438,7 @@ LLG.RegisterGuide([[
 .accept Zukk'ash Report##7732
 
 #step
-.talk Rok Orhan
+.talk Rok Orhan##7777
 >>en:An orc with red armor, she wanders around town.
 >>de:Eine Orkin in roter Rüstung, sie läuft in der Stadt umher.
 >>She walks around this area wearing red armor.
@@ -450,7 +451,7 @@ LLG.RegisterGuide([[
 >>Also check around [73.46,45.68]
 
 #step
-.talk Bronk
+.talk Bronk##8158
 >>Bronk sells potions as a limited stock item, they may not be here if another player recently bought them.
 .goto Feralas,76.08,43.30
 >>Check for Potions
@@ -458,7 +459,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,49.86,70.46
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Orgrimmar,49.58,69.12
@@ -473,7 +474,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Orgrimmar,57.05,45.87
 >>Enter the building
-.talk Zilzibin Drumlore
+.talk Zilzibin Drumlore##7010
 >>en:Standing inside a hut, up on the ledge.
 >>de:Standing inside a hut, up on the ledge.
 >>Inside the building.
@@ -483,7 +484,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Belgrom Rockmaul
+.talk Belgrom Rockmaul##4485
 >>en:Standing next to a sign.
 >>de:Standing next to a sign.
 .goto Orgrimmar,75.23,34.24
@@ -492,7 +493,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,40.27,36.98
 >>Enter the building
-.talk Zor Lonetree
+.talk Zor Lonetree##4047
 >>en:To the left as you enter the huge building, next to a small round table.
 >>de:To the left as you enter the huge building, next to a small round table.
 >>Inside the building.
@@ -502,7 +503,7 @@ LLG.RegisterGuide([[
 .accept Service to the Horde##7541
 
 #step
-.talk Neeru Fireblade
+.talk Neeru Fireblade##3216
 >>en:Standing inside a hut.
 >>de:Standing inside a hut.
 >>Inside the tent, inside the Cleft of Shadow.
@@ -512,12 +513,12 @@ LLG.RegisterGuide([[
 .accept Return to Witch Doctor Uzer'i##3122
 
 #step
-.talk Grezz Ragefist
-.talk Kardris Dreamseeker
-.talk Ormok
-.talk Mirket
-.talk Enyo
-.talk Ur'kyo
+.talk Grezz Ragefist##3353
+.talk Kardris Dreamseeker##3344
+.talk Ormok##3328
+.talk Mirket##3325
+.talk Enyo##5883
+.talk Ur'kyo##6018
 .goto Orgrimmar,79.76,31.42
 .train
 .goto Orgrimmar,38.81,36.47
@@ -534,7 +535,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -543,7 +544,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Kurgul
+.talk Kurgul##5815
 >>Inside the Cleft of Shadow.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -555,7 +556,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,38.73,83.29
 >>Enter the building
-.talk Uthel'nay
+.talk Uthel'nay##7311
 >>en:Standing inside a large troll hut.
 >>de:Steht in einer großen Trollhütte.
 >>Inside the building.
@@ -565,7 +566,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,49.86,70.46
 >>Enter the building
-.talk Karus
+.talk Karus##3309
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Orgrimmar,49.58,69.12

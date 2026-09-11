@@ -15,36 +15,36 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Lunar Festival Emissary
+.talk Lunar Festival Emissary##15892
 .goto Ironforge,30.90,61.60
 .accept The Lunar Festival##8870
 
 #step
-.talk Lunar Festival Harbinger
+.talk Lunar Festival Harbinger##15895
 .goto Ironforge,28.80,16.20
 .turnin The Lunar Festival##8870
 .goto Ironforge,28.80,16.20
 .accept Lunar Fireworks##8867
 
 #step
-.talk Lunar Festival Vendor
+.talk Lunar Festival Vendor##15898
 .goto Ironforge,29.90,14.20
-.kill 8 Small Blue Rocket
+.kill 8 Small Blue Rocket##21558
 .goto Ironforge,29.90,14.20
-.kill 2 Blue Rocket Cluster
+.kill 2 Blue Rocket Cluster##21571
 
 #step
-.click the Small Blue Rocket
+.click the Small Blue Rocket##21558
 .goto Ironforge,30.60,17.80
 .complete 8867,1 >>Fire #8# Lunar Fireworks
 
 #step
-.click the Blue Rocket Cluster
+.click the Blue Rocket Cluster##21571
 .goto Ironforge,30.60,17.80
 .complete 8867,2 >>Fire #2# Lunar Fireworks Clusters
 
 #step
-.talk Lunar Festival Harbinger
+.talk Lunar Festival Harbinger##15895
 .goto Ironforge,28.90,16.20
 .turnin Lunar Fireworks##8867
 .goto Ironforge,28.90,16.20
@@ -52,11 +52,11 @@ LLG.RegisterGuide([[
 
 #step
 .goto Ironforge,30.60,17.80
-.click the Lunar Festival Invitation
+.click the Lunar Festival Invitation##21711
 .complete 8883 >>Use the Lunar Festival Invitation While Standing in the Beam of Light
 
 #step
-.talk Valadar Starsong
+.talk Valadar Starsong##15864
 .goto Moonglade,53.65,35.26
 .turnin Valadar Starsong##8883
 
@@ -66,7 +66,7 @@ LLG.RegisterGuide([[
 >>Use the "Lunar Festival Optimized Elders Path" event guide to collect them.
 
 #step
-.talk Valadar Starsong
+.talk Valadar Starsong##15864
 .goto Moonglade,53.65,35.26
 .accept Festive Lunar Dresses##8864
 .goto Moonglade,53.65,35.26

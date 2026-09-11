@@ -38,7 +38,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Collect these items from the bank.
 .goto Tanaris,52.30,28.91
@@ -49,12 +49,12 @@ LLG.RegisterGuide([[
 .complete 1452 >>Collect 3 Groddoc Liver
 
 #step
-.click Marvon's Chest
+.click Marvon's Chest##149036
 .goto The Barrens,62.50,38.54
 .complete 3444,1 >>Collect Stone Circle
 
 #step
-.talk Tynnus Venomsprout
+.talk Tynnus Venomsprout##5169
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Ironforge,52.94,13.66
@@ -64,7 +64,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,49.30,55.47
 >>Enter the building
-.talk Sarah Raycroft
+.talk Sarah Raycroft##3541
 >>Upstairs inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 12-15 stacks.
 >>You will be questing for a while.
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,50.45,58.55
 >>Enter the building
-.talk Jaysin Lanyda
+.talk Jaysin Lanyda##3542
 >>Upstairs inside the building.
 >>If you can afford it.
 >>Stock up on a couple of Runes of Teleportation to use to travel faster while leveling.
@@ -86,7 +86,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,11.00,45.67
 >>Enter the building
-.talk Gryphon Master Talonaxe
+.talk Gryphon Master Talonaxe##5636
 >>en:At the very top of the hill, inside the cave.
 >>de:At the very top of the hill, inside the cave.
 >>Inside the building.
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto The Hinterlands,14.19,45.18
 >>Enter the building
-.talk Fraggar Thundermantle
+.talk Fraggar Thundermantle##7884
 >>en:Inside the inn, to the right.
 >>de:Inside the inn, to the right.
 >>Inside the building.
@@ -111,31 +111,31 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto The Hinterlands,20.81,47.82
 >>Follow the path up
-.talk Rhapsody Shindigger
+.talk Rhapsody Shindigger##5634
 .goto The Hinterlands,26.94,48.59
 .turnin Rhapsody's Kalimdor Kocktail##1452
 .only walking
 
 #step
 >>Watch the dialogue
-.talk Rhapsody Shindigger
+.talk Rhapsody Shindigger##5634
 .goto The Hinterlands,26.94,48.59
 .accept Rhapsody's Tale##1469
 
 #step
-.click Third Witherbark Cage
+.click Third Witherbark Cage##144068
 >>only hardcore :: Enemies may run away in fear around this area.
 .goto The Hinterlands,31.99,57.38
 .complete 2988,3 >>Check the Third Cage
 
 #step
-.click First Witherbark Cage
+.click First Witherbark Cage##144066
 >>only hardcore :: Enemies may run away in fear around this area.
 .goto The Hinterlands,23.28,58.75
 .complete 2988,1 >>Check the First Cage
 
 #step
-.click Second Witherbark Cage
+.click Second Witherbark Cage##144067
 >>only hardcore :: Enemies may run away in fear around this area.
 .goto The Hinterlands,23.13,58.76
 .complete 2988,2 >>Check the Second Cage
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Hinterlands,14.19,45.18
 >>Enter the building
-.talk Fraggar Thundermantle
+.talk Fraggar Thundermantle##7884
 >>en:Inside the inn, to the right.
 >>de:Inside the inn, to the right.
 >>Inside the building.
@@ -169,7 +169,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto The Hinterlands,11.00,45.67
 >>Enter the building at the top of the path
-.talk Gryphon Master Talonaxe
+.talk Gryphon Master Talonaxe##5636
 >>en:At the very top of the hill, inside the cave.
 >>de:At the very top of the hill, inside the cave.
 >>Inside the building.
@@ -180,7 +180,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click Violet Tragan
+.click Violet Tragan##141853
 >>They look like large brown and white mushrooms underwater around this area.
 >>Despite how fun the tooltip sounds, don't eat it. It's for a quest.
 .goto The Hinterlands,41.01,59.77
@@ -225,16 +225,17 @@ LLG.RegisterGuide([[
 .level 50
 
 #step
-.click the OOX-09/HL Distress Beacon
+.click the OOX-09/HL Distress Beacon##8704
 .accept Find OOX-09/HL!##485
+.only itemcount(8704) > 0
 
 #step
-.talk Homing Robot OOX-09/HL
+.talk Homing Robot OOX-09/HL##7806
 .goto The Hinterlands,49.35,37.66
 .turnin Find OOX-09/HL!##485
 
 #step
-.click Wildkin Feather
+.click Wildkin Feather##153239
 >>They look large brown and white feathers on the ground around this area.
 >>They can be found around most of the Hinterlands, except in the eastern part.
 >>If you have trouble seeing them, reduce the "Ground Clutter" setting to "1" in the System > Graphics game settings menu.
@@ -264,7 +265,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("The and Overlook and Cliffs")
 
 #step
-.click the Super Snapper FX
+.click the Super Snapper FX##9328
 >>Use it on Gammerita.
 >>It looks like a blue turtle that walks around this area.
 >>Use it as far away from it as you can.
@@ -276,7 +277,7 @@ LLG.RegisterGuide([[
 >>[80.79,55.59]
 
 #step
-.click Cortello's Treasure
+.click Cortello's Treasure##2556
 >>Underwater, at the bottom of the waterfall.
 .goto The Hinterlands,80.81,46.81
 .turnin Cortello's Riddle##626
@@ -289,16 +290,16 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30

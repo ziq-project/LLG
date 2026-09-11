@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,48.19,79.68
 >>Enter the building
-.talk Trak'gen
+.talk Trak'gen##3313
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 6 extra stacks.
 >>You'll be questing for a while, without easy access to an ammo vendor.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Rekkul
+.talk Rekkul##3334
 >>Inside the tent, inside the Cleft of Shadow.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -36,16 +36,16 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Xao'tsu
+.talk Xao'tsu##10088
 .goto Orgrimmar,66.34,14.83
 .train
 .only Hunter
 
 #step
-.talk Ormak Grimshot
+.talk Ormak Grimshot##3352
 >>en:Standing on top of a big stone building, next to a wall, near a bonfire.
 >>de:Standing on top of a big stone building, next to a wall, near a bonfire.
-.talk Ormok
+.talk Ormok##3328
 .goto Orgrimmar,66.08,18.51
 .train
 .goto Orgrimmar,43.91,54.60
@@ -53,21 +53,21 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Braelyn Firehand
+.talk Braelyn Firehand##4198
 >>en:Standing next to some stepping stones in the pond.
 >>de:Standing next to some stepping stones in the pond.
 .goto Stonetalon Mountains,45.94,60.42
 .accept Cenarius' Legacy##1087
 
 #step
-.talk Tammra Windfield
+.talk Tammra Windfield##11864
 >>en:Kneeling next to a mound of dirt.
 >>de:Kneeling next to a mound of dirt.
 .goto Stonetalon Mountains,47.46,58.38
 .accept Cycle of Rebirth##6301
 
 #step
-.talk Maggran Earthbinder
+.talk Maggran Earthbinder##11860
 >>en:Standing next to a stump and a big stretched out pelt.
 >>de:Standing next to a stump and a big stretched out pelt.
 .goto Stonetalon Mountains,47.20,61.15
@@ -86,7 +86,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,58.08,76.05
 >>Follow the path up
-.kill 1 Besseleth
+.kill 1 Besseleth##11921
 >>She looks like a large orange spider.
 >>She can spawn in multiple locations around this area.
 >>She's a level 21 elite, but you should be able to kill her at this level.
@@ -105,7 +105,7 @@ LLG.RegisterGuide([[
 >>Follow the path down
 .goto Stonetalon Mountains,59.04,62.25
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.
@@ -114,7 +114,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Sishir and Canyon")
 
 #step
-.click the Toxic Fogger
+.click the Toxic Fogger##5638
 >>Stand under the wooden platform.
 .goto Stonetalon Mountains,66.52,45.48
 .complete 1086,1 >>Place the Toxic Fogger
@@ -122,7 +122,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,68.94,39.65
 >>Follow the path up
-.kill 1 Gerenzo Wrenchwhistle
+.kill 1 Gerenzo Wrenchwhistle##4202
 >>Up on the wooden platform.
 >>He can spawn in other locations on this platform, so search around if he's not here.
 >>If you have trouble, try to find someone to help you.
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Nizzik
+.talk Nizzik##4085
 >>Up on the wooden platform, at the very end of the wooden path.
 >>He may sell a gear upgrade for your class.
 >>If he has one available, buy it if you can afford it.
@@ -143,7 +143,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,59.04,62.24
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.
@@ -161,7 +161,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Windshear and Crag")
 
 #step
-.kill 1 Fey Dragon
+.kill 1 Fey Dragon##4016
 >>They look like small blue dragons.
 >>They are uncommon and spread out around this area.
 .goto Stonetalon Mountains,37.41,21.06
@@ -171,7 +171,7 @@ LLG.RegisterGuide([[
 >>[33.14,13.21]
 
 #step
-.kill 1 Sap Beast
+.kill 1 Sap Beast##4020
 >>They look like green oozes.
 >>They share spawn points with Corrosive Sap Beasts, so kill those too, if you can't find any.
 >>This item is a very low drop rate and you need to go out of your way to make sure you're killing slimes as they respawn.
@@ -183,7 +183,7 @@ LLG.RegisterGuide([[
 >>You can find Twilight Runners around [31.89,10.01]
 
 #step
-.kill 1 Twilight Runner
+.kill 1 Twilight Runner##4067
 >>They look like blue jaguars with white spots.
 .goto Stonetalon Mountains,31.89,10.01
 .complete 1058,2 >>Collect 5 Twilight Whisker
@@ -207,7 +207,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,41.62,16.01
 >>Follow the path
-.click Gaea Seed
+.click Gaea Seed##177926
 >>They look like brown pine cones on the ground near the lake around this area.
 >>Be careful to avoid the elite windstrider that flies around this area.
 .goto Stonetalon Mountains,49.33,44.09
@@ -256,7 +256,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Stonetalon Mountains,41.37,70.24
 >>Continue up the path
-.talk Braelyn Firehand
+.talk Braelyn Firehand##4198
 >>en:Standing next to some stepping stones in the pond.
 >>de:Standing next to some stepping stones in the pond.
 .goto Stonetalon Mountains,45.94,60.42
@@ -264,7 +264,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Charred and Vale")
 
 #step
-.talk Maggran Earthbinder
+.talk Maggran Earthbinder##11860
 >>en:Standing next to a stump and a big stretched out pelt.
 >>de:Standing next to a stump and a big stretched out pelt.
 .goto Stonetalon Mountains,47.19,61.14
@@ -275,7 +275,7 @@ LLG.RegisterGuide([[
 .turnin Arachnophobia##6284
 
 #step
-.talk Tammra Windfield
+.talk Tammra Windfield##11864
 >>en:Kneeling next to a mound of dirt.
 >>de:Kneeling next to a mound of dirt.
 .goto Stonetalon Mountains,47.46,58.38
@@ -284,7 +284,7 @@ LLG.RegisterGuide([[
 .accept New Life##6381
 
 #step
-.talk Kulwia
+.talk Kulwia##12043
 .goto Stonetalon Mountains,45.38,59.34
 .vendor
 
@@ -297,7 +297,7 @@ LLG.RegisterGuide([[
 >>Continue down the path
 .goto Stonetalon Mountains,37.90,67.87
 >>Follow the path
-.kill 1 Bloodfury Ripper
+.kill 1 Bloodfury Ripper##12579
 >>She looks like a blue harpy that flies around this area.
 >>She's a level 26 elite, but fairly easy to solo.
 >>Kite her away to fight her alone. You will need to pre-emptively clear an area, making sure to kill all the patrols as well.
@@ -307,7 +307,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Gaea Dirt Mound
+.click Gaea Dirt Mound##177929
 >>They look like piles of green and brown dirt on the ground.
 >>You can find them all around the Charred Vale area.
 .goto Stonetalon Mountains,32.25,68.16
@@ -330,7 +330,7 @@ LLG.RegisterGuide([[
 >>Continue up the path
 .goto Stonetalon Mountains,44.93,63.37
 >>Follow the path up
-.talk Tsunaman
+.talk Tsunaman##11862
 >>en:Up the hill, next to a tent.
 >>de:Den Hügel hinauf, neben einem Zelt.
 >>It walks around this area.
@@ -339,14 +339,14 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Maggran Earthbinder
+.talk Maggran Earthbinder##11860
 >>en:Standing next to a stump and a big stretched out pelt.
 >>de:Standing next to a stump and a big stretched out pelt.
 .goto Stonetalon Mountains,47.20,61.16
 .turnin Bloodfury Bloodline##6283
 
 #step
-.talk Tammra Windfield
+.talk Tammra Windfield##11864
 >>en:Kneeling next to a mound of dirt.
 >>de:Kneeling next to a mound of dirt.
 .goto Stonetalon Mountains,47.46,58.38
@@ -359,7 +359,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Stonetalon Mountains,74.23,97.12
 >>Enter the cave
-.talk Witch Doctor Jin'Zil
+.talk Witch Doctor Jin'Zil##3995
 >>de:Standing inside a cave.
 >>Inside the cave.
 .goto Stonetalon Mountains,74.54,97.94
@@ -367,7 +367,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Webwinder and Path")
 
 #step
-.talk Witch Doctor Jin'Zil
+.talk Witch Doctor Jin'Zil##3995
 >>de:Standing inside a cave.
 >>Inside the cave.
 .goto Stonetalon Mountains,74.54,97.94
@@ -376,7 +376,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,72.88,93.76
 >>Follow the path up and through the mountains to the Barrens
-.talk Seereth Stonebreak
+.talk Seereth Stonebreak##4049
 >>en:In a small camp to the side of the road.
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.26,27.88

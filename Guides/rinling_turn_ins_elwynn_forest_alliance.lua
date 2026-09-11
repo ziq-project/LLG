@@ -18,13 +18,13 @@ LLG.RegisterGuide([[
 .collect Copper Modulator,5
 >>only not selfmade :: Create them with Engineering or purchase them from the Auction House.
 >>They also have a small chance to drop from mobs in the Gnomeregan dungeon.
-.talk Rinling
+.talk Rinling##14841
 .goto Elwynn Forest,41.71,70.72
-.accept Copper Modulator##7894
+.accept Copper Modulator##7894 |or
 >>Each turnin requires 5 Copper Modulators and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 1 Darkmoon Faire Prize Ticket.
 >>You can turn this quest in until you reach 500 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 500 |or
 
 #step
 >>Reach Level 10
@@ -33,13 +33,13 @@ LLG.RegisterGuide([[
 #step
 .collect Whirring Bronze Gizmo,7
 >>only not selfmade :: Create them with Engineering or purchase them from the Auction House.
-.talk Rinling
+.talk Rinling##14841
 .goto Elwynn Forest,41.71,70.72
-.accept Whirring Bronze Gizmo##7895
+.accept Whirring Bronze Gizmo##7895 |or
 >>Each turnin requires 7 Whirring Bronze Gizmos and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 4 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 1,100 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 1100 |or
 
 #step
 >>Reach Level 20
@@ -49,13 +49,13 @@ LLG.RegisterGuide([[
 .collect Green Firework,36
 >>only not selfmade :: Create them with Engineering or purchase them from the Auction House.
 >>They can also be purchased from any Holiday Fireworks Vendor on July 4th.
-.talk Rinling
+.talk Rinling##14841
 .goto Elwynn Forest,41.71,70.72
-.accept Green Fireworks##7896
+.accept Green Fireworks##7896 |or
 >>Each turnin requires 36 Green Fireworks and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 8 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 1,700 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 1700 |or
 
 #step
 >>Reach Level 30
@@ -64,13 +64,13 @@ LLG.RegisterGuide([[
 #step
 .collect Mechanical Repair Kit,6
 >>only not selfmade :: Create them with Engineering or purchase them from the Auction House.
-.talk Rinling
+.talk Rinling##14841
 .goto Elwynn Forest,41.71,70.72
-.accept Mechanical Repair Kits##7897
+.accept Mechanical Repair Kits##7897 |or
 >>Each turnin requires 6 Mechanical Repair Kits and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 12 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 2,500 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 2500 |or
 
 #step
 >>Reach Level 40
@@ -81,16 +81,16 @@ LLG.RegisterGuide([[
 >>only not selfmade :: Create them with Engineering or purchase them from the Auction House.
 
 #step
-.talk Rinling
+.talk Rinling##14841
 .goto Elwynn Forest,41.71,70.72
 .accept Thorium Widget##7898
 
 #step
 .collect Thorium Widget,6
 >>only not selfmade :: Create them with Engineering or purchase them from the Auction House.
-.talk Rinling
+.talk Rinling##14841
 .goto Elwynn Forest,41.71,70.72
-.accept More Thorium Widgets##7942
+.accept More Thorium Widgets##7942 |or
 >>From this point on, you can continue turning in Thorium Widgets.
 >>Each of these turnins will award 20 Darkmoon Faire Prize Tickets.
 >>Each turnin requires 6 Thorium Widgets and grants 100 reputation with the Darkmoon Faire.

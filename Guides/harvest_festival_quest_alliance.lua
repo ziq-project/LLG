@@ -25,7 +25,7 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.talk Wagner Hammerstrike
+.talk Wagner Hammerstrike##15011
 .goto Dun Morogh,52.60,36.03
 .accept Honoring a Hero##8149
 
@@ -36,14 +36,14 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Western Plaguelands,52.07,83.22
 >>Enter the building
-.click Uther's Tribute
+.click Uther's Tribute##19850
 >>Inside the building.
 .goto Western Plaguelands,52.14,83.57
 >>Place a Tribute at Uther's Tomb
 .only walking
 
 #step
-.talk Wagner Hammerstrike
+.talk Wagner Hammerstrike##15011
 .goto Dun Morogh,52.60,36.03
 .turnin Honoring a Hero##8149
 

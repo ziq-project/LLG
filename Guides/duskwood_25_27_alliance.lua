@@ -16,7 +16,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Malissa
+.talk Malissa##3135
 >>Walking around here.
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
@@ -27,7 +27,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,75.55,45.37
 >>Enter the building
-.talk Madame Eva
+.talk Madame Eva##265
 >>en:Right inside the big house as you walk in.
 >>de:Direkt im großen Haus beim Eintreten.
 >>She walks around this area inside the building.
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 .accept The Totem of Infliction##101
 
 #step
-.talk Steven Black
+.talk Steven Black##10062
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 4".
 .goto Duskwood,74.02,46.11
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Steven Black
+.talk Steven Black##10062
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 4" to your permanent pet.
 .goto Duskwood,74.02,46.11
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.83,46.02
 >>Enter the building
-.talk Innkeeper Trelayne
+.talk Innkeeper Trelayne##6790
 >>Inside the building.
 .goto Duskwood,73.87,44.41
 .hs
@@ -75,7 +75,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.83,46.02
 >>Leave the building
-.talk Commander Althea Ebonlocke
+.talk Commander Althea Ebonlocke##264
 >>en:Right in front of the steps to the town hall building.
 >>de:Direkt vor den Stufen des Rathauses.
 >>She walks around this area.
@@ -86,7 +86,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.93,46.81
 >>Enter the building
-.talk Clerk Daltry
+.talk Clerk Daltry##267
 >>en:Right inside the town hall building.
 >>de:Direkt im Rathausgebäude.
 >>He walks around this area inside the building.
@@ -96,45 +96,45 @@ LLG.RegisterGuide([[
 .accept The Legend of Stalvan##67
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>You will use it when you reach level 26.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>You will use it when you reach level 26.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Broad Bladed Knife
+.kill 1 Broad Bladed Knife##12247
 >>If you can afford it.
 >>You will use it when you reach level 27.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(12247) == 0
 
 #step
 .goto Duskwood,75.23,48.26
 >>Enter the building
-.talk Elaine Carevin
+.talk Elaine Carevin##633
 >>en:Inside the big house, next to the fireplace.
 >>de:Im großen Haus, neben dem Kamin.
 >>Inside the building.
@@ -146,15 +146,15 @@ LLG.RegisterGuide([[
 .accept Deliveries to Sven##164
 
 #step
-.talk Felicia Maline
+.talk Felicia Maline##2409
 >>en:East out of town, up the hill on the left.
 >>de:Oestlich aus der Stadt, links den Hügel hinauf.
 .goto Duskwood,77.49,44.29
 .fly Darkshire
 
 #step
-.talk Herble Baubbletump
-.kill 1 Bronze Tube
+.talk Herble Baubbletump##3133
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>You need this item now for a quest in the next guide step.
@@ -165,7 +165,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,79.78,47.69
 >>Enter the building
-.talk Viktori Prism'Antras
+.talk Viktori Prism'Antras##276
 >>en:Inside the small house tot he right of the road, up the hill.
 >>de:Im kleinen Haus rechts der Straße, oben auf dem Hügel.
 >>Inside the building.
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 .accept Look To The Stars##174
 
 #step
-.talk Viktori Prism'Antras
+.talk Viktori Prism'Antras##276
 >>en:Inside the small house tot he right of the road, up the hill.
 >>de:Im kleinen Haus rechts der Straße, oben auf dem Hügel.
 >>Inside the building.
@@ -185,7 +185,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,81.67,59.14
 >>Enter the building
-.talk Blind Mary
+.talk Blind Mary##302
 >>en:She's a ghost that walks around in this small house in the woods.
 >>de:Sie ist ein Geist, der in diesem kleinen Haus im Wald umhergeht.
 >>She walks around inside the building.
@@ -197,7 +197,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,80.33,71.10
 >>Enter the building
-.kill 1 Insane Ghoul
+.kill 1 Insane Ghoul##511
 >>He walks around inside the building.
 >>He may also leave the building and walk around the graveyard.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -228,7 +228,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.18,59.00
 >>Follow the road
-.talk Jitters
+.talk Jitters##288
 >>en:He walks in a little circle around the well.
 >>de:Er läuft in einem kleinen Kreis um den Brunnen.
 >>He walks around this area.
@@ -239,7 +239,7 @@ LLG.RegisterGuide([[
 .only walking and (subzone("Tranquil and Gardens and Cemetery") or subzone("Darkshire"))
 
 #step
-.talk Sven Yorgen
+.talk Sven Yorgen##311
 >>en:In a little camp, next to a campfire.
 >>de:In einem kleinen Lager, neben einem Lagerfeür.
 .goto Duskwood,7.78,34.07
@@ -248,7 +248,7 @@ LLG.RegisterGuide([[
 .accept Sven's Revenge##95
 
 #step
-.talk Lars
+.talk Lars##893
 .goto Duskwood,7.71,33.20
 .accept Wolves at Our Heels##226
 
@@ -261,7 +261,7 @@ LLG.RegisterGuide([[
 >>You can find them all along the coast of the river.
 
 #step
-.talk Abercrombie
+.talk Abercrombie##289
 >>en:In a small shack.
 >>de:In einer kleinen Hütte.
 >>Inside the building.
@@ -271,7 +271,7 @@ LLG.RegisterGuide([[
 .accept Supplies from Darkshire##148
 
 #step
-.kill 1 Black Widow Hatchling
+.kill 1 Black Widow Hatchling##930
 .goto Duskwood,31.85,35.93
 .complete 101,2 >>Collect 5 Vial of Spider Venom
 >>You can find more around:
@@ -279,7 +279,7 @@ LLG.RegisterGuide([[
 >>[32.20,55.11]
 
 #step
-.kill 1 Black Widow Hatchling
+.kill 1 Black Widow Hatchling##930
 .goto Duskwood,31.85,35.93
 .collect Gooey Spider Leg,6
 >>Be careful not to accidentally sell these to a vendor.
@@ -290,13 +290,13 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,23.59,34.89
 >>Leave the crypt
-.talk Lars
+.talk Lars##893
 .goto Duskwood,7.71,33.20
 .turnin Wolves at Our Heels##226
 .only subzone("Dawning and Wood and Catacombs")
 
 #step
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.55,52.64
@@ -313,7 +313,7 @@ LLG.RegisterGuide([[
 .accept The Legend of Stalvan##68
 
 #step
-.talk Chef Grual
+.talk Chef Grual##272
 >>en:Inside the inn, in the back room, next to a table with a bunch of chopped meat on it.
 >>de:Im Gasthaus, im hinteren Raum, neben einem Tisch mit viel zerkleinertem Fleisch.
 >>He walks around this area inside the building.
@@ -323,7 +323,7 @@ LLG.RegisterGuide([[
 .accept Dusky Crab Cakes##93
 
 #step
-.talk Chef Grual
+.talk Chef Grual##272
 >>en:Inside the inn, in the back room, next to a table with a bunch of chopped meat on it.
 >>de:Im Gasthaus, im hinteren Raum, neben einem Tisch mit viel zerkleinertem Fleisch.
 >>He walks around this area inside the building.
@@ -340,7 +340,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.82,46.01
 >>Leave the building
-.talk Commander Althea Ebonlocke
+.talk Commander Althea Ebonlocke##264
 >>en:Right in front of the steps to the town hall building.
 >>de:Direkt vor den Stufen des Rathauses.
 >>She walks around this area.
@@ -353,7 +353,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.93,46.81
 >>Enter the building
-.talk Clerk Daltry
+.talk Clerk Daltry##267
 >>en:Right inside the town hall building.
 >>de:Direkt im Rathausgebäude.
 >>He walks around this area inside the building.
@@ -363,43 +363,43 @@ LLG.RegisterGuide([[
 .accept The Legend of Stalvan##69
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Broad Bladed Knife
+.kill 1 Broad Bladed Knife##12247
 >>If you can afford it.
 >>You will use it when you reach level 27.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(12247) == 0
 
 #step
 .goto Duskwood,75.57,45.37
 >>Enter the building
-.talk Madame Eva
+.talk Madame Eva##265
 >>en:Right inside the big house as you walk in.
 >>de:Direkt im großen Haus beim Eintreten.
 >>She walks around this area inside the building.
@@ -411,7 +411,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,79.78,47.69
 >>Enter the building
-.talk Viktori Prism'Antras
+.talk Viktori Prism'Antras##276
 >>en:Inside the small house tot he right of the road, up the hill.
 >>de:Im kleinen Haus rechts der Straße, oben auf dem Hügel.
 >>Inside the building.
@@ -421,7 +421,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,81.68,59.13
 >>Enter the building
-.talk Blind Mary
+.talk Blind Mary##302
 >>en:She's a ghost that walks around in this small house in the woods.
 >>de:Sie ist ein Geist, der in diesem kleinen Haus im Wald umhergeht.
 >>She walks around inside the building.
@@ -433,7 +433,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,75.57,45.37
 >>Enter the building
-.talk Madame Eva
+.talk Madame Eva##265
 >>en:Right inside the big house as you walk in.
 >>de:Direkt im großen Haus beim Eintreten.
 >>She walks around this area inside the building.
@@ -453,7 +453,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,43.59,65.05
 >>Follow the road
-.talk Jitters
+.talk Jitters##288
 >>en:He walks in a little circle around the well.
 >>de:Er läuft in einem kleinen Kreis um den Brunnen.
 >>He walks around this area.
@@ -462,7 +462,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("The and Yorgen and Farmstead")
 
 #step
-.talk Sven Yorgen
+.talk Sven Yorgen##311
 >>en:In a little camp, next to a campfire.
 >>de:In einem kleinen Lager, neben einem Lagerfeür.
 .goto Duskwood,7.78,34.07
@@ -471,7 +471,7 @@ LLG.RegisterGuide([[
 .accept The Shadowy Figure##262
 
 #step
-.talk Abercrombie
+.talk Abercrombie##289
 >>en:In a small shack.
 >>de:In einer kleinen Hütte.
 >>Inside the building.
@@ -483,7 +483,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,42.95,65.64
 >>Enter the building
-.talk Innkeeper Farley
+.talk Innkeeper Farley##295
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -501,7 +501,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,42.95,65.64
 >>Leave the building
-.talk Caretaker Folsom
+.talk Caretaker Folsom##297
 >>en:Standing next to a bunch of wooden crates on the side of the road.
 >>de:Steht neben einem Stapel Holzkisten am Straßenrand.
 .goto Stormwind City,29.58,61.93
@@ -520,7 +520,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.15
 >>Enter the building
-.talk Zardeth of the Black Claw
+.talk Zardeth of the Black Claw##1435
 >>Downstairs inside the building.
 .goto Stormwind City,26.45,78.66
 .accept A Noble Brew##335
@@ -530,7 +530,7 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Duskwood,75.55,45.37
 >>Enter the building
-.talk Madame Eva
+.talk Madame Eva##265
 >>en:Right inside the big house as you walk in.
 >>de:Direkt im großen Haus beim Eintreten.
 >>She walks around this area inside the building.
@@ -541,42 +541,42 @@ LLG.RegisterGuide([[
 .only subzone("The and Slaughtered and Lamb")
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 >>If you have better, skip this step.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Broad Bladed Knife
+.kill 1 Broad Bladed Knife##12247
 >>If you can afford it.
 >>You will use it when you reach level 27.
 >>It may not be available to buy, since it's a limited supply item.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(12247) == 0
 
 #step
 .goto Duskwood,72.92,46.81
 >>Enter the building
-.talk Clerk Daltry
+.talk Clerk Daltry##267
 >>en:Right inside the town hall building.
 >>de:Direkt im Rathausgebäude.
 >>He walks around this area inside the building.
@@ -588,7 +588,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.82,46.03
 >>Enter the building
-.talk Tavernkeep Smitts
+.talk Tavernkeep Smitts##273
 >>en:Inside the inn, in the middle of the room.
 >>de:Im Gasthaus, in der Mitte des Raums.
 >>He walks around this area inside the building.
@@ -604,7 +604,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.82,46.03
 >>Leave the building
-.talk Jitters
+.talk Jitters##288
 >>en:He walks in a little circle around the well.
 >>de:Er läuft in einem kleinen Kreis um den Brunnen.
 >>He walks around this area.
@@ -656,7 +656,7 @@ LLG.RegisterGuide([[
 >>[22.93,43.21]
 
 #step
-.talk Sven Yorgen
+.talk Sven Yorgen##311
 >>en:In a little camp, next to a campfire.
 >>de:In einem kleinen Lager, neben einem Lagerfeür.
 .goto Duskwood,7.78,34.06
@@ -711,7 +711,7 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Duskwood,15.87,38.73
 >>Leave the crypt
-.talk Sven Yorgen
+.talk Sven Yorgen##311
 >>en:In a little camp, next to a campfire.
 >>de:In einem kleinen Lager, neben einem Lagerfeür.
 .goto Duskwood,7.78,34.06
@@ -721,7 +721,7 @@ LLG.RegisterGuide([[
 .only subzone("Dawning and Wood and Catacombs")
 
 #step
-.talk Tavernkeep Smitts
+.talk Tavernkeep Smitts##273
 >>en:Inside the inn, in the middle of the room.
 >>de:Im Gasthaus, in der Mitte des Raums.
 >>He walks around this area inside the building.
@@ -733,7 +733,7 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,73.83,46.01
 >>Leave the building
-.talk Commander Althea Ebonlocke
+.talk Commander Althea Ebonlocke##264
 >>en:Right in front of the steps to the town hall building.
 >>de:Direkt vor den Stufen des Rathauses.
 >>She walks around this area.
@@ -755,38 +755,38 @@ LLG.RegisterGuide([[
 #step
 .goto Duskwood,72.88,46.83
 >>Enter the building
-.talk Councilman Millstipe
+.talk Councilman Millstipe##270
 >>He walks around inside the building.
 .goto Duskwood,71.92,47.79
 .accept Crime and Punishment##377
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Merciless Axe
+.kill 1 Merciless Axe##12249
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(12249) == 0
 
 #step
-.talk Gavin Gnarltree
+.talk Gavin Gnarltree##225
 >>He walks around this area.
-.kill 1 Broad Bladed Knife
+.kill 1 Broad Bladed Knife##12247
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
 .goto Duskwood,73.60,50.04
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(12247) == 0
 ]])

@@ -24,25 +24,26 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Ironforge,40.36,35.48
 >>Enter the building
-.talk Balthus Stoneflayer
+.talk Balthus Stoneflayer##6291
 >>Downstairs inside the building.
 .goto Ironforge,39.86,32.51
 .train
+.condition skillmax("Skinning") >= 75 >>Train Apprentice Skinning
 .only walking
 
 #step
-.talk Bombus Finespindle
+.talk Bombus Finespindle##5128
 >>en:He is standing at the bottom of Finespindle's Leather Goods in front of a table with tailoring supplies on it|
 >>de:Er steht unten in \
 >>Downstairs inside the building.
 .goto Ironforge,39.61,34.47
-.kill 1 Skinning Knife
+.kill 1 Skinning Knife##7005
 >>You must have a Skinning Knife in your bags to be able to skin enemies.
 
 #step
 .kill 1 enemies around this area
 >>Skin their corpses.
->>Reach Skill 75 in Skinning
+.condition skill("Skinning") >= 75 >>Reach Skill 75 in Skinning
 
 #step
 >>Reach Level 10
@@ -54,17 +55,18 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Ironforge,40.36,35.48
 >>Enter the building
-.talk Balthus Stoneflayer
+.talk Balthus Stoneflayer##6291
 >>Downstairs inside the building.
 .goto Ironforge,39.86,32.51
 .train
+.condition skillmax("Skinning") >= 150 >>Train Journeyman Skinning
 .only walking
 
 #step
 .kill 1 enemies around this area
 >>Skin their corpses.
 .goto Loch Modan,54.84,37.76
->>Reach Skill 125 in Skinning
+.condition skill("Skinning") >= 125 >>Reach Skill 125 in Skinning
 >>You can find more around:
 >>[Loch Modan 63.58,38.31]
 >>[Loch Modan 74.11,40.81]
@@ -85,10 +87,11 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Ironforge,40.36,35.48
 >>Enter the building
-.talk Balthus Stoneflayer
+.talk Balthus Stoneflayer##6291
 >>Downstairs inside the building.
 .goto Ironforge,39.86,32.51
 .train
+.condition skillmax("Skinning") >= 225 >>Train Expert Skinning
 .only walking
 
 #step
@@ -97,7 +100,7 @@ LLG.RegisterGuide([[
 .kill 1 enemies around this area
 >>Skin their corpses.
 .goto Wetlands,22.16,53.53
->>Reach Skill 165 in Skinning
+.condition skill("Skinning") >= 165 >>Reach Skill 165 in Skinning
 >>You can find more around:
 >>[Wetlands 25.11,46.89]
 >>[Wetlands 28.92,43.39]
@@ -108,7 +111,7 @@ LLG.RegisterGuide([[
 >>Skin their corpses.
 >>The spiders won't be skinnable.
 .goto Arathi Highlands,40.94,47.87
->>Reach Skill 180 in Skinning
+.condition skill("Skinning") >= 180 >>Reach Skill 180 in Skinning
 >>[52.20,67.24]
 
 #step
@@ -121,10 +124,11 @@ LLG.RegisterGuide([[
 >>Run up the stairs
 .goto Ironforge,40.36,35.48
 >>Enter the building
-.talk Balthus Stoneflayer
+.talk Balthus Stoneflayer##6291
 >>Downstairs inside the building.
 .goto Ironforge,39.86,32.51
 .train
+.condition skillmax("Skinning") >= 300 >>Train Artisan Skinning
 .only walking
 
 #step
@@ -143,7 +147,7 @@ LLG.RegisterGuide([[
 >>You can find more through the tunnel.
 >>Skin their corpses.
 .goto Feralas,55.21,56.38
->>Reach Skill 260 in Skinning
+.condition skill("Skinning") >= 260 >>Reach Skill 260 in Skinning
 .only walking
 
 #step
@@ -156,7 +160,7 @@ LLG.RegisterGuide([[
 .kill 1 enemies around this area
 >>Skin their corpses.
 .goto Feralas,49.99,33.16
->>Reach Skill 300 in Skinning
+.condition skill("Skinning") >= 300 >>Reach Skill 300 in Skinning
 >>You can find more around:
 >>[51.94,31.89]
 >>[49.59,28.55]

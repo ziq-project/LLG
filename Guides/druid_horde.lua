@@ -20,7 +20,7 @@ LLG.RegisterGuide([[
 #step
 .goto Mulgore,48.16,59.53
 >>Enter the building
-.talk Gennia Runetotem
+.talk Gennia Runetotem##3064
 >>en:Standing in a big teepee building, next to a small totem pole.
 >>de:Steht in einem großen Tipi-Gebäude, neben einem kleinen Totempfahl.
 >>Inside the building.
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Thunder Bluff,74.09,29.91
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -50,7 +50,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,56.13,30.98
 >>Enter the building
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -63,7 +63,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,42.47,34.44
 >>Follow the path
-.talk Great Bear Spirit
+.talk Great Bear Spirit##11956
 >>en:A bug bear spirit standing next to a log on the ground.
 >>de:A bug bear spirit standing next to a log on the ground.
 >>Select _"What do you represent, spirit?"_
@@ -72,7 +72,7 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.talk Faustron
+.talk Faustron##12740
 >>en:Standing in a small camp, under a big red canopy.
 >>de:Steht in einem kleinen Lager unter einem großen roten Baldachin.
 .goto Moonglade,32.11,66.60
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Moonglade,56.13,30.98
 >>Enter the building
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -106,7 +106,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Thunder Bluff,74.09,29.91
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -117,10 +117,10 @@ LLG.RegisterGuide([[
 .only Tauren and Druid
 
 #step
-.click the Cenarion Lunardust
-.kill 1 Lunaclaw
+.click the Cenarion Lunardust##15710
+.kill 1 Lunaclaw##12138
 >>A spirit will appear after you kill her.
-.talk Lunaclaw Spirit
+.talk Lunaclaw Spirit##12144
 >>en:The spirit spawns after you kill Lunaclaw.
 >>de:Der Geist erscheint, nachdem du Lunaclaw getötet hast.
 >>Select _"You have fought well, spirit. I ask you to grant me the strength of your body and the strength of your heart."_
@@ -141,7 +141,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Thunder Bluff,74.09,29.91
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -153,7 +153,7 @@ LLG.RegisterGuide([[
 .level 14
 
 #step
-.talk Auctioneer Stampi
+.talk Auctioneer Stampi##8674
 .goto Thunder Bluff,40.40,51.77
 .collect Earthroot,5
 >>Buy them from the Auction House.
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.17,29.89
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,56.13,30.98
 >>Enter the building
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -190,7 +190,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,48.00,19.56
 >>Follow the path up
-.click the Empty Dreadmist Peak Sampler
+.click the Empty Dreadmist Peak Sampler##15842
 >>Use it while standing in the bubbling water at the top of the mountain.
 .goto The Barrens,48.41,18.89
 .complete 6127,1 >>Collect Filled Dreadmist Peak Sampler
@@ -201,7 +201,7 @@ LLG.RegisterGuide([[
 >>Follow the path down
 .goto The Barrens,52.34,29.37
 >>Follow the path
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin The Principal Source##6127
@@ -212,7 +212,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,50.09,40.90
 >>Follow the path
-.kill 1 Lost Barrens Kodo
+.kill 1 Lost Barrens Kodo##3234
 .goto The Barrens,51.93,43.65
 .complete 6128,2 >>Collect 5 Kodo Horn
 >>You can find more around:
@@ -224,7 +224,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Tonga Runetotem
+.talk Tonga Runetotem##3448
 >>de:Standing in front of a big teepee.
 .goto The Barrens,52.26,31.93
 .turnin Gathering the Cure##6128
@@ -233,8 +233,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click the Curative Animal Salve
->>'
+.click the Curative Animal Salve##15826
 >>Use it on Sickly Gazelles around this area.
 >>They look like green gazelles all around the northern area of the Barrens.
 .goto The Barrens,50.17,31.12
@@ -254,7 +253,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,56.13,30.98
 >>Enter the building
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -267,7 +266,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.17,29.89
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -289,7 +288,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Thunder Bluff,74.15,29.89
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -298,7 +297,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -309,7 +308,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click Bauble Container
+.click Bauble Container##177785
 >>It looks like a wicker vase on the ground underwater.
 >>They spawn randomly, so you may have to search around this area.
 >>only hardcore :: Swim at the top of the water until you can see one.
@@ -320,13 +319,13 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click the Shrine Bauble
+.click the Shrine Bauble##15877
 .goto Moonglade,35.92,41.38
 .complete 28,1 >>Complete the Trial of the Lake
 .only Druid
 
 #step
-.talk Tajarri
+.talk Tajarri##11799
 >>en:Standing next to a big wooden archway thing.
 >>de:Steht neben einem großen hölzernen Torbogen.
 .goto Moonglade,36.51,40.11
@@ -342,7 +341,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Tirisfal Glades,61.86,65.03
 >>Enter Undercity
-.talk Michael Garrett
+.talk Michael Garrett##4551
 >>de:Standing on the top level of Undercity.
 .goto Undercity,63.28,48.58
 .fly Undercity
@@ -359,7 +358,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Silverpine Forest,44.15,28.90
 >>Continue following the path
-.click Strange Lockbox
+.click Strange Lockbox##177844
 >>Underwater.
 >>only hardcore :: Hover above the container before swimming directly down to it.
 >>only hardcore :: Don't linger underwater longer than is required and watch your breath meter.
@@ -370,7 +369,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,52.92,12.63
 >>Follow the path
-.click Strange Lockbox
+.click Strange Lockbox##177794
 >>Underwater.
 >>only hardcore :: Hover above the container before swimming directly down to it.
 >>only hardcore :: Don't linger underwater longer than is required and watch your breath meter.
@@ -379,7 +378,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click the Half Pendant of Aquatic Agility
+.click the Half Pendant of Aquatic Agility##15883
 .goto Moonglade,35.92,41.42
 .complete 30,1 >>Collect Pendant of the Sea Lion
 .only Druid
@@ -387,7 +386,7 @@ LLG.RegisterGuide([[
 #step
 .goto Moonglade,41.76,35.10
 >>Follow the road
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -400,7 +399,7 @@ LLG.RegisterGuide([[
 #step
 .goto Thunder Bluff,74.15,29.89
 >>Enter the building
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Inside the building.
@@ -412,7 +411,7 @@ LLG.RegisterGuide([[
 .level 52
 
 #step
-.talk Turak Runetotem
+.talk Turak Runetotem##3033
 >>en:Standing in a big round building, next to a huge stretched out bear skin.
 >>de:Steht in einem großen runden Gebäude, neben einem ausgebreiteten riesigen Bärenfell.
 >>Insidie the building.
@@ -421,7 +420,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -439,7 +438,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click Bloodpetal Sprout
+.click Bloodpetal Sprout##164958
 >>They look like vines entwined in a ball.
 >>They are all over Un'Goro Crater.
 .goto Un'Goro Crater,71.90,57.40
@@ -449,7 +448,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -459,14 +458,14 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.click the Devilsaur Barb
+.click the Devilsaur Barb##22432
 >>Use it on roaming Devilsaur around Un'Goro Crater.
 .goto Un'Goro Crater,67.31,33.89
 .complete 9051,1 >>Stab a Devilsaur with the Barb
 .only Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96
@@ -493,13 +492,13 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar Dungeon:
-.kill 1 Atal'alarion
+.kill 1 Atal'alarion##8580
 >>Refer to the Temple of Atal'Hakkar Dungeon Guide to accomplish that.
 .complete 9053,1 >>Collect Putrid Vine
 .only Druid
 
 #step
-.talk Torwa Pathfinder
+.talk Torwa Pathfinder##9619
 >>en:Standing up on a hill, next to a waterfall.
 >>de:Standing up on a hill, next to a waterfall.
 .goto Un'Goro Crater,71.63,75.96

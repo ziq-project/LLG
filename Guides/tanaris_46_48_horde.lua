@@ -16,14 +16,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Shreev
+.talk Shreev##4708
 >>en:Standing next to a hut.
 >>de:Standing next to a hut.
 .goto Tanaris,50.96,27.24
 .turnin Safety First##1188
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.click the Untapped Dowsing Widget
+.click the Untapped Dowsing Widget##8584
 >>Avoid the elite enemies nearby this location while traveling here.
 >>Use it in the water.
 >>Once you get the Tapped Dowsing Widget, run away to safety immediately.
@@ -41,7 +41,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -59,21 +59,21 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .accept Thistleshrub Valley##3362
 
 #step
-.click Wanted Poster
+.click Wanted Poster##142122
 .goto Tanaris,51.84,27.02
 .accept WANTED: Caliph Scorpidsting##2781
 .goto Tanaris,51.84,27.02
 .accept WANTED: Andre Firebeard##2875
 
 #step
-.click Egg-O-Matic
+.click Egg-O-Matic##142071
 .goto Tanaris,52.37,26.97
 .accept The Super Egg-O-Matic##2741
 
@@ -84,7 +84,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Andi Lynn
+.talk Andi Lynn##11758
 >>en:Standing on the outskirts of town, next to a bonfire.
 >>de:Steht am Stadtrand, neben einem Lagerfeür.
 .goto Tanaris,52.82,27.40
@@ -93,18 +93,18 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.38,27.91
 >>Enter the building
-.talk Innkeeper Fizzgrimble
+.talk Innkeeper Fizzgrimble##7733
 >>Inside the building.
 .goto Tanaris,52.51,27.92
 .hs
 
 #step
-.talk Dirge Quikcleave
+.talk Dirge Quikcleave##8125
 .goto Tanaris,52.63,28.11
 .complete 5863 >>Buy Food and Water
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
@@ -113,35 +113,35 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91
 .goto Tanaris,52.30,28.91
 
 #step
-.talk Marin Noggenfogger
+.talk Marin Noggenfogger##7564
 >>en:Standing next to a huge broken down cart.
 >>de:Steht neben einem riesigen kaputten Wagen.
 .goto Tanaris,51.81,28.66
 .accept The Thirsty Goblin##2605
 
 #step
-.talk Haughty Modiste
+.talk Haughty Modiste##15165
 >>en:Standing under a red canopy.
 >>de:Standing under a red canopy.
 .goto Tanaris,66.56,22.27
 .accept Pirate Hats Ahoy!##8365
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.99,22.36
 .turnin Screecher Spirits##3520
 
 #step
-.talk Jabbey
+.talk Jabbey##8139
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag, plus 10-15 extra stacks.
 >>You have a very long grind coming up soon.
@@ -152,7 +152,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,66.99,23.87
 >>Enter the building
-.talk Security Chief Bilgewhizzle
+.talk Security Chief Bilgewhizzle##7882
 >>en:Standing in a small house.
 >>de:Standing in a small house.
 >>Inside the building.
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 .accept Southsea Shakedown##8366
 
 #step
-.talk Stoley
+.talk Stoley##7881
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -168,7 +168,7 @@ LLG.RegisterGuide([[
 .accept Stoley's Shipment##2873
 
 #step
-.kill 1 Caliph Scorpidsting
+.kill 1 Caliph Scorpidsting##7847
 >>He walks in a counter-clockwise pattern, so this path will help you find him faster.
 >>He walks with 2 stealthed guards with him, so be careful.
 >>If you have trouble, try to find someone to help you.
@@ -239,7 +239,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Lost and Rigger and Cove")
 
 #step
-.kill 1 Andre Firebeard
+.kill 1 Andre Firebeard##7883
 >>Try to pull him with as few other enemies as possible. You may have to kill him then run away til the adds reset.
 >>If you have trouble, try to find someone to help you.
 .goto Tanaris,73.37,47.14
@@ -298,7 +298,7 @@ LLG.RegisterGuide([[
 >>only hardcore :: Enemies tend to bunch up and pull in groups inside them.
 >>only hardcore :: Watch for patrols and respawns while here.
 .collect Pirate's Footlocker,1
-.click Pirate's Footlocker
+.click Pirate's Footlocker##9276
 .goto Tanaris,73.26,46.42
 .collect Ship Schedule,1
 >>It may take a long time to get it, but this is a good grind to do to get a lot of extra xp built up.
@@ -327,7 +327,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Lost and Rigger and Cove")
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
@@ -336,19 +336,20 @@ LLG.RegisterGuide([[
 .turnin More Wastewander Justice##1691
 
 #step
-.talk Spigot Operator Luglunket
+.talk Spigot Operator Luglunket##7408
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.48,28.44
 .turnin Water Pouch Bounty##1878
+.only itemcount(8483) >= 5
 
 #step
-.talk Dirge Quikcleave
+.talk Dirge Quikcleave##8125
 .goto Tanaris,52.63,28.11
 .complete 3380 >>Buy Food and Water
 
 #step
-.talk Marvon Rivetseeker
+.talk Marvon Rivetseeker##7771
 >>en:In a small camp, standing under a blue canopy with a yellow stripe through it.
 >>de:In a small camp, standing under a blü canopy with a yellow stripe through it.
 .goto Tanaris,52.71,45.93
@@ -400,7 +401,7 @@ LLG.RegisterGuide([[
 >>Start looking for a group.
 
 #step
-.kill 1 Thistleshrub Dew Collector
+.kill 1 Thistleshrub Dew Collector##5481
 .goto Tanaris,29.97,66.48
 .complete 2605,1 >>Collect Laden Dew Gland
 >>You can find more around:
@@ -422,7 +423,7 @@ LLG.RegisterGuide([[
 >>[30.54,64.66]
 
 #step
-.talk Tooga
+.talk Tooga##5955
 >>He looks like a turtle that walks around this area.
 >>This is an escort quest.
 >>If you can't find him, someone may be escorting him.
@@ -436,7 +437,7 @@ LLG.RegisterGuide([[
 >>[29.58,74.73]
 
 #step
-.talk Marvon Rivetseeker
+.talk Marvon Rivetseeker##7771
 >>en:In a small camp, standing under a blue canopy with a yellow stripe through it.
 >>de:In a small camp, standing under a blü canopy with a yellow stripe through it.
 .goto Tanaris,52.71,45.93
@@ -454,7 +455,7 @@ LLG.RegisterGuide([[
 >>Torta looks like a turtle that walks around this area.
 
 #step
-.talk Torta
+.talk Torta##6015
 >>She looks like a turtle that walks around this area.
 .goto Tanaris,66.57,25.67
 .turnin Tooga's Quest##1560
@@ -462,7 +463,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,66.99,23.87
 >>Enter the building
-.talk Security Chief Bilgewhizzle
+.talk Security Chief Bilgewhizzle##7882
 >>en:Standing in a small house.
 >>de:Standing in a small house.
 >>Inside the building.
@@ -472,12 +473,13 @@ LLG.RegisterGuide([[
 .turnin Southsea Shakedown##8366
 
 #step
-.click the Ship Schedule
+.click the Ship Schedule##9250
 .goto Tanaris,67.06,23.89
 .accept Ship Schedules##2876
+.only itemcount(9250) > 0
 
 #step
-.talk Security Chief Bilgewhizzle
+.talk Security Chief Bilgewhizzle##7882
 >>en:Standing in a small house.
 >>de:Standing in a small house.
 .goto Tanaris,67.06,23.89
@@ -485,7 +487,7 @@ LLG.RegisterGuide([[
 .only haveq(2876)
 
 #step
-.talk Stoley
+.talk Stoley##7881
 >>en:Standing in a small house.
 >>de:Steht in einem kleinen Haus.
 >>Inside the building.
@@ -495,14 +497,14 @@ LLG.RegisterGuide([[
 .accept Deliver to MacKinley##2874
 
 #step
-.talk Haughty Modiste
+.talk Haughty Modiste##15165
 >>en:Standing under a red canopy.
 >>de:Standing under a red canopy.
 .goto Tanaris,66.56,22.27
 .turnin Pirate Hats Ahoy!##8365
 
 #step
-.talk Jabbey
+.talk Jabbey##8139
 >>Inside the building.
 >>Buy enough ammo to fill your ammo bag.
 >>You have a very long grind coming up soon.
@@ -511,33 +513,33 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
 .accept The Prophecy of Mosh'aru##3527
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
 .accept Divino-matic Rod##2768
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .accept Scarab Shells##2865
 
 #step
-.talk Trenton Lighthammer
+.talk Trenton Lighthammer##7804
 .goto Tanaris,51.42,28.75
 .accept Troll Temper##3042
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 >>This quest can only be completed if someone in your group has the "Mallet of Zul'Farrak" which is very difficult to obtain.
@@ -552,35 +554,35 @@ LLG.RegisterGuide([[
 >>Do not follow the Zul'Farrak turnin guide.
 
 #step
-.talk Wizzle Brassbolts
+.talk Wizzle Brassbolts##4453
 >>en:Standing in front of a tall rocket car.
 >>de:Standing in front of a tall rocket car.
 .goto Thousand Needles,78.14,77.11
 .turnin Gahz'rilla##2770
 
 #step
-.talk Yeh'kinya
+.talk Yeh'kinya##8579
 >>en:Standing under a green canopy.
 >>de:Steht unter einem grünen Baldachin.
 .goto Tanaris,66.98,22.36
 .turnin The Prophecy of Mosh'aru##3527
 
 #step
-.talk Chief Engineer Bilgewhizzle
+.talk Chief Engineer Bilgewhizzle##7407
 >>en:Standing at the base of a water tower.
 >>de:Standing at the base of a water tower.
 .goto Tanaris,52.46,28.51
 .turnin Divino-matic Rod##2768
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .turnin Scarab Shells##2865
 
 #step
-.talk Trenton Lighthammer
+.talk Trenton Lighthammer##7804
 .goto Tanaris,51.42,28.75
 .turnin Troll Temper##3042
 
@@ -603,7 +605,7 @@ LLG.RegisterGuide([[
 >>[65.32,36.89]
 
 #step
-.talk Marin Noggenfogger
+.talk Marin Noggenfogger##7564
 >>en:Standing next to a huge broken down cart.
 >>de:Steht neben einem riesigen kaputten Wagen.
 .goto Tanaris,51.81,28.66
@@ -612,7 +614,7 @@ LLG.RegisterGuide([[
 .accept In Good Taste##2606
 
 #step
-.talk Sprinkle
+.talk Sprinkle##7583
 >>en:Standing next to a small cart.
 >>de:Standing next to a small cart.
 .goto Tanaris,51.06,26.87
@@ -621,7 +623,7 @@ LLG.RegisterGuide([[
 .accept Sprinkle's Secret Ingredient##2641
 
 #step
-.talk Alchemist Pestlezugg
+.talk Alchemist Pestlezugg##5594
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -629,21 +631,21 @@ LLG.RegisterGuide([[
 .turnin Noxious Lair Investigation##82
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
 .accept The Scrimshank Redemption##10
 
 #step
-.talk Tran'rek
+.talk Tran'rek##7876
 >>en:Standing next to a box with a bunch of levers on it.
 >>de:Steht neben einer Kiste mit vielen Hebeln.
 .goto Tanaris,51.57,26.76
 .turnin Thistleshrub Valley##3362
 
 #step
-.talk Andi Lynn
+.talk Andi Lynn##11758
 >>en:Standing on the outskirts of town, next to a bonfire.
 >>de:Steht am Stadtrand, neben einem Lagerfeür.
 .goto Tanaris,52.82,27.40
@@ -669,7 +671,7 @@ LLG.RegisterGuide([[
 >>Follow the path down
 .goto Tanaris,57.38,71.30
 >>Follow the path
-.click Scrimshank's Surveying Gear
+.click Scrimshank's Surveying Gear##144053
 >>Inside the cave.
 >>only hardcore :: Hazzali Workers may run away quickly when low health.
 >>only hardcore :: Hazzali Swarmers may spawn adds while you fight them.
@@ -678,17 +680,18 @@ LLG.RegisterGuide([[
 .complete 10,1 >>Collect Scrimshank's Surveying Gear
 
 #step
-.click the OOX-17/TN Distress Beacon
+.click the OOX-17/TN Distress Beacon##8623
 .goto Tanaris,60.23,64.72
 .accept Find OOX-17/TN!##351
+.only itemcount(8623) > 0
 
 #step
-.talk Homing Robot OOX-17/TN
+.talk Homing Robot OOX-17/TN##7784
 .goto Tanaris,60.23,64.72
 .turnin Find OOX-17/TN!##351
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -697,7 +700,7 @@ LLG.RegisterGuide([[
 .accept Insect Part Analysis##110
 
 #step
-.talk Alchemist Pestlezugg
+.talk Alchemist Pestlezugg##5594
 >>en:Standing in a small hut.
 >>de:Standing in a small hut.
 >>Inside the building.
@@ -707,7 +710,7 @@ LLG.RegisterGuide([[
 .accept Insect Part Analysis##113
 
 #step
-.talk Senior Surveyor Fizzledowser
+.talk Senior Surveyor Fizzledowser##7724
 >>en:Standing on top of a big hill on the outskirts of town.
 >>de:Standing on top of a big hill on the outskirts of town.
 .goto Tanaris,50.21,27.48
@@ -718,7 +721,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tanaris,52.21,28.57
 >>Enter the building
-.talk Gimblethorn
+.talk Gimblethorn##7799
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Tanaris,52.30,28.91

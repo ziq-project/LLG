@@ -16,14 +16,14 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.13
 .accept Fall From Grace##2784
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 >>Select _"Why are you here?"_
@@ -31,7 +31,7 @@ LLG.RegisterGuide([[
 .complete 2784,1 >>Listen to the Tale of Sorrow
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.13
@@ -40,7 +40,7 @@ LLG.RegisterGuide([[
 .accept The Disgraced One##2621
 
 #step
-.click A Soggy Scroll
+.click A Soggy Scroll##2553
 >>Underwater, under the bridge.
 .goto Swamp of Sorrows,22.86,48.19
 .turnin Cortello's Riddle##624
@@ -51,7 +51,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,46.95,54.07
 >>Enter the building
-.talk Dispatch Commander Ruag
+.talk Dispatch Commander Ruag##7623
 >>en:Inside the big building, upstairs, standing in a small room.
 >>de:Inside the big building, upstairs, standing in a small room.
 >>Upstairs inside the building.
@@ -61,7 +61,7 @@ LLG.RegisterGuide([[
 .accept The Missing Orders##2622
 
 #step
-.talk Fel'zerul
+.talk Fel'zerul##1443
 >>Upstairs inside the building.
 .goto Swamp of Sorrows,47.93,54.79
 .accept The Atal'ai Exile##1429
@@ -69,7 +69,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,45.25,55.33
 >>Enter the building
-.talk Bengor
+.talk Bengor##7643
 >>en:Laying face down on a rug inside the inn.
 >>de:Liegt bäuchlings auf einem Teppich im Gasthaus.
 >>Inside the building.
@@ -77,19 +77,19 @@ LLG.RegisterGuide([[
 .turnin The Missing Orders##2622
 
 #step
-.talk Thultazor
+.talk Thultazor##983
 >>He can sell potions as a limited stock item, they may not be up.
 .goto Swamp of Sorrows,45.78,52.85
 >>Check for Potions
 
 #step
-.kill 1 Sawtooth Snapper
+.kill 1 Sawtooth Snapper##1087
 .goto Swamp of Sorrows,75.12,18.47
 .complete 699,1 >>Collect 6 Sawtooth Snapper Claw
 >>You can find more around [83.03,33.42]
 
 #step
-.talk Tok'Kar
+.talk Tok'Kar##5592
 >>en:Standing in a small camp, next to a bonfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Swamp of Sorrows,81.32,80.97
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 .accept Threat From the Sea##1422
 
 #step
-.talk Katar
+.talk Katar##5593
 >>en:Standing on a hill overlooking the beach.
 >>de:Steht auf einem Hügel mit Blick auf den Strand.
 .goto Swamp of Sorrows,83.75,80.42
@@ -130,7 +130,7 @@ LLG.RegisterGuide([[
 >>[93.46,61.21]
 
 #step
-.talk Katar
+.talk Katar##5593
 >>en:Standing on a hill overlooking the beach.
 >>de:Steht auf einem Hügel mit Blick auf den Strand.
 .goto Swamp of Sorrows,83.76,80.43
@@ -139,14 +139,14 @@ LLG.RegisterGuide([[
 .accept Threat From the Sea##1427
 
 #step
-.talk Tok'Kar
+.talk Tok'Kar##5592
 >>en:Standing in a small camp, next to a bonfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Swamp of Sorrows,81.31,80.97
 .turnin Threat From the Sea##1427
 
 #step
-.talk Katar
+.talk Katar##5593
 >>en:Standing on a hill overlooking the beach.
 >>de:Steht auf einem Hügel mit Blick auf den Strand.
 .goto Swamp of Sorrows,83.76,80.41
@@ -179,7 +179,7 @@ LLG.RegisterGuide([[
 #step
 .goto Swamp of Sorrows,66.37,76.54
 >>Leave the cave
-.talk Katar
+.talk Katar##5593
 >>en:Standing on a hill overlooking the beach.
 >>de:Steht auf einem Hügel mit Blick auf den Strand.
 .goto Swamp of Sorrows,83.75,80.42
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 .only Druid
 
 #step
-.talk Loganaar
+.talk Loganaar##12042
 .goto Moonglade,52.50,40.54
 .train
 >>Go to Moonglade and train your spells, then hearth once it is off cooldown.
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.talk Crank Fizzlebub
+.talk Crank Fizzlebub##2498
 >>en:On the bottom floor of the inn, next to the bar.
 >>de:Im Erdgeschoss des Gasthauses, neben dem Tresen.
 >>Inside the building, on the bottom floor.
@@ -225,7 +225,7 @@ LLG.RegisterGuide([[
 .accept Zanzil's Mixture and a Fool's Stout##1119
 
 #step
-.talk Viznik Goldgrubber
+.talk Viznik Goldgrubber##2625
 >>Deposit these items into the bank.
 .goto Stranglethorn Vale,26.54,76.57
 >>Collect these items from the bank.
@@ -239,7 +239,7 @@ LLG.RegisterGuide([[
 .complete 3122 >>Collect Neeru's Herb Pouch
 
 #step
-.talk Hula'mahi
+.talk Hula'mahi##3490
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto The Barrens,51.39,30.20
@@ -247,7 +247,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -255,7 +255,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Witch Doctor Uzer'i
+.talk Witch Doctor Uzer'i##8115
 >>en:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 >>de:Standing on the left side of the big long house, next to a smoking, igloo looking furnace.
 .goto Feralas,74.42,43.36
@@ -264,31 +264,31 @@ LLG.RegisterGuide([[
 .accept The Sunken Temple##3380
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .turnin Zanzil's Mixture and a Fool's Stout##1119
 
 #step
 >>Watch the dialogue
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Get the Gnomes Drunk##1120
 
 #step
-.talk Gnome Pit Boss
+.talk Gnome Pit Boss##4495
 .goto Thousand Needles,77.56,76.94
 .turnin Get the Gnomes Drunk##1120
 
 #step
-.talk Kravel Koalbeard
+.talk Kravel Koalbeard##4452
 >>de:Kneeling next to a campfire.
 .goto Thousand Needles,77.79,77.27
 .accept Report Back to Fizzlebub##1122
 
 #step
-.talk Razzeric
+.talk Razzeric##4706
 >>de:Standing next to some green bubbling tanks, next to a green canopy.
 .goto Thousand Needles,80.33,76.10
 .turnin Razzeric's Tweaking##1187

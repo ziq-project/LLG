@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 
 #step
 .goto Elwynn Forest,46.38,38.58
-.kill 2 Young Wolf
+.kill 2 Young Wolf##299
 >>Loot them for 10 copper worth of vendor items.
 >>This will let you train a spell early.
 >>This substantially increases your leveling speed and is worth the detour.
@@ -35,7 +35,7 @@ LLG.RegisterGuide([[
 .only (Warrior or Warlock) and level <= 2
 
 #step
-.talk Godric Rothgar
+.talk Godric Rothgar##1213
 >>Acquire 10 copper.
 >>You can sell some of your gear if you are short, it's not important at this level.
 .goto Elwynn Forest,47.69,41.42
@@ -43,14 +43,14 @@ LLG.RegisterGuide([[
 .only Warrior or Warlock
 
 #step
-.talk Deputy Willem
+.talk Deputy Willem##823
 >>en:Standing in front of the big church.
 >>de:Steht vor der großen Kirche.
 .goto Elwynn Forest,48.17,42.95
 .accept A Threat Within##783
 
 #step
-.talk Drusilla La Salle
+.talk Drusilla La Salle##459
 >>en:Standing in the graveyard, next to the wall.
 >>de:Steht auf dem Friedhof, neben der Maür.
 >>Outside, next to the building.
@@ -73,17 +73,17 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.talk Drusilla La Salle
+.talk Drusilla La Salle##459
 >>en:Standing in the graveyard, next to the wall.
 >>de:Steht auf dem Friedhof, neben der Maür.
-.click Hearthstone
+.click Hearthstone##6948
 >>Hearth back to your spawn.
 .goto Elwynn Forest,49.87,42.65
 .turnin The Stolen Tome##1598
 .only Human and Warlock
 
 #step
->>Summon Your Imp
+.condition warlockpet("Imp") >>Summon Your Imp
 >>Use the "Summon Imp" ability.
 .only Human and Warlock and not warlockpet("Imp")
 
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,48.31,41.99
 >>Enter the building
-.talk Marshal McBride
+.talk Marshal McBride##197
 >>en:Standing straight ahead as you enter the church.
 >>de:Geradeaus, wenn du die Kirche betrittst.
 >>Inside the building.
@@ -108,7 +108,7 @@ LLG.RegisterGuide([[
 .accept Kobold Camp Cleanup##7
 
 #step
-.talk Llane Beshere
+.talk Llane Beshere##911
 >>en:In the backroom of the cathedral, standing next to a round table.
 >>de:Im hinteren Raum der Kathedrale, neben einem runden Tisch.
 >>Inside the building, on the ground floor.
@@ -118,14 +118,14 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Deputy Willem
+.talk Deputy Willem##823
 >>en:Standing in front of the big church.
 >>de:Steht vor der großen Kirche.
 .goto Elwynn Forest,48.17,42.95
 .accept Eagan Peltskinner##5261
 
 #step
-.talk Eagan Peltskinner
+.talk Eagan Peltskinner##196
 >>en:On the side of the church, standing next to some barrels and crates.
 >>de:Seitlich an der Kirche, neben einigen Fässern und Kisten.
 >>Outside the building.
@@ -149,7 +149,7 @@ LLG.RegisterGuide([[
 >>You can find more around [51.18,37.25]
 
 #step
-.talk Eagan Peltskinner
+.talk Eagan Peltskinner##196
 >>en:On the side of the church, standing next to some barrels and crates.
 >>de:Seitlich an der Kirche, neben einigen Fässern und Kisten.
 .goto Elwynn Forest,48.94,40.16
@@ -162,14 +162,14 @@ LLG.RegisterGuide([[
 >>You can find more around [51.18,37.25]
 
 #step
-.talk Godric Rothgar
+.talk Godric Rothgar##1213
 .goto Elwynn Forest,47.69,41.42
 .vendor
 
 #step
 .goto Elwynn Forest,48.31,41.99
 >>Enter the building
-.talk Marshal McBride
+.talk Marshal McBride##197
 >>en:Standing straight ahead as you enter the church.
 >>de:Geradeaus, wenn du die Kirche betrittst.
 >>Inside the building.
@@ -209,7 +209,7 @@ LLG.RegisterGuide([[
 .goto Elwynn Forest,53.60,41.90
 
 #step
-.talk Godric Rothgar
+.talk Godric Rothgar##1213
 >>You will need 1-2 silver for spells.
 .goto Elwynn Forest,47.69,41.42
 .vendor
@@ -217,7 +217,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,48.28,42.02
 >>Enter the building
-.talk Marshal McBride
+.talk Marshal McBride##197
 >>en:Standing straight ahead as you enter the church.
 >>de:Geradeaus, wenn du die Kirche betrittst.
 >>Inside the building.
@@ -227,7 +227,7 @@ LLG.RegisterGuide([[
 .accept Skirmish at Echo Ridge##21
 
 #step
-.talk Llane Beshere
+.talk Llane Beshere##911
 >>en:In the backroom of the cathedral, standing next to a round table.
 >>de:Im hinteren Raum der Kathedrale, neben einem runden Tisch.
 >>Inside the building, on the ground floor.
@@ -240,7 +240,7 @@ LLG.RegisterGuide([[
 .only Human and Warrior
 
 #step
-.talk Brother Sammuel
+.talk Brother Sammuel##925
 >>en:Standing in the back room of the cathedral, next to a round table.
 >>de:Steht im hinteren Raum der Kathedrale, neben einem runden Tisch.
 >>Inside the building, on the ground floor.
@@ -255,7 +255,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Priestess Anetta
+.talk Priestess Anetta##375
 >>en:Standing in the very back of the bottom floor of the cathedral, next to a wheelbarrow full of books.
 >>de:Ganz hinten im Erdgeschoss der Kathedrale, neben einer Schubkarre voller Bücher.
 >>Inside the building, on the ground floor.
@@ -268,7 +268,7 @@ LLG.RegisterGuide([[
 .only Human and Priest
 
 #step
-.talk Khelden Bremen
+.talk Khelden Bremen##198
 >>en:Standing in the very back of the second floor of the cathedral, behind a table with books on it.
 >>de:Ganz hinten im zweiten Stock der Kathedrale, hinter einem Tisch mit Büchern.
 >>Upstairs inside the building, on the middle floor.
@@ -283,7 +283,7 @@ LLG.RegisterGuide([[
 .only Human and Mage
 
 #step
-.talk Deputy Willem
+.talk Deputy Willem##823
 >>en:Standing in front of the big church.
 >>de:Steht vor der großen Kirche.
 >>Outside, in front of the building.
@@ -291,7 +291,7 @@ LLG.RegisterGuide([[
 .accept Brotherhood of Thieves##18
 
 #step
-.talk Drusilla La Salle
+.talk Drusilla La Salle##459
 >>en:Standing in the graveyard, next to the wall.
 >>de:Steht auf dem Friedhof, neben der Maür.
 >>Outside, next to the building.
@@ -312,7 +312,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.talk Drusilla La Salle
+.talk Drusilla La Salle##459
 >>en:Standing in the graveyard, next to the wall.
 >>de:Steht auf dem Friedhof, neben der Maür.
 >>Outside, next to the building.
@@ -321,12 +321,12 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
->>Summon Your Imp
+.condition warlockpet("Imp") >>Summon Your Imp
 >>Use the "Summon Imp" ability.
 .only Human and Warlock and not warlockpet("Imp")
 
 #step
-.talk Jorik Kerridan
+.talk Jorik Kerridan##915
 >>en:Standing in the stables.
 >>de:Steht im Stall.
 >>Outside, in the stables behind the the building.
@@ -335,13 +335,13 @@ LLG.RegisterGuide([[
 .only Human and Rogue
 
 #step
-.kill 1 Defias Thug
+.kill 1 Defias Thug##38
 .goto Elwynn Forest,56.09,42.35
 .complete 18,1 >>Collect 12 Red Burlap Bandana
 >>You can find more around [Elwynn Forest 53.20,50.30]
 
 #step
-.talk Deputy Willem
+.talk Deputy Willem##823
 >>en:Standing in front of the big church.
 >>de:Steht vor der großen Kirche.
 >>Outside, in front of the building.
@@ -353,12 +353,12 @@ LLG.RegisterGuide([[
 .accept Milly Osworth##3903
 
 #step
-.talk Godric Rothgar
+.talk Godric Rothgar##1213
 .goto Elwynn Forest,47.69,41.42
 .vendor
 
 #step
-.talk Merissa Stilwell
+.talk Merissa Stilwell##11940
 .goto Elwynn Forest,47.40,41.90
 
 #step
@@ -375,11 +375,11 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,47.66,31.89
 >>Leave the mine
-.kill 1 Swiftpaw
+.kill 1 Swiftpaw##45326
 .only subzone("Echo and Ridge and Mine")
 
 #step
-.talk Milly Osworth
+.talk Milly Osworth##9296
 >>en:Outside by the stables, standing next to a wagon.
 >>de:Outside by the stables, standing next to a wagon.
 >>Outside, behind the building.
@@ -392,7 +392,7 @@ LLG.RegisterGuide([[
 
 #step
 >>In the house
-.kill 1 Garrick Padfoot
+.kill 1 Garrick Padfoot##103
 .goto Elwynn Forest,57.51,48.25
 .complete 6,1 >>Collect Garrick's Head
 
@@ -411,7 +411,7 @@ LLG.RegisterGuide([[
 >>You can find more around [53.20,50.30]
 
 #step
-.talk Milly Osworth
+.talk Milly Osworth##9296
 >>en:Outside by the stables, standing next to a wagon.
 >>de:Outside by the stables, standing next to a wagon.
 .goto Elwynn Forest,50.69,39.35
@@ -420,7 +420,7 @@ LLG.RegisterGuide([[
 .accept Grape Manifest##3905
 
 #step
-.talk Deputy Willem
+.talk Deputy Willem##823
 >>en:Standing in front of the big church.
 >>de:Steht vor der großen Kirche.
 >>Outside, in front of the building.
@@ -428,14 +428,14 @@ LLG.RegisterGuide([[
 .turnin Bounty on Garrick Padfoot##6
 
 #step
-.talk Godric Rothgar
+.talk Godric Rothgar##1213
 .goto Elwynn Forest,47.69,41.42
 .vendor
 
 #step
 .goto Elwynn Forest,48.27,42.01
 >>Enter the building
-.talk Marshal McBride
+.talk Marshal McBride##197
 >>en:Standing straight ahead as you enter the church.
 >>de:Geradeaus, wenn du die Kirche betrittst.
 >>Inside the building.
@@ -447,7 +447,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,49.56,41.61
 >>Run up the stairs
-.talk Brother Neals
+.talk Brother Neals##952
 >>en:At the very top of the church, way up the spiral staircase.
 >>de:Ganz oben in der Kirche, weit oben über die Wendeltreppe.
 >>Upstairs inside the building, all the way at the top.
@@ -457,7 +457,7 @@ LLG.RegisterGuide([[
 .goto Elwynn Forest,49.47,41.58
 
 #step
-.talk Priestess Anetta
+.talk Priestess Anetta##375
 >>en:Standing in the very back of the bottom floor of the cathedral, next to a wheelbarrow full of books.
 >>de:Ganz hinten im Erdgeschoss der Kathedrale, neben einer Schubkarre voller Bücher.
 >>Inside the building, on the ground floor.
@@ -468,7 +468,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,47.05,47.69
 >>Follow the road
-.talk Falkhaan Isenstrider
+.talk Falkhaan Isenstrider##6774
 >>en:Standing in the middle of the road, in front of a fountain.
 >>de:Standing in the middle of the road, in front of a fountain.
 .goto Elwynn Forest,45.56,47.74
@@ -476,11 +476,11 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Matron Darcy
+.talk Matron Darcy##45021
 .goto Elwynn Forest,42.00,67.00
 
 #step
-.talk Marshal Dughan
+.talk Marshal Dughan##240
 >>en:Right outside the blacksmith shop near the road.
 >>de:Direkt vor der Schmiede nahe der Straße.
 .goto Elwynn Forest,39.50,68.90
@@ -491,7 +491,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,38.90,68.40
 >>Enter the building
-.talk William Pestle
+.talk William Pestle##253
 >>en:Inside the Goldshire inn to the left.
 >>de:Links im Gasthaus von Goldhain.
 >>Inside the building.
@@ -499,7 +499,7 @@ LLG.RegisterGuide([[
 .accept Kobold Candles##60
 
 #step
-.talk Innkeeper Farley
+.talk Innkeeper Farley##295
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -507,14 +507,14 @@ LLG.RegisterGuide([[
 .turnin Rest and Relaxation##2158
 
 #step
-.talk Brog Hamfist
+.talk Brog Hamfist##151
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Elwynn Forest,43.96,65.92
 >>Visit the Vendor
 
 #step
-.talk Maximillian Crowe
+.talk Maximillian Crowe##906
 >>Downstairs in the inn.
 >>Enter from the kitchen.
 .goto Elwynn Forest,44.39,66.23
@@ -524,37 +524,39 @@ LLG.RegisterGuide([[
 .only Warlock and level >= 6
 
 #step
->>Summon Your Imp
+.condition warlockpet("Imp") >>Summon Your Imp
 >>Use the "Summon Imp" ability.
 >>You need to have your Imp active in order to complete the next step.
 .only Human and Warlock and not warlockpet("Imp")
 
 #step
-.talk Cylina Darkheart
+.talk Cylina Darkheart##6374
 >>Downstairs inside the inn.
-.kill 1 Grimoire of Blood Pact (Rank 1)
+.kill 1 Grimoire of Blood Pact (Rank 1)##16321
 >>If you can't afford it, skip this step and make sure to buy it later.
-.click the Grimoire of Blood Pact (Rank 1)
+.click the Grimoire of Blood Pact (Rank 1)##16321
 .goto Elwynn Forest,44.40,65.99
 >>Teach Your Imp Blood Pact (Rank 1)
 .only Warlock
 
 #step
-.talk Brog Hamfist
+.talk Brog Hamfist##151
 >>Inside the building.
-.kill 1 Balanced Throwing Dagger
+.kill 1 Balanced Throwing Dagger##25872
 >>If you can afford it this is very important for hard quests later on.
 .goto Elwynn Forest,43.96,65.92
 >>Visit the Vendor
 .only Rogue or Warrior
 
 #step
-.talk Michelle Belle
+.talk Michelle Belle##2329
 >>Upstairs inside the building.
 >>This requires 1 silver, skip this step if you are tight on money.
 >>only not Warlock :: You will need up to 2 silver to train level 6 spells.
 .goto Elwynn Forest,43.39,65.55
 .train
+.condition skillmax("First Aid") >= 75 >>Train Apprentice First Aid
+.optional
 
 #step
 >>Create Bandages in Downtime
@@ -564,7 +566,7 @@ LLG.RegisterGuide([[
 .complete 60 >>Click Here to Continue
 
 #step
-.talk Keryn Sylvius
+.talk Keryn Sylvius##917
 >>Upstairs in the inn.
 .goto Elwynn Forest,43.87,65.93
 .train
@@ -573,7 +575,7 @@ LLG.RegisterGuide([[
 .only Rogue and level >= 6
 
 #step
-.talk Priestess Josetta
+.talk Priestess Josetta##377
 >>Upstairs inside the building.
 .goto Elwynn Forest,43.28,65.72
 .train
@@ -586,7 +588,6 @@ LLG.RegisterGuide([[
 .only Priest and level >= 6
 
 #step
->>'
 .goto Elwynn Forest,48.14,68.04
 .complete 5624,1 >>Heal and Fortify Guard Roberts
 >>Target Guard Roberts.
@@ -597,14 +598,14 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,38.90,68.40
 >>Enter the building
-.talk Priestess Josetta
+.talk Priestess Josetta##377
 >>Upstairs inside the building.
 .goto Elwynn Forest,43.28,65.72
 .turnin Garments of the Light##5624
 .only Human and Priest
 
 #step
-.talk Zaldimar Wefhellt
+.talk Zaldimar Wefhellt##328
 >>Upstairs in the inn.
 >>Conjure Food is a low priority spell, you can skip it for now if you are low on money.
 .goto Elwynn Forest,43.25,66.21
@@ -616,49 +617,51 @@ LLG.RegisterGuide([[
 .only Mage and level >= 6
 
 #step
-.talk Corina Steele
+.talk Corina Steele##54
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Elwynn Forest,41.53,65.90
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Corina Steele
+.talk Corina Steele##54
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Elwynn Forest,41.53,65.90
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
-.talk Corina Steele
+.talk Corina Steele##54
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Elwynn Forest,41.53,65.90
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.talk Smith Argus
+.talk Smith Argus##514
 >>en:Inside the blacksmith shop to the right.
 >>de:In der Schmiede auf der rechten Seite.
 .goto Elwynn Forest,42.40,69.50
 >>Select _"Train me."_
 .goto Elwynn Forest,42.40,69.50
 .train
+.condition skillmax("Blacksmithing") >= 75 >>Train Apprentice Blacksmithing
+.optional
 >>Weapon stones are up to a 30% damage increase at this level and are very worthwhile.
 >>We'll get rough stones from Kobolds soon.
 .only Warrior or Rogue or Paladin
 
 #step
-.talk Lyria Du Lac
+.talk Lyria Du Lac##913
 >>en:Standing next to an entrance to the blacksmith shop.
 >>de:Steht neben einem Eingang zur Schmiede.
 >>Train Parry as well.
@@ -668,7 +671,7 @@ LLG.RegisterGuide([[
 .only Warrior and level >= 6
 
 #step
-.talk Brother Wilhelm
+.talk Brother Wilhelm##927
 >>en:Standing right outside one of the entrances to the blacksmith shop.
 >>de:Standing right outside one of the entrances to the blacksmith shop.
 .goto Elwynn Forest,41.10,66.03
@@ -678,23 +681,23 @@ LLG.RegisterGuide([[
 .only Paladin and level >= 6
 
 #step
-.talk Remy "Two Times"
+.talk Remy "Two Times"##241
 .goto Elwynn Forest,42.10,67.30
 .accept Gold Dust Exchange##47
 
 #step
-.talk Robert Miston
+.talk Robert Miston##45085
 .goto Elwynn Forest,42.50,69.20
 
 #step
-.talk "Auntie" Bernice Stonefield
+.talk "Auntie" Bernice Stonefield##246
 >>de:Vor dem Haus, neben einem Brunnen.
 >>Grind enemies on the way to make a grind step less tedious later.
 .goto Elwynn Forest,34.48,84.26
 .accept Lost Necklace##85
 
 #step
-.talk Billy Maclure
+.talk Billy Maclure##247
 >>en:Little kid in front of the barn.
 >>de:Kleiner Junge vor der Scheune.
 >>Grind enemies on the way to make a grind step less tedious later.
@@ -706,7 +709,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,43.00,89.40
 >>Enter the building
-.talk Maybell Maclure
+.talk Maybell Maclure##251
 >>en:Inside the small house with the big tree stump in front of it.
 >>de:Im kleinen Haus mit dem großen Baumstumpf davor.
 >>Inside the building.
@@ -714,18 +717,18 @@ LLG.RegisterGuide([[
 .accept Young Lovers##106
 
 #step
-.talk Joshua Maclure
+.talk Joshua Maclure##258
 .goto Elwynn Forest,42.35,89.34
 .vendor
 
 #step
-.kill 1 Stonetusk Boar
+.kill 1 Stonetusk Boar##113
 .goto Elwynn Forest,41.86,87.12
 .collect Chunk of Boar Meat,4
 >>Be careful not to accidentally sell these to a vendor.
 
 #step
-.talk "Auntie" Bernice Stonefield
+.talk "Auntie" Bernice Stonefield##246
 >>de:Vor dem Haus, neben einem Brunnen.
 >>Grind enemies on the way to make a grind step less tedious later.
 .goto Elwynn Forest,34.48,84.26
@@ -734,12 +737,12 @@ LLG.RegisterGuide([[
 .accept Back to Billy##84
 
 #step
-.talk Ma Stonefield
+.talk Ma Stonefield##244
 .goto Elwynn Forest,34.66,84.48
 .accept Princess Must Die!##88
 
 #step
-.talk Tommy Joe Stonefield
+.talk Tommy Joe Stonefield##252
 >>en:Near the big rocks in the river.
 >>de:Bei den großen Felsen im Fluss.
 >>Grind enemies on the way to make a grind step less tedious later.
@@ -751,7 +754,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,34.82,84.11
 >>Enter the building
-.talk Gramma Stonefield
+.talk Gramma Stonefield##248
 >>en:In the small house.
 >>de:Im kleinen Haus.
 >>Inside the building.
@@ -761,7 +764,7 @@ LLG.RegisterGuide([[
 .accept Note to William##107
 
 #step
-.talk Billy Maclure
+.talk Billy Maclure##247
 >>en:Little kid in front of the barn.
 >>de:Kleiner Junge vor der Scheune.
 >>Grind enemies on the way to make a grind step less tedious later.
@@ -794,7 +797,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,39.76,79.21
 >>Follow the path inside the mine
-.kill 1 Goldtooth
+.kill 1 Goldtooth##327
 >>He walks around this area inside the mine.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Elwynn Forest,41.71,78.04
@@ -830,20 +833,20 @@ LLG.RegisterGuide([[
 .only haveq(62) or haveq(87) or haveq(47) or haveq(60)
 
 #step
-.talk "Auntie" Bernice Stonefield
+.talk "Auntie" Bernice Stonefield##246
 >>de:Vor dem Haus, neben einem Brunnen.
 .goto Elwynn Forest,34.49,84.25
 .turnin Goldtooth##87
 
 #step
-.talk Remy "Two Times"
+.talk Remy "Two Times"##241
 .goto Elwynn Forest,42.10,67.30
 .turnin Gold Dust Exchange##47
 .goto Elwynn Forest,42.10,67.30
 .accept A Fishy Peril##40
 
 #step
-.talk Marshal Dughan
+.talk Marshal Dughan##240
 >>en:Right outside the blacksmith shop near the road.
 >>de:Direkt vor der Schmiede nahe der Straße.
 .goto Elwynn Forest,39.50,68.90
@@ -858,7 +861,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,38.90,68.40
 >>Enter the building
-.talk William Pestle
+.talk William Pestle##253
 >>en:Inside the Goldshire inn to the left.
 >>de:Links im Gasthaus von Goldhain.
 >>Inside the building.
@@ -872,7 +875,7 @@ LLG.RegisterGuide([[
 .accept Collecting Kelp##112
 
 #step
-.talk Innkeeper Farley
+.talk Innkeeper Farley##295
 >>en:Inside the inn, next to the bar.
 >>de:Im Gasthaus, neben dem Tresen.
 >>Inside the building.
@@ -882,18 +885,18 @@ LLG.RegisterGuide([[
 
 #step
 .goto Elwynn Forest,38.20,68.60
-.talk Melika Isenstrider
+.talk Melika Isenstrider##6778
 .goto Elwynn Forest,38.20,68.60
 .goto Elwynn Forest,38.20,68.60
 
 #step
-.talk Zaldimar Wefhellt
+.talk Zaldimar Wefhellt##328
 >>At the upper level of the inn
 .goto Elwynn Forest,38.00,68.30
 .goto Elwynn Forest,38.00,68.30
 
 #step
-.talk Brog Hamfist
+.talk Brog Hamfist##151
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 >>You will need up to 4 silver to train spells.
@@ -901,7 +904,7 @@ LLG.RegisterGuide([[
 >>Visit the Vendor
 
 #step
-.talk Lyria Du Lac
+.talk Lyria Du Lac##913
 >>en:Standing next to an entrance to the blacksmith shop.
 >>de:Steht neben einem Eingang zur Schmiede.
 .goto Elwynn Forest,41.10,65.76
@@ -911,7 +914,7 @@ LLG.RegisterGuide([[
 .only Warrior and level >= 8
 
 #step
-.talk Brother Wilhelm
+.talk Brother Wilhelm##927
 >>en:Standing right outside one of the entrances to the blacksmith shop.
 >>de:Standing right outside one of the entrances to the blacksmith shop.
 .goto Elwynn Forest,41.10,66.03
@@ -921,14 +924,14 @@ LLG.RegisterGuide([[
 .only Paladin and level >= 8
 
 #step
-.talk Priestess Josetta
+.talk Priestess Josetta##377
 >>Upstairs inside the building.
 .goto Elwynn Forest,43.28,65.72
 .train
 .only Priest and level >= 8
 
 #step
-.talk Zaldimar Wefhellt
+.talk Zaldimar Wefhellt##328
 >>Upstairs in the inn.
 .goto Elwynn Forest,43.25,66.21
 .train
@@ -938,7 +941,7 @@ LLG.RegisterGuide([[
 .only Mage and level >= 8
 
 #step
-.talk Maximillian Crowe
+.talk Maximillian Crowe##906
 >>Downstairs in the inn.
 >>Enter from the kitchen.
 .goto Elwynn Forest,44.39,66.23
@@ -948,23 +951,23 @@ LLG.RegisterGuide([[
 .only Warlock and level >= 8
 
 #step
->>Summon Your Imp
+.condition warlockpet("Imp") >>Summon Your Imp
 >>Use the "Summon Imp" ability.
 >>You need to have your Imp active in order to complete the next step.
 .only Human and Warlock and not warlockpet("Imp")
 
 #step
-.talk Cylina Darkheart
+.talk Cylina Darkheart##6374
 >>Downstairs inside the building.
-.kill 1 Grimoire of Firebolt (Rank 2)
+.kill 1 Grimoire of Firebolt (Rank 2)##16302
 >>If you can't afford it, skip this step and make sure to buy it later.
-.click the Grimoire of Firebolt (Rank 2)
+.click the Grimoire of Firebolt (Rank 2)##16302
 .goto Elwynn Forest,44.40,65.99
 >>Teach Your Imp Firebolt (Rank 2)
 .only Human and Warlock
 
 #step
-.talk Keryn Sylvius
+.talk Keryn Sylvius##917
 >>Upstairs in the inn.
 .goto Elwynn Forest,43.87,65.93
 .train
@@ -973,37 +976,37 @@ LLG.RegisterGuide([[
 .only Rogue and level >= 8
 
 #step
-.talk Corina Steele
+.talk Corina Steele##54
 >>Inside the building.
-.kill 1 Gladius
+.kill 1 Gladius##2488
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Elwynn Forest,41.53,65.90
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(2488) == 0
 
 #step
-.talk Corina Steele
+.talk Corina Steele##54
 >>Inside the building.
-.kill 1 Wooden Mallet
+.kill 1 Wooden Mallet##2493
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Elwynn Forest,41.53,65.90
 >>Visit the Vendor
-.only Paladin
+.only Paladin and itemcount(2493) == 0
 
 #step
-.talk Corina Steele
+.talk Corina Steele##54
 >>Inside the building.
-.kill 1 Stiletto
+.kill 1 Stiletto##2494
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Elwynn Forest,41.53,65.90
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2494) == 0
 
 #step
-.kill 1 Linus Royston
+.kill 1 Linus Royston##45027
 
 #step
 .kill 1 Murloc enemies around this area
@@ -1013,11 +1016,11 @@ LLG.RegisterGuide([[
 
 #step
 >>If you see Lorkiz Quietbit on the road to the east pick up this quest, coordinates are for the the next step
-.talk Lorkiz Quietbit
+.talk Lorkiz Quietbit##45032
 .goto Elwynn Forest,73.97,72.18
 
 #step
-.talk Guard Thomas
+.talk Guard Thomas##261
 >>en:Off the road a little to the left by a light post near the bridge.
 >>de:Etwas links abseits der Straße, bei einer Laterne nahe der Brücke.
 >>Grind mobs en route to this quest.
@@ -1029,7 +1032,7 @@ LLG.RegisterGuide([[
 .accept Protect the Frontier##52
 
 #step
-.click A Half-Eaten Body
+.click A Half-Eaten Body##55
 >>Grind mobs en route to the body.
 .goto Elwynn Forest,72.65,60.33
 .turnin Find the Lost Guards##37
@@ -1037,18 +1040,18 @@ LLG.RegisterGuide([[
 .accept Discover Rolf's Fate##45
 
 #step
-.kill 1 Big Blue
+.kill 1 Big Blue##45030
 .goto Elwynn Forest,70.70,59.70
 
 #step
-.talk Supervisor Raelen
+.talk Supervisor Raelen##10616
 >>en:Standing in the middle of the logging camp, next to a cart.
 >>de:Standing in the middle of the logging camp, next to a cart.
 .goto Elwynn Forest,81.38,66.11
 .accept A Bundle of Trouble##5545
 
 #step
-.talk Rallic Finn
+.talk Rallic Finn##1198
 .goto Elwynn Forest,83.28,66.09
 .vendor
 
@@ -1060,7 +1063,7 @@ LLG.RegisterGuide([[
 >>You can find more around [83.76,60.88]
 
 #step
-.click Rolf's Corpse
+.click Rolf's Corpse##56
 >>only hardcore :: Watch out for adds when you're pulling from the murloc huts nearby.
 >>only hardcore :: Murloc Foragers may heal when at low health.
 >>only hardcore :: Also watch for respawns if you're clearing.
@@ -1071,7 +1074,7 @@ LLG.RegisterGuide([[
 .accept Report to Thomas##71
 
 #step
-.click Bundle of Wood
+.click Bundle of Wood##176793
 >>They look like small stacks of brown logs at the base of trees around this area.
 .goto Elwynn Forest,77.69,61.78
 .complete 5545,1 >>Collect 8 Bundle of Wood
@@ -1092,19 +1095,19 @@ LLG.RegisterGuide([[
 .complete 52,1 >>Kill 8 Prowler
 
 #step
-.talk Rallic Finn
+.talk Rallic Finn##1198
 .goto Elwynn Forest,83.28,66.09
 .vendor
 
 #step
-.talk Supervisor Raelen
+.talk Supervisor Raelen##10616
 >>en:Standing in the middle of the logging camp, next to a cart.
 >>de:Standing in the middle of the logging camp, next to a cart.
 .goto Elwynn Forest,81.38,66.12
 .turnin A Bundle of Trouble##5545
 
 #step
-.talk Sara Timberlain
+.talk Sara Timberlain##278
 >>en:Standing on the steps to a small house.
 >>de:Steht auf den Stufen eines kleinen Hauses.
 >>In front of the building.
@@ -1124,7 +1127,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,61.74,53.88
 >>Leave the mine
-.talk Guard Thomas
+.talk Guard Thomas##261
 >>en:Off the road a little to the left by a light post near the bridge.
 >>de:Etwas links abseits der Straße, bei einer Laterne nahe der Brücke.
 .goto Elwynn Forest,73.97,72.18
@@ -1138,7 +1141,7 @@ LLG.RegisterGuide([[
 .only subzone("Jasperlode and Mine")
 
 #step
-.kill 1 Princess
+.kill 1 Princess##330
 >>This quest can be very hard, but there are often other players nearby looking to do it as well.
 >>You can skip this step if you are unable to find help or aren't confident soloing it.
 >>only hardcore :: You received 2 Lesser Healing Potions from a recent quest, don't forget about them!
@@ -1188,11 +1191,12 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.click the Westfall Deed
+.click the Westfall Deed##1972
 .accept Furlbrow's Deed##184
+.only itemcount(1972) > 0
 
 #step
-.talk Sara Timberlain
+.talk Sara Timberlain##278
 >>en:Standing on the steps to a small house.
 >>de:Steht auf den Stufen eines kleinen Hauses.
 >>In front of the building.
@@ -1200,7 +1204,7 @@ LLG.RegisterGuide([[
 .turnin Red Linen Goods##83
 
 #step
-.talk Ariena Stormfeather
+.talk Ariena Stormfeather##931
 >>en:Next to a shack and 2 eagles.
 >>de:Neben einer Hütte und 2 Adlern.
 >>Be careful as you travel here, follow the road.
@@ -1210,14 +1214,14 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Brog Hamfist
+.talk Brog Hamfist##151
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Elwynn Forest,43.96,65.92
 >>Visit the Vendor
 
 #step
-.talk William Pestle
+.talk William Pestle##253
 >>en:Inside the Goldshire inn to the left.
 >>de:Links im Gasthaus von Goldhain.
 >>Inside the building.
@@ -1226,7 +1230,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk William Pestle
+.talk William Pestle##253
 >>en:Inside the Goldshire inn to the left.
 >>de:Links im Gasthaus von Goldhain.
 >>Inside the building.
@@ -1234,12 +1238,12 @@ LLG.RegisterGuide([[
 .accept The Escape##114
 
 #step
-.talk Zaldimar Wefhellt
+.talk Zaldimar Wefhellt##328
 >>At the upper level of the inn (skip follow up)
 .goto Elwynn Forest,38.00,68.30
 
 #step
-.talk Marshal Dughan
+.talk Marshal Dughan##240
 >>en:Right outside the blacksmith shop near the road.
 >>de:Direkt vor der Schmiede nahe der Straße.
 .goto Elwynn Forest,39.50,68.90
@@ -1253,7 +1257,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Smith Argus
+.talk Smith Argus##514
 >>en:Inside the blacksmith shop to the right.
 >>de:In der Schmiede auf der rechten Seite.
 >>Inside the building.
@@ -1263,7 +1267,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,38.90,68.40
 >>Enter the building
-.talk Priestess Josetta
+.talk Priestess Josetta##377
 >>Upstairs inside the building.
 .goto Elwynn Forest,43.28,65.72
 .accept Desperate Prayer##5635
@@ -1281,7 +1285,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,38.90,68.40
 >>Enter the building
-.talk Maximillian Crowe
+.talk Maximillian Crowe##906
 >>Downstairs in the inn.
 >>Enter from the kitchen.
 .goto Elwynn Forest,44.39,66.23
@@ -1296,7 +1300,7 @@ LLG.RegisterGuide([[
 .only Warlock and level >= 10
 
 #step
-.talk Remen Marcot
+.talk Remen Marcot##6121
 >>en:Standing in the basement of the inn.
 >>de:Steht im Keller des Gasthauses.
 >>Downstairs inside the building.
@@ -1305,7 +1309,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.talk Brother Wilhelm
+.talk Brother Wilhelm##927
 >>en:Standing right outside one of the entrances to the blacksmith shop.
 >>de:Standing right outside one of the entrances to the blacksmith shop.
 .goto Elwynn Forest,41.10,66.03
@@ -1319,7 +1323,7 @@ LLG.RegisterGuide([[
 .only Paladin and level >= 10
 
 #step
-.talk Zaldimar Wefhellt
+.talk Zaldimar Wefhellt##328
 >>Upstairs in the inn.
 .goto Elwynn Forest,43.25,66.21
 .train
@@ -1330,7 +1334,7 @@ LLG.RegisterGuide([[
 .only Mage and level >= 10
 
 #step
-.talk Keryn Sylvius
+.talk Keryn Sylvius##917
 >>Upstairs in the inn.
 >>Train Dual Wield
 .goto Elwynn Forest,43.87,65.93
@@ -1343,27 +1347,27 @@ LLG.RegisterGuide([[
 .only Rogue and level >= 10
 
 #step
-.talk Robert Miston
+.talk Robert Miston##45085
 .goto Elwynn Forest,42.50,69.20
 
 #step
-.talk Matron Darcy
+.talk Matron Darcy##45021
 .goto Elwynn Forest,42.00,67.00
 .goto Elwynn Forest,42.00,67.00
 
 #step
 .click the Spider Elixir in your bags on the Sickly Miner in the tend
-.click Spider Elixir
+.click Spider Elixir##60020
 .goto Elwynn Forest,42.00,67.00
 
 #step
-.talk Matron Darcy
+.talk Matron Darcy##45021
 .goto Elwynn Forest,42.00,67.00
 
 #step
 .goto Elwynn Forest,43.00,89.40
 >>Enter the building
-.talk Maybell Maclure
+.talk Maybell Maclure##251
 >>en:Inside the small house with the big tree stump in front of it.
 >>de:Im kleinen Haus mit dem großen Baumstumpf davor.
 >>Inside the building.
@@ -1371,12 +1375,12 @@ LLG.RegisterGuide([[
 .turnin The Escape##114
 
 #step
-.talk Ma Stonefield
+.talk Ma Stonefield##244
 .goto Elwynn Forest,34.66,84.48
 .turnin Princess Must Die!##88
 
 #step
-.talk Deputy Rainer
+.talk Deputy Rainer##963
 >>en:On either side of the entrance to the big fort.
 >>de:Auf beiden Seiten des Eingangs zur großen Festung.
 .goto Elwynn Forest,24.23,74.45
@@ -1385,7 +1389,7 @@ LLG.RegisterGuide([[
 .accept Riverpaw Gnoll Bounty##11
 
 #step
-.click Wanted Poster
+.click Wanted Poster##68
 >>Its a sign by the road.
 .goto Elwynn Forest,24.50,74.70
 .accept Wanted: "Hogger"##176
@@ -1400,7 +1404,7 @@ LLG.RegisterGuide([[
 >>You can find more around [24.75,94.05]
 
 #step
-.kill 1 Hogger
+.kill 1 Hogger##448
 >>He can spawn in multiple places around the area.
 >>He does a charge similar to boars that will deal extra damage if you get too far from him.
 >>only hardcore :: This quest can be difficult but there are often lots of players looking to kill him. Skip this step if you aren't comfortable.
@@ -1412,20 +1416,20 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.click Gold Pickup Schedule
+.click Gold Pickup Schedule##1307
 .goto Elwynn Forest,24.23,74.45
 .accept The Collector##123
-.only Human and Warlock
+.only Human and Warlock and itemcount(1307) > 0
 
 #step
-.talk Deputy Rainer
+.talk Deputy Rainer##963
 >>en:On either side of the entrance to the big fort.
 >>de:Auf beiden Seiten des Eingangs zur großen Festung.
 .goto Elwynn Forest,24.23,74.45
 .turnin Riverpaw Gnoll Bounty##11
 
 #step
-.talk Farmer Furlbrow
+.talk Farmer Furlbrow##237
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.96,19.36
@@ -1435,7 +1439,7 @@ LLG.RegisterGuide([[
 .only haveq(184) or completedq(184)
 
 #step
-.talk Verna Furlbrow
+.talk Verna Furlbrow##238
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.92,19.42
@@ -1444,7 +1448,7 @@ LLG.RegisterGuide([[
 .accept Poor Old Blanchy##151
 
 #step
-.talk Farmer Saldean
+.talk Farmer Saldean##233
 >>en:Right in front of the steps to enter the house.
 >>de:Direkt vor den Stufen zum Hauseingang.
 .goto Westfall,56.05,31.22
@@ -1453,7 +1457,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.04
 >>Enter the building
-.talk Salma Saldean
+.talk Salma Saldean##235
 >>en:Inside the house right next to the fireplace.
 >>de:Im Haus, direkt neben dem Kamin.
 >>Inside the building.
@@ -1465,7 +1469,7 @@ LLG.RegisterGuide([[
 .accept Goretusk Liver Pie##22
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 >>only hardcore :: Stick to the roads and do not run through the field
@@ -1475,28 +1479,28 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.53,47.39
 >>Enter the building
-.talk Quartermaster Lewis
+.talk Quartermaster Lewis##491
 >>Inside the building.
 .goto Westfall,57.00,47.17
 .accept A Swift Message##6181
 .only Human
 
 #step
-.talk Quartermaster Lewis
+.talk Quartermaster Lewis##491
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Westfall,57.00,47.17
 >>Visit the Vendor
 
 #step
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.55,52.64
 .fly Sentinel Hill
 
 #step
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 .goto Westfall,56.56,52.64
@@ -1506,7 +1510,7 @@ LLG.RegisterGuide([[
 .only Human
 
 #step
-.talk Thor
+.talk Thor##523
 >>en:Right next to the two big eagles.
 >>de:Direkt neben den zwei großen Adlern.
 >>Open the flight map.
@@ -1518,7 +1522,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,56.59,64.87
 >>Enter the building
-.talk Morgan Pestle
+.talk Morgan Pestle##279
 >>en:To the right as you enter the shop.
 >>de:Rechts, wenn du den Laden betrittst.
 >>Inside the building.
@@ -1528,9 +1532,9 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,57.51,61.65
 >>Enter the building
-.talk Thurman Mullby
+.talk Thurman Mullby##1285
 >>Inside the building.
-.kill 1 Balanced Throwing Dagger
+.kill 1 Balanced Throwing Dagger##25872
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,58.37,61.68
@@ -1540,48 +1544,51 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use two-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_SWORD") > 0 >>Train Two-Handed Swords
 .only Warrior
 
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use one-handed swords.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("SWORD") > 0 >>Train One-Handed Swords
 .only Rogue
 
 #step
-.talk Gunther Weller
+.talk Gunther Weller##1289
 >>Inside the building.
-.kill 1 Cutlass
+.kill 1 Cutlass##851
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Stormwind City,57.55,57.07
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(851) == 0
 
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use staves.
 >>If you are tight on money and need to buy a wand, a wand is more important.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Priest
 
 #step
 .goto Stormwind City,53.44,64.92
 >>Enter the building
-.talk Innkeeper Allison
+.talk Innkeeper Allison##6740
 >>Inside the building.
 .goto Stormwind City,52.62,65.70
 .hs
@@ -1603,10 +1610,12 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,44.55,73.89
 >>Enter the building
-.talk Lawrence Schneider
+.talk Lawrence Schneider##1300
 >>Inside the building.
 .goto Stormwind City,43.69,73.71
 .train
+.condition skillmax("Tailoring") >= 75 >>Learn Tailoring
+.optional
 .only Priest
 
 #step
@@ -1617,7 +1626,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Alexandra Bolero
+.talk Alexandra Bolero##1347
 >>en:She is inside of Duncan's Textiles behind the counter|
 >>de:Sie ist in Duncans Textilien hinter dem Tresen.|
 >>Inside the building.
@@ -1626,7 +1635,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Lawrence Schneider
+.talk Lawrence Schneider##1300
 >>Inside the building.
 .goto Stormwind City,43.69,73.71
 .train
@@ -1643,10 +1652,12 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.72,63.84
 >>Enter the building
-.talk Lucan Cordell
+.talk Lucan Cordell##1317
 >>Inside the building.
 .goto Stormwind City,42.94,64.65
 .train
+.condition skillmax("Enchanting") >= 75 >>Learn Enchanting
+.optional
 .only Priest
 
 #step
@@ -1662,7 +1673,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Jessara Cordell
+.talk Jessara Cordell##1318
 >>en:She is inside the enchanting supplies store behind the counter|
 >>de:Sie ist im Laden für Verzauberungsmaterial hinter dem Tresen.|
 >>Inside the building.
@@ -1680,7 +1691,7 @@ LLG.RegisterGuide([[
 .only Priest
 
 #step
-.talk Betty Quin
+.talk Betty Quin##11068
 >>Inside the building.
 .goto Stormwind City,43.11,63.72
 .train
@@ -1696,12 +1707,13 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,56.66,57.70
 >>Enter the building
-.talk Woo Ping
+.talk Woo Ping##11867
 >>Inside the building.
 >>This will allow you to use staves.
 >>If you are tight on money and need to buy a wand, a wand is more important.
 .goto Stormwind City,57.13,57.71
 .train
+.condition weaponskill("TH_STAFF") > 0 >>Train Staves
 .only Human and Warlock
 
 #step
@@ -1721,10 +1733,12 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,44.55,73.89
 >>Enter the building
-.talk Lawrence Schneider
+.talk Lawrence Schneider##1300
 >>Inside the building.
 .goto Stormwind City,43.69,73.71
 .train
+.condition skillmax("Tailoring") >= 75 >>Learn Tailoring
+.optional
 .only Warlock
 
 #step
@@ -1735,7 +1749,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Alexandra Bolero
+.talk Alexandra Bolero##1347
 >>en:She is inside of Duncan's Textiles behind the counter|
 >>de:Sie ist in Duncans Textilien hinter dem Tresen.|
 >>Inside the building.
@@ -1744,7 +1758,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Lawrence Schneider
+.talk Lawrence Schneider##1300
 >>Inside the building.
 .goto Stormwind City,43.69,73.71
 .train
@@ -1761,10 +1775,12 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.72,63.84
 >>Enter the building
-.talk Lucan Cordell
+.talk Lucan Cordell##1317
 >>Inside the building.
 .goto Stormwind City,42.94,64.65
 .train
+.condition skillmax("Enchanting") >= 75 >>Learn Enchanting
+.optional
 .only Warlock
 
 #step
@@ -1780,7 +1796,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Jessara Cordell
+.talk Jessara Cordell##1318
 >>en:She is inside the enchanting supplies store behind the counter|
 >>de:Sie ist im Laden für Verzauberungsmaterial hinter dem Tresen.|
 >>Inside the building.
@@ -1798,7 +1814,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Betty Quin
+.talk Betty Quin##11068
 >>Inside the building.
 .goto Stormwind City,43.11,63.72
 .train
@@ -1814,7 +1830,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -1825,16 +1841,16 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -1859,7 +1875,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Marshal Dughan
+.talk Marshal Dughan##240
 >>en:Right outside the blacksmith shop near the road.
 >>de:Direkt vor der Schmiede nahe der Straße.
 .goto Elwynn Forest,39.50,68.90
@@ -1869,7 +1885,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock and haveq(123)
 
 #step
-.talk Marshal Dughan
+.talk Marshal Dughan##240
 >>en:Right outside the blacksmith shop near the road.
 >>de:Direkt vor der Schmiede nahe der Straße.
 .goto Elwynn Forest,39.50,68.90
@@ -1879,7 +1895,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.18
 >>Leave the building
-.talk Sara Timberlain
+.talk Sara Timberlain##278
 >>en:Standing on the steps to a small house.
 >>de:Steht auf den Stufen eines kleinen Hauses.
 >>In front of the building.
@@ -1892,7 +1908,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.18
 >>Leave the building
-.kill 1 Surena Caledon
+.kill 1 Surena Caledon##881
 >>Inside the building.
 >>You will pull 3 enemies. Apply DoTs and Wand Surena. Put your pet on Morgan, and fear the third.
 >>Make a healthstone and don't forget to use it if needed.
@@ -1905,7 +1921,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.kill 1 Morgan the Collector
+.kill 1 Morgan the Collector##473
 .goto Elwynn Forest,71.02,80.78
 .complete 147,1 >>Collect The Collector's Ring
 .only Human and Warlock
@@ -1917,7 +1933,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock and not haveq(147)
 
 #step
-.talk Marshal Dughan
+.talk Marshal Dughan##240
 >>en:Right outside the blacksmith shop near the road.
 >>de:Direkt vor der Schmiede nahe der Straße.
 .goto Elwynn Forest,39.50,68.90
@@ -1927,7 +1943,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -1938,7 +1954,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.click the Bloodstone Choker
+.click the Bloodstone Choker##6928
 >>Use it while standing on the pink symbol on the ground.
 >>Downstairs inside the building, inside the crypt.
 .goto Stormwind City,25.11,77.46
@@ -1946,7 +1962,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Upstairs inside the building, in the basement above the crypt.
@@ -1970,7 +1986,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.04,34.49
 >>Enter the building
-.talk High Priestess Laurena
+.talk High Priestess Laurena##376
 >>Inside the building.
 .goto Stormwind City,38.58,26.01
 .turnin Desperate Prayer##5635
@@ -2001,10 +2017,12 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,44.55,73.89
 >>Enter the building
-.talk Lawrence Schneider
+.talk Lawrence Schneider##1300
 >>Inside the building.
 .goto Stormwind City,43.69,73.71
 .train
+.condition skillmax("Tailoring") >= 75 >>Learn Tailoring
+.optional
 .only Mage
 
 #step
@@ -2015,7 +2033,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Alexandra Bolero
+.talk Alexandra Bolero##1347
 >>en:She is inside of Duncan's Textiles behind the counter|
 >>de:Sie ist in Duncans Textilien hinter dem Tresen.|
 >>Inside the building.
@@ -2024,7 +2042,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Lawrence Schneider
+.talk Lawrence Schneider##1300
 >>Inside the building.
 .goto Stormwind City,43.69,73.71
 .train
@@ -2041,10 +2059,12 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.72,63.84
 >>Enter the building
-.talk Lucan Cordell
+.talk Lucan Cordell##1317
 >>Inside the building.
 .goto Stormwind City,42.94,64.65
 .train
+.condition skillmax("Enchanting") >= 75 >>Learn Enchanting
+.optional
 .only Mage
 
 #step
@@ -2060,7 +2080,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Jessara Cordell
+.talk Jessara Cordell##1318
 >>en:She is inside the enchanting supplies store behind the counter|
 >>de:Sie ist im Laden für Verzauberungsmaterial hinter dem Tresen.|
 >>Inside the building.
@@ -2078,7 +2098,7 @@ LLG.RegisterGuide([[
 .only Mage
 
 #step
-.talk Betty Quin
+.talk Betty Quin##11068
 >>Inside the building.
 .goto Stormwind City,43.11,63.72
 .train
@@ -2094,7 +2114,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,73.64,47.60
 >>Enter the building
-.talk Osric Strang
+.talk Osric Strang##1323
 >>Inside the building.
 .goto Stormwind City,74.32,47.24
 .turnin Continue to Stormwind##6281
@@ -2103,76 +2123,76 @@ LLG.RegisterGuide([[
 .only Human
 
 #step
-.talk Lyria Du Lac
+.talk Lyria Du Lac##913
 >>en:Standing next to an entrance to the blacksmith shop.
 >>de:Steht neben einem Eingang zur Schmiede.
 .goto Elwynn Forest,41.09,65.77
-.accept A Warrior's Training##1638
->>'
+.accept A Warrior's Training##1638 |or
+.condition completedq(1679) |or
 .only Human and Warrior
 
 #step
 .goto Stormwind City,71.66,39.89
 >>Enter the building
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
 .goto Stormwind City,74.25,37.26
 .turnin A Warrior's Training##1638
 .goto Stormwind City,74.25,37.26
-.accept Bartleby the Drunk##1639
->>'
+.accept Bartleby the Drunk##1639 |or
+.condition completedq(1678) |or
 .only Human and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
 .goto Stormwind City,73.83,37.17
 .turnin Bartleby the Drunk##1639
 .goto Stormwind City,73.83,37.17
-.accept Beat Bartleby##1640
->>'
+.accept Beat Bartleby##1640 |or
+.condition completedq(1678) |or
 >>He will attack you immediately after you accept this quest.
 .only Human and Warrior
 
 #step
-.kill 1 Bartleby
+.kill 1 Bartleby##6090
 >>He walks around this area inside the building.
 >>He will eventually surrender.
 .goto Stormwind City,73.83,37.17
-.complete 1640,1 >>Beat Bartleby
->>'
+.complete 1640,1 |or >>Beat Bartleby
+.condition completedq(1678) |or
 .only Human and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
 .goto Stormwind City,73.83,37.17
 .turnin Beat Bartleby##1640
 .goto Stormwind City,73.83,37.17
-.accept Bartleby's Mug##1665
->>'
+.accept Bartleby's Mug##1665 |or
+.condition completedq(1678) |or
 .only Human and Warrior
 
 #step
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
 .goto Stormwind City,74.25,37.26
-.turnin Bartleby's Mug##1665
->>'
+.turnin Bartleby's Mug##1665 |or
+.condition completedq(1678) |or
 .only Human and Warrior
 
 #step
 .goto Stormwind City,51.83,13.26
 >>Enter the building
-.talk Grimand Elmore
+.talk Grimand Elmore##1416
 >>en:Inside the shop, to the right, next to the staircase.
 >>de:Im Laden rechts, neben der Treppe.
 >>Inside the building.
@@ -2185,48 +2205,50 @@ LLG.RegisterGuide([[
 .goto Stormwind City,60.27,12.57
 >>Follow the path
 .goto Stormwind City,63.92,8.20
->>Enter the Deeprun Tram
+.condition subzone("Deeprun Tram") >>Enter the Deeprun Tram
 >>Walk into the swirling portal.
 
 #step
 >>Ride the Tram
 >>Ride the Deeprun Tram from Stormwind City to Ironforge.
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 >>We cannot give you an arrow to follow here as it is inside an instance.
 .accept Deeprun Rat Roundup##6661
 
 #step
-.click Rat Catcher's Flute
+.click Rat Catcher's Flute##17117
 >>Use it on Deeprun Rats around this area.
 >>They look like small grey rats on the ground around this area.
 >>In the Ironforge section of the Deeprun Tram.
 .complete 6661,1 >>Capture #5# Rats
 
 #step
-.talk Monty
+.talk Monty##12997
 >>On the middle platform, near the wall.
 >>In the Ironforge section of the Deeprun Tram.
 >>We cannot give you an arrow to follow here as it is inside an instance.
 .turnin Deeprun Rat Roundup##6661
 
 #step
->>Enter Ironforge
+.condition zone("Ironforge") >>Enter Ironforge
 >>Walk into the swirling portal to Monty's left.
 >>We cannot give you an arrow to follow here as it is inside an instance.
 
 #step
 .goto Ironforge,59.41,37.76
 >>Run up the stairs and enter the building
-.talk Daryl Riknussun
+.talk Daryl Riknussun##5159
 >>Inside the building.
 >>You need to have the Cooking profession learned in order to accept a quest soon.
 .goto Ironforge,60.08,36.43
 .train
+.condition skillmax("Cooking") >= 75 >>Learn Cooking
+.optional
 
 #step
-.talk Gryth Thurden
+.talk Gryth Thurden##1573
 >>en:Next to some eagles next to the Great Forge.
 >>de:Neben einigen Adlern bei der Großen Schmiede.
 .goto Ironforge,55.50,47.75
@@ -2235,26 +2257,28 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.31,88.15
 >>Run up the stairs and enter the building
-.talk Buliwyf Stonehand
+.talk Buliwyf Stonehand##11865
 >>Inside the building.
 >>This will allow you to equip two-handed maces.
 .goto Ironforge,61.17,89.52
 .train
+.condition weaponskill("TH_MACE") > 0 >>Train Two-Handed Maces
 .only Warrior
 
 #step
-.talk Bixi Wobblebonk
+.talk Bixi Wobblebonk##13084
 >>Inside the building.
 >>This will allow you to equip thrown weapons.
 >>Skip this if you'd prefer to just use other ranged weapons.
 .goto Ironforge,62.23,89.62
 .train
+.condition weaponskill("THROWN") > 0 >>Train Thrown
 .only Warrior
 
 #step
-.talk Brenwyn Wintersteel
+.talk Brenwyn Wintersteel##5120
 >>Downstairs inside the building.
-.kill 1 Small Throwing Knife
+.kill 1 Small Throwing Knife##2947
 >>If you can afford it.
 >>If you have better, skip this step.
 >>Skip this if you didn't learn the Throwing skill.
@@ -2265,7 +2289,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.97,48.83
 >>Enter the building
-.talk Razzle Sprysprocket
+.talk Razzle Sprysprocket##1269
 >>en:In the underground house with a big gear spinning on top of it.
 >>de:Im unterirdischen Haus mit einem großen drehenden Zahnrad oben drauf.
 >>Inside the building.
@@ -2274,7 +2298,7 @@ LLG.RegisterGuide([[
 .only level < 11
 
 #step
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.83
@@ -2287,7 +2311,7 @@ LLG.RegisterGuide([[
 .goto Dun Morogh,36.01,51.96
 >>Follow the path up
 >>Go out of your way to grind mobs en route to this quest.
-.talk Tundra MacGrann
+.talk Tundra MacGrann##1266
 >>On top of the mountain.
 >>As you travel to him, be careful to avoid the elite yeti that walks around this area.
 .goto Dun Morogh,34.57,51.65
@@ -2297,7 +2321,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,37.80,53.69
 >>Enter the cave
-.click MacGrann's Meat Locker
+.click MacGrann's Meat Locker##272
 >>Inside the cave.
 >>Wait for the elite yeti to leave the cave and walk away before you enter the cave.
 .goto Dun Morogh,38.51,53.93
@@ -2310,7 +2334,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,36.01,51.96
 >>Follow the path up
-.talk Tundra MacGrann
+.talk Tundra MacGrann##1266
 >>On top of the mountain.
 .goto Dun Morogh,34.57,51.65
 .turnin Tundra MacGrann's Stolen Stash##312
@@ -2339,14 +2363,14 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,25.07,50.99
 >>Leave the cave
-.kill 1 Leper Gnome
+.kill 1 Leper Gnome##1211
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Dun Morogh,25.64,43.33
 .complete 412,1 >>Collect 8 Restabilization Cog
 .only haveq(412)
 
 #step
-.kill 1 Leper Gnome
+.kill 1 Leper Gnome##1211
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Dun Morogh,25.64,43.33
 .complete 412,2 >>Collect 8 Gyromechanic Gear
@@ -2355,7 +2379,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,46.95,52.05
 >>Leave the building
-.talk Senir Whitebeard
+.talk Senir Whitebeard##1252
 >>en:In a small camp before you reach Kharanos, next to a tent and cart.
 >>de:In einem kleinen Lager vor Kharanos, neben einem Zelt und Karren.
 .goto Dun Morogh,46.73,53.82
@@ -2365,7 +2389,7 @@ LLG.RegisterGuide([[
 #step
 .goto Dun Morogh,45.97,48.84
 >>Enter the building
-.talk Razzle Sprysprocket
+.talk Razzle Sprysprocket##1269
 >>en:In the underground house with a big gear spinning on top of it.
 >>de:Im unterirdischen Haus mit einem großen drehenden Zahnrad oben drauf.
 >>Inside the building.
@@ -2374,7 +2398,7 @@ LLG.RegisterGuide([[
 .only readyq(412)
 
 #step
-.talk Rudra Amberstill
+.talk Rudra Amberstill##1265
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 .goto Dun Morogh,63.08,49.89
@@ -2403,7 +2427,7 @@ LLG.RegisterGuide([[
 .only not Paladin
 
 #step
-.talk Rudra Amberstill
+.talk Rudra Amberstill##1265
 >>en:Standing in front of a house.
 >>de:Steht vor einem Haus.
 .goto Dun Morogh,63.08,49.89
@@ -2411,14 +2435,14 @@ LLG.RegisterGuide([[
 .only readyq(314)
 
 #step
-.talk Senator Mehr Stonehallow
+.talk Senator Mehr Stonehallow##1977
 >>en:Standing near a tent.
 >>de:Steht nahe einem Zelt.
 .goto Dun Morogh,68.67,55.97
 .accept The Public Servant##433
 
 #step
-.talk Foreman Stonebrow
+.talk Foreman Stonebrow##1254
 >>en:Standing on a hill, overlooking a dig site.
 >>de:Steht auf einem Hügel mit Blick auf eine Ausgrabungsstätte.
 .goto Dun Morogh,69.08,56.33
@@ -2452,7 +2476,7 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Dun Morogh,67.86,57.69
 >>Follow the path up
-.talk Senator Mehr Stonehallow
+.talk Senator Mehr Stonehallow##1977
 >>en:Standing near a tent.
 >>de:Steht nahe einem Zelt.
 .goto Dun Morogh,68.67,55.97
@@ -2460,7 +2484,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Foreman Stonebrow
+.talk Foreman Stonebrow##1254
 >>en:Standing on a hill, overlooking a dig site.
 >>de:Steht auf einem Hügel mit Blick auf eine Ausgrabungsstätte.
 .goto Dun Morogh,69.08,56.33
@@ -2471,26 +2495,26 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Dun Morogh,81.21,42.70
 >>Follow the road and run through the tunnel
-.talk Pilot Hammerfoot
+.talk Pilot Hammerfoot##1960
 .goto Dun Morogh,83.89,39.19
 .accept The Lost Pilot##419
 .only walking and not subzone("North and Gate and Outpost")
 
 #step
-.click A Dwarven Corpse
+.click A Dwarven Corpse##2059
 .goto Dun Morogh,79.67,36.17
 .turnin The Lost Pilot##419
 .goto Dun Morogh,79.67,36.17
 .accept A Pilot's Revenge##417
 
 #step
-.kill 1 Mangeclaw
+.kill 1 Mangeclaw##1961
 >>He walks around this area.
 .goto Dun Morogh,78.31,37.76
 .complete 417,1 >>Collect Mangy Claw
 
 #step
-.talk Pilot Hammerfoot
+.talk Pilot Hammerfoot##1960
 .goto Dun Morogh,83.89,39.19
 .turnin A Pilot's Revenge##417
 
@@ -2499,7 +2523,7 @@ LLG.RegisterGuide([[
 >>Run through the tunnel
 .goto Loch Modan,23.53,17.89
 >>Enter the building
-.talk Mountaineer Stormpike
+.talk Mountaineer Stormpike##1343
 >>en:All the way up the stairs in the watch tower.
 >>de:Ganz oben über die Treppe im Wachturm.
 >>Upstairs inside the building.
@@ -2522,7 +2546,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,35.23,47.75
 >>Enter the building
-.talk Vidra Hearthstove
+.talk Vidra Hearthstove##1963
 >>en:Inside the inn, behind the bar.
 >>de:Im Gasthaus, hinter dem Tresen.
 >>Inside the building.
@@ -2530,14 +2554,14 @@ LLG.RegisterGuide([[
 .accept Thelsamar Blood Sausages##418
 
 #step
-.talk Yanni Stoutheart
+.talk Yanni Stoutheart##1682
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Loch Modan,34.76,48.62
 >>Visit the Vendor
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
@@ -2547,7 +2571,7 @@ LLG.RegisterGuide([[
 >>only haveq(1338) :: Drop Stormpike's Order and it should become available.
 
 #step
-.click Miners' League Crates
+.click Miners' League Crates##271
 >>They look like piles of brown boxes on the ground around this area inside the mine.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 >>only hardcore :: Tunnel Rat Geomancers are casters that deal heavy damage.
@@ -2575,7 +2599,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Mountaineer Stormpike
+.talk Mountaineer Stormpike##1343
 >>en:All the way up the stairs in the watch tower.
 >>de:Ganz oben über die Treppe im Wachturm.
 >>Upstairs inside the building.
@@ -2587,13 +2611,13 @@ LLG.RegisterGuide([[
 .accept Stormpike's Order##1338
 
 #step
-.kill 1 Mountain Boar
+.kill 1 Mountain Boar##1190
 .goto Loch Modan,36.99,34.36
 .collect Boar Intestines,3
 >>You can find more around [29.17,23.57]
 
 #step
-.kill 1 Forest Lurker
+.kill 1 Forest Lurker##1195
 .goto Loch Modan,35.69,31.78
 .collect Spider Ichor,3
 >>You can find more around:
@@ -2601,7 +2625,7 @@ LLG.RegisterGuide([[
 >>[29.43,48.28]
 
 #step
-.kill 1 Elder Black Bear
+.kill 1 Elder Black Bear##1186
 .goto Loch Modan,35.68,32.10
 .collect Bear Meat,3
 >>You can find more around:
@@ -2612,7 +2636,7 @@ LLG.RegisterGuide([[
 >>[28.09,40.94]
 
 #step
-.talk Vidra Hearthstove
+.talk Vidra Hearthstove##1963
 >>en:Inside the inn, behind the bar.
 >>de:Im Gasthaus, hinter dem Tresen.
 >>Inside the building.
@@ -2620,21 +2644,21 @@ LLG.RegisterGuide([[
 .turnin Thelsamar Blood Sausages##418
 
 #step
-.talk Mountaineer Kadrell
+.talk Mountaineer Kadrell##1340
 >>en:I found him here, but he wanders around town so some searching may be necessary.
 >>de:Ich habe ihn hier gefunden, aber er streift durch die Stadt, daher kann etwas Suchen nötig sein.
 >>He walks around this area.
 .turnin Rat Catching##416
 
 #step
-.talk Thorgrum Borrelson
+.talk Thorgrum Borrelson##1572
 >>en:Up on a hill in between a big eagle and a canopy.
 >>de:Oben auf einem Hügel zwischen einem großen Adler und einem Baldachin.
 .goto Loch Modan,33.94,50.95
 .fly Thelsamar
 
 #step
-.talk Mountaineer Cobbleflint
+.talk Mountaineer Cobbleflint##1089
 >>en:Standing to the side of the road on a small hill.
 >>de:Steht seitlich der Straße auf einem kleinen Hügel.
 .goto Loch Modan,22.07,73.12
@@ -2643,7 +2667,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.71,75.47
 >>Enter the building
-.talk Captain Rugelfuss
+.talk Captain Rugelfuss##1092
 >>en:All the way at the top of the big round building.
 >>de:Ganz oben auf dem großen runden Gebäude.
 >>Upstairs inside the building.
@@ -2683,7 +2707,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,30.57,69.69
 >>Leave Stonesplinter Valley and follow the road
-.talk Mountaineer Cobbleflint
+.talk Mountaineer Cobbleflint##1089
 >>en:Standing to the side of the road on a small hill.
 >>de:Steht seitlich der Straße auf einem kleinen Hügel.
 .goto Loch Modan,22.07,73.13
@@ -2693,7 +2717,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,23.71,75.45
 >>Enter the building
-.talk Captain Rugelfuss
+.talk Captain Rugelfuss##1092
 >>en:All the way at the top of the big round building.
 >>de:Ganz oben auf dem großen runden Gebäude.
 >>Upstairs inside the building.
@@ -2703,7 +2727,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.44,35.14
 >>Enter the building
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -2712,12 +2736,12 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.click the Tome of Divinity
+.click the Tome of Divinity##6775
 .accept The Tome of Divinity##1642
 .only Human and Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -2730,7 +2754,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.06,34.49
 >>Leave the building
-.talk Stephanie Turner
+.talk Stephanie Turner##6174
 >>en:Standing next to a sign post.
 >>de:Steht neben einem Wegweiser.
 .goto Stormwind City,57.08,61.74
@@ -2740,7 +2764,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Stephanie Turner
+.talk Stephanie Turner##6174
 >>en:Standing next to a sign post.
 >>de:Steht neben einem Wegweiser.
 >>You should already have 10 Linen Cloth from earlier in the guide.
@@ -2753,7 +2777,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.44,35.14
 >>Enter the building
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -2764,7 +2788,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Gazin Tenorm
+.talk Gazin Tenorm##6173
 >>en:Inside the cathedral, standing next to a table.
 >>de:In der Kathedrale, steht neben einem Tisch.
 >>Inside the building.
@@ -2777,11 +2801,11 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.06,34.49
 >>Leave the building
-.click the Symbol of Life
+.click the Symbol of Life##6866
 >>Use it on Henze Faulk's corpse.
 >>This will resurrect him and allow you to talk to him.
 >>Watch the dialogue
-.talk Henze Faulk
+.talk Henze Faulk##6172
 >>en:Laying on a small hill.
 >>de:Liegt auf einem kleinen Hügel.
 .goto Elwynn Forest,72.60,51.41
@@ -2791,7 +2815,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.kill 1 Defias Rogue Wizard
+.kill 1 Defias Rogue Wizard##474
 .goto Elwynn Forest,74.07,51.57
 .complete 1787,1 >>Collect Defias Script
 .only Human and Paladin
@@ -2799,7 +2823,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.44,35.14
 >>Enter the building
-.talk Gazin Tenorm
+.talk Gazin Tenorm##6173
 >>en:Inside the cathedral, standing next to a table.
 >>de:In der Kathedrale, steht neben einem Tisch.
 >>Inside the building.
@@ -2810,7 +2834,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -2819,7 +2843,7 @@ LLG.RegisterGuide([[
 .only Human and Paladin
 
 #step
-.talk Furen Longbeard
+.talk Furen Longbeard##5413
 >>en:Standing in a corner by himself.
 >>de:Standing in a corner by himself.
 .goto Stormwind City,58.09,16.53
@@ -2828,7 +2852,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,62.42,62.28
 >>Run up the ramp
-.talk Dungar Longdrink
+.talk Dungar Longdrink##352
 >>en:Up the ramp by the huge eagle in the Trade District.
 >>de:Oben auf der Rampe beim riesigen Adler im Handelsdistrikt.
 >>Inside the building.
@@ -2845,10 +2869,10 @@ LLG.RegisterGuide([[
 >>only not selfmade :: You can use the Auction House to acquire one, or craft one yourself if you are able.
 >>only selfmade :: You can also craft one yourself if you are able.
 .click Here to Continue
-.only Priest
+.only Priest and itemcount(11288) == 0
 
 #step
-.talk Innkeeper Heather
+.talk Innkeeper Heather##8931
 .goto Westfall,52.86,53.72
 .complete 102 >>Collect 40 Longjaw Mud Snapper
 >>This food is extremely cheap compared to most.
@@ -2856,21 +2880,21 @@ LLG.RegisterGuide([[
 .only Warrior or Rogue
 
 #step
-.talk Scout Galiaan
+.talk Scout Galiaan##878
 >>en:Right in front of the woodworking shop.
 >>de:Direkt vor der Schreinerei.
 .goto Westfall,53.98,52.98
 .accept Red Leather Bandanas##153
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
 .accept The People's Militia##12
 
 #step
-.talk Captain Danuvin
+.talk Captain Danuvin##821
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.42,47.62
@@ -2879,7 +2903,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.51,47.40
 >>Enter the building
-.talk Quartermaster Lewis
+.talk Quartermaster Lewis##491
 >>Inside the building.
 .goto Westfall,57.00,47.17
 .turnin Return to Lewis##6285
@@ -2915,7 +2939,7 @@ LLG.RegisterGuide([[
 >>[46.51,38.74]
 
 #step
-.click Furlbrow's Wardrobe
+.click Furlbrow's Wardrobe##290
 >>Clear the area before trying to complete this quest.
 >>It looks like a dark colored tall piece of furniture inside the building - but don't go inside the building.
 >>Be careful to avoid the doorway of the building, so you don't aggro the enemies inside.
@@ -2992,7 +3016,7 @@ LLG.RegisterGuide([[
 >>[49.44,27.31]
 
 #step
-.click Sack of Oats
+.click Sack of Oats##2724
 >>They look like tan grain bags on the ground around this area.
 >>They are spread out around Westfall, usually concentrated near and around farm areas.
 >>Keep an eye out for these as you run around completing other quests.
@@ -3002,21 +3026,21 @@ LLG.RegisterGuide([[
 >>[57.38,18.41]
 
 #step
-.talk Verna Furlbrow
+.talk Verna Furlbrow##238
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.92,19.42
 .turnin Poor Old Blanchy##151
 
 #step
-.talk Farmer Furlbrow
+.talk Farmer Furlbrow##237
 >>en:To the right of the road next to a horse and broken down cart.
 >>de:Rechts der Straße, neben einem Pferd und einem kaputten Karren.
 .goto Westfall,59.95,19.36
 .turnin The Forgotten Heirloom##64
 
 #step
-.kill 1 Harvest Watcher
+.kill 1 Harvest Watcher##114
 .goto Westfall,53.89,32.26
 .complete 38,4 >>Collect 3 Okra
 >>Make sure not to sell these to a vendor.
@@ -3025,7 +3049,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.05
 >>Enter the building
-.talk Salma Saldean
+.talk Salma Saldean##235
 >>en:Inside the house right next to the fireplace.
 >>de:Im Haus, direkt neben dem Kamin.
 >>Inside the building.
@@ -3035,7 +3059,7 @@ LLG.RegisterGuide([[
 #step
 .goto Westfall,56.15,31.05
 >>Enter the building
-.talk Salma Saldean
+.talk Salma Saldean##235
 >>en:Inside the house right next to the fireplace.
 >>de:Im Haus, direkt neben dem Kamin.
 >>Inside the building.
@@ -3055,7 +3079,7 @@ LLG.RegisterGuide([[
 >>You can find more around [51.03,22.94]
 
 #step
-.talk Farmer Saldean
+.talk Farmer Saldean##233
 >>en:Right in front of the steps to enter the house.
 >>de:Direkt vor den Stufen zum Hauseingang.
 .goto Westfall,56.04,31.23
@@ -3065,51 +3089,51 @@ LLG.RegisterGuide([[
 .only readyq(9)
 
 #step
-.talk Captain Danuvin
+.talk Captain Danuvin##821
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.42,47.62
 .turnin Patrolling Westfall##102
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
 .turnin The People's Militia##12
 
 #step
-.talk Gryan Stoutmantle
+.talk Gryan Stoutmantle##234
 >>en:Right in front of the big tower.
 >>de:Direkt vor dem großen Turm.
 .goto Westfall,56.33,47.52
 .accept The Defias Brotherhood##65
 
 #step
-.talk Quartermaster Lewis
+.talk Quartermaster Lewis##491
 >>Inside the building.
 >>If you can afford it, and you need more bag space, buy bags.
 .goto Westfall,57.00,47.17
 >>Visit the Vendor
 
 #step
-.talk Scout Galiaan
+.talk Scout Galiaan##878
 >>en:Right in front of the woodworking shop.
 >>de:Direkt vor der Schreinerei.
 .goto Westfall,53.99,52.98
 .turnin Red Leather Bandanas##153
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -3153,7 +3177,7 @@ LLG.RegisterGuide([[
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Wetlands,11.72,43.30
 .only not hardcore
@@ -3161,11 +3185,11 @@ LLG.RegisterGuide([[
 #step
 .goto Wetlands,10.25,56.45
 >>Enter Menethil Harbor and the building
-.talk Neal Allen
+.talk Neal Allen##1448
 >>en:Go inside the keep and take a left. He is in the first room on the left.|
 >>de:Geh in die Burg und dann links. Er ist im ersten Raum links.|
 >>Inside the building.
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
@@ -3184,16 +3208,16 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -3287,7 +3311,7 @@ LLG.RegisterGuide([[
 >>[9.37,61.86]
 
 #step
-.talk Shellei Brondir
+.talk Shellei Brondir##1571
 >>en:Next to a canopy and two big eagles.
 >>de:Neben einem Baldachin und zwei großen Adlern.
 .goto Wetlands,9.49,59.69

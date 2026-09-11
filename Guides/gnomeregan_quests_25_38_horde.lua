@@ -21,19 +21,19 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,75.22,24.61
 >>Enter the building
-.talk Nogg
+.talk Nogg##3412
 >>Inside the building.
 .goto Orgrimmar,76.00,25.42
 .accept Rig Wars##2841
 
 #step
-.talk Sovik
+.talk Sovik##3413
 >>Inside the building.
 .goto Orgrimmar,75.49,25.35
 .accept Chief Engineer Scooty##2842
 
 #step
-.talk Scooty
+.talk Scooty##7853
 .goto Stranglethorn Vale,27.60,77.48
 .turnin Chief Engineer Scooty##2842
 .goto Stranglethorn Vale,27.60,77.48
@@ -44,7 +44,7 @@ LLG.RegisterGuide([[
 .complete 2843,1 >>Wait for Scooty to Calibrate the Goblin Transponder
 
 #step
-.talk Scooty
+.talk Scooty##7853
 .goto Stranglethorn Vale,27.60,77.48
 .turnin Gnomer-gooooone!##2843
 
@@ -61,14 +61,14 @@ LLG.RegisterGuide([[
 >>Enter the Gnomeregan Dungeon with Your Group
 
 #step
-.kill 1 Mekgineer Thermaplugg
+.kill 1 Mekgineer Thermaplugg##7800
 >>He is the last boss of the dungeon.
 >>Follow the path west through The Hall of Gears to enter the Launch Bay.
 >>Continue southwest through the Launch Bay and follow the path to reach Tinkers' Court.
 .complete 2841,2 >>Collect Thermaplugg's Safe Combination
 
 #step
-.click Thermaplugg's Safe
+.click Thermaplugg's Safe##142477
 >>It's near the back wall of the third pillar from the right in the room with Mekgineer Thermaplugg.
 .complete 2841,1 >>Collect Rig Blueprints
 
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,75.22,24.61
 >>Enter the building
-.talk Nogg
+.talk Nogg##3412
 >>Inside the building.
 .goto Orgrimmar,76.00,25.42
 .turnin Rig Wars##2841

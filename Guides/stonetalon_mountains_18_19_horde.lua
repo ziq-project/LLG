@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,40.17,24.03
 >>Follow the path to Stonetalon Mountains
-.talk Seereth Stonebreak
+.talk Seereth Stonebreak##4049
 >>en:In a small camp to the side of the road.
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.26,27.88
@@ -28,7 +28,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Makaba Flathoof
+.talk Makaba Flathoof##11857
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.19,27.79
 .accept Avenge My Village##6548
@@ -47,7 +47,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,80.52,93.47
 >>Follow the path
-.talk Makaba Flathoof
+.talk Makaba Flathoof##11857
 >>de:In a small camp to the side of the road.
 .goto The Barrens,35.19,27.79
 .turnin Avenge My Village##6548
@@ -77,7 +77,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,73.64,86.09
 >>Enter the building
-.talk Kaya Flathoof
+.talk Kaya Flathoof##11856
 >>Inside the building.
 >>This is an escort quest.
 >>If she's not here, someone may be escorting her.
@@ -98,7 +98,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,72.13,90.84
 >>Follow the path
-.talk Xen'Zilla
+.talk Xen'Zilla##12816
 >>en:Standing in a troll hut.
 >>de:Steht in einer Trollhütte.
 >>Inside the building.
@@ -114,14 +114,14 @@ LLG.RegisterGuide([[
 >>You can find more up the path that starts at [58.08,76.04]
 
 #step
-.talk Jeeda
+.talk Jeeda##4083
 >>Upstairs in the inn.
 >>She can sell healing potions as a limited supply item, check if they are in stock.
 .goto Stonetalon Mountains,47.61,61.59
 .vendor
 
 #step
-.talk Tharm
+.talk Tharm##4312
 >>en:Standing near the pond.
 >>de:Steht nahe dem Teich.
 .goto Stonetalon Mountains,45.13,59.84
@@ -132,7 +132,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Stonetalon Mountains,59.04,62.24
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.
@@ -143,7 +143,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.click Deepmoss Eggs
+.click Deepmoss Eggs##19541
 >>They look like large white eggs on the ground around this area.
 >>Sometimes enemies will spawn after looting them.
 .goto Stonetalon Mountains,61.74,61.21
@@ -155,17 +155,17 @@ LLG.RegisterGuide([[
 >>They look like green spiders.
 
 #step
-.talk Veenix
-.kill 1 Kris
+.talk Veenix##4086
+.kill 1 Kris##2209
 >>If you can afford it.
 >>You will be able to use it at level 19 soon.
 >>If you have better, skip this step.
 .goto Stonetalon Mountains,58.22,51.74
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2209) == 0
 
 #step
-.kill 1 Venture Co. Operator
+.kill 1 Venture Co. Operator##3988
 .goto Stonetalon Mountains,62.33,53.49
 .complete 1093,1 >>Collect Super Reaper 6000 Blueprints
 >>You can find more around:
@@ -186,7 +186,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stonetalon Mountains,59.04,62.24
 >>Enter the building
-.talk Ziz Fizziks
+.talk Ziz Fizziks##4201
 >>en:Standing inside a green hut.
 >>de:Steht in einer grünen Hütte.
 >>Inside the building.

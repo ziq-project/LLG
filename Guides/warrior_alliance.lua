@@ -18,43 +18,43 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Lyria Du Lac
+.talk Lyria Du Lac##913
 >>en:Standing next to an entrance to the blacksmith shop.
 >>de:Steht neben einem Eingang zur Schmiede.
 .goto Elwynn Forest,41.09,65.77
-.accept A Warrior's Training##1638
->>'
+.accept A Warrior's Training##1638 |or
+.condition completedq(1679) |or
 .only Human and Warrior
 
 #step
 .goto Stormwind City,71.60,39.93
 >>Enter the building
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
 .goto Stormwind City,74.25,37.26
 .turnin A Warrior's Training##1638
 .goto Stormwind City,74.25,37.26
-.accept Bartleby the Drunk##1639
->>'
+.accept Bartleby the Drunk##1639 |or
+.condition completedq(1678) |or
 .only Human and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
 .goto Stormwind City,73.83,37.17
 .turnin Bartleby the Drunk##1639
 .goto Stormwind City,73.83,37.17
-.accept Beat Bartleby##1640
->>'
+.accept Beat Bartleby##1640 |or
+.condition completedq()
 >>He will attack you immediately after you accept this quest.
 .only Human and Warrior
 
 #step
-.talk Bartleby
+.talk Bartleby##6090
 >>en:He's standing in a tavern, next to the bar.
 >>de:Er steht in einer Taverne, neben dem Tresen.
 >>He walks around this area inside the building.
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 .only Human and Warrior
 
 #step
-.talk Harry Burlguard
+.talk Harry Burlguard##6089
 >>en:In a tavern, standing next to the bar.
 >>de:In a tavern, standing next to the bar.
 >>Inside the building.
@@ -74,46 +74,46 @@ LLG.RegisterGuide([[
 .only Human and Warrior
 
 #step
-.talk Granis Swiftaxe
+.talk Granis Swiftaxe##1229
 >>en:Inside the inn, standing next to the bar. He is the Warrior Class Trainer.
 >>de:Im Gasthaus, steht neben dem Tresen. Er ist der Krieger-Klassentrainer.
 >>Inside the building.
 .goto Dun Morogh,47.36,52.65
-.accept Muren Stormpike##1679
->>'
+.accept Muren Stormpike##1679 |or
+.condition completedq(1638) |or
 
 #step
-.talk Muren Stormpike
+.talk Muren Stormpike##6114
 >>en:Upstairs, standing next to a round battlefield map.
 >>de:Upstairs, standing next to a round battlefield map.
 >>Upstairs inside the building.
 .goto Ironforge,70.78,90.27
 .turnin Muren Stormpike##1679
 .goto Ironforge,70.78,90.27
-.accept Vejrek##1678
->>'
+.accept Vejrek##1678 |or
+.condition completedq(1665) |or
 
 #step
 .goto Dun Morogh,27.97,56.18
 >>Follow the path up
-.kill 1 Vejrek
+.kill 1 Vejrek##6113
 >>Inside the hut.
 .goto Dun Morogh,27.83,57.95
-.complete 1678,1 >>Collect Vejrek's Head
->>'
+.complete 1678,1 |or >>Collect Vejrek's Head
+.condition completedq(1665)
 .only walking
 
 #step
-.talk Muren Stormpike
+.talk Muren Stormpike##6114
 >>en:Upstairs, standing next to a round battlefield map.
 >>de:Upstairs, standing next to a round battlefield map.
 >>Upstairs inside the building.
 .goto Ironforge,70.78,90.29
-.turnin Vejrek##1678
->>'
+.turnin Vejrek##1678 |or
+.condition completedq(1665)
 
 #step
-.talk Kyra Windblade
+.talk Kyra Windblade##3598
 >>en:Inside the inn, standing next to the front desk.
 >>de:Inside the inn, standing next to the front desk.
 .goto Teldrassil,56.22,59.19
@@ -121,7 +121,7 @@ LLG.RegisterGuide([[
 .only NightElf and Warrior
 
 #step
-.talk Elanaria
+.talk Elanaria##4088
 >>en:Standing on a balcony, overlooking the lake.
 >>de:Steht auf einem Balkon mit Blick auf den See.
 .goto Darnassus,57.29,34.61
@@ -137,13 +137,13 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Teldrassil,47.98,64.47
 >>Continue up the path
-.kill 1 Vorlus Vilehoof
+.kill 1 Vorlus Vilehoof##6128
 .goto Teldrassil,47.26,63.52
 .complete 1683,1 >>Collect Horn of Vorlus
 .only NightElf and Warrior
 
 #step
-.talk Elanaria
+.talk Elanaria##4088
 >>en:Standing on a balcony, overlooking the lake.
 >>de:Steht auf einem Balkon mit Blick auf den See.
 .goto Darnassus,57.29,34.61
@@ -164,7 +164,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,77.97,48.19
 >>Enter the building
-.talk Wu Shen
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
 >>Upstairs inside the building.
@@ -173,7 +173,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -188,7 +188,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Affray Challenger
+.kill 1 Affray Challenger##6240
 >>You will have to kill six of them before Big Will will appear.
 >>They will fight them one at a time.
 >>only hardcore :: Avoid using AoE abilities as they may aggro the other affray contestants.
@@ -201,7 +201,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -219,7 +219,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -229,7 +229,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,70.63,10.06
 >>Follow the path
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin The Windwatcher##1791
 .goto Alterac Mountains,80.50,66.92
@@ -237,19 +237,19 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Burning Exile
+.kill 1 Burning Exile##2760
 .goto Arathi Highlands,26.60,31.80
 .collect Burning Charm,8
 .only Warrior
 
 #step
-.kill 1 Thundering Exile
+.kill 1 Thundering Exile##2762
 .goto Arathi Highlands,52.60,52.20
 .collect Thundering Charm,8
 .only Warrior
 
 #step
-.kill 1 Cresting Exile
+.kill 1 Cresting Exile##2761
 .goto Arathi Highlands,68.00,30.00
 .collect Cresting Charm,8
 .only Warrior
@@ -261,7 +261,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.click Bath'rah's Cauldron
+.click Bath'rah's Cauldron##89931
 .goto Alterac Mountains,79.31,66.81
 .accept Essence of the Exile##1714
 .goto Alterac Mountains,79.31,66.81
@@ -276,7 +276,7 @@ LLG.RegisterGuide([[
 .only Warrior and hardcore
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin Cyclonian##1712
 .goto Alterac Mountains,80.50,66.92
@@ -286,7 +286,7 @@ LLG.RegisterGuide([[
 #step
 >>Follow Bath'rah the Windwatcher
 >>Watch the Dialogue
-.kill 1 Cyclonian
+.kill 1 Cyclonian##6239
 >>You may need help with this.
 >>only hardcore :: This is a level 40 Elite enemy.
 .goto Alterac Mountains,80.57,62.56
@@ -294,7 +294,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin The Summoning##1713
 .goto Alterac Mountains,80.50,66.92
@@ -307,7 +307,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,77.97,48.19
 >>Enter the building
-.talk Wu Shen
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
 >>Upstairs inside the building.
@@ -316,7 +316,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15
@@ -331,7 +331,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15
@@ -359,7 +359,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15
@@ -418,7 +418,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15

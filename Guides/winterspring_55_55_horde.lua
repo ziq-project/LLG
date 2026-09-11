@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Felwood,68.40,5.84
 >>Leave the tunnel
-.talk Donova Snowden
+.talk Donova Snowden##9298
 >>en:Standing in a small camp, next to a tent and campfire, near a small lake.
 >>de:Standing in a small camp, next to a tent and campfire, near a small lake.
 .goto Winterspring,31.27,45.16
@@ -70,7 +70,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,60.56,38.20
 >>Enter Everlook
-.talk Umi Rumplesnicker
+.talk Umi Rumplesnicker##10305
 >>en:Standing next to a broken down robot, under a blue canopy.
 >>de:Standing next to a broken down robot, under a blü canopy.
 .goto Winterspring,60.88,37.62
@@ -99,7 +99,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,60.56,38.20
 >>Enter Everlook
-.talk Umi Rumplesnicker
+.talk Umi Rumplesnicker##10305
 >>en:Standing next to a broken down robot, under a blue canopy.
 >>de:Standing next to a broken down robot, under a blü canopy.
 .goto Winterspring,60.88,37.62
@@ -109,21 +109,21 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,61.32,38.72
 >>Enter the building
-.talk Innkeeper Vizzie
+.talk Innkeeper Vizzie##11118
 >>Inside the building.
 .goto Winterspring,61.36,38.83
 .hs
 
 #step
-.click the Videre Elixir
+.click the Videre Elixir##11243
 >>only not hardcore :: You will die.
 >>only hardcore :: It will bring you to 1 hp, make sure no other enemies are nearby that could hit you.
 >>only hardcore :: This quest was updated to no longer kill you on Hardcore servers
 .goto Tanaris,54.03,28.73
->>Drink the Videre Elixir
+.condition isdead >>Drink the Videre Elixir
 
 #step
-.talk Gaeriyan
+.talk Gaeriyan##9299
 >>en:He is a ghost that walks in this little spot.
 >>de:Er ist ein Geist, der in diesem kleinen Bereich umherläuft.
 >>He looks like a human ghost that walks around this small area.
@@ -156,7 +156,7 @@ LLG.RegisterGuide([[
 .accept Linken's Sword##3914
 
 #step
-.talk Linken
+.talk Linken##8737
 >>en:Standing inside a hollowed out tree.
 >>de:Steht in einem ausgehöhlten Baum.
 .goto Un'Goro Crater,44.66,8.10
@@ -167,7 +167,7 @@ LLG.RegisterGuide([[
 #step
 .goto Un'Goro Crater,43.47,6.79
 >>Enter the cave
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -176,7 +176,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk J.D. Collie
+.talk J.D. Collie##9117
 >>en:Standing in the very back of the cave, next to a bunch of huge colorful crystals.
 >>de:Steht ganz hinten in der Höhle, neben vielen riesigen bunten Kristallen.
 >>Inside the cave.
@@ -184,7 +184,7 @@ LLG.RegisterGuide([[
 .accept Linken's Memory##3942
 
 #step
-.talk Gregor Greystone
+.talk Gregor Greystone##10431
 >>en:Standing inside the inn, next to some tables with a bunch of food on them.
 >>de:Standing inside the inn, next to some tables with a bunch of food on them.
 >>Inside the building.
@@ -194,7 +194,7 @@ LLG.RegisterGuide([[
 .accept Duke Nicholas Zverenhoff##6030
 
 #step
-.talk Jessica Redpath
+.talk Jessica Redpath##11629
 >>en:Standing inside the inn, next to some tables with a bunch of food on them.
 >>de:Standing inside the inn, next to some tables with a bunch of food on them.
 >>Inside the building.
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 #step
 .goto Winterspring,61.33,37.35
 >>Enter the building
-.talk Izzy Coppergrab
+.talk Izzy Coppergrab##13917
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Winterspring,61.45,36.98

@@ -19,13 +19,13 @@ LLG.RegisterGuide([[
 >>You can find them all over around Crossroads and to its northern area.
 .goto The Barrens,50.21,21.82
 .collect Small Furry Paw,5
-.talk Yebb Neblegear
+.talk Yebb Neblegear##14829
 .goto Elwynn Forest,40.17,69.53
-.accept Small Furry Paws##7899
+.accept Small Furry Paws##7899 |or
 >>Each turnin requires 5 Small Furry Paws and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 1 Darkmoon Faire Prize Ticket.
 >>You can turn this quest in until you reach 500 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 500 |or
 
 #step
 >>Reach Level 10
@@ -38,13 +38,13 @@ LLG.RegisterGuide([[
 .goto Ashenvale,66.01,60.42
 .collect Torn Bear Pelt,5
 >>You can find more around [83.81,47.40]
-.talk Yebb Neblegear
+.talk Yebb Neblegear##14829
 .goto Elwynn Forest,40.17,69.53
-.accept Torn Bear Pelts##7900
+.accept Torn Bear Pelts##7900 |or
 >>Each turnin requires 5 Torn Bear Pelts and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 4 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 1,100 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 1100 |or
 
 #step
 >>Reach Level 20
@@ -56,13 +56,13 @@ LLG.RegisterGuide([[
 .goto Badlands,34.41,65.63
 .collect Soft Bushy Tail,5
 >>You can find more around [57.00,58.62]
-.talk Yebb Neblegear
+.talk Yebb Neblegear##14829
 .goto Elwynn Forest,40.17,69.53
-.accept Soft Bushy Tails##7901
+.accept Soft Bushy Tails##7901 |or
 >>Each turnin requires 5 Soft Bushy Tails and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 8 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 1,700 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 1700 |or
 
 #step
 >>Reach Level 30
@@ -72,13 +72,13 @@ LLG.RegisterGuide([[
 .kill 1 Northspring enemies around this area
 .goto Feralas,40.00,12.61
 .collect Vibrant Plume,5
-.talk Yebb Neblegear
+.talk Yebb Neblegear##14829
 .goto Elwynn Forest,40.17,69.53
-.accept Vibrant Plumes##7902
+.accept Vibrant Plumes##7902 |or
 >>Each turnin requires 5 Vibrant Plumes and grants 100 reputation with the Darkmoon Faire.
 >>Each of these turnins will award 12 Darkmoon Faire Prize Tickets.
 >>You can turn this quest in until you reach 2,500 Neutral reputation.
->>'
+.condition repval('Darkmoon Faire','Neutral') >= 2500 |or
 
 #step
 >>Reach Level 40
@@ -91,7 +91,7 @@ LLG.RegisterGuide([[
 .collect Glowing Scorpid Blood,10
 
 #step
-.talk Yebb Neblegear
+.talk Yebb Neblegear##14829
 .goto Elwynn Forest,40.17,69.53
 .accept Glowing Scorpid Blood##8222
 
@@ -100,7 +100,7 @@ LLG.RegisterGuide([[
 >>You can find them all over central and southern Silithus.
 .goto Silithus,44.81,54.50
 .collect Glowing Scorpid Blood,10
-.talk Yebb Neblegear
+.talk Yebb Neblegear##14829
 .goto Elwynn Forest,40.17,69.53
 .accept More Glowing Scorpid Blood##8223
 >>From this point on, you can continue turning in Glowing Scorpid Blood.

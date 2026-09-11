@@ -15,7 +15,7 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Drusilla La Salle
+.talk Drusilla La Salle##459
 >>en:Standing in the graveyard, next to the wall.
 >>de:Steht auf dem Friedhof, neben der Maür.
 .goto Elwynn Forest,49.87,42.65
@@ -23,13 +23,13 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.click Stolen Books
+.click Stolen Books##83763
 .goto Elwynn Forest,56.71,43.95
 .complete 1598,1 >>Collect Powers of the Void
 .only Human and Warlock
 
 #step
-.talk Drusilla La Salle
+.talk Drusilla La Salle##459
 >>en:Standing in the graveyard, next to the wall.
 >>de:Steht auf dem Friedhof, neben der Maür.
 .goto Elwynn Forest,49.87,42.65
@@ -37,7 +37,7 @@ LLG.RegisterGuide([[
 .only Human and Warlock
 
 #step
-.talk Alamar Grimm
+.talk Alamar Grimm##460
 >>en:In the very back room of Anvilmar, standing upstairs on a bear rug.
 >>de:Im hintersten Raum von Ambossar, oben auf einem Bärenfell.
 >>Upstairs inside the building.
@@ -50,7 +50,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Dun Morogh,28.00,81.05
 >>Follow the path
-.kill 1 Frostmane Novice
+.kill 1 Frostmane Novice##946
 >>Inside the cave.
 >>There's only a few of them.
 .goto Dun Morogh,28.73,82.58
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
-.talk Alamar Grimm
+.talk Alamar Grimm##460
 >>en:In the very back room of Anvilmar, standing upstairs on a bear rug.
 >>de:Im hintersten Raum von Ambossar, oben auf einem Bärenfell.
 >>Upstairs inside the building.
@@ -83,7 +83,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Dun Morogh,53.47,34.90
 >>Enter Ironforge
-.talk Lago Blackwrench
+.talk Lago Blackwrench##6120
 >>en:Standing next to some stairs.
 >>de:Standing next to some stairs.
 .goto Ironforge,47.63,9.26
@@ -114,7 +114,7 @@ LLG.RegisterGuide([[
 >>Enter the building
 .goto Stormwind City,27.42,76.42
 >>Follow the path down
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -142,7 +142,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Elwynn Forest,70.93,80.43
 >>Enter the building
-.kill 1 Surena Caledon
+.kill 1 Surena Caledon##881
 >>Inside the building.
 >>only hardcore :: There are other enemies inside the building that will pull with her.
 >>only hardcore :: If you clear the outer area, you might be able to utilize fear.
@@ -160,7 +160,7 @@ LLG.RegisterGuide([[
 >>Enter Stormwind City
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -180,7 +180,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,26.15,79.33
 >>Run down the stairs
-.click the Bloodstone Choker
+.click the Bloodstone Choker##6928
 >>Use it while standing on the pink symbol on the ground.
 >>Downstairs inside the building, inside the crypt.
 .goto Stormwind City,25.11,77.46
@@ -196,7 +196,7 @@ LLG.RegisterGuide([[
 .only Gnome and Warlock
 
 #step
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Upstairs inside the building, in the basement above the crypt.
@@ -207,7 +207,7 @@ LLG.RegisterGuide([[
 #step
 .goto Elwynn Forest,38.90,68.40
 >>Enter the building
-.talk Remen Marcot
+.talk Remen Marcot##6121
 >>en:Standing in the basement of the inn.
 >>de:Steht im Keller des Gasthauses.
 >>Downstairs inside the building.
@@ -218,7 +218,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -246,7 +246,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Elwynn Forest,70.93,80.43
 >>Enter the building
-.kill 1 Surena Caledon
+.kill 1 Surena Caledon##881
 >>Inside the building.
 >>only hardcore :: There are other enemies inside the building that will pull with her.
 >>only hardcore :: If you clear the outer area, you might be able to utilize fear.
@@ -264,7 +264,7 @@ LLG.RegisterGuide([[
 >>Enter Stormwind City
 .goto Stormwind City,29.15,74.18
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -281,7 +281,7 @@ LLG.RegisterGuide([[
 >>Run down the stairs
 .goto Stormwind City,26.15,79.33
 >>Run down the stairs
-.click the Bloodstone Choker
+.click the Bloodstone Choker##6928
 >>Use it while standing on the pink symbol on the ground.
 >>Downstairs inside the building, inside the crypt.
 .goto Stormwind City,25.11,77.46
@@ -294,7 +294,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Stormwind City,23.31,79.68
 >>Run up the stairs
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Upstairs inside the building, in the basement above the crypt.
@@ -306,7 +306,7 @@ LLG.RegisterGuide([[
 .level 20
 
 #step
-.talk Lago Blackwrench
+.talk Lago Blackwrench##6120
 >>en:Standing next to some stairs.
 >>de:Standing next to some stairs.
 .goto Ironforge,47.62,9.26
@@ -316,7 +316,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.14,74.17
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -335,7 +335,7 @@ LLG.RegisterGuide([[
 >>Enter Ashenvale
 .goto Ashenvale,29.63,17.12
 >>Follow the road
-.talk Daelyshia
+.talk Daelyshia##4267
 >>en:Over the bridge, to the left, near the water.
 >>de:Über die Brücke, links, nahe am Wasser.
 .goto Ashenvale,34.41,47.99
@@ -355,7 +355,7 @@ LLG.RegisterGuide([[
 >>Avoid the Crossroads
 .goto The Barrens,50.43,37.77
 >>Follow the road
-.talk Takar the Seer
+.talk Takar the Seer##6244
 >>en:Standing in front of a tent.
 >>de:Standing in front of a tent.
 .goto The Barrens,49.31,57.10
@@ -379,7 +379,7 @@ LLG.RegisterGuide([[
 >>Continue following the road
 .goto Ashenvale,26.14,35.41
 >>Follow the path
-.click Heartswood
+.click Heartswood##93192
 .goto Ashenvale,31.49,31.45
 .complete 1738,1 >>Collect Heartswood
 .only Warlock
@@ -389,7 +389,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Stormwind City,29.14,74.17
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Downstairs inside the building.
@@ -406,7 +406,7 @@ LLG.RegisterGuide([[
 >>Run down the stairs
 .goto Stormwind City,26.16,79.32
 >>Run down the stairs
-.click the Heartswood Core
+.click the Heartswood Core##6913
 >>Use it while standing on the pink symbol on the ground.
 >>Downstairs inside the building, inside the crypt.
 .goto Stormwind City,25.11,77.46
@@ -418,7 +418,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Stormwind City,23.31,79.68
 >>Run up the stairs
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Upstairs inside the building, in the basement above the crypt.
@@ -432,7 +432,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.10,74.17
 >>Enter the building
-.talk Gakin the Darkbinder
+.talk Gakin the Darkbinder##6122
 >>en:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>de:Standing down the spiral ramp int he basement of The Slaughtered Lamb shop, next to a bonfire.
 >>Inside the building.
@@ -443,7 +443,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,61.93,36.72
 >>Follow the path up
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Seeking Strahad##1798
 .goto The Barrens,62.63,35.50
@@ -451,7 +451,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Krom Stoutarm
+.talk Krom Stoutarm##6294
 >>Inside the building.
 .goto Ironforge,74.21,9.42
 .turnin Tome of the Cabal##1758
@@ -462,7 +462,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,36.94,65.37
 >>Follow the path down
-.click Tome of the Cabal
+.click Tome of the Cabal##92013
 >>It looks like a blue book on the ground next to some crates.
 >>only hardcore :: Try to pull the murlocs away one at a time when possible.
 .goto Hillsbrad Foothills,27.78,72.78
@@ -472,13 +472,13 @@ LLG.RegisterGuide([[
 #step
 .goto Thousand Needles,44.09,37.29
 >>Enter the cave
-.click Damaged Chest
+.click Damaged Chest##92423
 .goto Thousand Needles,43.43,32.69
 .complete 1802,2 >>Collect Tattered Manuscript
 .only Warlock
 
 #step
-.talk Krom Stoutarm
+.talk Krom Stoutarm##6294
 >>Inside the building.
 .goto Ironforge,74.21,9.42
 .turnin Tome of the Cabal##1802
@@ -499,7 +499,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,61.93,36.72
 >>Follow the path up
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Tome of the Cabal##1804
 .goto The Barrens,62.63,35.50
@@ -507,14 +507,14 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.click the Tome of the Cabal
+.click the Tome of the Cabal##6999
 >>Use it inside the building.
 .goto The Barrens,62.60,35.28
 .complete 1471,1 >>Kill Summoned Felhunter
 .only Warlock
 
 #step
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin The Binding##1471
 .only Warlock
@@ -525,28 +525,28 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.07,74.24
 >>Enter the building
-.talk Demisette Cloyce
+.talk Demisette Cloyce##461
 >>Inside the building.
 .goto Stormwind City,25.30,78.23
-.accept Summon Felsteed##4487
+.accept Summon Felsteed##4487 |or
 .goto Stormwind City,25.30,78.23
-.accept Summon Felsteed##4488
+.accept Summon Felsteed##4488 |or
 .only Warlock
 
 #step
 .goto The Barrens,61.93,36.72
 >>Follow the path up
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
-.turnin Summon Felsteed##4487
+.turnin Summon Felsteed##4487 |or
 .goto The Barrens,62.63,35.50
-.turnin Summon Felsteed##4488
+.turnin Summon Felsteed##4488 |or
 .goto The Barrens,62.63,35.50
 .accept Summon Felsteed##4490
 .only Warlock
 
 #step
-.talk Strahad Farsan
+.talk Strahad Farsan##6251
 .goto The Barrens,62.63,35.50
 .turnin Summon Felsteed##4490
 .only Warlock
@@ -566,24 +566,23 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Niby the Almighty
+.talk Niby the Almighty##14469
 .goto Felwood,41.38,44.86
 .accept What Niby Commands##7601
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin What Niby Commands##7601
 .goto Felwood,41.36,45.02
 .accept Flawless Fel Essence##7602
 .goto Felwood,41.36,45.02
 .accept Hot and Itchy##8420
->>'
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin Hot and Itchy##8420
 .goto Felwood,41.36,45.02
@@ -591,7 +590,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.kill 1 Tainted Ooze
+.kill 1 Tainted Ooze##7092
 .goto Felwood,40.92,46.83
 .complete 8421,2 >>Collect 4 Bloodvenom Essence
 >>You can find more around here [41.93,49.75]
@@ -605,7 +604,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin The Wrong Stuff##8421
 .goto Felwood,41.36,45.02
@@ -615,7 +614,7 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,35.39,58.54
 >>Enter the building
-.kill 1 Jaedenar Legionnaire
+.kill 1 Jaedenar Legionnaire##9862
 >>They are found throughout the Shadow Hold.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Felwood,36.25,55.94
@@ -632,7 +631,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.kill 1 Felguard Sentry
+.kill 1 Felguard Sentry##6011
 .goto Blasted Lands,61.32,54.18
 .complete 7602,3 >>Collect Flawless Fel Essence (Dark Portal)
 >>You can find more around here [54.03,54.60]
@@ -688,7 +687,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Impsy
+.talk Impsy##14470
 .goto Felwood,41.36,45.02
 .turnin Flawless Fel Essence##7602
 .goto Felwood,41.36,45.02
@@ -704,15 +703,15 @@ LLG.RegisterGuide([[
 >>Continue following the road
 .goto Felwood,41.25,36.95
 >>Follow the path
-.click the Fel Fire
-.kill 1 Kroshius
+.click the Fel Fire##18626
+.kill 1 Kroshius##14467
 >>You may need help.
 .goto Felwood,45.73,34.81
 .complete 7603,1 >>Collect Kroshius' Infernal Core
 .only Warlock
 
 #step
-.talk Niby the Almighty
+.talk Niby the Almighty##14469
 .goto Felwood,41.38,44.86
 .turnin Kroshius' Infernal Core##7603
 .only Warlock
@@ -760,7 +759,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Spackle Thornberry
+.talk Spackle Thornberry##5520
 >>Downstairs inside the building.
 .goto Stormwind City,25.66,77.66
 .accept Mor'zul Bloodbringer##7562
@@ -769,7 +768,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .turnin Mor'zul Bloodbringer##7562
 .goto Burning Steppes,12.69,31.64
@@ -788,7 +787,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .turnin Rage of Blood##7563
 .goto Burning Steppes,12.69,31.64
@@ -796,7 +795,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Wildeyes##7564
 .goto Burning Steppes,12.43,31.63
@@ -804,7 +803,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .accept Bell of Dethmoora##7626
 .goto Burning Steppes,12.69,31.64
@@ -814,7 +813,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Bell of Dethmoora##7626
 .goto Burning Steppes,12.43,31.63
@@ -826,19 +825,19 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Arcanite##7630
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .complete 7623 >>Buy 6 Shadowy Potion
 .only Warlock
 
 #step
-.click the Shadowy Potion
+.click the Shadowy Potion##18802
 >>use it before you enter Shadow Hold.
 >>It will make most enemies inside friendly for 20 minutes.
 .goto Felwood,35.42,58.61
@@ -875,13 +874,13 @@ LLG.RegisterGuide([[
 >>[37.33,47.22]
 
 #step
-.click the Shadowy Potion
+.click the Shadowy Potion##18802
 >>You need to have this buff for the next step.
 .kill 1 the Taint of Shadow Buff
 .only Warlock
 
 #step
-.talk Lord Banehollow
+.talk Lord Banehollow##9516
 >>Inside the cave.
 .goto Felwood,35.93,44.41
 .turnin Lord Banehollow##7623
@@ -902,7 +901,7 @@ LLG.RegisterGuide([[
 >>Continue following the path
 .goto Felwood,40.06,48.94
 >>Cross the bridge
-.talk Ulathek
+.talk Ulathek##14523
 .goto Felwood,39.89,49.17
 >>Remove the Taint of Shadow buff
 .only Warlock
@@ -910,13 +909,13 @@ LLG.RegisterGuide([[
 #step
 .goto Felwood,40.02,48.99
 >>Cross the bridge
-.kill 1 Ulathek
+.kill 1 Ulathek##14523
 .goto Felwood,40.77,48.42
 .complete 7624,1 >>Collect The Traitor's Heart
 .only Warlock
 
 #step
-.click the Shadowy Potion
+.click the Shadowy Potion##18802
 .complete 7624 >>Collect the Taint of Shadow Buff
 .only Warlock
 
@@ -938,7 +937,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Felwood,37.46,47.35
 >>Cross the bridge
-.talk Lord Banehollow
+.talk Lord Banehollow##9516
 >>Inside the cave.
 .goto Felwood,35.93,44.41
 .turnin Ulathek the Traitor##7624
@@ -947,7 +946,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Ur'dan
+.talk Ur'dan##14522
 >>Inside the cave.
 .goto Felwood,36.17,44.46
 .complete 7625,1 >>Buy Xorothian Stardust
@@ -956,7 +955,7 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Xorothian Stardust##7625
 .goto Burning Steppes,12.43,31.63
@@ -978,7 +977,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Scholomance Dungeon:
-.click Imp in a Jar
+.click Imp in a Jar##18688
 >>Use it near the Alchemy Station at the start of the room with Ras Frostwhisper.
 >>Watch the dialogue
 .complete 7629,1 >>Create the Parchment
@@ -987,30 +986,30 @@ LLG.RegisterGuide([[
 #step
 .goto Burning Steppes,15.46,40.26
 >>Follow the path
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
 .turnin Imp Delivery##7629
 .only Warlock
 
 #step
-.talk Gorzeeki Wildeyes
+.talk Gorzeeki Wildeyes##14437
 .goto Burning Steppes,12.43,31.63
-.kill 1 J'eevee's Jar
+.kill 1 J'eevee's Jar##18663
 .goto Burning Steppes,12.43,31.63
-.kill 1 Black Lodestone
+.kill 1 Black Lodestone##18629
 .goto Burning Steppes,12.43,31.63
-.kill 1 Xorothian glyphs
+.kill 1 Xorothian glyphs##18670
 .only Warlock
 
 #step
-.talk Mor'zul Bloodbringer
+.talk Mor'zul Bloodbringer##14436
 .goto Burning Steppes,12.69,31.64
 .accept Dreadsteed of Xoroth##7631
 .only Warlock
 
 #step
 >>Inside the Dire Maul - West Dungeon:
-.click J'eevee's Jar
+.click J'eevee's Jar##18663
 >>Use it in the area where Immol'thar is.
 >>Clear the room before starting.
 .kill 1 enemies around this area
@@ -1019,10 +1018,10 @@ LLG.RegisterGuide([[
 >>Recharge the Bell, Wheel and Candle as they run out of charges.
 >>They will tilt when they need to be recharged.
 >>Use the "Black Lodestone" to fix them, which costs a soul shard.
-.click Xorothian glyphs
-.kill 1 Xorothian Dreadsteed
+.click Xorothian glyphs##18670
+.kill 1 Xorothian Dreadsteed##14502
 >>At 50% health, Lord Hel'nurath will appear and need to be killed.
-.talk Dreadsteed Spirit
+.talk Dreadsteed Spirit##14504
 .turnin Dreadsteed of Xoroth##7631
 .only Warlock
 ]])

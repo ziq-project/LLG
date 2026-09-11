@@ -8,7 +8,7 @@
 local DB = LLG.RegisterModule("DB", {})
 
 local CHAR_SCHEMA = 2
-local ACC_SCHEMA  = 5
+local ACC_SCHEMA  = 6
 
 local charDefaults = {
     schema      = CHAR_SCHEMA,
@@ -38,7 +38,9 @@ local accDefaults = {
     alpha    = 0.92,
     steps    = 2,               -- wie viele Schritte gleichzeitig sichtbar
     minimap  = { show = true, angle = 200 },
-    autoTurnIn = false,
+    autoAccept = true,          -- Questfenster gleich bestaetigen
+    autoTurnIn = true,          -- Abgabe gleich bestaetigen
+    autoNext = true,            -- am Guideende den Folgeguide laden
     showMapPins = true,
     debug    = false,
     -- Die Sprache folgt dem Client. Unterstuetzt sind Englisch und Deutsch;
@@ -105,6 +107,12 @@ function DB:OnInit()
             -- sagt - im Spiel will man die Koordinate aber lesen koennen. Der
             -- Schalter ist weg, die Einstellung damit gegenstandslos.
             LLG_DB.showGoto = nil
+        end
+        if LLG_DB.schema < 6 then
+            -- "autoTurnIn" stand seit jeher auf false und wurde nie gelesen -
+            -- die Einstellung war ein Versprechen ohne Umsetzung. Jetzt tut
+            -- sie etwas, und die Vorgabe ist an.
+            LLG_DB.autoTurnIn = true
         end
         LLG_DB.schema = ACC_SCHEMA
     end

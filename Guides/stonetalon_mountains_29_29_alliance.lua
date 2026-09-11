@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .click Here to Continue
 
 #step
-.talk Keeper Albagorm
+.talk Keeper Albagorm##3994
 >>en:Standing in front of a moonwell.
 >>de:Standing in front of a moonwell.
 .goto Stonetalon Mountains,37.10,8.10
@@ -71,7 +71,6 @@ LLG.RegisterGuide([[
 
 #step
 .kill 1 Basilisk enemies around this area
->>'
 >>They look like lizard beasts with six legs.
 >>This area is the most common place for them to spawn consistently.
 >>Run up and down this path that leads into the Charred Vale, and grind on the other enemies that appear as well.
@@ -84,7 +83,7 @@ LLG.RegisterGuide([[
 >>Follow the path up
 .goto Desolace,67.49,15.76
 >>Follow the road to this path and run up the path to enter Nijel's Point
-.talk Baritanas Skyriver
+.talk Baritanas Skyriver##6706
 >>en:Up the hill, on a round white platform, next to 2 hippogryphs.
 >>de:Den Hügel hinauf, auf einer runden weißen Plattform, neben 2 Hippogryphen.
 .goto Desolace,64.66,10.54
@@ -92,7 +91,7 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Nijel's and Point")
 
 #step
-.talk Keeper Albagorm
+.talk Keeper Albagorm##3994
 >>en:Standing in front of a moonwell.
 >>de:Standing in front of a moonwell.
 .goto Stonetalon Mountains,37.10,8.10

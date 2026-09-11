@@ -26,9 +26,10 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Gest
+.talk Gest##3327
 .goto Orgrimmar,42.71,51.48
 .train
+.condition knowspell(1804) >>Train the "Pick Lock" Ability
 .only Rogue
 
 #step
@@ -36,7 +37,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,64.18,45.49
 >>Follow the path onto the ship
-.click Buccaneer's Strongbox
+.click Buccaneer's Strongbox##123330
 >>They look like grey metal chests.
 >>Inside the ship, on the middle level.
 >>Keep clicking them until you reach Lockpicking skill level 75.
@@ -46,7 +47,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .accept The Shattered Salute##2460
@@ -62,7 +63,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .turnin The Shattered Salute##2460
@@ -75,7 +76,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto The Barrens,54.47,10.25
 >>Follow the path
-.click the Flare Gun
+.click the Flare Gun##8051
 >>Use it while targeting Taskmaster Fizzule nearby to the north.
 >>You must use it TWICE in a row.
 >>After shooting 2 flares, perform the "/salute" emote while still targeting Taskmaster Fizzule.
@@ -84,7 +85,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Taskmaster Fizzule
+.talk Taskmaster Fizzule##7233
 .goto The Barrens,55.44,5.56
 .turnin Deep Cover##2458
 .goto The Barrens,55.44,5.56
@@ -122,7 +123,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.kill 1 Grand Foreman Puzik Gallywix
+.kill 1 Grand Foreman Puzik Gallywix##7288
 >>Upstairs inside the building, on the top floor.
 >>only not hardcore :: He is elite, but you should be able to kill him.
 >>only not hardcore :: If you have trouble, try to find someone to help you.
@@ -137,7 +138,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.click Gallywix's Lockbox
+.click Gallywix's Lockbox##129127
 >>Upstairs inside the building, on the top floor.
 >>You will get a debuff after opening it.
 .goto The Barrens,54.75,5.55
@@ -149,7 +150,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto The Barrens,52.13,18.67
 >>Follow the road
-.talk Shenthul
+.talk Shenthul##3401
 >>Inside the tent, inside the Cleft of Shadow.
 .goto Orgrimmar,43.05,53.74
 .turnin Mission: Possible But Not Probable##2478
@@ -167,7 +168,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tirisfal Glades,61.86,65.03
 >>Enter Undercity
-.talk Michael Garrett
+.talk Michael Garrett##4551
 >>de:Standing on the top level of Undercity.
 .goto Undercity,63.28,48.58
 .fly Undercity
@@ -184,7 +185,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Silverpine Forest,48.71,38.60
 >>Follow the road
-.talk Karos Razok
+.talk Karos Razok##2226
 >>en:Get The Sepulcher Flight Path.
 >>de:Hol dir den Flugpunkt Das Grabmal.
 .goto Silverpine Forest,45.62,42.59
@@ -202,7 +203,7 @@ LLG.RegisterGuide([[
 >>Enter Hillsbrad Foothills
 .goto Hillsbrad Foothills,57.51,36.04
 >>Follow the road
-.talk Zarise
+.talk Zarise##2389
 >>en:Standing next to a rack with a bunch of metal rings hanging on it.
 >>de:Steht neben einem Gestell mit vielen hängenden Metallringen.
 .goto Hillsbrad Foothills,60.14,18.62
@@ -212,7 +213,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,61.50,19.43
 >>Enter the building
-.talk Serge Hinott
+.talk Serge Hinott##2391
 >>Inside the building.
 .goto Hillsbrad Foothills,61.63,19.19
 .turnin Hinott's Assistance##2479
@@ -228,14 +229,14 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Serge Hinott
+.talk Serge Hinott##2391
 >>Inside the building.
 .goto Hillsbrad Foothills,61.58,18.97
 .turnin Hinott's Assistance##2480
 .only Rogue
 
 #step
-.click Hinott's Oil
+.click Hinott's Oil##8095
 >>Remove the Touch of Zanzil
 .only Rogue
 
@@ -248,7 +249,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Ormok
+.talk Ormok##3328
 .goto Orgrimmar,43.91,54.62
 .accept A Simple Request##8233
 .only Rogue
@@ -262,7 +263,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Alterac Mountains,85.46,79.39
 >>Enter the building
-.talk Lord Jorach Ravenholdt
+.talk Lord Jorach Ravenholdt##6768
 .goto Alterac Mountains,86.03,78.88
 .turnin A Simple Request##8233
 .goto Alterac Mountains,86.03,78.88
@@ -270,7 +271,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.kill 1 Timbermaw Shaman
+.kill 1 Timbermaw Shaman##6188
 .goto Azshara,43.77,25.56
 .complete 8234,1 >>Collect Sealed Azure Bag
 >>You can find more around:
@@ -278,7 +279,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Sanath Lim-yo
+.talk Sanath Lim-yo##8395
 >>en:Standing in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Azshara,28.11,50.09
@@ -288,7 +289,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,26.48,44.23
 >>Follow the path up
-.talk Archmage Xylem
+.talk Archmage Xylem##8379
 >>en:He wanders around on the top floor of the tower.
 >>de:He wanders around on the top floor of the tower.
 >>Inside the tower.
@@ -301,7 +302,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,27.04,43.31
 >>Follow the path down
-.talk Nyrill
+.talk Nyrill##8399
 >>en:Standing next to a ring of standing torches.
 >>de:Steht neben einem Ring aus aufgestellten Fackeln.
 .goto Azshara,26.50,46.30
@@ -309,7 +310,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.kill 1 Forest Ooze
+.kill 1 Forest Ooze##8766
 .goto Azshara,73.40,25.20
 .complete 8235,1 >>Collect 10 Encoded Fragment
 >>You can find more around
@@ -320,7 +321,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Sanath Lim-yo
+.talk Sanath Lim-yo##8395
 >>en:Standing in a small camp, next to a campfire.
 >>de:Steht in einem kleinen Lager, neben einem Lagerfeür.
 .goto Azshara,28.11,50.09
@@ -330,7 +331,7 @@ LLG.RegisterGuide([[
 #step
 .goto Azshara,26.48,44.23
 >>Follow the path up
-.talk Archmage Xylem
+.talk Archmage Xylem##8379
 >>en:He wanders around on the top floor of the tower.
 >>de:He wanders around on the top floor of the tower.
 >>Inside the tower.
@@ -373,7 +374,7 @@ LLG.RegisterGuide([[
 
 #step
 >>Inside the Temple of Atal'Hakkar:
-.kill 1 Morphaz
+.kill 1 Morphaz##5719
 >>Refer to the Temple of Atal'Hakkar Dungeon guide to accomplish this.
 .complete 8236,1 >>Collect Azure Key
 .only Rogue
@@ -387,7 +388,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Alterac Mountains,85.46,79.39
 >>Enter the building
-.talk Lord Jorach Ravenholdt
+.talk Lord Jorach Ravenholdt##6768
 .goto Alterac Mountains,86.03,78.88
 .turnin The Azure Key##8236
 .only Rogue

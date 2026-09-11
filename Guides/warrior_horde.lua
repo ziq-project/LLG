@@ -18,7 +18,7 @@ LLG.RegisterGuide([[
 .level 10
 
 #step
-.talk Krang Stonehoof
+.talk Krang Stonehoof##3063
 >>en:Standing next to a bunch of tauren warriors standing in a circle. He is the Warrior Class Trainer.
 >>de:Steht neben mehreren Taurenkriegern in einem Kreis. Er ist der Kriegerklassentrainer.
 .goto Mulgore,49.52,60.58
@@ -28,7 +28,7 @@ LLG.RegisterGuide([[
 #step
 .goto Durotar,53.25,42.59
 >>Enter the building
-.talk Tarshaw Jaggedscar
+.talk Tarshaw Jaggedscar##3169
 >>en:In the big round building, standing in the middle of the room.
 >>de:In the big round building, standing in the middle of the room.
 >>Inside the building.
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 >>Follow the road
 .goto Durotar,34.60,42.31
 >>Cross the bridge
-.talk Uzzek
+.talk Uzzek##5810
 >>en:Standing under a small red canopy.
 >>de:Steht unter einem kleinen roten Baldachin.
 .goto The Barrens,61.38,21.11
@@ -56,7 +56,7 @@ LLG.RegisterGuide([[
 >>Cross the bridge
 .goto Durotar,39.18,32.15
 >>Follow the path
-.kill 1 Thunder Lizard
+.kill 1 Thunder Lizard##3130
 >>only hardcore :: Watch for respawns while in the area.
 .goto Durotar,39.27,28.29
 .complete 1498,1 >>Collect 5 Singed Scale
@@ -67,7 +67,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Durotar,34.60,42.28
 >>Cross the bridge
-.talk Uzzek
+.talk Uzzek##5810
 >>en:Standing under a small red canopy.
 >>de:Steht unter einem kleinen roten Baldachin.
 .goto The Barrens,61.38,21.11
@@ -79,7 +79,7 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,55.51,32.40
 >>Follow the path up
-.talk Thun'grim Firegaze
+.talk Thun'grim Firegaze##5878
 .goto The Barrens,57.23,30.34
 .turnin Thun'grim Firegaze##1502
 .goto The Barrens,57.23,30.34
@@ -88,19 +88,19 @@ LLG.RegisterGuide([[
 #step
 .goto The Barrens,55.51,32.40
 >>Follow the path down
-.click Stolen Iron Chest
+.click Stolen Iron Chest##58369
 .goto The Barrens,55.05,26.66
 .complete 1503,1 >>Collect Forged Steel Bars
 
 #step
 .goto The Barrens,55.51,32.40
 >>Follow the path up
-.talk Thun'grim Firegaze
+.talk Thun'grim Firegaze##5878
 .goto The Barrens,57.23,30.34
 .turnin Forged Steel##1503
 
 #step
-.talk Austil de Mon
+.talk Austil de Mon##2131
 >>en:Inside the inn, next to a bunch of chairs. He is the Warrior Class Trainer.
 >>de:Im Gasthaus, neben einigen Stühlen. Er ist der Kriegerklassentrainer.
 >>Inside the building.
@@ -111,7 +111,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tirisfal Glades,61.56,53.05
 >>Leave the building
-.talk Deathguard Dillinger
+.talk Deathguard Dillinger##1496
 >>de:Steht am Rand der Straße.
 .goto Tirisfal Glades,58.20,51.45
 .turnin Speak with Dillinger##1818
@@ -126,7 +126,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warrior
 
 #step
-.talk Deathguard Dillinger
+.talk Deathguard Dillinger##1496
 >>de:Steht am Rand der Straße.
 .goto Tirisfal Glades,58.20,51.45
 .turnin Ulag the Cleaver##1819
@@ -137,7 +137,7 @@ LLG.RegisterGuide([[
 #step
 .goto Tirisfal Glades,61.56,53.04
 >>Enter the building
-.talk Coleman Farthing
+.talk Coleman Farthing##1500
 >>de:Im Gasthaus, steht neben einem Tisch.
 >>Inside the building.
 .goto Tirisfal Glades,61.72,52.29
@@ -154,7 +154,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warrior
 
 #step
-.click Agamand Weapon Rack
+.click Agamand Weapon Rack##105172
 >>Inside the crypt.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Tirisfal Glades,52.66,27.04
@@ -162,7 +162,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warrior
 
 #step
-.click Agamand Weapon Rack
+.click Agamand Weapon Rack##105171
 >>Inside the crypt.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Tirisfal Glades,51.89,27.12
@@ -170,7 +170,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warrior
 
 #step
-.click Agamand Weapon Rack
+.click Agamand Weapon Rack##105169
 >>Inside the crypt.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Tirisfal Glades,51.70,25.69
@@ -178,7 +178,7 @@ LLG.RegisterGuide([[
 .only Scourge and Warrior
 
 #step
-.click Agamand Weapon Rack
+.click Agamand Weapon Rack##105170
 >>Inside the crypt.
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Tirisfal Glades,52.65,25.86
@@ -190,7 +190,7 @@ LLG.RegisterGuide([[
 >>Leave the crypt
 .goto Tirisfal Glades,61.56,53.04
 >>Enter the building
-.talk Coleman Farthing
+.talk Coleman Farthing##1500
 >>de:Im Gasthaus, steht neben einem Tisch.
 >>Inside the building.
 .goto Tirisfal Glades,61.72,52.29
@@ -211,7 +211,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,76.52,32.92
 >>Enter the building
-.talk Sorek
+.talk Sorek##3354
 >>en:Inside the big round building, standing under a red canopy.
 >>de:Steht im großen runden Gebäude unter einem roten Baldachin.
 >>Inside the building.
@@ -220,7 +220,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -235,7 +235,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Affray Challenger
+.kill 1 Affray Challenger##6240
 >>You will have to kill six of them before Big Will will appear.
 >>They will fight them one at a time.
 >>only hardcore :: Avoid using AoE abilities as they may aggro the other affray contestants.
@@ -248,7 +248,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -266,7 +266,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Klannoc Macleod
+.talk Klannoc Macleod##6236
 >>en:Standing on the side of the long building. He's hold a samurai sword.
 >>de:Standing on the side of the long building.
 .goto The Barrens,68.62,49.17
@@ -276,7 +276,7 @@ LLG.RegisterGuide([[
 #step
 .goto Hillsbrad Foothills,70.63,10.06
 >>Follow the path
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin The Windwatcher##1791
 .goto Alterac Mountains,80.50,66.92
@@ -284,19 +284,19 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.kill 1 Burning Exile
+.kill 1 Burning Exile##2760
 .goto Arathi Highlands,26.60,31.80
 .collect Burning Charm,8
 .only Warrior
 
 #step
-.kill 1 Thundering Exile
+.kill 1 Thundering Exile##2762
 .goto Arathi Highlands,52.60,52.20
 .collect Thundering Charm,8
 .only Warrior
 
 #step
-.kill 1 Cresting Exile
+.kill 1 Cresting Exile##2761
 .goto Arathi Highlands,68.00,30.00
 .collect Cresting Charm,8
 .only Warrior
@@ -308,7 +308,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.click Bath'rah's Cauldron
+.click Bath'rah's Cauldron##89931
 .goto Alterac Mountains,79.31,66.81
 .accept Essence of the Exile##1714
 .goto Alterac Mountains,79.31,66.81
@@ -323,7 +323,7 @@ LLG.RegisterGuide([[
 .only Warrior and hardcore
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin Cyclonian##1712
 .goto Alterac Mountains,80.50,66.92
@@ -333,7 +333,7 @@ LLG.RegisterGuide([[
 #step
 >>Follow Bath'rah the Windwatcher
 >>Watch the Dialogue
-.kill 1 Cyclonian
+.kill 1 Cyclonian##6239
 >>You may need help with this.
 >>only hardcore :: This is a level 40 Elite enemy.
 .goto Alterac Mountains,80.57,62.56
@@ -341,7 +341,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Bath'rah the Windwatcher
+.talk Bath'rah the Windwatcher##6176
 .goto Alterac Mountains,80.50,66.92
 .turnin The Summoning##1713
 .goto Alterac Mountains,80.50,66.92
@@ -354,7 +354,7 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,76.52,32.92
 >>Enter the building
-.talk Sorek
+.talk Sorek##3354
 >>en:Inside the big round building, standing under a red canopy.
 >>de:Steht im großen runden Gebäude unter einem roten Baldachin.
 >>Inside the building.
@@ -363,7 +363,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15
@@ -378,7 +378,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15
@@ -406,7 +406,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15
@@ -465,7 +465,7 @@ LLG.RegisterGuide([[
 .only Warrior
 
 #step
-.talk Fallen Hero of the Horde
+.talk Fallen Hero of the Horde##7572
 >>en:On the side of the road, standing next to a big log.
 >>de:On the side of the road, standing next to a big log.
 .goto Swamp of Sorrows,34.29,66.15

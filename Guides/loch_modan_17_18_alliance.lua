@@ -16,9 +16,9 @@ LLG.RegisterGuide([[
 
 
 #step
-.talk Dink
-.talk Briarthorn
-.talk Brandur Ironhammer
+.talk Dink##7312
+.talk Briarthorn##5172
+.talk Brandur Ironhammer##5149
 >>en:He's standing at the back of the Mystic Ward.
 >>de:He's standing at the back of the Mystic Ward.
 .goto Ironforge,27.10,8.49
@@ -32,7 +32,7 @@ LLG.RegisterGuide([[
 .only Mage or Warlock or Paladin
 
 #step
-.talk Lina Hearthstove
+.talk Lina Hearthstove##9989
 >>Stable your permanent pet.
 >>You are about to tame a temporary pet soon, so you can learn "Bite 3".
 .goto Loch Modan,34.64,48.09
@@ -42,7 +42,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,37.18,47.10
 >>Enter the building
-.talk Jern Hornhelm
+.talk Jern Hornhelm##1105
 >>en:Downstairs in the house, next to some barrels by the fireplace. He can also be standing in front of the house.
 >>de:Unten im Haus, neben einigen Fässern am Kamin. Er kann auch vor dem Haus stehen.
 >>Downstairs inside the building.
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 .only Hunter
 
 #step
-.talk Magmar Fellhew
+.talk Magmar Fellhew##1345
 >>en:Standing in front of a tent.
 >>de:Steht vor einem Zelt.
 .goto Loch Modan,64.90,66.65
@@ -74,7 +74,7 @@ LLG.RegisterGuide([[
 .accept Gathering Idols##297
 
 #step
-.talk Prospector Ironband
+.talk Prospector Ironband##1344
 >>en:Standing under a white canopy next to a small square table.
 >>de:Steht unter einem weissen Baldachin neben einem kleinen quadratischen Tisch.
 .goto Loch Modan,65.93,65.62
@@ -90,7 +90,7 @@ LLG.RegisterGuide([[
 .complete 297,1 >>Collect 8 Carved Stone Idol
 
 #step
-.talk Magmar Fellhew
+.talk Magmar Fellhew##1345
 >>en:Standing in front of a tent.
 >>de:Steht vor einem Zelt.
 .goto Loch Modan,64.90,66.65
@@ -103,7 +103,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Loch Modan,83.43,62.83
 >>Enter the building
-.talk Marek Ironheart
+.talk Marek Ironheart##1154
 >>en:Down the hall to the right after you enter the lodge.
 >>de:Den Flur rechts hinunter, nachdem du die Hütte betreten hast.
 >>Inside the building.
@@ -112,19 +112,19 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Cliff Hadin
+.talk Cliff Hadin##1687
 >>Inside the building.
-.kill 1 Fine Longbow
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
->>If it's not available, or you can't afford it, buy a Reinforced Bow instead.
+>>only itemcount(3026) == 0 :: If it's not available, or you can't afford it, buy a Reinforced Bow instead.
 >>If you have better, skip this step.
 .goto Loch Modan,83.02,62.96
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
-.talk Daryl the Youngling
+.talk Daryl the Youngling##1187
 >>en:Down the hall to the left after you enter the lodge.
 >>de:Den Flur links hinunter, nachdem du die Hütte betreten hast.
 >>Inside the building.
@@ -146,7 +146,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Loch Modan,83.43,62.83
 >>Enter the building
-.talk Daryl the Youngling
+.talk Daryl the Youngling##1187
 >>en:Down the hall to the left after you enter the lodge.
 >>de:Den Flur links hinunter, nachdem du die Hütte betreten hast.
 >>Inside the building.
@@ -158,16 +158,16 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Cliff Hadin
+.talk Cliff Hadin##1687
 >>Inside the building.
-.kill 1 Fine Longbow
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
->>If it's not available, or you can't afford it, buy a Reinforced Bow instead.
+>>only itemcount(3026) == 0 :: If it's not available, or you can't afford it, buy a Reinforced Bow instead.
 >>If you have better, skip this step.
 .goto Loch Modan,83.02,62.96
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
 .goto Loch Modan,76.58,43.83
@@ -182,7 +182,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Loch Modan,83.43,62.83
 >>Enter the building
-.talk Daryl the Youngling
+.talk Daryl the Youngling##1187
 >>en:Down the hall to the left after you enter the lodge.
 >>de:Den Flur links hinunter, nachdem du die Hütte betreten hast.
 >>Inside the building.
@@ -192,19 +192,19 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Cliff Hadin
+.talk Cliff Hadin##1687
 >>Inside the building.
-.kill 1 Fine Longbow
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
->>If it's not available, or you can't afford it, buy a Reinforced Bow instead.
+>>only itemcount(3026) == 0 :: If it's not available, or you can't afford it, buy a Reinforced Bow instead.
 >>If you have better, skip this step.
 .goto Loch Modan,83.02,62.96
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
-.talk Bingles Blastenheimer
+.talk Bingles Blastenheimer##6577
 >>en:On the shore of the lake, near a small crashed plane.
 >>de:Am Ufer des Sees, nahe einem kleinen abgestürzten Flugzeug.
 >>He walks around this area.
@@ -212,14 +212,14 @@ LLG.RegisterGuide([[
 .accept Bingles' Missing Supplies##2038
 
 #step
-.kill 1 Loch Crocolisk
+.kill 1 Loch Crocolisk##1693
 .goto Loch Modan,54.84,38.49
 .complete 385,1 >>Collect 5 Crocolisk Meat
 >>Be careful not to accidentally sell these to a vendor.
 >>You can find more around [54.80,54.28]
 
 #step
-.kill 1 Loch Crocolisk
+.kill 1 Loch Crocolisk##1693
 .goto Loch Modan,54.84,38.49
 .complete 385,2 >>Collect 6 Crocolisk Skin
 >>You can find more around [54.80,54.28]
@@ -233,7 +233,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.click Bingles's Toolbucket
+.click Bingles's Toolbucket##104564
 >>only hardcore :: Enemies around this area tend to be bunched up and pull in two.
 >>only hardcore :: Stonesplinter Seers are ranged attackers that hit hard.
 >>only hardcore :: Enemies may run away when at low health here.
@@ -241,7 +241,7 @@ LLG.RegisterGuide([[
 .complete 2038,1 >>Collect Bingles' Wrench
 
 #step
-.click Bingles' Blastencapper
+.click Bingles' Blastencapper##104575
 >>only hardcore :: Enemies around this area tend to be bunched up and pull in two.
 >>only hardcore :: Stonesplinter Seers are ranged attackers that hit hard.
 >>only hardcore :: Enemies may run away when at low health here.
@@ -249,7 +249,7 @@ LLG.RegisterGuide([[
 .complete 2038,4 >>Collect Bingles' Blastencapper
 
 #step
-.click Bingles's Toolbucket
+.click Bingles's Toolbucket##104574
 >>only hardcore :: Enemies around this area tend to be bunched up and pull in two.
 >>only hardcore :: Stonesplinter Seers are ranged attackers that hit hard.
 >>only hardcore :: Enemies may run away when at low health here.
@@ -257,7 +257,7 @@ LLG.RegisterGuide([[
 .complete 2038,3 >>Collect Bingles' Hammer
 
 #step
-.click Bingles' Toolbucket
+.click Bingles' Toolbucket##104569
 >>only hardcore :: Enemies around this area tend to be bunched up and pull in two.
 >>only hardcore :: Stonesplinter Seers are ranged attackers that hit hard.
 >>only hardcore :: Enemies may run away when at low health here.
@@ -267,7 +267,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,55.39,14.84
 >>Run up the ramp
-.talk Chief Engineer Hinderweir VII
+.talk Chief Engineer Hinderweir VII##1093
 >>en:Under 2 white canopies, next to a long table on the dam. Get to him by entering the dam from the west, not the east.
 >>de:Unter 2 weissen Baldachinen, neben einem langen Tisch auf dem Damm. Erreiche ihn über den westlichen Eingang des Damms, nicht den östlichen.
 .goto Loch Modan,46.05,13.62
@@ -275,16 +275,16 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Nillen Andemar
-.kill 1 Heavy Spiked Mace
+.talk Nillen Andemar##222
+.kill 1 Heavy Spiked Mace##4778
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Loch Modan,42.87,9.90
 >>Visit the Vendor
-.only Warrior
+.only Warrior and itemcount(4778) == 0
 
 #step
-.click Suspicious Barrel
+.click Suspicious Barrel##257
 >>On the ground next the wall.
 >>only hardcore :: Dark Iron Sappers may detonate themselves when at low health.
 >>only hardcore :: You will see an emote before it happens and you should move away from them once you see it.
@@ -296,7 +296,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,55.39,14.84
 >>Run up the ramp
-.talk Chief Engineer Hinderweir VII
+.talk Chief Engineer Hinderweir VII##1093
 >>en:Under 2 white canopies, next to a long table on the dam. Get to him by entering the dam from the west, not the east.
 >>de:Unter 2 weissen Baldachinen, neben einem langen Tisch auf dem Damm. Erreiche ihn über den westlichen Eingang des Damms, nicht den östlichen.
 .goto Loch Modan,46.05,13.62
@@ -304,7 +304,7 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Bingles Blastenheimer
+.talk Bingles Blastenheimer##6577
 >>en:On the shore of the lake, near a small crashed plane.
 >>de:Am Ufer des Sees, nahe einem kleinen abgestürzten Flugzeug.
 >>He walks around this area.
@@ -318,7 +318,7 @@ LLG.RegisterGuide([[
 .level 18
 
 #step
-.click the Grimoire of Consume Shadows (Rank 1)
+.click the Grimoire of Consume Shadows (Rank 1)##16357
 >>You should have purchased this in a previous guide.
 .goto Loch Modan,25.66,77.66
 >>Teach Your Voidwalker Consume Shadows (Rank 1)
@@ -330,7 +330,7 @@ LLG.RegisterGuide([[
 >>Follow the path
 .goto Loch Modan,83.43,62.83
 >>Enter the building
-.talk Marek Ironheart
+.talk Marek Ironheart##1154
 >>en:Down the hall to the right after you enter the lodge.
 >>de:Den Flur rechts hinunter, nachdem du die Hütte betreten hast.
 >>Inside the building.
@@ -339,19 +339,19 @@ LLG.RegisterGuide([[
 .only walking
 
 #step
-.talk Cliff Hadin
+.talk Cliff Hadin##1687
 >>Inside the building.
-.kill 1 Fine Longbow
+.kill 1 Fine Longbow##11304
 >>If you can afford it.
 >>It may not be available to buy, since it's a limited supply item.
->>If it's not available, or you can't afford it, buy a Reinforced Bow instead.
+>>only itemcount(3026) == 0 :: If it's not available, or you can't afford it, buy a Reinforced Bow instead.
 >>If you have better, skip this step.
 .goto Loch Modan,83.02,62.96
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11304) == 0
 
 #step
-.talk Lina Hearthstove
+.talk Lina Hearthstove##9989
 >>Abandon your temporary pet and get your permanent pet from the stable.
 >>Teach "Bite 3" to your permanent pet.
 .goto Loch Modan,34.64,48.09
@@ -361,7 +361,7 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,37.18,47.10
 >>Enter the building
-.talk Jern Hornhelm
+.talk Jern Hornhelm##1105
 >>en:Downstairs in the house, next to some barrels by the fireplace. He can also be standing in front of the house.
 >>de:Unten im Haus, neben einigen Fässern am Kamin. Er kann auch vor dem Haus stehen.
 >>Downstairs inside the building.
@@ -372,42 +372,44 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,72.18,67.50
 >>Enter the building
-.talk Skolmin Goldfury
+.talk Skolmin Goldfury##5122
 >>Upstairs inside the building.
-.kill 1 Heavy Recurve Bow
+.kill 1 Heavy Recurve Bow##3027
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Ironforge,71.76,66.70
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(3027) == 0
 
 #step
-.talk Gearcutter Cogspinner
+.talk Gearcutter Cogspinner##5175
 >>en:He's a gnome in the corner next to a rocket on wheels|
-.kill 1 Bronze Tube
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 >>Don't buy this, if you already bought one earlier in the guide.
 .goto Ironforge,67.84,42.50
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
-.talk Billibub Cogspinner
-.kill 1 Bronze Tube
+.talk Billibub Cogspinner##5519
+.kill 1 Bronze Tube##4371
 >>If you can afford it.
 >>It may not be for sale, since it's a limited supply item.
 >>This item is needed for a quest later on in Duskwood.
 >>Don't buy this, if you already bought one earlier in the guide.
 .goto Stormwind City,55.21,7.05
 >>Visit the Vendor
+.only itemcount(4371) == 0
 
 #step
 .goto Stormwind City,74.74,53.71
 >>Follow the path
 .goto Stormwind City,77.12,58.01
 >>Enter the building
-.talk Renzik "The Shiv"
+.talk Renzik "The Shiv"##6946
 >>Upstairs inside the building.
 .goto Stormwind City,75.76,60.36
 .accept Redridge Rendezvous##2281
@@ -421,13 +423,13 @@ LLG.RegisterGuide([[
 .only NightElf and Druid
 
 #step
-.click the Half Pendant of Aquatic Agility
+.click the Half Pendant of Aquatic Agility##15883
 .goto Moonglade,35.92,41.42
 .complete 272,1 >>Collect Pendant of the Sea Lion
 .only NightElf and Druid
 
 #step
-.talk Dendrite Starblaze
+.talk Dendrite Starblaze##11802
 >>en:Standing upstairs in a house, next to 2 bookshelves.
 >>de:Standing upstairs in a house, next to 2 bookshelves.
 >>Upstairs inside the building.
@@ -440,7 +442,7 @@ LLG.RegisterGuide([[
 #step
 .goto Darnassus,35.49,10.63
 >>Enter the building
-.talk Mathrengyl Bearwalker
+.talk Mathrengyl Bearwalker##4217
 >>en:Right up the spiral ramp in the big tower.
 >>de:Right up the spiral ramp in the big tower.
 >>Upstairs inside the building, on the top floor.

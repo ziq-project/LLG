@@ -18,26 +18,26 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,61.32,88.17
 >>Run up the stairs and enter the building
-.talk Brenwyn Wintersteel
-.kill 1 Falchion
+.talk Brenwyn Wintersteel##5120
+.kill 1 Falchion##2528
 >>If you can afford it.
 >>You will use it when you reach level 41.
 >>If you have better, skip this step.
 .goto Ironforge,62.37,88.68
 >>Visit the Vendor
-.only Rogue
+.only Rogue and itemcount(2528) == 0
 
 #step
 .goto Ironforge,34.11,62.34
 >>Enter the building
-.talk Bailey Stonemantle
+.talk Bailey Stonemantle##2461
 >>Inside the building.
 >>Deposit these items into the bank.
 .goto Ironforge,35.92,60.14
 .goto Ironforge,35.92,60.14
 
 #step
-.talk Auctioneer Redmuse
+.talk Auctioneer Redmuse##8720
 >>Buy these items from the Auction House.
 >>Each item is for an individual optional quest. If you can't get them it's fine you'll just have to grind more later.
 >>only Warrior :: There are more auction steps after this one, skip this step after completeing it and don't run to the mailbox yet.
@@ -57,7 +57,7 @@ LLG.RegisterGuide([[
 .only not selfmade
 
 #step
-.talk Tynnus Venomsprout
+.talk Tynnus Venomsprout##5169
 >>Stock up on poisons.
 >>Open your poison crafting window and purchase the ingredients you need.
 .goto Ironforge,52.94,13.66
@@ -65,7 +65,7 @@ LLG.RegisterGuide([[
 .only Rogue
 
 #step
-.talk Roetten Stonehammer
+.talk Roetten Stonehammer##5637
 >>en:To the right as you enter the Hall of Explorers.
 >>de:To the right as you enter the Hall of Explorers.
 >>He walks around inside the building.
@@ -73,7 +73,7 @@ LLG.RegisterGuide([[
 .turnin Reagents for Reclaimers Inc.##1467
 
 #step
-.talk Prospector Stormpike
+.talk Prospector Stormpike##1356
 >>en:Right inside the Library.
 >>de:Right inside the Library.
 >>Inside the building.
@@ -85,8 +85,8 @@ LLG.RegisterGuide([[
 #step
 .goto Ironforge,72.16,67.56
 >>Enter the building
-.talk Skolmin Goldfury
-.kill 1 Massive Longbow
+.talk Skolmin Goldfury##5122
+.kill 1 Massive Longbow##11307
 >>If you can afford it.
 >>It's a limited supply item, so it may not be for sale.
 >>You can't use it until level 42, but it's good to have waiting to use, and you can only buy it in Stormwind City and Ironforge.
@@ -94,24 +94,24 @@ LLG.RegisterGuide([[
 >>If you have better, skip this step.
 .goto Ironforge,71.76,66.70
 >>Visit the Vendor
-.only Hunter
+.only Hunter and itemcount(11307) == 0
 
 #step
 .goto Ironforge,23.09,17.43
 >>Run up the stairs and enter the building
-.talk Harick Boulderdrum
+.talk Harick Boulderdrum##5133
 >>Downstairs inside the building.
-.kill 1 Blackbone Wand
+.kill 1 Blackbone Wand##5239
 >>If you can afford it.
 >>If you have better, skip this step.
 .goto Ironforge,23.13,15.94
 >>Visit the Vendor
-.only Priest
+.only Priest and itemcount(5239) == 0
 
 #step
 .goto Loch Modan,35.23,47.74
 >>Enter the building
-.talk Innkeeper Hearthstove
+.talk Innkeeper Hearthstove##6734
 >>Inside the building.
 .goto Loch Modan,35.53,48.40
 .hs
@@ -119,13 +119,13 @@ LLG.RegisterGuide([[
 #step
 .goto Loch Modan,36.63,48.52
 >>Enter the building
-.talk Ghak Healtouch
+.talk Ghak Healtouch##1470
 >>Inside the building.
 .goto Loch Modan,37.07,49.38
 .accept Badlands Reagent Run##2500
 
 #step
-.talk Prospector Ironband
+.talk Prospector Ironband##1344
 >>en:Standing under a white canopy next to a small square table.
 >>de:Steht unter einem weissen Baldachin neben einem kleinen quadratischen Tisch.
 .goto Loch Modan,65.93,65.62
@@ -136,7 +136,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,51.77,33.17
 >>Follow the path
-.click Crumpled Map
+.click Crumpled Map##2868
 >>It is under a table in the tent.
 .goto Badlands,53.03,33.93
 .accept A Sign of Hope##720
@@ -145,7 +145,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,51.48,33.23
 >>Leave Hammertoe's Digsite
-.talk Prospector Ryedol
+.talk Prospector Ryedol##2910
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.42,43.40
@@ -155,7 +155,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Hammertoe's and Digsite")
 
 #step
-.talk Sigrun Ironhew
+.talk Sigrun Ironhew##2860
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.80,43.31
@@ -168,7 +168,7 @@ LLG.RegisterGuide([[
 .complete 719,1 >>Collect Ryedol's Lucky Pick
 
 #step
-.click Excavation Supply Crate
+.click Excavation Supply Crate##2867
 >>It looks like a wooden crate.
 >>It may spawn in other locations in this camp.
 >>only hardcore :: Watch for patrols and respawns while in the area.
@@ -178,7 +178,7 @@ LLG.RegisterGuide([[
 #step
 .goto Badlands,56.21,27.40
 >>Follow the path
-.talk Prospector Ryedol
+.talk Prospector Ryedol##2910
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.42,43.40
@@ -186,7 +186,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Camp and Kosh")
 
 #step
-.talk Sigrun Ironhew
+.talk Sigrun Ironhew##2860
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.80,43.31
@@ -195,19 +195,21 @@ LLG.RegisterGuide([[
 .accept Scrounging##733
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.39,52.93
 .accept Barbecued Buzzard Wings##703
 .goto Badlands,42.39,52.93
 .accept Pearl Diving##705
+.only itemcount(4611) >= 9
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.39,52.93
 .turnin Pearl Diving##705
+.only itemcount(4611) >= 9
 
 #step
-.talk Martek the Exiled
+.talk Martek the Exiled##4618
 >>en:Standing in a small camp, next to a bubbling cauldron and a campfire.
 >>de:Standing in a small camp, next to a bubbling cauldron and a campfire.
 .goto Badlands,42.22,52.69
@@ -216,7 +218,7 @@ LLG.RegisterGuide([[
 .accept Indurium##1108
 
 #step
-.click Battered Dwarven Skeleton
+.click Battered Dwarven Skeleton##2875
 >>only hardcore :: Watch for patrols and respawns while in the area.
 .goto Badlands,50.89,62.41
 .turnin Find Agmond##738
@@ -241,7 +243,7 @@ LLG.RegisterGuide([[
 >>You can find more around [64.40,43.22]
 
 #step
-.talk Martek the Exiled
+.talk Martek the Exiled##4618
 >>en:Standing in a small camp, next to a bubbling cauldron and a campfire.
 >>de:Standing in a small camp, next to a bubbling cauldron and a campfire.
 .goto Badlands,42.21,52.70
@@ -249,14 +251,14 @@ LLG.RegisterGuide([[
 
 #step
 >>Watch the dialogue
-.talk Martek the Exiled
+.talk Martek the Exiled##4618
 >>en:Standing in a small camp, next to a bubbling cauldron and a campfire.
 >>de:Standing in a small camp, next to a bubbling cauldron and a campfire.
 .goto Badlands,42.21,52.70
 .accept News for Fizzle##1137
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -269,14 +271,14 @@ LLG.RegisterGuide([[
 >>You can find more around [13.98,39.71]
 
 #step
-.kill 1 Lesser Rock Elemental
+.kill 1 Lesser Rock Elemental##2735
 >>This quest can take multiple laps. Farm coyotes and vultures while waiting on respawns.
 .goto Badlands,19.46,43.02
 .complete 710,1 >>Collect 10 Small Stone Shard
 >>You can find more around [13.98,39.71]
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -285,13 +287,13 @@ LLG.RegisterGuide([[
 .accept Study of the Elements: Rock##711
 
 #step
-.kill 1 Rock Elemental
+.kill 1 Rock Elemental##92
 .goto Badlands,15.60,32.60
 .complete 711,1 >>Collect 3 Large Stone Slab
 >>You can find more around [43.56,84.04]
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -300,7 +302,7 @@ LLG.RegisterGuide([[
 .accept Study of the Elements: Rock##712
 
 #step
-.kill 1 Greater Rock Elemental
+.kill 1 Greater Rock Elemental##2736
 >>If you have trouble, try to find someone to help you.
 >>only not selfmade :: This quest is especially worth doing if you purchased the items from the Auction House earlier.
 >>only hardcore :: These enemies can be tough, and are a bit higher level.
@@ -316,7 +318,7 @@ LLG.RegisterGuide([[
 .complete 733,1 >>Collect 7 Scrap Metal
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
@@ -325,33 +327,37 @@ LLG.RegisterGuide([[
 .accept Gyro... What?##714
 .goto Badlands,25.95,44.87
 .accept Coolant Heads Prevail##713
+.only itemcount(3829) > 0
 
 #step
-.talk Lotwil Veriatus
+.talk Lotwil Veriatus##2921
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.87
 .turnin Gyro... What?##714
 .goto Badlands,25.95,44.87
 .turnin Coolant Heads Prevail##713
+.only itemcount(4389) > 0 or itemcount(3829)
 
 #step
-.talk Lucien Tosselwrench
+.talk Lucien Tosselwrench##2920
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.67
 .accept Liquid Stone##715
 .goto Badlands,25.95,44.67
 .accept Stone Is Better than Cloth##716
+.only (itemcount(3823) > 0 and itemcount(929) > 0) or itemcount(2868) > 0
 
 #step
-.talk Lucien Tosselwrench
+.talk Lucien Tosselwrench##2920
 >>en:Standing in a small camp next to a campfire. A little mechanical robot walks around this little area also.
 >>de:Steht in einem kleinen Lager neben einem Lagerfeür.
 .goto Badlands,25.95,44.67
 .turnin Liquid Stone##715
 .goto Badlands,25.95,44.67
 .turnin Stone Is Better than Cloth##716
+.only (itemcount(3823) > 0 and itemcount(929) > 0) or itemcount(2868) > 0
 
 #step
 .kill 1 Buzzard enemies around this area
@@ -398,7 +404,7 @@ LLG.RegisterGuide([[
 >>Make sure not to accidentally sell Buzzard Wings if you sell items.
 
 #step
-.talk Rigglefuzz
+.talk Rigglefuzz##2817
 .goto Badlands,42.39,52.93
 .turnin Barbecued Buzzard Wings##703
 
@@ -408,7 +414,7 @@ LLG.RegisterGuide([[
 .vendor
 
 #step
-.talk Sigrun Ironhew
+.talk Sigrun Ironhew##2860
 >>en:Up the hill, in a small camp, next to a tent with big hole burned in the top of it.
 >>de:Den Hügel hinauf, in einem kleinen Lager, neben einem Zelt mit großem Brandloch im Dach.
 .goto Badlands,53.80,43.31
@@ -421,17 +427,17 @@ LLG.RegisterGuide([[
 >>Don't worry about the resurrection sickness, you will be traveling around a bit.
 >>By the time you need to kill enemies again, it will be gone.
 .goto Searing Gorge,67.82,51.45
->>Die on Purpose
+.condition isdead >>Die on Purpose
 .only not hardcore
 
 #step
-.talk Spirit Healer
+.talk Spirit Healer##6491
 >>Select _"Return me to life."_
 .goto Searing Gorge,35.50,22.79
 .only not hardcore
 
 #step
-.talk Lanie Reed
+.talk Lanie Reed##2941
 >>en:Next to a big eagle.
 >>de:Neben einem großen Adler.
 .goto Searing Gorge,37.94,30.86
@@ -443,14 +449,14 @@ LLG.RegisterGuide([[
 >>Leave the building
 .goto Loch Modan,36.63,48.52
 >>Enter the building
-.talk Ghak Healtouch
+.talk Ghak Healtouch##1470
 >>Inside the building.
 .goto Loch Modan,37.07,49.38
 .turnin Badlands Reagent Run##2500
 .only subzone("Stoutlager and Inn")
 
 #step
-.talk Prospector Ironband
+.talk Prospector Ironband##1344
 >>en:Standing under a white canopy next to a small square table.
 >>de:Steht unter einem weissen Baldachin neben einem kleinen quadratischen Tisch.
 .goto Loch Modan,65.93,65.62

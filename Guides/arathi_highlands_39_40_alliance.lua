@@ -24,7 +24,7 @@ LLG.RegisterGuide([[
 .only level < 60
 
 #step
-.kill 1 Forsaken Courier
+.kill 1 Forsaken Courier##2714
 >>She walks one-way on the road from Go'Shek Farms in Arathi Highlands to Tarren Mill in Hillsbrad Foothills.
 >>She walks with a group of 4 bodyguards with her.
 >>Kite her away from her bodyguards, so you can fight her alone.
@@ -35,14 +35,14 @@ LLG.RegisterGuide([[
 .complete 658,1 >>Collect Sealed Folder
 
 #step
-.talk Apprentice Kryten
+.talk Apprentice Kryten##2788
 >>en:Standing in front of a white tent, next to a bonfire.
 >>de:Steht vor einem weissen Zelt, neben einem Lagerfeür.
 .goto Arathi Highlands,46.20,47.75
 .accept Worth Its Weight in Gold##691
 
 #step
-.click Shards of Myzrael
+.click Shards of Myzrael##138492
 .goto Arathi Highlands,62.50,33.80
 .accept The Princess Trapped##642
 
@@ -81,13 +81,13 @@ LLG.RegisterGuide([[
 >>Leave the cave
 .goto Arathi Highlands,73.48,41.26
 >>Avoid Hammerfall
-.click Stone of East Binding
+.click Stone of East Binding##2691
 .goto Arathi Highlands,66.75,29.75
 .complete 651,2 >>Collect Cresting Key
 .only walking and (subzone("Drywhisker and Gorge") or subzone("Hammerfall"))
 
 #step
-.talk Quae
+.talk Quae##2712
 >>en:Standing on the edge of the cliff, overlooking the Go'Shek Farm.
 >>de:Steht am Rand der Klippe mit Blick auf den Go'Shek-Hof.
 .goto Arathi Highlands,60.19,53.85
@@ -105,7 +105,7 @@ LLG.RegisterGuide([[
 .only hardcore
 
 #step
-.talk Kinelory
+.talk Kinelory##2713
 >>en:Standing on the edge of the cliff, overlooking the Go'Shek Farm.
 >>de:Steht am Rand der Klippe mit Blick auf den Go'Shek-Hof.
 >>This is an escort quest.
@@ -125,7 +125,7 @@ LLG.RegisterGuide([[
 .complete 660,1 >>Protect Kinelory
 
 #step
-.talk Quae
+.talk Quae##2712
 >>en:Standing on the edge of the cliff, overlooking the Go'Shek Farm.
 >>de:Steht am Rand der Klippe mit Blick auf den Go'Shek-Hof.
 .goto Arathi Highlands,60.19,53.85
@@ -136,7 +136,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,68.32,75.18
 >>Enter the cave
-.kill 1 Witherbark Shadow Hunter
+.kill 1 Witherbark Shadow Hunter##2557
 >>Inside the cave.
 >>These tend to have a low drop rate.
 >>only hardcore :: Watch for patrols and respawns while in the cave.
@@ -150,7 +150,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,68.32,75.18
 >>Leave the cave
-.kill 1 Witherbark Witch Doctor
+.kill 1 Witherbark Witch Doctor##2555
 >>Inside and outside the cave.
 >>only hardcore :: Be mindful of your surroundings as it's easy to be overwhelmed.
 >>only hardcore :: Witherbark Witch Doctors, Axe Throwers and Headhunters are all ranged enemies to look out for.
@@ -179,19 +179,19 @@ LLG.RegisterGuide([[
 >>[70.82,60.27]
 
 #step
-.click Stone of Outer Binding
+.click Stone of Outer Binding##2690
 .goto Arathi Highlands,52.04,50.77
 .complete 651,3 >>Collect Thundering Key
 
 #step
-.talk Apprentice Kryten
+.talk Apprentice Kryten##2788
 >>en:Standing in front of a white tent, next to a bonfire.
 >>de:Steht vor einem weissen Zelt, neben einem Lagerfeür.
 .goto Arathi Highlands,46.20,47.75
 .turnin Worth Its Weight in Gold##691
 
 #step
-.talk Skuerto
+.talk Skuerto##2789
 >>en:Standing next to a forge and an anvil.
 >>de:Steht neben einer Schmiede und einem Amboss.
 .goto Arathi Highlands,46.65,47.01
@@ -204,7 +204,7 @@ LLG.RegisterGuide([[
 >>Enter the cave
 .goto Arathi Highlands,54.63,79.26
 >>Follow the path
-.kill 1 Kor'gresh Coldrage
+.kill 1 Kor'gresh Coldrage##2793
 >>Inside the cave.
 .goto Arathi Highlands,54.75,81.87
 .complete 693,1 >>Collect Trelane's Wand of Invocation
@@ -223,7 +223,7 @@ LLG.RegisterGuide([[
 #step
 .goto Arathi Highlands,53.68,77.23
 >>Leave the cave
-.talk Skuerto
+.talk Skuerto##2789
 >>en:Standing next to a forge and an anvil.
 >>de:Steht neben einer Schmiede und einem Amboss.
 .goto Arathi Highlands,46.65,47.01
@@ -231,7 +231,7 @@ LLG.RegisterGuide([[
 .only subzone("Boulderfist and Hall")
 
 #step
-.talk Vikki Lonsav
+.talk Vikki Lonsav##2808
 >>Buy enough ammo to fill your ammo bag, plus 4-6 extra stacks.
 >>You will be questing for a while without access to an ammo vendor.
 .goto Arathi Highlands,46.45,47.60
@@ -247,7 +247,7 @@ LLG.RegisterGuide([[
 .only walking and subzone("Refuge and Pointe")
 
 #step
-.click Stone of Inner Binding
+.click Stone of Inner Binding##2702
 .goto Arathi Highlands,36.19,57.37
 .turnin Stones of Binding##651
 
@@ -258,7 +258,7 @@ LLG.RegisterGuide([[
 >>Enter the tunnel
 .goto Arathi Highlands,22.00,79.55
 >>Leave the tunnel
-.talk Lolo the Lookout
+.talk Lolo the Lookout##2766
 >>en:Standing near a pirate ship, next to a white canopy.
 >>de:Steht nahe einem Piratenschiff, neben einem weissen Baldachin.
 >>He walks around this area.
@@ -267,14 +267,14 @@ LLG.RegisterGuide([[
 .only walking and not subzone("Faldir's and Cove")
 
 #step
-.talk Shakes O'Breen
+.talk Shakes O'Breen##2610
 >>en:Standing on the dock, next to the pirate ship.
 >>de:Steht auf dem Steg, neben dem Piratenschiff.
 .goto Arathi Highlands,32.28,81.38
 .turnin Land Ho!##663
 
 #step
-.talk First Mate Nilzlix
+.talk First Mate Nilzlix##2767
 >>en:Standing on the dock near the pirate ship.
 >>de:Steht auf dem Steg nahe dem Piratenschiff.
 >>He walks around this area.
@@ -282,14 +282,14 @@ LLG.RegisterGuide([[
 .accept Deep Sea Salvage##662
 
 #step
-.talk Captain Steelgut
+.talk Captain Steelgut##2769
 >>en:Next to a big bonfire.
 >>de:Neben einem großen Lagerfeür.
 .goto Arathi Highlands,34.00,80.79
 .accept Drowned Sorrows##664
 
 #step
-.talk Professor Phizzlethorpe
+.talk Professor Phizzlethorpe##2768
 >>en:Standing around a big bonfire.
 >>de:Steht an einem großen Lagerfeür.
 >>This is an escort quest.
@@ -310,7 +310,7 @@ LLG.RegisterGuide([[
 .complete 665,1 >>Defend Professor Phizzlethorpe
 
 #step
-.talk Doctor Draxlegauge
+.talk Doctor Draxlegauge##2774
 >>en:Next to a big bonfire.
 >>de:Neben einem großen Lagerfeür.
 .goto Arathi Highlands,33.86,80.45
@@ -324,42 +324,42 @@ LLG.RegisterGuide([[
 .complete 666 >>Click Here After Equipping The Goggles
 
 #step
-.click an Elixir of Water Breathing
+.click an Elixir of Water Breathing##5996
 >>You should have these from purchasing them earlier in the guide from the auction house in Stormwind City.
 .goto Arathi Highlands,28.42,84.79
 >>Gain Water Breathing
-.only not selfmade
+.only itemcount(5996) > 0 and not selfmade
 
 #step
-.click Maiden's Folly Log
+.click Maiden's Folly Log##2709
 >>It looks like a large brown book in a grey metal cauldron.
 >>On the middle floor of the sunken ship.
 .goto Arathi Highlands,23.41,85.10
 .complete 662,2 >>Collect Maiden's Folly Log
 
 #step
-.click Maiden's Folly Charts
+.click Maiden's Folly Charts##2707
 >>It looks like a tan scroll laying flat on a wooden ledge.
 >>On the middle floor of the sunken ship.
 .goto Arathi Highlands,23.04,84.51
 .complete 662,1 >>Collect Maiden's Folly Charts
 
 #step
-.click Spirit of Silverpine Charts
+.click Spirit of Silverpine Charts##2708
 >>It looks like a tan scroll laying flat on a wooden crate next to a cannon.
 >>On the middle floor of the sunken ship.
 .goto Arathi Highlands,20.45,85.60
 .complete 662,3 >>Collect Spirit of Silverpine Charts
 
 #step
-.click Spirit of Silverpine Log
+.click Spirit of Silverpine Log##2710
 >>It looks like an open book laying on the ground.
 >>At the very bottom of the ship.
 .goto Arathi Highlands,20.65,85.10
 .complete 662,4 >>Collect Spirit of Silverpine Log
 
 #step
-.click Calcified Elven Gem
+.click Calcified Elven Gem##2712
 >>They look like large gray stones on the ground underwater around this area.
 >>If you are wearing the Goggles of Gem Hunting, they will appear on your minimap as yellow dots.
 .goto Arathi Highlands,25.03,85.70
@@ -380,7 +380,7 @@ LLG.RegisterGuide([[
 >>Underwater around this area.
 
 #step
-.talk First Mate Nilzlix
+.talk First Mate Nilzlix##2767
 >>en:Standing on the dock near the pirate ship.
 >>de:Steht auf dem Steg nahe dem Piratenschiff.
 >>He walks around this area.
@@ -388,14 +388,14 @@ LLG.RegisterGuide([[
 .turnin Deep Sea Salvage##662
 
 #step
-.talk Captain Steelgut
+.talk Captain Steelgut##2769
 >>en:Next to a big bonfire.
 >>de:Neben einem großen Lagerfeür.
 .goto Arathi Highlands,34.00,80.79
 .turnin Drowned Sorrows##664
 
 #step
-.talk Doctor Draxlegauge
+.talk Doctor Draxlegauge##2774
 >>en:Next to a big bonfire.
 >>de:Neben einem großen Lagerfeür.
 .goto Arathi Highlands,33.85,80.45
@@ -409,7 +409,7 @@ LLG.RegisterGuide([[
 .complete 668 >>Click Here After Equipping Your Regular Head Armor
 
 #step
-.talk Shakes O'Breen
+.talk Shakes O'Breen##2610
 >>en:Standing on the dock, next to the pirate ship.
 >>de:Steht auf dem Steg, neben dem Piratenschiff.
 .goto Arathi Highlands,32.29,81.38
@@ -418,7 +418,7 @@ LLG.RegisterGuide([[
 .accept Sunken Treasure##669
 
 #step
-.talk Phin Odelic
+.talk Phin Odelic##2711
 >>en:To the right of the entrance to the inn, next to a cart.
 >>de:Rechts vom Eingang zum Gasthaus, neben einem Karren.
 .goto Hillsbrad Foothills,50.34,59.04
@@ -434,7 +434,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,43.02,34.40
 >>Enter the building
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -443,7 +443,7 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Duthorian Rall
+.talk Duthorian Rall##6171
 >>en:Standing inside the cathedral, next to a big stone pillar.
 >>de:Steht in der Kathedrale, neben einer großen Steinsäule.
 >>Inside the building.
@@ -452,16 +452,16 @@ LLG.RegisterGuide([[
 .only Paladin
 
 #step
-.talk Jennea Cannon
-.talk Einris Brightspear
-.talk Ursula Deline
-.talk Wu Shen
+.talk Jennea Cannon##5497
+.talk Einris Brightspear##5515
+.talk Ursula Deline##5495
+.talk Wu Shen##5479
 >>en:Upstairs in the Command Center, standing on a green rug. He is the Warrior Class Trainer.
 >>de:Oben im Kommandozentrum, steht auf einem grünen Teppich. Er ist der Kriegerklassentrainer.
-.talk Osborne the Night Man
-.talk Sheldras Moontree
-.talk Brother Benjamin
-.talk Arthur the Faithful
+.talk Osborne the Night Man##918
+.talk Sheldras Moontree##5504
+.talk Brother Benjamin##5484
+.talk Arthur the Faithful##5491
 .goto Stormwind City,38.62,79.35
 .train
 .goto Stormwind City,61.66,15.30
@@ -489,7 +489,7 @@ LLG.RegisterGuide([[
 #step
 .goto Stormwind City,29.14,74.17
 >>Enter the building
-.talk Spackle Thornberry
+.talk Spackle Thornberry##5520
 >>Downstairs inside the building.
 >>If you can afford them.
 >>Buy all of the Grimoires for spells that are upgrades for the spells you use with your pet.
@@ -499,7 +499,7 @@ LLG.RegisterGuide([[
 .only Warlock
 
 #step
-.talk Librarian Mae Paledust
+.talk Librarian Mae Paledust##3979
 .goto Ironforge,74.97,12.46
 .turnin Mythology of the Titans##1050
 ]])

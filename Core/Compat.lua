@@ -22,7 +22,10 @@ LLG = {}
 
 LLG.name    = "Legacy Leveling Guide"
 LLG.shortName = "LLG"
-LLG.version = "0.9.0"
+-- Muss mit "## Version:" in der LLG.toc uebereinstimmen. Der Client gibt die
+-- TOC-Angabe in 1.12 nicht heraus (GetAddOnMetadata kam erst spaeter), also
+-- steht sie hier ein zweites Mal - und der Test haelt beide zusammen.
+LLG.version = "0.11.0"
 LLG.media   = "Interface\\AddOns\\LLG\\Media\\"
 
 local floor  = math.floor

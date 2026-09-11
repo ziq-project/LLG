@@ -22,20 +22,21 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,72.94,27.48
 >>Enter the building
-.talk Makaru
+.talk Makaru##3357
 >>Inside the building.
 .goto Orgrimmar,73.12,26.08
 .train
+.condition skillmax("Mining") >= 75 >>Train Apprentice Miner
 
 #step
-.talk Gorina
+.talk Gorina##3358
 >>Inside the building.
 .goto Orgrimmar,73.31,26.60
-.kill 1 Mining Pick
+.kill 1 Mining Pick##2901
 >>You must have a Mining Pick in your bags to be able to gather ore.
 
 #step
->>Reach Skill 65 in Mining
+.condition skill("Mining") >= 65 >>Reach Skill 65 in Mining
 >>Click ore as you follow the path around this area.
 >>Track them on your minimap with "Find Minerals".
 >>You can smelt Copper Ore from skill level 1-47 for additional points.
@@ -48,13 +49,14 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,72.94,27.48
 >>Enter the building
-.talk Makaru
+.talk Makaru##3357
 >>Inside the building.
 .goto Orgrimmar,73.12,26.08
 .train
+.condition skillmax("Mining") >= 150 >>Train Journeyman Miner
 
 #step
->>Reach Skill 125 in Mining
+.condition skill("Mining") >= 125 >>Reach Skill 125 in Mining
 >>Click ore as you follow the path around this area.
 >>Track them on your minimap with "Find Minerals".
 >>You can smelt Bronze Bars with leftover Tin and Copper Bars from skill level 65-90 for additional points.
@@ -74,20 +76,21 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,72.94,27.48
 >>Enter the building
-.talk Makaru
+.talk Makaru##3357
 >>Inside the building.
 .goto Orgrimmar,73.12,26.08
 .train
+.condition skillmax("Mining") >= 225 >>Train Expert Miner
 
 #step
->>Reach Skill 175 in Mining
+.condition skill("Mining") >= 175 >>Reach Skill 175 in Mining
 >>Click ore as you follow the path around this area.
 >>Track them on your minimap with "Find Minerals".
 >>You can smelt Iron Ore from skill level 125-135 for additional points.
 >>You can smelt Gold Ore from skill level 155-184 for additional points.
 
 #step
->>Reach Skill 200 in Mining
+.condition skill("Mining") >= 200 >>Reach Skill 200 in Mining
 >>Click ore as you follow the path around this area.
 >>Track them on your minimap with "Find Minerals".
 >>You can smelt Gold Ore from skill level 155-184 for additional points.
@@ -100,18 +103,19 @@ LLG.RegisterGuide([[
 #step
 .goto Orgrimmar,72.94,27.48
 >>Enter the building
-.talk Makaru
+.talk Makaru##3357
 >>Inside the building.
 .goto Orgrimmar,73.12,26.08
 .train
+.condition skillmax("Mining") >= 300 >>Train Artisan Miner
 
 #step
->>Reach Skill 250 in Mining
+.condition skill("Mining") >= 250 >>Reach Skill 250 in Mining
 >>Click ore as you follow the path around this area.
 >>Track them on your minimap with "Find Minerals".
 
 #step
->>Reach Skill 300 in Mining
+.condition skill("Mining") >= 300 >>Reach Skill 300 in Mining
 >>Click ore as you follow the path around this area.
 >>Track them on your minimap with "Find Minerals".
 ]])
